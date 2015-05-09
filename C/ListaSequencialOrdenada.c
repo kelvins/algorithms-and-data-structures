@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#define MAX 50
+#define MAX 10
 #define ERRO -1
 
-typedef int TIPOCHAVE;
+typedef int TIPOCHAVE; // Define um nome TIPOCHAVE para um tipo inteiro (isso confunde um pouco, melhor seria deixar int)
 
 typedef struct{
 	TIPOCHAVE chave;
@@ -16,6 +16,11 @@ typedef struct{
 
 void inicializar(LISTA* L){
 	L->nroElementos = 0; // Acessa a lista pelo endereço de memória
+	int i = 0;
+	for (i; i < MAX-2; ++i){ // Preenche o vetor
+		L->A[i].chave = i*2;
+	}
+	L->nroElementos = MAX-2;
 	// (*L).nroElementos = 0; // Neste caso iria acessar a lista em si, e não o ponteiro
 }
 
@@ -26,12 +31,12 @@ void inicializar(LISTA* L){
  */ 
 int buscaSentinela(TIPOCHAVE ch, LISTA* L){ // Poderia usar aqui busca binária, o que seria mais apropriado.
 	int i = 0;
-	L->A[L->nroElementos].chave = ch;
-	while(L->A[i].chave != ch) 
+	L->A[L->nroElementos].chave = ch; // Atribui a 'chave'/valor buscado a ultima posição do array A
+	while(L->A[i].chave != ch) // Percorre todo o array A buscando se a 'chave'/valor pesquisado se encontra no array (senão será o sentinela)
 		i++;
-	if(i == L->nroElementos)
+	if(i == L->nroElementos) // Se o valor chegou até o final, significa que não encontrou o valor, retorna ERRO (-1)
 		return ERRO;
-	return i;
+	return i; // Caso contrário retorna a posição do valor/'chave' no array
 }
 
 bool inserirOrdenado(REGISTRO reg, LISTA* L){
@@ -51,7 +56,45 @@ bool inserirOrdenado(REGISTRO reg, LISTA* L){
 	return true;
 }
 
+bool deletaValor(REGISTRO reg, LISTA* L){
+	int posicao = buscaSentinela(reg.chave, L);
+	if( posicao >= 0 ){
+		for( posicao; posicao < L->nroElementos; posicao++ ){
+			L->A[posicao] = L->A[posicao+1];
+		}
+		L->nroElementos--;
+		return true;
+	}else{
+		return false;
+	}
+}
+
+void mostraLista(LISTA* L){
+	int i = 0;
+	for (i; i < L->nroElementos; ++i){ // Percorre e mostra todos os valores do array
+		printf("%d, ", L->A[i].chave);
+	}
+	printf("\n\n");
+}
+
 int main(){
-	printf("ok");
+	
+	LISTA LISTA;
+	inicializar(&LISTA);
+
+	printf("Valor 10 encontrado na posição: %d\n\n", buscaSentinela(10, &LISTA) );
+	mostraLista(&LISTA);
+
+	REGISTRO reg;
+	reg.chave = 7;
+	printf("Insere o valor: 7\n");
+	inserirOrdenado(reg, &LISTA);
+	mostraLista(&LISTA);
+
+	reg.chave = 12;
+	printf("Deleta o valor: 12\n");
+	deletaValor(reg, &LISTA);
+	mostraLista(&LISTA);
+	
 	return 0;
 }
