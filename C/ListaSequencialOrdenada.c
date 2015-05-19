@@ -1,23 +1,28 @@
+/*
+*	Exemplo de implementação de Lista Sequencial Ordenada em C - Utilizando sentinela
+*	Kelvin S. do Prado - 2015
+*/
+
 #include <stdio.h>
 
 #define MAX 10
 #define ERRO -1
 
-typedef int TIPOCHAVE; // Define um nome TIPOCHAVE para um tipo inteiro (isso confunde um pouco, melhor seria deixar int)
+typedef int TIPOCHAVE; // Define um nome TIPOCHAVE para um tipo inteiro
 
 typedef struct{
 	TIPOCHAVE chave;
 }REGISTRO;
 
 typedef struct{
-	REGISTRO A[MAX+1]; // O +1 é a posição que será utilizado para o 'sentinela'
+	REGISTRO A[MAX+1]; // O +1 é a posição que será utilizada para a 'sentinela'
 	int nroElementos;
 }LISTA;
 
 void inicializar(LISTA* L){
 	L->nroElementos = 0; // Acessa a lista pelo endereço de memória
 	int i = 0;
-	for (i; i < MAX-2; ++i){ // Preenche o vetor
+	for (i; i < MAX-2; ++i){ // Preenche a lista até -2 para deixar espaço para inserir mais depois
 		L->A[i].chave = i*2;
 	}
 	L->nroElementos = MAX-2;
@@ -87,12 +92,12 @@ int main(){
 
 	REGISTRO reg;
 	reg.chave = 7;
-	printf("Insere o valor: 7\n");
+	printf("Insere o valor: %d\n", reg.chave);
 	inserirOrdenado(reg, &LISTA);
 	mostraLista(&LISTA);
 
 	reg.chave = 12;
-	printf("Deleta o valor: 12\n");
+	printf("Deleta o valor: %d\n", reg.chave);
 	deletaValor(reg, &LISTA);
 	mostraLista(&LISTA);
 	
