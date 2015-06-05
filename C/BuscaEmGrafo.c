@@ -85,7 +85,7 @@ int buscaEmProfundidade(VERTICE inicio, VERTICE destino, int visitados){
 /*
 *	Busca em Largura - BFS - Breadth First Search
 *	Implementada com o conceito de fila, porém utilizando um array simples
-*	Assim ela não o 'vértice' do array, apenas pula uma posição para a frente
+*	Assim ela não excluí o 'vértice' do array, apenas pula uma posição para a frente
 *	Percorre todos os vértices por nível
 */
 int buscaEmLargura(VERTICE inicio, VERTICE destino){
