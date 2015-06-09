@@ -6,7 +6,7 @@
 */
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <malloc.h>
 
 typedef int TIPOCHAVE; // Tipo de ID de cada nó da lista
 
