@@ -40,10 +40,10 @@ int valorMelhorSolucao = INFINITO;
 int valorSolucaoAtual = 0;
 
 int matriz[VERTICES][VERTICES]  = {{         0,          2,   INFINITO, 3,          6 },
-                                   {          2,          0,          4, 3,   INFINITO },
-                                   {   INFINITO,          4,          0, 7,          3 },
-                                   {          3,          3,          7, 0,          3 },
-                                   {          6,   INFINITO,          3, 3,          0 }};
+								  {          2,          0,          4, 3,   INFINITO },
+								  {   INFINITO,          4,          0, 7,          3 },
+								  {          3,          3,          7, 0,          3 },
+								  {          6,   INFINITO,          3, 3,          0 }};
 
 void caixeiroViajanteAux(int x){
 	// Se o valor da solução atual já estiver maior que o valor da melhor solução já para, pois já não pode mais ser a melhor solução
