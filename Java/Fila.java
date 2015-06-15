@@ -8,11 +8,11 @@ public class Fila {
 	public static void main(String [] args){
 		NoPilha Fila = new NoPilha(6);
 		
-		Fila = insereFila(Fila, 8);
-		Fila = insereFila(Fila, 0);
-		Fila = insereFila(Fila, 1);
-		Fila = insereFila(Fila, 5);
-		Fila = insereFila(Fila, 7);
+		insereFila(Fila, 8);
+		insereFila(Fila, 0);
+		insereFila(Fila, 1);
+		insereFila(Fila, 5);
+		insereFila(Fila, 7);
 		
 		mostraFila(Fila);
 
@@ -26,10 +26,12 @@ public class Fila {
 		mostraFila(Fila);
 	}
 	
-	public static NoPilha insereFila(NoPilha fila, int chave){
+	public static void insereFila(NoPilha fila, int chave){
+		while(fila.getProx() != null){
+			fila = fila.getProx();
+		}
 		NoPilha novo = new NoPilha(chave);
-		novo.setProx(fila);
-		return novo;
+		fila.setProx(novo);
 	}
 	
 	public static void mostraFila(NoPilha fila){
@@ -41,11 +43,7 @@ public class Fila {
 	}
 	
 	public static void removeFila(NoPilha fila){
-		NoPilha anterior = fila;
-		while(fila.getProx() != null){
-			anterior = fila;
-			fila = fila.getProx();
-		}
-		anterior.setProx(null);
+		fila.setChave(fila.getProx().getChave());
+		fila.setProx(fila.getProx().getProx());
 	}
 }
