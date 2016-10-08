@@ -60,3 +60,10 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Algoritmo de Ordenação SelectionSort
 * Algoritmo de Ordenação ShellSort
 * Torre de Hanói
+
+### GoLang:
+
+* Fibonacci
+* Fatorial
+* Hanói
+* Exponenciação
