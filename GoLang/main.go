@@ -8,6 +8,7 @@ import (
     "../GoLang/fatorial"
     "../GoLang/hanoi"
     "../GoLang/bubblesort"
+    "../GoLang/selectionsort"
 )
 
 func main() {
@@ -19,4 +20,5 @@ func main() {
     slice := []int{5, 2, 1, 6, 9, 8, 7, 3, 4}
     fmt.Println("Slice : ", slice)
     fmt.Println("BubbleSort : ", bubblesort.BubbleSort(slice))
+    fmt.Println("SelectionSort : ", selectionsort.SelectionSort(slice))
 }
