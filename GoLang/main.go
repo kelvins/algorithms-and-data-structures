@@ -9,6 +9,7 @@ import (
     "../GoLang/hanoi"
     "../GoLang/bubblesort"
     "../GoLang/selectionsort"
+    "../GoLang/insertionsort"
 )
 
 func main() {
@@ -21,4 +22,5 @@ func main() {
     fmt.Println("Slice : ", slice)
     fmt.Println("BubbleSort : ", bubblesort.BubbleSort(slice))
     fmt.Println("SelectionSort : ", selectionsort.SelectionSort(slice))
+    fmt.Println("InsertionSort : ", insertionsort.InsertionSort(slice))
 }
