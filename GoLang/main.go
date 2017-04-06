@@ -11,6 +11,7 @@ import (
     "../GoLang/selectionsort"
     "../GoLang/insertionsort"
     "../GoLang/mergesort"
+    "../GoLang/shellsort"
 )
 
 func main() {
@@ -25,4 +26,5 @@ func main() {
     fmt.Println("SelectionSort : ", selectionsort.SelectionSort(slice))
     fmt.Println("InsertionSort : ", insertionsort.InsertionSort(slice))
     fmt.Println("MergeSort : ", mergesort.MergeSort(slice))
+    fmt.Println("ShellSort : ", shellsort.ShellSort(slice))
 }
