@@ -1,5 +1,5 @@
 
-package bubbleSort
+package bubblesort
 
 func BubbleSort(vetor []int) ([]int) {
     for indice1 := len(vetor)-1; indice1 > 0; indice1-- {

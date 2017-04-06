@@ -3,16 +3,20 @@ package main
 
 import (
     "fmt"
-    "github.com/kelvins/golangalgorithms/fibonacci"
-    "github.com/kelvins/golangalgorithms/exponenciacao"
-    "github.com/kelvins/golangalgorithms/fatorial"
-    "github.com/kelvins/golangalgorithms/hanoi"
+    "../GoLang/fibonacci"
+    "../GoLang/exponenciacao"
+    "../GoLang/fatorial"
+    "../GoLang/hanoi"
+    "../GoLang/bubblesort"
 )
 
 func main() {
-    fmt.Println( "Fibonacci : ", fibonacci.Fibonacci(9) )
-    fmt.Println( "Exponenciacao : ", exponenciacao.Exponenciacao(5, 5) )
-    fmt.Println( "Fatorial : ", fatorial.Fatorial(6) )
-    fmt.Println( "Hanoi : " )
+    fmt.Println("Fibonacci : ", fibonacci.Fibonacci(9))
+    fmt.Println("Exponenciacao : ", exponenciacao.Exponenciacao(5, 5))
+    fmt.Println("Fatorial : ", fatorial.Fatorial(6))
+    fmt.Println("Hanoi : ")
     hanoi.Hanoi(0, 2, 1, 3)
+    slice := []int{5, 2, 1, 6, 9, 8, 7, 3, 4}
+    fmt.Println("Slice : ", slice)
+    fmt.Println("BubbleSort : ", bubblesort.BubbleSort(slice))
 }
