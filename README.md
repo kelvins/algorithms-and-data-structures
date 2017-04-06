@@ -69,3 +69,7 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Exponenciação
 * Máximo e Mínimo (recursivo e divisão e conquista)
 * Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Merge Sort
+* Shell Sort
