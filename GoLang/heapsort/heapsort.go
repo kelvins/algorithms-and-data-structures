@@ -1,7 +1,7 @@
 
 package heapsort
 
-func HeapSort(slice []int) []int {
+func HeapSort1(slice []int) []int {
 
   length := len(slice)
   index := length / 2
@@ -44,5 +44,47 @@ func HeapSort(slice []int) []int {
 
     slice[father] = temp
   }
+  return slice
+}
+
+func HeapSort2(slice []int) []int {
+
+  for index := len(slice) / 2 - 1; index >= 0; index-- {
+    slice = clearTree(slice, len(slice), index)
+  }
+
+  for index := len(slice) - 1; index >= 0; index-- {
+    temp := slice[index]
+    slice[index] = slice[0]
+    slice[0] = temp
+
+    slice = clearTree(slice, index, 0)
+  }
+
+  return slice
+}
+
+func clearTree(slice []int, length int, position int) []int {
+
+  largest := position
+  left := 2 * position + 1
+  right := left + 1
+
+  if left < length && slice[left] > slice[largest] {
+    largest = left
+  }
+
+  if right < length && slice[right] > slice[largest] {
+    largest = right
+  }
+
+  if largest != position {
+    temp := slice[position]
+    slice[position] = slice[largest]
+    slice[largest] = temp
+
+    slice = clearTree(slice, length, largest)
+  }
+
   return slice
 }
