@@ -44,5 +44,9 @@ func main() {
 
     slice = []int{6, 8, 7, 9, 1, 5, 4, 2, 3}
     fmt.Println("Slice : ", slice)
-    fmt.Println("HeapSort : ", heapsort.HeapSort1(slice))
+    fmt.Println("HeapSort1 : ", heapsort.HeapSort1(slice))
+
+    slice = []int{6, 8, 7, 9, 1, 5, 4, 2, 3}
+    fmt.Println("Slice : ", slice)
+    fmt.Println("HeapSort2 : ", heapsort.HeapSort2(slice))
 }
