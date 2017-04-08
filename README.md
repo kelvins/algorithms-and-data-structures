@@ -74,3 +74,4 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Merge Sort
 * Shell Sort
 * Heapsort
+* Radix Sort

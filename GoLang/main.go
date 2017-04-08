@@ -11,6 +11,7 @@ import (
 	"../GoLang/mergesort"
 	"../GoLang/selectionsort"
 	"../GoLang/shellsort"
+	"../GoLang/radixsort"
 	"fmt"
 )
 
@@ -55,4 +56,9 @@ func main() {
 	fmt.Println("Slice : ", slice)
   heapsort.HeapSort2(slice)
 	fmt.Println("HeapSort2 : ", slice, "\n")
+
+	slice = []int{3, 1, 5, 4, 2, 9, 6, 8, 7}
+	fmt.Println("Slice : ", slice)
+  radixsort.RadixSort(slice)
+	fmt.Println("RadixSort : ", slice, "\n")
 }
