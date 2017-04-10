@@ -13,6 +13,7 @@ import (
 	"../GoLang/shellsort"
 	"../GoLang/radixsort"
 	"../GoLang/quicksort"
+	"../GoLang/combsort"
 	"fmt"
 )
 
@@ -67,4 +68,9 @@ func main() {
 	fmt.Println("Slice : ", slice)
   quicksort.QuickSort(slice)
 	fmt.Println("QuickSort : ", slice, "\n")
+
+	slice = []int{6, 5, 8, 7, 3, 4, 2, 1, 9}
+	fmt.Println("Slice : ", slice)
+  combsort.CombSort(slice)
+	fmt.Println("CombSort : ", slice, "\n")
 }
