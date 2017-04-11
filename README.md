@@ -77,3 +77,4 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Radix Sort
 * Quicksort
 * Comb Sort
+* Cocktail Sort
