@@ -14,6 +14,7 @@ import (
 	"../GoLang/radixsort"
 	"../GoLang/quicksort"
 	"../GoLang/combsort"
+	"../GoLang/cocktailsort"
 	"fmt"
 )
 
@@ -73,4 +74,9 @@ func main() {
 	fmt.Println("Slice : ", slice)
   combsort.CombSort(slice)
 	fmt.Println("CombSort : ", slice, "\n")
+
+	slice = []int{1, 5, 8, 3, 7, 4, 9, 6, 2}
+	fmt.Println("Slice : ", slice)
+  cocktailsort.CocktailSort(slice)
+	fmt.Println("CocktailSort : ", slice, "\n")
 }
