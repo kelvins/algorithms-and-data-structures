@@ -1,6 +1,6 @@
 # Algoritmos e Estruturas de Dados
 
-Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplina de "Algoritmos e Estruturas de Dados".
+Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disciplina de "Algoritmos e Estruturas de Dados".
 
 ### C:
 
@@ -22,14 +22,15 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Máximo Recursivo
 * Pilha
 * Pilha Ligada Dinâmica
-* Algoritmo de Ordenação MergeSort
+* Merge Sort
 
 ### Java:
 
 * Árvore de Busca Binária
-* Algoritmo de Ordenação BubbleSort
-* Algoritmo de Ordenação InsertionSort
-* Algoritmo de Ordenação SelectionSort
+* Métodos de Ordenação:
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
 * Máximo e Mínimo
 * Pilha
 * Torre de Hanói
@@ -39,7 +40,6 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 ### Python:
 
 * Árvore Binária de Busca
-* Algoritmo de Ordenação BubbleSort
 * Busca Binária
 * Busca Sequencial
 * Busca Sequencial Recursiva
@@ -49,17 +49,19 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Fatorial Recursiva
 * Sequência de Fibonacci
 * Fila
-* Algoritmo de Ordenação InsertionSort
-* Algoritmo de Ordenação InsertionSort Recursivo
+* Torre de Hanói
+* Métodos de Ordenação:
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Insertion Sort Recursivo
+  * Shell Sort  
 * Lista Sequencial Ordenada
 * Máximo e Mínimo Recursivo
 * Máximo e Mínimo Utilizando Divisão e Conquista
 * Máximo e Mínimo Iterativo
 * Passeio do Cavalo
 * Pilha
-* Algoritmo de Ordenação SelectionSort
-* Algoritmo de Ordenação ShellSort
-* Torre de Hanói
 
 ### GoLang:
 
@@ -68,13 +70,14 @@ Algoritmos em C, Python e Java desenvolvidos durante os estudos para a disciplin
 * Hanói
 * Exponenciação
 * Máximo e Mínimo (recursivo e divisão e conquista)
-* Bubble Sort
-* Selection Sort
-* Insertion Sort
-* Merge Sort
-* Shell Sort
-* Heapsort
-* Radix Sort
-* Quicksort
-* Comb Sort
-* Cocktail Sort
+* Métodos de Ordenação:
+  * Bubble Sort
+  * Selection Sort
+  * Insertion Sort
+  * Merge Sort
+  * Shell Sort
+  * Heapsort
+  * Radix Sort
+  * Quicksort
+  * Comb Sort
+  * Cocktail Sort
