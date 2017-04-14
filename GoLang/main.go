@@ -16,6 +16,7 @@ import (
 	"../GoLang/combsort"
 	"../GoLang/cocktailsort"
 	"../GoLang/countingsort"
+	"../GoLang/gnomesort"
 	"fmt"
 )
 
@@ -85,4 +86,9 @@ func main() {
 	fmt.Println("Slice : ", slice)
   countingsort.CountingSort(slice)
 	fmt.Println("CountingSort : ", slice, "\n")
+
+	slice = []int{2, 5, 1, 7, 4, 9, 8, 6, 3}
+	fmt.Println("Slice : ", slice)
+  gnomesort.GnomeSort(slice)
+	fmt.Println("GnomeSort : ", slice, "\n")
 }
