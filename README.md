@@ -82,3 +82,4 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
   * Comb Sort
   * Cocktail Sort
   * Counting Sort
+  * Gnome Sort
