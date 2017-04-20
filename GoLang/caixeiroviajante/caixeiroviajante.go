@@ -1,40 +1,40 @@
 /*
-*	O Problema do Caixeiro Viajante (PCV) eh um problema que tenta determinar a
-* menor rota para percorrer uma serie de cidades (visitando uma unica vez cada
-* uma delas), retornando a cidade de origem.
-*
-*	Utilizando uma matriz de distancia para representar um grafo nao direcionado.
-*
-* Supondo que temos o seguinte grafo:
-*
-*               6
-*      -------------------
-*     |    3         1    |
-*   (000)-----(001)-----(002)
-*     | \     / | \     / |
-*     |  \  6/  |  \2  /  |
-*     |   \ /   |   \ /   |
-*    2|    /   8|    /    |5
-*     |   / \   |   / \   |
-*     |  /  3\  |  /4  \  |
-*     | /     \ | /     \ |
-*   (003)-----(004)-----(005)
-*     |    6         4    |
-*      -------------------
-*               1
-*
-*      Matriz de Distancia
-*       0  1  2  3  4  5
-*    0  0  3  6  2  3  -
-*    1  3  0  1  6  8  2
-*    2  6  1  0  -  4  5
-*    3  2  6  -  0  6  1
-*    4  3  8  4  6  0  4
-*    5  -  2  5  1  4  0
-*
-* Melhor solucao:
-* 0 - 3 - 5 - 1 - 2 - 4 - 0: 13
-*/
+ * O Problema do Caixeiro Viajante (PCV) eh um problema que tenta determinar a
+ * menor rota para percorrer uma serie de cidades (visitando uma unica vez cada
+ * uma delas), retornando a cidade de origem.
+ *
+ * Utilizando uma matriz de distancia para representar um grafo nao direcionado.
+ *
+ * Supondo que temos o seguinte grafo:
+ *
+ *               6
+ *      -------------------
+ *     |    3         1    |
+ *   (000)-----(001)-----(002)
+ *     | \     / | \     / |
+ *     |  \  6/  |  \2  /  |
+ *     |   \ /   |   \ /   |
+ *    2|    /   8|    /    |5
+ *     |   / \   |   / \   |
+ *     |  /  3\  |  /4  \  |
+ *     | /     \ | /     \ |
+ *   (003)-----(004)-----(005)
+ *     |    6         4    |
+ *      -------------------
+ *               1
+ *
+ *      Matriz de Distancia
+ *       0  1  2  3  4  5
+ *    0  0  3  6  2  3  -
+ *    1  3  0  1  6  8  2
+ *    2  6  1  0  -  4  5
+ *    3  2  6  -  0  6  1
+ *    4  3  8  4  6  0  4
+ *    5  -  2  5  1  4  0
+ *
+ * Melhor solucao:
+ * 0 - 3 - 5 - 1 - 2 - 4 - 0: 13
+ */
 
 package caixeiroviajante
 
@@ -140,7 +140,7 @@ func inicia() {
   matrizDistancia = append(matrizDistancia, linha5)
 }
 
-// Main temporaria
+// Funcao que roda o exemplo do caixeiro viajante
 func Run() {
   inicia()
   caixeiroViajante(0)
