@@ -22,10 +22,10 @@ import (
 )
 
 func main() {
-	fmt.Println("Fibonacci : ", fibonacci.Fibonacci(9))
-	fmt.Println("Exponenciacao : ", exponenciacao.Exponenciacao(5, 5))
-	fmt.Println("Fatorial : ", fatorial.Fatorial(6))
-	fmt.Println("Hanoi : ")
+	fmt.Println("Fibonacci : ", fibonacci.Fibonacci(9), "\n")
+	fmt.Println("Exponenciacao : ", exponenciacao.Exponenciacao(5, 5), "\n")
+	fmt.Println("Fatorial : ", fatorial.Fatorial(6), "\n")
+	fmt.Println("Torre de Hanoi : ")
 	hanoi.Hanoi(0, 2, 1, 3)
 
 	caixeiroviajante.Run()
