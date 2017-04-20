@@ -65,9 +65,9 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
 
 ### GoLang:
 
-* Fibonacci
+* Sequência de Fibonacci
 * Fatorial
-* Hanói
+* Torre de Hanói
 * Exponenciação
 * Máximo e Mínimo (recursivo e divisão e conquista)
 * Métodos de Ordenação:
