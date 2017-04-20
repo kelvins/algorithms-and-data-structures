@@ -7,6 +7,7 @@ import (
 	"../GoLang/fibonacci"
 	"../GoLang/hanoi"
 	"../GoLang/heapsort"
+	"../GoLang/caixeiroviajante"
 	"../GoLang/insertionsort"
 	"../GoLang/mergesort"
 	"../GoLang/selectionsort"
@@ -26,6 +27,8 @@ func main() {
 	fmt.Println("Fatorial : ", fatorial.Fatorial(6))
 	fmt.Println("Hanoi : ")
 	hanoi.Hanoi(0, 2, 1, 3)
+
+	caixeiroviajante.Run()
 
 	slice := []int{5, 2, 1, 6, 9, 8, 7, 3, 4}
 	fmt.Println("Slice : ", slice)
