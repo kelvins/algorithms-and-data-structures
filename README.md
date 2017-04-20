@@ -69,6 +69,7 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
 * Fatorial
 * Torre de Hanói
 * Exponenciação
+* Caixeiro Viajante
 * Máximo e Mínimo (recursivo e divisão e conquista)
 * Métodos de Ordenação:
   * Bubble Sort
