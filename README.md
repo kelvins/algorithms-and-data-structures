@@ -57,6 +57,7 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
   * Insertion Sort Recursivo
   * Shell Sort  
 * Lista Sequencial Ordenada
+* Lista Ligada
 * Máximo e Mínimo Recursivo
 * Máximo e Mínimo Utilizando Divisão e Conquista
 * Máximo e Mínimo Iterativo
