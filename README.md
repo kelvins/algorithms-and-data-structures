@@ -35,6 +35,7 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
 * Pilha
 * Torre de Hanói
 * Sequência de Fibonacci
+* Lista Duplamente Encadeada
 * Fila
 
 ### Python:
