@@ -4,30 +4,34 @@
 #          ---------    ---------     ---------     ---------
 
 class Node:
+
     def __init__(self, data):
         self.data = data
         self.next = None
 
 class MyList:
-    def append(self, head, data):
-        if head is None:
-            head = Node(data)
+
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        if self.head is None:
+            self.head = Node(data)
         else:
-            current = head
+            current = self.head
             while current.next:
                 current = current.next
             current.next = Node(data)
-        return head
 
-    def display(self, head):
-        current = head
+    def display(self):
+        current = self.head
         while current:
             print current.data, 
             current = current.next	
 
 myList = MyList()
-head = myList.append(None, 2)
-myList.append(head, 1)
-myList.append(head, 5)
-myList.append(head, 3)
-myList.display(head)
+myList.append(2)
+myList.append(1)
+myList.append(5)
+myList.append(3)
+myList.display()
