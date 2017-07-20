@@ -1,6 +1,8 @@
 # Algoritmos e Estruturas de Dados
 
-Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disciplina de "Algoritmos e Estruturas de Dados".
+Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos de Algoritmos e Estruturas de Dados.
+
+Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
 ### C:
 
@@ -63,7 +65,7 @@ Algoritmos em C, Python, Java e Go desenvolvidos durante os estudos para a disci
   * [Insertion Sort](/Python/InsertionSortIterativo.py)
   * [Insertion Sort Recursivo](/Python/InsertionSortRecursivo.py)
   * [Selection Sort](/Python/SelectionSort.py)
-  * [Shell Sort](/Python/ShellSort.py)
+  * [Shell Sort](/Python/shellSort.py)
 * [Passeio do Cavalo](/Python/PasseioDoCavalo.py)
 * [Pilha](/Python/Pilha.py)
 * [Torre de Hanói](/Python/TorreDeHanoi.py)
