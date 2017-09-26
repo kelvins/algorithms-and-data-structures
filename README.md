@@ -46,7 +46,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 | 37 | Counting Sort                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) |
 | 38 | Gnome Sort                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) |
 | 39 | Heapsort                            | C/C++ | Java | Python | [Go](/GoLang/heapsort/heapsort.go) |
-| 40 | Insertion Sort                      | C/C++ | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) |
+| 40 | Insertion Sort                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) |
 | 41 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go |
 | 42 | Merge Sort                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) |
 | 43 | Quicksort                           | C/C++ | Java | Python | [Go](/GoLang/quicksort/quicksort.go) |
