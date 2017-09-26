@@ -40,7 +40,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 
 |    | Algoritmos de Ordenação             | C/C++ | Java | Python | Go |
 |----|-------------------------------------|-------|------|--------|----|
-| 34 | Bubble Sort                         | C/C++ | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) |
+| 34 | Bubble Sort                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) |
 | 35 | Cocktail Sort                       | C/C++ | Java | Python | [Go](/GoLang/cocktailsort/cocktailsort.go) |
 | 36 | Comb Sort                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) |
 | 37 | Counting Sort                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) |
