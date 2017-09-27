@@ -3,8 +3,8 @@
 
 using namespace std;
 
-void selectionSort(vector<int> &vetor) {
-
+void selectionSort(vector<int> &vetor)
+{
     for (uint32_t indice = 0; indice < vetor.size()-1; indice++)
     {
         uint32_t min = indice;
@@ -23,7 +23,7 @@ void selectionSort(vector<int> &vetor) {
             vetor[indice] = vetor[min];
             vetor[min] = temp;
         }
-	}
+    }
 }
 
 void showVector(vector<int> vetor)
