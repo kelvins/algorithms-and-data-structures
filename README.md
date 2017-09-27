@@ -51,7 +51,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 | 42 | [Merge Sort][42]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) |
 | 43 | [Quicksort][43]                           | C/C++ | Java | Python | [Go](/GoLang/quicksort/quicksort.go) |
 | 44 | [Radix Sort][44]                          | C/C++ | Java | Python | [Go](/GoLang/radixsort/radixsort.go) |
-| 45 | [Selection Sort][45]                      | C/C++ | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) |
+| 45 | [Selection Sort][45]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) |
 | 46 | [Shell Sort][46]                          | C/C++ | Java | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
