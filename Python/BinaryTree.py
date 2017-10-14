@@ -152,8 +152,8 @@ class BinaryTree(object):
     def post_order(self, node):
         if node is None:
             return
-        self.in_order(node.left)
-        self.in_order(node.right)
+        self.post_order(node.left)
+        self.post_order(node.right)
         print "%d" % node.data,
 
 
