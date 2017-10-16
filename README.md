@@ -8,7 +8,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 | 2  | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go |
 | 3  | [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/ArvoreBinariaDeBusca.py) | Go |
 | 4  | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go |
-| 5  | [Busca Binária][5]                       | C/C++ | Java | [Python](/Python/BuscaBinaria.py) | Go |
+| 5  | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go |
 | 6  | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go |
 | 7  | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | Go |
 | 8  | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/Python/BuscaSequencialRecursiva.py) | Go |
