@@ -54,6 +54,10 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 | 45 | [Selection Sort][45]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) |
 | 46 | [Shell Sort][46]                          | C/C++ | Java | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) |
 
+|    | Extra                               | C/C++ | Java | Python | Go |
+|----|-------------------------------------|-------|------|--------|----|
+| 47 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go |
+
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
 [1]: https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra
