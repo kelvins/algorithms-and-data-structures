@@ -27,7 +27,7 @@ def solution2(values, expected):
     return False
 
 if __name__ == "__main__":
-    values = [42,5,9,9,16,16]
+    values = [42,5,9,9,16,16,13]
 
     print("Solution 1")
 
@@ -36,11 +36,13 @@ if __name__ == "__main__":
     print(solution1(values, 25))
     print(solution1(values, 47))
     print(solution1(values, 58))
+    print(solution1(values, 51))
+    print(solution1(values, 21))
+    print(solution1(values, 18))
 
     print("Should be FALSE")
     print(solution1(values, 32))
     print(solution1(values, 9))
-    print(solution1(values, 18))
     print(solution1(values, 59))
     print(solution2(values, 5))
     print(solution2(values, 10))
@@ -55,6 +57,8 @@ if __name__ == "__main__":
     print(solution2(values, 58))
     print(solution2(values, 32))
     print(solution2(values, 18))
+    print(solution1(values, 51))
+    print(solution1(values, 21))
 
     print("Should be FALSE")
     print(solution2(values, 10))
