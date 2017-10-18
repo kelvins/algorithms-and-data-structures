@@ -57,6 +57,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 |    | Extra                               | C/C++ | Java | Python | Go |
 |----|-------------------------------------|-------|------|--------|----|
 | 47 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go |
+| 48 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
