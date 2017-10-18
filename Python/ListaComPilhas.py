@@ -42,24 +42,13 @@ class Queue(object):
             while not self.stack1.isEmpty():
                 self.stack2.push(self.stack1.pop())
 
-    def __repr__(self):
-        self.swapStack()
-
-        display = ""
-
-        if self.stack2.isEmpty():
-            for i in range(0, self.stack1.length()):
-                display += str(self.stack1.at(i)) + ", "
-        else:
-            # If the stack2 is not empty and we have values in stack1
-            # we need to show the items in reverse order
-            for i in range(self.stack1.length()-1, -1, -1):
-                display += str(self.stack1.at(i)) + ", "
-
-        for i in range(0, self.stack2.length()):
-            display += str(self.stack2.at(i)) + ", "
-            
-        return display
+    def __str__(self):
+        output = []
+        for i in range(self.stack2.length()-1, -1, -1):
+            output.append(self.stack2.at(i))
+        for i in range(0, self.stack1.length()):
+            output.append(self.stack1.at(i))
+        return str(output)
 
 if __name__ == "__main__":
     queue = Queue()
@@ -68,15 +57,15 @@ if __name__ == "__main__":
     queue.enqueue(3)
     queue.enqueue(4)
     queue.enqueue(5)
-    print queue
+    print(queue)
     queue.dequeue()
-    print queue
+    print(queue)
     queue.dequeue()
     queue.dequeue()
-    print queue
+    print(queue)
     queue.enqueue(6)
     queue.enqueue(7)
-    print queue
+    print(queue)
     queue.dequeue()
     queue.dequeue()
-    print queue
+    print(queue)
