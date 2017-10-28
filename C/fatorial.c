@@ -23,5 +23,4 @@ int fatorial(int num){
     }
     printf("%d * ", num);
     return num * fatorial(num - 1);
-    exit(0);
 }
