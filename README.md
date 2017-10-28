@@ -18,7 +18,7 @@ Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e
 | 12 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go |
 | 13 | [Exponenciação][13]                       | C/C++ | Java | [Python](/Python/Exponenciacao.py) | [Go](/GoLang/exponenciacao/exponenciacao.go) |
 | 14 | [Exponenciação Recursiva][14]             | C/C++ | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go |
-| 15 | [Fatorial][15]                            | C/C++ | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) |
+| 15 | [Fatorial][15]                            | [C/C++](/C/fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) |
 | 16 | [Fatorial Recursiva][16]                  | C/C++ | Java | [Python](/Python/FatorialRecursiva.py) | Go |
 | 17 | [Fibonacci][17]                           | C/C++ | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) |
 | 18 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go |
