@@ -14,7 +14,7 @@ int main(){
     int result = fatorial(num);
     printf("1 => ");
     printf("%d! é : %d\n", num, result);
-    exit(0);
+    return(0);
 }
 
 int fatorial(int num){
