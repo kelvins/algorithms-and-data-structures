@@ -1,0 +1,22 @@
+# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  Obrigado por abrir seu primeiro **issue**! :smile:
+  Certifique-se de explicar a questão o mais claro possível! :+1:
+
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  Obrigado por enviar seu primeiro **pull request**! :smile:
+  Iremos avaliar assim que possível! :+1:
+
+# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Parabéns pelo **merge** de seu primeiro **pull request**! :tada: :tada: :tada:
+  Fique à vontade para enviar novos **pull requests**! :smile_cat:
+
+# It is recommend to include as many gifs and emojis as possible
