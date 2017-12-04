@@ -1,6 +1,6 @@
 # Algoritmos e Estruturas de Dados
 
-Algoritmos em C/C++, Java, Python e Go desenvolvidos como estudo de Algoritmos e Estruturas de Dados.
+Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algoritmos e Estruturas de Dados.
 
 |    | Algoritmo                           | C/C++ | Java | Python | Go | Ruby |
 |----|-------------------------------------|-------|------|--------|----|------|
