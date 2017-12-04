@@ -1,6 +1,9 @@
-def Exponenciacao(base, expoente):
-	for x in xrange(0, expoente-1):
-		base = base * expoente
-	return base
 
-print Exponenciacao(5, 5)
+def Exponenciacao(base, expoente):
+	result = base
+	for _ in xrange(0, expoente-1):
+		result *= base
+	return result
+	
+Exponenciacao(5, 2)
+Exponenciacao(5, 5)
