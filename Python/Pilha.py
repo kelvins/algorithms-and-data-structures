@@ -1,44 +1,37 @@
-# Exemplo de Pilha em Python
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import random
 
-pilha = []
+class Stack:
+    
+    def __init__(self):
+        self.__stack = []
+        
+    def push(self, value):
+        self.__stack.append(value)
+        
+    def pop(self):
+        return self.__stack.pop()
+        
+    def show(self):
+        print("Stack: {}".format(self.__stack))
 
-def insereValor(valor, pilha):
-	pilha.append(valor)
 
-def buscaSentinela(chave, pilha):
-	pilha.append(chave)
-	i = 0
-	while pilha[i] != chave:
-		i += 1
-	if i == len(pilha)-1:
-		pilha.pop()
-		return -1
-	pilha.pop()
-	return i
+def main():
+    stack = Stack()
 
-def deletaValor(pilha):
-	pilha.pop()
+    for _ in xrange(0, 10):
+        stack.push(random.randint(10,99))
 
-def mostraLista(pilha):
-	print pilha
+    stack.show()
 
-for x in xrange(0, 10):
-	insereValor( random.randint(10,99) , pilha)
+    stack.pop()
+    stack.pop()
 
-print 'Valor 25 na posicao: ' + str(buscaSentinela(25, pilha))
+    stack.show()
 
-mostraLista(pilha)
-deletaValor(pilha)
-mostraLista(pilha)
-deletaValor(pilha)
-mostraLista(pilha)
-deletaValor(pilha)
-mostraLista(pilha)
-insereValor( random.randint(10,99) , pilha)
-mostraLista(pilha)
-insereValor( random.randint(10,99) , pilha)
-mostraLista(pilha)
-insereValor( random.randint(10,99) , pilha)
-mostraLista(pilha)
+
+if __name__ == "__main__":
+    main()
