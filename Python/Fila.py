@@ -1,44 +1,35 @@
-# Exemplo de Fila em Python
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import random
 
-fila = []
+class Queue:
+    
+    def __init__(self):
+        self.__queue = []
+        
+    def enqueue(self, value):
+        self.__queue.append(value)
+        
+    def dequeue(self):
+        return self.__queue.pop(0)
+        
+    def show(self):
+        print("Queue: {}".format(self.__queue))
 
-def insereValor(valor, fila):
-	fila.append(valor)
+def main():
+    queue = Queue()
 
-def buscaSentinela(chave, fila):
-	fila.append(chave)
-	i = 0
-	while fila[i] != chave:
-		i += 1
-	if i == len(fila)-1:
-		fila.pop()
-		return -1
-	fila.pop()
-	return i
+    for _ in xrange(0, 10):
+        queue.enqueue(random.randint(10,99))
 
-def deletaValor(fila):
-	fila.pop(0)
+    queue.show()
 
-def mostraLista(fila):
-	print fila
+    queue.dequeue()
+    queue.dequeue()
 
-for x in xrange(0, 10):
-	insereValor( random.randint(10,99) , fila)
+    queue.show()
 
-print 'Valor 25 na posicao: ' + str(buscaSentinela(25, fila))
-
-mostraLista(fila)
-deletaValor(fila)
-mostraLista(fila)
-deletaValor(fila)
-mostraLista(fila)
-deletaValor(fila)
-mostraLista(fila)
-insereValor( random.randint(10,99) , fila)
-mostraLista(fila)
-insereValor( random.randint(10,99) , fila)
-mostraLista(fila)
-insereValor( random.randint(10,99) , fila)
-mostraLista(fila)
+if __name__ == "__main__":
+    main()
