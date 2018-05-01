@@ -40,24 +40,26 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 
 |    | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby |
 |----|-------------------------------------|-------|------|--------|----|------|
-| 34 | [Bubble Sort][34]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) | Ruby |
-| 35 | [Cocktail Sort][35]                       | C/C++ | Java | Python | [Go](/GoLang/cocktailsort/cocktailsort.go) | Ruby |
-| 36 | [Comb Sort][36]                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) | Ruby |
-| 37 | [Counting Sort][37]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | Ruby |
-| 38 | [Gnome Sort][38]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
-| 39 | [Heapsort][39]                            | C/C++ | Java | Python | [Go](/GoLang/heapsort/heapsort.go) | Ruby |
-| 40 | [Insertion Sort][40]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | Ruby |
-| 41 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
-| 42 | [Merge Sort][42]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | Ruby |
-| 43 | [Quicksort][43]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | Ruby |
-| 44 | [Radix Sort][44]                          | C/C++ | Java | Python | [Go](/GoLang/radixsort/radixsort.go) | Ruby |
-| 45 | [Selection Sort][45]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | Ruby |
-| 46 | [Shell Sort][46]                          | C/C++ | Java | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) | Ruby |
+| 34 | [Bogo Sort][34]                     | C/C++ | [Java](/Java/BogoSort.java) | Python | Go | Ruby |
+| 35 | [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) | Ruby |
+| 36 | [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | Ruby |
+| 37 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/GoLang/cocktailsort/cocktailsort.go) | Ruby |
+| 38 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) | Ruby |
+| 39 | [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | Ruby |
+| 40 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
+| 41 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | Ruby |
+| 42 | [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | Ruby |
+| 43 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
+| 44 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | Ruby |
+| 45 | [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | Ruby |
+| 46 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | Ruby |
+| 47 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | Ruby |
+| 48 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) | Ruby |
 
 |    | Extra                               | C/C++ | Java | Python | Go | Ruby |
 |----|-------------------------------------|-------|------|--------|----|------|
-| 47 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby |
-| 48 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
+| 49 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby |
+| 50 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
@@ -90,15 +92,17 @@ Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo
 [30]: https://pt.wikipedia.org/wiki/Problema_do_cavalo
 [31]: https://pt.wikipedia.org/wiki/LIFO
 [33]: https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i
-[34]: https://pt.wikipedia.org/wiki/Bubble_sort
-[35]: https://pt.wikipedia.org/wiki/Cocktail_sort
-[36]: https://pt.wikipedia.org/wiki/Comb_sort
-[37]: https://pt.wikipedia.org/wiki/Counting_sort
-[38]: https://pt.wikipedia.org/wiki/Gnome_sort
-[39]: https://pt.wikipedia.org/wiki/Heapsort
-[40]: https://pt.wikipedia.org/wiki/Insertion_sort
-[42]: https://pt.wikipedia.org/wiki/Merge_sort
-[43]: https://pt.wikipedia.org/wiki/Quicksort
-[44]: https://pt.wikipedia.org/wiki/Radix_sort
-[45]: https://pt.wikipedia.org/wiki/Selection_sort
-[46]: https://pt.wikipedia.org/wiki/Shell_sort
+[34]: https://pt.wikipedia.org/wiki/Bogosort
+[35]: https://pt.wikipedia.org/wiki/Bubble_sort
+[36]: https://pt.wikipedia.org/wiki/Bucket_sort
+[37]: https://pt.wikipedia.org/wiki/Cocktail_sort
+[38]: https://pt.wikipedia.org/wiki/Comb_sort
+[39]: https://pt.wikipedia.org/wiki/Counting_sort
+[40]: https://pt.wikipedia.org/wiki/Gnome_sort
+[41]: https://pt.wikipedia.org/wiki/Heapsort
+[42]: https://pt.wikipedia.org/wiki/Insertion_sort
+[44]: https://pt.wikipedia.org/wiki/Merge_sort
+[45]: https://pt.wikipedia.org/wiki/Quicksort
+[46]: https://pt.wikipedia.org/wiki/Radix_sort
+[47]: https://pt.wikipedia.org/wiki/Selection_sort
+[48]: https://pt.wikipedia.org/wiki/Shell_sort
