@@ -1,11 +1,11 @@
-
 def exponenciacao(base, expoente)
-    if expoente == 0
-        return 1
-    else
-        return base * exponenciacao(base, expoente-1)
-    end
+  return 1 if expoente.zero?
+  base * exponenciacao(base, expoente.pred)
 end
 
+# Teste Manual
 puts exponenciacao(5, 2)
 puts exponenciacao(5, 5)
+
+# Teste Autmatizado
+require_relative 'ExponenciacaoTest'
