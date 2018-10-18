@@ -1,51 +1,51 @@
 
-/*
- * Utiliza a classe NoPilha
- */
-
-public class Pilha {
-
-	public static void main(String [] args){
-		NoPilha vPilha = new NoPilha(6);
-		
-		inserePilha(vPilha, 8);
-		inserePilha(vPilha, 0);
-		inserePilha(vPilha, 1);
-		inserePilha(vPilha, 5);
-		inserePilha(vPilha, 7);
-		
-		mostraPilha(vPilha);
-		
-		removePilha(vPilha);
-		removePilha(vPilha);
-		removePilha(vPilha);
-		removePilha(vPilha);
-		
-		mostraPilha(vPilha);
+public class pilha {
+	public processo processoAtual;
+	public pilha proximaPilha;
+	
+	
+	public pilha() {
+		this.processoAtual = null;
+		this.proximaPilha = null;
 	}
 	
-	public static void inserePilha(NoPilha pilha, int chave){
-		while(pilha.getProx() != null){
-			pilha = pilha.getProx();
+	public void inserirpilha(processo processoNovo) {
+		if(this.processoAtual == null) {
+			this.processoAtual = processoNovo;
+			this.proximaPilha = new pilha();
+			
+		}else {
+			this.proximaPilha.inserirpilha(processoNovo);
 		}
-		NoPilha novo = new NoPilha(chave);
-		pilha.setProx(novo);
 	}
-	
-	public static void mostraPilha(NoPilha pilha){
-		System.out.println("\nPilha:");
-		while(pilha != null){
-			System.out.print("[ " + pilha.getChave() + " ]-");
-			pilha = pilha.getProx();
+	public processo removerPilha() {
+		if(this.proximaPilha.proximaPilha == null) {
+			processo removido = this.processoAtual;
+			this.processoAtual = null;
+			this.proximaPilha = null;
+			return removido;
+		}else {
+			return this.proximaPilha.removerPilha();
 		}
 	}
 	
-	public static void removePilha(NoPilha pilha){
-		NoPilha anterior = pilha;
-		while(pilha.getProx() != null){
-			anterior = pilha;
-			pilha = pilha.getProx();
+	public String checkpilha(String vazia) {
+		if(this.proximaPilha.proximaPilha == null) {
+			vazia = " " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo() + vazia;
+            		
+		}else {
+			vazia = this.proximaPilha.checkpilha(vazia)+ " && " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo() + " " + vazia;
 		}
-		anterior.setProx(null);
+		return vazia;
+		}
+	
+	public boolean vaziaPilha() {
+		if(this.proximaPilha == null) {
+			return true;
+		}
+		return false;
 	}
-}
+	public int tempoTrabalhado(int tempo) {
+		return this.processoAtual.trabalhado(tempo);
+	}
+	}

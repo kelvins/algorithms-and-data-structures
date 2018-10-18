@@ -1,49 +1,46 @@
 
-/*
- * Utiliza a classe NoPilha, porque os atributos são os mesmos
- */
-
-public class Fila {
-
-	public static void main(String [] args){
-		NoPilha Fila = new NoPilha(6);
-		
-		insereFila(Fila, 8);
-		insereFila(Fila, 0);
-		insereFila(Fila, 1);
-		insereFila(Fila, 5);
-		insereFila(Fila, 7);
-		
-		mostraFila(Fila);
-
-		removeFila(Fila);
-		mostraFila(Fila);
-		
-		removeFila(Fila);
-		mostraFila(Fila);
-		
-		removeFila(Fila);
-		mostraFila(Fila);
+public class fila {
+	public processo processoAtual;
+	public fila proximaFila;
+	
+	
+	public fila() {
+		this.processoAtual = null;
+		this.proximaFila = null;
 	}
 	
-	public static void insereFila(NoPilha fila, int chave){
-		while(fila.getProx() != null){
-			fila = fila.getProx();
-		}
-		NoPilha novo = new NoPilha(chave);
-		fila.setProx(novo);
-	}
-	
-	public static void mostraFila(NoPilha fila){
-		System.out.print("\nFila : ");
-		while(fila != null){
-			System.out.print("[ " + fila.getChave() + " ] ");
-			fila = fila.getProx();
+	public void inserirfila(processo processoNovo) {
+		if(this.processoAtual == null) {
+			this.processoAtual = processoNovo;
+			this.proximaFila = new fila();
+			
+		}else {
+			this.proximaFila.inserirfila(processoNovo);
 		}
 	}
-	
-	public static void removeFila(NoPilha fila){
-		fila.setChave(fila.getProx().getChave());
-		fila.setProx(fila.getProx().getProx());
+	public processo removerfila() {
+		processo removido = this.processoAtual;
+		this.processoAtual = this.proximaFila.processoAtual;
+		this.proximaFila = this.proximaFila.proximaFila;
+		return removido;
 	}
+	
+	public String checkfila(String vazia) {
+		if(this.proximaFila.proximaFila == null) {
+			vazia = vazia + " " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo();
+            		
+		}else {
+			vazia = vazia + " " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo() + " &&"+ this.proximaFila.checkfila(vazia);
+		}
+		return vazia;
+		
+	}
+	
+	public boolean vaziafila() {
+		if(this.proximaFila == null) {
+			return true;
+		}
+		return false;
+	}
+	
 }
