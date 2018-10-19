@@ -1,8 +1,8 @@
 
 public class fila {
+
 	public processo processoAtual;
 	public fila proximaFila;
-	
 	
 	public fila() {
 		this.processoAtual = null;
@@ -13,8 +13,7 @@ public class fila {
 		if(this.processoAtual == null) {
 			this.processoAtual = processoNovo;
 			this.proximaFila = new fila();
-			
-		}else {
+		} else {
 			this.proximaFila.inserirfila(processoNovo);
 		}
 	}
@@ -28,12 +27,10 @@ public class fila {
 	public String checkfila(String vazia) {
 		if(this.proximaFila.proximaFila == null) {
 			vazia = vazia + " " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo();
-            		
-		}else {
+		} else {
 			vazia = vazia + " " + this.processoAtual.getPrioridade() + " "  + this.processoAtual.getTempo() + " &&"+ this.proximaFila.checkfila(vazia);
 		}
 		return vazia;
-		
 	}
 	
 	public boolean vaziafila() {
@@ -42,5 +39,4 @@ public class fila {
 		}
 		return false;
 	}
-	
 }

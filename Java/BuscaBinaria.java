@@ -6,11 +6,12 @@ public class BuscaBinaria {
 	BuscaBinaria(int[] array, int Objetivo){
 		this.posicao = BinarySearch(Objetivo, array);
 	}
+
 	public int GetResultado() {
 		return this.posicao;
 	}
+
 	public int BinarySearch(int objetivo, int[] array) {
-		
 		int comeco = 0;
 		int fim = array.length - 1; 
         while (comeco <= fim) { 
