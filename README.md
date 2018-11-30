@@ -60,7 +60,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 |----|-------------------------------------|-------|------|--------|----|------|
 | 49 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby |
 | 50 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
-| 51 | Palíndromo       | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
+| 51 | [Palíndromo][49]       | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
