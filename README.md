@@ -60,6 +60,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 |----|-------------------------------------|-------|------|--------|----|------|
 | 49 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby |
 | 50 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
+| 51 | [Palíndromo][49]       | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
@@ -106,3 +107,4 @@ Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo
 [46]: https://pt.wikipedia.org/wiki/Radix_sort
 [47]: https://pt.wikipedia.org/wiki/Selection_sort
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
+[49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
