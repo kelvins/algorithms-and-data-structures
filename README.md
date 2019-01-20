@@ -26,7 +26,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 20 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby |
 | 21 | Lista Circular Ligada               | [C/C++](/C/ListaCircularLigada.c) | Java | Python | Go | Ruby |
 | 22 | [Lista Encadeada][22]                     | C/C++ | Java | [Python](/Python/ListaEncadeada.py) | Go | Ruby |
-| 23 | [Lista Duplamente Encadeada][23]          | C/C++ | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby |
+| 23 | [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby |
 | 24 | [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby |
 | 25 | Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby |
 | 26 | [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby |
