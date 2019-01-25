@@ -50,7 +50,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 41 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | Ruby |
 | 42 | [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | Ruby |
 | 43 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
-| 44 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | Ruby |
+| 44 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | [Python](/Python/MergeSort.py) | [Go](/GoLang/mergesort/mergesort.go) | Ruby |
 | 45 | [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | Ruby |
 | 46 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | Ruby |
 | 47 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | Ruby |
