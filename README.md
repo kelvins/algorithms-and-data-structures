@@ -47,7 +47,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 38 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) | Ruby |
 | 39 | [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | Ruby |
 | 40 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
-| 41 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | Ruby |
+| 41 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | [Python](/Python/HeapSort.py) | [Go](/GoLang/heapsort/heapsort.go) | Ruby |
 | 42 | [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | Ruby |
 | 43 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
 | 44 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | [Python](/Python/MergeSort.py) | [Go](/GoLang/mergesort/mergesort.go) | Ruby |
