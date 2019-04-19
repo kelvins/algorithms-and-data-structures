@@ -1,11 +1,14 @@
-def Hanoi(pin0, pin2, pin1, num):
-	if num == 1:
-		print 'Move from ' + str(pin0) + ' to ' + str(pin2)
-	else:
-		Hanoi(pin0, pin1, pin2, num-1)
-		Hanoi(pin0, pin2, pin1, 1)
-		Hanoi(pin1, pin2, pin0, num-1)
+def hanoi(pino0, pino2, pino1, discos):
+    """Mostra os passos da torre de hanoi de forma recursiva.
+    Parametros: from, to, helper, numero de discos
+    """
+    if discos == 1:
+        print('Move de {} para {}'.format(pino0, pino2))
+    else:
+        hanoi(pino0, pino1, pino2, discos-1)
+        hanoi(pino0, pino2, pino1, 1)
+        hanoi(pino1, pino2, pino0, discos-1)
 
-# Parameters: (from)Pin0, (to)Pin2, (helper)Pin1, Number of Disks
-Hanoi(0, 2, 1, 3)
 
+if __name__ == '__main__':
+    hanoi(0, 2, 1, 3)
