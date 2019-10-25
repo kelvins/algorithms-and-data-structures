@@ -19,14 +19,14 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 13 | [Exponenciação][13]                       | C/C++ | Java | [Python](/Python/Exponenciacao.py) | [Go](/GoLang/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
 | 14 | [Exponenciação Recursiva][14]             | C/C++ | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
 | 15 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
-| 16 | [Fatorial Recursiva][16]                  | C/C++ | Java | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
+| 16 | [Fatorial Recursiva][16]                  | C/C++ | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
 | 17 | [Fibonacci][17]                           | C/C++ | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
 | 18 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) |
 | 19 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby |
 | 20 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby |
-| 21 | Lista Circular Ligada               | [C/C++](/C/ListaCircularLigada.c) | Java | Python | Go | Ruby |
+| 21 | Lista Circular Ligada               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby |
 | 22 | [Lista Encadeada][22]                     | C/C++ | Java | [Python](/Python/ListaEncadeada.py) | Go | Ruby |
-| 23 | [Lista Duplamente Encadeada][23]          | C/C++ | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby |
+| 23 | [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby |
 | 24 | [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby |
 | 25 | Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby |
 | 26 | [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby |
@@ -60,6 +60,8 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 |----|-------------------------------------|-------|------|--------|----|------|
 | 49 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby |
 | 50 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
+| 51 | [Palíndromo][49]                    | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
+| 52 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/Python/ListaEncadeadaDesordenada.py) | Go | Ruby |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
@@ -106,3 +108,4 @@ Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo
 [46]: https://pt.wikipedia.org/wiki/Radix_sort
 [47]: https://pt.wikipedia.org/wiki/Selection_sort
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
+[49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
