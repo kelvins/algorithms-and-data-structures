@@ -20,7 +20,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 14 | [Exponenciação Recursiva][14]             | C/C++ | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
 | 15 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
 | 16 | [Fatorial Recursiva][16]                  | C/C++ | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
-| 17 | [Fibonacci][17]                           | C/C++ | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
+| 17 | [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
 | 18 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) |
 | 19 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby |
 | 20 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby |
