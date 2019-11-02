@@ -8,7 +8,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 2  | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Ruby |
 | 3  | [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/ArvoreBinariaDeBusca.py) | Go | Ruby | Ruby |
 | 4  | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby |
-| 5  | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | Ruby |
+| 5  | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) |
 | 6  | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby |
 | 7  | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | Go | [Ruby](/Ruby/BuscaSequencial.rb) |
 | 8  | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/Python/BuscaSequencialRecursiva.py) | Go | Ruby |
@@ -16,11 +16,11 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 10 | [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/GoLang/caixeiroviajante/caixeiroviajante.go) | Ruby |
 | 11 | [Ciclo Hamiltoniano][11]                  | [C/C++](/C/CicloHamiltoniano.c) | Java | Python | Go | Ruby |
 | 12 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby |
-| 13 | [Exponenciação][13]                       | C/C++ | Java | [Python](/Python/Exponenciacao.py) | [Go](/GoLang/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
-| 14 | [Exponenciação Recursiva][14]             | C/C++ | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
+| 13 | [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/GoLang/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
+| 14 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
 | 15 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
-| 16 | [Fatorial Recursiva][16]                  | C/C++ | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
-| 17 | [Fibonacci][17]                           | C/C++ | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
+| 16 | [Fatorial Recursiva][16]                  | [C/C++](/C/FatorialRecursiva.c) | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
+| 17 | [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
 | 18 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) |
 | 19 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby |
 | 20 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby |
