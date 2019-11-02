@@ -50,7 +50,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/heap_sort.rb) |
 | [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/insertion_sort.rb) |
-| [Insertion Sort Recursivo][43]            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
+| Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | [Ruby](/Ruby/algoritmos_ordenacao/merge_sort.rb) |
 | [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | [Ruby](/Ruby/algoritmos_ordenacao/quick_sort.rb) |
 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/radix_sort.rb) |
