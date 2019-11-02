@@ -28,9 +28,9 @@ def fib_recursiva_com_cache(n):
 
 def run_fibonacci(name, func, n=35):
     start_time = time.time()
-    func(n)
+    result = func(n)
     diff_time = time.time() - start_time
-    print('Fibonacci', name, ':', '%.8f' % diff_time, 'segundos')
+    print('Fibonacci', name, ':', result, ':', '%.8f' % diff_time, 'segundos')
 
 
 if __name__ == "__main__":
