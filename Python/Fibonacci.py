@@ -1,8 +1,9 @@
 import functools
+import time
 
 
-def fib_iterativo(n):
-    """Fibonnaci iterativo."""
+def fib_iterativa(n):
+    """Fibonnaci iterativa."""
     last = 0
     curr = 1
     for _ in range(0, n):
@@ -10,22 +11,29 @@ def fib_iterativo(n):
     return last
 
 
-def fib_recursivo(n):
-    """Fibonnaci recursivo."""
+def fib_recursiva(n):
+    """Fibonnaci recursiva."""
     if n < 2:
         return n
-    return fib_recursivo(n-1) + fib_recursivo(n-2)
+    return fib_recursiva(n-1) + fib_recursiva(n-2)
 
 
 @functools.lru_cache(maxsize=None)
-def fib_recursivo_com_cache(n):
-    """Fibonacci recursivo com cache."""
+def fib_recursiva_com_cache(n):
+    """Fibonacci recursiva com cache."""
     if n < 2:
         return n
-    return fib_recursivo_com_cache(n-1) + fib_recursivo_com_cache(n-2)
+    return fib_recursiva_com_cache(n-1) + fib_recursiva_com_cache(n-2)
+
+
+def run_fibonacci(name, func, n=35):
+    start_time = time.time()
+    func(n)
+    diff_time = time.time() - start_time
+    print('Fibonacci', name, ':', '%.8f' % diff_time, 'segundos')
 
 
 if __name__ == "__main__":
-    print(fib_iterativo(15))
-    print(fib_recursivo(15))
-    print(fib_recursivo_com_cache(15))
+    run_fibonacci('Iterativa', fib_iterativa)
+    run_fibonacci('Recursiva', fib_recursiva)
+    run_fibonacci('Recursiva com Cache', fib_recursiva_com_cache)
