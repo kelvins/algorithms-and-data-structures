@@ -17,6 +17,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/Go/caixeiroviajante/caixeiroviajante.go) | Ruby |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/C/CicloHamiltoniano.c) | Java | Python | Go | Ruby |
 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby |
+| [Disjoint Set][50]                 | C/C++ | [Java](/Java/DisjointSet.java) | Python | Go | Ruby |
 | [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/Go/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
@@ -110,3 +111,4 @@ Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo
 [47]: https://pt.wikipedia.org/wiki/Selection_sort
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
+[50]: https://en.wikipedia.org/wiki/Disjoint-set_data_structure
