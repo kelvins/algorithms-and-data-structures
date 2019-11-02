@@ -6,10 +6,6 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-// Estructura de datos para modelar una colección de conjuntos disyuntos.
-// Permite determinar de manera eficiente a que conjunto pertenece un elemento,
-// si dos elementos se encuentran en un mismo conjunto y unir dos conjuntos disyuntos en un uno.
-
 class dsu {
     int[] par, sz;
     int size; //Cantidad de conjuntos
