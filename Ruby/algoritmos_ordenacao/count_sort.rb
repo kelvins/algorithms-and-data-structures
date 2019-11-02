@@ -46,6 +46,6 @@ class Countsort
 end
 
 #test
-# c_s = Countsort.new
-# c_s.init([1,4,10,2,3,32,0])
-# p c_s.array_sorted
+c_s = Countsort.new
+c_s.init([1,4,10,2,3,32,0])
+p c_s.array_sorted

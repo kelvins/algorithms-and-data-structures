@@ -40,6 +40,6 @@ class Heapsort
 end
 
 #test
-# h_s = Heapsort.new
-# h_s.init([1,4,10,2,3,32,0])
-# p h_s.array_sorted
+h_s = Heapsort.new
+h_s.init([1,4,10,2,3,32,0])
+p h_s.array_sorted

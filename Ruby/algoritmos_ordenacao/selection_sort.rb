@@ -25,6 +25,6 @@ class Selectionsort
 end
 
 #test
-# s_s = Selectionsort.new
-# s_s.init([1,4,10,2,3,32,0])
-# p s_s.array_sorted
+s_s = Selectionsort.new
+s_s.init([1,4,10,2,3,32,0])
+p s_s.array_sorted

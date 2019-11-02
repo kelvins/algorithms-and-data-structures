@@ -38,6 +38,6 @@ class Bucketsort
 end
 
 # test
-# bu_s = Bucketsort.new
-# bu_s.init([1,4,10,2,3,32,0])
-# p bu_s.array_sorted
+bu_s = Bucketsort.new
+bu_s.init([1,4,10,2,3,32,0])
+p bu_s.array_sorted

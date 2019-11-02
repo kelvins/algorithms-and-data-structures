@@ -27,6 +27,6 @@ class Insertionsort
 end
 
 # test
-# i_s = Insertionsort.new
-# i_s.init([1,4,10,2,3,32,0])
-# p i_s.array_sorted
+i_s = Insertionsort.new
+i_s.init([1,4,10,2,3,32,0])
+p i_s.array_sorted

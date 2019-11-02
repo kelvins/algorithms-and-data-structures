@@ -54,6 +54,6 @@ class Radixsort
 end
 
 # test
-# r_s = Radixsort.new
-# r_s.init([1,4,10,2,3,32,0])
-# p r_s.array_sorted
+r_s = Radixsort.new
+r_s.init([1,4,10,2,3,32,0])
+p r_s.array_sorted

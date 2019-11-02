@@ -51,6 +51,6 @@ class Quicksort
 end
 
 # test
-# q_s = Quicksort.new
-# q_s.init([1,4,10,2,3,32,0])
-# p q_s.array_sorted
+q_s = Quicksort.new
+q_s.init([1,4,10,2,3,32,0])
+p q_s.array_sorted

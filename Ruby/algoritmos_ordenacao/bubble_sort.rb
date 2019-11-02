@@ -6,13 +6,14 @@ class Bubblesort
   end
 
   def init(array)
-    bubble_sort(array, (array.length - 1))
+    bubble_sort(array)
   end
 
   private
 
-  def bubble_sort(array, n)
+  def bubble_sort(array)
     return nil if array.empty?
+    n = array.length - 1
     loop do
       swapped = false
 
@@ -29,6 +30,6 @@ class Bubblesort
 end
 
 # test
-# b_s = Bubblesort.new
-# b_s.init([1,4,10,2,3,32,0])
-# p b_s.array_sorted
+b_s = Bubblesort.new
+b_s.init([1,4,10,2,3,32,0])
+p b_s.array_sorted

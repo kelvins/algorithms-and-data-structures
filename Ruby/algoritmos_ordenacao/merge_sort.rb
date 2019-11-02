@@ -42,6 +42,6 @@ class Mergesort
 end
 
 # test
-# m = Mergesort.new
-# m.init([1,4,10,2,3,32,0])
-# p m.array_sorted
+m = Mergesort.new
+m.init([1,4,10,2,3,32,0])
+p m.array_sorted
