@@ -42,19 +42,19 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby |
 |-------------------------------------|-------|------|--------|----|------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/Java/BogoSort.java) | Python | Go | Ruby |
-| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/algoritmos_ordenacao/bubble_sort.rb) |
-| [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | [Ruby](/Ruby/algoritmos_ordenacao/bucket_sort.rb) |
+| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) |
+| [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | [Ruby](/Ruby/bucket_sort.rb) |
 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/GoLang/cocktailsort/cocktailsort.go) | Ruby |
 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) | Ruby |
-| [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/count_sort.rb) |
+| [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | [Ruby](/Ruby/count_sort.rb) |
 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
-| [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/heap_sort.rb) |
-| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/insertion_sort.rb) |
+| [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | [Ruby](/Ruby/heap_sort.rb) |
+| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) |
 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
-| [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | [Ruby](/Ruby/algoritmos_ordenacao/merge_sort.rb) |
-| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | [Ruby](/Ruby/algoritmos_ordenacao/quick_sort.rb) |
-| [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/radix_sort.rb) |
-| [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | [Ruby](/Ruby/algoritmos_ordenacao/selection_sort.rb) |
+| [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | [Ruby](/Ruby/merge_sort.rb) |
+| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) |
+| [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) |
+| [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) |
 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) | Ruby |
 
 | Extras                              | C/C++ | Java | Python | Go | Ruby |
