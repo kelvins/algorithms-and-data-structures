@@ -14,14 +14,14 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/Python/BuscaSequencialRecursiva.py) | Go | Ruby |
 | [Busca utilizando Sentinela][9]          | [C/C++](/C/BuscaSentinela.c) | Java | [Python](/Python/BuscaSentinela.py) | Go | [Ruby](/Ruby/BuscaSentinela.rb) |
 | Busca por Interpolação          | [C/C++](/C/Interpolation_search.cpp) | Java | Python | Go | Ruby |
-| [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/GoLang/caixeiroviajante/caixeiroviajante.go) | Ruby |
+| [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/Go/caixeiroviajante/caixeiroviajante.go) | Ruby |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/C/CicloHamiltoniano.c) | Java | Python | Go | Ruby |
 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby |
-| [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/GoLang/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
+| [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/Go/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) |
 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) |
-| [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/GoLang/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
+| [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) |
 | [Fatorial Recursiva][16]                  | [C/C++](/C/FatorialRecursiva.c) | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) |
-| [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/GoLang/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
+| [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/Go/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) |
 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby |
 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby |
@@ -32,30 +32,30 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby |
 | [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby |
 | [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/Java/MaxMinArray.java) | [Python](/Python/MinMaxIterativo.py) | Go | Ruby |
-| [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/GoLang/maximominimo/MaximoMinimo.go) | Ruby |
-| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/GoLang/maximominimo/MaximoMinimo.go) | Ruby |
+| [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby |
+| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/Python/PasseioDoCavalo.py) | Go | Ruby |
 | [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) |
 | Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby |
-| [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/GoLang/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) |
+| [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby |
 |-------------------------------------|-------|------|--------|----|------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/Java/BogoSort.java) | Python | Go | Ruby |
-| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/GoLang/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) |
+| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/BubbleSort.py) | [Go](/Go/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) |
 | [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | [Ruby](/Ruby/bucket_sort.rb) |
-| [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/GoLang/cocktailsort/cocktailsort.go) | Ruby |
-| [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/GoLang/combsort/combsort.go) | Ruby |
-| [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/GoLang/countingsort/countingsort.go) | [Ruby](/Ruby/count_sort.rb) |
-| [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/GoLang/gnomesort/gnomesort.go) | Ruby |
-| [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/GoLang/heapsort/heapsort.go) | [Ruby](/Ruby/heap_sort.rb) |
-| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/GoLang/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) |
+| [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/Go/cocktailsort/cocktailsort.go) | Ruby |
+| [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/Go/combsort/combsort.go) | Ruby |
+| [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/Go/countingsort/countingsort.go) | [Ruby](/Ruby/count_sort.rb) |
+| [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/Go/gnomesort/gnomesort.go) | Ruby |
+| [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/Go/heapsort/heapsort.go) | [Ruby](/Ruby/heap_sort.rb) |
+| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/Go/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) |
 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
-| [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/GoLang/mergesort/mergesort.go) | [Ruby](/Ruby/merge_sort.rb) |
-| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/GoLang/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) |
-| [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/GoLang/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) |
-| [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/GoLang/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) |
-| [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/GoLang/shellsort/shellsort.go) | Ruby |
+| [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | Java | Python | [Go](/Go/mergesort/mergesort.go) | [Ruby](/Ruby/merge_sort.rb) |
+| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | Java | [Python](/Python/QuickSort.py) | [Go](/Go/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) |
+| [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/Go/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) |
+| [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/Go/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) |
+| [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/Go/shellsort/shellsort.go) | Ruby |
 
 | Extras                              | C/C++ | Java | Python | Go | Ruby |
 |-------------------------------------|-------|------|--------|----|------|
