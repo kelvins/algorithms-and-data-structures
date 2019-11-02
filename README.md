@@ -63,6 +63,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby |
 | [Palíndromo][49]                    | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/Python/ListaEncadeadaDesordenada.py) | Go | Ruby |
+| [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/Python/calculate_pi.py) | Go | Ruby |
 
 Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
 
@@ -110,3 +111,4 @@ Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo
 [47]: https://pt.wikipedia.org/wiki/Selection_sort
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
+[50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
