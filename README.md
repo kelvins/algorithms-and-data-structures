@@ -66,6 +66,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Palíndromo][49]                    | [C/C++](/C/Palindromo.c) | Java | Python | Go | Ruby |
 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/Python/ListaEncadeadaDesordenada.py) | Go | Ruby |
 | [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/Python/calculate_pi.py) | Go | Ruby |
+| Busca em Labirinto                  | C/C++ | Java | [Python](/Python/busca_em_labirinto.py) | Go | Ruby |
 
 ## Contribuindo
 
