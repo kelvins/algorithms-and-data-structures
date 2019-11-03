@@ -6,7 +6,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 |-------------------------------------|-------|------|--------|----|------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Ruby |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Ruby |
-| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/ArvoreBinariaDeBusca.py) | Go | Ruby | Ruby |
+| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | Ruby |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby |
 | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) |
 | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby |
