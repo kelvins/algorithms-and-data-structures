@@ -4,7 +4,6 @@
 
 from enum import Enum
 import random
-from math import sqrt
 from collections import deque, namedtuple
 
 
@@ -38,6 +37,7 @@ class Maze:
         self._grid[goal.row][goal.col] = Cell.GOAL
 
     def _randomly_fill(self, rows, cols, sparseness):
+        """Preenche o labirinto de forma randomica."""
         for row in range(rows):
             for col in range(cols):
                 if random.uniform(0, 1.0) < sparseness:
@@ -50,6 +50,7 @@ class Maze:
         return maze_location == self.goal
 
     def successors(self, ml):
+        """Calcula as possiveis localizacoes onde eh possivel se mover."""
         locations = list()
         if ml.row + 1 < self._rows and self._grid[ml.row + 1][ml.col] != Cell.BLOCKED:
             locations.append(MazeLocation(ml.row + 1, ml.col))
@@ -62,12 +63,14 @@ class Maze:
         return locations
 
     def mark(self, path):
+        """Marca o caminho andado no labirinto."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.PATH
         self._grid[self.start.row][self.start.col] = Cell.START
         self._grid[self.goal.row][self.goal.col] = Cell.GOAL
 
     def clear(self, path):
+        """Limpa o caminho marcado no labirinto."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.EMPTY
         self._grid[self.start.row][self.start.col] = Cell.START
@@ -111,14 +114,9 @@ class Queue:
 
 
 class Node:
-    def __init__(self, state, parent, cost=0.0, heuristic=0.0):
+    def __init__(self, state, parent):
         self.state = state
         self.parent = parent
-        self.cost = cost
-        self.heuristic = heuristic
-
-    def __lt__(self, other):
-        return (self.cost + self.heuristic) < (other.cost + other.heuristic)
 
 
 def dfs(initial, goal_test, successors):
