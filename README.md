@@ -1,6 +1,8 @@
 # Algoritmos e Estruturas de Dados
 
-Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algoritmos e Estruturas de Dados.
+Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em Ciência da Computação. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
+
+Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go e Ruby.
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby |
 |-------------------------------------|-------|------|--------|----|------|
@@ -65,7 +67,11 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/Python/ListaEncadeadaDesordenada.py) | Go | Ruby |
 | [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/Python/calculate_pi.py) | Go | Ruby |
 
-Quem tiver interesse em colaborar basta enviar um pull request com seu algoritmo/correção.
+## Contribuindo
+
+Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
+
+Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
 
 [1]: https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra
 [2]: https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall
