@@ -40,6 +40,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) |
 | Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby |
 | [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) |
+| [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby |
 |-------------------------------------|-------|------|--------|----|------|
@@ -119,3 +120,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
+[51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
