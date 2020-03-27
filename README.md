@@ -55,7 +55,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/Go/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) |
 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby |
 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | [Java](/Java/Mergesort.java) | Python | [Go](/Go/mergesort/mergesort.go) | [Ruby](/Ruby/merge_sort.rb) |
-| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | [Java](/Java/QuicsSort.java) | [Python](/Python/QuickSort.py) | [Go](/Go/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) |
+| [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | [Java](/Java/Quicsort.java) | [Python](/Python/QuickSort.py) | [Go](/Go/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) |
 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/Go/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) |
 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/Go/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) |
 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/Go/shellsort/shellsort.go) | Ruby |
