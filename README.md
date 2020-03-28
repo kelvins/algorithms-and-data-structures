@@ -52,7 +52,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/Go/countingsort/countingsort.go) | [Ruby](/Ruby/count_sort.rb) | Javascript |
 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/Go/gnomesort/gnomesort.go) | Ruby | Javascript |
 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/Go/heapsort/heapsort.go) | [Ruby](/Ruby/heap_sort.rb) | Javascript |
-| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/Go/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) | Javascript |
+| [Insertion Sort][42]                      | [C/C++](/C/InsertionSort.cpp) | [Java](/Java/InsertionSort.java) | [Python](/Python/InsertionSortIterativo.py) | [Go](/Go/insertionsort/insertionsort.go) | [Ruby](/Ruby/insertion_sort.rb) | [Javascript](/Javascript/InsertionSort.js) |
 | Insertion Sort Recursivo            | C/C++ | Java | [Python](/Python/InsertionSortRecursivo.py) | Go | Ruby | Javascript |
 | [Merge Sort][44]                          | [C/C++](/C/MergeSort.c) | [Java](/Java/Mergesort.java) | Python | [Go](/Go/mergesort/mergesort.go) | [Ruby](/Ruby/merge_sort.rb) | Javascript |
 | [Quicksort][45]                           | [C/C++](/C/QuickSort.cpp) | [Java](/Java/Quicksort.java) | [Python](/Python/QuickSort.py) | [Go](/Go/quicksort/quicksort.go) | [Ruby](/Ruby/quick_sort.rb) | Javascript |
