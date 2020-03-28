@@ -37,7 +37,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
 | Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/Python/PasseioDoCavalo.py) | Go | Ruby | Javascript |
-| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | Javascript |
+| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |
 | Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 | [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) | Javascript |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby | Javascript |
