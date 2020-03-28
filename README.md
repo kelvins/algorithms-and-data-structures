@@ -45,7 +45,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/Java/BogoSort.java) | Python | Go | Ruby | Javascript |
-| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/bubble_sort.py) | [Go](/Go/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) | Javascript |
+| [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/bubble_sort.py) | [Go](/Go/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) | [Javascript](/Javascript/BurbbleSort.js) |
 | [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | [Ruby](/Ruby/bucket_sort.rb) | Javascript |
 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/Go/cocktailsort/cocktailsort.go) | Ruby | Javascript |
 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/Go/combsort/combsort.go) | Ruby | Javascript |
