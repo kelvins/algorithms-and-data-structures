@@ -48,7 +48,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/bubble_sort.py) | [Go](/Go/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) | [Javascript](/Javascript/BurbbleSort.js) |
 | [Bucket Sort][36]                     | C/C++ | [Java](/Java/BucketSort.java) | Python | Go | [Ruby](/Ruby/bucket_sort.rb) | Javascript |
 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/Go/cocktailsort/cocktailsort.go) | Ruby | Javascript |
-| [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/Go/combsort/combsort.go) | Ruby | Javascript |
+| [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/Go/combsort/combsort.go) | Ruby | [Javascript](/Javascript/CombSort.js) |
 | [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/Go/countingsort/countingsort.go) | [Ruby](/Ruby/count_sort.rb) | Javascript |
 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/Go/gnomesort/gnomesort.go) | Ruby | Javascript |
 | [Heapsort][41]                            | C/C++ | [Java](/Java/HeapSort.java) | Python | [Go](/Go/heapsort/heapsort.go) | [Ruby](/Ruby/heap_sort.rb) | Javascript |
