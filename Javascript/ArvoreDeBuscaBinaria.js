@@ -160,17 +160,17 @@ class ArvoreDeBuscaBinaria{
     consultaPosOrdem(raiz = this.raiz){
         let auxiliar = raiz;
 
-        if(auxiliar.esquerda != null) this.consultaPreOrdem(auxiliar.esquerda);
-        if(auxiliar.direita != null) this.consultaPreOrdem(auxiliar.direita);
+        if(auxiliar.esquerda != null) this.consultaPosOrdem(auxiliar.esquerda);
+        if(auxiliar.direita != null) this.consultaPosOrdem(auxiliar.direita);
         console.log(auxiliar.valor);
     }
     
     consultaOrdem(raiz = this.raiz){
         let auxiliar = raiz;
 
-        if(auxiliar.esquerda != null) this.consultaPreOrdem(auxiliar.esquerda);
+        if(auxiliar.esquerda != null) this.consultaOrdem(auxiliar.esquerda);
         console.log(auxiliar.valor);
-        if(auxiliar.direita != null) this.consultaPreOrdem(auxiliar.direita);
+        if(auxiliar.direita != null) this.consultaOrdem(auxiliar.direita);
     }
 
     esvaziar(){
