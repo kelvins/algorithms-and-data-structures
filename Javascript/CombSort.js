@@ -8,21 +8,13 @@ function combSort(vetorDesordenado, inicio, fim){
 
         for(let i = inicio; i < fim-distancia; i++){
             if(vetorDesordenado[i] > vetorDesordenado[i+distancia]){
-                trocaPosicao(vetorDesordenado, i, i+distancia);
+                [vetorDesordenado[i], vetorDesordenado[i+distancia]] = [vetorDesordenado[i+distancia], vetorDesordenado[i]];
                 trocado = true;
             }
         }
     }while(distancia > 1 || trocado);
 
     return vetorDesordenado;
-}
-
-function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
-	let primeiroValor = vetor[posicaoPrimeiro];
-	let segundoValor = vetor[posicaoSegundo];
-
-	vetor[posicaoPrimeiro] = segundoValor;
-	vetor[posicaoSegundo] = primeiroValor;
 }
 
 var vetorDesordenado  = [54,42,11,33,24,99,77,80];

@@ -12,7 +12,7 @@ function shellSort(vetorDesordenado, inicio, fim){
         for(let i = distancia; i< fim; i+=1){
             j = i;
             while(j>= distancia && vetorDesordenado[j - distancia] > vetorDesordenado[j]){
-                trocaPosicao(vetorDesordenado, j - distancia, j);
+                [vetorDesordenado[j - distancia], vetorDesordenado[j]] = [vetorDesordenado[j], vetorDesordenado[j - distancia]];
             }
         }
         distancia = distancia/2;
@@ -20,14 +20,6 @@ function shellSort(vetorDesordenado, inicio, fim){
     }
 
     return vetorDesordenado;
-}
-
-function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
-	let primeiroValor = vetor[posicaoPrimeiro];
-	let segundoValor = vetor[posicaoSegundo];
-
-	vetor[posicaoPrimeiro] = segundoValor;
-	vetor[posicaoSegundo] = primeiroValor;
 }
 
 var vetorDesordenado  = [54,42,11,33,24,99,77,80];

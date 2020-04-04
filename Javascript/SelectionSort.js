@@ -14,7 +14,7 @@ function selectionSort(vetorDesordenado, inicio, fim) {
 
 	for (let i = inicio; i < fim - 1; i++) {
 		let menorPosicao = buscaPosicaoMenor(vetorDesordenado, i, fim);
-		trocaPosicao(vetorDesordenado, menorPosicao, i);
+		[vetorDesordenado[menorPosicao], vetorDesordenado[i]] = [vetorDesordenado[i], vetorDesordenado[menorPosicao]];
 	}
 
 	return vetorDesordenado;
@@ -33,13 +33,7 @@ function buscaPosicaoMenor(vetorDesordenado, inicio, termino){
 	return posicaoMenor;
 }
 
-function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
-	let primeiroValor = vetor[posicaoPrimeiro];
-	let segundoValor = vetor[posicaoSegundo];
-
-	vetor[posicaoPrimeiro] = segundoValor;
-	vetor[posicaoSegundo] = primeiroValor;
-}
-
 var vetorDesordenado  = [54,42,11,33,24,99,77,80];
 let vetorOrdenadoViaSelectionSort = selectionSort(vetorDesordenado, 0, vetorDesordenado.length);
+
+console.log(vetorOrdenadoViaSelectionSort);
