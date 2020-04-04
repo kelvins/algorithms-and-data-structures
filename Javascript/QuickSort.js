@@ -17,21 +17,13 @@ function particiona(vetor, inicio, fim){
 	for (var i = 0; i < fim - 1; i++) {
 
 		if(vetor[i] <= pivo){
-			trocaPosicao(vetor, i, menoresEncontrados);
+			[vetorDesordenado[i], vetorDesordenado[menoresEncontrados]] = [vetorDesordenado[menoresEncontrados], vetorDesordenado[i]];
 			menoresEncontrados++;
 		}
 	}
 
-	trocaPosicao(vetor, fim - 1, menoresEncontrados);
+	[vetorDesordenado[fim - 1], vetorDesordenado[menoresEncontrados]] = [vetorDesordenado[menoresEncontrados], vetorDesordenado[fim - 1]];
 	return menoresEncontrados;
-}
-
-function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
-	let primeiroValor = vetor[posicaoPrimeiro];
-	let segundoValor = vetor[posicaoSegundo];
-
-	vetor[posicaoPrimeiro] = segundoValor;
-	vetor[posicaoSegundo] = primeiroValor;
 }
 
 var vetorDesordenado  = [54,42,11,33,24,99,77,80];
