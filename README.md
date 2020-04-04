@@ -6,9 +6,9 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
-| [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Ruby | Javascript |
-| [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Ruby | Javascript |
-| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
+| [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Javascript |
+| [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |
+| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby  [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
 | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) | Javascript |
 | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby | Javascript |
@@ -42,7 +42,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) | Javascript |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby | Javascript |
 
-| Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
+| Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/Java/BogoSort.java) | Python | Go | Ruby | Javascript |
 | [Bubble Sort][35]                         | [C/C++](/C/BubbleSort.cpp) | [Java](/Java/BubbleSort.java) | [Python](/Python/bubble_sort.py) | [Go](/Go/bubbleSort/bubbleSort.go) | [Ruby](/Ruby/bubble_sort.rb) | [Javascript](/Javascript/BurbbleSort.js) |
@@ -60,7 +60,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/Go/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) | [Javascript](/Javascript/SelectionSort.js) |
 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/Go/shellsort/shellsort.go) | Ruby | [Javascript](/Javascript/ShellSort.js) |
 
-| Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
+| Extras                              | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/Python/ListaComPilhas.py) | Go | Ruby | Javascript |
 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/Python/Soma2Numeros.py) | Go | Ruby | Javascript |
