@@ -8,7 +8,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Javascript |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |
-| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby  [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
+| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
 | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) | Javascript |
 | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby | Javascript |
