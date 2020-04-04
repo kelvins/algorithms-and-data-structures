@@ -10,8 +10,6 @@
 			caso seja maior, segue a análise para o próximo elemento não analisado do vetor.
 */
 
-let body = document.querySelector('body');
-
 function insertionSort(vetorDesordenado, inicio, fim){
 
 		for (var i = inicio + 1; i < fim; i++) {
@@ -37,3 +35,4 @@ function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
 var vetorDesordenado  = [54,42,11,33,24,99,77,80];
 let vetorOrdenadoViaInsertionSort = insertionSort(vetorDesordenado, 0, vetorDesordenado.length);
 
+console.log(vetorOrdenadoViaInsertionSort);
