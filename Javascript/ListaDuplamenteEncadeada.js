@@ -44,7 +44,12 @@ class ListaDuplamenteEncadeada{
         if(this.cabeca.valor == valor){
             
             this.cabeca = this.cabeca.proximo;
-            this.cabeca.proximo.anterior = null;
+            this.cabeca.anterior = null;
+
+        } else if(this.calda.valor == valor){
+
+            this.calda = this.calda.anterior;
+            this.calda.proximo = null;
 
         } else {
 
