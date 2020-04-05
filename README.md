@@ -126,4 +126,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
-[53]: https://www.codespeedy.com/timsort-algorithm-implementation-in-python/
+[53]: https://en.wikipedia.org/wiki/Timsort
