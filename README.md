@@ -8,8 +8,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Javascript |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |
-| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
-| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
 | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) | Javascript |
 | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby | Javascript |
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | Go | [Ruby](/Ruby/BuscaSequencial.rb) | [Javascript](/Javascript/BuscaLinear.js) |
@@ -24,6 +22,18 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) | Javascript |
 | [Fatorial Recursiva][16]                  | [C/C++](/C/FatorialRecursiva.c) | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) | Javascript |
 | [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/Go/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) | Javascript |
+| [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby | Javascript |
+| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/Java/MaxMinArray.java) | [Python](/Python/MinMaxIterativo.py) | Go | Ruby | Javascript |
+| [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
+| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
+| [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/Python/PasseioDoCavalo.py) | Go | Ruby | Javascript |
+| [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) | Javascript |
+| [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby | Javascript |
+
+| Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Javascript |
+|-------------------------------------|-------|------|--------|----|------|------------|
+| [Árvore Binária de Busca][3]        | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
+| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |
@@ -32,15 +42,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaDumplamenteEncadeada.js) |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript |
 | Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby | Javascript |
-| [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby | Javascript |
-| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/Java/MaxMinArray.java) | [Python](/Python/MinMaxIterativo.py) | Go | Ruby | Javascript |
-| [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
-| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
-| [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/Python/PasseioDoCavalo.py) | Go | Ruby | Javascript |
 | [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |
 | Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
-| [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) | Javascript |
-| [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby | Javascript |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
