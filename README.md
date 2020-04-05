@@ -2,7 +2,7 @@
 
 Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em Ciência da Computação. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go e Ruby.
+Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go, Ruby e Javascript.
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
@@ -37,7 +37,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |
-| Lista Circular Ligada               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby | Javascript |
+| [Lista Circular Ligada][52]               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby | Javascript |
 | [Lista Encadeada][22]                     | C/C++ | Java | [Python](/Python/ListaEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaSimplesmenteEncadeada.js) |
 | [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaDumplamenteEncadeada.js) |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript |
@@ -124,3 +124,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
+[52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
