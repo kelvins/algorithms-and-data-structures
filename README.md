@@ -62,6 +62,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/Go/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) | Javascript |
 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/Go/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) | [Javascript](/Javascript/SelectionSort.js) |
 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/Go/shellsort/shellsort.go) | Ruby | [Javascript](/Javascript/ShellSort.js) |
+| [Timsort][53]                             | C/C++ | Java | [Python](/Python/timsort.py) | Go | Ruby | Javascript |
 
 | Extras                              | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
@@ -125,3 +126,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
+[53]: https://www.codespeedy.com/timsort-algorithm-implementation-in-python/
