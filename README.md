@@ -2,14 +2,12 @@
 
 Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em Ciência da Computação. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go e Ruby.
+Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go, Ruby e Javascript.
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/C/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | Javascript |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/C/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |
-| [Árvore Binária de Busca][3]              | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
-| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
 | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | [Ruby](/Ruby/BuscaBinaria.rb) | Javascript |
 | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby | Javascript |
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | Go | [Ruby](/Ruby/BuscaSequencial.rb) | [Javascript](/Javascript/BuscaLinear.js) |
@@ -19,29 +17,34 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/Go/caixeiroviajante/caixeiroviajante.go) | Ruby | Javascript |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/C/CicloHamiltoniano.c) | Java | Python | Go | Ruby | Javascript |
 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby | Javascript |
-| [Deque][52]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/Javascript/Deque.js) |
+| [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/Javascript/Deque.js) |
 | [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/Go/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) | Javascript |
 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) | Javascript |
 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) | Javascript |
 | [Fatorial Recursiva][16]                  | [C/C++](/C/FatorialRecursiva.c) | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) | Javascript |
 | [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/Go/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) | Javascript |
-| [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |
-| [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
-| [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |
-| Lista Circular Ligada               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby | Javascript |
-| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/Python/ListaEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaSimplesmenteEncadeada.js) |
-| [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaDumplamenteEncadeada.js) |
-| [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript |
-| Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby | Javascript |
 | [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby | Javascript |
 | [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/Java/MaxMinArray.java) | [Python](/Python/MinMaxIterativo.py) | Go | Ruby | Javascript |
 | [Mínimo e Máximo Recursivo][28]           | [C/C++](/C/MaxMinRecursivo.c) | Java | [Python](/Python/MaxMinRecursivo.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
 | Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/Python/MaxRecursivoDC.py) | [Go](/Go/maximominimo/MaximoMinimo.go) | Ruby | Javascript |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/Python/PasseioDoCavalo.py) | Go | Ruby | Javascript |
-| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |
-| Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 | [Torre de Hanói][33]                      | C/C++ | [Java](/Java/TorreDeHanoi.java) | [Python](/Python/TorreDeHanoi.py) | [Go](/Go/hanoi/hanoi.go) | [Ruby](/Ruby/Hanoi.rb) | Javascript |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/Python/genetic_algorithm.py) | Go | Ruby | Javascript |
+
+| Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Javascript |
+|-------------------------------------|-------|------|--------|----|------|------------|
+| [Árvore Binária de Busca][3]        | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
+| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
+| [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |
+| [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
+| [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |
+| [Lista Circular Ligada][52]               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby | Javascript |
+| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/Python/ListaEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaSimplesmenteEncadeada.js) |
+| [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaDumplamenteEncadeada.js) |
+| [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript |
+| Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby | Javascript |
+| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |
+| Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
@@ -60,6 +63,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Radix Sort][46]                          | C/C++ | [Java](/Java/RadixSort.java) | Python | [Go](/Go/radixsort/radixsort.go) | [Ruby](/Ruby/radix_sort.rb) | Javascript |
 | [Selection Sort][47]                      | [C/C++](/C/SelectionSort.cpp) | [Java](/Java/SelectionSort.java) | [Python](/Python/SelectionSort.py) | [Go](/Go/selectionsort/selectionsort.go) | [Ruby](/Ruby/selection_sort.rb) | [Javascript](/Javascript/SelectionSort.js) |
 | [Shell Sort][48]                          | C/C++ | [Java](/Java/ShellSort.java) | [Python](/Python/shellSort.py) | [Go](/Go/shellsort/shellsort.go) | Ruby | [Javascript](/Javascript/ShellSort.js) |
+| [Timsort][53]                             | C/C++ | Java | [Python](/Python/timsort.py) | Go | Ruby | Javascript |
 
 | Extras                              | C/C++ | Java | Python | Go | Ruby | Javascript |
 |-------------------------------------|-------|------|--------|----|------|------------|
@@ -122,4 +126,6 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
-[52]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
+[52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
+[53]: https://en.wikipedia.org/wiki/Timsort
+[54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
