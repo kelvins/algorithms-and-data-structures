@@ -19,6 +19,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/Go/caixeiroviajante/caixeiroviajante.go) | Ruby | Javascript |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/C/CicloHamiltoniano.c) | Java | Python | Go | Ruby | Javascript |
 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby | Javascript |
+| [Deque][52]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/Javascript/Deque.js) |
 | [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/Go/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) | Javascript |
 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) | Javascript |
 | [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) | Javascript |
@@ -121,3 +122,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
 [50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
+[52]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
