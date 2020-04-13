@@ -34,6 +34,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|
 | [Árvore Binária de Busca][3]        | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |
+| [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/Javascript/Deque.js) |
 | [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript |
 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |
@@ -127,3 +128,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
 [53]: https://en.wikipedia.org/wiki/Timsort
+[54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
