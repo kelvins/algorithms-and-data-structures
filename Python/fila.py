@@ -1,8 +1,5 @@
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import random
+
 
 class Queue:
     
@@ -16,12 +13,13 @@ class Queue:
         return self.__queue.pop(0)
         
     def show(self):
-        print("Queue: {}".format(self.__queue))
+        print(f'Queue: {self.__queue}')
+
 
 def main():
     queue = Queue()
 
-    for _ in xrange(0, 10):
+    for _ in range(0, 10):
         queue.enqueue(random.randint(10,99))
 
     queue.show()
@@ -31,5 +29,6 @@ def main():
 
     queue.show()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()

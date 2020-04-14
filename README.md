@@ -19,7 +19,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Componentes Conexos][12]                 | [C/C++](/C/ComponentesConexos.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Exponenciação][13]                       | [C/C++](/C/Exponenciacao.c) | Java | [Python](/Python/Exponenciacao.py) | [Go](/Go/exponenciacao/exponenciacao.go) | [Ruby](/Ruby/Exponenciacao.rb) | Javascript |  Pascal |
 | [Exponenciação Recursiva][14]             | [C/C++](/C/ExponenciacaoRecursiva.c) | Java | [Python](/Python/ExponenciacaoRecursiva.py) | Go | [Ruby](/Ruby/ExponenciacaoRecursiva.rb) | Javascript |  Pascal |
-| [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/Fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) | Javascript |  [Pascal](Pascal/fatorial.py) |
+| [Fatorial][15]                            | [C/C++](/C/Fatorial.c) | [Java](/Java/Fatorial.java) | [Python](/Python/fatorial.py) | [Go](/Go/fatorial/fatorial.go) | [Ruby](/Ruby/Fatorial.rb) | Javascript |  [Pascal](Pascal/fatorial.py) |
 | [Fatorial Recursiva][16]                  | [C/C++](/C/FatorialRecursiva.c) | [Java](/Java/FatorialRecursiva.java) | [Python](/Python/FatorialRecursiva.py) | Go | [Ruby](/Ruby/Fatorial.rb) | Javascript | [Pascal](Pascal/fatorial-recusiva.pas) |
 | [Fibonacci][17]                           | [C/C++](/C/Fibonacci.cpp) | [Java](/Java/Fibonacci.java) | [Python](/Python/Fibonacci.py) | [Go](/Go/fibonacci/fibonacci.go) | [Ruby](/Ruby/Fibonacci.rb) | Javascript | Pascal |
 | [Máximo Recursivo][26]                    | [C/C++](/C/MaxRecursivo.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
@@ -34,8 +34,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|--------|
 | [Árvore Binária de Busca][3]        | [C/C++](/C/ArvoreBinariaDeBusca.c) | [Java](/Java/ArvoreDeBuscaBinaria.java) | [Python](/Python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/Javascript/ArvoreDeBuscaBinaria.js) |  Pascal |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby | Javascript |  Pascal |
-| [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/Fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |  Pascal |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/Javascript/Deque.js) | Pascal |
+| [Fila][18]                                | [C/C++](/C/Fila.c) | [Java](/Java/Fila.java) | [Python](/Python/fila.py) | Go | [Ruby](/Ruby/Fila.rb) | [Javascript](/Javascript/Fila.js) |  Pascal |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/C/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | [Grafo][20]                               | [C/C++](/C/Grafos.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Lista Circular Ligada][52]               | [C/C++](/C/ListaCircularLigada.c) | Java | [Python](/Python/ListaEncadeadaCircular.py) | Go | Ruby | Javascript |  Pascal |
@@ -43,7 +43,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Duplamente Encadeada][23]          | [C/C++](/C/ListaDuplamenteEncadeada.c) | [Java](/Java/ListaDuplamenteEncadeada.java) | [Python](/Python/ListaDuplamenteEncadeada.py) | Go | Ruby | [Javascript](/Javascript/ListaDumplamenteEncadeada.js) | Pascal |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/C/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | Lista Sequencial Ordenada           | [C/C++](/C/ListaSequencialOrdenada.c) | Java | [Python](/Python/ListaSequencialOrdenada.py) | Go | Ruby | Javascript |  Pascal |
-| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/Pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |  [Pascal](/Pascal/pilha.pas) |
+| [Pilha][31]                               | [C/C++](/C/Pilha.c) | [Java](/Java/Pilha.java) | [Python](/Python/pilha.py) | Go | [Ruby](/Ruby/Pilha.rb) | [Javascript](/Javascript/Pilha.js) |  [Pascal](/Pascal/pilha.pas) |
 | Pilha Ligada Dinâmica               | [C/C++](/C/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Javascript | Pascal |

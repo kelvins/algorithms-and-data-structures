@@ -1,8 +1,5 @@
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import random
+
 
 class Stack:
     
@@ -16,13 +13,13 @@ class Stack:
         return self.__stack.pop()
         
     def show(self):
-        print("Stack: {}".format(self.__stack))
+        print(f'Stack: {self.__stack}')
 
 
 def main():
     stack = Stack()
 
-    for _ in xrange(0, 10):
+    for _ in range(0, 10):
         stack.push(random.randint(10,99))
 
     stack.show()
@@ -33,5 +30,5 @@ def main():
     stack.show()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
