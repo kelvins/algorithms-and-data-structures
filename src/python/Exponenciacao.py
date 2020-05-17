@@ -1,9 +1,19 @@
+""" Algoritmo de exponenciação """
 
-def Exponenciacao(base, expoente):
+def exponenciacao(base, expoente):
+    """
+    Uma implementação simples de um algoritmo de exponenciação.
+
+    Argumentos:
+        base: int. Base da operação
+        expoente: int. Expoente da operação.
+
+    Retorna o resultado da opeaçao de exponenciação
+    """
     result = base
-    for _ in xrange(0, expoente-1):
+    for _ in range(0, expoente-1):
         result *= base
     return result
 
-print Exponenciacao(5, 2)
-print Exponenciacao(5, 5)
+print(exponenciacao(5, 2))
+print(exponenciacao(5, 5))
