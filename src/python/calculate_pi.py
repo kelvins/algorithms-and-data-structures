@@ -1,9 +1,18 @@
+""" Implementaço de um algoritmo de cálculo do PI """
 
-def calculate_pi(n):
+def calculate_pi(number):
+    """
+    Implementação de um algoritmo de busca sequencial.
+
+    Argumentos:
+    number: int.
+
+    Retorna o valor de PI.
+    """
     denominator = 1.0
     operation = 1.0
     pi = 0.0
-    for _ in range(n):
+    for _ in range(number):
         pi += operation * (4.0 / denominator)
         denominator += 2.0
         operation *= -1.0

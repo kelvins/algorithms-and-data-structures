@@ -1,10 +1,15 @@
+"""
+Problem
+Given an array/list A of n numbers and another number x, determines
+if exists two elements in A whose sum is exactly x
 
-# Problem
-# Given an array/list A of n numbers and another number x, determines
-# if exists two elements in A whose sum is exactly x
-
-# Works only for different values
+Works only for different values
+"""
 def solution1(values, expected):
+    """
+    determines if exists two elements in
+    values whose sum is exactly expected
+    """
     dic = {}
     for index, value in enumerate(values):
         dic[value] = index
@@ -17,6 +22,10 @@ def solution1(values, expected):
 
 # Works with repeated values
 def solution2(values, expected):
+    """
+    determines if exists two elements in
+    values whose sum is exactly expected
+    """
     dic = {}
     for index, value in enumerate(values):
         diff = expected - value
@@ -27,7 +36,7 @@ def solution2(values, expected):
     return False
 
 if __name__ == "__main__":
-    values = [42,5,9,9,16,16,13]
+    values = [42, 5, 9, 9, 16, 16, 13]
 
     print("Solution 1")
 

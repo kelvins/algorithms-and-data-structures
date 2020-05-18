@@ -1,5 +1,8 @@
+""" Implementaçao do algoritmo Torre de Hanoi """
+
 def hanoi(pino0, pino2, pino1, discos):
-    """Mostra os passos da torre de hanoi de forma recursiva.
+    """
+    Mostra os passos da torre de hanoi de forma recursiva.
     Parametros: from, to, helper, numero de discos
     """
     if discos == 1:
