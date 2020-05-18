@@ -1,6 +1,8 @@
-# Genetic algorithm example
-# In this example we will create a generic genetic algorithm
-# that can be applied to solve many problems.
+"""
+Genetic algorithm example
+In this example we will create a generic genetic algorithm
+that can be applied to solve many problems.
+"""
 
 from enum import Enum
 from copy import deepcopy
@@ -34,13 +36,13 @@ SelectionType = Enum('SelectionType', 'ROULETTE TOURNAMENT')
 
 class GeneticAlgorithm:
     def __init__(
-        self,
-        initial_population,
-        threshold,
-        max_generations=100,
-        mutation_chance=0.01,
-        crossover_chance=0.7,
-        selection_type=SelectionType.TOURNAMENT
+            self,
+            initial_population,
+            threshold,
+            max_generations=100,
+            mutation_chance=0.01,
+            crossover_chance=0.7,
+            selection_type=SelectionType.TOURNAMENT
     ):
         self._population = initial_population
         self._threshold = threshold

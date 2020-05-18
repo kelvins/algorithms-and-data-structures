@@ -1,28 +1,29 @@
+"""
+!/usr/bin/env python
+-*- coding: utf-8 -*-
 
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-# Lista Ligada:
-#          _________    _________     _________     _________
-# head --> | 2 | --|--> | 1 | --|-->  | 5 | --|-->  | 3 | --|--> None
-#          ---------    ---------     ---------     ---------
+Lista Ligada:
+         _________    _________     _________     _________
+head --> | 2 | --|--> | 1 | --|-->  | 5 | --|-->  | 3 | --|--> None
+          ---------    ---------     ---------     ---------
+"""
 
 class Node:
-    
-    def __init__(self, value, next_node = None):
+
+    def __init__(self, value, next_node=None):
         self.__value = value
         self.next_node = next_node
-        
+
     @property
     def value(self):
         return self.__value
 
 
 class LinkedList:
-    
+
     def __init__(self):
         self.__main_node = None
-        
+
     def append(self, value):
         if self.__main_node is None:
             self.__main_node = Node(value)

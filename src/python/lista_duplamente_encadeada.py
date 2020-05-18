@@ -1,28 +1,28 @@
+"""
+Lista Duplamente Encadeada
 
-# Lista Duplamente Encadeada
-#
-# A cabeca da lista sempre 'aponta' para o primeiro no
-# O rabo da lista sempre 'aponta' para o ultimo no
-#
-# None <--- | 2 |  ---> None
-# None <--- | 2 | <---> | 5 |  ---> None
-# None <--- | 2 | <---> | 5 | <---> | 12 |  ---> None
-# None <--- | 2 | <---> | 5 | <---> | 12 | <---> | 20 | ---> None
-#
+A cabeca da lista sempre 'aponta' para o primeiro no
+O rabo da lista sempre 'aponta' para o ultimo no
 
-class No(object):
- 
+None <--- | 2 |  ---> None
+None <--- | 2 | <---> | 5 |  ---> None
+None <--- | 2 | <---> | 5 | <---> | 12 |  ---> None
+None <--- | 2 | <---> | 5 | <---> | 12 | <---> | 20 | ---> None
+"""
+
+class No():
+
     def __init__(self, dado, anterior, proximo):
         self.dado = dado
         self.anterior = anterior
         self.proximo = proximo
- 
- 
-class ListaDuplamenteEncadeada(object):
- 
+
+
+class ListaDuplamenteEncadeada():
+
     cabeca = None
     rabo = None
- 
+
     def acrescentar(self, dado):
         """ Acrescenta um novo no a lista. """
         # Cria um novo no apontando para None (anterior e proximo)
@@ -43,12 +43,12 @@ class ListaDuplamenteEncadeada(object):
             self.rabo.proximo = novo_no
             # O rabo agora eh o novo no
             self.rabo = novo_no
- 
+
     def remover(self, dado):
         """ Remove um no da lista. """
         # O no atual eh o primeiro no da lista
         no_atual = self.cabeca
- 
+
         # Vamos procurar pelo dado que queremos remover
         # Equanto o no atual for valido
         while no_atual is not None:
@@ -68,16 +68,16 @@ class ListaDuplamenteEncadeada(object):
                     # O proximo do valor 2 passa a apontar para o 12 e
                     # o anterior do valor 12 passa a apontar para o 2
                     #                     ---------------
-                    # ... <---> | 2 | <---|--- | 5 | ---|---> | 12 | <---> ... 
+                    # ... <---> | 2 | <---|--- | 5 | ---|---> | 12 | <---> ...
                     no_atual.anterior.proximo = no_atual.proximo
                     no_atual.proximo.anterior = no_atual.anterior
 
             # Se nao eh o no que estamos buscando va para o proximo
             no_atual = no_atual.proximo
- 
+
     def mostrar(self):
         """ Mostra todos os dados da lista. """
-        print "Lista Duplamente Encadeada:"
+        print("Lista Duplamente Encadeada:")
 
         # O no atual eh o primeiro no da lista
         no_atual = self.cabeca
@@ -90,14 +90,14 @@ class ListaDuplamenteEncadeada(object):
             no += "<---> | " + str(no_atual.dado) + " | "
             if no_atual.proximo is None:
                 no += "<---> None"
- 
+
             no_atual = no_atual.proximo
-        print no
-        print "="*80
- 
- 
+        print(no)
+        print("="*80)
+
+
 lista = ListaDuplamenteEncadeada()
- 
+
 lista.acrescentar(2)
 lista.mostrar()
 lista.acrescentar(5)
@@ -106,7 +106,7 @@ lista.acrescentar(12)
 lista.mostrar()
 lista.acrescentar(20)
 lista.mostrar()
- 
+
 lista.remover(12)
 lista.mostrar()
 lista.remover(5)

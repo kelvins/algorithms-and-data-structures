@@ -2,7 +2,7 @@
 
 def calculate_pi(number):
     """
-    Implementação de um algoritmo de busca sequencial.
+    Implementação de um algoritmo de cálculo do PI.
 
     Argumentos:
     number: int.

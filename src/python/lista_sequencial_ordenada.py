@@ -9,7 +9,7 @@ def inserir_lista(chave, lista):
     Insere a chave na lista
     """
     lista.append(chave)
-    i = 0
+    i, p = 0, 0
     while lista[i] < chave:
         i += 1
         p = len(lista) - 2

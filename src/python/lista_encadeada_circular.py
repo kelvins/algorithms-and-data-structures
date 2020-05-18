@@ -1,5 +1,9 @@
+""" implementação de uma lista encadeada circular """
+
+import unittest
+
 class Node:
-    
+
     def __init__(self, value):
         self.__value = value
         self.next = None
@@ -8,7 +12,7 @@ class Node:
         return self.__value
 
 class CircularlyLinkedList:
-    
+
     def __init__(self):
         self.__head = None
         self.__tail = None
@@ -76,7 +80,6 @@ class CircularlyLinkedList:
         if not found:
             raise ValueError(str(value) + ' not found in list')
 
-import unittest
 
 class TestCircularlyLinkedList(unittest.TestCase):
 

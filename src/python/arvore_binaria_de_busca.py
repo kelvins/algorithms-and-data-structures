@@ -1,7 +1,8 @@
-
-# Arvore Binaria de Busca em Python
-# Kelvin Salton do Prado
-# 2015
+"""
+Arvore Binaria de Busca em Python
+Kelvin Salton do Prado
+2015
+"""
 
 class Arvore:
     def __init__(self, chave):
@@ -11,19 +12,19 @@ class Arvore:
 
 
 ############# Metodos de Busca #############
-def buscaRecursiva(no, chave):
+def busca_recursiva(no, chave):
     if no is None:
         print(f'{chave} nao foi encontrado na arvore')
-        return None
+        return
     if no.chave == chave:
         print(f'{chave} foi encontrado na arvore')
         return no
     if chave > no.chave:
-        buscaRecursiva(no.direita, chave)
+        busca_recursiva(no.direita, chave)
     else:
-        buscaRecursiva(no.esquerda, chave)
+        busca_recursiva(no.esquerda, chave)
 
-def buscaLinear(no, chave):
+def busca_linear(no, chave):
     while no is not None:
         if no.chave == chave:
             return no
@@ -43,36 +44,36 @@ def insere(no, chave):
         if chave < no.chave:
             no.esquerda = insere(no.esquerda, chave)
         else:
-            no.direita  = insere(no.direita, chave)
+            no.direita = insere(no.direita, chave)
     return no
 ############################################
 
 ########### Metodos de Impressao ###########
-ImprimeArvore = ''
+IMPRIME_ARVORE = ''
 
-def preOrdem(no):
-    global ImprimeArvore
+def pre_ordem(no):
+    global IMPRIME_ARVORE
     if no is None:
         return
-    ImprimeArvore += str(no.chave) + ', '
-    preOrdem(no.esquerda)
-    preOrdem(no.direita)
+    IMPRIME_ARVORE += str(no.chave) + ', '
+    pre_ordem(no.esquerda)
+    pre_ordem(no.direita)
 
-def emOrdem(no):
-    global ImprimeArvore
+def em_ordem(no):
+    global IMPRIME_ARVORE
     if no is None:
         return
-    emOrdem(no.esquerda)
-    ImprimeArvore += str(no.chave) + ', '
-    emOrdem(no.direita)
+    em_ordem(no.esquerda)
+    IMPRIME_ARVORE += str(no.chave) + ', '
+    em_ordem(no.direita)
 
-def posOrdem(no):
-    global ImprimeArvore
+def pos_ordem(no):
+    global IMPRIME_ARVORE
     if no is None:
         return
-    posOrdem(no.esquerda)
-    posOrdem(no.direita)
-    ImprimeArvore += str(no.chave) + ', '
+    pos_ordem(no.esquerda)
+    pos_ordem(no.direita)
+    IMPRIME_ARVORE += str(no.chave) + ', '
 ############################################
 
 
@@ -85,22 +86,22 @@ def maximo(a, b):
 def altura(no):
     if no is None:
         return 0
-    return 1 + maximo( altura(no.esquerda), altura(no.direita) )
+    return 1 + maximo(altura(no.esquerda), altura(no.direita))
 ############################################
 
 
 ########### Metodos de Exclusao ############
-def buscaNoPai(no, ch):
-    noPai = no
+def busca_no_pai(no, ch):
+    no_pai = no
     while no is not None:
         if no.chave == ch:
-            return noPai
-        noPai = no
+            return no_pai
+        no_pai = no
         if no.chave < ch:
             no = no.direita
         else:
             no = no.esquerda
-    return noPai
+    return no_pai
 
 def maiorAesquerda(no):
     no = no.esquerda
@@ -109,10 +110,10 @@ def maiorAesquerda(no):
     return no
 
 def exclui(no, ch):
-    atual = buscaLinear(no, ch)
+    atual = busca_linear(no, ch)
     if atual is None:
         return False
-    noPai = buscaNoPai(no, ch)
+    noPai = busca_no_pai(no, ch)
     if atual.esquerda is None or atual.direita is None:
         if atual.esquerda is None:
             substituto = atual.direita
@@ -149,9 +150,9 @@ if __name__ == '__main__':
     arvore = insere(arvore, 7)
     arvore = insere(arvore, 0)
 
-    buscaRecursiva(arvore, 6) # Busca que imprime na propria funcao
+    busca_recursiva(arvore, 6) # Busca que imprime na propria funcao
 
-    if buscaLinear(arvore, 6) is not None: # Retorna o NO ou None se nao encontrou
+    if busca_linear(arvore, 6) is not None: # Retorna o NO ou None se nao encontrou
         print('Valor encontrado')
     else:
         print('Valor nao encontrado')
@@ -165,15 +166,15 @@ if __name__ == '__main__':
     exclui(arvore, 3)
 
     # Chama os metodos de impressao
-    ImprimeArvore = ""
-    preOrdem(arvore)
-    print(f'PreOrdem: {ImprimeArvore}')
-    ImprimeArvore = ""
-    emOrdem(arvore)
-    print(f'EmOrdem: {ImprimeArvore}')
-    ImprimeArvore = ""
-    posOrdem(arvore)
-    print(f'PosOrdem: {ImprimeArvore}')
+    IMPRIME = ""
+    pre_ordem(arvore)
+    print(f'PreOrdem: {IMPRIME}')
+    IMPRIME = ""
+    em_ordem(arvore)
+    print(f'EmOrdem: {IMPRIME}')
+    IMPRIME = ""
+    pos_ordem(arvore)
+    print(f'PosOrdem: {IMPRIME}')
 
     # Mostra a altura da arvore apos remover os itens
     print(f'Altura: {altura(arvore)}')

@@ -2,7 +2,7 @@
 
 def bubble_sort(data, size):
     """
-    Implementação de um algoritmo de selection sort com recursão.
+    Implementação de um algoritmo de ubble sort com recursão.
 
     Argumentos:
     data: lista. Lista que será ordenada
