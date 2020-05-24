@@ -12,7 +12,7 @@ def inserir_lista(chave, lista):
     i, p = 0, 0
     while lista[i] < chave:
         i += 1
-        p = len(lista) - 2
+    p = len(lista) - 2
     while p >= i:
         lista[p+1] = lista[p]
         p -= 1
