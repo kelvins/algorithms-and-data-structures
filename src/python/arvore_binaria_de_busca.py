@@ -12,7 +12,7 @@ class Arvore:
         self.direita = None
 
 
-############# Metodos de Busca #############
+# Metodos de Busca
 def busca_recursiva(no, chave):
     if no is None:
         print(f'{chave} nao foi encontrado na arvore')
@@ -37,10 +37,7 @@ def busca_linear(no, chave):
     return None
 
 
-############################################
-
-
-############ Metodo de Insercao ############
+# Metodo de Insercao
 def insere(no, chave):
     if no is None:
         no = Arvore(chave)
@@ -52,9 +49,7 @@ def insere(no, chave):
     return no
 
 
-############################################
-
-########### Metodos de Impressao ###########
+# Metodos de Impressao
 IMPRIME_ARVORE = ''
 
 
@@ -85,10 +80,7 @@ def pos_ordem(no):
     IMPRIME_ARVORE += str(no.chave) + ', '
 
 
-############################################
-
-
-######### Acha a Altura da Arvore ##########
+# Acha a Altura da Arvore
 def maximo(a, b):
     if a > b:
         return a
@@ -101,10 +93,7 @@ def altura(no):
     return 1 + maximo(altura(no.esquerda), altura(no.direita))
 
 
-############################################
-
-
-########### Metodos de Exclusao ############
+# Metodos de Exclusao
 def busca_no_pai(no, ch):
     no_pai = no
     while no is not None:
@@ -151,9 +140,6 @@ def exclui(no, ch):
             atual.esquerda = None
         # FREE(substituto)
     return True
-
-
-############################################
 
 
 if __name__ == '__main__':

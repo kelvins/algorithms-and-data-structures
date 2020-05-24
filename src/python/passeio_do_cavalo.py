@@ -26,13 +26,13 @@ def tenta_mover(i, x, y):
     """
     done = i > numSqr  # True ou False
     k = 0
-    while done == False and k < 8:
+    while not done and k < 8:
         u = x + dx[k]  # Coordenadas dos 8 movimentos possiveis do cavalo
         v = y + dy[k]  # Coordenadas dos 8 movimentos possiveis do cavalo
         if aceitavel(u, v):
             tabuleiro[u][v] = i
             done = tenta_mover(i + 1, u, v)  # Tenta outro movimento
-            if done == False:
+            if not done:
                 tabuleiro[u][v] = 0  # Sem sucesso, descarta movimento
         k += 1  # Passa ao proximo movimento possivel
     return done
@@ -42,7 +42,7 @@ def mostra_movimento(x, y):
     tabuleiro[x][y] = 1
     done = tenta_mover(2, x, y)
     string = ""
-    if done == True:
+    if done:
         for x in range(0, num):
             for y in range(0, num):
                 if tabuleiro[x][y] < 10:

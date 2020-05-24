@@ -3,7 +3,7 @@
 
 class Node:
     """
-    Node class store the data and the pointers to the next nodes (left and right).
+    Node class store the data and the pointers to the next nodes (left/right).
     """
 
     def __init__(self, data):
@@ -13,7 +13,7 @@ class Node:
 
 class BinaryTree:
     """
-    Binary tree class provides some methods to insert, remove and print the data.
+    Binary tree class provides some methods to insert, remove and print data.
     """
 
     def __init__(self):
