@@ -4,6 +4,7 @@ Kelvin Salton do Prado
 2015
 """
 
+
 class Arvore:
     def __init__(self, chave):
         self.chave = chave
@@ -24,6 +25,7 @@ def busca_recursiva(no, chave):
     else:
         busca_recursiva(no.esquerda, chave)
 
+
 def busca_linear(no, chave):
     while no is not None:
         if no.chave == chave:
@@ -33,6 +35,8 @@ def busca_linear(no, chave):
         else:
             no = no.esquerda
     return None
+
+
 ############################################
 
 
@@ -46,10 +50,13 @@ def insere(no, chave):
         else:
             no.direita = insere(no.direita, chave)
     return no
+
+
 ############################################
 
 ########### Metodos de Impressao ###########
 IMPRIME_ARVORE = ''
+
 
 def pre_ordem(no):
     global IMPRIME_ARVORE
@@ -59,6 +66,7 @@ def pre_ordem(no):
     pre_ordem(no.esquerda)
     pre_ordem(no.direita)
 
+
 def em_ordem(no):
     global IMPRIME_ARVORE
     if no is None:
@@ -67,6 +75,7 @@ def em_ordem(no):
     IMPRIME_ARVORE += str(no.chave) + ', '
     em_ordem(no.direita)
 
+
 def pos_ordem(no):
     global IMPRIME_ARVORE
     if no is None:
@@ -74,6 +83,8 @@ def pos_ordem(no):
     pos_ordem(no.esquerda)
     pos_ordem(no.direita)
     IMPRIME_ARVORE += str(no.chave) + ', '
+
+
 ############################################
 
 
@@ -83,10 +94,13 @@ def maximo(a, b):
         return a
     return b
 
+
 def altura(no):
     if no is None:
         return 0
     return 1 + maximo(altura(no.esquerda), altura(no.direita))
+
+
 ############################################
 
 
@@ -103,11 +117,13 @@ def busca_no_pai(no, ch):
             no = no.esquerda
     return no_pai
 
+
 def maiorAesquerda(no):
     no = no.esquerda
     while no.direita is not None:
         no = no.direita
     return no
+
 
 def exclui(no, ch):
     atual = busca_linear(no, ch)
@@ -135,11 +151,13 @@ def exclui(no, ch):
             atual.esquerda = None
         # FREE(substituto)
     return True
+
+
 ############################################
 
 
 if __name__ == '__main__':
-    arvore = Arvore(3) # Cria arvore (raiz)
+    arvore = Arvore(3)  # Cria arvore (raiz)
     # Insere varios valores na arvore
     arvore = insere(arvore, 2)
     arvore = insere(arvore, 1)
@@ -150,9 +168,11 @@ if __name__ == '__main__':
     arvore = insere(arvore, 7)
     arvore = insere(arvore, 0)
 
-    busca_recursiva(arvore, 6) # Busca que imprime na propria funcao
+    busca_recursiva(arvore, 6)  # Busca que imprime na propria funcao
 
-    if busca_linear(arvore, 6) is not None: # Retorna o NO ou None se nao encontrou
+    if (
+        busca_linear(arvore, 6) is not None
+    ):  # Retorna o NO ou None se nao encontrou
         print('Valor encontrado')
     else:
         print('Valor nao encontrado')

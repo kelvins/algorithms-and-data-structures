@@ -1,5 +1,6 @@
 """ Heap sort algorithm implementation """
 
+
 def heap_sort(data):
     """Sort a list (data) in-place using HeapSort.
 
@@ -26,7 +27,7 @@ def heap_sort(data):
         child = index * 2 + 1
 
         while child < length:
-            if (child + 1) < length and data[child+1] > data[child]:
+            if (child + 1) < length and data[child + 1] > data[child]:
                 child += 1
             if data[child] > temp:
                 data[parent] = data[child]
@@ -35,6 +36,7 @@ def heap_sort(data):
             else:
                 break
         data[parent] = temp
+
 
 if __name__ == '__main__':
     list_to_sort = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]

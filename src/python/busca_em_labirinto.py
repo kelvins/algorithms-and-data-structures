@@ -22,12 +22,12 @@ MazeLocation = namedtuple('MazeLocation', ['row', 'col'])
 
 class Maze:
     def __init__(
-            self,
-            rows=10,
-            cols=10,
-            sparseness=0.2,
-            start=MazeLocation(0, 0),
-            goal=MazeLocation(9, 9)
+        self,
+        rows=10,
+        cols=10,
+        sparseness=0.2,
+        start=MazeLocation(0, 0),
+        goal=MazeLocation(9, 9),
     ):
         self._rows = rows
         self._cols = cols
@@ -54,11 +54,17 @@ class Maze:
     def successors(self, ml):
         """Calcula as possiveis localizacoes onde eh possivel se mover."""
         locations = list()
-        if ml.row + 1 < self._rows and self._grid[ml.row + 1][ml.col] != Cell.BLOCKED:
+        if (
+            ml.row + 1 < self._rows
+            and self._grid[ml.row + 1][ml.col] != Cell.BLOCKED
+        ):
             locations.append(MazeLocation(ml.row + 1, ml.col))
         if ml.row - 1 >= 0 and self._grid[ml.row - 1][ml.col] != Cell.BLOCKED:
             locations.append(MazeLocation(ml.row - 1, ml.col))
-        if ml.col + 1 < self._cols and self._grid[ml.row][ml.col + 1] != Cell.BLOCKED:
+        if (
+            ml.col + 1 < self._cols
+            and self._grid[ml.row][ml.col + 1] != Cell.BLOCKED
+        ):
             locations.append(MazeLocation(ml.row, ml.col + 1))
         if ml.col - 1 >= 0 and self._grid[ml.row][ml.col - 1] != Cell.BLOCKED:
             locations.append(MazeLocation(ml.row, ml.col - 1))

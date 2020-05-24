@@ -1,5 +1,6 @@
 """ Implementação do algoritmo de busca binária com recursão """
 
+
 def busca_binaria(valor, vetor, esquerda, direita):
     """
     Implementação de um algoritmo de busca binária com recursão.
@@ -12,7 +13,7 @@ def busca_binaria(valor, vetor, esquerda, direita):
 
     Retorna o índice do valor em "vetor" ou -1 caso não exista nela.
     """
-    meio = int((esquerda+direita)/2)
+    meio = int((esquerda + direita) / 2)
 
     if esquerda <= direita:
         if valor > vetor[meio]:

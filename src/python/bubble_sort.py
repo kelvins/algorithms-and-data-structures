@@ -1,5 +1,6 @@
 """ Implementação do algoritmo bubble sort com recursão """
 
+
 def bubble_sort(data, size):
     """
     Implementação de um algoritmo de ubble sort com recursão.
@@ -11,12 +12,12 @@ def bubble_sort(data, size):
     Retorna a lista "data" ordenada.
     """
     swap = False
-    for i in range(0, size-1):
-        if data[i] > data[i+1]:
-            data[i], data[i+1] = data[i+1], data[i]
+    for i in range(0, size - 1):
+        if data[i] > data[i + 1]:
+            data[i], data[i + 1] = data[i + 1], data[i]
             swap = True
     if swap:
-        bubble_sort(data, size-1)
+        bubble_sort(data, size - 1)
 
 
 if __name__ == '__main__':

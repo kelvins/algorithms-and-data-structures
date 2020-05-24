@@ -7,6 +7,7 @@ class Stack:
     """
     Essa classe implementa a estrutura de dados chamada "pilha"
     """
+
     def __init__(self):
         self.__stack = []
 
@@ -21,6 +22,7 @@ class Stack:
     def show(self):
         """ Imprime a pilha no console """
         print(f'Stack: {self.__stack}')
+
 
 def main():
     """

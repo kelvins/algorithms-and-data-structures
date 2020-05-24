@@ -1,5 +1,6 @@
 """ Merge sort algorithm implementation """
 
+
 def merge_sort(data):
     """
     Sorts a list (data) in-place using merge sort approach.
@@ -38,6 +39,7 @@ def merge_sort(data):
         data[data_index] = right_data[right_index]
         right_index += 1
         data_index += 1
+
 
 if __name__ == '__main__':
     some_list = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]

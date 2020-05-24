@@ -1,5 +1,6 @@
 """ Implementação de uma lista encadeada desordenada """
 
+
 class Node:
     def __init__(self, value, next_node=None):
         self.__value = value

@@ -1,5 +1,6 @@
 """ Algoritmo de exponenciação """
 
+
 def exponenciacao(base, expoente):
     """
     Implementação de um algoritmo de exponenciação.
@@ -11,9 +12,10 @@ def exponenciacao(base, expoente):
     Retorna o resultado da operação de exponenciação
     """
     result = base
-    for _ in range(0, expoente-1):
+    for _ in range(0, expoente - 1):
         result *= base
     return result
+
 
 print(exponenciacao(5, 2))
 print(exponenciacao(5, 5))

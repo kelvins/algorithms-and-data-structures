@@ -1,5 +1,6 @@
 """ Implementaçao do algoritmo de busca sequencial com recursão """
 
+
 def busca_sequencial(valor, lista, index):
     """Busca sequencial recursiva.
 
@@ -11,7 +12,8 @@ def busca_sequencial(valor, lista, index):
         return -1
     if lista[index] == valor:
         return index
-    return busca_sequencial(valor, lista, index+1)
+    return busca_sequencial(valor, lista, index + 1)
+
 
 if __name__ == '__main__':
     uma_lista = [1, 9, 39, 4, 12, 38, 94, 37]

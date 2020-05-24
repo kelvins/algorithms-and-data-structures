@@ -1,5 +1,6 @@
 """ Implementaço de um algoritmo de cálculo do PI """
 
+
 def calculate_pi(number):
     """
     Implementação de um algoritmo de cálculo do PI.

@@ -4,6 +4,7 @@ import random
 
 lista = []
 
+
 def inserir_lista(chave, lista):
     """
     Insere a chave na lista
@@ -14,9 +15,10 @@ def inserir_lista(chave, lista):
         i += 1
     p = len(lista) - 2
     while p >= i:
-        lista[p+1] = lista[p]
+        lista[p + 1] = lista[p]
         p -= 1
     lista[i] = chave
+
 
 def busca_sentinela(chave, lista):
     """ Algoritmo de busca sentinela """
@@ -30,6 +32,7 @@ def busca_sentinela(chave, lista):
     lista.pop()
     return i
 
+
 def deleta_valor(chave, lista):
     """ Deleta uma chave na lista """
     posicao = busca_sentinela(chave, lista)
@@ -38,9 +41,11 @@ def deleta_valor(chave, lista):
         return True
     return False
 
+
 def mostra_lista(lista):
     """ Imprime a lista """
     print(lista)
+
 
 for _ in range(0, 50):
     inserir_lista(random.randint(10, 99), lista)

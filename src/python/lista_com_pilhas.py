@@ -4,8 +4,8 @@ Implement a queue with 2 stacks. Your queue should have an enqueue and
 a dequeue function and it should be "first in first out" (FIFO).
 """
 
-class Stack():
 
+class Stack:
     def __init__(self):
         self.items = []
 
@@ -24,8 +24,8 @@ class Stack():
     def position(self, index):
         return self.items[index]
 
-class Queue():
 
+class Queue:
     def __init__(self):
         self.stack1 = Stack()
         self.stack2 = Stack()
@@ -45,11 +45,12 @@ class Queue():
 
     def __str__(self):
         output = []
-        for i in range(self.stack2.length()-1, -1, -1):
+        for i in range(self.stack2.length() - 1, -1, -1):
             output.append(self.stack2.position(i))
         for i in range(0, self.stack1.length()):
             output.append(self.stack1.position(i))
         return str(output)
+
 
 if __name__ == "__main__":
     queue = Queue()

@@ -8,8 +8,8 @@ head --> | 2 | --|--> | 1 | --|-->  | 5 | --|-->  | 3 | --|--> None
           ---------    ---------     ---------     ---------
 """
 
-class Node:
 
+class Node:
     def __init__(self, value, next_node=None):
         self.__value = value
         self.next_node = next_node
@@ -20,7 +20,6 @@ class Node:
 
 
 class LinkedList:
-
     def __init__(self):
         self.__main_node = None
 
@@ -85,6 +84,7 @@ def main():
     linked_list.append(8)
 
     linked_list.show()
+
 
 if __name__ == "__main__":
     main()

@@ -22,7 +22,7 @@ def fib_recursiva(number):
     """Fibonnaci recursiva."""
     if number < 2:
         return number
-    return fib_recursiva(number-1) + fib_recursiva(number-2)
+    return fib_recursiva(number - 1) + fib_recursiva(number - 2)
 
 
 @functools.lru_cache(maxsize=None)
@@ -30,7 +30,9 @@ def fib_recursiva_com_cache(number):
     """Fibonacci recursiva com cache."""
     if number < 2:
         return number
-    return fib_recursiva_com_cache(number-1) + fib_recursiva_com_cache(number-2)
+    return fib_recursiva_com_cache(number - 1) + fib_recursiva_com_cache(
+        number - 2
+    )
 
 
 def run_fibonacci(name, func, number=35):

@@ -1,6 +1,7 @@
 """ Implementação de uma árvore binária """
 
-class Node():
+
+class Node:
     """
     Node class store the data and the pointers to the next nodes (left and right).
     """
@@ -10,7 +11,7 @@ class Node():
         self.data = data
 
 
-class BinaryTree():
+class BinaryTree:
     """
     Binary tree class provides some methods to insert, remove and print the data.
     """
@@ -121,7 +122,7 @@ class BinaryTree():
 
     def level_order(self):
         height = self.get_height(self.root)
-        for i in range(1, height+2):
+        for i in range(1, height + 2):
             self.__print_level(self.root, i)
 
     def __print_level(self, node, level):
@@ -130,8 +131,8 @@ class BinaryTree():
         if level == 1:
             print("%d" % node.data, end=' ')
         elif level > 1:
-            self.__print_level(node.left, level-1)
-            self.__print_level(node.right, level-1)
+            self.__print_level(node.left, level - 1)
+            self.__print_level(node.right, level - 1)
 
     def in_order(self, node):
         if node is None:

@@ -36,13 +36,13 @@ SelectionType = Enum('SelectionType', 'ROULETTE TOURNAMENT')
 
 class GeneticAlgorithm:
     def __init__(
-            self,
-            initial_population,
-            threshold,
-            max_generations=100,
-            mutation_chance=0.01,
-            crossover_chance=0.7,
-            selection_type=SelectionType.TOURNAMENT
+        self,
+        initial_population,
+        threshold,
+        max_generations=100,
+        mutation_chance=0.01,
+        crossover_chance=0.7,
+        selection_type=SelectionType.TOURNAMENT,
     ):
         self._population = initial_population
         self._threshold = threshold
@@ -66,9 +66,9 @@ class GeneticAlgorithm:
         new_population = list()
         while len(new_population) < len(self._population):
             if self._selection_type == SelectionType.ROULETTE:
-                parents = self._pick_roulette([
-                    p.fitness() for p in self._population
-                ])
+                parents = self._pick_roulette(
+                    [p.fitness() for p in self._population]
+                )
             else:
                 parents = self._pick_tournament(len(self._population) // 2)
             # Try to perform a crossover with parents
@@ -108,6 +108,7 @@ class GeneticAlgorithm:
 # In this example we want to maximize the following equation:
 # 6x - x^2 + 4y - y^2
 # Tip: the answer should be: x = 3 and y = 2
+
 
 class SimpleEquation(Chromosome):
     def __init__(self, x, y):
@@ -156,7 +157,7 @@ if __name__ == '__main__':
         threshold=13.0,
         max_generations=100,
         mutation_chance=0.1,
-        crossover_chance=0.7
+        crossover_chance=0.7,
     )
     result = ga.run()
     print(result)

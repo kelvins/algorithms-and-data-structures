@@ -10,15 +10,15 @@ None <--- | 2 | <---> | 5 | <---> | 12 |  ---> None
 None <--- | 2 | <---> | 5 | <---> | 12 | <---> | 20 | ---> None
 """
 
-class No():
 
+class No:
     def __init__(self, dado, anterior, proximo):
         self.dado = dado
         self.anterior = anterior
         self.proximo = proximo
 
 
-class ListaDuplamenteEncadeada():
+class ListaDuplamenteEncadeada:
 
     cabeca = None
     rabo = None
@@ -93,7 +93,7 @@ class ListaDuplamenteEncadeada():
 
             no_atual = no_atual.proximo
         print(no)
-        print("="*80)
+        print("=" * 80)
 
 
 lista = ListaDuplamenteEncadeada()

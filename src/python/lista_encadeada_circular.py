@@ -4,7 +4,6 @@ import unittest
 
 
 class Node:
-
     def __init__(self, value):
         self.__value = value
         self.next = None
@@ -12,8 +11,8 @@ class Node:
     def get_value(self):
         return self.__value
 
-class CircularlyLinkedList:
 
+class CircularlyLinkedList:
     def __init__(self):
         self.__head = None
         self.__tail = None
@@ -83,7 +82,6 @@ class CircularlyLinkedList:
 
 
 class TestCircularlyLinkedList(unittest.TestCase):
-
     def setUp(self):
         self.list = CircularlyLinkedList()
 
@@ -119,6 +117,9 @@ class TestCircularlyLinkedList(unittest.TestCase):
         self.list.remove(2)
         self.assertEqual(2, len(self.list))
 
+
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(TestCircularlyLinkedList)
+    suite = unittest.TestLoader().loadTestsFromTestCase(
+        TestCircularlyLinkedList
+    )
     unittest.TextTestRunner(verbosity=2).run(suite)

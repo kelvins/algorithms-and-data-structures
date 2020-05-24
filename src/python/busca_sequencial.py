@@ -3,6 +3,7 @@ Implementação dos algoritmos de busca sequencial e
 busca sentinela
 """
 
+
 def sequential_search(value, array):
     """
     Implementação de um algoritmo de busca sequencial.
@@ -17,6 +18,7 @@ def sequential_search(value, array):
         if array[i] == value:
             return i
     return -1
+
 
 def sentinel_search(value, array):
     """
@@ -33,9 +35,10 @@ def sentinel_search(value, array):
     while array[index] != value:
         index += 1
     array.pop()
-    if index == len(array)-1:
+    if index == len(array) - 1:
         return -1
     return index
+
 
 some_list = [1, 4, 5, 2, 42, 34, 54, 98, 89, 78, 67]
 print(sequential_search(54, some_list))

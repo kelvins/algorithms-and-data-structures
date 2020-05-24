@@ -5,6 +5,8 @@ if exists two elements in A whose sum is exactly x
 
 Works only for different values
 """
+
+
 def solution1(values, expected):
     """
     determines if exists two elements in
@@ -20,6 +22,7 @@ def solution1(values, expected):
             return True
     return False
 
+
 # Works with repeated values
 def solution2(values, expected):
     """
@@ -34,6 +37,7 @@ def solution2(values, expected):
             continue
         return True
     return False
+
 
 if __name__ == "__main__":
     values = [42, 5, 9, 9, 16, 16, 13]

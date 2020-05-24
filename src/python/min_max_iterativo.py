@@ -3,6 +3,7 @@ Implementação de um algoritmo que busca os valores máximo e mínimo
 em um array
 """
 
+
 def min_max_array(vetor):
     """ Busca os valores máximo e mínimo em vetor """
     minimo = vetor[0]
@@ -16,6 +17,7 @@ def min_max_array(vetor):
 
     print('Minimo : ' + str(minimo))
     print('Maximo : ' + str(maximo))
+
 
 uma_lista = [2, 94, 83, 10, 0, 2, 48, 1, 24]
 min_max_array(uma_lista)

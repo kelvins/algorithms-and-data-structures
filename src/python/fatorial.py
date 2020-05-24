@@ -1,5 +1,6 @@
 """ Uma implementação simples de um algoritmo fatorial """
 
+
 def fatorial(num):
     """
     Uma implementação simples de um algoritmo de fatorial.
@@ -10,7 +11,7 @@ def fatorial(num):
     Retorna o resultado da operação.
     """
     aux = 1
-    for i in range(2, num+1):
+    for i in range(2, num + 1):
         aux = aux * i
     return aux
 
