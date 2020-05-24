@@ -1,15 +1,15 @@
+""" Merge sort algorithm implementation """
 
 def merge_sort(data):
-    """Sort a list (data) in-place using merge sort approach.
-    
+    """
+    Sorts a list (data) in-place using merge sort approach.
     Args:
         data (list): unsorted list.
     """
     if len(data) < 2:
         return
-    
-    mid = len(data) / 2
-    
+    mid = len(data) // 2
+
     left_data = data[:mid]
     right_data = data[mid:]
 
@@ -40,8 +40,7 @@ def merge_sort(data):
         data_index += 1
 
 if __name__ == '__main__':
-    data = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]
-    print('Unsorted list: {}'.format(data))
-    merge_sort(data)
-    print('Sorted list: {}'.format(data))
-
+    some_list = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]
+    print('Unsorted list: {}'.format(some_list))
+    merge_sort(some_list)
+    print('Sorted list: {}'.format(some_list))

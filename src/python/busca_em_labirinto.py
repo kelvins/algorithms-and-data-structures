@@ -1,6 +1,8 @@
-# Busca em largura e em profundidade em um labirinto com o objetivo
-# de encontrar um caminho do ponto "start" ao ponto "goal"
-# Referencia: Problemas Classicos de Ciencia da Computacao com Python
+"""
+Busca em largura e em profundidade em um labirinto com o objetivo
+de encontrar um caminho do ponto "start" ao ponto "goal"
+Referencia: Problemas Classicos de Ciencia da Computacao com Python
+"""
 
 from enum import Enum
 import random
@@ -20,12 +22,12 @@ MazeLocation = namedtuple('MazeLocation', ['row', 'col'])
 
 class Maze:
     def __init__(
-        self,
-        rows = 10,
-        cols = 10,
-        sparseness = 0.2,
-        start = MazeLocation(0, 0),
-        goal = MazeLocation(9, 9)
+            self,
+            rows=10,
+            cols=10,
+            sparseness=0.2,
+            start=MazeLocation(0, 0),
+            goal=MazeLocation(9, 9)
     ):
         self._rows = rows
         self._cols = cols
