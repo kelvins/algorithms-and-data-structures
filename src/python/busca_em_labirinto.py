@@ -4,9 +4,9 @@ de encontrar um caminho do ponto "start" ao ponto "goal"
 Referencia: Problemas Classicos de Ciencia da Computacao com Python
 """
 
-from enum import Enum
 import random
 from collections import deque, namedtuple
+from enum import Enum
 
 
 class Cell(Enum):

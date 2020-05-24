@@ -2,6 +2,7 @@
 
 import random
 
+
 class Stack:
     """
     Essa classe implementa a estrutura de dados chamada "pilha"

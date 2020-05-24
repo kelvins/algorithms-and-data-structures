@@ -8,6 +8,7 @@ execução dos algoritmos em segundos
 import functools
 import time
 
+
 def fib_iterativa(number):
     """Fibonacci iterativa."""
     last = 0

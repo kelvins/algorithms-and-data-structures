@@ -4,12 +4,12 @@ In this example we will create a generic genetic algorithm
 that can be applied to solve many problems.
 """
 
-from enum import Enum
-from copy import deepcopy
-from heapq import nlargest
-from statistics import mean
 from abc import ABC, abstractmethod
+from copy import deepcopy
+from enum import Enum
+from heapq import nlargest
 from random import choices, random, randrange
+from statistics import mean
 
 
 class Chromosome(ABC):
