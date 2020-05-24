@@ -1,20 +1,20 @@
-""" Implementação do algoritmo de busca sentinela """
+""" Implementacao do algoritmo de busca sentinela """
 
 def busca_sentinela(list_to_search, value):
     """
-    Implementação de um algoritmo de busca sentinela.
+    Implementacao de um algoritmo de busca sentinela.
 
     Argumentos:
     value: Any. Valor a ser buscado na lista
-    list_to_search: list. lista na qual o valor será buscado
+    list_to_search: list. lista na qual o valor sera buscado
 
-    Retorna o índice do valor em "list_to_search" ou -1 caso não exista nela.
+    Retorna o indice do valor em "list_to_search" ou -1 caso nao exista nela.
     """
     list_to_search.append(value)
     list_index = 0
     while list_to_search[list_index] != value:
         list_index = list_index + 1
-        list_to_search.pop()
+    list_to_search.pop()
     if list_index == len(list_to_search):
         return -1
     return list_index
