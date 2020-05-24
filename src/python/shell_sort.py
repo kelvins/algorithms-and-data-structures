@@ -1,11 +1,11 @@
-""" Implementaçao do algoritmo shell sort """
+""" Implementacao do algoritmo shell sort """
 
 def shell_sort(a_list):
     """
     Algoritmo shell sort.
 
     Argumentos:
-        a_list: list. Uma lista não ordenada
+        a_list: list. Uma lista nao ordenada
     """
     sublist_count = len(a_list)//2
     while sublist_count > 0:
@@ -21,11 +21,11 @@ def gap_insertion_sort(a_list, start, gap):
     for i in range(start+gap, len(a_list), gap):
         current_value = a_list[i]
         position = i
-    while position >= gap and a_list[position-gap] > current_value:
-        a_list[position] = a_list[position - gap]
-        position = position - gap
+        while position >= gap and a_list[position-gap] > current_value:
+            a_list[position] = a_list[position - gap]
+            position = position - gap
 
-    a_list[position] = current_value
+        a_list[position] = current_value
 
 some_list = [54, 26, 93, 17, 77, 31, 44, 55, 20]
 shell_sort(some_list)
@@ -33,10 +33,10 @@ print(some_list)
 
 def shell(seq):
     """
-    Algoritmo de ordenação shell
+    Algoritmo de ordenacao shell
 
     Argumentos:
-        seq: list. lista não ordenada
+        seq: list. lista nao ordenada
     """
     inc = len(seq) // 2
     while inc:
