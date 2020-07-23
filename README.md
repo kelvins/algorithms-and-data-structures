@@ -8,7 +8,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|--------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/src/c/AlgoritmoDijkstra.c) | Java | Python | Go | Ruby | [Javascript](src/javascript/AlgoritmoDijkstra.js) | Pascal |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/src/c/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
-| [Busca Binária][5]                       | [C/C++](/src/c/BinarySearch.cpp) | Java | [Python](/src/python/busca_binaria.py) | Go | [Ruby](/src/ruby/BuscaBinaria.rb) | Javascript |  [Pascal](/src/pascal/busca-binaria.pas) |
+| [Busca Binária][5]                       | [C/C++](/src/c/BinarySearch.cpp) | Java | [Python](/src/python/busca_binaria.py) | Go | [Ruby](/src/ruby/BuscaBinaria.rb) | [Javascript](/src/javascript/BinarySearch.js) |  [Pascal](/src/pascal/busca-binaria.pas) |
 | [Busca em Grafos][6]                      | [C/C++](/src/c/BuscaEmGrafo.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/src/python/busca_sequencial.py) | Go | [Ruby](/src/ruby/BuscaSequencial.rb) | [Javascript](/src/javascript/BuscaLinear.js) |  Pascal |
 | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/src/python/busca_sequencial_recursiva.py) | Go | Ruby | Javascript |  Pascal |
@@ -84,7 +84,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [2]: https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall
 [3]: https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca
 [4]: https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria
-[5]: https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/binarysearch.html
+[5]: https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria
 [6]: http://www.professeurs.polymtl.ca/michel.gagnon/Disciplinas/Bac/Grafos/Busca/busca.html
 [7]: https://pt.wikipedia.org/wiki/Busca_linear
 [8]: https://pt.wikipedia.org/wiki/Busca_linear
