@@ -23,7 +23,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fatorial Recursiva][16]                  | [C/C++](/src/c/FatorialRecursiva.c) | [Java](/src/java/FatorialRecursiva.java) | [Python](/src/python/fatorial_recursiva.py) | Go | [Ruby](/src/ruby/Fatorial.rb) | [Javascript](/src/javascript/FactorialRecursive.js) | [Pascal](src/pascal/fatorial-recusiva.pas) |
 | [Fibonacci][17]                           | [C/C++](/src/c/Fibonacci.cpp) | [Java](/src/java/Fibonacci.java) | [Python](/src/python/fibonacci.py) | [Go](/src/go/fibonacci/fibonacci.go) | [Ruby](/src/ruby/Fibonacci.rb) | Javascript | Pascal |
 | [Máximo Recursivo][26]                    | [C/C++](/src/c/MaxRecursivo.c) | Java | Python | Go | Ruby | [Javascript](/src/javascript/MaxRecursive.js) |  Pascal |
-| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | Javascript | Pascal |
+| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | [Javascript](/src/javascript/IterativeMinAndMax.js) | Pascal |
 | [Mínimo e Máximo Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
 | Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/src/python/passeio_do_cavalo.py) | Go | Ruby | Javascript |  Pascal |
