@@ -3,7 +3,7 @@ const MAX_LENGTH = 10;
 /**
  * @param {number[]} vector 
  */
-function MinMaxInteractive(vector){
+function MinMaxIterative(vector){
     let min = max = vector[0];
 
     vector.forEach(value => {
@@ -28,7 +28,7 @@ function main(){
     values += "]"
 
     console.log(values);
-    const result = MinMaxInteractive(vector);
+    const result = MinMaxIterative(vector);
     console.log(`Min: ${result.min}\nMax: ${result.max}`);
 }
 
