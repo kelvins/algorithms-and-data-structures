@@ -39,7 +39,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | [Grafo][20]                               | [C/C++](/src/c/Grafos.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Lista Circular Ligada][52]               | [C/C++](/src/c/ListaCircularLigada.c) | Java | [Python](/src/python/lista_encadeada_circular.py) | Go | Ruby | Javascript |  Pascal |
-| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | Ruby | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
+| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | [Ruby](/src/ruby/Lista_encadeada.rb) | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
 | [Lista Duplamente Encadeada][23]          | [C/C++](/src/c/ListaDuplamenteEncadeada.c) | [Java](/src/java/ListaDuplamenteEncadeada.java) | [Python](/src/python/lista_duplamente_encadeada.py) | Go | Ruby | [Javascript](/src/javascript/ListaDumplamenteEncadeada.js) | Pascal |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/src/c/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | Go | Ruby | Javascript |  Pascal |
