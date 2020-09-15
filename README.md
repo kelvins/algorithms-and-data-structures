@@ -39,7 +39,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | [Grafo][20]                               | [C/C++](/src/c/Grafos.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Lista Circular Ligada][52]               | [C/C++](/src/c/ListaCircularLigada.c) | Java | [Python](/src/python/lista_encadeada_circular.py) | Go | Ruby | Javascript |  Pascal |
-| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | Ruby | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
+| [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | [Ruby](/src/ruby/Lista_encadeada.rb) | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
 | [Lista Duplamente Encadeada][23]          | [C/C++](/src/c/ListaDuplamenteEncadeada.c) | [Java](/src/java/ListaDuplamenteEncadeada.java) | [Python](/src/python/lista_duplamente_encadeada.py) | Go | Ruby | [Javascript](/src/javascript/ListaDumplamenteEncadeada.js) | Pascal |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/src/c/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript | Pascal |
 | Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | Go | Ruby | Javascript |  Pascal |
@@ -69,7 +69,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|------------|--------|
 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/src/python/lista_com_pilhas.py) | Go | Ruby | Javascript | Pascal |
 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/src/python/soma_dois_numeros.py) | Go | Ruby | Javascript | Pascal |
-| [Palíndromo][49]                    | [C/C++](/src/c/Palindromo.c) | Java | Python | Go | Ruby | Javascript | Pascal |
+| [Palíndromo][49]                    | [C/C++](/src/c/Palindromo.c) | Java | Python | Go | [Ruby](/src/ruby/Palindromo.rb) | Javascript | Pascal |
 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/src/python/lista_encadeada_desordenada.py) | Go | Ruby | Javascript | Pascal | 
 | [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/src/python/calculate_pi.py) | Go | Ruby | Javascript | Pascal |
 | Busca em Labirinto                  | C/C++ | Java | [Python](/src/python/busca_em_labirinto.py) | Go | Ruby | Javascript | Pascal |
