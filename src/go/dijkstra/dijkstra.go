@@ -31,7 +31,7 @@
 * O objetivo é sair do ponto inicial (0) e chegar ao destino (4) pelo caminho mais curto
 * Resposta: (0)->(1)->(3)->(2)->(4) = 12
 *
-* link Go PlayGround: https://play.golang.org/p/pJEXnfZ1ihN
+* link Go PlayGround: https://play.golang.org/p/HyWAcYJ3qXY
 */
 
 package main
@@ -77,11 +77,11 @@ func Dijkstra(matriz Matriz, n int) {
 
 func main() {
 	matriz := Matriz{
-		{0,		6,		10,		maxInt,	maxInt},
-		{6,		0,		maxInt,	2,		maxInt},
-		{10,		maxInt,	0,		1,		3},
-		{maxInt,	2,		1,		0,		8},
-		{maxInt,	maxInt,	3,		8,		0},
+		{      0,      6,     10, maxInt, maxInt },
+		{      6,      0, maxInt,      2, maxInt },
+		{     10, maxInt,      0,      1,      3 },
+		{ maxInt,      2,      1,      0,      8 },
+		{ maxInt, maxInt,      3,      8,      0 },
 	}
 
 	Dijkstra(matriz, nroVertices)
@@ -106,8 +106,6 @@ func main() {
 			} else {
 				fmt.Printf("	|%v", matriz[i][j])
 			}
-
-			firstLoopI = false
 		}
 		fmt.Println()
 	}
