@@ -77,11 +77,11 @@ func Dijkstra(matriz Matriz, n int) {
 
 func main() {
 	matriz := Matriz{
-		{0,		6,		10,		4294967295,	4294967295},
-		{6,		0,		4294967295,	2,		4294967295},
-		{10,		4294967295,	0,		1,		3},
-		{4294967295,	2,		1,		0,		8},
-		{4294967295,	4294967295,	3,		8,		0},
+		{0,		6,		10,		maxInt,	maxInt},
+		{6,		0,		maxInt,	2,		maxInt},
+		{10,		maxInt,	0,		1,		3},
+		{maxInt,	2,		1,		0,		8},
+		{maxInt,	maxInt,	3,		8,		0},
 	}
 
 	Dijkstra(matriz, nroVertices)
@@ -91,13 +91,11 @@ func main() {
 	// Da print na matriz com os valores atualizados
 	fmt.Println("Matriz:")
 
-	firstLoopI := true
+	fmt.Printf("-  |	|v0	|v1	|v2	|v3	|v4\n")
+	fmt.Println("_____________________________________________")
+
 	for i := 0; i < nroVertices; i++ {
 		for j := 0; j < nroVertices; j++ {
-			if firstLoopI {
-				fmt.Printf("-  |	|v0	|v1	|v2	|v3	|v4\n")
-				fmt.Println("_____________________________________________")
-			}
 
 			if j == 0 {
 				fmt.Printf("v%v |", i)

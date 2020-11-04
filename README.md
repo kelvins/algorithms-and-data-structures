@@ -6,7 +6,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Javascript | Pascal |
 |-------------------------------------|-------|------|--------|----|------|------------|--------|
-| [Algoritmo Dijkstra][1]                  | [C/C++](/src/c/AlgoritmoDijkstra.c) | Java | Python | [Go](/src/go/dirjkstra/dirjkstra.go) | Ruby | [Javascript](src/javascript/AlgoritmoDijkstra.js) | Pascal |
+| [Algoritmo Dijkstra][1]                  | [C/C++](/src/c/AlgoritmoDijkstra.c) | Java | Python | [Go](/src/go/dijkstra/dijkstra.go) | Ruby | [Javascript](src/javascript/AlgoritmoDijkstra.js) | Pascal |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/src/c/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Busca Binária][5]                       | [C/C++](/src/c/BinarySearch.cpp) | Java | [Python](/src/python/busca_binaria.py) | Go | [Ruby](/src/ruby/BuscaBinaria.rb) | [Javascript](/src/javascript/BinarySearch.js) |  [Pascal](/src/pascal/busca-binaria.pas) |
 | [Busca em Grafos][6]                      | [C/C++](/src/c/BuscaEmGrafo.c) | Java | Python | Go | Ruby | [Javascript](/src/javascript/GraphSearch.js) | Pascal |
