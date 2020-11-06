@@ -1,10 +1,8 @@
 /*
 * Listas - Lista linear ordenada
 * Danilo Moura - 2020
-* Implementação da busca utilizando busca binária
 *
-* 1 para todos - Arestas de pesos não negativo - Algoritmo guloso
-* Encontra o caminho mais curto de um vértice (inicio) a outro (destino)
+* Implementação da lista sequencial cujos elementos estão ordenados
 *
 * link Go PlayGround: https://play.golang.org/p/NWrpCHdFvv8
  */
