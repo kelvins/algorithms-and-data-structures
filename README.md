@@ -27,7 +27,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Mínimo e Máximo Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Javascript](/src/javascript/RecursiveMinAndMax.js) | Pascal |
 | Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/src/python/passeio_do_cavalo.py) | Go | Ruby | Javascript |  Pascal |
-| [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | Javascript | Pascal |
+| [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | [Javascript](/src/javascript/TorreDeHanoi.js) | Pascal |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/src/python/genetic_algorithm.py) | Go | Ruby | Javascript |  Pascal |
 
 | Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Javascript | Pascal |
