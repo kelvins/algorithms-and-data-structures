@@ -1,4 +1,4 @@
-function hanoi(pin0, pin1, pin2, num) {
+function hanoi(pin0, pin2, pin1, num) {
   if (num === 1) {
     console.log(`Move from ${pin0} to ${pin2}`);
   } else {
@@ -8,4 +8,4 @@ function hanoi(pin0, pin1, pin2, num) {
   }
 }
 
-hanoi(0,1,2,3);
+hanoi(0,2,1,3);
