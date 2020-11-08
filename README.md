@@ -42,7 +42,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | [Ruby](/src/ruby/Lista_encadeada.rb) | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
 | [Lista Duplamente Encadeada][23]          | [C/C++](/src/c/ListaDuplamenteEncadeada.c) | [Java](/src/java/ListaDuplamenteEncadeada.java) | [Python](/src/python/lista_duplamente_encadeada.py) | Go | [Ruby](/src/ruby/Lista_duplamente_encadeada.rb)| [Javascript](/src/javascript/ListaDumplamenteEncadeada.js) | Pascal |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/src/c/ListaLigadaNaoOrdenada.c) | Java | Python | Go | Ruby | Javascript | Pascal |
-| Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | Go | Ruby | Javascript |  Pascal |
+| Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | [Go](src/go/listasequencialordenada/listaSequencialOrdenada.go) | Ruby | Javascript |  Pascal |
 | [Pilha][31]                               | [C/C++](/src/c/Pilha.c) | [Java](/src/java/Pilha.java) | [Python](/src/python/pilha.py) | Go | [Ruby](/src/ruby/Pilha.rb) | [Javascript](/src/javascript/Pilha.js) |  [Pascal](/src/pascal/pilha.pas) |
 | Pilha Ligada Dinâmica               | [C/C++](/src/c/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 
