@@ -27,7 +27,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Mínimo e Máximo Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Javascript](/src/javascript/RecursiveMinAndMax.js) | Pascal |
 | Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/src/python/passeio_do_cavalo.py) | Go | Ruby | Javascript |  Pascal |
-| [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | Javascript | Pascal |
+| [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | [Javascript](/src/javascript/TorreDeHanoi.js) | Pascal |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/src/python/genetic_algorithm.py) | Go | Ruby | Javascript |  Pascal |
 
 | Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Javascript | Pascal |
@@ -42,7 +42,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Encadeada][22]                     | C/C++ | Java | [Python](/src/python/lista_encadeada.py) | Go | [Ruby](/src/ruby/Lista_encadeada.rb) | [Javascript](/src/javascript/ListaSimplesmenteEncadeada.js) |  Pascal |
 | [Lista Duplamente Encadeada][23]          | [C/C++](/src/c/ListaDuplamenteEncadeada.c) | [Java](/src/java/ListaDuplamenteEncadeada.java) | [Python](/src/python/lista_duplamente_encadeada.py) | Go | [Ruby](/src/ruby/Lista_duplamente_encadeada.rb)| [Javascript](/src/javascript/ListaDumplamenteEncadeada.js) | Pascal |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](/src/c/ListaLigadaNaoOrdenada.c) | Java | Python | [Go](listasequencialnaoordenada/listaSequencialNaoOrdenada.go) | Ruby | Javascript | Pascal |
-| Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | Go | Ruby | Javascript |  Pascal |
+| Lista Sequencial Ordenada           | [C/C++](/src/c/ListaSequencialOrdenada.c) | Java | [Python](/src/python/lista_sequencial_ordenada.py) | [Go](src/go/listasequencialordenada/listaSequencialOrdenada.go) | Ruby | Javascript |  Pascal |
 | [Pilha][31]                               | [C/C++](/src/c/Pilha.c) | [Java](/src/java/Pilha.java) | [Python](/src/python/pilha.py) | Go | [Ruby](/src/ruby/Pilha.rb) | [Javascript](/src/javascript/Pilha.js) |  [Pascal](/src/pascal/pilha.pas) |
 | Pilha Ligada Dinâmica               | [C/C++](/src/c/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 
