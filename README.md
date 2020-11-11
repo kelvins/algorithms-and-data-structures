@@ -71,7 +71,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/src/python/soma_dois_numeros.py) | Go | Ruby | Javascript | Pascal |
 | [Palíndromo][49]                    | [C/C++](/src/c/Palindromo.c) | Java | Python | Go | [Ruby](/src/ruby/Palindromo.rb) | [Javascript](/src/javascript/Palindromo.js) | Pascal |
 | Lista Encadeada Desordenada         | C/C++ | Java | [Python](/src/python/lista_encadeada_desordenada.py) | Go | Ruby | Javascript | Pascal | 
-| [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/src/python/calculate_pi.py) | Go | Ruby | [Javascript](/src/javascript/calculate_pi.js) | Pascal |
+| [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/src/python/calculate_pi.py) | [Go](/src/go/calculatepi/calculatepi.go) | Ruby | [Javascript](/src/javascript/calculate_pi.js) | Pascal |
 | Busca em Labirinto                  | C/C++ | Java | [Python](/src/python/busca_em_labirinto.py) | Go | Ruby | Javascript | Pascal |
 
 ## Contribuindo
