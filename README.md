@@ -1,8 +1,8 @@
-# Algoritmos e Estruturas de Dados
+# :computer: Algoritmos e Estruturas de Dados
 
-Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em Ciência da Computação. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
+Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em **Ciência da Computação**. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go, Ruby, Javascript, Pascal, Swift e Rust.
+Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C/C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Pascal**, **Swift** e **Rust**.
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|------|
@@ -73,7 +73,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](./src/python/calculate_pi.py) | [Go](./src/go/calculatepi/calculatepi.go) | Ruby | [JS](./src/javascript/calculate_pi.js) | Pascal | Swift | Rust |
 | Busca em Labirinto                  | C/C++ | Java | [Python](./src/python/busca_em_labirinto.py) | Go | Ruby | JS | Pascal | Swift | Rust |
 
-## Contribuindo
+## :dancers: Contribuindo
 
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
 
