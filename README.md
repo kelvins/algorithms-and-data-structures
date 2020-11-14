@@ -13,7 +13,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/src/python/busca_sequencial.py) | Go | [Ruby](/src/ruby/BuscaSequencial.rb) | [Javascript](/src/javascript/BuscaLinear.js) |  Pascal |
 | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/src/python/busca_sequencial_recursiva.py) | Go | Ruby | [Javascript](/src/javascript/RecursiveLinearSearch.js) |  Pascal |
 | [Busca utilizando Sentinela][9]          | [C/C++](/src/c/BuscaSentinela.c) | Java | [Python](/src/python/busca_sentinela.py) | Go | [Ruby](/src/ruby/BuscaSentinela.rb) | Javascript |  Pascal |
-| Busca por Interpolação          | [C/C++](/src/c/Interpolation_search.cpp) | Java | Python | Go | Ruby | Javascript |  Pascal |
+| [Busca por Interpolação][55]        | [C/C++](/src/c/Interpolation_search.cpp) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Caixeiro Viajante][10]                   | [C/C++](/src/c/CaixeiroViajante.c) | Java | Python | [Go](/src/go/caixeiroviajante/caixeiroviajante.go) | Ruby | Javascript |  Pascal |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/src/c/CicloHamiltoniano.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
 | [Componentes Conexos][12]                 | [C/C++](/src/c/ComponentesConexos.c) | Java | Python | Go | Ruby | Javascript |  Pascal |
@@ -23,17 +23,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fatorial Recursiva][16]                  | [C/C++](/src/c/FatorialRecursiva.c) | [Java](/src/java/FatorialRecursiva.java) | [Python](/src/python/fatorial_recursiva.py) | Go | [Ruby](/src/ruby/Fatorial.rb) | [Javascript](/src/javascript/FactorialRecursive.js) | [Pascal](src/pascal/fatorial-recusiva.pas) |
 | [Fibonacci][17]                           | [C/C++](/src/c/Fibonacci.cpp) | [Java](/src/java/Fibonacci.java) | [Python](/src/python/fibonacci.py) | [Go](/src/go/fibonacci/fibonacci.go) | [Ruby](/src/ruby/Fibonacci.rb) | [Javascript](/src/javascript/Fibonacci.js) | Pascal |
 | [Máximo Recursivo][26]                    | [C/C++](/src/c/MaxRecursivo.c) | Java | Python | Go | Ruby | [Javascript](/src/javascript/MaxRecursive.js) |  Pascal |
-| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | [Javascript](/src/javascript/IterativeMinAndMax.js) | Pascal |
-| [Mínimo e Máximo Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Javascript](/src/javascript/RecursiveMinAndMax.js) | Pascal |
-| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
+| [Mín. e Máx. Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | [Javascript](/src/javascript/IterativeMinAndMax.js) | Pascal |
+| [Mín. e Máx. Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Javascript](/src/javascript/RecursiveMinAndMax.js) | Pascal |
+| Mín. e Máx. Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Javascript | Pascal |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/src/python/passeio_do_cavalo.py) | Go | Ruby | Javascript |  Pascal |
 | [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | [Javascript](/src/javascript/TorreDeHanoi.js) | Pascal |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/src/python/genetic_algorithm.py) | Go | Ruby | Javascript |  Pascal |
 
 | Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Javascript | Pascal |
 |-------------------------------------|-------|------|--------|----|------|------------|--------|
+| [Árvore Binária][4]                 | C/C++ | Java | [Python](/src/python/binary_tree.py) | Go | Ruby | Javascript |  Pascal |
 | [Árvore Binária de Busca][3]        | [C/C++](/src/c/ArvoreBinariaDeBusca.c) | [Java](/src/java/ArvoreDeBuscaBinaria.java) | [Python](/src/python/arvore_binaria_de_busca.py) | Go | Ruby | [Javascript](/src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal |
-| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/src/python/binary_tree.py) | Go | Ruby | Javascript |  Pascal |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Javascript](/src/javascript/Deque.js) | Pascal |
 | [Fila][18]                                | [C/C++](/src/c/Fila.c) | [Java](/src/java/Fila.java) | [Python](/src/python/fila.py) | Go | [Ruby](/src/ruby/Fila.rb) | [Javascript](/src/javascript/Fila.js) |  Pascal |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Javascript | Pascal |
@@ -128,3 +128,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
 [53]: https://en.wikipedia.org/wiki/Timsort
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
+[55]: https://en.wikipedia.org/wiki/Interpolation_search
