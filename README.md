@@ -13,7 +13,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/src/python/busca_sequencial.py) | Go | [Ruby](/src/ruby/BuscaSequencial.rb) | [Js](/src/javascript/BuscaLinear.js) |  Pascal | Swift |
 | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/src/python/busca_sequencial_recursiva.py) | Go | Ruby | [Js](/src/javascript/RecursiveLinearSearch.js) |  Pascal | Swift |
 | [Busca utilizando Sentinela][9]          | [C/C++](/src/c/BuscaSentinela.c) | Java | [Python](/src/python/busca_sentinela.py) | Go | [Ruby](/src/ruby/BuscaSentinela.rb) | Js |  Pascal | Swift |
-| Busca por Interpolação          | [C/C++](/src/c/Interpolation_search.cpp) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
+| [Busca por Interpolação][55]        | [C/C++](/src/c/Interpolation_search.cpp) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
 | [Caixeiro Viajante][10]                   | [C/C++](/src/c/CaixeiroViajante.c) | Java | Python | [Go](/src/go/caixeiroviajante/caixeiroviajante.go) | Ruby | Js |  Pascal | Swift |
 | [Ciclo Hamiltoniano][11]                  | [C/C++](/src/c/CicloHamiltoniano.c) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
 | [Componentes Conexos][12]                 | [C/C++](/src/c/ComponentesConexos.c) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
@@ -23,17 +23,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Fatorial Recursiva][16]                  | [C/C++](/src/c/FatorialRecursiva.c) | [Java](/src/java/FatorialRecursiva.java) | [Python](/src/python/fatorial_recursiva.py) | Go | [Ruby](/src/ruby/Fatorial.rb) | [Js](/src/javascript/FactorialRecursive.js) | [Pascal](src/pascal/fatorial-recusiva.pas) | Swift |
 | [Fibonacci][17]                           | [C/C++](/src/c/Fibonacci.cpp) | [Java](/src/java/Fibonacci.java) | [Python](/src/python/fibonacci.py) | [Go](/src/go/fibonacci/fibonacci.go) | [Ruby](/src/ruby/Fibonacci.rb) | [Js](/src/javascript/Fibonacci.js) | Pascal | Swift |
 | [Máximo Recursivo][26]                    | [C/C++](/src/c/MaxRecursivo.c) | Java | Python | Go | Ruby | [Js](/src/javascript/MaxRecursive.js) |  Pascal | Swift |
-| [Mínimo e Máximo Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | [Js](/src/javascript/IterativeMinAndMax.js) | Pascal | Swift |
-| [Mínimo e Máximo Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Js](/src/javascript/RecursiveMinAndMax.js) | Pascal | Swift |
-| Mínimo e Máximo Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Js | Pascal | Swift |
+| [Mín. e Máx. Iterativo][27]           | C/C++ | [Java](/src/java/MaxMinArray.java) | [Python](/src/python/min_max_iterativo.py) | Go | Ruby | [Js](/src/javascript/IterativeMinAndMax.js) | Pascal | Swift |
+| [Mín. e Máx. Recursivo][28]           | [C/C++](/src/c/MaxMinRecursivo.c) | Java | [Python](/src/python/maximo_minimo_recursivo.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | [Js](/src/javascript/RecursiveMinAndMax.js) | Pascal | Swift |
+| Mín. e Máx. Divisão e Conquista | C/C++ | Java | [Python](/src/python/maximo_recursivo_dc.py) | [Go](/src/go/maximominimo/MaximoMinimo.go) | Ruby | Js | Pascal | Swift |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](/src/python/passeio_do_cavalo.py) | Go | Ruby | Js |  Pascal | Swift |
 | [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | [Js](/src/javascript/TorreDeHanoi.js) | Pascal | Swift |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/src/python/genetic_algorithm.py) | Go | Ruby | Js |  Pascal | Swift |
 
 | Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|
+| [Árvore Binária][4]                 | C/C++ | Java | [Python](/src/python/binary_tree.py) | Go | Ruby | Js |  Pascal | Swift |
 | [Árvore Binária de Busca][3]        | [C/C++](/src/c/ArvoreBinariaDeBusca.c) | [Java](/src/java/ArvoreDeBuscaBinaria.java) | [Python](/src/python/arvore_binaria_de_busca.py) | Go | Ruby | [Js](/src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal | Swift |
-| [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/src/python/binary_tree.py) | Go | Ruby | Js |  Pascal | Swift |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Js](/src/javascript/Deque.js) | Pascal | Swift |
 | [Fila][18]                                | [C/C++](/src/c/Fila.c) | [Java](/src/java/Fila.java) | [Python](/src/python/fila.py) | Go | [Ruby](/src/ruby/Fila.rb) | [Js](/src/javascript/Fila.js) |  Pascal | Swift |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](/src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | Js | Pascal | Swift |
@@ -49,15 +49,14 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/src/java/BogoSort.java) | Python | Go | Ruby | Js | Pascal | Swift |
-| [Bubble Sort][35]                         | [C/C++](/src/c/BubbleSort.cpp) | [Java](/src/java/BubbleSort.java) | [Python](/src/python/bubble_sort.py) | [Go](/src/go/bubbleSort/bubbleSort.go) | [Ruby](/src/ruby/bubble_sort.rb) | [Js](/src/javascript/BurbbleSort.js) |  [Pascal](/src/pascal/bubble-sort.pas) | Swift |
+| [Bubble Sort][35]                         | [C/C++](/src/c/BubbleSort.cpp) | [Java](/src/java/BubbleSort.java) | [Python](/src/python/bubble_sort.py) | [Go](/src/go/bubbleSort/bubbleSort.go) | [Ruby](/src/ruby/bubble_sort.rb) | [Js](/src/javascript/BurbbleSort.js) |  [Pascal](/src/pascal/bubble-sort.pas) |
 | [Bucket Sort][36]                     | C/C++ | [Java](/src/java/BucketSort.java) | Python | Go | [Ruby](/src/ruby/bucket_sort.rb) | Js | Pascal | Swift |
 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](/src/go/cocktailsort/cocktailsort.go) | Ruby | Js | Pascal | Swift |
 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](/src/go/combsort/combsort.go) | Ruby | [Js](/src/javascript/CombSort.js) | Pascal | Swift |
 | [Counting Sort][39]                       | C/C++ | Java | Python | [Go](/src/go/countingsort/countingsort.go) | [Ruby](/src/ruby/count_sort.rb) | Js | Pascal | Swift |
 | [Gnome Sort][40]                          | C/C++ | Java | Python | [Go](/src/go/gnomesort/gnomesort.go) | Ruby | Js |  Pascal | Swift |
 | [Heapsort][41]                            | C/C++ | [Java](/src/java/HeapSort.java) | Python | [Go](/src/go/heapsort/heapsort.go) | [Ruby](/src/ruby/heap_sort.rb) | [Js](/src/javascript/HeapSort.js) | [Pascal](/src/pascal/heapsort.pas) | Swift |
-| [Insertion Sort][42]                      | [C/C++](/src/c/InsertionSort.cpp) | [Java](/src/java/InsertionSort.java) | [Python](/src/python/insertion_sort_iterativo.py) | [Go](/src/go/insertionsort/insertionsort.go) | [Ruby](/src/ruby/insertion_sort.rb) | [Js](/src/javascript/InsertionSort.js) |  Pascal | Swift |
-| Insertion Sort Recursivo            | C/C++ | Java | [Python](/src/python/insertion_sort_recursivo.py) | Go | Ruby | Js |  Pascal | Swift |
+| [Insertion Sort][42]                      | [C/C++](/src/c/InsertionSort.cpp) | [Java](/src/java/InsertionSort.java) | [Python](/src/python/insertion_sort.py) | [Go](/src/go/insertionsort/insertionsort.go) | [Ruby](/src/ruby/insertion_sort.rb) | [Js](/src/javascript/InsertionSort.js) |  Pascal | Swift |
 | [Merge Sort][44]                          | [C/C++](/src/c/MergeSort.c) | [Java](/src/java/Mergesort.java) | Python | [Go](/src/go/mergesort/mergesort.go) | [Ruby](/src/ruby/merge_sort.rb) | [Js](/src/javascript/MergeSort.js) | [Pascal](/src/pascal/sort/mergesort.pas) | Swift |
 | [Quicksort][45]                           | [C/C++](/src/c/QuickSort.cpp) | [Java](/src/java/Quicksort.java) | [Python](/src/python/quick_sort.py) | [Go](/src/go/quicksort/quicksort.go) | [Ruby](/src/ruby/quick_sort.rb) | [Js](/src/javascript/QuickSort.js) |  Pascal | Swift |
 | [Radix Sort][46]                          | C/C++ | [Java](/src/java/RadixSort.java) | Python | [Go](/src/go/radixsort/radixsort.go) | [Ruby](/src/ruby/radix_sort.rb) | [Js](/src/javascript/RadixSort.js) | Pascal | Swift |
@@ -68,10 +67,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Extras                              | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/src/python/lista_com_pilhas.py) | Go | Ruby | Js | Pascal | Swift |
-| Problema da Soma de 2 Números       | C/C++ | Java | [Python](/src/python/soma_dois_numeros.py) | Go | Ruby | Js | Pascal | Swift |
+| Soma de 2 Números                   | C/C++ | Java | [Python](/src/python/soma_dois_numeros.py) | Go | Ruby | Js | Pascal | Swift |
 | [Palíndromo][49]                    | [C/C++](/src/c/Palindromo.c) | Java | Python | Go | [Ruby](/src/ruby/Palindromo.rb) | [Js](/src/javascript/Palindromo.js) | Pascal | Swift |
-| Lista Encadeada Desordenada         | C/C++ | Java | [Python](/src/python/lista_encadeada_desordenada.py) | Go | Ruby | Js | Pascal |  Swift |
-| [Calcula o PI (Fórmula de Leibniz)][50] | C/C++ | Java | [Python](/src/python/calculate_pi.py) | Go | Ruby | [Js](/src/javascript/calculate_pi.js) | Pascal | Swift |
+| Lista Ligada Desordenada            | C/C++ | Java | [Python](/src/python/lista_encadeada_desordenada.py) | Go | Ruby | Js | Pascal | Swift |
+| [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](/src/python/calculate_pi.py) | [Go](/src/go/calculatepi/calculatepi.go) | Ruby | [Js](/src/javascript/calculate_pi.js) | Pascal | Swift |
 | Busca em Labirinto                  | C/C++ | Java | [Python](/src/python/busca_em_labirinto.py) | Go | Ruby | Js | Pascal | Swift |
 
 ## Contribuindo
@@ -129,3 +128,4 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
 [53]: https://en.wikipedia.org/wiki/Timsort
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
+[55]: https://en.wikipedia.org/wiki/Interpolation_search
