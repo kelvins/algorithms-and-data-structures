@@ -5,7 +5,7 @@ Este repositório disponibiliza alguns algoritmos e estruturas de dados clássic
 Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: C/C++, Java, Python, Go, Ruby, Javascript, Pascal e Swift.
 
 | Algoritmos                          | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
-|-------------------------------------|-------|------|--------|----|------|------------|--------|
+|-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | [Algoritmo Dijkstra][1]                  | [C/C++](/src/c/AlgoritmoDijkstra.c) | Java | Python | [Go](/src/go/dijkstra/dijkstra.go) | Ruby | [Js](src/javascript/AlgoritmoDijkstra.js) | Pascal | Swift |
 | [Algoritmo Floyd Warshall][2]             | [C/C++](/src/c/AlgoritmoFloydWarshall.c) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
 | [Busca Binária][5]                       | [C/C++](/src/c/BinarySearch.cpp) | Java | [Python](/src/python/busca_binaria.py) | Go | [Ruby](/src/ruby/BuscaBinaria.rb) | [Js](/src/javascript/BinarySearch.js) |  [Pascal](/src/pascal/busca-binaria.pas) | Swift |
@@ -30,8 +30,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Torre de Hanói][33]                      | C/C++ | [Java](/src/java/TorreDeHanoi.java) | [Python](/src/python/torre_de_hanoi.py) | [Go](/src/go/hanoi/hanoi.go) | [Ruby](/src/ruby/Hanoi.rb) | [Js](/src/javascript/TorreDeHanoi.js) | Pascal | Swift |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](/src/python/genetic_algorithm.py) | Go | Ruby | Js |  Pascal | Swift |
 
-| Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Js | Pascal |
-|-------------------------------------|-------|------|--------|----|------|------------|--------|
+| Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
+|-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | [Árvore Binária de Busca][3]        | [C/C++](/src/c/ArvoreBinariaDeBusca.c) | [Java](/src/java/ArvoreDeBuscaBinaria.java) | [Python](/src/python/arvore_binaria_de_busca.py) | Go | Ruby | [Js](/src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal | Swift |
 | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/src/python/binary_tree.py) | Go | Ruby | Js |  Pascal | Swift |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [Js](/src/javascript/Deque.js) | Pascal | Swift |
@@ -47,7 +47,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Pilha Ligada Dinâmica               | [C/C++](/src/c/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | Js |  Pascal | Swift |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
-|-------------------------------------|-------|------|--------|----|------|------------|--------|
+|-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | [Bogo Sort][34]                     | C/C++ | [Java](/src/java/BogoSort.java) | Python | Go | Ruby | Js | Pascal | Swift |
 | [Bubble Sort][35]                         | [C/C++](/src/c/BubbleSort.cpp) | [Java](/src/java/BubbleSort.java) | [Python](/src/python/bubble_sort.py) | [Go](/src/go/bubbleSort/bubbleSort.go) | [Ruby](/src/ruby/bubble_sort.rb) | [Js](/src/javascript/BurbbleSort.js) |  [Pascal](/src/pascal/bubble-sort.pas) | Swift |
 | [Bucket Sort][36]                     | C/C++ | [Java](/src/java/BucketSort.java) | Python | Go | [Ruby](/src/ruby/bucket_sort.rb) | Js | Pascal | Swift |
@@ -66,7 +66,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Timsort][53]                             | C/C++ | Java | [Python](/src/python/tim_sort.py) | Go | Ruby | Js | Pascal | Swift |
 
 | Extras                              | C/C++ | Java | Python | Go | Ruby | Js | Pascal | Swift |
-|-------------------------------------|-------|------|--------|----|------|------------|--------|
+|-------------------------------------|-------|------|--------|----|------|----|--------|-------|
 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](/src/python/lista_com_pilhas.py) | Go | Ruby | Js | Pascal | Swift |
 | Problema da Soma de 2 Números       | C/C++ | Java | [Python](/src/python/soma_dois_numeros.py) | Go | Ruby | Js | Pascal | Swift |
 | [Palíndromo][49]                    | [C/C++](/src/c/Palindromo.c) | Java | Python | Go | [Ruby](/src/ruby/Palindromo.rb) | [Js](/src/javascript/Palindromo.js) | Pascal | Swift |
