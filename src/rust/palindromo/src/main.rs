@@ -9,7 +9,7 @@ fn main() {
 }
 pub fn palindromo(mut word: String) -> bool {
     word = word.to_lowercase().split_whitespace().collect::<String>();
-    let reversed_string: String = word.chars().rev().collect::<String>().to_lowercase();
+    let reversed_string: String = word.chars().rev().collect::<String>();
     if word.len() <= 1 {
         return true;
     }
