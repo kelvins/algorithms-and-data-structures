@@ -1,5 +1,5 @@
 fn main(){
-  println!{"{:?}", algoritmo_ordenacao::insertion_sort::insertion_sort(vec![54,42,11,33,24,99,77,80])};
+  println!{"{:?}", insertion_sort(vec![54,42,11,33,24,99,77,80])};
 }
 fn insertion_sort(mut vetor: Vec<i32>) -> Vec<i32> {
   for i in 1..vetor.len() {
