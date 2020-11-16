@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct Fila<T> {
   fila: Vec<T>
 }
@@ -25,4 +26,16 @@ impl<T> Fila<T> {
   fn peek(&self) -> Option<&T> {
     self.fila.first()
   }
+}
+
+fn main(){
+  let mut fila: Fila<i32> = Fila::<i32>::new();
+  fila.enqueue(1);
+  println!("{:?}", fila);
+  fila.dequeue();
+  println!("length: {:?}, is empty? {:?}", fila.length(), fila.is_empty());
+  fila.enqueue(1);
+  fila.enqueue(2);
+  fila.enqueue(3);
+  println!("{:?}", fila.peek());
 }
