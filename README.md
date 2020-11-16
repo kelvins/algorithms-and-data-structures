@@ -73,6 +73,14 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](./src/python/calculate_pi.py) | [Go](./src/go/calculatepi/calculatepi.go) | Ruby | [JS](./src/javascript/calculate_pi.js) | Pascal | Swift | Rust |
 | Busca em Labirinto                  | C/C++ | Java | [Python](./src/python/busca_em_labirinto.py) | Go | Ruby | JS | Pascal | Swift | Rust |
 
+## :ferris_wheel: Playgrounds
+
+- **C++**: [cpp.sh][60]
+- **Go**: [play.golang.org][56]
+- **Swift**: [online.swiftplayground.run][57]
+- **Rust**: [play.rust-lang.org][58]
+- **Generic**: [code.sololearn.com][59]
+
 ## :dancers: Contribuindo
 
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
@@ -129,3 +137,8 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [53]: https://en.wikipedia.org/wiki/Timsort
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
 [55]: https://en.wikipedia.org/wiki/Interpolation_search
+[56]: https://play.golang.org
+[57]: http://online.swiftplayground.run
+[58]: https://play.rust-lang.org
+[59]: https://code.sololearn.com
+[60]: http://cpp.sh/
