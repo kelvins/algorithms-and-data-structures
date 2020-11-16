@@ -8,12 +8,7 @@ import Foundation
 
 func isPalindrome(_ string: String) -> Bool {
     let lowercasedString: String = string.lowercased().replacingOccurrences(of: " ", with: "")
-    var reversedString = ""
-    
-    var reversedStringArray = Array(lowercasedString)
-    reversedStringArray.reverse()
-    for word in reversedStringArray { reversedString += "\(word)" }
-    
+    let reversedString = String(lowercasedString.reversed())
     return (lowercasedString == reversedString)
 }
 
