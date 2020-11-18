@@ -25,7 +25,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Máximo Recursivo][26]                    | [C/C++](./src/c/MaxRecursivo.c) | Java | Python | Go | Ruby | [JS](./src/javascript/MaxRecursive.js) |  Pascal | Swift | Rust |
 | [Mín. e Máx. Iterativo][27]           | C/C++ | [Java](./src/java/MaxMinArray.java) | [Python](./src/python/min_max_iterativo.py) | Go | Ruby | [JS](./src/javascript/IterativeMinAndMax.js) | Pascal | Swift | Rust |
 | [Mín. e Máx. Recursivo][28]           | [C/C++](./src/c/MaxMinRecursivo.c) | Java | [Python](./src/python/maximo_minimo_recursivo.py) | [Go](./src/go/maximominimo/MaximoMinimo.go) | Ruby | [JS](./src/javascript/RecursiveMinAndMax.js) | Pascal | Swift | Rust |
-| Mín. e Máx. Divisão e Conquista | C/C++ | Java | [Python](./src/python/maximo_recursivo_dc.py) | [Go](./src/go/maximominimo/MaximoMinimo.go) | Ruby | JS | Pascal | Swift | Rust |
+| Mín. e Máx. D&C                       | C/C++ | Java | [Python](./src/python/maximo_recursivo_dc.py) | [Go](./src/go/maximominimo/MaximoMinimo.go) | Ruby | JS | Pascal | Swift | Rust |
 | [Passeio do Cavalo][30]                   | C/C++ | Java | [Python](./src/python/passeio_do_cavalo.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Torre de Hanói][33]                      | C/C++ | [Java](./src/java/TorreDeHanoi.java) | [Python](./src/python/torre_de_hanoi.py) | [Go](./src/go/hanoi/hanoi.go) | [Ruby](./src/ruby/Hanoi.rb) | [JS](./src/javascript/TorreDeHanoi.js) | Pascal | Swift | Rust |
 | [Algoritmo Genético][51]                  | C/C++ | Java | [Python](./src/python/genetic_algorithm.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
@@ -34,8 +34,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|------|
 | [Árvore Binária][4]                 | C/C++ | Java | [Python](./src/python/binary_tree.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Árvore Binária de Busca][3]        | [C/C++](./src/c/ArvoreBinariaDeBusca.c) | [Java](./src/java/ArvoreDeBuscaBinaria.java) | [Python](./src/python/arvore_binaria_de_busca.py) | Go | Ruby | [JS](./src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal | Swift | Rust |
-| [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [JS](./src/javascript/Deque.js) | Pascal | Swift | Rust |
-| [Fila][18]                                | [C/C++](./src/c/Fila.c) | [Java](./src/java/Fila.java) | [Python](./src/python/fila.py) | Go | [Ruby](./src/ruby/Fila.rb) | [JS](./src/javascript/Fila.js) |  Pascal | Swift | Rust |
+| [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [JS](./src/javascript/Deque.js) | Pascal | Swift | [Rust](./src/rust/deque.rs) |
+| [Fila][18]                                | [C/C++](./src/c/Fila.c) | [Java](./src/java/Fila.java) | [Python](./src/python/fila.py) | Go | [Ruby](./src/ruby/Fila.rb) | [JS](./src/javascript/Fila.js) |  Pascal | Swift | [Rust](./src/rust/fila.rs) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](./src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
 | [Grafo][20]                               | [C/C++](./src/c/Grafos.c) | Java | Python | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Lista Circular Ligada][52]               | [C/C++](./src/c/ListaCircularLigada.c) | Java | [Python](./src/python/lista_encadeada_circular.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
@@ -43,7 +43,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Duplamente Encadeada][23]          | [C/C++](./src/c/ListaDuplamenteEncadeada.c) | [Java](./src/java/ListaDuplamenteEncadeada.java) | [Python](./src/python/lista_duplamente_encadeada.py) | Go | [Ruby](./src/ruby/Lista_duplamente_encadeada.rb)| [JS](./src/javascript/ListaDuplamenteEncadeada.js) | Pascal | Swift | Rust |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](./src/c/ListaLigadaNaoOrdenada.c) | Java | Python | [Go](src/go/listasequencialnaoordenada/listaSequencialNaoOrdenada.go) | Ruby | JS | Pascal | Swift | Rust |
 | Lista Sequencial Ordenada           | [C/C++](./src/c/ListaSequencialOrdenada.c) | Java | [Python](./src/python/lista_sequencial_ordenada.py) | [Go](src/go/listasequencialordenada/listaSequencialOrdenada.go) | Ruby | JS |  Pascal | Swift | Rust |
-| [Pilha][31]                               | [C/C++](./src/c/Pilha.c) | [Java](./src/java/Pilha.java) | [Python](./src/python/pilha.py) | Go | [Ruby](./src/ruby/Pilha.rb) | [JS](./src/javascript/Pilha.js) |  [Pascal](./src/pascal/pilha.pas) | Swift | Rust |
+| [Pilha][31]                               | [C/C++](./src/c/Pilha.c) | [Java](./src/java/Pilha.java) | [Python](./src/python/pilha.py) | Go | [Ruby](./src/ruby/Pilha.rb) | [JS](./src/javascript/Pilha.js) |  [Pascal](./src/pascal/pilha.pas) | Swift | [Rust](./src/rust/pilha.rs) |
 | Pilha Ligada Dinâmica               | [C/C++](./src/c/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | JS |  Pascal | Swift | Rust |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
@@ -70,8 +70,16 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Soma de 2 Números                   | C/C++ | Java | [Python](./src/python/soma_dois_numeros.py) | Go | Ruby | JS | Pascal | Swift | Rust |
 | [Palíndromo][49]                    | [C/C++](./src/c/Palindromo.c) | Java | Python | Go | [Ruby](./src/ruby/Palindromo.rb) | [JS](./src/javascript/Palindromo.js) | Pascal | [Swift](./src/swift/palindromo.swift) | [Rust](./src/rust/palindromo.rs) |
 | Lista Ligada Desordenada            | C/C++ | Java | [Python](./src/python/lista_encadeada_desordenada.py) | Go | Ruby | JS | Pascal | Swift | Rust |
-| [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](./src/python/calculate_pi.py) | [Go](./src/go/calculatepi/calculatepi.go) | Ruby | [JS](./src/javascript/calculate_pi.js) | Pascal | Swift | Rust |
+| [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](./src/python/calculate_pi.py) | [Go](./src/go/calculatepi/calculatepi.go) | Ruby | [JS](./src/javascript/calculate_pi.js) | Pascal | Swift | [Rust](./src/rust/calculate_pi.rs) |
 | Busca em Labirinto                  | C/C++ | Java | [Python](./src/python/busca_em_labirinto.py) | Go | Ruby | JS | Pascal | Swift | Rust |
+
+## :ferris_wheel: Playgrounds
+
+- **C++**: [cpp.sh][60]
+- **Go**: [play.golang.org][56]
+- **Swift**: [online.swiftplayground.run][57]
+- **Rust**: [play.rust-lang.org][58]
+- **Generic**: [code.sololearn.com][59]
 
 ## :dancers: Contribuindo
 
@@ -129,3 +137,8 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [53]: https://en.wikipedia.org/wiki/Timsort
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
 [55]: https://en.wikipedia.org/wiki/Interpolation_search
+[56]: https://play.golang.org
+[57]: http://online.swiftplayground.run
+[58]: https://play.rust-lang.org
+[59]: https://code.sololearn.com
+[60]: http://cpp.sh/
