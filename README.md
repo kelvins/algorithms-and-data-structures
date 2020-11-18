@@ -49,7 +49,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|------|
 | [Bogo Sort][34]                     | C/C++ | [Java](./src/java/BogoSort.java) | Python | Go | Ruby | JS | Pascal | Swift | Rust |
-| [Bubble Sort][35]                         | [C/C++](./src/c/BubbleSort.cpp) | [Java](./src/java/BubbleSort.java) | [Python](./src/python/bubble_sort.py) | [Go](./src/go/bubbleSort/bubbleSort.go) | [Ruby](./src/ruby/bubble_sort.rb) | [JS](./src/javascript/BurbbleSort.js) |  [Pascal](./src/pascal/bubble-sort.pas) | Swift | Rust |
+| [Bubble Sort][35]                         | [C/C++](./src/c/BubbleSort.cpp) | [Java](./src/java/BubbleSort.java) | [Python](./src/python/bubble_sort.py) | [Go](./src/go/bubbleSort/bubbleSort.go) | [Ruby](./src/ruby/bubble_sort.rb) | [JS](./src/javascript/BurbbleSort.js) |  [Pascal](./src/pascal/bubble-sort.pas) | Swift | [Rust](./src/rust/bubble_sort.rs) |
 | [Bucket Sort][36]                     | C/C++ | [Java](./src/java/BucketSort.java) | Python | Go | [Ruby](./src/ruby/bucket_sort.rb) | JS | Pascal | Swift | Rust |
 | [Cocktail Sort][37]                       | C/C++ | Java | Python | [Go](./src/go/cocktailsort/cocktailsort.go) | Ruby | JS | Pascal | Swift | Rust |
 | [Comb Sort][38]                           | C/C++ | Java | Python | [Go](./src/go/combsort/combsort.go) | Ruby | [JS](./src/javascript/CombSort.js) | Pascal | Swift | Rust |
