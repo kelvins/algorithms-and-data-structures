@@ -6,8 +6,7 @@ fn fibonacci(number: i32) -> i32{
     }
   }
 fn main() {
-    println!("{:?}", fibonacci(30)); 
-    println!("{:?}", fibonacci(50)); 
-    println!("{:?}", fibonacci(3));        
-    println!("{:?}", fibonacci(15));   
+  println!("{:?}", fibonacci(3));        
+  println!("{:?}", fibonacci(15));   
+  println!("{:?}", fibonacci(30)); 
 }
