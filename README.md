@@ -11,7 +11,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Busca Binária][5]                       | [C/C++](./src/c/BinarySearch.cpp) | Java | [Python](./src/python/busca_binaria.py) | Go | [Ruby](./src/ruby/BuscaBinaria.rb) | [JS](./src/javascript/BinarySearch.js) |  [Pascal](./src/pascal/busca-binaria.pas) | Swift | Rust |
 | [Busca em Grafos][6]                      | [C/C++](./src/c/BuscaEmGrafo.c) | Java | Python | Go | Ruby | [JS](./src/javascript/GraphSearch.js) | Pascal | Swift | Rust |
 | [Busca Sequencial][7]                    | C/C++ | Java | [Python](./src/python/busca_sequencial.py) | Go | [Ruby](./src/ruby/BuscaSequencial.rb) | [JS](./src/javascript/BuscaLinear.js) |  Pascal | Swift | Rust |
-| [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](./src/python/busca_sequencial_recursiva.py) | Go | Ruby | [JS](./src/javascript/RecursiveLinearSearch.js) |  Pascal | Swift | Rust |
+| [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](./src/python/busca_sequencial_recursiva.py) | Go | [Ruby](src/ruby/Busca_Sequencial_Recursiva.rb) | [JS](./src/javascript/RecursiveLinearSearch.js) |  Pascal | Swift | Rust |
 | [Busca utilizando Sentinela][9]          | [C/C++](./src/c/BuscaSentinela.c) | Java | [Python](./src/python/busca_sentinela.py) | Go | [Ruby](./src/ruby/BuscaSentinela.rb) | JS |  Pascal | Swift | Rust |
 | [Busca por Interpolação][55]        | [C/C++](./src/c/Interpolation_search.cpp) | Java | Python | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Caixeiro Viajante][10]                   | [C/C++](./src/c/CaixeiroViajante.c) | Java | Python | [Go](./src/go/caixeiroviajante/caixeiroviajante.go) | Ruby | JS |  Pascal | Swift | Rust |
