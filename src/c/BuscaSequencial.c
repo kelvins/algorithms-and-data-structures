@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-int buscaSequencial(char vetor[], int tamanho, char buscado  ) {
-    int i;
-    for (i = 0; i < tamanho; i++)
+int buscaSequencial(int vetor[], int buscado) {
+    size_t n = sizeof(vetor[0]);
+    for (int i = 0; i < n; i++)
     {
         if (vetor[i] == buscado)
         {
-            printf("Encontrado na posição %d\n", i);
+            return i;
         }
     }
     return -1;    
 }
 
 int main(){
-    char a[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    buscaSequencial(a, 8, 3);
-    buscaSequencial(a, 8, 9);
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    buscaSequencial(a, 3);
+    buscaSequencial(a, 9);
 }
