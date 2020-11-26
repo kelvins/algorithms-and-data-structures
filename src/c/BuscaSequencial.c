@@ -15,5 +15,5 @@ int buscaSequencial(int vetor[], int buscado) {
 int main(){
     int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
     printf("Valor %d no índice %d\n", 3, buscaSequencial(a, 3));
-    buscaSequencial(a, 9);
+    printf("Valor %d no índice %d\n", 9, buscaSequencial(a, 9));
 }
