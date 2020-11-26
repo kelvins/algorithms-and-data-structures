@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-int buscaSequencialRec(char vetor[], int i, char buscado, int size) {
+int buscaSequencialRecursiva(int vetor[], int i, int buscado) {
+    size_t n = sizeof(vetor) / sizeof(vetor[0]);
     if (vetor[i] == buscado)
     {
-        printf("Encontrado na posição %d\n", i);
+        return i;
     } 
-    else if (i == size)
+    else if (i == n)
     {
         return -1;
     }
     else
     {
-        buscaSequencialRec(vetor, i+1, buscado, size);
+        buscaSequencialRecursiva(vetor, i+1, buscado);
     }
-    return 0;
 }
 
 int main(){
-    char a[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    buscaSequencialRec(a, 0, 1, 8);
-    buscaSequencialRec(a, 0, 10, 8);
+    int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
+    printf("Valor %d no índice %d\n", 1, buscaSequencialRecursiva(a, 0, 1));
+    buscaSequencialRecursiva(a, 0, 10);
 }
