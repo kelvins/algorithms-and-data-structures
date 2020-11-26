@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int buscaSequencial(int vetor[], int buscado) {
-    size_t n = sizeof(vetor[0]);
+    size_t n = sizeof(vetor) / sizeof(vetor[0]);
     for (int i = 0; i < n; i++)
     {
         if (vetor[i] == buscado)
