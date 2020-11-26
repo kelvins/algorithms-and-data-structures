@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-int buscaSequencial(int vetor[], int buscado) {
-    size_t n = sizeof(vetor) / sizeof(vetor[0]);
-    for (int i = 0; i < n; i++)
+int buscaSequencial(int vetor[], int size, int buscado) {
+    for (int i = 0; i < size; i++)
     {
         if (vetor[i] == buscado)
         {
@@ -14,6 +13,7 @@ int buscaSequencial(int vetor[], int buscado) {
 
 int main(){
     int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
-    printf("Valor %d no índice %d\n", 3, buscaSequencial(a, 3));
-    printf("Valor %d no índice %d\n", 9, buscaSequencial(a, 9));
+    int n = sizeof(a) / sizeof(a[0]);
+    printf("Valor %d no índice %d\n", 3, buscaSequencial(a, n, 3));
+    printf("Valor %d no índice %d\n", 9, buscaSequencial(a, n, 9));
 }
