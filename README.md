@@ -35,7 +35,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Árvore Binária][4]                 | C/C++ | Java | [Python](./src/python/binary_tree.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Árvore Binária de Busca][3]        | [C/C++](./src/c/ArvoreBinariaDeBusca.c) | [Java](./src/java/ArvoreDeBuscaBinaria.java) | [Python](./src/python/arvore_binaria_de_busca.py) | Go | Ruby | [JS](./src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal | Swift | Rust |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [JS](./src/javascript/Deque.js) | Pascal | Swift | [Rust](./src/rust/deque.rs) |
-| [Fila][18]                                | [C/C++](./src/c/Fila.c) | [Java](./src/java/Fila.java) | [Python](./src/python/fila.py) | Go | [Ruby](./src/ruby/Fila.rb) | [JS](./src/javascript/Fila.js) |  Pascal | Swift | [Rust](./src/rust/fila.rs) |
+| [Fila][18]                                | [C/C++](./src/c/Fila.c) | [Java](./src/java/Fila.java) | [Python](./src/python/fila.py) | Go | [Ruby](./src/ruby/Fila.rb) | [JS](./src/javascript/Fila.js) |  Pascal | [Swift](./src/swift/fila.swift) | [Rust](./src/rust/fila.rs) |
 | [Fila Encadeada Dinâmica][19]             | [C/C++](./src/c/FilaEncadeadaDinamica.c) | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
 | [Grafo][20]                               | [C/C++](./src/c/Grafos.c) | Java | Python | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Lista Circular Ligada][52]               | [C/C++](./src/c/ListaCircularLigada.c) | Java | [Python](./src/python/lista_encadeada_circular.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
