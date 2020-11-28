@@ -43,7 +43,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Lista Duplamente Encadeada][23]          | [C/C++](./src/c/ListaDuplamenteEncadeada.c) | [Java](./src/java/ListaDuplamenteEncadeada.java) | [Python](./src/python/lista_duplamente_encadeada.py) | Go | [Ruby](./src/ruby/Lista_duplamente_encadeada.rb)| [JS](./src/javascript/ListaDuplamenteEncadeada.js) | Pascal | Swift | Rust |
 | [Lista Ligada Não Ordenada][24]           | [C/C++](./src/c/ListaLigadaNaoOrdenada.c) | Java | Python | [Go](src/go/listasequencialnaoordenada/listaSequencialNaoOrdenada.go) | Ruby | JS | Pascal | Swift | Rust |
 | Lista Sequencial Ordenada           | [C/C++](./src/c/ListaSequencialOrdenada.c) | Java | [Python](./src/python/lista_sequencial_ordenada.py) | [Go](src/go/listasequencialordenada/listaSequencialOrdenada.go) | Ruby | JS |  Pascal | Swift | Rust |
-| [Pilha][31]                               | [C/C++](./src/c/Pilha.c) | [Java](./src/java/Pilha.java) | [Python](./src/python/pilha.py) | Go | [Ruby](./src/ruby/Pilha.rb) | [JS](./src/javascript/Pilha.js) |  [Pascal](./src/pascal/pilha.pas) | Swift | [Rust](./src/rust/pilha.rs) |
+| [Pilha][31]                               | [C/C++](./src/c/Pilha.c) | [Java](./src/java/Pilha.java) | [Python](./src/python/pilha.py) | Go | [Ruby](./src/ruby/Pilha.rb) | [JS](./src/javascript/Pilha.js) |  [Pascal](./src/pascal/pilha.pas) | [Swift](./src/swift/pilha.swift) | [Rust](./src/rust/pilha.rs) |
 | Pilha Ligada Dinâmica               | [C/C++](./src/c/PilhaLigadaDinamica.c) | Java | Python | Go | Ruby | JS |  Pascal | Swift | Rust |
 
 | Algoritmos de Ordenação             | C/C++ | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
