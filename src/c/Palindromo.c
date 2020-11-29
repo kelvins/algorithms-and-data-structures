@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define TAMANHO_MAX_PALAVRA 100
+#define MAX_SIZE_WORD 100
 
 void calc_reverse(char *input, char *output) {
   size_t len_input = strlen(input);
@@ -15,13 +15,13 @@ void calc_reverse(char *input, char *output) {
 }
 
 int main() {
-  char input[TAMANHO_MAX_PALAVRA];
-  char reverse[TAMANHO_MAX_PALAVRA];
+  char input[MAX_SIZE_WORD];
+  char reverse[MAX_SIZE_WORD];
 
   printf("Digite uma palavra: ");
 
-  fgets(input, TAMANHO_MAX_PALAVRA, stdin);
-  //remove New Line from the end;
+  fgets(input, MAX_SIZE_WORD, stdin);
+  //remove New Line from the end
   input[strlen(input) - 1] = '\0';
 
   calc_reverse(input, reverse);
