@@ -32,7 +32,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 | Estruturas de Dados                 | C/C++ | Java | Python | Go | Ruby | JS | Pascal | Swift | Rust |
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|------|
-| [Árvore Binária][4]                 | [C/C++](/src/c/ArvoreBinaria.c) | Java | [Python](./src/python/binary_tree.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
+| [Árvore Binária][4]                 | [C/C++](./src/c/ArvoreBinaria.c) | Java | [Python](./src/python/binary_tree.py) | Go | Ruby | JS |  Pascal | Swift | Rust |
 | [Árvore Binária de Busca][3]        | [C/C++](./src/c/ArvoreBinariaDeBusca.c) | [Java](./src/java/ArvoreDeBuscaBinaria.java) | [Python](./src/python/arvore_binaria_de_busca.py) | Go | Ruby | [JS](./src/javascript/ArvoreDeBuscaBinaria.js) |  Pascal | Swift | Rust |
 | [Deque][54]                               | C/C++ | Java | Python | Go | Ruby | [JS](./src/javascript/Deque.js) | Pascal | [Swift](./src/swift/deque.swift) | [Rust](./src/rust/deque.rs) |
 | [Fila][18]                                | [C/C++](./src/c/Fila.c) | [Java](./src/java/Fila.java) | [Python](./src/python/fila.py) | Go | [Ruby](./src/ruby/Fila.rb) | [JS](./src/javascript/Fila.js) |  Pascal | Swift | [Rust](./src/rust/fila.rs) |
