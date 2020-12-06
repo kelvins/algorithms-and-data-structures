@@ -115,7 +115,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [28]: https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html
 [30]: https://pt.wikipedia.org/wiki/Problema_do_cavalo
 [31]: https://pt.wikipedia.org/wiki/LIFO
-[33]: https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i
+[33]: https://pt.wikipedia.org/wiki/Torre_de_Hanói
 [34]: https://pt.wikipedia.org/wiki/Bogosort
 [35]: https://pt.wikipedia.org/wiki/Bubble_sort
 [36]: https://pt.wikipedia.org/wiki/Bucket_sort
