@@ -89,9 +89,9 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 
 [1]: https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra
 [2]: https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall
-[3]: https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca
-[4]: https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria
-[5]: https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria
+[3]: https://pt.wikipedia.org/wiki/Árvore_binária_de_busca
+[4]: https://pt.wikipedia.org/wiki/Árvore_binária
+[5]: https://pt.wikipedia.org/wiki/Pesquisa_binária
 [6]: https://www.inf.ufsc.br/grafos/represen/busca.html
 [7]: https://pt.wikipedia.org/wiki/Busca_linear
 [8]: https://pt.wikipedia.org/wiki/Busca_linear
@@ -99,11 +99,11 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [10]: https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante
 [11]: https://pt.wikipedia.org/wiki/Caminho_hamiltoniano
 [12]: https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/components.html
-[13]: https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o
-[14]: https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o
+[13]: https://pt.wikipedia.org/wiki/Exponenciação
+[14]: https://pt.wikipedia.org/wiki/Exponenciação
 [15]: https://pt.wikipedia.org/wiki/Fatorial
 [16]: https://pt.wikipedia.org/wiki/Fatorial
-[17]: https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci
+[17]: https://pt.wikipedia.org/wiki/Sequência_de_Fibonacci
 [18]: https://pt.wikipedia.org/wiki/FIFO
 [19]: https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html
 [20]: https://pt.wikipedia.org/wiki/Teoria_dos_grafos
@@ -130,9 +130,9 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [46]: https://pt.wikipedia.org/wiki/Radix_sort
 [47]: https://pt.wikipedia.org/wiki/Selection_sort
 [48]: https://pt.wikipedia.org/wiki/Shell_sort
-[49]: https://pt.wikipedia.org/wiki/Pal%C3%ADndromo
-[50]: https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80
-[51]: https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico
+[49]: https://pt.wikipedia.org/wiki/Palíndromo
+[50]: https://pt.wikipedia.org/wiki/Fórmula_de_Leibniz_para_π
+[51]: https://pt.wikipedia.org/wiki/Algoritmo_genético
 [52]: https://www.youtube.com/watch?v=bxwIm3F6aaQ
 [53]: https://en.wikipedia.org/wiki/Timsort
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
