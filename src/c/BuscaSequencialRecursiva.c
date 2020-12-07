@@ -12,7 +12,7 @@ int buscaSequencialRecursiva(int vetor[], int i, int buscado, int size) {
     }
     else
     {
-        buscaSequencialRecursiva(vetor, i+1, buscado, size);
+        return buscaSequencialRecursiva(vetor, i+1, buscado, size);
     }
 }
 
