@@ -17,6 +17,7 @@ int buscaSequencialRecursiva(int vetor[], int i, int buscado, int size) {
 }
 
 int main(){
+
     int vetor[] = {1, 2, 3, 4, 5, 6, 7, 8};
     size_t n = sizeof(vetor) / sizeof(vetor[0]);
     printf("Valor %d no índice %d\n", 1, buscaSequencialRecursiva(vetor, 0, 1, n));
