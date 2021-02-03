@@ -1,133 +1,37 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
-/* 
-* Problema do palindromo
-* Desenvolvido por Igor Alves (https://github.com/iguit0)
-*/
+#define MAX_SIZE_WORD 100
 
-typedef struct sCell{
-	char info;
-	struct sCell* next;
-}CELULA;
+void calc_reverse(char *input, char *output) {
+  size_t len_input = strlen(input);
 
-typedef struct sPilha{
-	CELULA* topo;	
-}PILHA;
+  char *last_char = input + len_input - 1;
 
-CELULA* criarCelula(){
-	CELULA* nova;
-	nova = (CELULA *) malloc(sizeof(CELULA));
-	return nova;
+  for (int i=0; i < len_input; i++) {
+    output[i] = *(last_char - i);
+  }
+  output[len_input] = '\0';
 }
 
-void inicializar(PILHA* p){
-	p->topo = NULL;
-}
+int main() {
+  char input[MAX_SIZE_WORD];
+  char reverse[MAX_SIZE_WORD];
 
-int pilhaVazia(PILHA* p){
-	if(p->topo == NULL) return 1;
-	else return 0;
-}
+  printf("Digite uma palavra: ");
 
-int push(PILHA* p,char elemento){
-	CELULA* nova = criarCelula();
-	if(nova == NULL) return 0;
-	nova->info = elemento;
-	nova->next = p->topo;
-	if(pilhaVazia(p)){
-		p->topo = nova;
-		return 1;
-	}
-	p->topo = nova;
-	return 1;
-}
+  fgets(input, MAX_SIZE_WORD, stdin);
+  //remove New Line from the end
+  input[strlen(input) - 1] = '\0';
 
-char pop(PILHA* p){
-	CELULA* removida;
-	char removido;
-	if(pilhaVazia(p)){
-		printf("\nPilha Vazia!");
-		return removido;
-	}
-	removida = p->topo;
-	removido = removida->info;
-	p->topo = p->topo->next;
-	free(removida);
-	return removido;
-}
+  calc_reverse(input, reverse);
 
-int palindromo(PILHA* p){
-	if(pilhaVazia(p)){
-		printf("Pilha Vazia!\n");
-		return 0;
-	}
-	PILHA p2;
-	inicializar(&p2);
-	PILHA p3;
-	inicializar(&p3);
-	char aux; 		
-	char aux2;
-	while(!pilhaVazia(p)){
-		aux = pop(p);
-		if(aux != '.' && aux != ' '){
-			push(&p2,aux);
-		}
-	}
-	while(!pilhaVazia(&p2)){
-		aux = pop(&p2);
-		push(p,aux);
-		push(&p3,aux);
-	}
-	while(!pilhaVazia(&p3)){
-		aux = pop(&p3);
-		push(&p2,aux);
-	}
-	while(!pilhaVazia(p)){
-		aux = pop(p);
-		aux2 = pop(&p2);
-		if(aux != aux2){
-			return 0;
-		}
-	}
-	return 1;
-}
+  printf("Sua palavra invertida: %s\n", reverse);
 
-void imprimirInverso(PILHA* p){
-	PILHA p2;
-	inicializar(&p2);
-	char aux;
-	if(pilhaVazia(p)) return;
-	while(!pilhaVazia(p)){
-		aux = pop(p);
-		putchar(aux);
-		push(&p2,aux);
-	}
-	while(!pilhaVazia(&p2))
-		push(p,pop(&p2));
-	
-}
+  if (!strcmp(input, reverse))
+    puts("Sua palavra eh um palindromo!");
+  else
+    puts("Sua palavra NAO eh um palindromo!");
 
-int main(){
-    PILHA p;
-    inicializar(&p);
-    int i=0;
-	char palavra[100];	
-	char inverso[100];
-	printf("\nPalavra: ");
-	scanf("%s",palavra);
-	
-	for(i=0;i<strlen(palavra);i++){
-		push(&p,palavra[i]);
-	}
-	
-	printf("\nImprimindo inverso > ");
-	imprimirInverso(&p);
-	putchar('\n');
-	
-	if(palindromo(&p)==1) printf("\nPalindromo");
-	else printf("\nNao eh palindromo");
-
-    return 0;
+  return 0;
 }

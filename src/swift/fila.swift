@@ -11,8 +11,8 @@ class Queue {
         self.queue.append(value)
     }
     
-    func dequeue(at indexPath: Int) {
-        self.queue.remove(at: indexPath)
+    func dequeue() {
+        self.queue.removeFirst()
     }
     
     func show() {
@@ -28,8 +28,7 @@ let queue = Queue()
 
 for n in 0...10 { queue.enqueue(n) }
 queue.show()
-queue.dequeue(at: 2)
-queue.dequeue(at: 6)
+queue.dequeue()
 queue.show()
 
 
