@@ -24,5 +24,5 @@ def checking(reading2ring):
     return equity
 
 # 6 - check the result - always invoking the function 'checking ()'
-print(checking("hannah")) # example1 : correto
-print(checking("abcabc")) # example2 : errado
+print(checking("hannah")) # example1 : right
+print(checking("abcabc")) # example2 : wrong
