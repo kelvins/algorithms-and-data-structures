@@ -68,7 +68,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 |-------------------------------------|-------|------|--------|----|------|----|--------|-------|------|
 | Lista com 2 Pilhas                  | C/C++ | Java | [Python](./src/python/lista_com_pilhas.py) | Go | Ruby | JS | Pascal | Swift | Rust |
 | Soma de 2 Números                   | C/C++ | Java | [Python](./src/python/soma_dois_numeros.py) | Go | Ruby | JS | Pascal | Swift | Rust |
-| [Palíndromo][49]                    | [C/C++](./src/c/Palindromo.c) | Java | [Python](./src/python/palindromos.py) | Go | [Ruby](./src/ruby/Palindromo.rb) | [JS](./src/javascript/Palindromo.js) | Pascal | [Swift](./src/swift/palindromo.swift) | [Rust](./src/rust/palindromo.rs) |
+| [Palíndromo][49]                    | [C/C++](./src/c/Palindromo.c) | Java | [Python](./src/python/palindromo.py) | Go | [Ruby](./src/ruby/Palindromo.rb) | [JS](./src/javascript/Palindromo.js) | Pascal | [Swift](./src/swift/palindromo.swift) | [Rust](./src/rust/palindromo.rs) |
 | Lista Ligada Desordenada            | C/C++ | Java | [Python](./src/python/lista_encadeada_desordenada.py) | Go | Ruby | JS | Pascal | Swift | Rust |
 | [Calculo do PI (Leibniz)][50]       | C/C++ | Java | [Python](./src/python/calculate_pi.py) | [Go](./src/go/calculatepi/calculatepi.go) | Ruby | [JS](./src/javascript/calculate_pi.js) | Pascal | [Swift](./src/swift/calculatePi.swift) | [Rust](./src/rust/calculate_pi.rs) |
 | Busca em Labirinto                  | C/C++ | Java | [Python](./src/python/busca_em_labirinto.py) | Go | Ruby | JS | Pascal | Swift | Rust |
