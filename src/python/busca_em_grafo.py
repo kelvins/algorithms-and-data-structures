@@ -1,40 +1,51 @@
+# Grafos - Algoritmos de BFS e DFS em Python
+# Bruno Dantas de Paiva - 2021
+# https://github.com/DantasB
+
 class Grafo():
-    def __init__(self, arestas):
+    """Define um grafo utilizando matriz de adjacências.
+
+        Args:
+            arestas (list): uma lista de listas onde o indice é o 
+                            vértice e cada elemento da lista é o vizinho
+    """
+
+    def __init__(self, arestas: list):
         self.adj = [[] for _ in range(len(arestas))]
         self.adiciona_arestas(arestas)
 
-    def get_vertices(self):
-        vertices = set()
-        for vizinhos in range(len(self.adj)):
-            for elementos in self.adj[vizinhos]:
-                vertices.add(elementos)
-        return list(vertices)
+    def adiciona_arestas(self, arestas: list) -> None:
+        """Adiciona todas as arestas ao grafo
 
-    def get_arestas(self):
-        return [(k, v) for k in self.adj.keys() for v in self.adj[k]]
-
-    def adiciona_arestas(self, arestas):
+        Args:
+            arestas (list): a lista contendo todas as definições de arestas do grafo
+        """
         for i in range(len(arestas)):
             for j in range(len(arestas[i])):
-                self.adiciona_aresta(i, arestas[i][j])
+                self.__adiciona_aresta(i, arestas[i][j])
 
-    def adiciona_aresta(self, u, v):
+    def __adiciona_aresta(self, u: int, v: int) -> None:
+        """Adiciona a aresta na matriz de adjacência
+
+        Args:
+            u (int): vértice u
+            v (int): vértice v
+        """
         if v not in self.adj[u]:
             self.adj[u].append(v)
 
         if u not in self.adj[v]:
             self.adj[v].append(u)
 
-    def existe_aresta(self, u, v):
-        return len(self.adj) >= u and v in self.adj[u]
+    def bfs(self, u: int) -> list:
+        """Executa a busca em largura a partir do vértice u
 
-    def __len__(self):
-        return len(self.adj)
+        Args:
+            u (int): vértice u
 
-    def __getitem__(self, v):
-        return self.adj[v]
-
-    def bfs(self, u):
+        Returns:
+            list: lista com a ordem de vértices visitados 
+        """
         visitados, fila = [], [u]
         while fila:
             vertice = fila.pop(0)
@@ -46,7 +57,15 @@ class Grafo():
 
         return visitados
 
-    def dfs(self, u):
+    def dfs(self, u: int) -> list:
+        """Executa a busca em profundidade a partir do vértice u
+
+        Args:
+            u (int): vértice u
+
+        Returns:
+            list: lista com a ordem de vértices visitados 
+        """
         visitados = []
         falta_visitar = [u]
         while falta_visitar:
@@ -68,7 +87,5 @@ arestas = [[1, 2, 5],     # Vizinhos do vértice 0.
 
 grafo = Grafo(arestas)
 print(grafo.adj)
-print(grafo.get_vertices())
-print(grafo.existe_aresta(4, 1))
 print(grafo.bfs(0))
 print(grafo.dfs(0))
