@@ -41,7 +41,7 @@ class Grafo():
             self.adj[v].append(u)
 
     def bfs(self, start: int) -> list:
-        """Executa a busca em largura a partir do vértice u
+        """Executa a busca em largura a partir do vértice start
 
         Args:
             start (int): vértice start
@@ -65,7 +65,7 @@ class Grafo():
         return visitados
 
     def dfs(self, start: int) -> list:
-        """Executa a busca em profundidade a partir do vértice u
+        """Executa a busca em profundidade a partir do vértice start
 
         Args:
             start (int): vértice start
