@@ -80,7 +80,7 @@ class Grafo():
                     distancia[v[1]] = distancia_u + \
                         self._peso_entre_u_e_v(u, v)
 
-        print(distancia)
+        return distancia
 
 
 arestas = [[[1, 1], [2, 0.3], [5, 0.2]],            # Vizinhos do vértice 0.
@@ -92,4 +92,4 @@ arestas = [[[1, 1], [2, 0.3], [5, 0.2]],            # Vizinhos do vértice 0.
            ]
 
 grafo = Grafo(arestas)
-grafo.dijkstra(0)
+print(grafo.dijkstra(0))
