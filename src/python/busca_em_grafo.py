@@ -2,6 +2,9 @@
 # Bruno Dantas de Paiva - 2021
 # https://github.com/DantasB
 
+from collections import deque
+
+
 class Grafo():
     """Define um grafo utilizando matriz de adjacências.
 
@@ -37,43 +40,53 @@ class Grafo():
         if u not in self.adj[v]:
             self.adj[v].append(u)
 
-    def bfs(self, u: int) -> list:
+    def bfs(self, start: int) -> list:
         """Executa a busca em largura a partir do vértice u
 
         Args:
-            u (int): vértice u
+            start (int): vértice start
 
         Returns:
             list: lista com a ordem de vértices visitados 
         """
-        visitados, fila = [], [u]
+        fila = deque()
+        fila.append(start)
+        visitados = []
+        visitados.append(start)
+
         while fila:
-            vertice = fila.pop(0)
-            if vertice not in visitados:
-                visitados.append(vertice)
-                for element in self.adj[vertice]:
-                    if element not in visitados:
-                        fila.append(element)
+            u = fila.popleft()
+
+            for v in self.adj[u]:
+                if v not in visitados:
+                    fila.append(v)
+                    visitados.append(v)
 
         return visitados
 
-    def dfs(self, u: int) -> list:
+    def dfs(self, start: int) -> list:
         """Executa a busca em profundidade a partir do vértice u
 
         Args:
-            u (int): vértice u
+            start (int): vértice start
 
         Returns:
             list: lista com a ordem de vértices visitados 
         """
         visitados = []
-        falta_visitar = [u]
-        while falta_visitar:
-            vertice = falta_visitar.pop()
-            for vizinho in self.adj[vertice]:
-                if vizinho not in visitados:
-                    visitados.append(vizinho)
-                    falta_visitar.append(vizinho)
+        visitados.append(start)
+        pilha = [start]
+
+        while pilha:
+            u = pilha.pop()
+
+            if u not in visitados:
+                visitados.append(u)
+
+            for v in self.adj[u]:
+                if v not in visitados:
+                    pilha.append(v)
+
         return visitados
 
 
