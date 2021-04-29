@@ -1,4 +1,4 @@
-# Grafos - Algoritmos de BFS e DFS em Python
+# Grafos - Algoritmos de Dijkstra em Python
 # Bruno Dantas de Paiva - 2021
 # https://github.com/DantasB
 
