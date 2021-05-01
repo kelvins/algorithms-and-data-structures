@@ -83,7 +83,7 @@ class Grafo():
             if u not in visitados:
                 visitados.append(u)
 
-            for v in self.adj[u]:
+            for v in self.adj[u][::-1]:
                 if v not in visitados:
                     pilha.append(v)
 
