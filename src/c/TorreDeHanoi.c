@@ -1,3 +1,9 @@
+/*
+Torre de Hanoi em C
+Bruno Dantas de Paiva - 2021
+https://github.com/DantasB
+*/
+
 #include <stdio.h>
 
 void hanoi(int pino0, int pino2, int pino1, int discos)
