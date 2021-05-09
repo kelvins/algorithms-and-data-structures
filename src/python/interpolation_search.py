@@ -40,11 +40,11 @@ if __name__ == '__main__':
              54535, 64, 3, 0, 12, 14, 15, 31, 25]
     array.sort()
 
-    element_to_be_founded = 5444
+    element_to_be_found = 5444
 
-    index = interpolation_search(array, element_to_be_founded)
+    index = interpolation_search(array, element_to_be_found)
 
     if index != -1:
-        print(f"Elemento encontrado no indice {index}  do array ordenado\n")
+        print(f"Elemento encontrado no indice {index} do array ordenado.")
     else:
-        print("Elemento não foi encontrado.\n")
+        print("Elemento não foi encontrado.")
