@@ -21,7 +21,7 @@ def interpolation_search(array, x):
     while ((low <= high) and (x >= array_low) and (x <= array_high)):
         array_low = array[low]
         array_high = array[high]
-        pos = low + ((high - low)/(array_high - array_low))*(x - array_low)
+        pos = (int)(low + ((high - low)/(array_high - array_low))*(x - array_low))
 
         if array[pos] < x:
             low = pos+1
