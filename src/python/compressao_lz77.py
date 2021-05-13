@@ -1,7 +1,5 @@
 import io
 import sys
-from os import SEEK_CUR, SEEK_SET, SEEK_END
-
 
 class BitArray:
     """
