@@ -20,7 +20,7 @@ if __name__ == '__main__':
     vetor = [random.randrange(10, 100) for _ in range(0, 10)]
     print(vetor)
 
-    inicio, fim = min_max_dc(vetor, 0, len(vetor) - 1)
+    minimo, maximo = min_max_dc(vetor, 0, len(vetor) - 1)
 
-    print(f'Min DC: {inicio}')
-    print(f'Max DC: {fim}')
+    print(f'Min DC: {minimo}')
+    print(f'Max DC: {maximo}')
