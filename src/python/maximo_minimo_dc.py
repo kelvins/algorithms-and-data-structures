@@ -1,39 +1,40 @@
-# Exemplos de funções para achar maior número de um vetor
-# Os 2 métodos são recursivos, porém apenas a MaxDC utiliza divisão e conquista
+# Mínimo e Máximo de um array usando divide & conquer
 # Bruno Dantas de Paiva - 2021
 # https://github.com/DantasB
 
 import random
 
-# Maximo usando Divisão e Conquista
 
+def getMinMax(min_value, max_value, vetor):
+    vetor_max = vetor[min_value]
+    vetor_min = vetor[min_value]
 
-def max_dc(vetor, left, right):
-    if left == right:
-        return vetor[left]
+    # Se só tiver 1 elemento
+    if min_value == max_value:
+        return (vetor_max, vetor_min)
 
-    mid = int((left + right) / 2)
+    # Se tiver 2 elementos
+    elif max_value == min_value + 1:
+        if vetor[min_value] > vetor[max_value]:
+            vetor_max, vetor_min = vetor[min_value], vetor[max_value]
+        else:
+            vetor_max, vetor_min = vetor[max_value], vetor[min_value]
 
-    max_1 = max_dc(vetor, left, mid)
-    max_2 = max_dc(vetor, mid+1, right)
+        return (vetor_max, vetor_min)
 
-    return max_1 if max_1 > max_2 else max_2
-
-
-def max_recursive(vetor, maximo, indice) -> int:
-    result = maximo
-    if vetor[indice] > result:
-        result = vetor[indice]
-
-    if indice < len(vetor) - 1:
-        max_recursive(vetor, result, indice+1)
     else:
-        return result
+        mid_value = int((min_value + max_value) / 2)
+        vetor_max1, vetor_min1 = getMinMax(min_value, mid_value, vetor)
+        vetor_max2, vetor_min2 = getMinMax(mid_value + 1, max_value, vetor)
+
+    return (max(vetor_max1, vetor_max2), min(vetor_min1, vetor_min2))
 
 
 if __name__ == "__main__":
     vetor = [random.randrange(10, 100) for _ in range(0, 10)]
-
     print(vetor)
-    print(f"Max Recursive: {max_recursive(vetor, vetor[0], 1)}")
-    print(f"Max DC: {max_dc(vetor, 0, len(vetor)-1)}")
+
+    min_value, max_value = getMinMax(0, len(vetor) - 1, vetor)
+
+    print(f"Min DC: {min_value}")
+    print(f"Max DC: {max_value}")
