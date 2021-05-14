@@ -29,6 +29,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 | [Passeio do Cavalo][30]         | C                                       | C++                                       | Java                                           | [Python](./src/python/passeio_do_cavalo.py)          | Go                                                  | Ruby                                           | JS                                                | Pascal                                     | Swift                                        | Rust                                           |
 | [Torre de Hanói][33]            | [C](./src/c/TorreDeHanoi.c)             | C++                                       | [Java](./src/java/TorreDeHanoi.java)           | [Python](./src/python/torre_de_hanoi.py)             | [Go](./src/go/hanoi/hanoi.go)                       | [Ruby](./src/ruby/Hanoi.rb)                    | [JS](./src/javascript/TorreDeHanoi.js)            | Pascal                                     | [Swift](./src/swift/hanoi.swift)             | [Rust](./src/rust/torre_hanoi.rs)              |
 | [Algoritmo Genético][51]        | C                                       | C++                                       | Java                                           | [Python](./src/python/genetic_algorithm.py)          | Go                                                  | Ruby                                           | JS                                                | Pascal                                     | Swift                                        | Rust                                           |
+| [Algoritmo de Huffman][61]      | C                                       | C++                                       | Java                                           | [Python](./src/python/compressao_huffman.py)         | Go                                                  | Ruby                                           | JS                                                | Pascal                                     | Swift                                        | Rust                                           |
+| [Algoritmo LZ77][62]            | C                                       | C++                                       | Java                                           | [Python](./src/python/compressao_lz77.py)            | Go                                                  | Ruby                                           | JS                                                | Pascal                                     | Swift                                        | Rust                                           |
 
 | Estruturas de Dados              | C                                       | C++ | Java                                             | Python                                               | Go                                                                    | Ruby                                             | JS                                                   | Pascal                           | Swift                            | Rust                              |
 | -------------------------------- | --------------------------------------- | --- | ------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- | -------------------------------- | -------------------------------- | --------------------------------- |
@@ -97,30 +99,31 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
     <td align="center"><a href="https://github.com/DantasB"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/15825133?v=4" width="100px;" alt=""/><br /><sub><b>Bruno Dantas de Paiva</b></sub></a><br />
     <td align="center"><a href="https://github.com/biancaguzenski"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/64049698?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Bianca Guzenski</b></sub></a><br />
     <td align="center"><a href="https://github.com/matheustorresii"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/62654890?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Matheus Torresii</b></sub></a><br />
+    <td align="center"><a href="https://github.com/ViniciusAlberkovics"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/20803661?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Alberkovics</b></sub></a><br />
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/ViniciusAlberkovics"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/20803661?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Alberkovics</b></sub></a><br />
     <td align="center"><a href="https://github.com/danilolmoura"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10969968?v=4" width="100px;" alt=""/><br /><sub><b>Danilo Moura</b></sub></a><br />
     <td align="center"><a href="https://github.com/lukelima"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/45904744?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Lima da Silva</b></sub></a><br />
     <td align="center"><a href="https://github.com/martonpaulo"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/23281486?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Marton Paulo</b></sub></a><br />
     <td align="center"><a href="https://github.com/JhonataRibeiro"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/8584355?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Jhonata Ribeiro</b></sub></a><br />
     <td align="center"><a href="https://github.com/CarlosViniMSouza"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60679101?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Vini M Souza</b></sub></a><br />
-  </tr>
-  <tr>
     <td align="center"><a href="https://github.com/elissonmichael"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/1037192?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Élisson Michael</b></sub></a><br />
     <td align="center"><a href="https://github.com/danielnsilva"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/6550540?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Daniel Silva</b></sub></a><br />
+  </tr>
+  <tr>
     <td align="center"><a href="https://github.com/iguit0"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/12905770?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Igor Alves</b></sub></a><br />
     <td align="center"><a href="https://github.com/sswellington"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45939490?v=4" width="100px;" alt=""/><br /><sub><b>Wellington Silva</b></sub></a><br />
     <td align="center"><a href="https://github.com/BAlmeidaS"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/5148153?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Bruno Almeida</b></sub></a><br />
     <td align="center"><a href="https://github.com/viniciusbds"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/34755896?v=4" width="100px;" alt=""/><br /><sub><b>Vinicius Barbosa</b></sub></a><br />
-  </tr>
-  <tr>
     <td align="center"><a href="https://github.com/luanfssilva"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/23174385?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Luan Felipe</b></sub></a><br />
     <td align="center"><a href="https://github.com/MilanPokharna"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/27396192?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Milan Pokharna</b></sub></a><br />
     <td align="center"><a href="https://github.com/MarceloWis"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/20583701?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Marcelo Wischniowski</b></sub></a><br />
+  </tr>
+  <tr>
     <td align="center"><a href="https://github.com/pedrohcaminha"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/36715593?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Caminha</b></sub></a><br />
     <td align="center"><a href="https://github.com/rjort"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/16711574?v=4" width="100px;" alt=""/><br /><sub><b>Reuter</b></sub></a><br />
     <td align="center"><a href="https://github.com/ed1rac"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10122659?v=4" width="100px;" alt=""/><br /><sub><b>Edkallenn Lima</b></sub></a><br />
+    <td align="center"><a href="https://github.com/hansbonini"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/3918305?v=4" width="100px;" alt=""/><br /><sub><b>Hans Bonini</b></sub></a><br />
   </tr>
 </table>
 
@@ -179,3 +182,5 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [58]: https://play.rust-lang.org
 [59]: https://code.sololearn.com
 [60]: http://cpp.sh/
+[61]: https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/huffman.html
+[62]: https://pt.wikipedia.org/wiki/LZ77
