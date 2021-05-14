@@ -34,7 +34,7 @@ if __name__ == "__main__":
     vetor = [random.randrange(10, 100) for _ in range(0, 10)]
     print(vetor)
 
-    min_value, max_value = getMinMax(0, len(vetor) - 1, vetor)
+    max_value, min_value = getMinMax(0, len(vetor) - 1, vetor)
 
     print(f"Min DC: {min_value}")
     print(f"Max DC: {max_value}")
