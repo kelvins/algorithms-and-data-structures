@@ -1,21 +1,16 @@
-""" Exemplo de Maximo, utilizando recursao e divisao e conquista """
+"""Exemplo de Máximo, utilizando recursão."""
 
 
-def max_dc(vetor, inicio, fim):
-    """
-    Busca o valor máximo através da divisão e conquista.
-    Usa os valores início e fim para a recursão
-    """
-    if inicio == fim:
-        return vetor[inicio]
-    meio = int((inicio + fim) / 2)
-    aux1 = max_dc(vetor, inicio, meio)
-    aux2 = max_dc(vetor, meio + 1, fim)
-    if aux1 > aux2:
-        return aux1
-    return aux2
+def max_recursivo(vetor, maximo, indice):
+    """Busca o valor máximo através usando recursão."""
+    if vetor[indice] > maximo:
+        maximo = vetor[indice]
+    if indice < len(vetor) - 1:
+        maximo = max_recursivo(vetor, maximo, indice+1)
+    return maximo
 
 
-uma_lista = [19, 32, 43, 58, 12, 28, 98, 19, 12, 10]
-print(uma_lista)
-print('\nMax:' + str(max_dc(uma_lista, 0, len(uma_lista) - 1)))
+if __name__ == '__main__':
+    lista = [19, 32, 43, 58, 12, 28, 98, 19, 12, 10]
+    print(lista)
+    print(f'Max: {max_recursivo(lista, lista[0], 0)}')
