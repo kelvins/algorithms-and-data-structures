@@ -9,10 +9,10 @@ func binarySearch(seq []int, element, start, end int) int {
 
 	if start != end {
 		if seq[index] < element {
-			return binarySearch(seq, element, start+1, end)
+			return binarySearch(seq, element, index+1, end)
 		}
 
-		return binarySearch(seq, element, start, end-1)
+		return binarySearch(seq, element, start, index-1)
 	}
 
 	return -1
