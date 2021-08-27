@@ -124,6 +124,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
     <td align="center"><a href="https://github.com/ed1rac"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10122659?v=4" width="100px;" alt=""/><br /><sub><b>Edkallenn Lima</b></sub></a><br />
     <td align="center"><a href="https://github.com/hansbonini"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/3918305?v=4" width="100px;" alt=""/><br /><sub><b>Hans Bonini</b></sub></a><br />
     <td align="center"><a href="https://github.com/NiumXp"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/43611165?v=4" width="100px;" alt=""/><br /><sub><b>NiumXp</b></sub></a><br />
+    <td align="center"><a href="https://github.com/Float07"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39651883?v=4" width="100px;" alt=""/><br /><sub><b>Float07</b></sub></a><br />
   </tr>
 </table>
 
