@@ -79,6 +79,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 - **C++**: [cpp.sh][60]
 - **Go**: [play.golang.org][56]
+- **Swift**: [online.swiftplayground.run][57]
 - **Rust**: [play.rust-lang.org][58]
 - **Generic**: [code.sololearn.com][59]
 
@@ -124,7 +125,8 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
     <td align="center"><a href="https://github.com/ed1rac"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10122659?v=4" width="100px;" alt=""/><br /><sub><b>Edkallenn Lima</b></sub></a><br />
     <td align="center"><a href="https://github.com/hansbonini"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/3918305?v=4" width="100px;" alt=""/><br /><sub><b>Hans Bonini</b></sub></a><br />
     <td align="center"><a href="https://github.com/NiumXp"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/43611165?v=4" width="100px;" alt=""/><br /><sub><b>NiumXp</b></sub></a><br />
-    <td align="center"><a href="https://github.com/Float07"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39651883?v=4" width="100px;" alt=""/><br /><sub><b>Float07</b></sub></a><br />
+    <td align="center"><a href="https://github.com/Float07"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39651883?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Daniel</b></sub></a><br />
+    <td align="center"><a href="https://github.com/andreschlaepfer"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41487971?v=4" width="100px;" alt=""/><br /><sub><b>Andre Aranha Schlaepfer</b></sub></a><br />
   </tr>
 </table>
 
@@ -179,6 +181,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
 [55]: https://en.wikipedia.org/wiki/Interpolation_search
 [56]: https://play.golang.org
+[57]: http://online.swiftplayground.run/
 [58]: https://play.rust-lang.org
 [59]: https://code.sololearn.com
 [60]: http://cpp.sh/
