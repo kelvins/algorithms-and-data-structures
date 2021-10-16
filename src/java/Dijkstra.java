@@ -17,11 +17,12 @@ class ShortestPath {
     // Iniciando um valor minimo
     int min = Integer.MAX_VALUE, min_index = -1;
 
-    for (int v = 0; v < V; v++)
+    for (int v = 0; v < V; v++) {
       if (sptSet[v] == false && dist[v] <= min) {
         min = dist[v];
         min_index = v;
       }
+    }
 
     return min_index;
   }
@@ -29,7 +30,9 @@ class ShortestPath {
   // Uma função de utilidade para imprimir a matriz de distância construída
   void printSolution(int dist[]) {
     System.out.println("Vertex \t\t Distance from Source");
-    for (int i = 0; i < V; i++) System.out.println(i + " \t\t " + dist[i]);
+    for (int i = 0; i < V; i++) {
+      System.out.println(i + " \t\t " + dist[i]);
+    }
   }
 
   // Função que implementa o caminho mais curto da fonte única de Dijkstra
@@ -72,7 +75,9 @@ class ShortestPath {
         if (!sptSet[v]
             && graph[u][v] != 0
             && dist[u] != Integer.MAX_VALUE
-            && dist[u] + graph[u][v] < dist[v]) dist[v] = dist[u] + graph[u][v];
+            && dist[u] + graph[u][v] < dist[v]) {
+          dist[v] = dist[u] + graph[u][v];
+        }
     }
 
     // imprime a matriz de distância construída
