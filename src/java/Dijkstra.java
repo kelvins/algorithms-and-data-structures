@@ -37,10 +37,9 @@ class ShortestPath {
 
   // Função que implementa o caminho mais curto da fonte única de Dijkstra
   // algoritmo para um grafo representado usando matriz de adjacência
-  // representação
   void dijkstra(int graph[][], int src) {
-    int dist[] = new int[V]; // A matriz de saída. dist [i] irá manter
-    // a menor distância de src a i
+    // A matriz de saída. dist [i] irá manter a menor distância de src a i
+    int dist[] = new int[V];
 
     // sptSet [i] será verdadeiro se o vértice i for incluído no mais curto
     // árvore do caminho ou distância mais curta de src para i é finalizada
@@ -58,15 +57,13 @@ class ShortestPath {
     // Encontre o caminho mais curto para todos os vértices
     for (int count = 0; count < V - 1; count++) {
       // Escolha o vértice de distância mínima do conjunto de vértices
-      // ainda não processado. vc é sempre igual a src em primeiro
-      // iteração.
+      // ainda não processado. vc é sempre igual a src na primeira iteração.
       int u = minDistance(dist, sptSet);
 
       // Marque o vértice escolhido como processado
       sptSet[u] = true;
 
-      // Atualize o valor dist dos vértices adjacentes do
-      // vértice escolhido.
+      // Atualize o valor dist dos vértices adjacentes do vértice escolhido.
       for (int v = 0; v < V; v++)
 
         // Atualize dist [v] apenas se não estiver em sptSet, há um
@@ -80,13 +77,12 @@ class ShortestPath {
         }
     }
 
-    // imprime a matriz de distância construída
+    // Imprime a matriz de distância construída
     printSolution(dist);
   }
 
-  // Método do Driver
   public static void main(String[] args) {
-    /* Vamos criar o gráfico de exemplo discutido acima */
+    // Vamos criar o gráfico de exemplo discutido acima
     int graph[][] =
         new int[][] {
           {0, 4, 0, 0, 0, 0, 0, 8, 0},
