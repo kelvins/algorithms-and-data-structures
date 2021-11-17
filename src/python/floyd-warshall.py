@@ -1,3 +1,7 @@
+# Grafos - Algoritmo de Floys-Warshall em Python
+# Alexandre Lima - 2021
+# https://github.com/alelimasilva
+
 from math import inf
 
 def gerar_matriz (n_linhas, n_colunas):
