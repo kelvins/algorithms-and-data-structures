@@ -1,4 +1,4 @@
-# Grafos - Algoritmo de Floys-Warshall em Python
+# Grafos - Algoritmo de Floyd-Warshall em Python
 # Alexandre Lima - 2021
 # https://github.com/alelimasilva
 
