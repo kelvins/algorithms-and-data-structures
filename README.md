@@ -103,7 +103,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
     <td align="center"><a href="https://github.com/danilolmoura"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/10969968?v=4" width="100px;" alt=""/><br /><sub><b>Danilo Moura</b></sub></a><br />
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/lukelima"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/45904744?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Lucas Lima da Silva</b></sub></a><br />
+    <td align="center"><a href="https://github.com/lukelima"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89654793?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Lima da Silva</b></sub></a><br />
     <td align="center"><a href="https://github.com/martonpaulo"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/23281486?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Marton Paulo</b></sub></a><br />
     <td align="center"><a href="https://github.com/JhonataRibeiro"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/8584355?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Jhonata Ribeiro</b></sub></a><br />
     <td align="center"><a href="https://github.com/CarlosViniMSouza"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/60679101?v=4" width="100px;" alt=""/><br /><sub><b>Carlos Vini M Souza</b></sub></a><br />
