@@ -79,7 +79,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 - **C++**: [cpp.sh][60]
 - **Go**: [play.golang.org][56]
-- **Swift**: [online.swiftplayground.run][57]
 - **Rust**: [play.rust-lang.org][58]
 - **Generic**: [code.sololearn.com][59]
 
@@ -182,7 +181,6 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [54]: https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)
 [55]: https://en.wikipedia.org/wiki/Interpolation_search
 [56]: https://play.golang.org
-[57]: http://online.swiftplayground.run/
 [58]: https://play.rust-lang.org
 [59]: https://code.sololearn.com
 [60]: http://cpp.sh/
