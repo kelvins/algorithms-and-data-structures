@@ -127,6 +127,7 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
     <td align="center"><a href="https://github.com/Float07"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39651883?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Daniel</b></sub></a><br />
     <td align="center"><a href="https://github.com/andreschlaepfer"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/41487971?v=4" width="100px;" alt=""/><br /><sub><b>Andre Aranha Schlaepfer</b></sub></a><br />
     <td align="center"><a href="https://github.com/Poskvansk"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/45745618?v=4" width="100px;" alt=""/><br /><sub><b>Poskvansk</b></sub></a><br />
+    <td align="center"><a href="https://github.com/alelimasilva"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64177769?v=4" width="100px;" alt=""/><br /><sub><b>Alexandre Lima</b></sub></a><br />
   </tr>
 </table>
 
