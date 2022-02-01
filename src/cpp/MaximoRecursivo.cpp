@@ -20,7 +20,18 @@ int main() {
 
     std::vector<int> nums{1, 2, 3, 4, 32, 6, 7, 8, 9, 10};
 
-    std::cout << max_recursivo(nums, nums.size()) << std::endl;
+    std::cout << "nums = {";
+    for(auto& i : nums) {
+
+        std::cout << i;
+        
+        if(&i != &nums.back()) {
+            std::cout << ",";
+        }
+    }
+    std::cout << "}" << std::endl;
+
+    std::cout << "Max = " << max_recursivo(nums, nums.size()) << std::endl;
 
     return 0;
 }
