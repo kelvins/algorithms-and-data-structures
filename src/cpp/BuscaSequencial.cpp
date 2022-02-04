@@ -19,7 +19,7 @@ int main() {
     vector<int> nums = {1, 2, 3, 4, 5, 27, -1, 12, 999};
     int target;
     
-    cout << "Digite o numero que deseja busca no vetor: ";
+    cout << "Digite o numero que deseja buscar no vetor: ";
     cin >> target;
     cout << "\n";
 
