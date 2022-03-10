@@ -1,9 +1,13 @@
 #include <stdlib.h>
-
-typedef void *tdado;
+#include <stdio.h>
 
 typedef struct tno {
-	tdado dado;
+	/*Caso queira usar isso para qualquer um use TAD
+	E com o TAD defina: typedef void *tdado;
+	E em todo local do código relacionado ao dado
+	troque int por tdado.
+	*/
+	int dado;
 	struct tno *anterior; 
 	struct tno *proximo;
 } tipoNo;
@@ -29,7 +33,7 @@ TLista criaLista() {
 	return c;
 }
 
-TLista appendLista(TLista lst, tdado dado) {
+TLista appendLista(TLista lst, int dado) {
 	pnoh novono = (tipoNo *)malloc(sizeof(tipoNo));
 
 	novono->dado = dado;
@@ -54,15 +58,15 @@ int lenLista(TLista lst) {
 	return lst->tamanho;
 }
 
-tdado primLista(TLista lst) {
+int primLista(TLista lst) {
 	return lst->primeiro->dado;
 }
 
-tdado ultLista(TLista lst) {
+int ultLista(TLista lst) {
 	return lst->ultimo->dado;
 }
 
-TLista insertLista(TLista lst,int i, tdado dado) {
+TLista insertLista(TLista lst,int i, int dado) {
   int tam = lenLista(lst);
 
   if((i < 0) || (i > tam)) return NULL;
@@ -101,7 +105,7 @@ TLista insertLista(TLista lst,int i, tdado dado) {
   return lst;
 }
 
-tdado infoLista(TLista lst,int i) {
+int infoLista(TLista lst,int i) {
   int tam = lenLista(lst);
 
   if((tam == 0) || (i < 0) || (i > tam))
@@ -123,7 +127,7 @@ tdado infoLista(TLista lst,int i) {
   }
 }
 
-tdado removeLista(TLista lst,int i) {
+int removeLista(TLista lst,int i) {
   int tam = lenLista(lst);
 
   if((i < 0) || (i > tam) || (tam == 0)) return NULL;
@@ -134,7 +138,7 @@ tdado removeLista(TLista lst,int i) {
      lst->ultimo = NULL;
      lst->tamanho--;
 
-     tdado d =aux->dado;
+     int d =aux->dado;
      free(aux);
 
      return d;
@@ -145,7 +149,7 @@ tdado removeLista(TLista lst,int i) {
 	   lst->primeiro = aux->proximo;
 	   lst->tamanho--;
 
-	   tdado d =aux->dado;
+	   int d =aux->dado;
 	   free(aux);
 
 	   return d;
@@ -167,7 +171,7 @@ tdado removeLista(TLista lst,int i) {
 
 		 lst->tamanho--;
 
-	     tdado d =aux->dado;
+	     int d =aux->dado;
 	     free(aux);
 
 	     return d;
@@ -185,7 +189,7 @@ tdado removeLista(TLista lst,int i) {
 		 anterior->proximo = aux->proximo;
 		 lst->tamanho--;
 
-		 tdado d = aux->dado;
+		 int d = aux->dado;
 		 free(aux);
 
 		 return d;
@@ -194,10 +198,10 @@ tdado removeLista(TLista lst,int i) {
   } 
 }
 
-int indexLista(TLista lst, tdado dado){
+int indexLista(TLista lst, int dado){
   int tam = lenLista(lst);
   int i;
-  tdado dadolst;
+  int dadolst;
 
   if(tam == 0) return -1;
 
@@ -233,4 +237,32 @@ TLista clonaLista(TLista lst){
 	 appendLista(clone,infoLista(lst,i));
 
   return clone;
+}
+
+int main(){
+  TLista lista = criaLista();
+  appendLista(lista, 3);
+  appendLista(lista, 5);
+  appendLista(lista, 7);
+  printf("Lista criada e adicionado 3 numeros\n");
+  int tamanho = lenLista(lista);
+  int primeiro = primLista(lista);
+  int ultimo = ultLista(lista);
+  int valor = infoLista(lista, 1);
+  printf("Tamanho da lista: %d\nPrimeiro da Lista: %d\nUltimo da Lista: %d\nSegundo valor: %d\n", tamanho, primeiro, ultimo, valor);
+  insertLista(lista, 2, 6);
+  valor = infoLista(lista, 2);
+  printf("Adicionando 6 na posição 2: %d\n", valor);
+  removeLista(lista, 1);
+  tamanho = lenLista(lista);
+  printf("Novo tamanho após adicionar e remover: %d\n", tamanho);
+  int index = indexLista(lista, 3);
+  printf("Index do elemento com valor 3 na lista: %d\n", index);
+  TLista cloneLista = clonaLista(lista);
+  printf("Lista Duplicada\n");
+  clearLista(lista);
+
+  printf("Lista Apagada");
+
+  return 0;
 }
