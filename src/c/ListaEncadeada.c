@@ -105,15 +105,15 @@ TLista insertLista(TLista lst,int i, int dado) {
   return lst;
 }
 
-int infoLista(TLista lst,int i) {
+pnoh infoLista(TLista lst,int i) {
   int tam = lenLista(lst);
 
   if((tam == 0) || (i < 0) || (i > tam))
     return NULL;
 
-  if(i == 0) return lst->primeiro->dado;
+  if(i == 0) return lst->primeiro;
 
-  else if(i == tam - 1) return lst->ultimo->dado;
+  else if(i == tam - 1) return lst->ultimo;
   else {
     pnoh aux = lst->primeiro;
     int pos = 0;
@@ -123,14 +123,15 @@ int infoLista(TLista lst,int i) {
       pos++;
     }
 
-    return aux->dado;
+    return aux;
   }
 }
 
-int removeLista(TLista lst,int i) {
+void removeLista(TLista lst,int i) {
   int tam = lenLista(lst);
 
-  if((i < 0) || (i > tam) || (tam == 0)) return NULL;
+  if((i < 0) || (i > tam) || (tam == 0))
+    printf("Erro: indice inexistente dentro da Lista.");
 
   if(tam == 1) { 
      pnoh aux = lst->primeiro;
@@ -141,7 +142,6 @@ int removeLista(TLista lst,int i) {
      int d =aux->dado;
      free(aux);
 
-     return d;
   }
   else { 
 	 if(i == 0){
@@ -152,7 +152,6 @@ int removeLista(TLista lst,int i) {
 	   int d =aux->dado;
 	   free(aux);
 
-	   return d;
 	 }
 	 else {
 	   if(i == tam - 1) { 
@@ -174,7 +173,6 @@ int removeLista(TLista lst,int i) {
 	     int d =aux->dado;
 	     free(aux);
 
-	     return d;
 	   } 
 	   else {
 		 pnoh anterior = lst->primeiro;
@@ -192,7 +190,6 @@ int removeLista(TLista lst,int i) {
 		 int d = aux->dado;
 		 free(aux);
 
-		 return d;
 	   } 
 	 } 
   } 
@@ -200,16 +197,19 @@ int removeLista(TLista lst,int i) {
 
 int indexLista(TLista lst, int dado){
   int tam = lenLista(lst);
-  int i;
-  int dadolst;
+  int i, dadolst;
+  pnoh no_dadolst;
 
   if(tam == 0) return -1;
 
   i = 0;
-  dadolst = infoLista(lst,i);
+  no_dadolst = infoLista(lst,i);
+  dadolst = no_dadolst->dado;
   while((i < tam) && (dado != dadolst)){
 	  i++;
-  	  dadolst = infoLista(lst,i);
+  	  no_dadolst = infoLista(lst,i);
+      dadolst = no_dadolst->dado;
+  	  
   }
 
   if(i < tam) return i;
@@ -248,11 +248,13 @@ int main(){
   int tamanho = lenLista(lista);
   int primeiro = primLista(lista);
   int ultimo = ultLista(lista);
-  int valor = infoLista(lista, 1);
-  printf("Tamanho da lista: %d\nPrimeiro da Lista: %d\nUltimo da Lista: %d\nSegundo valor: %d\n", tamanho, primeiro, ultimo, valor);
+  pnoh valor = infoLista(lista, 1);
+  int valor_dado = valor->dado;
+  printf("Tamanho da lista: %d\nPrimeiro da Lista: %d\nUltimo da Lista: %d\nSegundo valor: %d\n", tamanho, primeiro, ultimo, valor_dado);
   insertLista(lista, 2, 6);
   valor = infoLista(lista, 2);
-  printf("Adicionando 6 na posição 2: %d\n", valor);
+  valor_dado = valor->dado;
+  printf("Adicionando 6 na posição 2: %d\n", valor_dado);
   removeLista(lista, 1);
   tamanho = lenLista(lista);
   printf("Novo tamanho após adicionar e remover: %d\n", tamanho);
@@ -261,7 +263,7 @@ int main(){
   TLista cloneLista = clonaLista(lista);
   printf("Lista Duplicada\n");
   clearLista(lista);
-
+    
   printf("Lista Apagada");
 
   return 0;
