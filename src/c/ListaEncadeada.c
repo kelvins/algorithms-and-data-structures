@@ -227,7 +227,10 @@ TLista clonaLista(TLista lst) {
     }
 
     for (int i = 0; i < tam; i++) {
-        appendLista(clone, infoLista(lst, i));
+        pnoh no = infoLista(lst, i);
+        if (no != NULL) {
+            appendLista(clone, no->dado);
+        }
     }
 
 	return clone;
