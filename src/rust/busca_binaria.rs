@@ -1,5 +1,5 @@
 /* 
-    Crontibuidores
+    Contribuidores
         - Dromedario de Chapéu
    
         O que é busca Binaria -
@@ -23,7 +23,7 @@ where
     // Centro indica o centro a lista ou sublista
     let mut centro = lista.len() / 2;   
     
-    // Limite_r representa o maior indice possivel, referente ao extremo direito
+    // Limite_r representa o maior indice possível, referente ao extremo direito
     // da lista atual, serve para dividir a lista original sem precisar ficar 
     // clonando ou literalmente dividindo. Seria o [-1] da sublista
     let mut limite_r = lista.len() - 1; 
@@ -49,19 +49,19 @@ where
         }
 
         // O segundo bloco se responsabiliza em verificar a distancia entre o valor recebido
-        // e o atual valor_p, caso sejá valor_p sejá maior, significa que o valor procurado
-        // esta mais para tras, e o centro é movido para o centro da sub lista anterior.
-        // Porem caso valor sejá maior qe o valor_p, significa que precisamos mover o centro
-        // para o centro da sub lista superiors
+        // e o atual valor_p, caso seja valor_p seja maior, significa que o valor procurado
+        // esta mais para trás, e o centro é movido para o centro da sub lista anterior.
+        // Porem caso valor seja maior que o valor_p, significa que precisamos mover o centro
+        // para o centro da sub lista superiors 
         if *valor_p > valor {
             limite_r = centro; 
             centro = centro / 2;
         } else if *valor_p < valor {
             limite_l = centro;
             // O If esta verificando se o espaço entre limite_r e limite_l é igual a 1
-            // pois a operação de padrão usada daria o resultado de 0 nesse caso, pos 
-            // Rust aredonda os valores para baixo, logo 0.5 é jogado para 0
-            // Poderia ser feito em uma linha utilizado conversõ de tipos e arredondamento 
+            // pois a operação de padrão usada daria o resultado de 0 nesse caso, pois 
+            // Rust arredonda os valores para baixo, logo 0.5 é jogado para 0
+            // Poderia ser feito em uma linha utilizado conversão de tipos e arredondamento  
             // porem eu pessoalmente acredito que a performance ganha não vale compensa
             
             centro = if (limite_r - limite_l) == 1 { centro + 1 } 

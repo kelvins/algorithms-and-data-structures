@@ -1,17 +1,17 @@
 /* 
-    Crontibuidores
+    Contribuidores
         - Dromedario de Chapéu
     
-    Busca Sequencial é o mais simples algoritmo de busca possivel, alem de 
-    ser um dos menos eficientes. Ele simplesmente intera por todos os itens 
+    Busca Sequencial é o mais simples algoritmo de busca possessive, alem de 
+    ser um dos menos eficientes. Ele simplesmente itera por todos os itens 
     de uma lista ate encontrar o valor desejado ou atingir o final da lista
     retornando que o elemento não esta presente na lista.
 
-    Esse algotimo pode ser util para listas pequenas de algumas poucas centenas
+    Esse algorítimo pode ser útil para listas pequenas de algumas poucas centenas
     de valores de tipo simples, porem mais que isso ele sera um grande gargalo 
     durante a execução do programa.
 
-    Uma possivel vantagem deste algoritmo, é que ele independe da lista esta
+    Uma possível vantagem deste algoritmo, é que ele independe da lista esta
     ordenada para funcionar. Pois ele não se importa com a ordem dos elementos.
 */
 fn busca_sequencial(lista: &[i32], valor: i32) -> (bool, usize) {
