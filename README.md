@@ -186,6 +186,6 @@ Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING
 [56]: https://play.golang.org
 [58]: https://play.rust-lang.org
 [59]: https://code.sololearn.com
-[60]: http://cpp.sh/
+[60]: https://code.labstack.com/cpp
 [61]: https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/huffman.html
 [62]: https://pt.wikipedia.org/wiki/LZ77
