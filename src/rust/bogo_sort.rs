@@ -1,8 +1,18 @@
-//  
-//  Crontibuidores
-//   - Dromedario de Chapéu
-//
+/* 
+    Contribuidores
+        - Dromedario de Chapéu
+  
+    O Bogo Sort é um algoritmo feito apenas como uma piada, feito 
+    o pior e mais demorado algoritmo de ordenação. Tudo que ele faz
+    é pegar uma lista, randomizar os seus itens, e verificar se todos
+    os itens estão ordenados. Logo se tor 100% aleatório, o que pode
+    fazer com que demore mais de 1 milhão de tentativas ate ser ordenado,
+    ou que simplesmente na primeira tentativa ele seja ordenado.
 
+*/
+
+// Para utilizar esta lib sera necessário iniciar um projeto com o cargo
+// e adicionar Rand as dependências
 use rand::prelude::*;
 
 fn verifica_ordem(lista: Vec<u8>) -> bool {
