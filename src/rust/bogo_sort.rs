@@ -1,12 +1,12 @@
-/* 
+/*
     Contribuidores
         - Dromedario de Chapéu
-  
-    O Bogo Sort é um algoritmo feito apenas como uma piada, feito 
-    o pior e mais demorado algoritmo de ordenação. Tudo que ele faz
+
+    O Bogo Sort é um algoritmo feito apenas como uma piada, sendo
+    o pior e mais demorado algoritmo de ordenação. Tudo o que ele faz
     é pegar uma lista, randomizar os seus itens, e verificar se todos
-    os itens estão ordenados. Logo se tor 100% aleatório, o que pode
-    fazer com que demore mais de 1 milhão de tentativas ate ser ordenado,
+    os itens estão ordenados. Logo, ele é 100% aleatório, o que pode
+    fazer com que demore mais de 1 milhão de tentativas até ser ordenado,
     ou que simplesmente na primeira tentativa ele seja ordenado.
 
 */
@@ -24,13 +24,13 @@ fn verifica_ordem(lista: Vec<u8>) -> bool {
     return true;
 }
 
-// Vec<u8> significa que o parâmetro "lista" é uma lista de 
+// Vec<u8> significa que o parâmetro "lista" é uma lista de
 // inteiros sem sinal de 8 bits. E o retorno u64 se refere
 // ao total de ciclos necessários para realizar a ordenação
 fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
     let mut rng = thread_rng();
-    // Foi escolhido um limite tão grande justamente pelo bogo sort 
-    // poder ser tanto o algoritmo mais rápido quanto o mais lento, 
+    // Foi escolhido um limite tão grande justamente pelo bogo sort
+    // poder ser tanto o algoritmo mais rápido quanto o mais lento,
     // então para não crashar o programa é bom um range grande
     let mut ciclos: u64 = 0;
     loop {
@@ -38,11 +38,11 @@ fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
         lista.shuffle(&mut rng);
         if verifica_ordem(lista.clone()) {
             return (lista, ciclos);
-        } 
+        }
     }
 }
 
-// O valor de u8 para os itens da lista é apenas para 
+// O valor de u8 para os itens da lista é apenas para
 // gerar números muito grandes e dificultar na visualização
 fn gera_lista(len: u8) -> Vec<u8> {
     let mut rng = thread_rng();

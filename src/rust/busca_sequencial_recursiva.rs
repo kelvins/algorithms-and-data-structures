@@ -1,16 +1,16 @@
-/* 
+/*
     Contribuidores
         - Dromedário de Chapéu
-   
+
     A Busca Sequencial Recursiva consiste do mesmo conceito da Busca Sequencial.
-    A diferente é que invés de iterar na lista utilizando um for por exemplo,
+    A diferença é que ao invés de iterar na lista utilizando um for por exemplo,
     é utilizado recursão que é resumidamente uma função que se chama N vezes com
     mudanças no seus parâmetros te atingir ou o resultado desejado, ou um estado
     onde não ha mais o que fazer.
 
     Essa implementação é ainda mais lenta e custosa que a forma utilizando for,
     pois recursão utiliza muito mais memoria e processamento para ser utilizada, para
-    poucos itens na pratica ele vai ser tão rápido quanto qualquer outro algoritmo. 
+    poucos itens na pratica ele vai ser tão rápido quanto qualquer outro algoritmo.
     Porem caso seja uma lista de milhares de itens este algoritmo sera um problema.
 */
 
@@ -24,8 +24,8 @@ fn busca_sequencial_recursiva(lista: &[i32], valor: i32, indice: usize) -> (bool
         return (false, 0)
     } else if lista[indice] == valor {
         return (true, indice)
-    }    
-    
+    }
+
     // Caso o item atual não seja o item desejado, nos chamamos a função com o índice
     // acrescentado, para que na próxima execução da função seja verificado o próximo
     // item da lista
