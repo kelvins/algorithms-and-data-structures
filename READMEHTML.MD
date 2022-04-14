@@ -4,2567 +4,2569 @@ Este repositório disponibiliza alguns algoritmos e estruturas de dados clássic
 
 Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Pascal**, **Swift** e **Rust**.
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
-<table>
-    <tr>
-        <td align="center">Algoritmo</td>
-        <td align="center" colspan="10">Linguagens</td>
-    </tr>
-    <tr>
-        <td><a href="url">Algoritmo Dijkstra</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Algoritmo Floyd Warshall</a></td>  
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca Binária</a></td>  
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>    
-        <td><a href="url">Busca em Grafos</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca Sequencial</a></td>     
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca Sequencial Recursiva</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca utilizando Sentinela</a></td>           
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca por Interpolação</a></td> 
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Caixeiro Viajante</a></td>   
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Ciclo Hamiltoniano</a></td>  
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Componentes Conexos</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Exponenciação</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Exponenciação Recursiva</a></td>   
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Fatorial</a></td>      
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Fatorial Recursiva</a></td>  
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Fibonacci</a></td>     
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Máximo Recursivo</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Mín. e Máx. Iterativo</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Mín. e Máx. Recursivo</a></td>         
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Mín. e Máx. D&C</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Passeio do Cavalo</a></td>          
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Torre de Hanói</a></td>     
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Algoritmo Genético</a></td>   
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Algoritmo de Huffman</a></td>       
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Algoritmo LZ77</a></td>    
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td align="center">Estruturas de Dados</td>
-        <td align="center" colspan="10">Linguagens</td>
-    </tr>
-    <tr>
-        <td><a href="url">Árvore Binária</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Árvore Binária de Busca</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Deque</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Fila</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Fila Encadeada Dinâmica</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Grafo</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Circular Ligada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Encadeada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Duplamente Encadeada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Ligada Não Ordenada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Sequencial Ordenada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Pilha</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Pilha Ligada Dinâmica</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td align="center">Algotimos de Ordenação</td>
-        <td align="center" colspan="10">Linguagens</td>
-    </tr>
-    <tr>
-        <td><a href="url">Bogo Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Bubble Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Bucket Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Cocktail Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Comb Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Counting Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Gnome Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Heapsort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Insertion Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Merge Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Quicksort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Radix Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Selection Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Shell Sort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Timsort</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-</table>
-<table>
-    <tr>
-        <td align="center">Extra</td>
-        <td align="center" colspan="10">Linguagens</td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista com 2 Pilhas</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Soma de 2 Números</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Palíndromo</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Lista Ligada Desordenada</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Calculo do PI (Leibniz)</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> -->
-            <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-    <tr>
-        <td><a href="url">Busca em Labirinto</a></td>
-        <td> <!-- C -->
-            <!-- <a href="./src/c/"> -->
-            <i class="devicon-c-plain"></i>
-        </td>
-        <td> <!-- C++ -->
-            <!-- <a href="./src/cpp/"> -->
-            <i class="devicon-cplusplus-plain"></i>
-        </td>
-        <td> <!-- Java -->
-            <!-- <a href="./src/java/"> -->
-            <i class="devicon-java-plain"></i>
-        </td>
-        <td> <!-- Python -->
-            <!-- <a href="./src/python/"> -->
-            <i class="devicon-python-plain"></i>
-        </td>
-        <td> <!-- Go -->
-            <!-- <a href="./src/go/"> -->
-            <i class="devicon-go-original-wordmark"></i>
-        </td>
-        <td> <!-- Ruby -->
-            <!-- <a href="./src/ruby/"> -->
-            <i class="devicon-ruby-plain"></i>
-        </td>
-        <td> <!-- JavaScript -->
-            <!-- <a href="./src/javascript/"> -->
-            <i class="devicon-javascript-plain"></i>
-        </td>
-        <td> <!-- Swift -->
-            <!-- <a href="./src/swift/"> -->
-            <i class="devicon-swift-plain"></i>
-        </td>
-        <td> <!-- Rust -->
-            <!-- <a href="./src/rust/"> -->
-            <i class="devicon-rust-plain"></i>
-        </td>
-        <td> <!-- Elixir -->
-            <!-- <a href="./src/elixir/"> --> <i class="devicon-elixir-plain"></i>
-        </td>
-    </tr>
-<table>
+<html>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
+    <table>
+        <tr>
+            <td align="center">Algoritmo</td>
+            <td align="center" colspan="10">Linguagens</td>
+        </tr>
+        <tr>
+            <td><a href="url">Algoritmo Dijkstra</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Algoritmo Floyd Warshall</a></td>  
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca Binária</a></td>  
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>    
+            <td><a href="url">Busca em Grafos</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca Sequencial</a></td>     
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca Sequencial Recursiva</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca utilizando Sentinela</a></td>           
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca por Interpolação</a></td> 
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Caixeiro Viajante</a></td>   
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Ciclo Hamiltoniano</a></td>  
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Componentes Conexos</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Exponenciação</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Exponenciação Recursiva</a></td>   
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Fatorial</a></td>      
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Fatorial Recursiva</a></td>  
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Fibonacci</a></td>     
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Máximo Recursivo</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Mín. e Máx. Iterativo</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Mín. e Máx. Recursivo</a></td>         
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Mín. e Máx. D&C</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Passeio do Cavalo</a></td>          
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Torre de Hanói</a></td>     
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Algoritmo Genético</a></td>   
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Algoritmo de Huffman</a></td>       
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Algoritmo LZ77</a></td>    
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td align="center">Estruturas de Dados</td>
+            <td align="center" colspan="10">Linguagens</td>
+        </tr>
+        <tr>
+            <td><a href="url">Árvore Binária</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Árvore Binária de Busca</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Deque</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Fila</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Fila Encadeada Dinâmica</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Grafo</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Circular Ligada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Encadeada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Duplamente Encadeada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Ligada Não Ordenada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Sequencial Ordenada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Pilha</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Pilha Ligada Dinâmica</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td align="center">Algotimos de Ordenação</td>
+            <td align="center" colspan="10">Linguagens</td>
+        </tr>
+        <tr>
+            <td><a href="url">Bogo Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Bubble Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Bucket Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Cocktail Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Comb Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Counting Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Gnome Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Heapsort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Insertion Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Merge Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Quicksort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Radix Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Selection Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Shell Sort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Timsort</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td align="center">Extra</td>
+            <td align="center" colspan="10">Linguagens</td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista com 2 Pilhas</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Soma de 2 Números</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Palíndromo</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Lista Ligada Desordenada</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Calculo do PI (Leibniz)</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> -->
+                <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="url">Busca em Labirinto</a></td>
+            <td> <!-- C -->
+                <!-- <a href="./src/c/"> -->
+                <i class="devicon-c-plain"></i>
+            </td>
+            <td> <!-- C++ -->
+                <!-- <a href="./src/cpp/"> -->
+                <i class="devicon-cplusplus-plain"></i>
+            </td>
+            <td> <!-- Java -->
+                <!-- <a href="./src/java/"> -->
+                <i class="devicon-java-plain"></i>
+            </td>
+            <td> <!-- Python -->
+                <!-- <a href="./src/python/"> -->
+                <i class="devicon-python-plain"></i>
+            </td>
+            <td> <!-- Go -->
+                <!-- <a href="./src/go/"> -->
+                <i class="devicon-go-original-wordmark"></i>
+            </td>
+            <td> <!-- Ruby -->
+                <!-- <a href="./src/ruby/"> -->
+                <i class="devicon-ruby-plain"></i>
+            </td>
+            <td> <!-- JavaScript -->
+                <!-- <a href="./src/javascript/"> -->
+                <i class="devicon-javascript-plain"></i>
+            </td>
+            <td> <!-- Swift -->
+                <!-- <a href="./src/swift/"> -->
+                <i class="devicon-swift-plain"></i>
+            </td>
+            <td> <!-- Rust -->
+                <!-- <a href="./src/rust/"> -->
+                <i class="devicon-rust-plain"></i>
+            </td>
+            <td> <!-- Elixir -->
+                <!-- <a href="./src/elixir/"> --> <i class="devicon-elixir-plain"></i>
+            </td>
+        </tr>
+    <table>
+</html>
 
 ## :ferris_wheel: Playgrounds
 
