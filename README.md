@@ -77,7 +77,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 ## :ferris_wheel: Playgrounds
 
-- **C++**: [cpp.sh][60]
+- **C++**: [code.labstack.com/cpp][60]
 - **Go**: [play.golang.org][56]
 - **Rust**: [play.rust-lang.org][58]
 - **Generic**: [code.sololearn.com][59]
