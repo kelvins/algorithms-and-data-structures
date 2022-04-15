@@ -59,7 +59,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td><a href="url">Algoritmo Dijkstra</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                </a>
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->
             </td>
             <td> <!-- C++ -->
@@ -84,8 +85,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />  -->
+                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/AlgoritmoDijkstra.js">
