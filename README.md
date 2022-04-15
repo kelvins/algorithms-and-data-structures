@@ -2628,7 +2628,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a>     
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/listaSequencialNaoOrdenada/listaSequencialNaoOrdenada.go">
+                <a href="./src/go/listasequencialnaoordenada/listaSequencialNaoOrdenada.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2701,7 +2701,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/listaSequencialOrdenada/listaSequencialOrdenada.go">
+                <a href="./src/go/listasequencialordenada/listaSequencialOrdenada.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -4272,79 +4272,6 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a> -->   
-            </td>
-            <td> <!-- Elixir -->
-                <!-- <a href="./src/elixir/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-        </tr>
-        <tr>
-            <td><a href="url">Lista Ligada Desordenada</a></td>
-            <td> <!-- C -->
-                <!-- <a href="./src/c/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- C++ -->
-                <!-- <a href="./src/cpp/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- Java -->
-                <!-- <a href="./src/java/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/lista_encadeada_desordenada.py">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
-            </td>
-            <td> <!-- Go -->
-                <!-- <a href="./src/go/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- Ruby -->
-                <!-- <a href="./src/ruby/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- JavaScript -->
-                <!-- <a href="./src/javascript/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- Swift -->
-                <!-- <a href="./src/swift/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
-            </td>
-            <td> <!-- Rust -->
-                <!-- <a href="./src/rust/"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <a href="./CONTRIBUTING.md">
-                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
