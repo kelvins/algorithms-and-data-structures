@@ -61,52 +61,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <a href="./src/c/AlgoritmoDijkstra.c">
                     <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Dijkstra.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->     
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/dijkstra.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/dijkstra/dijkstra.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->     
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />  -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />   
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/AlgoritmoDijkstra.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->    
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->    
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> --> 
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> --> 
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> --> 
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
         </tr>
         <tr>
@@ -114,52 +114,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoFloydWarshall.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/floyd_warshall.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -167,52 +167,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BinarySearch.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />   
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_binaria.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/busca_binaria/busca_binaria.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaBinaria.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BinarySearch.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_binaria.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>    
@@ -220,52 +220,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/BuscaEmGrafo.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_em_grafo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/GraphSearch.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -273,52 +273,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BuscaSequencial.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sequencial.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />    
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />    
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaSequencial.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BuscaLinear.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -326,52 +326,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencialRecursiva.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sequencial_recursiva.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Busca_Sequencial_Recursiva.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveLinearSearch.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial_recursiva.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -379,52 +379,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sentinela.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaSentinela.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/busca_sentinela.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -432,52 +432,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Interpolation_search.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/interpolation_search.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -485,52 +485,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/CaixeiroViajante.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/caixeiroviajante/caixeiroviajante.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->    
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -538,52 +538,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/CicloHamiltoniano.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -591,52 +591,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ComponentesConexos.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -644,52 +644,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Exponenciacao.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Exponenciacao.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/exponenciacao.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/exponenciacao/exponenciacao.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Exponenciacao.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Exponentiation.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -697,52 +697,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/ExpRecursiva.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ExponenciacaoRecursiva.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/exponenciacao_recursiva.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/ExponenciacaoRecursiva.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ExponentiationRecursive.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/exponentiation_recursive.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -750,52 +750,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Fatorial.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fatorial.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fatorial.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fatorial/fatorial.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Factorial.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fatorial.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -803,52 +803,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/FatorialRecursiva.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/FatorialRecursiva.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fatorial_recursiva.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fatorial.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/FactorialRecursive.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fatorialRecursivo.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial_recursiva.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -856,52 +856,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Fibonacci.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fibonacci.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fibonacci.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fibonacci/fibonacci.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fibonacci.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Fibonacci.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fibonacci.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fibonacci.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -909,52 +909,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/MaximoRecursivo.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/MaxMinArray.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_recursivo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MaxRecursive.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -962,52 +962,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/MinMaxIterativo.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/min_max_iterativo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/IterativeMinAndMax.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_iterativo.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1015,52 +1015,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_minimo_recursivo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/maximominimo/MaximoMinimo.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveMinAndMax.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_recursivo.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1068,52 +1068,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_minimo_dc.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1121,52 +1121,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/passeio_do_cavalo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1174,52 +1174,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/TorreDeHanoi.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/TorreDeHanoi.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/torre_de_hanoi.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/hanoi.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Hanoi.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/TorreDeHanoi.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/hanoi.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/torre_hanoi.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1227,52 +1227,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/genetic_algorithm.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1280,52 +1280,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./compressao_huffman.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1333,52 +1333,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/compressao_lz77.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
     </table>
@@ -1425,52 +1425,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinaria.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/binary_tree.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1478,52 +1478,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinariaDeBusca.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ArvoreDeBuscaBinaria.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/arvore_binaria_de_busca.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ArvoreDeBuscaBinaria.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1531,52 +1531,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Deque.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/deque.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/deque.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1584,52 +1584,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Fila.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fila.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fila.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fila.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Fila.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fila.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fila.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1637,52 +1637,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/FilaEncadeadaDinamica.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1690,52 +1690,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Grafos.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1743,52 +1743,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ListaCircularLigada.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_encadeada_circular.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1796,52 +1796,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ListaEncadeada.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/ListaEncadeada.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_encadeada.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Lista_encadeada.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ListaSimplesmenteEncadeada.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/linked_list.rs"> -->
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1849,52 +1849,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ListaDuplamenteEncadeada.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ListaDuplamenteEncadeada.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_duplamente_encadeada.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Lista_duplamente_encadeada.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ListaDuplamenteEncadeada.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1902,52 +1902,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ListaLigadaNaoOrdenada.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/listaSequencialNaoOrdenada/listaSequencialNaoOrdenada.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -1955,52 +1955,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/ListaSequencialOrdenada.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_sequencial_ordenada.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/listaSequencialOrdenada/listaSequencialOrdenada.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2008,52 +2008,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Pilha.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Pilha.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/pilha.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Pilha.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Pilha.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/pilha.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/pilha.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2061,52 +2061,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/PilhaLigadaDinamica.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
     </table>
@@ -2153,52 +2153,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BogoSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bogo_sort.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2206,52 +2206,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/BubbleSort.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BubbleSort.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BubbleSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/bubble_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/bubbleSort/bubbleSort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bubble_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BurbbleSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bubble_sort.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2259,52 +2259,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BucketSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bucket_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2312,52 +2312,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/cocktailsort/cocktailsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2365,52 +2365,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/combsort/combsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/CombSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2418,52 +2418,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/CountingSort.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/countingsort/countingsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/count_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2471,52 +2471,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/gnomesort/gnomesort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/gnomesort.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2524,52 +2524,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/HeapSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/heapsort/heapsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/heap_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/HeapSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2577,52 +2577,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/InsertionSort.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/InsertionSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/insertion_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/insertionsort/insertionsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/insertion_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/InsertionSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/insertionSort.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/insertion_sort.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2630,52 +2630,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/MergeSort.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Mergesort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/merge_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/g/mergesort/mergesort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/merge_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MergeSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2683,52 +2683,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/QuickSort.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Quicksort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/quick_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/quicksort/quicksort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/quick_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript//QuickSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2736,52 +2736,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/RadixSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/radixsort/radixsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/radix_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RadixSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2789,52 +2789,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/SelectionSort.cpp">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/SelectionSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/selection_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/selectionsort/selectionsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/selection_sort.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/SelectionSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2842,52 +2842,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ShellSort.java">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/shell_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/shellsort/shellsort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ShellSort.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -2895,52 +2895,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/tim_sort.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
     </table>
@@ -2987,52 +2987,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_com_pilhas.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -3040,52 +3040,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/soma_dois_numeros.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -3093,52 +3093,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/Palindromo.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/palindromo.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Palindromo.rb">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Palindromo.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/palindromo.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/palindromo.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -3146,52 +3146,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_encadeada_desordenada.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -3199,52 +3199,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <a href="./src/c/CalculatePi.c">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/calculate_pi.py">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/calculatepi/calculatepi.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/calculate_pi.js">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/calculatePi.swift">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/calculate_pi.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
         <tr>
@@ -3252,52 +3252,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_em_labirinto.py"> 
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
+                <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->   
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> --> 
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
+                <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />     
             </td>
         </tr>
     <table>
