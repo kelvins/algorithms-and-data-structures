@@ -59,7 +59,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td><a href="url">Algoritmo Dijkstra</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
-                    <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img pointer-events="none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
                 <!-- <img style="pointer-events: none" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->
             </td>
