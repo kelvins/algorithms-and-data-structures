@@ -1640,7 +1640,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/hanoi.go">
+                <a href="./src/go/hanoi/hanoi.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
