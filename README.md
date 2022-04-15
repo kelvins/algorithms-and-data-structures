@@ -1910,34 +1910,54 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
         <tr>
             <td align="center">Estrutura de Dados</td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                <a href="https://go.dev/learn/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                <a href="https://www.ruby-lang.org/pt/documentation/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                <a href="https://www.swift.org/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                </a>
             </td>           
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                </a>
             </td>
         </tr>
         <tr>
@@ -2898,34 +2918,54 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
         <tr>
             <td align="center">Algoritmo de Ordenação</td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                <a href="https://go.dev/learn/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                <a href="https://www.ruby-lang.org/pt/documentation/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                <a href="https://www.swift.org/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                </a>
             </td>           
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                </a>
             </td>
         </tr>
         <tr>
@@ -4032,34 +4072,54 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
         <tr>
             <td align="center">Extra</td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                <a href="https://go.dev/learn/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                <a href="https://www.ruby-lang.org/pt/documentation/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                <a href="https://www.swift.org/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                </a>
             </td>           
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                </a>
             </td>
             <td align="center">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                    <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                </a>
             </td>
         </tr>
         <tr>
@@ -4446,5 +4506,4 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
 ## :dancers: Contribuindo
 
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
-
 Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
