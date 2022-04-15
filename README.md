@@ -4,7 +4,6 @@ Este repositório disponibiliza alguns algoritmos e estruturas de dados clássic
 
 Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust** e **Elixir**.
 
-PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da logo invés do arquivo, notifique este erro o quanto antes para**
 <html>
     <!--
         Quando vc fizer a sua contribuição, e já tiver salvado o arquivo na pasta 
