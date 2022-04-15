@@ -2510,7 +2510,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a>     
             </td>
             <td> <!-- Rust -->
-                <!-- <a href="./src/rust/linked_list.rs"> -->
+                <a href="./src/rust/linked_list.rs">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
