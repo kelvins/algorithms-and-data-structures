@@ -3331,11 +3331,11 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Ruby -->
-                <!-- <a href="./src/ruby/count_sort.rb"> -->
-                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
-                <a href="./CONTRIBUTING.md">
+                <a href="./src/ruby/count_sort.rb">
+                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
@@ -3354,9 +3354,9 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
-                <!-- <a href="./CONTRIBUTING.md">
+                <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a>   
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
