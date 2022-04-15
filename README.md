@@ -4501,7 +4501,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
 - **Java Script**: [Labstack JS](https://code.labstack.com/javascript)
 - **Swift**: [Labstack Swift](https://code.labstack.com/swift)
 - **Rust**: [Rust Playground](https://play.rust-lang.org/)
-- **Elixir**: [code.labstack.com](https://code.labstack.com/go)
+- **Elixir**: [Labstack Elixir](https://code.labstack.com/go)
 
 ## :dancers: Contribuindo
 
