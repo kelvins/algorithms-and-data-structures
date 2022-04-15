@@ -3331,7 +3331,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Ruby -->
-                <!-- <a href="./src/ruby/"> -->
+                <!-- <a href="./src/ruby/count_sort.rb"> -->
                 <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3352,8 +3352,8 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a>     
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/count_sort.rb">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                <!-- <a href="./src/rust/"> -->
+                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a> -->   
@@ -3616,7 +3616,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Go -->
-                <a href="./src/g/mergesort/mergesort.go">
+                <a href="./src/go/mergesort/mergesort.go">
                 <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3807,11 +3807,11 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
         <tr>
             <td><a href="url">Selection Sort</a></td>
             <td> <!-- C -->
-                <a href="./src/c/">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
-                <!-- <a href="./CONTRIBUTING.md">
+                <!-- <a href="./src/c/"> -->
+                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
+                <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a>    
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/SelectionSort.cpp">
@@ -3915,11 +3915,11 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
                 </a> -->   
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/">
-                <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
-                <!-- <a href="./CONTRIBUTING.md">
+                <!-- <a href="./src/ruby/"> -->
+                <!-- <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
+                <a href="./CONTRIBUTING.md">
                     <img height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a>   
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ShellSort.js">
@@ -4025,7 +4025,7 @@ PS: **Caso ao tentar acessar algum algoritmo e for direcionado para a foto da lo
         </tr>
     </table>
     <table align="center">
-        <<tr>
+        <tr>
             <td align="center" style="border-top-style: hidden; border-left-style: hidden;"></td>
             <td align="center" colspan="10">Linguagens</td>
         </tr>
