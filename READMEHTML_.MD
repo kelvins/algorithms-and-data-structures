@@ -1,11 +1,12 @@
-# :computer: Algoritmos e Estruturas de Dados
-
+#  :computer: Algoritmos e Estruturas de Dados
+  
+  
 Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em **Ciência da Computação**. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
-
+  
 Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Pascal**, **Swift** e **Rust**.
-
+  
 <html>
-    <table>
+    <table border="2px">
         <tr>
             <td align="center">Algoritmo</td>
             <td align="center" colspan="10">Linguagens</td>
@@ -21,7 +22,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                <!-- <img height="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Dijkstra.java">
@@ -3158,16 +3158,19 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         </tr>
     <table>
 </html>
-
-## :ferris_wheel: Playgrounds
-
+  
+##  :ferris_wheel: Playgrounds
+  
+  
 - **C++**: [cpp.sh][60]
 - **Go**: [play.golang.org][56]
 - **Rust**: [play.rust-lang.org][58]
 - **Generic**: [code.sololearn.com][59]
-
-## :dancers: Contribuindo
-
+  
+##  :dancers: Contribuindo
+  
+  
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
-
-Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
+  
+Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md ).
+  
