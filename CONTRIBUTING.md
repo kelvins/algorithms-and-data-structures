@@ -4,7 +4,7 @@
 
 ## Criando Issues
 
-Se você encontrar qualquer problema, tiver alguma sugestão ou gostaria que fosse incluído algum algoritmo específico, fique à vontade para criar uma nova issue.
+Se você encontrar qualquer problema que sejá maior do que fazer um simples Pull concertando, tiver alguma sugestão ou gostaria que fosse incluído algum algoritmo específico ou linguagem, fique à vontade para criar uma nova issue.
 
 Antes de criar a issue verifique se já não existe outra issue semelhante e lembre-se de detalhar o problema encontrado ou sugestão proposta.
 
