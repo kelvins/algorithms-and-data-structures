@@ -6,14 +6,14 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
 
 <html>
     <!--
-        Quando vc fizer a sua contribuição, e já tiver salvado o arquivo na pasta 
-    correspondente a linguagem, procure com Crtl + F pelo algoritmo ou estrutura que 
-    você implementou, você vera que as <td> referente a uma linguagem possui 3 tags, 
-    um <a> e 2 <img>. A <a> é o link para o arquivo da implementação, que devera estar 
-    comentada caso não tenha um link. A primeira tag <img> é a logo da linguagem, que 
-    devera estar comentada para caso o algoritmo não tenha sido implementado, já a 
-    segunda <img> é a logo do GitHub, esta deve estar comentada quando tiver uma 
-    implementação linkada. No caso, quando você for linkar o seu código, comente a 
+        Quando vc fizer a sua contribuição, e já tiver salvado o arquivo na pasta
+    correspondente a linguagem, procure com Crtl + F pelo algoritmo ou estrutura que
+    você implementou, você vera que as <td> referente a uma linguagem possui 3 tags,
+    um <a> e 2 <img>. A <a> é o link para o arquivo da implementação, que devera estar
+    comentada caso não tenha um link. A primeira tag <img> é a logo da linguagem, que
+    devera estar comentada para caso o algoritmo não tenha sido implementado, já a
+    segunda <img> é a logo do GitHub, esta deve estar comentada quando tiver uma
+    implementação linkada. No caso, quando você for linkar o seu código, comente a
     logo do GitHub, e descomente a logo da linguagem junto ao link para o seu arquivo.
     Ass: Dromedario de Chapeu
     -->
@@ -22,7 +22,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td align="center">Algoritmo</td>
             <td align="center">
                 <a href="https://code.labstack.com/c">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -47,7 +47,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -57,17 +57,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/swift">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
-            </td>           
+            </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
                 </a>
             </td>
         </tr>
@@ -75,7 +75,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td><a href="url">Algoritmo Dijkstra</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
@@ -84,7 +84,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Dijkstra.java">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />   
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/dijkstra.py">
@@ -92,16 +92,16 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/dijkstra/dijkstra.go">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />    
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>   
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/AlgoritmoDijkstra.js">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />   
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
@@ -120,10 +120,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo Floyd Warshall</a></td>  
+            <td><a href="url">Algoritmo Floyd Warshall</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoFloydWarshall.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
@@ -142,53 +142,53 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Binária</a></td>  
+            <td><a href="url">Busca Binária</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BinarySearch.cpp">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>   
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_binaria.py">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/busca_binaria/busca_binaria.go">
@@ -196,16 +196,16 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaBinaria.rb">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BinarySearch.js">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />  
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_binaria.rs">
@@ -214,73 +214,73 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
-        <tr>    
-            <td><a href="url">Busca em Grafos</a></td>    
+        <tr>
+            <td><a href="url">Busca em Grafos</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaEmGrafo.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_em_grafo.py">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/GraphSearch.js">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Sequencial</a></td>     
+            <td><a href="url">Busca Sequencial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BuscaSequencial.cpp">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />  
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sequencial.py">
@@ -289,11 +289,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>    
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaSequencial.rb">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BuscaLinear.js">
@@ -302,55 +302,55 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial.rs">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />  
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Sequencial Recursiva</a></td>    
+            <td><a href="url">Busca Sequencial Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencialRecursiva.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sequencial_recursiva.py">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Busca_Sequencial_Recursiva.rb">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />  
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveLinearSearch.js">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial_recursiva.rs">
@@ -359,33 +359,33 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca utilizando Sentinela</a></td>           
+            <td><a href="url">Busca utilizando Sentinela</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/busca_sentinela.py">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/BuscaSentinela.rb">
@@ -398,192 +398,192 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca por Interpolação</a></td> 
+            <td><a href="url">Busca por Interpolação</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Interpolation_search.cpp">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/interpolation_search.py">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />  
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Caixeiro Viajante</a></td>   
+            <td><a href="url">Caixeiro Viajante</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CaixeiroViajante.c">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/caixeiroviajante/caixeiroviajante.go">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> 
+                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
-            <td> <!-- Swift -->  
+            <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Ciclo Hamiltoniano</a></td>  
+            <td><a href="url">Ciclo Hamiltoniano</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CicloHamiltoniano.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -593,508 +593,508 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Exponenciação</a></td>    
+            <td><a href="url">Exponenciação</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Exponenciacao.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Exponenciacao.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/exponenciacao.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/exponenciacao/exponenciacao.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Exponenciacao.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Exponentiation.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Exponenciação Recursiva</a></td>   
+            <td><a href="url">Exponenciação Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/ExpRecursiva.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ExponenciacaoRecursiva.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/exponenciacao_recursiva.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/ExponenciacaoRecursiva.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ExponentiationRecursive.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/exponentiation_recursive.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fatorial</a></td>      
+            <td><a href="url">Fatorial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Fatorial.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fatorial.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fatorial.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fatorial/fatorial.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Factorial.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fatorial.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fatorial Recursiva</a></td>  
+            <td><a href="url">Fatorial Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/FatorialRecursiva.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/FatorialRecursiva.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fatorial_recursiva.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fatorial.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/FactorialRecursive.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fatorialRecursivo.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial_recursiva.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fibnacci</a></td>     
+            <td><a href="url">Fibnacci</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Fibonacci.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fibonacci.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fibonacci.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fibonacci/fibonacci.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fibonacci.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Fibonacci.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fibonacci.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fibonacci.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Máximo Recursivo</a></td>    
+            <td><a href="url">Máximo Recursivo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/MaximoRecursivo.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/MaxMinArray.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_recursivo.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MaxRecursive.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -1104,581 +1104,581 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/MinMaxIterativo.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/min_max_iterativo.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/IterativeMinAndMax.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_iterativo.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Mín. e Máx. Recursivo</a></td>         
+            <td><a href="url">Mín. e Máx. Recursivo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_minimo_recursivo.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/maximominimo/MaximoMinimo.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveMinAndMax.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_recursivo.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Mín. e Máx. D&C</a></td>    
+            <td><a href="url">Mín. e Máx. D&C</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/maximo_minimo_dc.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Passeio do Cavalo</a></td>          
+            <td><a href="url">Passeio do Cavalo</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/passeio_do_cavalo.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Torre de Hanói</a></td>     
+            <td><a href="url">Torre de Hanói</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TorreDeHanoi.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/TorreDeHanoi.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/torre_de_hanoi.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/hanoi/hanoi.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Hanoi.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/TorreDeHanoi.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/hanoi.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/torre_hanoi.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo Genético</a></td>   
+            <td><a href="url">Algoritmo Genético</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/genetic_algorithm.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo de Huffman</a></td>       
+            <td><a href="url">Algoritmo de Huffman</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/compressao_huffman.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo LZ77</a></td>    
+            <td><a href="url">Algoritmo LZ77</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/compressao_lz77.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
     </table>
@@ -1687,7 +1687,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td align="center">Estruturas de Dados</td>
             <td align="center">
                 <a href="https://code.labstack.com/c">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1712,7 +1712,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1722,17 +1722,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/swift">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
-            </td>           
+            </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
                 </a>
             </td>
         </tr>
@@ -1743,70 +1743,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/binary_tree.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -1816,70 +1816,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ArvoreDeBuscaBinaria.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/arvore_binaria_de_busca.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ArvoreDeBuscaBinaria.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -1889,70 +1889,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Deque.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/deque.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/deque.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -1962,70 +1962,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Fila.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/fila.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Fila.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Fila.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fila.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fila.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2035,70 +2035,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2108,70 +2108,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2181,70 +2181,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_encadeada_circular.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2254,70 +2254,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/ListaEncadeada.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_encadeada.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Lista_encadeada.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ListaSimplesmenteEncadeada.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/linked_list.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2327,70 +2327,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ListaDuplamenteEncadeada.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_duplamente_encadeada.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Lista_duplamente_encadeada.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ListaDuplamenteEncadeada.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2400,70 +2400,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/listasequencialnaoordenada/listaSequencialNaoOrdenada.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2473,70 +2473,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_sequencial_ordenada.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/listasequencialordenada/listaSequencialOrdenada.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2546,70 +2546,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Pilha.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/pilha.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Pilha.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Pilha.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/pilha.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/pilha.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2619,70 +2619,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
     </table>
@@ -2691,7 +2691,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td align="center">Algoritmo de Ordenação</td>
             <td align="center">
                 <a href="https://code.labstack.com/c">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2716,7 +2716,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2726,17 +2726,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/swift">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
-            </td>           
+            </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
                 </a>
             </td>
         </tr>
@@ -2747,70 +2747,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BogoSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bogo_sort.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2820,70 +2820,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BubbleSort.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BubbleSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/bubble_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/bubbleSort/bubbleSort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bubble_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BurbbleSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bubble_sort.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2893,70 +2893,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/BucketSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bucket_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -2966,70 +2966,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/cocktailsort/cocktailsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3039,70 +3039,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/combsort/combsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/CombSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3112,35 +3112,35 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/CountingSort.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/countingsort/countingsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/count_sort.rb">
@@ -3154,28 +3154,28 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>   
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3185,70 +3185,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/gnomesort/gnomesort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/gnomesort.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3258,70 +3258,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/HeapSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/heapsort/heapsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/heap_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/HeapSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3331,70 +3331,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/InsertionSort.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/InsertionSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/insertion_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/insertionsort/insertionsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/insertion_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/InsertionSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/insertionSort.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/insertion_sort.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3404,70 +3404,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Mergesort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/merge_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/mergesort/mergesort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/merge_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MergeSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3477,70 +3477,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/QuickSort.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/Quicksort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/quick_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/quicksort/quicksort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/quick_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript//QuickSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3550,70 +3550,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/RadixSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <!-- <a href="./src/python/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/radixsort/radixsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/radix_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RadixSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3623,70 +3623,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>    
+                </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/SelectionSort.cpp">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/SelectionSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/selection_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/selectionsort/selectionsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/selection_sort.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/SelectionSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3696,70 +3696,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ShellSort.java">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/shell_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/shellsort/shellsort.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>   
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ShellSort.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3769,70 +3769,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/tim_sort.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
     </table>
@@ -3841,7 +3841,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td align="center">Extra</td>
             <td align="center">
                 <a href="https://code.labstack.com/c">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3866,7 +3866,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3876,17 +3876,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/swift">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
-            </td>           
+            </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
                 </a>
             </td>
         </tr>
@@ -3897,70 +3897,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/lista_com_pilhas.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -3970,70 +3970,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/soma_dois_numeros.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -4043,70 +4043,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/palindromo.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/Palindromo.rb">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Palindromo.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/palindromo.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/palindromo.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -4116,70 +4116,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/calculate_pi.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/calculatepi/calculatepi.go">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/calculate_pi.js">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/calculatePi.swift">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/calculate_pi.rs">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Elixir -->
                 <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
         <tr>
@@ -4189,70 +4189,70 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- C++ -->
                 <!-- <a href="./src/cpp/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Java -->
                 <!-- <a href="./src/java/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_em_labirinto.py"> 
+                <a href="./src/python/busca_em_labirinto.py">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 <!-- <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a> -->   
+                </a> -->
             </td>
             <td> <!-- Go -->
                 <!-- <a href="./src/go/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Ruby -->
                 <!-- <a href="./src/ruby/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- JavaScript -->
                 <!-- <a href="./src/javascript/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Swift -->
                 <!-- <a href="./src/swift/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Rust -->
                 <!-- <a href="./src/rust/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
             <td> <!-- Elixir -->
-                <!-- <a href="./src/elixir/"> --> 
+                <!-- <a href="./src/elixir/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>     
+                </a>
             </td>
         </tr>
     <table>
