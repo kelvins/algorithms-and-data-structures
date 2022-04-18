@@ -25,52 +25,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Algoritmo</td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                <a href="https://www.java.com/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                <a href="https://www.python.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/learn/">
+                <a href="https://go.dev">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.ruby-lang.org/pt/documentation/">
+                <a href="https://www.ruby-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                <a href="https://www.javascript.com">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.swift.org/">
+                <a href="https://www.swift.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
                 </a>
             </td>           
             <td align="center">
-                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                <a href="https://www.rust-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                <a href="https://elixir-lang.org/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
                 </a>
             </td>
@@ -1907,54 +1907,54 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td align="center" colspan="10">Linguagens</td>
         </tr>
         <tr>
-            <td align="center">Estrutura de Dados</td>
+            <td align="center">Estruturas de Dados</td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                <a href="https://www.java.com/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                <a href="https://www.python.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/learn/">
+                <a href="https://go.dev">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.ruby-lang.org/pt/documentation/">
+                <a href="https://www.ruby-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                <a href="https://www.javascript.com">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.swift.org/">
+                <a href="https://www.swift.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
                 </a>
             </td>           
             <td align="center">
-                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                <a href="https://www.rust-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                <a href="https://elixir-lang.org/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
                 </a>
             </td>
@@ -2917,52 +2917,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Algoritmo de Ordenação</td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                <a href="https://www.java.com/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                <a href="https://www.python.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/learn/">
+                <a href="https://go.dev">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.ruby-lang.org/pt/documentation/">
+                <a href="https://www.ruby-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                <a href="https://www.javascript.com">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.swift.org/">
+                <a href="https://www.swift.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
                 </a>
             </td>           
             <td align="center">
-                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                <a href="https://www.rust-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                <a href="https://elixir-lang.org/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
                 </a>
             </td>
@@ -4071,52 +4071,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Extra</td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/c-language/c-language-reference?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://docs.microsoft.com/pt-br/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170">
+                <a href="https://pt.wikipedia.org/wiki/C%2B%2B">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBq0KXHsp5J3PxyFaBIXVs3r">
+                <a href="https://www.java.com/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://wiki.python.org.br/DocumentacaoPython">
+                <a href="https://www.python.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/learn/">
+                <a href="https://go.dev">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.ruby-lang.org/pt/documentation/">
+                <a href="https://www.ruby-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide">
+                <a href="https://www.javascript.com">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.swift.org/">
+                <a href="https://www.swift.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" /> 
                 </a>
             </td>           
             <td align="center">
-                <a href="https://rust-br.github.io/rust-book-pt-br/">
+                <a href="https://www.rust-lang.org">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" /> 
                 </a>
             </td>
             <td align="center">
-                <a href="https://elixir-lang.org/getting-started/introduction.html">
+                <a href="https://elixir-lang.org/">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" /> 
                 </a>
             </td>
