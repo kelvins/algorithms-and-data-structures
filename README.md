@@ -76,7 +76,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo Dijkstra</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra">Algoritmo Dijkstra</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> 
@@ -149,7 +149,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo Floyd Warshall</a></td>  
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall">Algoritmo Floyd Warshall</a></td>  
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoFloydWarshall.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -222,7 +222,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Binária</a></td>  
+            <td><a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Busca Binária</a></td>  
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -295,7 +295,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>    
-            <td><a href="url">Busca em Grafos</a></td>    
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/dfs.html">Busca em Grafos</a></td>    
             <td> <!-- C -->
                 <a href="./src/c/BuscaEmGrafo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -368,7 +368,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Sequencial</a></td>     
+            <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial</a></td>     
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -441,7 +441,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca Sequencial Recursiva</a></td>    
+            <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial Recursiva</a></td>    
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencialRecursiva.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -514,7 +514,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca utilizando Sentinela</a></td>           
+            <td><a href="urhttps://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/l">Busca utilizando Sentinela</a></td>           
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -587,7 +587,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca por Interpolação</a></td> 
+            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Busca por Interpolação</a></td> 
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -660,7 +660,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Caixeiro Viajante</a></td>   
+            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante">Caixeiro Viajante</a></td>   
             <td> <!-- C -->
                 <a href="./src/c/CaixeiroViajante.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -733,7 +733,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Ciclo Hamiltoniano</a></td>  
+            <td><a href="https://pt.wikipedia.org/wiki/Caminho_hamiltoniano">Ciclo Hamiltoniano</a></td>  
             <td> <!-- C -->
                 <a href="./src/c/CicloHamiltoniano.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -806,7 +806,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Componentes Conexos</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Component_(graph_theory)">Componentes Conexos</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ComponentesConexos.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -879,7 +879,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Exponenciação</a></td>    
+            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação</a></td>    
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -952,7 +952,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Exponenciação Recursiva</a></td>   
+            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação Recursiva</a></td>   
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1025,7 +1025,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fatorial</a></td>      
+            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial</a></td>      
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1098,7 +1098,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fatorial Recursiva</a></td>  
+            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial Recursiva</a></td>  
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1171,7 +1171,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fibnacci</a></td>     
+            <td><a href="https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci?wprov=srpw1_0">Fibnacci</a></td>     
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1244,7 +1244,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Máximo Recursivo</a></td>    
+            <td>Máximo Recursivo</td>    
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1317,7 +1317,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Mín. e Máx. Iterativo</a></td>
+            <td>Mín. e Máx. Iterativo</td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1390,7 +1390,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Mín. e Máx. Recursivo</a></td>         
+            <td>Mín. e Máx. Recursivo</td>         
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1463,7 +1463,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Mín. e Máx. D&C</a></td>    
+            <td>Mín. e Máx. D&C</td>    
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1536,7 +1536,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Passeio do Cavalo</a></td>          
+            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_cavalo">Passeio do Cavalo</a></td>          
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1609,7 +1609,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Torre de Hanói</a></td>     
+            <td><a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Torre de Hanói</a></td>     
             <td> <!-- C -->
                 <a href="./src/c/TorreDeHanoi.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1682,7 +1682,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo Genético</a></td>   
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico">Algoritmo Genético</a></td>   
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1755,7 +1755,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo de Huffman</a></td>       
+            <td><a href="https://pt.wikipedia.org/wiki/Codifica%C3%A7%C3%A3o_de_Huffman">Algoritmo de Huffman</a></td>       
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1828,7 +1828,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Algoritmo LZ77</a></td>    
+            <td><a href="https://pt.wikipedia.org/wiki/LZ77">Algoritmo LZ77</a></td>    
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -1960,7 +1960,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Árvore Binária</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria">Árvore Binária</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinaria.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2033,7 +2033,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Árvore Binária de Busca</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca">Árvore Binária de Busca</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinariaDeBusca.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2106,7 +2106,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Deque</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)">Deque</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -2179,7 +2179,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fila</a></td>
+            <td><a href="https://www.cos.ufrj.br/~rfarias/cos121/filas.html">Fila</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fila.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2252,7 +2252,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Fila Encadeada Dinâmica</a></td>
+            <td>Fila Encadeada Dinâmica</td>
             <td> <!-- C -->
                 <a href="./src/c/FilaEncadeadaDinamica.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2325,7 +2325,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Grafo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Teoria_dos_grafos">Grafo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Grafos.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2398,7 +2398,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista Circular Ligada</a></td>
+            <td><a href="https://www.youtube.com/watch?v=bxwIm3F6aaQ">Lista Circular Ligada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaCircularLigada.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2471,7 +2471,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista Encadeada</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Lista_ligada">Lista Encadeada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaEncadeada.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2544,7 +2544,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista Duplamente Encadeada</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Lista_duplamente_ligada">Lista Duplamente Encadeada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaDuplamenteEncadeada.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2617,7 +2617,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista Ligada Não Ordenada</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Lista_ligada">Lista Ligada Não Ordenada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaLigadaNaoOrdenada.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2690,7 +2690,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista Sequencial Ordenada</a></td>
+            <td><a href="https://www.cos.ufrj.br/~rfarias/cos121/aula_11.html">Lista Sequencial Ordenada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaSequencialOrdenada.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2763,7 +2763,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Pilha</a></td>
+            <td><a href="https://www.cos.ufrj.br/~rfarias/cos121/pilhas.html">Pilha</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Pilha.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2836,7 +2836,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Pilha Ligada Dinâmica</a></td>
+            <td><a href="https://www.youtube.com/watch?v=zu0Xw5gPft0">Pilha Ligada Dinâmica</a></td>
             <td> <!-- C -->
                 <a href="./src/c/PilhaLigadaDinamica.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2968,7 +2968,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Bogo Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Bogosort">Bogo Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3041,7 +3041,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Bubble Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Bubble_sort">Bubble Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BubbleSort.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3114,7 +3114,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Bucket Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Bucket_sort">Bucket Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3187,7 +3187,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Cocktail Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Cocktail_sort">Cocktail Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3260,7 +3260,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Comb Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Comb_sort">Comb Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3333,7 +3333,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Counting Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Counting_sort">Counting Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3406,7 +3406,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Gnome Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Gnome_sort">Gnome Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3479,7 +3479,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Heapsort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Heapsort">Heapsort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3552,7 +3552,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Insertion Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Insertion_sort">Insertion Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3625,7 +3625,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Merge Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Merge_sort">Merge Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MergeSort.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3698,7 +3698,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Quicksort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Quicksort">Quicksort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3771,7 +3771,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Radix Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Radix_sort">Radix Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3844,7 +3844,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Selection Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Selection_sort">Selection Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3917,7 +3917,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Shell Sort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Shell_sort">Shell Sort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -3990,7 +3990,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Timsort</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Timsort">Timsort</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -4122,7 +4122,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Lista com 2 Pilhas</a></td>
+            <td>Lista com 2 Pilhas</td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -4195,7 +4195,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Soma de 2 Números</a></td>
+            <td>Soma de 2 Números</td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
@@ -4268,7 +4268,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Palíndromo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">Palíndromo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Palindromo.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -4341,7 +4341,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Calculo do PI (Leibniz)</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80">Calculo do PI (Leibniz)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CalculatePi.c">
                 <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -4414,7 +4414,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
         </tr>
         <tr>
-            <td><a href="url">Busca em Labirinto</a></td>
+            <td><a href="https://www.galirows.com.br/meublog/blog/proposta-de-trabalho-metodos-de-busca-para-resolver-um-labirinto/">Busca em Labirinto</a></td>
             <td> <!-- C -->
                 <!-- <a href="./src/c/"> -->
                 <!-- <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" /> -->
