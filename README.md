@@ -3129,7 +3129,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/soma_dois_numeros.rs">
+                <a href="./src/rust/soma_dois_numeros.rs">
                     <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
