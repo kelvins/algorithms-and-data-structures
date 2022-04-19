@@ -791,17 +791,9 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-<<<<<<< HEAD
                 <a href="./src/rust/fatorial.rs">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>      -->
-=======
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"/>
                 </a>
->>>>>>> 5fa82c75762eff899f85e34f96f92b1b797f7fe0
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
@@ -2764,17 +2756,9 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-<<<<<<< HEAD
                 <a href="./src/rust/quick_sort.rs">
-                <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                <!-- <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>      -->
-=======
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
->>>>>>> 5fa82c75762eff899f85e34f96f92b1b797f7fe0
             </td>
             <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
@@ -3145,8 +3129,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/soma_dois_numeros.rs">
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td> <!-- Elixir -->
