@@ -1,12 +1,10 @@
-name: Check Markdown links
+name: Check Links
 
 on: [push, pull_request]
 
 jobs:
-  markdown-link-check:
+  link-check:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        use-quiet-mode: 'yes'
+    - uses: lycheeverse/lychee-action@v1.4.1
