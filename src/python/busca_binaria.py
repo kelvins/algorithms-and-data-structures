@@ -27,5 +27,4 @@ def busca_binaria(valor, vetor, esquerda, direita):
 
 
 lista = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
-print(busca_binaria(13, lista, 0, len(lista) - 1))
-
+print(busca_binaria(12, lista, 0, len(lista) - 1))
