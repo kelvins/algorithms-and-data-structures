@@ -1824,7 +1824,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/ListaEncadeada.java">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
