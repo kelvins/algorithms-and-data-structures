@@ -9,28 +9,24 @@
 */
 
 // A diferença desta implementação para a com recursão é 
-// que nesta versão o retorno, é feito utilizado um for
-// que percorre uma lista que vai de 0 a valor + 1
-fn fatorial(valor: usize) -> usize {
-    let mut total = 1;
-    // (0..valor + 1) retorna um range, que para ser utlizado é 
-    // preciso coletar todos os itens dentro de um vetor para assim
-    // setr interado, que é isso que .collect::<Vec<usize>>() faz
-    for i in (0..valor + 1).collect::<Vec<usize>>().iter() {
-        if *i != 0 {
-            total *= *i;
-        }
-    }
+// que nesta versão o retorno, é feito utilizado interadores.
+fn fatorial(valor: u128) -> u128 {
+    let total = match valor {
+        0  => 1,
+        // Product faz a multiplicação de todos os valores em um array
+        1.. => (1..valor+1).product(),
+    };    
     return total
 }
 
 fn main() {
-    println!("{}", fatorial(10));
+    println!("{}", fatorial(21));
 }
 
 #[cfg(test)]
 mod test {
     use super::*;
+    #[test]
     fn teste_fatorial() {
         assert_eq!(fatorial(0), 1);
         assert_eq!(fatorial(1), 1);
