@@ -11,22 +11,23 @@
 
 // Para realizar uma fatoração com recursão basta fazer o retorno
 // de uma função ser valor * a propia função recebendo valor - 1 
-fn fatorial(valor: usize) -> usize {
+fn fatorial(valor: u128) -> u128 {
 	// Para que não chege a multiplicar por 0 quando chegamos a 1 ou 0
 	// é retornado 1 para que o utlimo valor sejá multilpicado por 1
-    if valor <= 1 {
-        return 1;
+    match valor {
+        0 | 1  => 1,
+        2.. => valor * (fatorial(valor - 1)),
     }
-    return valor * (fatorial(valor - 1));
 }
 
 fn main() {
-    println!("{}", fatorial(10));
+    println!("{}", fatorial(21));
 }
 
 #[cfg(test)]
 mod test {
     use super::*;
+    #[test]
     fn teste_fatorial() {
         assert_eq!(fatorial(0), 1);
         assert_eq!(fatorial(1), 1);
