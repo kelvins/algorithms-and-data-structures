@@ -25,8 +25,6 @@
 
 */
 
-// Import para poder gerar listas aleatorias
-use rand::{thread_rng, Rng};
 
 // l = limite esquerdo
 // r = limite direito
@@ -64,22 +62,10 @@ fn quick_sort(lista: &mut [i32],  l: isize, r: isize) {
     // A condição de parda da recuroa é caso tanto o extremo direito quanto esquerdo
     // sejam iguais, ou sejá, a lista so tem 1 elemento
     if l < r {
-        let índice_pivot = partition(lista, l as usize, r as usize);
-        quick_sort(lista, l, índice_pivot - 1);
-        quick_sort(lista, índice_pivot + 1, r);
+        let indice_pivot = partition(lista, l as usize, r as usize);
+        quick_sort(lista, l, indice_pivot - 1);
+        quick_sort(lista, indice_pivot + 1, r);
     }   
-}
-
-
-// Função apenas para gerar listas aleatorias
-fn gera_lista(len: usize) -> Vec<i32> {
-    let mut rng = thread_rng();
-    let mut lista = Vec::<i32>::new();
-    for _ in 0..len {
-        let nun = rng.gen_range(0..10);
-        lista.push(nun);
-    }
-    return lista;
 }
 
 fn printa(lista: Vec<i32>) {
@@ -90,7 +76,7 @@ fn printa(lista: Vec<i32>) {
 }
 
 fn main() {
-    let mut lista = gera_lista(10);
+    let mut lista = vec![1, 6, 3, 9, 3, 8, 5, 2, 7];
     let len = lista.len() as isize;
 
     printa(lista.clone());    
@@ -113,12 +99,5 @@ mod test {
         let len = lista.len() as isize - 1;
         quick_sort(&mut lista, 0, len);
         assert_eq!(vec![1, 2, 3, 4, 5, 6, 7, 8, 9], lista);
-
-        let mut lista = gera_lista(100);
-        let len = lista.len() as isize - 1;
-        let mut backup = lista.clone();
-        backup.sort();
-        quick_sort(&mut lista, 0, len);
-        assert_eq!(backup, lista);
     }
 }
