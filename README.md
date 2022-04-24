@@ -871,8 +871,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/scala/Fatorial.scala">
+                    <img align="center" height="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
         </tr>
