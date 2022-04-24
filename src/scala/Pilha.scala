@@ -6,13 +6,9 @@ import scala.collection.mutable.ListBuffer
 class Stack[Any] {
   private var stack: ListBuffer[Any] = ListBuffer()
 
-  def push(value: Any): Unit = {
-    stack += value
-  }
+  def push(value: Any): Unit = stack += value
 
-  def pop(): Any = {
-    stack.remove(stack.length - 1)
-  }
+  def pop(): Any = stack.remove(stack.length - 1)
 
   override def toString(): String = stack.mkString(", ")
 }

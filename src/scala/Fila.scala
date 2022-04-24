@@ -6,13 +6,9 @@ import scala.collection.mutable.ListBuffer
 class Queue[Any] {
   private var queue: ListBuffer[Any] = ListBuffer()
 
-  def enqueue(value: Any): Unit = {
-    queue += value
-  }
+  def enqueue(value: Any): Unit = queue += value
 
-  def dequeue(): Any = {
-    queue.remove(0)
-  }
+  def dequeue(): Any = queue.remove(0)
 
   override def toString(): String = queue.mkString(", ")
 }
