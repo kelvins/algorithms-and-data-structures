@@ -3,7 +3,7 @@
 
 def bubble_sort(data, size):
     """
-    Implementação de um algoritmo de ubble sort com recursão.
+    Implementação de um algoritmo de bubble sort com recursão.
 
     Argumentos:
     data: lista. Lista que será ordenada
@@ -21,7 +21,7 @@ def bubble_sort(data, size):
 
 
 if __name__ == '__main__':
-    lista_nao_odenada = [2, 9, 8, 0, 1, 3, 5, 4, 6, 7]
-    print(lista_nao_odenada)
-    bubble_sort(lista_nao_odenada, len(lista_nao_odenada))
-    print(lista_nao_odenada)
+    lista_nao_ordenada = [2, 9, 8, 0, 1, 3, 5, 4, 6, 7]
+    print(lista_nao_ordenada)
+    bubble_sort(lista_nao_ordenada, len(lista_nao_ordenada))
+    print(lista_nao_ordenada)
