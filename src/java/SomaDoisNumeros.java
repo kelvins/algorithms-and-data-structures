@@ -1,15 +1,19 @@
-package soma_dois_numeros;
-
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
 //Utilizado o OpenJDK 17.0.3
+/*
+ * @author Gabriel Nascimento. GitHub: Gabrielxdf
+ *
+ */
 public class SomaDoisNumeros {
-    /*
-    Para cada elemento da lista de valores, o método percorre o restante da lista
-    verificando se há algum número cuja some de ambos seja o valor esperado.
-    */
+    /**
+     * Para cada elemento da lista de valores, o método percorre o restante da lista
+       verificando se há algum número cuja some de ambos seja o valor esperado.
+     * @param valores Lista de valores que será verificada.
+     * @param esperado Valor esperado pela soma de dois números da lista valores.
+     */
     public static void verificaSeExisteSoma(List<Integer> valores, int esperado) {
         boolean resultado = false;
         for (int i = 0; i < valores.size() - 1; i++) {
