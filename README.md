@@ -3447,7 +3447,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/soma_dois_numeros/SomaDoisNumeros.java">
+                <a href="./src/java/SomaDoisNumeros.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
