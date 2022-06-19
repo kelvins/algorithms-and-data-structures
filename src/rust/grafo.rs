@@ -149,7 +149,7 @@ impl Projeto for Grafo {
 
 
 	// Retorna um array dos indice de todos os nos na qual o no 'a' se conecta
-	// Esera usar esta função apenas para usos proprios dentro do Grafo, como em algoritmos tipo dijkstra
+	// Espera se usar esta função apenas para usos proprios dentro do Grafo, como em algoritmos tipo dijkstra
 	// Conecta Dois vertices
 	fn adicionar_conexao(&mut self, a: usize, b: usize, valor: isize) {
 		self.matriz[a][b] = valor;
@@ -186,10 +186,6 @@ impl Projeto for Grafo {
 		}
 		return result;
 	}
-
-
-	// ---- Funções dos algoritmos ----
-
 
 }
 
