@@ -51,7 +51,7 @@ impl Projeto for Grafo {
 	// Toda função que começa com 'usr_'(usr = usuario) é a versão da função que deve ser usada para interagir diretamente com o usuario.
 	// As funções de mesmo nome mas sem 'usr_' deve ser usada apenas dentro dos algoritmos, como o Dijkstra para menor caminho entre dois nos.
 	// Fiz assim para otimizar processamento e descartar necessidade de acessar e 
-	// consultaro dicionario o tempo todo quando se apenas como Objetivo encontrar um menor caminho com Dijkstra por exemplo.
+	// consultar o dicionario o tempo todo quando se apenas tem como Objetivo encontrar um menor caminho com Dijkstra por exemplo.
 	
 	// Apenas essa função foge a regra por ser universal
 	fn new(tamanho: usize, tipo: &str) -> Grafo {
