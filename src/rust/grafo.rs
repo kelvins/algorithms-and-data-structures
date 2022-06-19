@@ -11,7 +11,7 @@ type MatrizGrafo = Vec<Vec<isize>>;
 
 
 
-// O dicionario serve para podermos dar entrada a qualquer String e ter como abstrair suas posições dentro.
+// O dicionario serve para podermos dar entrada a qualquer String e ter como abstrair suas posições dentro
 // da matriz numerica, isso serve apenas para fins de uso, não requerer transcrever um Nodo com X para valor numerico.
 #[derive(PartialEq, Eq, Clone, Debug)]
 struct Grafo {
