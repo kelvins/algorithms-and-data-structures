@@ -1,9 +1,6 @@
 /*
 	Autor: Gustavo Michels de Camargo
-
 	Projeto: Algoritmo estrural de um Grafo
-
-
 */
 
 
@@ -27,7 +24,7 @@ trait Projeto {
 	// Geral
 	fn new(tamanho: usize, tipo: &str) -> Grafo;
 
-	// Funcçoes envolvendo o dicionario - Usuario
+	// Funções envolvendo o dicionario - Usuario
 	fn usr_pegar_indice(&self, chave: String) -> usize;
 	fn usr_pegar_chave(&self, indice: usize) -> String;
 
@@ -44,14 +41,12 @@ trait Projeto {
 	fn numero_conexoes(&self, no: usize) -> usize;
 	fn verificar_se_existe_conexao(&self, a: usize, b: usize) -> bool;
 	fn conexoes(&self, a: usize) -> Vec<usize>;
-
-	// Algoritmos que atuam sobre Grafos
 }
 
 
 // Este é a implementação da "Classe" de um grafo.
 impl Projeto for Grafo {
-	// Tamanho: Numero Maximo de Vertices que a matriz ppode usar de 0 até tamanho.
+	// Tamanho: Numero Maximo de Vertices que a matriz pode usar de 0 até tamanho.
 	// Em notação matematica relativa a limites: [0, tamanho).
 	// Toda função que começa com 'usr_'(usr = usuario) é a versão da função que deve ser usada para interagir diretamente com o usuario.
 	// As funções de mesmo nome mas sem 'usr_' deve ser usada apenas dentro dos algoritmos, como o Dijkstra para menor caminho entre dois nos.
