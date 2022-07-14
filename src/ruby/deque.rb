@@ -31,12 +31,12 @@ class Deque
 
     # gets the item at the front of the queue:
     def read_front()
-        return self.deque.length >= 1 ? self.deque[0] : 'Lista está vazio'
+        return self.deque.length >= 1 ? self.deque[0] : 'Lista está vazia'
     end
 
     # gets the item at the last of the queue:
     def read_rear()
-        return self.deque.length >= 1 ? self.deque[-1] : 'Lista está vazio'
+        return self.deque.length >= 1 ? self.deque[-1] : 'Lista está vazia'
     end
 
     # checks whether deque is full or not

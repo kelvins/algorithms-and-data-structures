@@ -1,4 +1,4 @@
-# Algoritmo de Mínimo Recursivo em Ruby
+# Mínimo e Máximo Interativo em Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 

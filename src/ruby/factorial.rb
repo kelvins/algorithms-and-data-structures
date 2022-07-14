@@ -14,7 +14,7 @@ end
 
 def main
     for number in 0..10
-        puts "#{number}! = #{fatorial(number)}"
+        puts "#{number}! = #{factorial(number)}"
     end
 end
 

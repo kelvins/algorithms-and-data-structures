@@ -13,7 +13,6 @@ def gnome_sort(array)
         count += 1
     end
     
-    puts "Aqui"
     return array
 end
 
