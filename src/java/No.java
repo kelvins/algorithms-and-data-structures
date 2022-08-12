@@ -25,5 +25,13 @@ public class No {
 	public void setDir(No dir) {
 		this.dir = dir;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "No{" +
+				"chave: " + chave +
+				", esq: " + esq +
+				", dir: " + dir +
+				'}';
+	}
 }
