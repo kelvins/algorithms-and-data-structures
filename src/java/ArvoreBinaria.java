@@ -2,6 +2,7 @@
  *	Utiliza a classe No
  */
 
+
 public class ArvoreBinaria {
 
 
@@ -31,25 +32,26 @@ public class ArvoreBinaria {
         preFixado(raiz);
         System.out.println();
 
-        System.out.println(removeValorMinimoDaArvore(raiz));
+        System.out.println("Remove Valor: "+ removeValorMinimoDaArvore(raiz));
+        System.out.println("Altura Arvore: "+AlturaArvore(raiz));
     }
 
 
     public static void inserir(No node, int valor) {
         if (node != null) {
-            if (valor < node.chave) {
+            if (valor < node.getChave()) {
                 if (node.getEsq() != null) {
                     inserir(node.getEsq(), valor);
                 } else {
                     System.out.println("  Inserindo " + valor + " a esquerda de " + node.getChave());
-                    node.esq = new No(valor);
+                    node.setEsq(new No(valor)); ;
                 }
             } else if (valor > node.getChave()) {
                 if (node.getDir() != null) {
-                    inserir(node.dir, valor);
+                    inserir(node.getDir(), valor);
                 } else {
                     System.out.println("  Inserindo " + valor + " a direita de " + node.getChave());
-                    node.dir = new No(valor);
+                    node.setDir(new No(valor));
                 }
             }
         }
@@ -73,17 +75,17 @@ public class ArvoreBinaria {
 
     public static void emOrdem(No no) {
         if (no != null) {
-            emOrdem(no.esq);
-            System.out.print(no.chave + " ");
-            emOrdem(no.dir);
+            emOrdem(no.getEsq());
+            System.out.print(no.getChave() + " ");
+            emOrdem(no.getDir());
         }
     }
 
     public static No removeValorMinimoDaArvore(No node) {
         if (node == null) {
-            System.out.println("  ERRO ");
+            System.out.println("  ERROR ");
         } else if (node.getEsq() != null) {
-            node.esq = removeValorMinimoDaArvore(node.getEsq());
+            node.setEsq(removeValorMinimoDaArvore(node.getEsq()));
             return node;
         } else {
             return node.getDir();
@@ -91,6 +93,26 @@ public class ArvoreBinaria {
         return null;
     }
 
+    public static int AlturaArvore(No no){
+
+        if(no == null){
+            return -1;
+        }
+        else{
+
+            int esquerda = AlturaArvore(no.getEsq());
+            int direita = AlturaArvore(no.getDir());
+
+            if(esquerda < direita ){
+                return direita+1;
+            }
+            else{
+                return esquerda+1;
+            }
+        }
+    }
 
 }
+
+
 
