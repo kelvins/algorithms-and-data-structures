@@ -2,7 +2,7 @@
 
 Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em **Ciência da Computação**. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Elixir** e **Scala**.
+Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust** e **Scala**.
 
 <html>
     <table align="center">
@@ -54,11 +54,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://code.labstack.com/scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
@@ -107,11 +102,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -169,11 +159,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -227,11 +212,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -281,11 +261,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -343,11 +318,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/BuscaSequencial.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -401,11 +371,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -455,11 +420,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -517,11 +477,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -571,11 +526,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -633,11 +583,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -687,11 +632,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -749,11 +689,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -805,11 +740,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Rust -->
                 <a href="./src/rust/exponentiation_recursive.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -865,11 +795,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"/>
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Fatorial.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -921,11 +846,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial_recursiva.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -981,11 +901,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1035,11 +950,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1097,11 +1007,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/MinMaxIterativo.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -1155,11 +1060,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/MinMaxRecursivo.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -1209,11 +1109,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1271,11 +1166,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1329,11 +1219,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/TorreDeHanoi.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -1383,11 +1268,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1445,11 +1325,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1499,11 +1374,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1564,11 +1434,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://code.labstack.com/scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
@@ -1617,11 +1482,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1679,11 +1539,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1735,11 +1590,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Rust -->
                 <a href="./src/rust/deque.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1795,11 +1645,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Fila.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -1849,11 +1694,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1911,11 +1751,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1965,11 +1800,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2027,11 +1857,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2081,11 +1906,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2143,11 +1963,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2197,11 +2012,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2259,11 +2069,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Pilha.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -2317,11 +2122,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2371,11 +2171,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2436,11 +2231,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://code.labstack.com/scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
@@ -2491,11 +2281,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Rust -->
                 <a href="./src/rust/bogo_sort.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2551,11 +2336,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/BubbleSort.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
@@ -2605,11 +2385,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2667,11 +2442,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2721,11 +2491,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2783,11 +2548,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2841,11 +2601,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -2895,11 +2650,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2957,11 +2707,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3011,11 +2756,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3073,11 +2813,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3127,11 +2862,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3189,11 +2919,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3247,11 +2972,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3301,11 +3021,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3366,11 +3081,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/elixir">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elixir/elixir-original.svg" />
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://code.labstack.com/scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
@@ -3419,11 +3129,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3481,11 +3186,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3537,11 +3237,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Rust -->
                 <a href="./src/rust/palindromo.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3597,11 +3292,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
-            <td> <!-- Elixir -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3651,11 +3341,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
-            </td>
-            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
