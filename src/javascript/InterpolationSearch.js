@@ -38,7 +38,7 @@ const main = () => {
   let x = 18
   let index = interpolationSearch(arr, 0, n - 1, x);
 
-  if (index != -1)
+  if (index !== -1)
     console.log(`Indice do elemento buscado: ${index}`);
   else
     console.log("Elemento não encontrado");
