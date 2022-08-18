@@ -973,8 +973,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/java/MinMaxIterativo.java">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
