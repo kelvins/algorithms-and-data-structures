@@ -8,14 +8,14 @@
  * 
  * @param numero é do tipo inteiro(Int)
  * 
- * @return retornará um núemro do tipo *Long* no qual o tipo está atribuido para a variável *fatorial*.
+ * @return retornará um número do tipo *Long* no qual o tipo está atribuido para a variável *fatorial*.
  */
 
 fun fatorial (numero: Int) {
-  val numeroIncial: Int = numero;
+  val numeroInicial: Int = numero;
   var fatorial: Long = 1;
 
-  for(i in 1..numeroIncial) {
+  for(i in 1..numeroInicial) {
       fatorial *= i.toLong();
   }
 

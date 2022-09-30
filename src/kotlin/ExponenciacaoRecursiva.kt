@@ -1,7 +1,7 @@
 /**
- * Função "exponenciacaoRecusriva"
+ * Função "exponenciacaoRecursiva"
  * 
- * A função *exponenciacaoRecusriva* apresenta os valores de um número(*base*) elevado por um *expoente*.
+ * A função *exponenciacaoRecursiva* apresenta os valores de um número(*base*) elevado por um *expoente*.
  * Nessa função, usa -se o conceito da *recursividade*, na qual, a função criada é chamada dentro dela, 
  * uma ou mais vezes internamente da mesma.
  * 
@@ -13,11 +13,11 @@
  * 
  * @return retornará o número *base* elevado pelo *expoente*. A função retorna um valor do tipo *Long*.
  */
-fun exponenciacaoRecusriva(base: Int, expoente: Int): Long {
+fun exponenciacaoRecursiva(base: Int, expoente: Int): Long {
   return if (expoente === 0) 1;
-  else base * exponenciacaoRecusriva(base, expoente - 1);
+  else base * exponenciacaoRecursiva(base, expoente - 1);
 }
 
 fun main() {
- println(exponenciacaoRecusriva(2, 3));
+ println(exponenciacaoRecursiva(2, 3));
 }
