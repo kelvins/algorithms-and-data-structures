@@ -1569,7 +1569,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/kotlin">
+                <a href="https://play.kotlinlang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
                 </a>
             </td>
@@ -2441,7 +2441,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
              <td align="center">
-                <a href="https://code.labstack.com/kotlin">
+                <a href="https://play.kotlinlang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
                 </a>
             </td>
@@ -3371,7 +3371,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Kotlin -->
-                <a href="./src/kotlin/Fatorial.kt">
+                <a href="https://play.kotlinlang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
                 </a>
             </td>
