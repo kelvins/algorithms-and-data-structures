@@ -58,6 +58,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td align="center">
+                <a href="https://play.kotlinlang.org/">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra">Algoritmo Dijkstra</a></td>
@@ -107,6 +112,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -164,6 +174,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Busca Binária</a></td>
@@ -213,6 +228,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -270,6 +290,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial</a></td>
@@ -323,6 +348,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial Recursiva</a></td>
@@ -372,6 +402,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -429,6 +464,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Busca por Interpolação</a></td>
@@ -478,6 +518,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -535,6 +580,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Caminho_hamiltoniano">Ciclo Hamiltoniano</a></td>
@@ -584,6 +634,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -641,6 +696,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação</a></td>
@@ -690,6 +750,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -747,6 +812,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./src/kotlin/ExponenciacaoRecursiva.kt">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial</a></td>
@@ -798,6 +868,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Scala -->
                 <a href="./src/scala/Fatorial.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./src/kotlin/Fatorial.kt">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
                 </a>
             </td>
         </tr>
@@ -853,6 +928,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci">Fibonacci</a></td>
@@ -904,6 +984,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./src/kotlin/Fibonacci.kt">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
                 </a>
             </td>
         </tr>
@@ -959,6 +1044,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Mín. e Máx. Iterativo</a></td>
@@ -1010,6 +1100,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
             <td> <!-- Scala -->
                 <a href="./src/scala/MinMaxIterativo.scala">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
         </tr>
@@ -1065,6 +1160,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td>Mín. e Máx. D&C</td>
@@ -1114,6 +1214,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1171,6 +1276,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Torre de Hanói</a></td>
@@ -1224,6 +1334,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico">Algoritmo Genético</a></td>
@@ -1273,6 +1388,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1330,6 +1450,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/LZ77">Algoritmo LZ77</a></td>
@@ -1379,6 +1504,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1438,6 +1568,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td align="center">
+                <a href="https://code.labstack.com/kotlin">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria">Árvore Binária</a></td>
@@ -1487,6 +1622,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1544,6 +1684,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)">Deque</a></td>
@@ -1593,6 +1738,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1650,6 +1800,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Fila Encadeada Dinâmica</a></td>
@@ -1699,6 +1854,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1756,6 +1916,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://www.youtube.com/watch?v=bxwIm3F6aaQ">Lista Circular Ligada</a></td>
@@ -1805,6 +1970,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1862,6 +2032,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Lista_duplamente_ligada">Lista Duplamente Encadeada</a></td>
@@ -1911,6 +2086,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -1968,6 +2148,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td>Lista Sequencial Ordenada</td>
@@ -2017,6 +2202,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2074,6 +2264,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td>Pilha Ligada Dinâmica</td>
@@ -2127,6 +2322,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Tabela_de_dispers%C3%A3o">Hash Table</a></td>
@@ -2176,6 +2376,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2235,6 +2440,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+             <td align="center">
+                <a href="https://code.labstack.com/kotlin">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Bogosort">Bogo Sort</a></td>
@@ -2284,6 +2494,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2341,6 +2556,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Bucket_sort">Bucket Sort</a></td>
@@ -2390,6 +2610,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2447,6 +2672,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Comb_sort">Comb Sort</a></td>
@@ -2496,6 +2726,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2553,6 +2788,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Gnome_sort">Gnome Sort</a></td>
@@ -2602,6 +2842,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2659,6 +2904,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Insertion_sort">Insertion Sort</a></td>
@@ -2708,6 +2958,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2765,6 +3020,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Quicksort">Quicksort</a></td>
@@ -2814,6 +3074,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2871,6 +3136,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Selection_sort">Selection Sort</a></td>
@@ -2920,6 +3190,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -2977,6 +3252,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Timsort">Timsort</a></td>
@@ -3026,6 +3306,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3085,6 +3370,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./src/kotlin/Fatorial.kt">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td>Lista com 2 Pilhas</td>
@@ -3134,6 +3424,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3191,6 +3486,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">Palíndromo</a></td>
@@ -3240,6 +3540,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
@@ -3297,6 +3602,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td>Busca em Labirinto</td>
@@ -3346,6 +3656,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
