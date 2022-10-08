@@ -21,6 +21,7 @@ import (
 	"../go/radixsort"
 	"../go/selectionsort"
 	"../go/shellsort"
+	"../go/stack"
 )
 
 func main() {
@@ -100,4 +101,13 @@ func main() {
 	slice = []int{10, 1000, 100000, 10000000}
 	fmt.Println("Slice : ", slice)
 	fmt.Println("CalculatePi : ", calculatepi.CalculatePi(slice))
+
+	pilha := stack.Stack[int]{}
+	pilha.Push(1)
+	pilha.Push(2)
+	pilha.Push(3)
+	pilha.Push(4)
+	pilha.Pop()
+	fmt.Printf("Stack: ")
+	pilha.Show()
 }

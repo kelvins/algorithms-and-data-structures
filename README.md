@@ -2235,8 +2235,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/go/stack/stack.go">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
