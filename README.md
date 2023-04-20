@@ -2754,8 +2754,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/python/counting_sort.py">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -2913,8 +2913,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Insertion_sort">Insertion Sort</a></td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="./src/c/InsertionSort.c">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
