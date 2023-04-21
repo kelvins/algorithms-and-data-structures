@@ -1,0 +1,10 @@
+name: Lint Checker
+
+on: [push, pull_request]
+
+jobs:
+  lint-checker:
+  - name: python-linter
+    uses: wemake-services/wemake-python-styleguide
+    with:
+      path: './src/python'
