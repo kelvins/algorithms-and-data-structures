@@ -8,5 +8,3 @@ jobs:
     steps:
       - name: python-linter
         uses: wemake-services/wemake-python-styleguide@0.17.0
-        with:
-          path: './src/python'
