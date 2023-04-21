@@ -3,10 +3,12 @@ name: Link Checker
 on: [push, pull_request]
 
 jobs:
-  check-links:
+  link-checker:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@main
-    - uses: lycheeverse/lychee-action@v1.7.0
+    - name: Checkout Code
+      uses: actions/checkout@main
+    - name: Check Links
+      uses: lycheeverse/lychee-action@v1.7.0
       with:
         fail: true

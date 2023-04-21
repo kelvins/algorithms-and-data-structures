@@ -3,9 +3,16 @@ name: Lint Checker
 on: [push, pull_request]
 
 jobs:
-  check-python:
+  lint-checker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: wemake-services/wemake-python-styleguide@0.17.0
-
+      - name: Checkout Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      #- name: Check Python
+      #  uses: wemake-services/wemake-python-styleguide@0.17.0
+      - name: Lint Code Base
+        uses: github/super-linter@v5
+        env:
+          VALIDATE_SCALAFMT: true
