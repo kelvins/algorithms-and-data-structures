@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: python-linter
-        uses: wemake-services/wemake-python-styleguide@v0.17.0
+        uses: wemake-services/wemake-python-styleguide@0.17.0
         with:
           path: './src/python'
