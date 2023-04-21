@@ -9,22 +9,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Algoritmo</td>
             <td align="center">
-                <a href="https://code.labstack.com/c">
+                <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/cpp">
+                <a href="https://www.sololearn.com/compiler-playground/cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/java">
+                <a href="https://www.sololearn.com/compiler-playground/java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/python">
+                <a href="https://www.sololearn.com/compiler-playground/python">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
@@ -39,12 +39,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/javascript">
+                <a href="https://www.sololearn.com/compiler-playground/javascript">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/swift">
+                <a href="https://swiftfiddle.com">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
             </td>
@@ -54,7 +54,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/scala">
+                <a href="https://scastie.scala-lang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
@@ -1519,22 +1519,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Estruturas de Dados</td>
             <td align="center">
-                <a href="https://code.labstack.com/c">
+                <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/cpp">
+                <a href="https://www.sololearn.com/compiler-playground/cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/java">
+                <a href="https://www.sololearn.com/compiler-playground/java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/python">
+                <a href="https://www.sololearn.com/compiler-playground/python">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
@@ -1549,12 +1549,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/javascript">
+                <a href="https://www.sololearn.com/compiler-playground/javascript">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/swift">
+                <a href="https://swiftfiddle.com">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
             </td>
@@ -1564,7 +1564,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/scala">
+                <a href="https://scastie.scala-lang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
@@ -2391,22 +2391,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Algoritmo de Ordenação</td>
             <td align="center">
-                <a href="https://code.labstack.com/c">
+                <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/cpp">
+                <a href="https://www.sololearn.com/compiler-playground/cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/java">
+                <a href="https://www.sololearn.com/compiler-playground/java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/python">
+                <a href="https://www.sololearn.com/compiler-playground/python">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
@@ -2421,12 +2421,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/javascript">
+                <a href="https://www.sololearn.com/compiler-playground/javascript">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/swift">
+                <a href="https://swiftfiddle.com">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
             </td>
@@ -2436,7 +2436,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/scala">
+                <a href="https://scastie.scala-lang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
@@ -3321,22 +3321,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
         <tr>
             <td align="center">Extra</td>
             <td align="center">
-                <a href="https://code.labstack.com/c">
+                <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/cpp">
+                <a href="https://www.sololearn.com/compiler-playground/cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/java">
+                <a href="https://www.sololearn.com/compiler-playground/java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/python">
+                <a href="https://www.sololearn.com/compiler-playground/python">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
@@ -3351,12 +3351,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/javascript">
+                <a href="https://www.sololearn.com/compiler-playground/javascript">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/swift">
+                <a href="https://swiftfiddle.com">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
                 </a>
             </td>
@@ -3366,7 +3366,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td align="center">
-                <a href="https://code.labstack.com/scala">
+                <a href="https://scastie.scala-lang.org">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
                 </a>
             </td>
