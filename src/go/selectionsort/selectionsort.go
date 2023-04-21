@@ -11,7 +11,7 @@ func SelectionSort(slice []int) {
 		}
 
 		if index1 != indexMin {
-      slice[index1], slice[indexMin] = slice[indexMin], slice[index1]
+			slice[index1], slice[indexMin] = slice[indexMin], slice[index1]
 		}
 	}
 }

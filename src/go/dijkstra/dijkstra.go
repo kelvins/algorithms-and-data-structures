@@ -3,7 +3,7 @@
 * Danilo Moura - 2020
 * Complexidade: Teta(n^2)
 * Implementação utilizando matriz de adjacências (matriz de distância)
-* 
+*
 * 1 para todos - Arestas de pesos não negativo - Algoritmo guloso
 * Encontra o caminho mais curto de um vértice (inicio) a outro (destino)
 *
@@ -32,7 +32,7 @@
 * Resposta: (0)->(1)->(3)->(2)->(4) = 12
 *
 * link Go PlayGround: https://play.golang.org/p/HyWAcYJ3qXY
-*/
+ */
 
 package main
 
@@ -41,7 +41,9 @@ import (
 )
 
 var nroVertices int = 5
+
 type Matriz [][]int
+
 var maxInt = 4294967295
 
 // Algoritmo de Dijkstra recebe como parâmetro a matriz de distância e o número de vértices
@@ -77,11 +79,11 @@ func Dijkstra(matriz Matriz, n int) {
 
 func main() {
 	matriz := Matriz{
-		{      0,      6,     10, maxInt, maxInt },
-		{      6,      0, maxInt,      2, maxInt },
-		{     10, maxInt,      0,      1,      3 },
-		{ maxInt,      2,      1,      0,      8 },
-		{ maxInt, maxInt,      3,      8,      0 },
+		{0, 6, 10, maxInt, maxInt},
+		{6, 0, maxInt, 2, maxInt},
+		{10, maxInt, 0, 1, 3},
+		{maxInt, 2, 1, 0, 8},
+		{maxInt, maxInt, 3, 8, 0},
 	}
 
 	Dijkstra(matriz, nroVertices)

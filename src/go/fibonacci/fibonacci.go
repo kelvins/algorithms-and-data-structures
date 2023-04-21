@@ -1,9 +1,8 @@
-
 package fibonacci
 
-func Fibonacci(value int) (int) {
-    if value <= 1 {
-        return 1
-    }
-    return Fibonacci(value-1) + Fibonacci(value-2)
+func Fibonacci(value int) int {
+	if value <= 1 {
+		return 1
+	}
+	return Fibonacci(value-1) + Fibonacci(value-2)
 }

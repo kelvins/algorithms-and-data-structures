@@ -12,19 +12,19 @@ package main
 import "fmt"
 
 var maxSize = 50
- 
+
 // Estrura que será guardada em cada posição da lista
 type Registro struct {
 	valor int
 	// Outros campos podem ser adicionados aqui
 }
- 
+
 // Estrutura que guarda um arranjo de Registro, e o número de elementos no arranjo
 type Lista struct {
 	arranjoRegistros []Registro
 	numeroElementos  int
 }
- 
+
 // Cria uma nova lista
 func criarLista() Lista {
 	lista := Lista{
@@ -34,17 +34,17 @@ func criarLista() Lista {
 
 	return lista
 }
- 
+
 // reseta o contador de elementos da lista
 func inicializar(lista *Lista) {
 	lista.numeroElementos = 0
 }
- 
+
 // Recupera a quantidade de elementos da lista
 func tamanho(lista *Lista) int {
 	return lista.numeroElementos
 }
- 
+
 // Imprime valores dos elementos na lista
 func imprimir(lista *Lista) {
 	for i := 0; i < lista.numeroElementos; i++ {
@@ -64,16 +64,16 @@ func buscaBinaria(lista *Lista, valor int) int {
 			return meio
 		}
 
-    if lista.arranjoRegistros[meio].valor < valor {
-      esquerda = meio + 1
-    } else {
-      direita = meio - 1
-    }
+		if lista.arranjoRegistros[meio].valor < valor {
+			esquerda = meio + 1
+		} else {
+			direita = meio - 1
+		}
 	}
 
 	return -1
 }
- 
+
 // Insere elementos na lista em ordem crescente, garantindo com a lista esteja sempre ordenada
 func insereRegistroOrdenado(lista *Lista, registro Registro) bool {
 	if lista.numeroElementos == maxSize {

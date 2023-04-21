@@ -52,7 +52,7 @@ func HeapSort2(slice []int) {
 	}
 
 	for index := len(slice) - 1; index >= 0; index-- {
-    slice[index], slice[0] = slice[0], slice[index]
+		slice[index], slice[0] = slice[0], slice[index]
 
 		clearTree(slice, index, 0)
 	}
@@ -73,7 +73,7 @@ func clearTree(slice []int, length int, position int) {
 	}
 
 	if largest != position {
-    slice[position], slice[largest] = slice[largest], slice[position]
+		slice[position], slice[largest] = slice[largest], slice[position]
 
 		clearTree(slice, length, largest)
 	}
