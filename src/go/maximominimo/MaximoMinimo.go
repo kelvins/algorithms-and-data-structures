@@ -14,9 +14,9 @@ func MaximoDivisaoEConquista(vetor []int, inicio int, fim int) (int) {
 
     if aux1 > aux2 {
         return aux1
-    } else {
-        return aux2
     }
+
+    return aux2
 }
 
 func MinimoMaximoRecursivo(vetor []int, minimo int, maximo int, indice int) {

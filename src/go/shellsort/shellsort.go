@@ -10,14 +10,14 @@ func ShellSort(slice []int) {
 	}
 
 	for gap > 1 {
-		gap = gap / 3
+		gap /= 3
 		for index := gap; index < size; index++ {
 			value := slice[index]
 			j = index - gap
 
 			for j >= 0 && value < slice[j] {
 				slice[j+gap] = slice[j]
-				j = j - gap
+				j -= gap
 			}
 			slice[j+gap] = value
 		}

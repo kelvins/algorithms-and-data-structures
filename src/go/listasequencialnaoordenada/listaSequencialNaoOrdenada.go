@@ -59,9 +59,8 @@ func buscaSequencial(lista *Lista, valor int) int {
 	for i < lista.numeroElementos {
 		if valor == lista.arranjoRegistros[i].valor {
 			return i
-		} else {
-			i++
 		}
+    i++
 	}
 	return -1
 }
@@ -77,9 +76,8 @@ func buscaSentinela(lista *Lista, valor int) int {
 
 	if i == lista.numeroElementos {
 		return -1
-	} else {
-		return i
 	}
+  return i
 }
  
 // Insere elementos na lista, em uma posição específica, e move todos os outros elementos para a direita

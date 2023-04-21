@@ -23,15 +23,15 @@ func RadixSort(slice []int) {
     var bucket [10]int
 
     for index := 0; index < length; index++ {
-      bucket[(slice[index]/exp) % 10] = bucket[(slice[index]/exp) % 10] + 1
+      bucket[(slice[index]/exp) % 10]++
     }
 
     for index := 1; index < 10; index++ {
-      bucket[index] = bucket[index] + bucket[index-1]
+      bucket[index] += bucket[index-1]
     }
 
     for index := length-1; index >= 0; index-- {
-      bucket[(slice[index] / exp) % 10] = bucket[(slice[index] / exp) % 10] - 1
+      bucket[(slice[index] / exp) % 10]--
       temp[bucket[(slice[index] / exp) % 10]] = slice[index]
     }
 
@@ -39,6 +39,6 @@ func RadixSort(slice []int) {
       slice[index] = temp[index]
     }
 
-    exp = exp * 10
+    exp *= 10
   }
 }

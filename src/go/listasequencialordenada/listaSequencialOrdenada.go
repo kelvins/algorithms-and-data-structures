@@ -62,13 +62,13 @@ func buscaBinaria(lista *Lista, valor int) int {
 		meio := ((esquerda + direita) / 2)
 		if lista.arranjoRegistros[meio].valor == valor {
 			return meio
-		} else {
-			if lista.arranjoRegistros[meio].valor < valor {
-				esquerda = meio + 1
-			} else {
-				direita = meio - 1
-			}
 		}
+
+    if lista.arranjoRegistros[meio].valor < valor {
+      esquerda = meio + 1
+    } else {
+      direita = meio - 1
+    }
 	}
 
 	return -1

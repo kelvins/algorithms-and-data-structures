@@ -7,7 +7,7 @@ func InsertionSort(slice []int) {
 
 		for index2 >= 0 && currentValue < slice[index2] {
 			slice[index2+1] = slice[index2]
-			index2 = index2 - 1
+			index2--
 		}
 
 		slice[index2+1] = currentValue

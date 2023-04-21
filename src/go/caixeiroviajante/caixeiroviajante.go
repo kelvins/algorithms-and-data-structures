@@ -90,11 +90,11 @@ func caixeiroViajanteAux(x int) {
       // Carrega o vertice atual na solucao temporaria
       tempSolucao[x] = i
       // Incrementa o total do caminho percorrido com base na posicao da matriz
-      valorSolucaoAtual = valorSolucaoAtual + matrizDistancia[ultimo][i]
+      valorSolucaoAtual += matrizDistancia[ultimo][i]
       // Chama recursivamente para o proximo vertice
       caixeiroViajanteAux(x+1)
       // Se ainda nao terminou decrementa o valor da variabel que guarta o total do caminho
-      valorSolucaoAtual = valorSolucaoAtual - matrizDistancia[ultimo][i]
+      valorSolucaoAtual -= matrizDistancia[ultimo][i]
       // Define como nao visitada para poder ser acessada por outro vertice
       visitados[i] = false
     }
@@ -150,6 +150,5 @@ func Run() {
   for i := 0; i < vertices; i++ {
     fmt.Print(melhorSolucao[i], ", ")
   }
-  fmt.Print(melhorSolucao[0])
-  fmt.Println("\n")
+  fmt.Println(melhorSolucao[0])
 }

@@ -11,10 +11,10 @@ func HeapSort1(slice []int) {
 	for {
 
 		if index > 0 {
-			index = index - 1
+			index--
 			temp = slice[index]
 		} else {
-			length = length - 1
+			length--
 
 			if length == 0 {
 				return
@@ -29,7 +29,7 @@ func HeapSort1(slice []int) {
 
 		for child < length {
 			if child+1 < length && slice[child+1] > slice[child] {
-				child = child + 1
+				child++
 			}
 
 			if slice[child] > temp {
@@ -52,9 +52,7 @@ func HeapSort2(slice []int) {
 	}
 
 	for index := len(slice) - 1; index >= 0; index-- {
-		temp := slice[index]
-		slice[index] = slice[0]
-		slice[0] = temp
+    slice[index], slice[0] = slice[0], slice[index]
 
 		clearTree(slice, index, 0)
 	}
@@ -75,9 +73,7 @@ func clearTree(slice []int, length int, position int) {
 	}
 
 	if largest != position {
-		temp := slice[position]
-		slice[position] = slice[largest]
-		slice[largest] = temp
+    slice[position], slice[largest] = slice[largest], slice[position]
 
 		clearTree(slice, length, largest)
 	}

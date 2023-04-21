@@ -25,24 +25,24 @@ func MergeSort(slice []int) {
 		for i < len(sliceLeftSide) && j < len(sliceRightSide) {
 			if sliceLeftSide[i] < sliceRightSide[j] {
 				slice[k] = sliceLeftSide[i]
-				i = i + 1
+				i++
 			} else {
 				slice[k] = sliceRightSide[j]
-				j = j + 1
+				j++
 			}
-			k = k + 1
+			k++
 		}
 
 		for i < len(sliceLeftSide) {
 			slice[k] = sliceLeftSide[i]
-			i = i + 1
-			k = k + 1
+			i++
+			k++
 		}
 
 		for j < len(sliceRightSide) {
 			slice[k] = sliceRightSide[j]
-			j = j + 1
-			k = k + 1
+			j++
+			k++
 		}
 	}
 }

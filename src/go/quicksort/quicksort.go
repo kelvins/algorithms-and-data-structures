@@ -19,10 +19,8 @@ func split(slice []int, start int, end int) int {
 
   for index := start; index < end; index++ {
     if slice[index] < pivot {
-      temp := slice[index]
-      slice[index] = slice[j]
-      slice[j] = temp
-      j = j + 1
+      slice[index], slice[j] = slice[j], slice[index]
+      j++
     }
   }
 

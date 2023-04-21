@@ -17,12 +17,10 @@ func CombSort(slice []int) {
 
     for gap + i < len(slice) {
       if slice[i] - slice[i+gap] > 0 {
-        temp := slice[i]
-        slice[i] = slice[i + gap]
-        slice[i + gap] = temp
+        slice[i], slice[i + gap] = slice[i + gap], slice[i]
         swapped = true
       }
-      i = i + 1
+      i++
     }
   }
 }
