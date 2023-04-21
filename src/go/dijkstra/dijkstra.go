@@ -40,7 +40,7 @@ import (
 	"fmt"
 )
 
-nroVertices := 5
+var nroVertices = 5
 
 type Matriz [][]int
 

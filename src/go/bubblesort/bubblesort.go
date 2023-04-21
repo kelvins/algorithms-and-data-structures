@@ -1,7 +1,3 @@
-/* Bubble Sort é um dos algoritmos de ordenação mais simples.
- * A ideia principal é percorrer o vetor/slice várias vezes
- * empurrando/flutuando os valores mais altos para o fim do vetor.
- */
 package bubblesort
 
 // Bubble Sort tradicional
