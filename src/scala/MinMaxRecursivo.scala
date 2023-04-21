@@ -1,8 +1,8 @@
 def minMax(
-  data: List[Int],
-  minimum: Int,
-  maximum: Int,
-  index: Int
+    data: List[Int],
+    minimum: Int,
+    maximum: Int,
+    index: Int
 ): (Int, Int) = {
   var min: Int = minimum
   var max: Int = maximum
