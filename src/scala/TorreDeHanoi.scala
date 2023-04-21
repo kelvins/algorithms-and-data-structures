@@ -1,4 +1,3 @@
-
 def hanoi(pin0: Int, pin2: Int, pin1: Int, disks: Int): Unit = {
   if (disks == 1) {
     println(s"Move de $pin0 para $pin2")

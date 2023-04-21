@@ -1,4 +1,3 @@
-
 def minMax(data: List[Int]): (Int, Int) = {
   var min: Int = data(0)
   var max: Int = data(0)
@@ -14,7 +13,7 @@ def minMax(data: List[Int]): (Int, Int) = {
 }
 
 object Main extends App {
-  val data: List[Int] = List(4, 6, 2, 9, 3, 8, 1, 7, 5)
-  val (min, max) = minMax(data)
+  val data: List[Int]        = List(4, 6, 2, 9, 3, 8, 1, 7, 5)
+  val (min, max): (Int, Int) = minMax(data)
   println(s"$data\nMin: $min\nMax: $max")
 }

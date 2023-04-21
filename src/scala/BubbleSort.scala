@@ -1,12 +1,13 @@
-
 def bubble_sort(data: List[Int]): List[Int] = {
   var sortedData: List[Int] = data
-  var swapped: Boolean = true
+  var swapped: Boolean      = true
+
   while (swapped == true) {
     swapped = false
     for (i <- 0 to sortedData.length - 2) {
       if (sortedData(i) > sortedData(i+1)) {
-        sortedData = sortedData.updated(i, sortedData(i+1)).updated(i+1, sortedData(i))
+        sortedData =
+          sortedData.updated(i, sortedData(i+1)).updated(i+1, sortedData(i))
         swapped = true
       }
     }
