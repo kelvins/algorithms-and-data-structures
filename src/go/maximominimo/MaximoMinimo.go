@@ -1,5 +1,4 @@
-
-package maximoMinimo
+package maximominimo
 
 import "fmt"
 

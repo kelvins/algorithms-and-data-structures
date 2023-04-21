@@ -84,7 +84,7 @@ func caixeiroViajanteAux(x int) {
   for i := 0; i < vertices; i++ {
 
     // Se a posicao ainda nao foi visitada e o valor da matriz eh menor que infinito
-    if visitados[i] == false && matrizDistancia[ultimo][i] < infinito {
+    if !visitados[i] && matrizDistancia[ultimo][i] < infinito {
       // Marque a posicao como visitada
       visitados[i] = true
       // Carrega o vertice atual na solucao temporaria

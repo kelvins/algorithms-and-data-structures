@@ -1,8 +1,8 @@
 package calculatepi
 
 func CalculatePi(terms []int) []float64 {
-	var denominator = 1.0
-	var operation = 1.0
+  var denominator float64
+  var operation float64
 	pi := make([]float64, len(terms))
 
 	for i := 0; i < len(terms); i++ {
