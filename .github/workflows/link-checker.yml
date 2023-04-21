@@ -8,5 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - uses: lycheeverse/lychee-action@v1.7.0
-    with:
-      fail: true
+      with:
+        fail: true
