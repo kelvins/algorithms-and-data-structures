@@ -6,5 +6,5 @@ jobs:
   lint-checker:
     runs-on: ubuntu-latest
     steps:
-      - name: python-linter
-        uses: wemake-services/wemake-python-styleguide@0.17.0
+      - uses: actions/checkout@v1
+      - uses: ricardochaves/python-lint@v1.4.0
