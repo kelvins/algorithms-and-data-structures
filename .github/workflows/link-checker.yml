@@ -3,7 +3,7 @@ name: Link Checker
 on: [push, pull_request]
 
 jobs:
-  link-checker:
+  check-links:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
