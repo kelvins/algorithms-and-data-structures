@@ -10,4 +10,3 @@ jobs:
     - uses: lycheeverse/lychee-action@v1.7.0
       with:
         fail: true
-        args: --verbose --exclude 'https://code.labstack.com/swift'
