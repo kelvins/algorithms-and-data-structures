@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative './insertion_sort'
+require_relative "./insertion_sort"
 
 # Sort an array using the BucketSort algorithm
 class BucketSort
