@@ -87,7 +87,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/dijkstra/dijkstra.go">
+                <a href="./src/go/dijkstra.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -145,7 +145,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/floyd_warshall/floyd_warshall.go">
+                <a href="./src/go/floyd_warshall.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -203,7 +203,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/busca_binaria/busca_binaria.go">
+                <a href="./src/go/busca_binaria.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -551,7 +551,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/caixeiroviajante/caixeiroviajante.go">
+                <a href="./src/go/caixeiro_viajante.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -725,7 +725,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/exponenciacao/exponenciacao.go">
+                <a href="./src/go/exponenciacao.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -841,7 +841,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/fatorial/fatorial.go">
+                <a href="./src/go/fatorial.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -957,7 +957,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/fibonacci/fibonacci.go">
+                <a href="./src/go/fibonacci.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -1131,7 +1131,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/maximominimo/MaximoMinimo.go">
+                <a href="./src/go/maximo_minimo.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -1305,7 +1305,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/hanoi/hanoi.go">
+                <a href="./src/go/hanoi.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2119,7 +2119,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/listasequencialnaoordenada/listaSequencialNaoOrdenada.go">
+                <a href="./src/go/lista_sequencial_nao_ordenada.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2177,7 +2177,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/listasequencialordenada/listaSequencialOrdenada.go">
+                <a href="./src/go/lista_sequencial_ordenada.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2235,7 +2235,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/stack/stack.go">
+                <a href="./src/go/stack.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2527,7 +2527,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/bubbleSort/bubbleSort.go">
+                <a href="./src/go/bubble_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2643,7 +2643,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/cocktailsort/cocktailsort.go">
+                <a href="./src/go/cocktail_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2701,7 +2701,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/combsort/combsort.go">
+                <a href="./src/go/comb_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2759,7 +2759,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/countingsort/countingsort.go">
+                <a href="./src/go/counting_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2817,7 +2817,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/gnomesort/gnomesort.go">
+                <a href="./src/go/gnome_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2875,7 +2875,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/heapsort/heapsort.go">
+                <a href="./src/go/heap_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2933,7 +2933,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/insertionsort/insertionsort.go">
+                <a href="./src/go/insertion_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -2991,7 +2991,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/mergesort/mergesort.go">
+                <a href="./src/go/merge_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -3049,7 +3049,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/quicksort/quicksort.go">
+                <a href="./src/go/quick_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -3107,7 +3107,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/radixsort/radixsort.go">
+                <a href="./src/go/radix_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -3165,7 +3165,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/selectionsort/selectionsort.go">
+                <a href="./src/go/selection_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -3223,7 +3223,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/shellsort/shellsort.go">
+                <a href="./src/go/shell_sort.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
@@ -3573,7 +3573,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/calculatepi/calculatepi.go">
+                <a href="./src/go/calculate_pi.go">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
                 </a>
             </td>
