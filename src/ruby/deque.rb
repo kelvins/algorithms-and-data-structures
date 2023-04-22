@@ -34,23 +34,23 @@ class Deque
 
   # gets the item at the front of the queue:
   def read_front
-    deque.length >= 1 ? deque[0] : 'Lista está vazia'
+    deque.length >= 1 ? deque[0] : "Lista está vazia"
   end
 
   # gets the item at the last of the queue:
   def read_rear
-    deque.length >= 1 ? deque[-1] : 'Lista está vazia'
+    deque.length >= 1 ? deque[-1] : "Lista está vazia"
   end
 
   # checks whether deque is full or not
   def full?
-    result = deque.length >= 1 ? 'está' : 'não esta'
+    result = deque.length >= 1 ? "está" : "não esta"
     "Lista #{result} cheia!"
   end
 
   # checks whether deque is empty or not
   def empty?
-    result = deque.empty? ? 'está' : 'não esta'
+    result = deque.empty? ? "está" : "não esta"
     "Lista #{result} vazia"
   end
 end

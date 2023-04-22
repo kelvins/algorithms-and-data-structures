@@ -22,7 +22,7 @@ class CountSort
   end
 
   def count_sort(array, min, max)
-    return 'algo deu errado pqp' if min > max
+    return "algo deu errado pqp" if min > max
 
     n = max - min + 1
     size = array.length

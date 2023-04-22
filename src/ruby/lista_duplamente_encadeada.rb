@@ -66,7 +66,7 @@ class DoublyLinkedList
 
   def print_list
     current = @head
-    puts 'List: '
+    puts "List: "
     until current.nil?
       print "#{current.data} "
       current = current.next

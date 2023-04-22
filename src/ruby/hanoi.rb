@@ -3,7 +3,7 @@
 def hanoi(pin0, pin2, pin1, num)
   if num == 1
     # Show the operations
-    print 'Move from ', pin0, ' to ', pin2, "\n"
+    print "Move from ", pin0, " to ", pin2, "\n"
   else
     hanoi(pin0, pin1, pin2, num - 1)
     hanoi(pin0, pin2, pin1, 1)
