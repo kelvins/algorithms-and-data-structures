@@ -4,14 +4,14 @@
 # Carlos Alves
 # https://github.com/EuCarlos
 
-def dijkstra(matrix, n)
-  visited = Array.new(n)
+def dijkstra(matrix, vertices)
+  visited = Array.new(vertices)
 
-  (1..n - 1).each do |_i|
+  (1..vertices - 1).each do |_i|
     min = nil
     min_value = nil
 
-    (1..n - 1).each do |j|
+    (1..vertices - 1).each do |j|
       if !visited[j] && (!min_value || matrix[j][0] < min_value)
         min = j
         min_value = matrix[j][0]
@@ -20,7 +20,7 @@ def dijkstra(matrix, n)
 
     visited[min] = true
 
-    (1..n - 1).each do |j|
+    (1..vertices - 1).each do |j|
       matrix[j][0] = matrix[min][0] + matrix[min][j] if matrix[min][0] + matrix[min][j] < matrix[j][0]
     end
   end

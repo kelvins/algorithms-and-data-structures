@@ -16,6 +16,6 @@ def busca_sequencial_recursiva(lista, valor, index = 0)
   end
 end
 
-assert_equal busca_sequencial_recursiva([1, 2, 3, 4, 5], 1, index = 0), 0
-assert_equal busca_sequencial_recursiva(%w[a b c], 1, index = 0), -1
-assert_equal busca_sequencial_recursiva([10, 9, 7, 2, 4, 5, 6, 99, 11, 4], 7, index = 0), 2
+assert_equal busca_sequencial_recursiva([1, 2, 3, 4, 5], 1), 0
+assert_equal busca_sequencial_recursiva(%w[a b c], 1), -1
+assert_equal busca_sequencial_recursiva([10, 9, 7, 2, 4, 5, 6, 99, 11, 4], 7), 2

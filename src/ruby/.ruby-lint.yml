@@ -1,0 +1,14 @@
+Metrics/AbcSize:
+  Enabled: false
+
+Style/MixinUsage:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/CombinableLoops:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
