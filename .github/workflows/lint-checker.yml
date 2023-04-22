@@ -16,3 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_SCALAFMT: true
           VALIDATE_GO: true
+          VALIDATE_RUST_CLIPPY: true
