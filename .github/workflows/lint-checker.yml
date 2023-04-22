@@ -18,3 +18,4 @@ jobs:
           VALIDATE_GO: true
           VALIDATE_RUST_2021: true
           VALIDATE_RUST_CLIPPY: true
+          VALIDATE_KOTLIN: true
