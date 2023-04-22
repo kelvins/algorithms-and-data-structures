@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Class that represents each node from the linked list
 class Node
   attr_accessor :data, :next
 
@@ -9,6 +10,7 @@ class Node
   end
 end
 
+# Implement the linked list data structure
 class LinkedList
   def initialize
     @head = nil

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Implements a Queue data structure
 class Queue
   def initialize
     @queue = []

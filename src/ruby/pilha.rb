@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Implement the Stack data structure
 class Stack
   def initialize
     @stack = []

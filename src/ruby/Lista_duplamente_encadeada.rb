@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Class to represent each node from the linked list
 class Node
   attr_accessor :data, :next, :previous
 
@@ -10,6 +11,7 @@ class Node
   end
 end
 
+# Implement a doubly linked list
 class DoublyLinkedList
   def initialize
     @head = nil

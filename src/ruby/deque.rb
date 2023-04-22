@@ -4,6 +4,7 @@
 # Carlos Alves
 # https://github.com/EuCarlos
 
+# Implement Deque data structure
 class Deque
   attr_accessor :deque
 
