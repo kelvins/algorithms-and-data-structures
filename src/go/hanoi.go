@@ -14,5 +14,5 @@ func Hanoi(pino0 int, pino2 int, pino1 int, numero int) {
 
 func main() {
 	fmt.Println("Torre de Hanoi:")
-  Hanoi(0, 2, 1, 3)
+	Hanoi(0, 2, 1, 3)
 }

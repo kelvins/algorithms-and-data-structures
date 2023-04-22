@@ -17,7 +17,7 @@ func InsertionSort(slice []int) {
 }
 
 func main() {
-  slice := []int{9, 8, 7, 5, 1, 2, 4, 3, 6}
+	slice := []int{9, 8, 7, 5, 1, 2, 4, 3, 6}
 	fmt.Println("Slice:", slice)
 	InsertionSort(slice)
 	fmt.Println("InsertionSort:", slice)

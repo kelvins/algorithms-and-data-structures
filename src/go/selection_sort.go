@@ -19,7 +19,7 @@ func SelectionSort(slice []int) {
 }
 
 func main() {
-  slice := []int{1, 3, 2, 9, 7, 8, 5, 6, 4}
+	slice := []int{1, 3, 2, 9, 7, 8, 5, 6, 4}
 	fmt.Println("Slice:", slice)
 	SelectionSort(slice)
 	fmt.Println("SelectionSort:", slice)

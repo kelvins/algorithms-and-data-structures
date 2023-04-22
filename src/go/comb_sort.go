@@ -27,7 +27,7 @@ func CombSort(slice []int) {
 }
 
 func main() {
-  slice := []int{6, 5, 8, 7, 3, 4, 2, 1, 9}
+	slice := []int{6, 5, 8, 7, 3, 4, 2, 1, 9}
 	fmt.Println("Slice:", slice)
 	CombSort(slice)
 	fmt.Println("CombSort:", slice)

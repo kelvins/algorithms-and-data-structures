@@ -34,7 +34,7 @@ func split(slice []int, start int, end int) int {
 }
 
 func main() {
-  slice := []int{2, 1, 8, 4, 3, 7, 6, 5, 9}
+	slice := []int{2, 1, 8, 4, 3, 7, 6, 5, 9}
 	fmt.Println("Slice:", slice)
 	QuickSort(slice)
 	fmt.Println("QuickSort:", slice)

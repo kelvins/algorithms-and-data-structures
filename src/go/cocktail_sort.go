@@ -34,7 +34,7 @@ func CocktailSort(slice []int) {
 }
 
 func main() {
-  slice := []int{1, 5, 8, 3, 7, 4, 9, 6, 2}
+	slice := []int{1, 5, 8, 3, 7, 4, 9, 6, 2}
 	fmt.Println("Slice:", slice)
 	CocktailSort(slice)
 	fmt.Println("CocktailSort:", slice)

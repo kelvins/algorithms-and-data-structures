@@ -20,7 +20,7 @@ func CalculatePi(terms []int) []float64 {
 }
 
 func main() {
-  slice := []int{10, 1000, 100000, 10000000}
+	slice := []int{10, 1000, 100000, 10000000}
 	fmt.Println("Slice:", slice)
 	fmt.Println("Pi:", CalculatePi(slice))
 }

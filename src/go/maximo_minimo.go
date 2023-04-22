@@ -34,6 +34,6 @@ func MinimoMaximoRecursivo(vetor []int, minimo int, maximo int, indice int) {
 }
 
 func main() {
-  slice := []int{2, 3, 9, 1, 6, 8, 5}
-  MinimoMaximoRecursivo(slice, 999, 0, 0)
+	slice := []int{2, 3, 9, 1, 6, 8, 5}
+	MinimoMaximoRecursivo(slice, 999, 0, 0)
 }

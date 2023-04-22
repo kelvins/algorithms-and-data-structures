@@ -18,7 +18,7 @@ func GnomeSort(slice []int) {
 }
 
 func main() {
-  slice := []int{2, 5, 1, 7, 4, 9, 8, 6, 3}
+	slice := []int{2, 5, 1, 7, 4, 9, 8, 6, 3}
 	fmt.Println("Slice:", slice)
 	GnomeSort(slice)
 	fmt.Println("GnomeSort:", slice)

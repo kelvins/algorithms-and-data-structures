@@ -50,7 +50,7 @@ func MergeSort(slice []int) {
 }
 
 func main() {
-  slice := []int{4, 6, 7, 1, 2, 3, 5, 9, 8}
+	slice := []int{4, 6, 7, 1, 2, 3, 5, 9, 8}
 	fmt.Println("Slice:", slice)
 	MergeSort(slice)
 	fmt.Println("MergeSort:", slice)

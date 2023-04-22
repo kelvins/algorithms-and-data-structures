@@ -27,7 +27,7 @@ func ShellSort(slice []int) {
 }
 
 func main() {
-  slice := []int{5, 1, 4, 2, 3, 6, 9, 7, 8}
+	slice := []int{5, 1, 4, 2, 3, 6, 9, 7, 8}
 	fmt.Println("Slice:", slice)
 	ShellSort(slice)
 	fmt.Println("ShellSort:", slice)

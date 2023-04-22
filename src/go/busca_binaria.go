@@ -21,9 +21,9 @@ func BinarySearch(seq []int, element, start, end int) int {
 }
 
 func main() {
-  value := 7
+	value := 7
 	slice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 	fmt.Println("Slice:", slice)
-  index := BinarySearch(slice, value, 0, len(slice))
+	index := BinarySearch(slice, value, 0, len(slice))
 	fmt.Println("Value", value, "found in index:", index)
 }

@@ -38,7 +38,7 @@ func CountingSort(slice []int) {
 }
 
 func main() {
-  slice := []int{9, 5, 8, 7, 3, 2, 1, 6, 4}
+	slice := []int{9, 5, 8, 7, 3, 2, 1, 6, 4}
 	fmt.Println("Slice:", slice)
 	CountingSort(slice)
 	fmt.Println("CountingSort:", slice)
