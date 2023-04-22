@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'test/unit/assertions'
+require "test/unit/assertions"
 include Test::Unit::Assertions
 
 # the easiest implementation would be using .reverse method

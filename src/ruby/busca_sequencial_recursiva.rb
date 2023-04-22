@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'test/unit/assertions'
+require "test/unit/assertions"
 include Test::Unit::Assertions
 
 # Retorna o índice do elemento. Se não existir, retorna -1.
