@@ -92,7 +92,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/algoritmo_dijkstra.rb">
+                <a href="./src/ruby/dijkstra.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -208,7 +208,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/BuscaBinaria.rb">
+                <a href="./src/ruby/busca_binaria.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -324,7 +324,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/BuscaSequencial.rb">
+                <a href="./src/ruby/busca_sequencial.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -382,7 +382,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Busca_Sequencial_Recursiva.rb">
+                <a href="./src/ruby/busca_sequencial_recursiva.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -440,7 +440,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/BuscaSentinela.rb">
+                <a href="./src/ruby/busca_sentinela.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -730,7 +730,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Exponenciacao.rb">
+                <a href="./src/ruby/exponenciacao.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -788,7 +788,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/ExponenciacaoRecursiva.rb">
+                <a href="./src/ruby/exponenciacao_recursiva.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -904,7 +904,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Fatorial.rb">
+                <a href="./src/ruby/fatorial.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -962,7 +962,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Fibonacci.rb">
+                <a href="./src/ruby/fibonacci.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -1310,7 +1310,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Hanoi.rb">
+                <a href="./src/ruby/hanoi.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -1776,7 +1776,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Fila.rb">
+                <a href="./src/ruby/fila.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -2008,7 +2008,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Lista_encadeada.rb">
+                <a href="./src/ruby/lista_encadeada.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -2066,7 +2066,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Lista_duplamente_encadeada.rb">
+                <a href="./src/ruby/lista_duplamente_encadeada.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -2240,7 +2240,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Pilha.rb">
+                <a href="./src/ruby/pilha.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
@@ -3520,7 +3520,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/Palindromo.rb">
+                <a href="./src/ruby/palindromo.rb">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
                 </a>
             </td>
