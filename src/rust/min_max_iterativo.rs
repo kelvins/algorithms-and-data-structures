@@ -1,5 +1,5 @@
 fn main() {
-    min_max(vec![54,42,11,33,24,99,77,80]);
+    min_max(vec![54, 42, 11, 33, 24, 99, 77, 80]);
 }
 
 fn min_max(vetor: Vec<i32>) {
@@ -14,7 +14,7 @@ fn min_max(vetor: Vec<i32>) {
         }
     }
 
-    println!{"Data: {:?}", vetor};
-    println!{"Min.: {:?}", min};
-    println!{"Max.: {:?}", max};
+    println! {"Data: {:?}", vetor};
+    println! {"Min.: {:?}", min};
+    println! {"Max.: {:?}", max};
 }

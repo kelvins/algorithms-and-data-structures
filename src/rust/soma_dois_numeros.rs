@@ -15,7 +15,7 @@ fn existe_soma(lista: &[i32], x: i32) -> bool {
 
 fn main() {
     let lista = vec![1, 2, 3, 4, 5, 6, 7, 8];
-    println!("{}", existe_soma(&lista, 3));    
+    println!("{}", existe_soma(&lista, 3));
 }
 
 #[cfg(test)]
@@ -24,7 +24,7 @@ mod test {
     #[test]
     fn t_exite_soma() {
         let lista = vec![1, 2, 3, 4, 5, 6, 7, 8];
-        
+
         assert_eq!(existe_soma(&lista, 3), true);
         assert_eq!(existe_soma(&lista, 5), true);
         assert_eq!(existe_soma(&lista, 7), true);

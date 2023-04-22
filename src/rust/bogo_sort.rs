@@ -34,7 +34,7 @@ fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
     // então para não crashar o programa é bom um range grande
     let mut ciclos: u64 = 0;
     loop {
-        ciclos +=1;
+        ciclos += 1;
         lista.shuffle(&mut rng);
         if verifica_ordem(lista.clone()) {
             return (lista, ciclos);

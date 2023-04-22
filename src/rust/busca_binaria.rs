@@ -43,9 +43,9 @@ where
         // o centro não mudou de posição, ou seja, não ha mais valores para verificar
         // e o item não existe
         if *valor_p == valor {
-            return (true, centro)
+            return (true, centro);
         } else if centro == limite_l && centro == limite_r {
-            return (false, 0)
+            return (false, 0);
         }
 
         // O segundo bloco se responsabiliza em verificar a distancia entre o valor recebido
@@ -64,8 +64,11 @@ where
             // Poderia ser feito em uma linha utilizado conversão de tipos e arredondamento
             // porem eu pessoalmente acredito que a performance ganha não vale compensa
 
-            centro = if (limite_r - limite_l) == 1 { centro + 1 }
-                     else { centro + (limite_r - limite_l) / 2 };
+            centro = if (limite_r - limite_l) == 1 {
+                centro + 1
+            } else {
+                centro + (limite_r - limite_l) / 2
+            };
             // Forma em uma linha -
             //     centro = centro + (((limite_r - limite_l) as f32 / 2.0).ceil() as usize);
         }

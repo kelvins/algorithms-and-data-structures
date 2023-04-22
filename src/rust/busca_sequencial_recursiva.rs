@@ -21,9 +21,9 @@ fn busca_sequencial_recursiva(lista: &[i32], valor: i32, indice: usize) -> (bool
     // para que o índice chega ao final da lista + 1, logo todos os itens da lista
     // foram percorridos
     if indice == lista.len() {
-        return (false, 0)
+        return (false, 0);
     } else if lista[indice] == valor {
-        return (true, indice)
+        return (true, indice);
     }
 
     // Caso o item atual não seja o item desejado, nos chamamos a função com o índice
