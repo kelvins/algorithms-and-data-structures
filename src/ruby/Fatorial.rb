@@ -1,18 +1,17 @@
+# frozen_string_literal: true
 
 def fatorial(n)
-    aux = 1
-    for x in 2..n
-        aux = aux * x
-    end
-    return aux
+  aux = 1
+  (2..n).each do |x|
+    aux *= x
+  end
+  aux
 end
 
 def fatorial_recursiva(n)
-    if n <= 1
-        return 1
-    else
-        return n * fatorial_recursiva(n-1)
-    end
+  return 1 if n <= 1
+
+  n * fatorial_recursiva(n - 1)
 end
 
 puts fatorial(5)

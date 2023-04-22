@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Mergesort
   attr_reader :array_sorted
 
@@ -24,16 +26,16 @@ class Mergesort
 
     @array_sorted = merge(sorted_left, sorted_right)
   end
- 
+
   def merge(left, right)
     return left if right.empty?
     return right if left.empty?
 
     small_number = if left.first <= right.first
-      left.shift
-    else
-      right.shift
-    end
+                     left.shift
+                   else
+                     right.shift
+                   end
 
     recursive = merge(left, right)
 
@@ -43,5 +45,5 @@ end
 
 # test
 m = Mergesort.new
-m.init([1,4,10,2,3,32,0])
+m.init([1, 4, 10, 2, 3, 32, 0])
 p m.array_sorted

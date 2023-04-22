@@ -1,4 +1,6 @@
-require_relative './insertion_sort.rb'
+# frozen_string_literal: true
+
+require_relative './insertion_sort'
 
 class Bucketsort
   attr_reader :array_sorted
@@ -16,7 +18,8 @@ class Bucketsort
 
   def bucket_sort(array, bucket_size)
     return nil if array.empty?
-    min, max = array.min, array.max
+
+    min, max = array.minmax
     bucket_count = ((max - min) / bucket_size).floor + 1
     buckets = Array.new(bucket_count)
 
@@ -39,5 +42,5 @@ end
 
 # test
 bu_s = Bucketsort.new
-bu_s.init([1,4,10,2,3,32,0])
+bu_s.init([1, 4, 10, 2, 3, 32, 0])
 p bu_s.array_sorted

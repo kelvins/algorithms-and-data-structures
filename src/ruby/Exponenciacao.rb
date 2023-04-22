@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def exponenciacao(base, expoente)
   result = base
   expoente.pred.times { result *= base }

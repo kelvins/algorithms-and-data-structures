@@ -1,23 +1,24 @@
+# frozen_string_literal: true
 
 def fibonacci(n)
-    last = 0
-    curr = 1
-    for _ in 0..n-1
-        swap = curr
-        curr += last
-        last = swap
-    end
-    return last
+  last = 0
+  curr = 1
+  (0..n - 1).each do |_|
+    swap = curr
+    curr += last
+    last = swap
+  end
+  last
 end
 
 def fibonacci_recursiva(n)
-    if n <= 0
-        return 0
-    elsif n == 1
-        return 1
-    else
-        return fibonacci(n-1) + fibonacci(n-2)
-    end
+  if n <= 0
+    0
+  elsif n == 1
+    1
+  else
+    fibonacci(n - 1) + fibonacci(n - 2)
+  end
 end
 
 puts fibonacci(12)

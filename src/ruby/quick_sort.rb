@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Quicksort
   attr_reader :array_sorted
 
@@ -11,7 +13,7 @@ class Quicksort
 
   private
 
-  def quick_sort(array, compare = lambda { |a, b| a <=> b })
+  def quick_sort(array, compare = ->(a, b) { a <=> b })
     inner(array, 0, array.length - 1, compare)
   end
 
@@ -26,31 +28,25 @@ class Quicksort
 
   def partition_random(array, left, right, compare)
     pivot = left + (rand * (right - left)).floor
-    if pivot != right
-      array[right], array[pivot] = array[pivot], array[right]
-    end
-    return partition_right(array, left, right, compare)
+    array[right], array[pivot] = array[pivot], array[right] if pivot != right
+    partition_right(array, left, right, compare)
   end
 
   def partition_right(array, left, right, compare)
     pivot = array[right]
     mid = left
     (mid..right - 1).each do |i|
-      if compare.call(array[i], pivot) <= 0
-        if i != mid
-          array[i], array[mid] = array[mid], array[i]
-        end
-        mid += 1
-      end
+      next unless compare.call(array[i], pivot) <= 0
+
+      array[i], array[mid] = array[mid], array[i] if i != mid
+      mid += 1
     end
-    if right != mid
-      array[right], array[mid] = array[mid], array[right]
-    end
-    return mid
+    array[right], array[mid] = array[mid], array[right] if right != mid
+    mid
   end
 end
 
 # test
 q_s = Quicksort.new
-q_s.init([1,4,10,2,3,32,0])
+q_s.init([1, 4, 10, 2, 3, 32, 0])
 p q_s.array_sorted

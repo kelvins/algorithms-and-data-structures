@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 def busca_sequencial(valor, vetor)
   # Procura o valor no vetor sequencialmente
   # Se encontrar retorna o índice, senão -1
   vetor.each_with_index do |elemento, indice|
     return indice if elemento.equal?(valor)
   end
-  return -1
+  -1
 end
 
 # Teste Manual
