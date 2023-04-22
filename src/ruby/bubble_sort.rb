@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Sort an array using the BubbleSort algorithm
 class Bubblesort
   attr_reader :array_sorted
 

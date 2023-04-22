@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-class Countsort
+# Sort an array using the CountSort algorithm
+class CountSort
   attr_reader :array_sorted
 
   def initialize
@@ -47,6 +48,6 @@ class Countsort
 end
 
 # test
-c_s = Countsort.new
+c_s = CountSort.new
 c_s.init([1, 4, 10, 2, 3, 32, 0])
 p c_s.array_sorted

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Sort an array using the HeapSort algorithm
 class Heapsort
   attr_reader :array_sorted
 

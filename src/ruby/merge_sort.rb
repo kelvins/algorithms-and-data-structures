@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-class Mergesort
+# Sort an array using the MergeSort algorithm
+class MergeSort
   attr_reader :array_sorted
 
   def initialize
@@ -44,6 +45,6 @@ class Mergesort
 end
 
 # test
-m = Mergesort.new
+m = MergeSort.new
 m.init([1, 4, 10, 2, 3, 32, 0])
 p m.array_sorted

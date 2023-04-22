@@ -14,10 +14,8 @@ def interpolation_search(value, data)
       return "Elemento encontrado na #{high}° posição do array ordenado."
     elsif value > data[mid]
       low = mid
-      high = high
       mid = ((high - low) / 2).floor + low
     else
-      low = low
       high = mid
       mid = ((high - low) / 2).floor + low
     end
@@ -25,11 +23,11 @@ def interpolation_search(value, data)
 end
 
 def main
-  array_1 = [37, 53, 1, 43, 11, 49, 32, 55, 40, 47, 25, 4].sort
-  puts interpolation_search(43, array_1) # 8° posição do array ordenado
+  array1 = [37, 53, 1, 43, 11, 49, 32, 55, 40, 47, 25, 4].sort
+  puts interpolation_search(43, array1) # 8° posição do array ordenado
 
-  array_2 = [23, 9, 5, 78, 123, 5444, 54_535, 64, 3, 12, 14, 15].sort
-  puts interpolation_search(5444, array_2) # 11° posição do array ordenado
+  array2 = [23, 9, 5, 78, 123, 5444, 54_535, 64, 3, 12, 14, 15].sort
+  puts interpolation_search(5444, array2) # 11° posição do array ordenado
 end
 
 main

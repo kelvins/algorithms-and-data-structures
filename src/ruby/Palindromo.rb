@@ -5,7 +5,7 @@ include Test::Unit::Assertions
 
 # the easiest implementation would be using .reverse method
 
-def is_palindrome(string)
+def palindrome?(string)
   return true if string.size == 1 || string.empty?
 
   reversed = ''
@@ -17,8 +17,8 @@ def is_palindrome(string)
   reversed == string
 end
 
-assert_equal is_palindrome('abba'), true
-assert_equal is_palindrome('abbas'), false
-assert_equal is_palindrome('tattarrattat'), true
-assert_equal is_palindrome('Was it a palindrome?'), false
-assert_equal is_palindrome('No lemon, no melon'), true
+assert_equal palindrome?('abba'), true
+assert_equal palindrome?('abbas'), false
+assert_equal palindrome?('tattarrattat'), true
+assert_equal palindrome?('Was it a palindrome?'), false
+assert_equal palindrome?('No lemon, no melon'), true

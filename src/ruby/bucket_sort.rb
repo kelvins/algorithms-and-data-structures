@@ -2,12 +2,13 @@
 
 require_relative './insertion_sort'
 
-class Bucketsort
+# Sort an array using the BucketSort algorithm
+class BucketSort
   attr_reader :array_sorted
 
   def initialize
     @array_sorted = []
-    @insertion = Insertionsort.new
+    @insertion = InsertionSort.new
   end
 
   def init(array)
@@ -41,6 +42,6 @@ class Bucketsort
 end
 
 # test
-bu_s = Bucketsort.new
+bu_s = BucketSort.new
 bu_s.init([1, 4, 10, 2, 3, 32, 0])
 p bu_s.array_sorted

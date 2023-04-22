@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Sort an array using the QuickSort algorithm
 class Quicksort
   attr_reader :array_sorted
 

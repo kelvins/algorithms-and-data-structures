@@ -42,13 +42,13 @@ class Deque
   end
 
   # checks whether deque is full or not
-  def is_full
+  def full?
     result = deque.length >= 1 ? 'está' : 'não esta'
     "Lista #{result} cheia!"
   end
 
   # checks whether deque is empty or not
-  def is_empty
+  def empty?
     result = deque.empty? ? 'está' : 'não esta'
     "Lista #{result} vazia"
   end
@@ -67,13 +67,13 @@ def main
   puts deque.read_front
   puts deque.read_rear
 
-  puts deque.is_full
-  puts deque.is_empty
+  puts deque.full?
+  puts deque.empty?
 
   # test with empty list
   deque_empty = Deque.new
-  puts deque_empty.is_full
-  puts deque_empty.is_empty
+  puts deque_empty.full?
+  puts deque_empty.empty?
 end
 
 main
