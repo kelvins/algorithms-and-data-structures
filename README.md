@@ -1,8 +1,8 @@
-# :computer: Algoritmos e Estruturas de Dados
+# :abacus: Algoritmos e Estruturas de Dados
 
-Este repositório disponibiliza alguns algoritmos e estruturas de dados clássicos em **Ciência da Computação**. Além disso, disponibiliza também alguns problemas extras que são encontrados com frequência em desafios de programação.
+Este repositório disponibiliza diversos algoritmos e estruturas de dados clássicos em **Ciência da Computação**, bem como alguns problemas extras que são encontrados com frequência em desafios de programação.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust** e **Scala**.
+Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** e **Kotlin**.
 
 <html>
     <table align="center">
@@ -3669,8 +3669,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar novas pessoas a c
     </table>
 </html>
 
-## :dancers: Contribuindo
+## :technologist: Contribuindo
 
 Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
 
-Se você tem dúvida de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
+Se você tem dúvidas de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
