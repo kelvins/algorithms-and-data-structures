@@ -1,3 +1,0 @@
-run:
-  skip-files:
-    - src/go/main.go
