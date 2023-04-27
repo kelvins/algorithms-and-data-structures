@@ -66,9 +66,7 @@ class GeneticAlgorithm:
         new_population = list()
         while len(new_population) < len(self._population):
             if self._selection_type == SelectionType.ROULETTE:
-                parents = self._pick_roulette(
-                    [p.fitness() for p in self._population]
-                )
+                parents = self._pick_roulette([p.fitness() for p in self._population])
             else:
                 parents = self._pick_tournament(len(self._population) // 2)
             # Try to perform a crossover with parents

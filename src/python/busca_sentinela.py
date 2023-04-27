@@ -27,10 +27,6 @@ if __name__ == "__main__":
     NUMBER_INDEX = busca_sentinela(some_list, NUMBER_TO_FIND)
     print(some_list)
     if NUMBER_INDEX >= 0:
-        print(
-            "Found value {} at position {}.".format(
-                NUMBER_TO_FIND, NUMBER_INDEX
-            )
-        )
+        print("Found value {} at position {}.".format(NUMBER_TO_FIND, NUMBER_INDEX))
     else:
         print("Could not find value {}.".format(NUMBER_TO_FIND))

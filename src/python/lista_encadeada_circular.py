@@ -119,7 +119,5 @@ class TestCircularlyLinkedList(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    suite = unittest.TestLoader().loadTestsFromTestCase(
-        TestCircularlyLinkedList
-    )
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestCircularlyLinkedList)
     unittest.TextTestRunner(verbosity=2).run(suite)

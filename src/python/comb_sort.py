@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 # Created By  : octaviolage
 # Created Date: 2022-05-15
 # version ='1.0'
@@ -23,8 +23,10 @@ def comb_sort(arr: list) -> list:
                 swapped = True
     return arr
 
+
 if __name__ == '__main__':
     from random import randint
+
     my_list = [randint(0, 100) for _ in range(10)]
     print(f'Lista: {my_list}')
     print(f'Ordenada: {comb_sort(my_list)}')

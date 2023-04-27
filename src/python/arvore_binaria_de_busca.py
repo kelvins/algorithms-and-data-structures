@@ -156,9 +156,7 @@ if __name__ == '__main__':
 
     busca_recursiva(arvore, 6)  # Busca que imprime na propria funcao
 
-    if (
-        busca_linear(arvore, 6) is not None
-    ):  # Retorna o NO ou None se nao encontrou
+    if busca_linear(arvore, 6) is not None:  # Retorna o NO ou None se nao encontrou
         print('Valor encontrado')
     else:
         print('Valor nao encontrado')

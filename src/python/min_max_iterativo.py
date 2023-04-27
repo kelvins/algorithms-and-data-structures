@@ -5,7 +5,7 @@ em um array
 
 
 def min_max_array(vetor):
-    """ Busca os valores máximo e mínimo em vetor """
+    """Busca os valores máximo e mínimo em vetor"""
     minimo = vetor[0]
     maximo = vetor[0]
 

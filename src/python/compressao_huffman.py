@@ -16,6 +16,7 @@ class node:
         # direção da árvore (0/1)
         self.huff = ''
 
+
 # Função utilitária para imprimir
 # códigos huffman para todos os símbolos
 # na nova árvore huffman que sera criada
@@ -28,14 +29,14 @@ def printNodes(node, val=''):
     # se o nó não pertence á ponta da
     # árvore então caminha dentro do mesmo
     # até a ponta
-    if(node.left):
+    if node.left:
         printNodes(node.left, newVal)
-    if(node.right):
+    if node.right:
         printNodes(node.right, newVal)
 
     # Se o nó estiver na ponta da árore
     # então exibe o código huffman
-    if(not node.left and not node.right):
+    if not node.left and not node.right:
         print(f"{node.symbol} -> {newVal}")
 
 
@@ -70,13 +71,7 @@ if __name__ == '__main__':
 
         # Combina os 2 nós menores para um novo nó pai
         # para eles.
-        newNode = node(
-            left.freq +
-            right.freq,
-            left.symbol +
-            right.symbol,
-            left,
-            right)
+        newNode = node(left.freq + right.freq, left.symbol + right.symbol, left, right)
 
         # remove os 2 nós e adiciona o nó pai
         # como um novo só sobre os outros

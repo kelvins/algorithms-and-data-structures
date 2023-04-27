@@ -30,9 +30,7 @@ def fib_recursiva_com_cache(number):
     """Fibonacci recursiva com cache."""
     if number < 2:
         return number
-    return fib_recursiva_com_cache(number - 1) + fib_recursiva_com_cache(
-        number - 2
-    )
+    return fib_recursiva_com_cache(number - 1) + fib_recursiva_com_cache(number - 2)
 
 
 def run_fibonacci(name, func, number=35):

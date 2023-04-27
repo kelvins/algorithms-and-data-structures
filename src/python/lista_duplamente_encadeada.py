@@ -19,12 +19,11 @@ class No:
 
 
 class ListaDuplamenteEncadeada:
-
     cabeca = None
     rabo = None
 
     def acrescentar(self, dado):
-        """ Acrescenta um novo no a lista. """
+        """Acrescenta um novo no a lista."""
         # Cria um novo no apontando para None (anterior e proximo)
         novo_no = No(dado, None, None)
 
@@ -45,7 +44,7 @@ class ListaDuplamenteEncadeada:
             self.rabo = novo_no
 
     def remover(self, dado):
-        """ Remove um no da lista. """
+        """Remove um no da lista."""
         # O no atual eh o primeiro no da lista
         no_atual = self.cabeca
 
@@ -76,7 +75,7 @@ class ListaDuplamenteEncadeada:
             no_atual = no_atual.proximo
 
     def mostrar(self):
-        """ Mostra todos os dados da lista. """
+        """Mostra todos os dados da lista."""
         print("Lista Duplamente Encadeada:")
 
         # O no atual eh o primeiro no da lista

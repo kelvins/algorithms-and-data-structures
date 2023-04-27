@@ -6,7 +6,7 @@ def max_recursivo(vetor, maximo, indice):
     if vetor[indice] > maximo:
         maximo = vetor[indice]
     if indice < len(vetor) - 1:
-        maximo = max_recursivo(vetor, maximo, indice+1)
+        maximo = max_recursivo(vetor, maximo, indice + 1)
     return maximo
 
 

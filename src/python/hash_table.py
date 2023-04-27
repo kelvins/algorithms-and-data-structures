@@ -6,7 +6,6 @@ import traceback
 
 
 class HashTable:
-
     def __init__(self, size=10):
         self.size = size
         self.tables = [[] for _ in range(self.size)]
@@ -48,7 +47,6 @@ class HashTable:
 
 
 if __name__ == '__main__':
-
     # Cria as tabelas de dispersão
     hash_table = HashTable()
 
@@ -68,10 +66,11 @@ if __name__ == '__main__':
 
     # Exibir dispersão
     for i, table in enumerate(hash_table.tables):
-        print("Table {index} -> {table} Len -> {len}".
-              format(index=i + 1,
-                     table=table,
-                     len=len(table)))
+        print(
+            "Table {index} -> {table} Len -> {len}".format(
+                index=i + 1, table=table, len=len(table)
+            )
+        )
 
     # Tentar deletar uma chave que não existe
     try:

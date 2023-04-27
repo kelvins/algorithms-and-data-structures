@@ -2,14 +2,14 @@
 
 
 def swap(a_list, pos1, pos2):
-    """ Troca a posição de dois itens em uma lista """
+    """Troca a posição de dois itens em uma lista"""
     temp = a_list[pos1]
     a_list[pos1] = a_list[pos2]
     a_list[pos2] = temp
 
 
 def partition(a_list, start, end):
-    """ Divide uma lista """
+    """Divide uma lista"""
     pivot = a_list[start]
     while True:
         while a_list[start] < pivot:
@@ -28,7 +28,7 @@ def partition(a_list, start, end):
 
 
 def quick_sort(a_list, start, end):
-    """ Algoritmo de quick sort """
+    """Algoritmo de quick sort"""
     if start < end:
         part = partition(a_list, start, end)
         quick_sort(a_list, start, part)

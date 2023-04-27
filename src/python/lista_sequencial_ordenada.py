@@ -21,7 +21,7 @@ def inserir_lista(chave, lista):
 
 
 def busca_sentinela(chave, lista):
-    """ Algoritmo de busca sentinela """
+    """Algoritmo de busca sentinela"""
     lista.append(chave)
     i = 0
     while lista[i] != chave:
@@ -34,7 +34,7 @@ def busca_sentinela(chave, lista):
 
 
 def deleta_valor(chave, lista):
-    """ Deleta uma chave na lista """
+    """Deleta uma chave na lista"""
     posicao = busca_sentinela(chave, lista)
     if posicao >= 0:
         lista.pop(posicao)
@@ -43,7 +43,7 @@ def deleta_valor(chave, lista):
 
 
 def mostra_lista(lista):
-    """ Imprime a lista """
+    """Imprime a lista"""
     print(lista)
 
 

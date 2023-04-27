@@ -5,12 +5,12 @@
 import heapq
 
 
-class Grafo():
+class Grafo:
     """Define um grafo utilizando matriz de adjacências.
 
-        Args:
-            arestas (list): uma lista de listas onde o indice é o 
-                            vértice e cada elemento da lista é o vizinho
+    Args:
+        arestas (list): uma lista de listas onde o indice é o
+                        vértice e cada elemento da lista é o vizinho
     """
 
     def __init__(self, arestas: list):
@@ -42,11 +42,11 @@ class Grafo():
         """Retorna o peso entre os vértices u e v
 
         Args:
-            u (int): vértice u 
+            u (int): vértice u
             v (int): vértice v
 
         Returns:
-            float: peso entre u e v 
+            float: peso entre u e v
         """
         for vertice in self.adj[v[1]]:
             if vertice[1] == u:
@@ -77,19 +77,19 @@ class Grafo():
             S.add((u, distancia[u]))
             for v in self.adj[u]:
                 if distancia[v[1]] > distancia_u + self._peso_entre_u_e_v(u, v):
-                    distancia[v[1]] = distancia_u + \
-                        self._peso_entre_u_e_v(u, v)
+                    distancia[v[1]] = distancia_u + self._peso_entre_u_e_v(u, v)
 
         return distancia
 
 
-arestas = [[[1, 1], [2, 0.3], [5, 0.2]],            # Vizinhos do vértice 0.
-           [[0, 1], [2, 0.5]],                      # Vizinhos do vértice 1.
-           [[0, 0.3], [1, 0.5], [3, 1.5], [4, 2]],  # Vizinhos do vértice 2.
-           [[2, 1.5], [4, 1.3], [5, 0.8]],          # Vizinhos do vértice 3.
-           [[2, 2], [3, 1.3]],                      # Vizinhos do vértice 4.
-           [[0, 0.2], [3, 0.8]]                     # Vizinhos do vértice 5.
-           ]
+arestas = [
+    [[1, 1], [2, 0.3], [5, 0.2]],  # Vizinhos do vértice 0.
+    [[0, 1], [2, 0.5]],  # Vizinhos do vértice 1.
+    [[0, 0.3], [1, 0.5], [3, 1.5], [4, 2]],  # Vizinhos do vértice 2.
+    [[2, 1.5], [4, 1.3], [5, 0.8]],  # Vizinhos do vértice 3.
+    [[2, 2], [3, 1.3]],  # Vizinhos do vértice 4.
+    [[0, 0.2], [3, 0.8]],  # Vizinhos do vértice 5.
+]
 
 grafo = Grafo(arestas)
 print(grafo.dijkstra(0))

@@ -4,6 +4,7 @@
 
 import random
 
+
 def counting_sort(arr):
     # Encontra o maior elemento na lista
     k = max(arr) + 1
@@ -17,17 +18,18 @@ def counting_sort(arr):
 
     # Atualiza o array de contagem para refletir a posição correta de cada elemento na lista ordenada
     for i in range(1, k):
-        count[i] += count[i-1]
+        count[i] += count[i - 1]
 
     # Inicializa o array de resultado com zeros
     result = [0] * len(arr)
 
     # Preenche o array de resultado com os elementos ordenados
     for i in reversed(arr):
-        result[count[i]-1] = i
+        result[count[i] - 1] = i
         count[i] -= 1
 
     return result
+
 
 # Gera uma lista de n números aleatórios
 n = 10

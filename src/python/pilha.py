@@ -12,15 +12,15 @@ class Stack:
         self.__stack = []
 
     def push(self, value):
-        """ Adiciona o valor (value) ao final da pilha """
+        """Adiciona o valor (value) ao final da pilha"""
         self.__stack.append(value)
 
     def pop(self):
-        """ Remove o último valor da pilha """
+        """Remove o último valor da pilha"""
         return self.__stack.pop()
 
     def show(self):
-        """ Imprime a pilha no console """
+        """Imprime a pilha no console"""
         print(f'Stack: {self.__stack}')
 
 

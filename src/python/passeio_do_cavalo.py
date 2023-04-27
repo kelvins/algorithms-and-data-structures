@@ -8,13 +8,7 @@ def aceitavel(x, y):
 
     Retorna True ou False
     """
-    if (
-        x >= 0
-        and x <= num - 1
-        and y >= 0
-        and y <= num - 1
-        and tabuleiro[x][y] == 0
-    ):
+    if x >= 0 and x <= num - 1 and y >= 0 and y <= num - 1 and tabuleiro[x][y] == 0:
         return True
     else:
         return False

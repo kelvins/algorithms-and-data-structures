@@ -1,10 +1,12 @@
 import io
 import sys
 
+
 class BitArray:
     """
-        Classe para manipular bits como um array
+    Classe para manipular bits como um array
     """
+
     ENDIAN_TYPE = 'big'
     bits = []
     output = bytearray()
@@ -21,14 +23,14 @@ class BitArray:
 
     def append(self, bit):
         """
-            Adiciona um bit à lista
+        Adiciona um bit à lista
         """
         self.bits.append(int(bit))
 
     def fromint(self, value):
         """
-            Converte um inteiro para bits
-            e adiciona-os à lista
+        Converte um inteiro para bits
+        e adiciona-os à lista
         """
         bitstring = '{:08b}'.format(value)
         for bit in bitstring:
@@ -36,25 +38,23 @@ class BitArray:
 
     def frombytes(self, byte):
         """
-            Converte um byte para bits
-            e adiciona-os à lista
+        Converte um byte para bits
+        e adiciona-os à lista
         """
-        bitstring = "{:08b}".format(
-            int.from_bytes(byte, self.ENDIAN_TYPE)
-        )
+        bitstring = "{:08b}".format(int.from_bytes(byte, self.ENDIAN_TYPE))
         for bit in bitstring:
             self.append(int(bit, 2))
 
     def dump(self):
         """
-            Transforma à lista com os bits em um
-            bytearray e retorna seu valor
+        Transforma à lista com os bits em um
+        bytearray e retorna seu valor
         """
         self.output = bytearray()
         bits_in_a_byte = 8
         for i in range(len(self.bits) // (bits_in_a_byte)):
             bitstring = ''
-            readed_bits = self.bits[i * bits_in_a_byte: i * bits_in_a_byte + 8]
+            readed_bits = self.bits[i * bits_in_a_byte : i * bits_in_a_byte + 8]
             for bit in readed_bits:
                 bitstring += str(bit)
             byte = int(bitstring, 2)
@@ -81,12 +81,7 @@ class LZ77:
     # Dados de Entrada
     data = None
 
-    def __init__(
-            self,
-            window_size=400,
-            lookahed_buffer=15,
-            endian='big',
-            verbose=True):
+    def __init__(self, window_size=400, lookahed_buffer=15, endian='big', verbose=True):
         self.MAX_WINDOW_SIZE = window_size
         self.MAX_LOOKAHEAD_BUFFER = lookahed_buffer
         self.ENDIAN_TYPE = 'big'
@@ -94,16 +89,13 @@ class LZ77:
 
     def find_longest_match(self):
         """
-            Encontra a maior ocorrência compatível com a cadeia consultada iniciando
-            da posição atual do cursor: current_position; e posteriomente
-            consultando o histórico existente dentro da janela para encontrar
-            uma ocorrência compatível.
+        Encontra a maior ocorrência compatível com a cadeia consultada iniciando
+        da posição atual do cursor: current_position; e posteriomente
+        consultando o histórico existente dentro da janela para encontrar
+        uma ocorrência compatível.
         """
         # Define o endereço limite do buffer baseado no cursor atual
-        end_of_buffer = min(
-            self.CURSOR + self.MAX_LOOKAHEAD_BUFFER,
-            len(self.data) + 1
-        )
+        end_of_buffer = min(self.CURSOR + self.MAX_LOOKAHEAD_BUFFER, len(self.data) + 1)
         # Define a distancia e o tamanho da melhor ocorrencia para seu
         # estado inicial (nenhum ocorrencia encontrada)
         best_match_distance = -1
@@ -120,23 +112,22 @@ class LZ77:
             # respeitando o tamanho máximo da janela
             start_index = max(0, self.CURSOR - self.MAX_WINDOW_SIZE)
             # Armazena a ocorrencia a ser pesquisada
-            ocurrence = self.data[self.CURSOR:i]
+            ocurrence = self.data[self.CURSOR : i]
 
             # Percorre o arquivo apartir do início da ocorrência
             # em busca da maior cadeia compativel existente no arquivo
             for j in range(start_index, self.CURSOR):
                 compatible_chain_length = len(ocurrence) // (self.CURSOR - j)
                 compatible_chain_last = len(ocurrence) % (self.CURSOR - j)
-                compatible_chain = self.data[j:self.CURSOR]
+                compatible_chain = self.data[j : self.CURSOR]
                 compatible_chain *= compatible_chain_length
-                compatible_chain += self.data[j:j + compatible_chain_last]
+                compatible_chain += self.data[j : j + compatible_chain_last]
 
                 # Se alguma cadeia compativel for encontrada e
                 # seu tamanho for MAIOR que o do ultimo
                 # resultado definido como melhor
                 # então aceita a mesma como sendo a melhor opção.
-                if compatible_chain == ocurrence and len(
-                        ocurrence) > best_match_length:
+                if compatible_chain == ocurrence and len(ocurrence) > best_match_length:
                     best_match_distance = self.CURSOR - j
                     best_match_length = len(ocurrence)
 
@@ -148,10 +139,10 @@ class LZ77:
 
     def decompress(self, input_data):
         """
-            Fornecido um arquivo de entrada comprimido, o seu conteúdo é descomprimido de
-            volta ao seu formato original, e escrito no arquivo de saída caso este seja
-            também fornecido. Se nenhum arquivo de saída for forncedido, os dados
-            descomprimidos são retornados como uma string
+        Fornecido um arquivo de entrada comprimido, o seu conteúdo é descomprimido de
+        volta ao seu formato original, e escrito no arquivo de saída caso este seja
+        também fornecido. Se nenhum arquivo de saída for forncedido, os dados
+        descomprimidos são retornados como uma string
         """
         # Define a posição inicial do CURSOR como sendo 0
         # ou seja inicio do arquivo
@@ -208,7 +199,7 @@ class LZ77:
                 # Executa o bitshift pra separar os bits
                 # de distancia dos bits de tamanho
                 distance = (byte1 << 4) | (byte2 >> 4)
-                length = (byte2 & 0xf)
+                length = byte2 & 0xF
 
                 # Copia a cadeia indicada para a posição atual
                 # do cursor na janela de decompressão
@@ -223,18 +214,18 @@ class LZ77:
 
     def compress(self, input_data):
         """
-            Fornecido o arquivo de entrada, seu contéudo é comprimido aplicando um algoritmo
-            de compressão LZ77 simples.
-            O formato de compressão tem o seguinte padrão:
-            - bit de valor 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
-            prévias na janela de compressão.
-            - bit de valor 1 seguido pelo ponteiro de 12 bits (distância entre o inicio da ocorrência
-            até a posição atual do cursor) e mais 4 bits (responsaveis pelo tamanho da ocorrência)
+        Fornecido o arquivo de entrada, seu contéudo é comprimido aplicando um algoritmo
+        de compressão LZ77 simples.
+        O formato de compressão tem o seguinte padrão:
+        - bit de valor 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
+        prévias na janela de compressão.
+        - bit de valor 1 seguido pelo ponteiro de 12 bits (distância entre o inicio da ocorrência
+        até a posição atual do cursor) e mais 4 bits (responsaveis pelo tamanho da ocorrência)
 
-            Se o arquivo de saída for fornecido, os dados comprimidos serão escritos em
-            formato binário dentro do mesmo. Do contrário será retornado um bitarray.
+        Se o arquivo de saída for fornecido, os dados comprimidos serão escritos em
+        formato binário dentro do mesmo. Do contrário será retornado um bitarray.
 
-            Se o parâmetro verbose estiver habilitado, a descrição da compressão é exibida.
+        Se o parâmetro verbose estiver habilitado, a descrição da compressão é exibida.
         """
         # Define a posição inicial do CURSOR como sendo 0
         # ou seja inicio do arquivo
@@ -249,7 +240,6 @@ class LZ77:
 
         # Percorre o arquivo inteiro
         while self.CURSOR < len(self.data):
-
             # Procura pela melhor e maior ocorrência
             # compativel com a ocorrência existente
             # no cursor atual
@@ -264,8 +254,9 @@ class LZ77:
                 x = (best_match_distance >> 0x4).to_bytes(1, self.ENDIAN_TYPE)
                 # Segundo nibble da distancia acrescido do tamanho
                 # formando assim o par LZ
-                y = (((best_match_distance & 0xf) << 4) |
-                     best_match_length).to_bytes(1, self.ENDIAN_TYPE)
+                y = (((best_match_distance & 0xF) << 4) | best_match_length).to_bytes(
+                    1, self.ENDIAN_TYPE
+                )
 
                 lz_window.append(1)
                 lz_window.frombytes(x)
@@ -274,8 +265,11 @@ class LZ77:
                 # Se o debug estiver ativo, exibe as informações da cadeia
                 # encontrada
                 if self.ENABLE_DEBUG:
-                    print("<COMPRESSED, {}, {}>".format(
-                        best_match_distance, best_match_length))
+                    print(
+                        "<COMPRESSED, {}, {}>".format(
+                            best_match_distance, best_match_length
+                        )
+                    )
 
                 # Incrementa a posição do cursor
                 self.CURSOR += best_match_length
@@ -290,8 +284,7 @@ class LZ77:
 
                 # Se o debug estiver ativo, exibe o byte decomprimido
                 if self.ENABLE_DEBUG:
-                    print("<UNCOMPRESSED, {:c}>".format(
-                        self.data[self.CURSOR]))
+                    print("<UNCOMPRESSED, {:c}>".format(self.data[self.CURSOR]))
 
                 # Incrementa em 1 a posição do cursor
                 self.CURSOR += 1
