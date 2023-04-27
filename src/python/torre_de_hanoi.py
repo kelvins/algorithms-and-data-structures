@@ -1,4 +1,4 @@
-""" Implementaçao do algoritmo Torre de Hanoi """
+"""Implementaçao do algoritmo Torre de Hanoi"""
 
 
 def hanoi(pino0, pino2, pino1, discos):

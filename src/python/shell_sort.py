@@ -1,4 +1,4 @@
-""" Implementacao do algoritmo shell sort """
+"""Implementacao do algoritmo shell sort"""
 
 
 def shell_sort(a_list):
@@ -17,9 +17,7 @@ def shell_sort(a_list):
 
 
 def gap_insertion_sort(a_list, start, gap):
-    """
-    Algoritmo gap insertion sort.
-    """
+    """Algoritmo gap insertion sort."""
     for i in range(start + gap, len(a_list), gap):
         current_value = a_list[i]
         position = i

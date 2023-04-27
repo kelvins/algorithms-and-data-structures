@@ -1,4 +1,4 @@
-""" Implementação da estrutura de dados 'Pilha' """
+"""Implementação da estrutura de dados 'Pilha'"""
 
 import random
 
