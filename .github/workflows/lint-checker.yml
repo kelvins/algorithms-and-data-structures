@@ -22,3 +22,6 @@ jobs:
           VALIDATE_RUBY: true
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_GOOGLE_JAVA_FORMAT: true
+          VALIDATE_PYTHON_BLACK: true
+          VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_PYTHON_ISORT: true
