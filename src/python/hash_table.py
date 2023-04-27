@@ -46,7 +46,7 @@ class HashTable:
         raise KeyError(key)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Cria as tabelas de dispersão
     hash_table = HashTable()
 
@@ -59,10 +59,10 @@ if __name__ == '__main__':
     del hash_table[0]
 
     # Procurar item
-    print('Valor da chave 23: ', hash_table[23])
+    print("Valor da chave 23: ", hash_table[23])
 
     # Subscrever um valor de uma chave
-    hash_table[1] = 'TESTE DE SUBSCREVER'
+    hash_table[1] = "TESTE DE SUBSCREVER"
 
     # Exibir dispersão
     for i, table in enumerate(hash_table.tables):

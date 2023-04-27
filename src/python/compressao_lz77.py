@@ -7,11 +7,11 @@ class BitArray:
     Classe para manipular bits como um array
     """
 
-    ENDIAN_TYPE = 'big'
+    ENDIAN_TYPE = "big"
     bits = []
     output = bytearray()
 
-    def __init__(self, input_data=None, endian='big'):
+    def __init__(self, input_data=None, endian="big"):
         self.ENDIAN_TYPE = endian
         # Se fornecido um bytearray converte
         # o mesmo para lista de bits
@@ -32,7 +32,7 @@ class BitArray:
         Converte um inteiro para bits
         e adiciona-os à lista
         """
-        bitstring = '{:08b}'.format(value)
+        bitstring = "{:08b}".format(value)
         for bit in bitstring:
             self.append(int(bit, 2))
 
@@ -53,7 +53,7 @@ class BitArray:
         self.output = bytearray()
         bits_in_a_byte = 8
         for i in range(len(self.bits) // (bits_in_a_byte)):
-            bitstring = ''
+            bitstring = ""
             readed_bits = self.bits[i * bits_in_a_byte : i * bits_in_a_byte + 8]
             for bit in readed_bits:
                 bitstring += str(bit)
@@ -76,15 +76,15 @@ class LZ77:
     CURSOR = 0
 
     # Tipo de leitura binária (ENDIAN)
-    ENDIAN_TYPE = 'big'
+    ENDIAN_TYPE = "big"
 
     # Dados de Entrada
     data = None
 
-    def __init__(self, window_size=400, lookahed_buffer=15, endian='big', verbose=True):
+    def __init__(self, window_size=400, lookahed_buffer=15, endian="big", verbose=True):
         self.MAX_WINDOW_SIZE = window_size
         self.MAX_LOOKAHEAD_BUFFER = lookahed_buffer
-        self.ENDIAN_TYPE = 'big'
+        self.ENDIAN_TYPE = "big"
         self.ENABLE_DEBUG = verbose
 
     def find_longest_match(self):
@@ -325,20 +325,20 @@ input_text = '''Lorem Ipsum is simply dummy\
  "Lorem ipsum dolor sit amet..", comes from a line in\
  section 1.10.32."'''
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     lz = LZ77(verbose=False)
     print("Entrada:")
     entrada = bytearray(input_text.encode())
     print(entrada)
-    print('Tamanho: {}'.format(sys.getsizeof(entrada)))
+    print("Tamanho: {}".format(sys.getsizeof(entrada)))
     print("\n---\n")
     compressed = lz.compress(input_text)
     print("Dados Comprimidos com LZ77:")
     print(compressed)
-    print('Tamanho: {}'.format(sys.getsizeof(compressed)))
+    print("Tamanho: {}".format(sys.getsizeof(compressed)))
     print("\n---\n")
     decompressed = lz.decompress(compressed)
     print("Dados descomprimidos com LZ77:")
     print(decompressed)
-    print('Tamanho: {}'.format(sys.getsizeof(decompressed)))
+    print("Tamanho: {}".format(sys.getsizeof(decompressed)))
     print("\n---\n")

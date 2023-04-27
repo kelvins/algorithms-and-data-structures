@@ -10,10 +10,10 @@ def gerar_matriz(n_linhas, n_colunas):
 
 
 def imprime(matriz, vertices):
-    print(' ', end='')
+    print(" ", end="")
     for i in range(vertices):
-        print("  ", i + 1, end='')
-    print('')
+        print("  ", i + 1, end="")
+    print("")
     for i in range(vertices):
         print(i + 1, matriz[i])
 
@@ -41,7 +41,7 @@ def floyd_warshall(matriz, vertices):
                 if i != j and Dist != inf and Dist < dist[i][j]:
                     dist[i][j] = Dist
     # printando o resultado
-    print('Matriz de distâncias')
+    print("Matriz de distâncias")
     imprime(dist, vertices)
 
 

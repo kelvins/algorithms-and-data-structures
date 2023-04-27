@@ -25,7 +25,7 @@ class LinkedList:
         return sorted_nodes
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     e = Node(5)
     d = Node(4, next_node=e)
     c = Node(3, next_node=d)
@@ -34,10 +34,10 @@ if __name__ == '__main__':
 
     linked_list = LinkedList(c, a, d, b, e)
 
-    print('Unsorted linked list:')
+    print("Unsorted linked list:")
     for node in linked_list.nodes:
         print(node.value)
 
-    print('Sorted linked list:')
+    print("Sorted linked list:")
     for node in linked_list.sorted():
         print(node.value)

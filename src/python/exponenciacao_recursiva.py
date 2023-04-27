@@ -17,6 +17,6 @@ def exponenciacao_recursiva(base, expoente):
     return base * exponenciacao_recursiva(base, expoente - 1)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(exponenciacao_recursiva(5, 2))
     print(exponenciacao_recursiva(5, 5))

@@ -15,8 +15,8 @@ def min_max_array(vetor):
         elif vetor[i] > maximo:
             maximo = vetor[i]
 
-    print('Minimo : ' + str(minimo))
-    print('Maximo : ' + str(maximo))
+    print("Minimo : " + str(minimo))
+    print("Maximo : " + str(maximo))
 
 
 uma_lista = [2, 94, 83, 10, 0, 2, 48, 1, 24]

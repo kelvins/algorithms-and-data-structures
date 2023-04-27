@@ -40,10 +40,10 @@ def run_fibonacci(name, func, number=35):
     start_time = time.time()
     result = func(number)
     diff_time = time.time() - start_time
-    print('Fibonacci', name, ':', result, ':', '%.8f' % diff_time, 'segundos')
+    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "segundos")
 
 
 if __name__ == "__main__":
-    run_fibonacci('Iterativa', fib_iterativa)
-    run_fibonacci('Recursiva', fib_recursiva)
-    run_fibonacci('Recursiva com Cache', fib_recursiva_com_cache)
+    run_fibonacci("Iterativa", fib_iterativa)
+    run_fibonacci("Recursiva", fib_recursiva)
+    run_fibonacci("Recursiva com Cache", fib_recursiva_com_cache)

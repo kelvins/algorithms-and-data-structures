@@ -21,7 +21,7 @@ class Stack:
 
     def show(self):
         """Imprime a pilha no console"""
-        print(f'Stack: {self.__stack}')
+        print(f"Stack: {self.__stack}")
 
 
 def main():
@@ -41,5 +41,5 @@ def main():
     stack.show()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

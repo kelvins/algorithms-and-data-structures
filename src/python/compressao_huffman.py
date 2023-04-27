@@ -14,7 +14,7 @@ class node:
         self.right = right
 
         # direção da árvore (0/1)
-        self.huff = ''
+        self.huff = ""
 
 
 # Função utilitária para imprimir
@@ -22,7 +22,7 @@ class node:
 # na nova árvore huffman que sera criada
 
 
-def printNodes(node, val=''):
+def printNodes(node, val=""):
     # código huffman para o nó atual
     newVal = val + str(node.huff)
 
@@ -41,7 +41,7 @@ def printNodes(node, val=''):
 
 
 # caracteres para à árvore huffman
-chars = ['a', 'b', 'c', 'd', 'e', 'f']
+chars = ["a", "b", "c", "d", "e", "f"]
 
 # frequência dos caracteres
 freq = [5, 9, 12, 13, 16, 45]
@@ -49,7 +49,7 @@ freq = [5, 9, 12, 13, 16, 45]
 # lista contendo os nós não utilizados
 nodes = []
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     # convertendo caracteres e frequência em
     # nós da árvore huffman
     for x in range(len(chars)):

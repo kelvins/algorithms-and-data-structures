@@ -15,10 +15,10 @@ class Arvore:
 # Metodos de Busca
 def busca_recursiva(no, chave):
     if no is None:
-        print(f'{chave} nao foi encontrado na arvore')
+        print(f"{chave} nao foi encontrado na arvore")
         return
     if no.chave == chave:
-        print(f'{chave} foi encontrado na arvore')
+        print(f"{chave} foi encontrado na arvore")
         return no
     if chave > no.chave:
         busca_recursiva(no.direita, chave)
@@ -50,14 +50,14 @@ def insere(no, chave):
 
 
 # Metodos de Impressao
-IMPRIME_ARVORE = ''
+IMPRIME_ARVORE = ""
 
 
 def pre_ordem(no):
     global IMPRIME_ARVORE
     if no is None:
         return
-    IMPRIME_ARVORE += str(no.chave) + ', '
+    IMPRIME_ARVORE += str(no.chave) + ", "
     pre_ordem(no.esquerda)
     pre_ordem(no.direita)
 
@@ -67,7 +67,7 @@ def em_ordem(no):
     if no is None:
         return
     em_ordem(no.esquerda)
-    IMPRIME_ARVORE += str(no.chave) + ', '
+    IMPRIME_ARVORE += str(no.chave) + ", "
     em_ordem(no.direita)
 
 
@@ -77,7 +77,7 @@ def pos_ordem(no):
         return
     pos_ordem(no.esquerda)
     pos_ordem(no.direita)
-    IMPRIME_ARVORE += str(no.chave) + ', '
+    IMPRIME_ARVORE += str(no.chave) + ", "
 
 
 # Acha a Altura da Arvore
@@ -142,7 +142,7 @@ def exclui(no, ch):
     return True
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     arvore = Arvore(3)  # Cria arvore (raiz)
     # Insere varios valores na arvore
     arvore = insere(arvore, 2)
@@ -157,11 +157,11 @@ if __name__ == '__main__':
     busca_recursiva(arvore, 6)  # Busca que imprime na propria funcao
 
     if busca_linear(arvore, 6) is not None:  # Retorna o NO ou None se nao encontrou
-        print('Valor encontrado')
+        print("Valor encontrado")
     else:
-        print('Valor nao encontrado')
+        print("Valor nao encontrado")
 
-    print(f'Altura: {altura(arvore)}')
+    print(f"Altura: {altura(arvore)}")
 
     # Exclui varios valores
     exclui(arvore, 7)
@@ -172,13 +172,13 @@ if __name__ == '__main__':
     # Chama os metodos de impressao
     IMPRIME = ""
     pre_ordem(arvore)
-    print(f'PreOrdem: {IMPRIME}')
+    print(f"PreOrdem: {IMPRIME}")
     IMPRIME = ""
     em_ordem(arvore)
-    print(f'EmOrdem: {IMPRIME}')
+    print(f"EmOrdem: {IMPRIME}")
     IMPRIME = ""
     pos_ordem(arvore)
-    print(f'PosOrdem: {IMPRIME}')
+    print(f"PosOrdem: {IMPRIME}")
 
     # Mostra a altura da arvore apos remover os itens
-    print(f'Altura: {altura(arvore)}')
+    print(f"Altura: {altura(arvore)}")

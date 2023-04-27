@@ -50,7 +50,7 @@ def mostra_lista(lista):
 for _ in range(0, 50):
     inserir_lista(random.randint(10, 99), lista)
 
-print('Valor na posicao: ' + str(busca_sentinela(25, lista)))
+print("Valor na posicao: " + str(busca_sentinela(25, lista)))
 
 mostra_lista(lista)
 deleta_valor(10, lista)

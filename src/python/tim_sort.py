@@ -79,8 +79,8 @@ def timsort(data):
         size = 2 * size
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     data_to_sort = [99, 15, 23, 0, -9, 1, 45, 2, 10, 15]
-    print('Unsorted data: ', data_to_sort)
+    print("Unsorted data: ", data_to_sort)
     timsort(data_to_sort)
-    print('Sorted data: ', data_to_sort)
+    print("Sorted data: ", data_to_sort)

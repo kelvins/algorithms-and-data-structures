@@ -36,7 +36,7 @@ def interpolation_search(array, x):
     return -1
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     array = [1, 4, 6, 23, 2, 9, 5, 78, 123, 5444, 54535, 64, 3, 0, 12, 14, 15, 31, 25]
     array.sort()
 

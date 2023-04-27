@@ -14,7 +14,7 @@ class Queue:
         return self.__queue.pop(0)
 
     def show(self):
-        print(f'Queue: {self.__queue}')
+        print(f"Queue: {self.__queue}")
 
 
 def main():
@@ -31,5 +31,5 @@ def main():
     queue.show()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

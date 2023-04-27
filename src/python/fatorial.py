@@ -16,5 +16,5 @@ def fatorial(num):
     return aux
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(fatorial(5))

@@ -10,14 +10,14 @@ from enum import Enum
 
 
 class Cell(Enum):
-    EMPTY = ' '
-    BLOCKED = 'X'
-    START = 'S'
-    GOAL = 'G'
-    PATH = '*'
+    EMPTY = " "
+    BLOCKED = "X"
+    START = "S"
+    GOAL = "G"
+    PATH = "*"
 
 
-MazeLocation = namedtuple('MazeLocation', ['row', 'col'])
+MazeLocation = namedtuple("MazeLocation", ["row", "col"])
 
 
 class Maze:
@@ -46,7 +46,7 @@ class Maze:
                     self._grid[row][col] = Cell.BLOCKED
 
     def __str__(self):
-        return '\n'.join(['|'.join([c.value for c in r]) for r in self._grid])
+        return "\n".join(["|".join([c.value for c in r]) for r in self._grid])
 
     def goal_test(self, maze_location):
         return maze_location == self.goal
@@ -187,27 +187,27 @@ def node_to_path(node):
     return path
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     maze = Maze()
 
     # Solucao utilizando busca em profundidade
     solution = dfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
-        print('No solution found using depth-first search')
+        print("No solution found using depth-first search")
     else:
         path = node_to_path(solution)
         maze.mark(path)
-        print('Solution using DFS:')
+        print("Solution using DFS:")
         print(maze)
         maze.clear(path)
 
     # Solucao utilizando busca em largura
     solution = bfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
-        print('No solution found using breath-first search')
+        print("No solution found using breath-first search")
     else:
         path = node_to_path(solution)
         maze.mark(path)
-        print('Solution using BFS:')
+        print("Solution using BFS:")
         print(maze)
         maze.clear(path)

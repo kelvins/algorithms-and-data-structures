@@ -30,9 +30,9 @@ class CircularlyLinkedList:
             node = node.next
 
     def __str__(self):
-        items = ''
+        items = ""
         for item in self.__iter__():
-            items += str(item.get_value()) + ' '
+            items += str(item.get_value()) + " "
         return items
 
     def __repr__(self):
@@ -78,7 +78,7 @@ class CircularlyLinkedList:
                 self.__size -= 1
             prev_node = curr_node
         if not found:
-            raise ValueError(str(value) + ' not found in list')
+            raise ValueError(str(value) + " not found in list")
 
 
 class TestCircularlyLinkedList(unittest.TestCase):
@@ -88,12 +88,12 @@ class TestCircularlyLinkedList(unittest.TestCase):
     def test_insert(self):
         self.list.insert(1)
         self.list.insert(2)
-        self.assertEqual('2 1 ', str(self.list))
+        self.assertEqual("2 1 ", str(self.list))
 
     def test_append(self):
         self.list.append(1)
         self.list.append(2)
-        self.assertEqual('1 2 ', str(self.list))
+        self.assertEqual("1 2 ", str(self.list))
 
     def test_remove(self):
         self.list.insert(1)
@@ -101,13 +101,13 @@ class TestCircularlyLinkedList(unittest.TestCase):
         self.list.append(3)
         self.list.append(4)
         self.list.remove(3)
-        self.assertEqual('2 1 4 ', str(self.list))
+        self.assertEqual("2 1 4 ", str(self.list))
         self.list.remove(2)
-        self.assertEqual('1 4 ', str(self.list))
+        self.assertEqual("1 4 ", str(self.list))
         self.list.remove(4)
-        self.assertEqual('1 ', str(self.list))
+        self.assertEqual("1 ", str(self.list))
         self.list.remove(1)
-        self.assertEqual('', str(self.list))
+        self.assertEqual("", str(self.list))
         self.assertRaises(ValueError, self.list.remove, 9)
 
     def test_size(self):
@@ -118,6 +118,6 @@ class TestCircularlyLinkedList(unittest.TestCase):
         self.assertEqual(2, len(self.list))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     suite = unittest.TestLoader().loadTestsFromTestCase(TestCircularlyLinkedList)
     unittest.TextTestRunner(verbosity=2).run(suite)

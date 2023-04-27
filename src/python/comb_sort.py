@@ -24,9 +24,9 @@ def comb_sort(arr: list) -> list:
     return arr
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from random import randint
 
     my_list = [randint(0, 100) for _ in range(10)]
-    print(f'Lista: {my_list}')
-    print(f'Ordenada: {comb_sort(my_list)}')
+    print(f"Lista: {my_list}")
+    print(f"Ordenada: {comb_sort(my_list)}")

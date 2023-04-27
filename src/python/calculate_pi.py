@@ -20,7 +20,7 @@ def calculate_pi(number):
     return pi
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     n_terms = [10, 1000, 100000, 10000000]
     for n in n_terms:
-        print(f'PI ({n}): {calculate_pi(n)}')
+        print(f"PI ({n}): {calculate_pi(n)}")

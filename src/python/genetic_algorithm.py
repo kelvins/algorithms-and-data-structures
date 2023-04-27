@@ -31,7 +31,7 @@ class Chromosome(ABC):
         pass
 
 
-SelectionType = Enum('SelectionType', 'ROULETTE TOURNAMENT')
+SelectionType = Enum("SelectionType", "ROULETTE TOURNAMENT")
 
 
 class GeneticAlgorithm:
@@ -91,8 +91,8 @@ class GeneticAlgorithm:
             if best.fitness() >= self._threshold:
                 return best
             print(
-                f'Generation {generation} Best {best.fitness()} '
-                f'Avg {mean(map(self._fitness_key, self._population))}'
+                f"Generation {generation} Best {best.fitness()} "
+                f"Avg {mean(map(self._fitness_key, self._population))}"
             )
             self._reproduce_and_replace()
             self._mutate()
@@ -145,10 +145,10 @@ class SimpleEquation(Chromosome):
                 self.y -= 1
 
     def __str__(self):
-        return f'X: {self.x} Y: {self.y} Fitness: {self.fitness()}'
+        return f"X: {self.x} Y: {self.y} Fitness: {self.fitness()}"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     initial_population = [SimpleEquation.random_instance() for _ in range(20)]
     ga = GeneticAlgorithm(
         initial_population=initial_population,

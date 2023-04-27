@@ -36,10 +36,10 @@ n = 10
 lista = [random.randint(0, 100) for _ in range(n)]
 
 # Imprime a lista original sem ordenação
-print(f'Lista Original: {lista}')
+print(f"Lista Original: {lista}")
 
 # Ordena a lista utilizando o algoritmo de Counting Sort
 lista_ordenada = counting_sort(lista)
 
 # Imprime a lista ordenada
-print(f'Lista Ordenada: {lista_ordenada}')
+print(f"Lista Ordenada: {lista_ordenada}")

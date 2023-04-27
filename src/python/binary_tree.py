@@ -129,7 +129,7 @@ class BinaryTree:
         if node is None:
             return
         if level == 1:
-            print("%d" % node.data, end=' ')
+            print("%d" % node.data, end=" ")
         elif level > 1:
             self.__print_level(node.left, level - 1)
             self.__print_level(node.right, level - 1)
@@ -138,13 +138,13 @@ class BinaryTree:
         if node is None:
             return
         self.in_order(node.left)
-        print("%d" % node.data, end=' ')
+        print("%d" % node.data, end=" ")
         self.in_order(node.right)
 
     def pre_order(self, node):
         if node is None:
             return
-        print("%d" % node.data, end=' ')
+        print("%d" % node.data, end=" ")
         self.pre_order(node.left)
         self.pre_order(node.right)
 
@@ -153,7 +153,7 @@ class BinaryTree:
             return
         self.post_order(node.left)
         self.post_order(node.right)
-        print("%d" % node.data, end=' ')
+        print("%d" % node.data, end=" ")
 
 
 b_tree = BinaryTree()
@@ -164,11 +164,11 @@ for curr_data in tree_data:
     b_tree.insert(curr_data)
 
 b_tree.in_order(b_tree.root)
-print('\n')
+print("\n")
 b_tree.pre_order(b_tree.root)
-print('\n')
+print("\n")
 b_tree.post_order(b_tree.root)
-print('\n')
+print("\n")
 b_tree.level_order()
-print('\n')
+print("\n")
 print(b_tree.get_height(b_tree.root))

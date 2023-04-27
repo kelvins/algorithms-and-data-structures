@@ -16,11 +16,11 @@ def min_max_dc(vetor, inicio, fim):
     return min(vetor_min1, vetor_min2), max(vetor_max1, vetor_max2)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     vetor = [random.randrange(10, 100) for _ in range(0, 10)]
     print(vetor)
 
     minimo, maximo = min_max_dc(vetor, 0, len(vetor) - 1)
 
-    print(f'Min DC: {minimo}')
-    print(f'Max DC: {maximo}')
+    print(f"Min DC: {minimo}")
+    print(f"Max DC: {maximo}")

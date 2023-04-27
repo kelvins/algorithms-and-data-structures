@@ -41,8 +41,8 @@ def merge_sort(data):
         data_index += 1
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     some_list = [9, 1, 7, 6, 2, 8, 5, 3, 4, 0]
-    print('Unsorted list: {}'.format(some_list))
+    print("Unsorted list: {}".format(some_list))
     merge_sort(some_list)
-    print('Sorted list: {}'.format(some_list))
+    print("Sorted list: {}".format(some_list))
