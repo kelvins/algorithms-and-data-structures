@@ -21,4 +21,4 @@ jobs:
           VALIDATE_KOTLIN: true
           VALIDATE_RUBY: true
           VALIDATE_JAVASCRIPT_ES: true
-          VALIDATE_JAVA: true
+          VALIDATE_GOOGLE_JAVA_FORMAT: true
