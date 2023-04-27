@@ -23,4 +23,5 @@ jobs:
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_GOOGLE_JAVA_FORMAT: true
           VALIDATE_PYTHON_BLACK: true
+          PYTHON_BLACK_CONFIG_FILE: pyproject.toml
           VALIDATE_PYTHON_ISORT: true
