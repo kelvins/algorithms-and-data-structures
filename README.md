@@ -2813,7 +2813,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/gnome_sort.py">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
