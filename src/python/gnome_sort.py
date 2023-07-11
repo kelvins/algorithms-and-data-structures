@@ -1,6 +1,6 @@
-'''
+"""
 Implementação do Gnome Sort ou Stupid Sort
-'''
+"""
 
 
 def gnomesort(lista):
@@ -24,11 +24,11 @@ def gnomesort(lista):
 def main():
     lista = [-1, 1, 0, -7, 7, -5, 5, 2, -2, 4, -4, 9, -9, -6, 6, -8, 8, -3, 3]
     # imprime a lista não ordenada
-    print(f'Lista antes de ser ordenada: {lista}')
+    print(f"Lista antes de ser ordenada: {lista}")
     lista = gnomesort(lista)
     # imprime a lista ordenada
-    print(f'Lista após ordenação com Gnome Sort: {lista}')
+    print(f"Lista após ordenação com Gnome Sort: {lista}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
