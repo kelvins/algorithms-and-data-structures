@@ -1756,8 +1756,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/c/Queue.c">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2220,8 +2220,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/c/Stack.c">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3500,8 +3500,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                <a href="/src/cpp/Palindrome.c">
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
