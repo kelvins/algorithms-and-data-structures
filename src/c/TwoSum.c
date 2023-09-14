@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /*
 twoSum Algorithm in C
 Ricardo Ferreira Carvalheira - 2023
@@ -12,6 +9,9 @@ https://github.com/ricardocarva
 	
 	You can return the answer in any order.
 */
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
    
