@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int busca_sequencial(vector<int> &nums, int target) {
+int linear_search(vector<int> &nums, int target) {
 
     for (size_t i = 0; i < nums.size(); i++) {
         
@@ -19,17 +19,17 @@ int main() {
     vector<int> nums = {1, 2, 3, 4, 5, 27, -1, 12, 999};
     int target;
     
-    cout << "Digite o numero que deseja buscar no vetor: ";
+    cout << "Enter the number you would like to search in the vector: ";
     cin >> target;
     cout << "\n";
 
-    int pos = busca_sequencial(nums, target);
+    int pos = linear_search(nums, target);
 
     if(pos > -1) {
-        cout << "Numero encontrado no vetor na posicao: " << pos << endl;
+        cout << "Number found in the vector in the position: " << pos << endl;
     }
     else {
-        cout << "Numero nao encontrado no vetor." << endl;
+        cout << "Number not found in the vector." << endl;
     }
 
     return 0;
