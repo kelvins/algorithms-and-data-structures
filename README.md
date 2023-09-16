@@ -10,7 +10,7 @@ Algoritmos em C/C++, Java, Python, Go e Ruby desenvolvidos como estudo de Algori
 | 4  | [Árvore Binária Utilizando Classes][4]   | C/C++ | Java | [Python](/Python/BinaryTree.py) | Go | Ruby |
 | 5  | [Busca Binária][5]                       | [C/C++](/C/BinarySearch.cpp) | Java | [Python](/Python/BuscaBinaria.py) | Go | Ruby |
 | 6  | [Busca em Grafos][6]                      | [C/C++](/C/BuscaEmGrafo.c) | Java | Python | Go | Ruby |
-| 7  | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | Go | [Ruby](/Ruby/BuscaSequencial.rb) |
+| 7  | [Busca Sequencial][7]                    | C/C++ | Java | [Python](/Python/BuscaSequencial.py) | [Go](/GoLang/buscasequencial/buscasequencial.go)  | [Ruby](/Ruby/BuscaSequencial.rb) |
 | 8  | [Busca Sequencial Recursiva][8]          | C/C++ | Java | [Python](/Python/BuscaSequencialRecursiva.py) | Go | Ruby |
 | 9  | [Busca utilizando Sentinela][9]          | [C/C++](/C/BuscaSentinela.c) | Java | [Python](/Python/BuscaSentinela.py) | Go | [Ruby](/Ruby/BuscaSentinela.rb) |
 | 10 | [Caixeiro Viajante][10]                   | [C/C++](/C/CaixeiroViajante.c) | Java | Python | [Go](/GoLang/caixeiroviajante/caixeiroviajante.go) | Ruby |
