@@ -22,7 +22,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
             if(nums[i]+nums[j]==target)
             {
                 
-                int * x =(int*) malloc(2*sizeof(int));
+                int* x = (int*) malloc(2*sizeof(int));
                 *returnSize=2;
                 x[0]=i;
                 x[1]=j;
