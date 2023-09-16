@@ -44,7 +44,7 @@ bool isPalindrome(string s) {
 int main() {
     std::string input;
     std::cout << "Enter a string: ";
-    std::cin >> input;
+    std::getline (std::cin, input);
 
     if (isPalindrome(input)) {
         std::cout << "The string is a palindrome." << std::endl;
