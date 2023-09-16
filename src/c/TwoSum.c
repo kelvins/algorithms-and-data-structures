@@ -13,7 +13,7 @@ https://github.com/ricardocarva
 #include <stdio.h>
 #include <stdlib.h>
 
-int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+int* twoSum(int* nums, int numsSize, int target){
    
     for(int i=0;i<numsSize-1;i++)
     {
@@ -23,7 +23,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
             {
                 
                 int* x = (int*) malloc(2*sizeof(int));
-                *returnSize=2;
                 x[0]=i;
                 x[1]=j;
                 return x;
@@ -39,7 +38,6 @@ int main() {
     int nums[] = {2, 11, 7, 15};
     int target = 9;
     int numsSize = sizeof(nums) / sizeof(nums[0]);
-    int returnSize = 0;
     
     printf("The target number is %d.", target);
     printf("The list has the following items: ");
@@ -51,10 +49,10 @@ int main() {
     
     printf("\n");
     
-    int* result = twoSum(nums, numsSize, target, &returnSize);
+    int* result = twoSum(nums, numsSize, target);
     
     if (result != NULL) {
-    	printf("The two numbers that add up to %d are: %d and %d\n", target, nums[0], nums[1]);
+    	printf("The two numbers that add up to %d are: %d and %d\n", target, nums[result[0]], nums[result[1]]);
         printf("Indices of the two numbers that add up to %d are: %d and %d\n", target, result[0], result[1]);
         free(result); // Don't forget to free the allocated memory
     } else {
