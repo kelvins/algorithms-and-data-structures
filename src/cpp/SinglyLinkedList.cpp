@@ -141,33 +141,33 @@ int main() {
 
     Node *head = nullptr;
 
-    cout << "Inserindo no final os elementos [1, 2, 3]:" << endl;
+    cout << "Inserting the elements at the end [1, 2, 3]:" << endl;
     push_back(&head, 1);
     push_back(&head, 2);
     push_back(&head, 3);
     print_list(head);
 
-    cout << "Inserindo no inicio os elementos [0, -1, -2]:" << endl;
+    cout << "Inserting the elements at the beginning [0, -1, -2]:" << endl;
     push_front(&head, 0);
     push_front(&head, -1);
     push_front(&head, -2);
     print_list(head);
 
-    cout << "Inserindo nas posicoes 3, 4, 5 os elementos [997, 998, 999] respectivamente:" << endl;
+    cout << "Inserting in positions 3, 4, 5 the elements [997, 998, 999] respectively:" << endl;
     insert_in_position(&head, 997, 3);
     insert_in_position(&head, 998, 4);
     insert_in_position(&head, 999, 5);
     print_list(head);
 
-    cout << "Removendo ultimo elemento:" << endl;
+    cout << "Removing last element:" << endl;
     pop_back(&head);
     print_list(head);
     
-    cout << "Removendo primeiro elemento:" << endl;
+    cout << "Removing first element:" << endl;
     pop_front(&head);
     print_list(head);
 
-    cout << "Removendo elemento na posicao 2:" << endl;
+    cout << "Removing element in position 2:" << endl;
     remove_from_position(&head, 2);
     print_list(head);
 }
