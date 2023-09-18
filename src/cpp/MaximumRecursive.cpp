@@ -2,12 +2,12 @@
 #include <vector>
 
 
-int max_recursivo(std::vector<int> nums, int n) {
+int max_recursive(std::vector<int> nums, int n) {
 
     if(n == 1)
         return nums[0];
     else{
-        int aux = max_recursivo(nums, n-1);
+        int aux = max_recursive(nums, n-1);
         
         if(aux > nums[n-1]) 
             return aux;
@@ -31,7 +31,7 @@ int main() {
     }
     std::cout << "}" << std::endl;
 
-    std::cout << "Max = " << max_recursivo(nums, nums.size()) << std::endl;
+    std::cout << "Max = " << max_recursive(nums, nums.size()) << std::endl;
 
     return 0;
 }
