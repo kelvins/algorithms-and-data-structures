@@ -3,40 +3,40 @@
 
 using namespace std;
 
-void insertionSort(vector<int> &vetor) {
+void insertionSort(vector<int> &vector) {
 
-    for (uint32_t indice = 1; indice < vetor.size(); indice++)
+    for (uint32_t index = 1; index < vector.size(); index++)
     {
-		int chave = vetor[indice];
-		int i = indice - 1;
+		int key = vector[index];
+		int i = index - 1;
 		
-		while (i >= 0 && vetor[i] > chave)
+		while (i >= 0 && vector[i] > key)
 		{
-			vetor[i+1] = vetor[i];
+			vector[i+1] = vector[i];
 			i--;
 		}
 		
-		vetor[i+1] = chave;
+		vector[i+1] = key;
 	}
 }
 
-void showVector(vector<int> vetor)
+void showVector(vector<int> vector)
 {
-    for (uint32_t i = 0; i < vetor.size(); ++i)
+    for (uint32_t i = 0; i < vector.size(); ++i)
     {
-        cout << vetor[i] << ", ";
+        cout << vector[i] << ", ";
     }
     cout << "\n";
 }
 
 int main()
 {
-    vector<int> vetor;
+    vector<int> vector;
     for (uint32_t i = 0; i < 10; ++i)
     {
-        vetor.push_back(rand() % 100);
+        vector.push_back(rand() % 100);
     }
-    showVector(vetor);
-    insertionSort(vetor);
-    showVector(vetor);
+    showVector(vector);
+    insertionSort(vector);
+    showVector(vector);
 }
