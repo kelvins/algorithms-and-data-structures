@@ -710,7 +710,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/Exponentiation.cpp">
+                <a href="./src/cpp/Exponenciacao.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
@@ -768,7 +768,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/ExponentiationRecursive.cpp">
+                <a href="./src/cpp/ExpRecursiva.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
@@ -826,7 +826,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/Factorial.cpp">
+                <a href="./src/cpp/Fatorial.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
@@ -884,7 +884,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/FactorialRecursive.cpp">
+                <a href="./src/cpp/FatorialRecursiva.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
@@ -1000,7 +1000,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/MaximumRecursive.cpp">
+                <a href="./src/cpp/MaximoRecursivo.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
@@ -1058,7 +1058,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/IterativeMinAndMax.cpp">
+                <a href="./src/cpp/MinMaxIterativo.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
