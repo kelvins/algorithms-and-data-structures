@@ -1,9 +1,10 @@
-""" Implementação de uma árvore binária """
-
+"""
+Implementation of a binary tree
+"""
 
 class Node:
     """
-    Node class store the data and the pointers to the next nodes (left/right).
+    Node class stores the data and the pointers to the next nodes (left/right).
     """
 
     def __init__(self, data):
@@ -13,7 +14,7 @@ class Node:
 
 class BinaryTree:
     """
-    Binary tree class provides some methods to insert, remove and print data.
+    Binary tree class provides some methods to insert, remove, and print data.
     """
 
     def __init__(self):

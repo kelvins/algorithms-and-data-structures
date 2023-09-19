@@ -1,13 +1,12 @@
 """
-Busca em largura e em profundidade em um labirinto com o objetivo
-de encontrar um caminho do ponto "start" ao ponto "goal"
-Referencia: Problemas Classicos de Ciencia da Computacao com Python
+Breadth-first and depth-first search in a maze with the goal
+of finding a path from "start" to "goal" point.
+Reference: Classic Computer Science Problems in Python
 """
 
 import random
 from collections import deque, namedtuple
 from enum import Enum
-
 
 class Cell(Enum):
     EMPTY = " "
@@ -16,9 +15,7 @@ class Cell(Enum):
     GOAL = "G"
     PATH = "*"
 
-
 MazeLocation = namedtuple("MazeLocation", ["row", "col"])
-
 
 class Maze:
     def __init__(
@@ -39,7 +36,7 @@ class Maze:
         self._grid[goal.row][goal.col] = Cell.GOAL
 
     def _randomly_fill(self, rows, cols, sparseness):
-        """Preenche o labirinto de forma randomica."""
+        """Randomly fill the maze."""
         for row in range(rows):
             for col in range(cols):
                 if random.uniform(0, 1.0) < sparseness:
@@ -52,7 +49,7 @@ class Maze:
         return maze_location == self.goal
 
     def successors(self, ml):
-        """Calcula as possiveis localizacoes onde eh possivel se mover."""
+        """Calculate possible locations to move to."""
         locations = list()
         if ml.row + 1 < self._rows and self._grid[ml.row + 1][ml.col] != Cell.BLOCKED:
             locations.append(MazeLocation(ml.row + 1, ml.col))
@@ -65,19 +62,18 @@ class Maze:
         return locations
 
     def mark(self, path):
-        """Marca o caminho andado no labirinto."""
+        """Mark the walked path in the maze."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.PATH
         self._grid[self.start.row][self.start.col] = Cell.START
         self._grid[self.goal.row][self.goal.col] = Cell.GOAL
 
     def clear(self, path):
-        """Limpa o caminho marcado no labirinto."""
+        """Clear the marked path in the maze."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.EMPTY
         self._grid[self.start.row][self.start.col] = Cell.START
         self._grid[self.goal.row][self.goal.col] = Cell.GOAL
-
 
 class Stack:
     def __init__(self):
@@ -96,7 +92,6 @@ class Stack:
     def __repr__(self):
         return repr(self._data)
 
-
 class Queue:
     def __init__(self):
         self._data = deque()
@@ -114,71 +109,67 @@ class Queue:
     def __repr__(self):
         return repr(self._data)
 
-
 class Node:
     def __init__(self, state, parent):
         self.state = state
         self.parent = parent
 
-
 def dfs(initial, goal_test, successors):
-    """Algoritmo de busca em profundidade."""
-    # frontier representa os lugares que ainda nao visitamos
+    """Depth-first search algorithm."""
+    # Frontier represents the places we haven't visited yet
     frontier = Stack()
     frontier.push(Node(initial, None))
-    # explored representa os lugares que ja foram visitados
+    # Explored represents the places that have been visited
     explored = {initial}
 
-    # continua enquanto houver lugares para explorar
+    # Continue while there are places to explore
     while not frontier.empty:
         current_node = frontier.pop()
         current_state = current_node.state
 
-        # se encontrar o objetivo retorna o no atual
+        # If the goal is found, return the current node
         if goal_test(current_state):
             return current_node
 
-        # verifica para onde podemos ir em seguida
+        # Check where we can go next
         for child in successors(current_state):
-            # ignora os nos filhos que ja foram visitados
+            # Ignore child nodes that have already been visited
             if child in explored:
                 continue
             explored.add(child)
             frontier.push(Node(child, current_node))
-    # passamos por todos os lugares e nao atingimos o objetivo
+    # We've traversed all places and haven't reached the goal
     return None
-
 
 def bfs(initial, goal_test, successors):
-    """Algoritmo de busca em largura."""
-    # frontier representa os lugares que ainda nao visitamos
+    """Breadth-first search algorithm."""
+    # Frontier represents the places we haven't visited yet
     frontier = Queue()
     frontier.push(Node(initial, None))
-    # explored representa os lugares que ja foram visitados
+    # Explored represents the places that have been visited
     explored = {initial}
 
-    # continua enquanto houver lugares para explorar
+    # Continue while there are places to explore
     while not frontier.empty:
         current_node = frontier.pop()
         current_state = current_node.state
 
-        # se encontrar o objetivo retorna o no atual
+        # If the goal is found, return the current node
         if goal_test(current_state):
             return current_node
 
-        # verifica para onde podemos ir em seguida
+        # Check where we can go next
         for child in successors(current_state):
-            # ignora os nos filhos que ja foram visitados
+            # Ignore child nodes that have already been visited
             if child in explored:
                 continue
             explored.add(child)
             frontier.push(Node(child, current_node))
-    # passamos por todos os lugares e nao atingimos o objetivo
+    # We've traversed all places and haven't reached the goal
     return None
 
-
 def node_to_path(node):
-    """Retorna o caminho encontrado pelo algoritmo."""
+    """Return the path found by the algorithm."""
     path = [node.state]
     while node.parent:
         node = node.parent
@@ -186,11 +177,10 @@ def node_to_path(node):
     path.reverse()
     return path
 
-
 if __name__ == "__main__":
     maze = Maze()
 
-    # Solucao utilizando busca em profundidade
+    # Solution using depth-first search
     solution = dfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
         print("No solution found using depth-first search")
@@ -201,10 +191,10 @@ if __name__ == "__main__":
         print(maze)
         maze.clear(path)
 
-    # Solucao utilizando busca em largura
+    # Solution using breadth-first search
     solution = bfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
-        print("No solution found using breath-first search")
+        print("No solution found using breadth-first search")
     else:
         path = node_to_path(solution)
         maze.mark(path)
