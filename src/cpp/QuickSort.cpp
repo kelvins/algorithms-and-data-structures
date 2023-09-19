@@ -3,63 +3,63 @@
 
 using namespace std;
 
-int separa(vector<int> &vetor, int inicio, int fim)
+int partition(vector<int> &vector, int start, int end)
 {
-    int pivo = vetor[fim];
-    int indice = inicio;
+    int pivot = vector[end];
+    int index = start;
 
-    for (int i = inicio; i < fim; i++)
+    for (int i = start; i < end; i++)
     {
-        if (vetor[i] < pivo)
+        if (vector[i] < pivot)
         {
-            int temp = vetor[i];
-            vetor[i] = vetor[indice];
-            vetor[indice] = temp;
-            indice++;
+            int temp = vector[i];
+            vector[i] = vector[index];
+            vector[index] = temp;
+            index++;
         }
     }
 
-    if (pivo <= vetor[indice])
+    if (pivot <= vector[index])
     {
-        vetor[fim] = vetor[indice];
-        vetor[indice] = pivo;
+        vector[end] = vector[index];
+        vector[index] = pivot;
     }
 
-    return indice;
+    return index;
 }
 
-void quickSort(vector<int> &vetor, int inicio, int fim)
+void quickSort(vector<int> &vector, int start, int end)
 {
-    if (inicio < fim)
+    if (start < end)
     {
-        int pivo = separa(vetor, inicio, fim);
-        quickSort(vetor, inicio, pivo-1);
-        quickSort(vetor, pivo+1, fim);
+        int pivot = partition(vector, start, end);
+        quickSort(vector, start, pivot-1);
+        quickSort(vector, pivot+1, end);
     }
 }
 
-void quickSort(vector<int> &vetor)
+void quickSort(vector<int> &vector)
 {
-    quickSort(vetor, 0, vetor.size()-1);
+    quickSort(vector, 0, vector.size()-1);
 }
 
-void mostraVetor(vector<int> vetor)
+void showVector(vector<int> vector)
 {
-    for (uint32_t i = 0; i < vetor.size(); ++i)
+    for (uint32_t i = 0; i < vector.size(); ++i)
     {
-        cout << vetor[i] << ", ";
+        cout << vector[i] << ", ";
     }
     cout << "\n";
 }
 
 int main()
 {
-    vector<int> vetor;
+    vector<int> vector;
     for (uint32_t i = 0; i < 10; ++i)
     {
-        vetor.push_back(rand() % 100);
+        vector.push_back(rand() % 100);
     }
-    mostraVetor(vetor);
-    quickSort(vetor);
-    mostraVetor(vetor);
+    showVector(vector);
+    quickSort(vector);
+    showVector(vector);
 }
