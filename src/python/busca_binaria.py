@@ -3,15 +3,14 @@
 
 def busca_binaria(valor, vetor, esquerda, direita):
     """
-    Implementação de um algoritmo de busca binária com recursão.
+    Arguments:
+    value: Any. Value to be searched in the list.
+    vector: list. Ordered list in which the value will be searched.
+    left: Any. Initial value of the searched half.
+    right: Any. Final value of the searched half.
 
-    Argumentos:
-    valor: Any. Valor a ser buscado na lista
-    vetor: list. lista ordenada na qual o valor será buscado
-    esquerda: Any. Valor inicial da metade buscada
-    direita: Any. Valor final da metade buscada
+    Returns the index of the value in "vector" or -1 if it does not exist."
 
-    Retorna o índice do valor em "vetor" ou -1 caso não exista nela.
     """
 
     meio = int((esquerda + direita) / 2)
