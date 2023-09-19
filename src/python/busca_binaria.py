@@ -1,4 +1,4 @@
-""" Implementação do algoritmo de busca binária com recursão """
+""" Implementation of the binary search algorithm with recursion """
 
 
 def busca_binaria(valor, vetor, esquerda, direita):
@@ -13,6 +13,7 @@ def busca_binaria(valor, vetor, esquerda, direita):
 
     Retorna o índice do valor em "vetor" ou -1 caso não exista nela.
     """
+
     meio = int((esquerda + direita) / 2)
 
     if esquerda <= direita:
