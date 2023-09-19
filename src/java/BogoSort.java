@@ -12,9 +12,7 @@ public class BogoSort {
     return vector;
   }
 
-  /**
-   * Check if the vector is ordered
-   */
+  /** Check if the vector is ordered */
   private static boolean isSorted(int[] vector) {
     for (int i = 0; i < (vector.length - 1); ++i) {
       if (vector[i] > vector[i + 1]) {
@@ -25,9 +23,7 @@ public class BogoSort {
     return true;
   }
 
-  /**
-   * Shuffle the vector to try to sort it randomly
-   */
+  /** Shuffle the vector to try to sort it randomly */
   private static void shuffle(int[] vector) {
     for (int x = 0; x < vector.length; ++x) {
       int index1 = (int) (Math.random() * vector.length),
