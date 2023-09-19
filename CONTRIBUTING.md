@@ -1,22 +1,22 @@
-# Contribuindo
+[![en](https://img.shields.io/badge/lang-en-red.svg)](.CONTRIBUTING.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](.CONTRIBUTING-pt-br.md)
+# Contributing
 
-É possível contribuir basicamente de 3 formas: criando issues, abrindo pull requests e revisando pull requests.
+You can contribute in 3 ways: creating issues, opening pull requests, and reviewing pull requests.
+## Creating Issues
 
-## Criando Issues
+Feel free to create an issue if you encounter any problems, have any suggestions, or would like a specific new algorithm or language to be included. Open a new PR directly in cases of minor corrections or inclusion of algorithms already listed in a language not yet implemented.
 
-Se você encontrar qualquer problema, tiver alguma sugestão ou gostaria que fosse incluído um novo algoritmo específico ou uma nova linguagem, fique à vontade para criar uma issue. Em casos de pequenas correções ou inclusão de algoritmos já listados, em uma linguagem ainda não implementada, basta abrir um novo PR diretamente.
+Before creating the issue, check for similar issues and remember to detail the problem encountered or proposed suggestion.
 
-Antes de criar a issue verifique se já não existe outra issue semelhante e lembre-se de detalhar o problema encontrado ou sugestão proposta.
+## Opening Pull Requests
 
-## Abrindo Pull Requests
+It is also possible to contribute by opening a Pull Request (PR) with a solution to a problem or including a new algorithm.
 
-Também é possível contribuir abrindo um Pull Request (PR) com a solução para algum problema ou a inclusão de um novo algoritmo.
+When opening a PR, remember to include a relevant description of the changes made and add a link in the project's README if new algorithms are incorporated.
 
-Ao abrir um PR lembre-se de incluir uma descrição relevante sobre as alterações realizadas e, em caso de inclusão de novos algoritmos, adicionar um link no README do projeto.
+## Reviewing Pull Requests
 
-## Revisando Pull Requests
+Another way to contribute to the project is by reviewing open PRs. If you have mastery of an algorithm, data structure, or even a specific programming language, feel free to help review the open PRs.
 
-Outra forma de contribuir com o projeto é revisando PRs abertos. Se você tem domínio sobre algum algoritmo, estrutura de dados ou até mesmo linguagem de programação específica, fique à vontade para auxiliar na revisão dos PRs abertos.
-
-No momento da revisão lembre-se de ser cordial/educado e, se possível, teste manualmente a alteração ou correção antes de aprovar o PR.
-
+When reviewing, remember to be cordial/polite and, if possible, manually test the change or correction before approving the PR.
