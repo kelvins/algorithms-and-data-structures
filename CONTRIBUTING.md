@@ -1,5 +1,5 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](.CONTRIBUTING.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](.CONTRIBUTING-pt-br.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](CONTRIBUTING.md)
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](CONTRIBUTING-pt-br.md)
 # Contributing
 
 You can contribute in 3 ways: creating issues, opening pull requests, and reviewing pull requests.
