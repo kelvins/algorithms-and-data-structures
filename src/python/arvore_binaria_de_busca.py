@@ -1,9 +1,8 @@
 """
-Arvore Binaria de Busca em Python
+Binary Search Tree in Python
 Kelvin Salton do Prado
 2015
 """
-
 
 class Arvore:
     def __init__(self, chave):
@@ -12,7 +11,7 @@ class Arvore:
         self.direita = None
 
 
-# Metodos de Busca
+# Search Methods
 def busca_recursiva(no, chave):
     if no is None:
         print(f"{chave} nao foi encontrado na arvore")
@@ -37,7 +36,7 @@ def busca_linear(no, chave):
     return None
 
 
-# Metodo de Insercao
+# Insertion Method
 def insere(no, chave):
     if no is None:
         no = Arvore(chave)
@@ -49,7 +48,7 @@ def insere(no, chave):
     return no
 
 
-# Metodos de Impressao
+# Printing Methods
 IMPRIME_ARVORE = ""
 
 
@@ -80,7 +79,7 @@ def pos_ordem(no):
     IMPRIME_ARVORE += str(no.chave) + ", "
 
 
-# Acha a Altura da Arvore
+# Find the Height of the Tree
 def maximo(a, b):
     if a > b:
         return a
@@ -93,7 +92,7 @@ def altura(no):
     return 1 + maximo(altura(no.esquerda), altura(no.direita))
 
 
-# Metodos de Exclusao
+# Exclusion Methods
 def busca_no_pai(no, ch):
     no_pai = no
     while no is not None:
@@ -130,7 +129,7 @@ def exclui(no, ch):
             noPai.direita = substituto
         else:
             noPai.esquerda = substituto
-        # AQUI DA FREE(ATUAL)
+        # Here is the free (current)
     else:
         substituto = maiorAesquerda(atual)
         atual.chave = substituto.chave
@@ -138,13 +137,13 @@ def exclui(no, ch):
             atual.esquerda = substituto.esquerda
         else:
             atual.esquerda = None
-        # FREE(substituto)
+        # FREE(replacement)
     return True
 
 
 if __name__ == "__main__":
-    arvore = Arvore(3)  # Cria arvore (raiz)
-    # Insere varios valores na arvore
+    arvore = Arvore(3)  # Create tree (root)
+    # Insert multiple values into the tree.
     arvore = insere(arvore, 2)
     arvore = insere(arvore, 1)
     arvore = insere(arvore, 4)
@@ -154,22 +153,22 @@ if __name__ == "__main__":
     arvore = insere(arvore, 7)
     arvore = insere(arvore, 0)
 
-    busca_recursiva(arvore, 6)  # Busca que imprime na propria funcao
+    busca_recursiva(arvore, 6)  # Search that prints within the function.
 
-    if busca_linear(arvore, 6) is not None:  # Retorna o NO ou None se nao encontrou
+    if busca_linear(arvore, 6) is not None:  # Return the NODE or None if not found.
         print("Valor encontrado")
     else:
         print("Valor nao encontrado")
 
     print(f"Altura: {altura(arvore)}")
 
-    # Exclui varios valores
+    # Delete multiple values.
     exclui(arvore, 7)
     exclui(arvore, 5)
     exclui(arvore, 8)
     exclui(arvore, 3)
 
-    # Chama os metodos de impressao
+    # Call the print methods.
     IMPRIME = ""
     pre_ordem(arvore)
     print(f"PreOrdem: {IMPRIME}")
@@ -180,5 +179,5 @@ if __name__ == "__main__":
     pos_ordem(arvore)
     print(f"PosOrdem: {IMPRIME}")
 
-    # Mostra a altura da arvore apos remover os itens
+    # Show the height of the tree after removing the items.
     print(f"Altura: {altura(arvore)}")
