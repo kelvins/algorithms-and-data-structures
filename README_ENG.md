@@ -1,13 +1,13 @@
-# :abacus: Algoritmos e Estruturas de Dados
+# :abacus: Algorithms and Data Structures
 
-Este repositório disponibiliza diversos algoritmos e estruturas de dados clássicos em **Ciência da Computação**, bem como alguns problemas extras que são encontrados com frequência em desafios de programação.
+This repository provides several classic algorithms and data structures in **Computer Science**, as well as some extra problems that are frequently encountered in programming challenges.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** e **Kotlin**.
+In order to achieve greater coverage and encourage more people to contribute to the project, the algorithms are available in the following languages: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** and **Kotlin**.
 
 <html>
     <table align="center">
         <tr>
-            <td align="center">Algoritmo</td>
+            <td align="center">Algorithm</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
