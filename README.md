@@ -1290,7 +1290,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/TorreDeHanoi.cpp">
+                <a href="./src/cpp/TowerOfHanoi.cpp">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
                 </a>
             </td>
