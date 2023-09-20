@@ -1,83 +1,78 @@
-# Árvore Huffman
-class node:
+# Huffman Tree
+class Node:
     def __init__(self, freq, symbol, left=None, right=None):
-        # Frequência do Símbolo
+        # Frequency of the symbol
         self.freq = freq
 
-        # Símbolo (caracter)
+        # Symbol (character)
         self.symbol = symbol
 
-        # nó à esquerda do nó atual
+        # Left node of the current node
         self.left = left
 
-        # nó à direita do nó atual
+        # Right node of the current node
         self.right = right
 
-        # direção da árvore (0/1)
+        # Huffman code direction (0/1)
         self.huff = ""
 
 
-# Função utilitária para imprimir
-# códigos huffman para todos os símbolos
-# na nova árvore huffman que sera criada
-
-
+# Utility function to print Huffman codes
+# for all symbols in the newly created Huffman tree
 def printNodes(node, val=""):
-    # código huffman para o nó atual
-    newVal = val + str(node.huff)
+    # Huffman code for the current node
+    new_val = val + str(node.huff)
 
-    # se o nó não pertence á ponta da
-    # árvore então caminha dentro do mesmo
-    # até a ponta
+    # If the node is not at the end of the tree,
+    # then traverse inside it until the end
     if node.left:
-        printNodes(node.left, newVal)
+        printNodes(node.left, new_val)
     if node.right:
-        printNodes(node.right, newVal)
+        printNodes(node.right, new_val)
 
-    # Se o nó estiver na ponta da árore
-    # então exibe o código huffman
+    # If the node is at the end of the tree,
+    # then display the Huffman code
     if not node.left and not node.right:
-        print(f"{node.symbol} -> {newVal}")
+        print(f"{node.symbol} -> {new_val}")
 
 
-# caracteres para à árvore huffman
+# Characters for the Huffman tree
 chars = ["a", "b", "c", "d", "e", "f"]
 
-# frequência dos caracteres
+# Frequencies of the characters
 freq = [5, 9, 12, 13, 16, 45]
 
-# lista contendo os nós não utilizados
+# List containing unused nodes
 nodes = []
 
 if __name__ == "__main__":
-    # convertendo caracteres e frequência em
-    # nós da árvore huffman
+    # Convert characters and frequencies into
+    # Huffman tree nodes
     for x in range(len(chars)):
-        nodes.append(node(freq[x], chars[x]))
+        nodes.append(Node(freq[x], chars[x]))
 
     while len(nodes) > 1:
-        # Ordena todos os nós de forma ascendente
-        # baseado em sua frequência
+        # Sort all nodes in ascending order
+        # based on their frequency
         nodes = sorted(nodes, key=lambda x: x.freq)
 
-        # Seleciona os dois nós menores
+        # Select the two smallest nodes
         left = nodes[0]
         right = nodes[1]
 
-        # Atribui um valor direcional à estes nós
-        # (direita ou esquerda)
+        # Assign a directional value to these nodes
+        # (left or right)
         left.huff = 0
         right.huff = 1
 
-        # Combina os 2 nós menores para um novo nó pai
-        # para eles.
-        newNode = node(left.freq + right.freq, left.symbol + right.symbol, left, right)
+        # Combine the two smallest nodes into a new parent node
+        newNode = Node(left.freq + right.freq, left.symbol + right.symbol, left, right)
 
-        # remove os 2 nós e adiciona o nó pai
-        # como um novo só sobre os outros
+        # Remove the two nodes and add the parent node
+        # as a new one above the others
         nodes.remove(left)
         nodes.remove(right)
         nodes.append(newNode)
 
-    # Árvore Huffman pronta!
+    # Huffman Tree is ready!
     printNodes(nodes[0])
