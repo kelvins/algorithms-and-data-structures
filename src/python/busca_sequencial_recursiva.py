@@ -1,22 +1,20 @@
-""" Implementaçao do algoritmo de busca sequencial com recursão """
+""" Implementation of the sequential search algorithm with recursion """
 
-
-def busca_sequencial(valor, lista, index):
-    """Busca sequencial recursiva.
+def sequential_search(value, list, index):
+    """Recursive sequential search.
 
     Returns:
-    Retorna o indice do valor na lista.
-    Se nao encontrar retorna -1.
+    Returns the index of the value in the list.
+    If not found, returns -1.
     """
-    if len(lista) == 0 or index == len(lista):
+    if len(list) == 0 or index == len(list):
         return -1
-    if lista[index] == valor:
+    if list[index] == value:
         return index
-    return busca_sequencial(valor, lista, index + 1)
-
+    return sequential_search(value, list, index + 1)
 
 if __name__ == "__main__":
-    uma_lista = [1, 9, 39, 4, 12, 38, 94, 37]
-    for indice, valor_na_lista in enumerate(uma_lista):
-        print("Testando valor {} no indice {}".format(valor_na_lista, indice))
-        assert busca_sequencial(valor_na_lista, uma_lista, 0) == indice
+    a_list = [1, 9, 39, 4, 12, 38, 94, 37]
+    for index, value_in_list in enumerate(a_list):
+        print("Testing value {} at index {}".format(value_in_list, index))
+        assert sequential_search(value_in_list, a_list, 0) == index
