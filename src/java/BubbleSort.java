@@ -2,49 +2,49 @@ public class BubbleSort {
 
   public static void main(String[] args) {
 
-    int vetor[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
+    int vector[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("Bubble Sort:");
-    System.out.println("Vetor não ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Unordered vector:");
+    showVector(vector);
 
-    vetor = bubbleSort(vetor);
+    vector = bubbleSort(vector);
 
-    System.out.println("Vetor ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Sorted vector:");
+    showVector(vector);
   }
 
-  public static int[] bubbleSort(int vetor[]) {
-    int trocas = 0;
-    for (int i = 0; i < vetor.length - 1; i++) {
-      if (vetor[i] > vetor[i + 1]) {
-        int temp = vetor[i];
-        vetor[i] = vetor[i + 1];
-        vetor[i + 1] = temp;
-        trocas++;
+  public static int[] bubbleSort(int vector[]) {
+    int swap = 0;
+    for (int i = 0; i < vector.length - 1; i++) {
+      if (vector[i] > vector[i + 1]) {
+        int temp = vector[i];
+        vector[i] = vector[i + 1];
+        vector[i + 1] = temp;
+        swap++;
       }
     }
-    if (trocas != 0) bubbleSort(vetor);
-    return vetor;
+    if (swap != 0) bubbleSort(vector);
+    return vector;
   }
 
-  public static int[] bubbleSort2(int vetor[]) {
-    for (int i = 1; i < vetor.length; i++) {
-      int tam = vetor.length;
-      for (int j = 0; j < tam - i; j++) {
-        if (vetor[j] > vetor[j + 1]) {
-          int temp = vetor[j];
-          vetor[j] = vetor[j + 1];
-          vetor[j + 1] = temp;
+  public static int[] bubbleSort2(int vector[]) {
+    for (int i = 1; i < vector.length; i++) {
+      int length = vector.length;
+      for (int j = 0; j < length - i; j++) {
+        if (vector[j] > vector[j + 1]) {
+          int temp = vector[j];
+          vector[j] = vector[j + 1];
+          vector[j + 1] = temp;
         }
       }
     }
-    return vetor;
+    return vector;
   }
 
-  public static void mostraVetor(int vetor[]) {
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + ", ");
+  public static void showVector(int vector[]) {
+    for (int i = 0; i < vector.length; i++) {
+      System.out.print(vector[i] + ", ");
     }
     System.out.println("");
   }

@@ -1,6 +1,6 @@
 //
 //  insertionSort.swift
-//  
+//
 //
 //  Created by Matheus Torres on 14/11/20.
 //
@@ -19,6 +19,6 @@ func insertionSort(_ array: [Int]) -> [Int] {
     return newArray
 }
 
-let arrayNaoOrdenado: [Int] = [92, 23, 42, 12, 54, 65, 1, 2, 8, 9, 31, 99]
-print(insertionSort(arrayNaoOrdenado))
+let unsortedArray: [Int] = [92, 23, 42, 12, 54, 65, 1, 2, 8, 9, 31, 99]
+print(insertionSort(unsortedArray))
 

@@ -1,30 +1,21 @@
 /*
- *
  * @author Marcelo Wischniowski <marcelowisc at gmail.com>
  */
 public class BogoSort {
 
-  /**
-   * @param vetor
-   */
-  public int[] sort(int[] vetor) {
-    // Verifica se o vetor está ordenado
-    while (!isSorted(vetor)) {
-      // Embaralha o vetor pra tentar ordenar aleatoriamente
-      shuffle(vetor);
+  public static int[] bogoSort(int[] vector) {
+    // Check if the vector is ordered
+    while (!isSorted(vector)) {
+      // Shuffle the vector to try to sort it randomly
+      shuffle(vector);
     }
-    return vetor;
+    return vector;
   }
 
-  /**
-   * Verifica se o vetor está ordenado
-   *
-   * @param vetor
-   * @return
-   */
-  private static boolean isSorted(int[] vetor) {
-    for (int i = 0; i < (vetor.length - 1); ++i) {
-      if (vetor[i] > vetor[i + 1]) {
+  /** Check if the vector is ordered */
+  private static boolean isSorted(int[] vector) {
+    for (int i = 0; i < (vector.length - 1); ++i) {
+      if (vector[i] > vector[i + 1]) {
         return false;
       }
     }
@@ -32,67 +23,35 @@ public class BogoSort {
     return true;
   }
 
-  /**
-   * Embaralha o vetor pra tentar ordenar aleatoriamente
-   *
-   * @param vetor Vetor a ser ordenado
-   */
-  private static void shuffle(int[] vetor) {
-    for (int x = 0; x < vetor.length; ++x) {
-      int index1 = (int) (Math.random() * vetor.length),
-          index2 = (int) (Math.random() * vetor.length);
-      int a = vetor[index1];
-      vetor[index1] = vetor[index2];
-      vetor[index2] = a;
+  /** Shuffle the vector to try to sort it randomly */
+  private static void shuffle(int[] vector) {
+    for (int x = 0; x < vector.length; ++x) {
+      int index1 = (int) (Math.random() * vector.length),
+          index2 = (int) (Math.random() * vector.length);
+      int a = vector[index1];
+      vector[index1] = vector[index2];
+      vector[index2] = a;
     }
   }
-}
-/*
- *
- * @author Marcelo Wischniowski <marcelowisc at gmail.com>
- */
-public class BogoSort {
 
-  /**
-   * @param vetor
-   */
-  public int[] sort(int[] vetor) {
-    // Verifica se o vetor está ordenado
-    while (!isSorted(vetor)) {
-      // Embaralha o vetor pra tentar ordenar aleatoriamente
-      shuffle(vetor);
+  public static void printVector(int vector[]) {
+    for (int i = 0; i < vector.length; i++) {
+      System.out.print(vector[i] + ", ");
     }
-    return vetor;
+    System.out.println("");
   }
 
-  /**
-   * Verifica se o vetor está ordenado
-   *
-   * @param vetor
-   * @return
-   */
-  private static boolean isSorted(int[] vetor) {
-    for (int i = 0; i < (vetor.length - 1); ++i) {
-      if (vetor[i] > vetor[i + 1]) {
-        return false;
-      }
-    }
+  public static void main(String[] args) {
 
-    return true;
-  }
+    int vector[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
-  /**
-   * Embaralha o vetor pra tentar ordenar aleatoriamente
-   *
-   * @param vetor Vetor a ser ordenado
-   */
-  private static void shuffle(int[] vetor) {
-    for (int x = 0; x < vetor.length; ++x) {
-      int index1 = (int) (Math.random() * vetor.length),
-          index2 = (int) (Math.random() * vetor.length);
-      int a = vetor[index1];
-      vetor[index1] = vetor[index2];
-      vetor[index2] = a;
-    }
+    System.out.println("BogoSort:");
+    System.out.println("Unordered vector:");
+    printVector(vector);
+
+    vector = bogoSort(vector);
+
+    System.out.println("Sorted vector:");
+    printVector(vector);
   }
 }
