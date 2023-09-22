@@ -1,28 +1,27 @@
-function shellSort(vetorDesordenado, inicio, fim){
-    let distancia = 1;
+function shellSort(unsortedArray, start, end) {
+    let gap = 1;
 
-    while(distancia < fim){
-        distancia = (distancia*3) + 1;
+    while (gap < end) {
+        gap = gap * 3 + 1;
     }
 
-    distancia = parseInt(distancia/3);
+    gap = parseInt(gap / 3);
 
     let j;
-    while(distancia>0){
-        for(let i = distancia; i< fim; i+=1){
+    while (gap > 0) {
+        for (let i = gap; i < end; i += 1) {
             j = i;
-            while(j>= distancia && vetorDesordenado[j - distancia] > vetorDesordenado[j]){
-                [vetorDesordenado[j - distancia], vetorDesordenado[j]] = [vetorDesordenado[j], vetorDesordenado[j - distancia]];
+            while (j >= gap && unsortedArray[j - gap] > unsortedArray[j]) {
+                [unsortedArray[j - gap], unsortedArray[j]] = [unsortedArray[j], unsortedArray[j - gap]];
             }
         }
-        distancia = distancia/2;
-
+        gap = gap / 2;
     }
 
-    return vetorDesordenado;
+    return unsortedArray;
 }
 
-var vetorDesordenado  = [54,42,11,33,24,99,77,80];
-let vetorOrdenadoViaShellSort = shellSort(vetorDesordenado, 0, vetorDesordenado.length);
+var unsortedArray = [54, 42, 11, 33, 24, 99, 77, 80];
+let sortedArrayViaShellSort = shellSort(unsortedArray, 0, unsortedArray.length);
 
-console.log(vetorOrdenadoViaShellSort);
+console.log(sortedArrayViaShellSort);
