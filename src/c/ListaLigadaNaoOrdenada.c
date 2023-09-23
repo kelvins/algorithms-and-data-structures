@@ -1,86 +1,86 @@
 /*
-*	Exemplo de Lista Ligada Dinâmica Não Ordenada em C
+*	Example of Unordered Dynamic Linked List in C
 *	Kelvin Salton do Prado - 2015
 */
 
 #include <stdio.h>
 #include <malloc.h>
 
-#define ERRO -1
+#define ERROR -1
 
-typedef int TIPOCHAVE;
+typedef int KEY_TYPE;
 
-typedef struct aux{
-	TIPOCHAVE chave;
-	struct aux *prox;
-}REGISTRO, *PONT;
+typedef struct node{
+	KEY_TYPE key;
+	struct node* next;
+} RECORD, *POINTER;
 
-PONT criaRegistro(TIPOCHAVE ch){
-	PONT rg = (PONT) malloc( sizeof(PONT) );
-	rg->chave = ch;
-	rg->prox = NULL;
-	return rg;
+POINTER createRecord(KEY_TYPE key){
+	POINTER record = (POINTER) malloc( sizeof(POINTER) );
+	record->key = key;
+	record->next = NULL;
+	return record;
 }
 
-PONT insereRegistro(TIPOCHAVE ch, PONT rg){
-	if( rg == NULL ) 
-		return criaRegistro(ch); // Se não tem nenhum registro na lista cria um novo
-	while( rg->prox != NULL )
-		rg = rg->prox;
-	rg->prox = criaRegistro(ch);
+POINTER insertRecord(KEY_TYPE key, POINTER record){
+	if( record == NULL ) 
+		return createRecord(key); // If there are no records in the list, create a new one
+	while( record->next != NULL )
+		record = record->next;
+	record->next = createRecord(key);
 	return NULL;
 }
 
-void mostraLista(PONT rg){
-	if( rg == NULL ) return;
-	printf("%d, ", rg->chave);
-	mostraLista(rg->prox);
+void showList(POINTER record){
+	if( record == NULL ) return;
+	printf("%d, ", record->key);
+	showList(record->next);
 }
 
-PONT buscaSequencial(TIPOCHAVE ch, PONT rg){
-	while( rg != NULL ){
-		if( rg->chave == ch )
-			return rg;
-		rg = rg->prox;
+POINTER sequentialSearch(KEY_TYPE key, POINTER record){
+	while( record != NULL ){
+		if( record->key == key )
+			return record;
+		record = record->next;
 	}
 	return NULL;
 }
 
-bool deletaRegistro(TIPOCHAVE ch, PONT rg){
-	PONT ant;
-	while( rg != NULL ){
-		if( rg->chave == ch ){
-			ant->prox = rg->prox;
-			free(rg);
+bool deleteRecord(KEY_TYPE key, POINTER record){
+	POINTER previous;
+	while( record != NULL ){
+		if( record->key == key ){
+			previous->next = record->next;
+			free(record);
 			return true;
 		}
-		ant = rg;
-		rg = rg->prox;
+		previous = record;
+		record = record->next;
 	}
-	printf("\nChave %d não encontrada.\n",ch);
+	printf("\nKey %d not found.\n", key);
 	return false;	
 }
 
 int main(){
-	PONT RG = insereRegistro(23, RG);
-	insereRegistro(34, RG);
-	insereRegistro(12, RG);
-	insereRegistro(63, RG);
-	insereRegistro(45, RG);
+	POINTER RECORD = insertRecord(23, RECORD);
+	insertRecord(34, RECORD);
+	insertRecord(12, RECORD);
+	insertRecord(63, RECORD);
+	insertRecord(45, RECORD);
 
-	mostraLista(RG);
+	showList(RECORD);
 
-	TIPOCHAVE ch = 64;
-	if( buscaSequencial(ch, RG) != NULL )
-		printf("\nEncontrou chave %d\n", ch);
+	KEY_TYPE key = 64;
+	if( sequentialSearch(key, RECORD) != NULL )
+		printf("\nFound key %d\n", key);
 	else
-		printf("\nNão encontrou chave %d\n", ch);
+		printf("\nKey %d not found\n", key);
 
-	deletaRegistro(63, RG);
-	mostraLista(RG);
+	deleteRecord(63, RECORD);
+	showList(RECORD);
 	
 	printf("\n");
-	deletaRegistro(34, RG);
-	mostraLista(RG);
+	deleteRecord(34, RECORD);
+	showList(RECORD);
 	return 0;
 }
