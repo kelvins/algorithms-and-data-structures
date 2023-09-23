@@ -1,105 +1,108 @@
 /*
 *
-*	Lista Ligada com Nó Cabeça, Circular e Ordenada (Implementação Dinâmica)
-*	Kelvin Salton do Prado - 2015
+* Circular Ordered Linked List (Dynamic Implementation) with a Head Node
+* Kelvin Salton do Prado - 2015
 *
 */
 
 #include <stdio.h>
 #include <malloc.h>
 
-typedef int TIPOCHAVE; // Tipo de ID de cada nó da lista
+typedef int KEY_TYPE; // Type of ID for each node in the list
 
-// Estrutura de dados que representa cada nó da lista
-typedef struct AUX{
-	TIPOCHAVE chave;
-	struct AUX* prox;
-}NO, *PONT;
+// Data structure representing each node in the list
+typedef struct NODE {
+    KEY_TYPE key;
+    struct NODE* next;
+} NODE, *POINTER;
 
-typedef struct{
-	PONT cab; // Nó cabeça
-}LISTA;
+typedef struct {
+    POINTER head; // Head node
+} LIST;
 
-void inicializar(LISTA *L){
-	// Nó cabeça não deixa a lista ficar vazia, também pode ser usado como sentinela
-	L->cab = (PONT) malloc( sizeof(NO) );
-	L->cab->prox = L->cab; // Começa apontando para o próprio nó, pois é circular
+void initialize(LIST* L) {
+    // The head node prevents the list from becoming empty and can also be used as a sentinel
+    L->head = (POINTER)malloc(sizeof(NODE));
+    L->head->next = L->head; // Starts pointing to itself since it's circular
 }
 
-// Como neste método não irá alterar a lista, pode ser passado uma cópia dela e não necessáriamente um ponteiro para ela
-PONT buscaSequencial(TIPOCHAVE ch, LISTA L, PONT* ant){
-	*ant = L.cab; // Sendo uma cópia pode-se usar o ponto (.) no lugar de seta (->), o ant guarda o ponteiro para o nó encontrado
-	PONT pos = L.cab->prox;
-	L.cab->chave = ch; // Grava o valor no nó cabeça para ser utilizado como sentinela, será o último a ser comparado
-	while(pos->chave != ch){ 
-		*ant = pos; // Guarda o ponteiro para o nó
-		pos = pos->prox; // Vai para o próximo nó
-	}
-	if( pos != L.cab ) // Se o nó não é o nó cabeça é pq encontrou
-		return pos; // Retorna o nó
-	else
-		return NULL; // Senão não encontrou retorna NULL
+// Since this method will not change the list, a copy of it can be passed, and not necessarily a pointer to it
+POINTER sequentialSearch(KEY_TYPE key, LIST L, POINTER* prev) {
+    *prev = L.head; // Being a copy, we can use a dot (.) instead of an arrow (->); prev stores a pointer to the found node
+    POINTER current = L.head->next;
+    L.head->key = key; // Stores the value in the head node to be used as a sentinel; it will be the last to be compared
+    while (current->key != key) {
+        *prev = current; // Stores the pointer to the node
+        current = current->next; // Moves to the next node
+    }
+    if (current != L.head) // If the node is not the head node, it means it was found
+        return current; // Returns the node
+    else
+        return NULL; // Otherwise, it was not found, returns NULL
 }
 
-bool excluir(TIPOCHAVE ch, LISTA *L){
-	PONT aux, ant;
-	aux = buscaSequencial(ch, *L, &ant); // Busca o valor para excluir, o ant é passado como endereço de memória, assim a função busca altera ele, guardando o valor anterior
-	if( aux == NULL ) return false; // Não encontrou
-	ant->prox = aux->prox; // Nó anterior aponta para o próximo, no caso o próximo que o nó a ser excluído está apontando
-	free(aux); // Libera a memória
-	return true;
+bool delete(KEY_TYPE key, LIST* L) {
+    POINTER aux, prev;
+    aux = sequentialSearch(key, *L, &prev); // Searches for the value to delete; prev is passed as a memory address so that the search function can modify it to store the previous value
+    if (aux == NULL)
+        return false; // Not found
+    prev->next = aux->next; // The previous node points to the next one, which is where the node to be deleted is pointing
+    free(aux); // Frees memory
+    return true;
 }
 
-void inserir(TIPOCHAVE ch, LISTA *L){
-	PONT ant = L->cab; // O ant guarda o ponteiro para o nó anterior
-	PONT pos = L->cab->prox; // O pos guarda o ponteiro para o atual
+void insert(KEY_TYPE key, LIST* L) {
+    POINTER prev = L->head; // prev stores the pointer to the previous node
+    POINTER current = L->head->next; // current stores the pointer to the current node
 
-	while(pos->chave < ch && pos != L->cab){
-		ant = pos; // Guarda o ponteiro para o nó atual, que será o anterior
-		pos = pos->prox; // Vai para o próximo nó
-	}
-	// Quando encontrou a posição correta na ordem crescente
-	PONT novo_no = (PONT) malloc( sizeof(NO) ); // Cria um novo nó
-	novo_no->chave = ch; // Coloca a chave no nó
-	novo_no->prox  = pos; // Aponta para o próximo nó
-	ant->prox = novo_no; // Nó anterior aponta para o novo nó
+    while (current->key < key && current != L->head) {
+        prev = current; // Stores the pointer to the current node, which will become the previous one
+        current = current->next; // Moves to the next node
+    }
+
+    // When the correct position in ascending order is found
+    POINTER new_node = (POINTER)malloc(sizeof(NODE)); // Creates a new node
+    new_node->key = key; // Sets the key in the node
+    new_node->next = current; // Points to the next node
+    prev->next = new_node; // The previous node points to the new node
 }
 
-PONT mostrarLista(LISTA L){
-	PONT pos = L.cab->prox; // Pos recebe o primeiro elemento depois do nó cabeça
-	while(pos != L.cab){ // Se não for o nó cabeça, a lista não está vazia
-		printf("[ %d ]->", pos->chave); // Mostra o valor do nó
-		pos = pos->prox; // Vai para o próximo nó
-	}printf("\n");
+void showList(LIST L) {
+    POINTER current = L.head->next; // Current receives the first element after the head node
+    while (current != L.head) { // If it's not the head node, the list is not empty
+        printf("[ %d ]->", current->key); // Shows the value of the node
+        current = current->next; // Moves to the next node
+    }
+    printf("\n");
 }
 
-int main(){
-	
-	LISTA lista;
-	inicializar(&lista);
+int main() {
 
-	inserir(4, &lista);
-	inserir(6, &lista);
-	inserir(2, &lista);
-	inserir(3, &lista);
-	inserir(1, &lista);
-	inserir(5, &lista);
+    LIST list;
+    initialize(&list);
 
-	mostrarLista(lista);
+    insert(4, &list);
+    insert(6, &list);
+    insert(2, &list);
+    insert(3, &list);
+    insert(1, &list);
+    insert(5, &list);
 
-	excluir(2, &lista);
-	excluir(4, &lista);
-	excluir(6, &lista);
+    showList(list);
 
-	mostrarLista(lista);
+    delete(2, &list);
+    delete(4, &list);
+    delete(6, &list);
 
-	// Exemplo de busca na lista
-	PONT aux;
-	int valor = 2;
-	if( buscaSequencial(valor, lista, &aux) != NULL )
-		printf("Valor %d encontrado.\n", valor );
-	else
-		printf("Valor %d não encontrado.\n", valor);
+    showList(list);
 
-	return 0;
+    // Example of searching in the list
+    POINTER aux;
+    int value = 2;
+    if (sequentialSearch(value, list, &aux) != NULL)
+        printf("Value %d found.\n", value);
+    else
+        printf("Value %d not found.\n", value);
+
+    return 0;
 }
