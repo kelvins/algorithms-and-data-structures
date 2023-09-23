@@ -1,6 +1,6 @@
 /*
 *
-*	Grafos - CICLO HAMILTONIANO em C
+*	Graphs - HAMILTONIAN CYCLE in C
 *	Kelvin Salton do Prado - 2015
 *
 *                      -----------------------------------
@@ -13,121 +13,121 @@
 *                      |                                 |
 *                      -----------------------------------
 *
-*	6 Vértices
-*	9 Arestas
+*	6 Vertices
+*	9 Edges
 */
 
 #include <stdio.h>
 #include <malloc.h>
 
-#define MAX_VERTICES 6 // MÁXIMO DE VÉRTICES DO GRAFO, SE FOR ALTERAR O GRAFO PRECISA ALTERAR ESTA VARIÁVEL TAMBÉM
-#define MAX_ARESTAS (MAX_VERTICES * (MAX_VERTICES-1)) // CALCULA O NÚMERO MÁXIMO DE ARESTAS QUE O GRAFO PODERÁ TER
+#define MAX_VERTICES 6 // MAXIMUM NUMBER OF VERTICES IN THE GRAPH; IF YOU CHANGE THE GRAPH, YOU NEED TO CHANGE THIS VARIABLE AS WELL
+#define MAX_EDGES (MAX_VERTICES * (MAX_VERTICES-1)) // CALCULATES THE MAXIMUM NUMBER OF EDGES THE GRAPH CAN HAVE
 
-// Estrutura que define cada Vértice do Grafo
-typedef struct NO{
+// Structure that defines each Vertex in the Graph
+typedef struct NODE{
 	char id;
-	int nroVizinhos;
-	struct NO* vizinhos[MAX_ARESTAS];
-	bool visitado;
-}*VERTICE;
+	int numNeighbors;
+	struct NODE* neighbors[MAX_EDGES];
+	bool visited;
+}*VERTEX;
 
-VERTICE solucao[MAX_VERTICES]; // Array que irá guardar a solução do ciclo hamiltoniano
+VERTEX solution[MAX_VERTICES]; // Array that will store the Hamiltonian cycle solution
 
-// Cria Vértice e retorna
-VERTICE criaVertice(char id){
-	VERTICE novoVertice = (VERTICE) malloc( sizeof(NO) ); // Aloca um novo Vértice
-	novoVertice->id = id;
-	novoVertice->nroVizinhos = 0;
-	novoVertice->visitado = false;
-	for (int i = 0; i < MAX_ARESTAS; i++){
-		novoVertice->vizinhos[i] = NULL;
+// Create a Vertex and return it
+VERTEX createVertex(char id){
+	VERTEX newVertex = (VERTEX) malloc( sizeof(NODE) ); // Allocate a new Vertex
+	newVertex->id = id;
+	newVertex->numNeighbors = 0;
+	newVertex->visited = false;
+	for (int i = 0; i < MAX_EDGES; i++){
+		newVertex->neighbors[i] = NULL;
 	}
-	return novoVertice;
+	return newVertex;
 }
 
-// Liga os vértices passados como parâmetro
-bool ligaVertices(VERTICE v1, VERTICE v2){
-	int aux = 0;
-	while(v1->vizinhos[aux] != NULL){ // Busca a primeira posição 'vazia'(NULL) dos vizinhos
-		aux++;
+// Connect the vertices passed as parameters
+bool connectVertices(VERTEX v1, VERTEX v2){
+	int index = 0;
+	while(v1->neighbors[index] != NULL){ // Find the first 'empty' position among neighbors
+		index++;
 	}
-	v1->vizinhos[aux] = v2; // Adiciona o novo vizinho a lista de vizinhos
-	aux = 0;
-	while(v2->vizinhos[aux] != NULL){ // Busca a primeira posição 'vazia'(NULL) dos vizinhos
-		aux++;
+	v1->neighbors[index] = v2; // Add the new neighbor to the list of neighbors
+	index = 0;
+	while(v2->neighbors[index] != NULL){ // Find the first 'empty' position among neighbors
+		index++;
 	}
-	v2->vizinhos[aux] = v1; // Adiciona o novo vizinho a lista de vizinhos
-	v1->nroVizinhos++; // Incrementa o número de vizinhos
-	v2->nroVizinhos++; // Incrementa o número de vizinhos
+	v2->neighbors[index] = v1; // Add the new neighbor to the list of neighbors
+	v1->numNeighbors++; // Increment the number of neighbors
+	v2->numNeighbors++; // Increment the number of neighbors
 }
 
-bool cicloHamiltonianoAuxiliar(int aux){
+bool hamiltonianCycleAuxiliary(int aux){
 	
 	if( aux == MAX_VERTICES ){
-		for (int i = 0; i < solucao[aux-1]->nroVizinhos; i++){
-			if( solucao[aux-1]->vizinhos[i] == solucao[0] ){
+		for (int i = 0; i < solution[aux-1]->numNeighbors; i++){
+			if( solution[aux-1]->neighbors[i] == solution[0] ){
 				return true;
 			}
 		}
 		return false;
 	}
 
-	VERTICE s = solucao[aux-1]; // Auxiliar para simplificar o código
+	VERTEX s = solution[aux-1]; // Helper to simplify the code
 
-	for (int i = 0; i < s->nroVizinhos; i++){ // Percorre todos os vizinhos do vértice de posição aux-1 no array solução
-		if( s->vizinhos[i]->visitado == false ){
-			s->vizinhos[i]->visitado = true;
-			solucao[aux] = s->vizinhos[i];
-			if( cicloHamiltonianoAuxiliar(aux+1) == true ){
+	for (int i = 0; i < s->numNeighbors; i++){ // Iterate through all neighbors of the vertex at position aux-1 in the solution array
+		if( s->neighbors[i]->visited == false ){
+			s->neighbors[i]->visited = true;
+			solution[aux] = s->neighbors[i];
+			if( hamiltonianCycleAuxiliary(aux+1) == true ){
 				return true;
 			}
-			s->vizinhos[i]->visitado = false;
+			s->neighbors[i]->visited = false;
 		}
 	}
 
 	return false;
 }
 
-bool cicloHamiltoniano(VERTICE grafo[MAX_VERTICES]){
-	grafo[0]->visitado = true; // Marca a posição inicial como visitada
-	solucao[0] = grafo[0]; // Array que irá guardar a solução do ciclo
-	return cicloHamiltonianoAuxiliar(1);
+bool hamiltonianCycle(VERTEX graph[MAX_VERTICES]){
+	graph[0]->visited = true; // Mark the initial position as visited
+	solution[0] = graph[0]; // Array that will store the Hamiltonian cycle solution
+	return hamiltonianCycleAuxiliary(1);
 }
 
 int main(){
 
-    // Grafo conjunto de vértices em um array
-	VERTICE GRAFO[MAX_VERTICES];
-	GRAFO[0] = criaVertice('A');
-	GRAFO[1] = criaVertice('B');
-	GRAFO[2] = criaVertice('C');
-	GRAFO[3] = criaVertice('D');
-	GRAFO[4] = criaVertice('E');
-	GRAFO[5] = criaVertice('F');
+    // Graph composed of vertices in an array
+	VERTEX GRAPH[MAX_VERTICES];
+	GRAPH[0] = createVertex('A');
+	GRAPH[1] = createVertex('B');
+	GRAPH[2] = createVertex('C');
+	GRAPH[3] = createVertex('D');
+	GRAPH[4] = createVertex('E');
+	GRAPH[5] = createVertex('F');
 
-	// Liga todos os vértices de acordo com o GRAFO apresentado na introdução
-	ligaVertices(GRAFO[0], GRAFO[1]); // A - B
-	ligaVertices(GRAFO[0], GRAFO[2]); // A - C
-	ligaVertices(GRAFO[1], GRAFO[3]); // B - D
-	ligaVertices(GRAFO[2], GRAFO[3]); // D - C
-	ligaVertices(GRAFO[1], GRAFO[4]); // B - E
-	ligaVertices(GRAFO[3], GRAFO[4]); // D - E
-	ligaVertices(GRAFO[4], GRAFO[5]); // E - F
-	ligaVertices(GRAFO[3], GRAFO[5]); // D - F
-	ligaVertices(GRAFO[1], GRAFO[5]); // B - F
+	// Connect all vertices according to the graph shown in the introduction
+	connectVertices(GRAPH[0], GRAPH[1]); // A - B
+	connectVertices(GRAPH[0], GRAPH[2]); // A - C
+	connectVertices(GRAPH[1], GRAPH[3]); // B - D
+	connectVertices(GRAPH[2], GRAPH[3]); // D - C
+	connectVertices(GRAPH[1], GRAPH[4]); // B - E
+	connectVertices(GRAPH[3], GRAPH[4]); // D - E
+	connectVertices(GRAPH[4], GRAPH[5]); // E - F
+	connectVertices(GRAPH[3], GRAPH[5]); // D - F
+	connectVertices(GRAPH[1], GRAPH[5]); // B - F
 
 	for (int i = 0; i < MAX_VERTICES; i++){
-		solucao[i] = criaVertice('0');
+		solution[i] = createVertex('0');
 	}
 
-	if( cicloHamiltoniano(GRAFO) ){
-		printf("Ciclo Hamiltoniano:\n");
+	if( hamiltonianCycle(GRAPH) ){
+		printf("Hamiltonian Cycle:\n");
 		for (int i = 0; i < MAX_VERTICES; i++){
-			printf("%c, ",solucao[i]->id);
+			printf("%c, ",solution[i]->id);
 		}
 		printf("\n\n");
 	}else{
-		printf("Nao possui Ciclo Hamiltoniano\n");
+		printf("No Hamiltonian Cycle\n");
 	}
 
 	return 0;
