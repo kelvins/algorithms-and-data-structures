@@ -1,6 +1,6 @@
 /*
-* Exemplos de funções para achar maior número de um vetor
-* As 3 são recursivas porém apenas a MaxDC utiliza divisão e conquista
+* Examples of functions to find the maximum number in an array
+* All three functions are recursive, but only MaxDC uses divide and conquer.
 * Kelvin Salton do Prado - 2015
 */
 
@@ -9,21 +9,21 @@
 
 #define MAX 10
 
-// Maximo usando Divisão e Conquista
-int MaxDC(int *vetor, int inicio, int fim)
+// Maximum using Divide and Conquer
+int MaxDC(int *array, int start, int end)
 {
     int aux1, aux2;
-    int meio = ( inicio + fim ) / 2;
+    int middle = (start + end) / 2;
 
-    if( inicio == fim )
+    if (start == end)
     {
-        return vetor[inicio];
+        return array[start];
     }
 
-    aux1 = MaxDC(vetor, inicio, meio);
-    aux2 = MaxDC(vetor, meio+1, fim);
+    aux1 = MaxDC(array, start, middle);
+    aux2 = MaxDC(array, middle + 1, end);
 
-    if( aux1 > aux2 )
+    if (aux1 > aux2)
     {
         return aux1;
     }
@@ -33,58 +33,58 @@ int MaxDC(int *vetor, int inicio, int fim)
     }
 }
 
-void max1(int *vetor, int maximo, int indice)
+void max1(int *array, int maximum, int index)
 {
-    if( vetor[indice] > maximo )
+    if (array[index] > maximum)
     {
-        maximo = vetor[indice];
+        maximum = array[index];
     }
 
-    if( indice < MAX-1 )
+    if (index < MAX - 1)
     {
-        max1(vetor, maximo, indice+1);
+        max1(array, maximum, index + 1);
     }
     else
     {
-        printf("\n\nMax1: %d\n",maximo);
+        printf("\n\nMax1: %d\n", maximum);
     }
 }
 
-int max2(int vetor[], int tamVetor)
+int max2(int array[], int arraySize)
 {
-    if (tamVetor == 1)
+    if (arraySize == 1)
     {
-        return vetor[0]; // só tem 1 elemento
+        return array[0]; // Only one element
     }
     else
     {
-        int x = max2(vetor, tamVetor-1);
+        int x = max2(array, arraySize - 1);
 
-        if (x > vetor[tamVetor-1])
+        if (x > array[arraySize - 1])
         {
             return x;
         }
         else
         {
-            return vetor[tamVetor-1];
+            return array[arraySize - 1];
         }
     }
 }
 
 int main()
 {
-    int vetor[MAX];
+    int array[MAX];
 
     for (int i = 0; i < MAX; ++i)
     {
-        vetor[i] = (rand() % 90) + 10; // 10 a 99
-        printf("%d, ", vetor[i]);
+        array[i] = (rand() % 90) + 10; // Random numbers between 10 and 99
+        printf("%d, ", array[i]);
     }
 
-    max1(vetor, vetor[0], 1);
+    max1(array, array[0], 1);
 
-    printf("\nMax2: %d\n", max2(vetor, MAX) );
-    printf("\nMaxDC: %d\n\n", MaxDC(vetor, 0, MAX-1) );
+    printf("\nMax2: %d\n", max2(array, MAX));
+    printf("\nMaxDC: %d\n\n", MaxDC(array, 0, MAX - 1));
 
     return 0;
 }
