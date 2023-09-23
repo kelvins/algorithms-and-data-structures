@@ -1,86 +1,86 @@
 /*
-*	Grafos - Algoritmo de Floyd-Warshall em C
-*	Kelvin Salton do Prado - 2015
-*	Complexidade: Teta de vértices ao cubo = Teta(n^3)
+*   Graphs - Floyd-Warshall Algorithm in C
+*   Kelvin Salton do Prado - 2015
+*   Complexity: Theta of vertices cubed = Theta(n^3)
 *
-*	Encontra o caminho de todos para todos os vértices
+*   Finds the path from all vertices to all vertices
 *
-*	Grafo com 5 vértices e 6 arestas
+*   Graph with 5 vertices and 6 edges
 *
-*			   6
-*	(0)-----------------(1)
-*	 |					 |
-* 10 |					 | 2
-*	 |		   1		 |
-*	(2)-----------------(3)
-*	  \					/
-*	 3 \			   / 8
-*		\			  /
-*		 -----(4)-----			 
+*              6
+*   (0)-----------------(1)
+*    |                   |
+* 10 |                   | 2
+*    |         1         |
+*   (2)-----------------(3)
+*     \                 /
+*   3  \               / 8
+*      \             /
+*       -----(4)-----
 *
-*	 Matriz de Distância
-*	   0   1   2   3   4
-*	0  0   6  10   -   -
-*	1  6   0   -   2   -
-*	2 10   -   0   1   3
-*	3  -   2   1   0   8
-*	4  -   -   3   8   0
+*   Distance Matrix
+*       0   1   2   3   4
+*   0   0   6  10   -   -
+*   1   6   0   -   2   -
+*   2  10   -   0   1   3
+*   3   -   2   1   0   8
+*   4   -   -   3   8   0
 *
-* 	Para valores infinitos será considerado o valor: 4294967295
+*   Infinity values are considered as 4294967295
 *
 */
 
 #include <stdio.h>
 
-#define nroVertices 5 // Define uma constante 5 que é a quantidade de vértices do grafo
+#define nroVertices 5 // Defines a constant 5, which is the number of vertices in the graph
 
-// Algoritmo de Floyd-Warshall recebe como parâmetro a matriz de distância e o número de vértices
-void FloydWarshall(unsigned long int matriz[nroVertices][nroVertices], int n){
-	for(int x = 0; x < n; x++){
-		for(int y = 0; y < n; y++){
-			for(int z = 0; z < n; z++){
-				if( matriz[y][z] > (matriz[y][x] + matriz[x][z]) )
-					matriz[y][z] = matriz[y][x] + matriz[x][z];
-			}	
-		}	
-	}
+// The Floyd-Warshall algorithm takes the distance matrix and the number of vertices as parameters
+void FloydWarshall(unsigned long int matrix[nroVertices][nroVertices], int n){
+    for(int x = 0; x < n; x++){
+        for(int y = 0; y < n; y++){
+            for(int z = 0; z < n; z++){
+                if( matrix[y][z] > (matrix[y][x] + matrix[x][z]) )
+                    matrix[y][z] = matrix[y][x] + matrix[x][z];
+            }   
+        }   
+    }
 }
 
 int main(){
 
-	unsigned long int Matriz[nroVertices][nroVertices] = {{         0,          6,         10, 4294967295, 4294967295 },
-														 {          6,          0, 4294967295,          2, 4294967295 },
-														 {         10, 4294967295,          0,          1,          3 },
-														 { 4294967295,          2,          1,          0,          8 },
-														 { 4294967295, 4294967295,          3,          8,          0 }};
+    unsigned long int Matrix[nroVertices][nroVertices] = {{         0,          6,         10, 4294967295, 4294967295 },
+                                                         {          6,          0, 4294967295,          2, 4294967295 },
+                                                         {         10, 4294967295,          0,          1,          3 },
+                                                         { 4294967295,          2,          1,          0,          8 },
+                                                         { 4294967295, 4294967295,          3,          8,          0 }};
 
-	FloydWarshall(Matriz, nroVertices);
+    FloydWarshall(Matrix, nroVertices);
 
-	// Mostra a matriz com os valores atualizados
-	printf("Matriz:\n");
-	for (int i = 0; i < nroVertices; ++i){
-		for (int e = 0; e < nroVertices; ++e){
-			if( Matriz[i][e] < 10 )
-				printf(" %lu ", Matriz[i][e]);
-			else
-				printf("%lu ", Matriz[i][e]);
-		}
-		printf("\n");
-	}
-	printf("\n");
+    // Display the matrix with updated values
+    printf("Matrix:\n");
+    for (int i = 0; i < nroVertices; ++i){
+        for (int e = 0; e < nroVertices; ++e){
+            if( Matrix[i][e] < 10 )
+                printf(" %lu ", Matrix[i][e]);
+            else
+                printf("%lu ", Matrix[i][e]);
+        }
+        printf("\n");
+    }
+    printf("\n");
 
-	//printf("Total caminho mais curto do vertice 0 ao 4: %lu\n", Matriz[4][0]); // [destino] [origem]
-	//printf("Total caminho mais curto do vertice 2 ao 0: %lu\n", Matriz[0][2]);
-	//printf("Total caminho mais curto do vertice 4 ao 3: %lu\n\n", Matriz[3][4]);
+    // printf("Shortest path total from vertex 0 to 4: %lu\n", Matrix[4][0]); // [destination] [source]
+    // printf("Shortest path total from vertex 2 to 0: %lu\n", Matrix[0][2]);
+    // printf("Shortest path total from vertex 4 to 3: %lu\n\n", Matrix[3][4]);
 
-	// Mostra todos os caminhos 
-	printf("\n");
-	for (int i = 0; i < nroVertices; ++i){
-		for (int x = 0; x < nroVertices; ++x){
-			printf("Menor distancia saindo do %d para chegar ao %d = %lu.\n", i, x, Matriz[x][i]);
-		}
-	}
-	printf("\n\n");
+    // Display all paths
+    printf("\n");
+    for (int i = 0; i < nroVertices; ++i){
+        for (int x = 0; x < nroVertices; ++x){
+            printf("Shortest distance from %d to %d = %lu.\n", i, x, Matrix[x][i]);
+        }
+    }
+    printf("\n\n");
 
-	return 0;
+    return 0;
 }
