@@ -1,12 +1,12 @@
 /*
-*	Exemplo de Ordenação utilizando Merge Sort
-*	Kelvin Salton do Prado - 2015
+* Example of Sorting using Merge Sort
+* Kelvin Salton do Prado - 2015
 *
-*	Dividir para conquistar:
+* Divide and Conquer:
 *
-*	Dividir: Dividir os dados em subsequências pequenas;
-*	Conquistar: Classificar as duas metades recursivamente aplicando o merge sort;
-*	Combinar: Juntar as duas metades em um único conjunto já classificado.
+* Divide: Divide the data into small subsequences;
+* Conquer: Sort the two halves recursively using merge sort;
+* Combine: Merge the two halves into a single sorted set.
 *
 */
 
@@ -14,61 +14,60 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAM_VETOR 100
+#define ARRAY_SIZE 100
 
-void merge(int vetor[], int tamanho) {
-  int meio = tamanho / 2;
-  int i = 0, j = meio, k = 0;
-  int aux[tamanho];
+void merge(int array[], int size) {
+  int middle = size / 2;
+  int i = 0, j = middle, k = 0;
+  int auxiliary[size];
 
-  while( i < meio && j < tamanho ){
-    if( vetor[i] <= vetor[j] )
-      aux[k] = vetor[i++];
+  while (i < middle && j < size) {
+    if (array[i] <= array[j])
+      auxiliary[k] = array[i++];
     else
-      aux[k] = vetor[j++];
+      auxiliary[k] = array[j++];
     k++;
   }
- 
-  if( i == meio )
-    while( j < tamanho )
-      aux[k++] = vetor[j++];
+
+  if (i == middle)
+    while (j < size)
+      auxiliary[k++] = array[j++];
   else
-    while( i < meio )
-      aux[k++] = vetor[i++];
- 
-  for( i = 0; i < tamanho; i++ )
-    vetor[i] = aux[i];
-}
- 
-int mergeSort(int vetor[], int tamanho){
-	int meio = tamanho / 2;
+    while (i < middle)
+      auxiliary[k++] = array[i++];
 
-	if( tamanho > 1 ){
-		mergeSort(vetor, meio);
-		mergeSort(vetor + meio, tamanho - meio);
-		merge(vetor, tamanho);
-	}
-
+  for (i = 0; i < size; i++)
+    array[i] = auxiliary[i];
 }
 
-int main(){
+int mergeSort(int array[], int size) {
+  int middle = size / 2;
 
-	int vetor[TAM_VETOR];
-	
-	// Preenche o vetor com valores aleatórios 0-1000
-	srand(time(NULL));
-	for(int i = 0; i < TAM_VETOR; i++){
-		vetor[i] = rand()%1000;
-		printf("%d, ", vetor[i]);
-	}
-	
-	printf("\n\n");
-	
-	mergeSort(vetor, TAM_VETOR);
+  if (size > 1) {
+    mergeSort(array, middle);
+    mergeSort(array + middle, size - middle);
+    merge(array, size);
+  }
+}
 
-	for(int i = 0; i < TAM_VETOR; i++){
-		printf("%d, ", vetor[i]);
-	}
-	
-	return 0;
+int main() {
+
+  int array[ARRAY_SIZE];
+
+  // Fill the array with random values from 0 to 1000
+  srand(time(NULL));
+  for (int i = 0; i < ARRAY_SIZE; i++) {
+    array[i] = rand() % 1000;
+    printf("%d, ", array[i]);
+  }
+
+  printf("\n\n");
+
+  mergeSort(array, ARRAY_SIZE);
+
+  for (int i = 0; i < ARRAY_SIZE; i++) {
+    printf("%d, ", array[i]);
+  }
+
+  return 0;
 }
