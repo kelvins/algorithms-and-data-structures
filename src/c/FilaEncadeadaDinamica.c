@@ -1,5 +1,5 @@
 /*
-*	Implementação de uma Estrutura de Fila Dinâmica Ligada/Encadeada em C
+*	Implementation of a Dynamic Linked Queue Data Structure in C
 *	Kelvin Salton do Prado - 2015
 */
 
