@@ -17,50 +17,50 @@
 #include <stdio.h>
 #include <malloc.h>
 
-#define MAX_VERTICES 20 // Constante que define o máximo de vertices que o grafo pode ter
+#define MAX_VERTICES 20 // Constant that defines the maximum number of vertices the graph can have
 
-int nroVertices = 0; // Guarda o número de vértices atual
-int matriz[MAX_VERTICES][MAX_VERTICES]; // Matriz de Distancia
+int nroVertices = 0; // Stores the current number of vertices
+int matriz[MAX_VERTICES][MAX_VERTICES]; // Distance Matrix
 int componentes;
 
-typedef struct NO{
+typedef struct NO {
 	char id;
 	int nroVizinhos;
 	struct AUX* vizinhos[];
-	bool visitado;
-	int indice; // Guarda a ordem em que o vértice foi criado
-}*VERTICE;
+	bool visited;
+	int indice; // Stores the order in which the vertex was created
+} * VERTICE;
 
-typedef struct AUX{
+typedef struct AUX {
 	VERTICE vizinho;
 	int valor;
-}*ARESTA;
+} * ARESTA;
 
-VERTICE criaVertice(char id){
+VERTICE criaVertice(char id) {
 	matriz[nroVertices][nroVertices] = 0;
-	VERTICE novo = (VERTICE) malloc( sizeof(NO) );
+	VERTICE novo = (VERTICE)malloc(sizeof(NO));
 	novo->id = id;
 	novo->nroVizinhos = 0;
-	novo->visitado = false;
+	novo->visited = false;
 	novo->indice = nroVertices;
 	nroVertices++;
 	return novo;
 }
 
-void ligaVertice(VERTICE v1, VERTICE v2, int valor){
+void ligaVertice(VERTICE v1, VERTICE v2, int valor) {
 	matriz[v1->indice][v2->indice] = valor;
-	ARESTA nova = (ARESTA) malloc( sizeof(AUX) );
+	ARESTA nova = (ARESTA)malloc(sizeof(AUX));
 	nova->vizinho = v2;
 	nova->valor = valor;
 	v1->vizinhos[v1->nroVizinhos] = nova;
 	v1->nroVizinhos++;
 }
 
-void mostraMatrizDistancia(){
-	printf("\nMatriz de Distancia\n");
-	for(int l = 0; l < nroVertices; l++){
-		for(int c = 0; c < nroVertices; c++){
-			if( matriz[l][c] == -1 )
+void mostraMatrizDistancia() {
+	printf("\nDistance Matrix\n");
+	for (int l = 0; l < nroVertices; l++) {
+		for (int c = 0; c < nroVertices; c++) {
+			if (matriz[l][c] == -1)
 				printf("%d, ", matriz[l][c]);
 			else
 				printf(" %d, ", matriz[l][c]);
@@ -70,40 +70,40 @@ void mostraMatrizDistancia(){
 	printf("\n");
 }
 
-void zeraVariaveis(){
-	for(int l = 0; l < MAX_VERTICES; l++){
-		for(int c = 0; c < MAX_VERTICES; c++){
+void zeraVariaveis() {
+	for (int l = 0; l < MAX_VERTICES; l++) {
+		for (int c = 0; c < MAX_VERTICES; c++) {
 			matriz[l][c] = -1;
 		}
 	}
 }
 
-void visitaVizinhos(bool visitados[], int atual){
-	for (int i = 0; i < nroVertices; i++){
-		if( visitados[i] == false && matriz[atual][i] > 0 ){
-			visitados[i] = true;
+void visitNeighbors(bool visited[], int current) {
+	for (int i = 0; i < nroVertices; i++) {
+		if (visited[i] == false && matriz[current][i] > 0) {
+			visited[i] = true;
 			componentes++;
-			visitaVizinhos(visitados, i);
+			visitNeighbors(visited, i);
 		}
 	}
 }
 
-void calculaComponentesConexos(){
-	bool visitados[nroVertices];
-	for (int i = 0; i < nroVertices; ++i){
-		visitados[i] = false;
+void calculateConnectedComponents() {
+	bool visited[nroVertices];
+	for (int i = 0; i < nroVertices; ++i) {
+		visited[i] = false;
 	}
-	for (int i = 0; i < nroVertices; i++){
-		if( visitados[i] == false ){
-			visitaVizinhos(visitados, i);
+	for (int i = 0; i < nroVertices; i++) {
+		if (visited[i] == false) {
+			visitNeighbors(visited, i);
 		}
 	}
 }
 
-int main(){
+int main() {
 	zeraVariaveis();
 
-	// Matriz de Distância funciona conforme a ordem inserida
+	// The Distance Matrix works according to the order of insertion
 	VERTICE A = criaVertice('A');
 	VERTICE B = criaVertice('B');
 	VERTICE C = criaVertice('C');
@@ -115,10 +115,10 @@ int main(){
 	ligaVertice(B, D, 8);
 	ligaVertice(C, D, 4);
 	ligaVertice(D, B, 2);
-	
-	calculaComponentesConexos();
-	printf("\nComponentes Conexos: %d\n", componentes) ;
-	
+
+	calculateConnectedComponents();
+	printf("\nConnected Components: %d\n", componentes);
+
 	mostraMatrizDistancia();
 
 	return 0;
