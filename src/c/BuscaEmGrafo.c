@@ -1,7 +1,7 @@
 /*
 *
-*	Grafos - Implementação de uma estrutura de Grafo não dirigido em C
-*	Métodos de Busca: Busca em Profundidade e Busca em Largura
+*	Graphs - Implementation of an undirected graph structure in C
+*	Search Methods: Depth-First Search and Breadth-First Search
 *	Kelvin Salton do Prado - 2015
 *
 *
@@ -13,192 +13,155 @@
 *                      |                                 |
 *                      -----------------------------------
 *
-*	6 Vértices
-*	8 Arestas
+*	6 Vertices
+*	8 Edges
 */
 
 #include <stdio.h>
 #include <malloc.h>
 
-#define MAX_VERTICES 6 // MÁXIMO DE VÉRTICES DO GRAFO, SE FOR ALTERAR O GRAFO PRECISA ALTERAR ESTA VARIÁVEL TAMBÉM
-#define MAX_ARESTAS (MAX_VERTICES * (MAX_VERTICES-1)) // CALCULA O NÚMERO MÁXIMO DE ARESTAS QUE O GRAFO PODERÁ TER
+#define MAX_VERTICES 6 // MAXIMUM NUMBER OF GRAPH VERTICES; IF YOU CHANGE THE GRAPH, YOU NEED TO CHANGE THIS VARIABLE TOO
+#define MAX_EDGES (MAX_VERTICES * (MAX_VERTICES - 1)) // CALCULATE THE MAXIMUM NUMBER OF EDGES THE GRAPH CAN HAVE
 
-// Estrutura que define cada Vértice do Grafo
-typedef struct NO{
+// Structure defining each Vertex of the Graph
+typedef struct NODE {
 	char id;
-	int nroVizinhos;
-	struct NO* vizinhos[MAX_ARESTAS];
-	bool visitado;
-}*VERTICE;
+	int numNeighbors;
+	struct NODE* neighbors[MAX_EDGES];
+	bool visited;
+} *VERTEX;
 
-// Cria Vértice e retorna
-VERTICE criaVertice(char id){
-	VERTICE novoVertice = (VERTICE) malloc( sizeof(NO) ); // Aloca um novo Vértice
-	novoVertice->id = id;
-	novoVertice->nroVizinhos = 0;
-	novoVertice->visitado = false;
-	for (int i = 0; i < MAX_ARESTAS; i++){
-		novoVertice->vizinhos[i] = NULL;
+// Create a Vertex and return it
+VERTEX createVertex(char id) {
+	VERTEX newVertex = (VERTEX)malloc(sizeof(NODE)); // Allocate a new Vertex
+	newVertex->id = id;
+	newVertex->numNeighbors = 0;
+	newVertex->visited = false;
+	for (int i = 0; i < MAX_EDGES; i++) {
+		newVertex->neighbors[i] = NULL;
 	}
-	return novoVertice;
+	return newVertex;
 }
 
-// Liga os vértices passados como parâmetro
-bool ligaVertices(VERTICE v1, VERTICE v2){
+// Connect the vertices passed as parameters
+bool connectVertices(VERTEX v1, VERTEX v2) {
 	int aux = 0;
-	while(v1->vizinhos[aux] != NULL){ // Busca a primeira posição 'vazia'(NULL) dos vizinhos
+	while (v1->neighbors[aux] != NULL) { // Find the first 'empty' position (NULL) among neighbors
 		aux++;
 	}
-	v1->vizinhos[aux] = v2; // Adiciona o novo vizinho a lista de vizinhos
+	v1->neighbors[aux] = v2; // Add the new neighbor to the list of neighbors
 	aux = 0;
-	while(v2->vizinhos[aux] != NULL){ // Busca a primeira posição 'vazia'(NULL) dos vizinhos
+	while (v2->neighbors[aux] != NULL) { // Find the first 'empty' position (NULL) among neighbors
 		aux++;
 	}
-	v2->vizinhos[aux] = v1; // Adiciona o novo vizinho a lista de vizinhos
-	v1->nroVizinhos++; // Incrementa o número de vizinhos
-	v2->nroVizinhos++; // Incrementa o número de vizinhos
+	v2->neighbors[aux] = v1; // Add the new neighbor to the list of neighbors
+	v1->numNeighbors++; // Increment the number of neighbors
+	v2->numNeighbors++; // Increment the number of neighbors
 }
 
 /*
-*	Busca em Profundidade - DFS - Depht First Search
-*	Percorre primeiro todos os vizinhos que foram ligados primeiro ao vértice
+*	Depth-First Search - DFS
+*	Traverse all neighbors connected to the vertex first
 *
 */
-int buscaEmProfundidade(VERTICE inicio, VERTICE destino, int visitados){
-	inicio->visitado = true; // Marca o Vértice que está passando inicio como já visitado
-	if( inicio == destino ) return visitados; // Se for o buscado (destino) retorna ele
+int depthFirstSearch(VERTEX start, VERTEX destination, int visited) {
+	start->visited = true; // Mark the vertex passed as 'start' as visited
+	if (start == destination) return visited; // If it's the destination, return the distance traveled
 
 	int aux = 0;
-	while( inicio->vizinhos[aux] != NULL ){ // Enquanto existe vizinhos a serem visitados
-		if( inicio->vizinhos[aux]->visitado == false ){ // Se o vizinho ainda não foi visitado
-			// Chama recursivamente passando novo vizinho como iniício, ou seja, irá percorrer todos os vizinhos dele, e assim, sucessivamente
-			int resposta = buscaEmProfundidade(inicio->vizinhos[aux], destino, visitados+1);
-			// Se o retorno for maior que -1 então é porque encontrou, sendo assim, já retorna a resposta
-			if( resposta != -1 ) return resposta;
+	while (start->neighbors[aux] != NULL) { // While there are neighbors to visit
+		if (start->neighbors[aux]->visited == false) { // If the neighbor hasn't been visited yet
+			// Call recursively, passing the new neighbor as 'start', which will traverse all its neighbors, and so on
+			int response = depthFirstSearch(start->neighbors[aux], destination, visited + 1);
+			// If the return is greater than -1, then it has been found, so return the response
+			if (response != -1) return response;
 		}
-		aux++; // Incrementa 1 na lista de vizinhos
+		aux++; // Increment 1 in the list of neighbors
 	}
 
-	return -1; // Não encontrou o vértice
+	return -1; // Vertex not found
 }
 
 /*
-*	Busca em Largura - BFS - Breadth First Search
-*	Implementada com o conceito de fila, porém utilizando um array simples
-*	Assim ela não excluí o 'vértice' do array, apenas pula uma posição para a frente
-*	Percorre todos os vértices por nível
+*	Breadth-First Search - BFS
+*	Implemented using the concept of a queue, but using a simple array
+*	This way, it does not remove the 'vertex' from the array, it just moves one position forward
+*	Traverse all vertices by level
 */
-int buscaEmLargura(VERTICE inicio, VERTICE destino){
-	int iniFila = 0; // Variável que controla a posição do inicio da fila, é utilizada para controlar o WHILE
-	int tamFila = 1; // Variável que controla o tamanho da fila
+int breadthFirstSearch(VERTEX start, VERTEX destination) {
+	int frontOfQueue = 0; // Variable to control the front position of the queue, used for the WHILE loop
+	int queueSize = 1; // Variable to control the size of the queue
 
-	VERTICE FILA[MAX_VERTICES]; // Fila que irá guardar os vértices a serem comparados
-	for (int i = 0; i < MAX_VERTICES; i++){ // Como a lista não é dinâmica, ela precisa ser 'limpa' primeiro
-		FILA[i] = NULL;
+	VERTEX QUEUE[MAX_VERTICES]; // Queue that will store the vertices to be compared
+	for (int i = 0; i < MAX_VERTICES; i++) { // Since the list is not dynamic, it needs to be 'cleared' first
+		QUEUE[i] = NULL;
 	}
-	FILA[iniFila] = inicio; // Posição [0] da fila recebe o vértice de início
+	QUEUE[frontOfQueue] = start; // Position [0] of the queue receives the starting vertex
 
-	// Enquanto não terminar a fila faça
-	while( iniFila < tamFila ){
-		// Se o elemento que está para 'sair' da fila for o buscado (destino) então retorna iniFila, que foi a distância percorrida para encontrar
-		if( FILA[iniFila] == destino ) return iniFila;
+	// While the queue is not empty, do
+	while (frontOfQueue < queueSize) {
+		// If the element about to 'exit' the queue is the sought-after (destination), then return frontOfQueue, which is the distance traveled to find it
+		if (QUEUE[frontOfQueue] == destination) return frontOfQueue;
 
 		/*
-		*	Para todos os vizinhos do vértice que está para 'sair' da fila:
-		*	Marca todos como visitado, para não coloca-los na fila novamente,
-		*	e então os coloca na fila, e aumenta o tamanho da fila
+		*	For all neighbors of the vertex that is about to 'exit' the queue:
+		*	Mark them all as visited to prevent them from being added to the queue again,
+		*	and then add them to the queue, increasing the queue size
 		*/
-		for (int i = 0; i < FILA[iniFila]->nroVizinhos; i++){
-			if( FILA[iniFila]->vizinhos[i]->visitado == false ){
-				FILA[iniFila]->vizinhos[i]->visitado = true;
-				FILA[tamFila] = FILA[iniFila]->vizinhos[i];
-				tamFila++;
+		for (int i = 0; i < QUEUE[frontOfQueue]->numNeighbors; i++) {
+			if (QUEUE[frontOfQueue]->neighbors[i]->visited == false) {
+				QUEUE[frontOfQueue]->neighbors[i]->visited = true;
+				QUEUE[queueSize] = QUEUE[frontOfQueue]->neighbors[i];
+				queueSize++;
 			}
 		}
-		iniFila++; // Incrementa 1 no inicio da fila, como se tivesse excluído o primeiro que entrou na fila (FIFO - First In First Out)
+		frontOfQueue++; // Increment 1 at the front of the queue, as if the first one that entered the queue had been removed (FIFO - First In First Out)
 	}
 	return -1;
 }
 
-int main(){
+int main() {
 
-	// Grafo conjunto de vértices independentes
-	VERTICE A = criaVertice('A');
-	VERTICE B = criaVertice('B');
-	VERTICE C = criaVertice('C');
-	VERTICE D = criaVertice('D');
-	VERTICE E = criaVertice('E');
-	VERTICE F = criaVertice('F');
+	// Graph with a set of independent vertices
+	VERTEX A = createVertex('A');
+	VERTEX B = createVertex('B');
+	VERTEX C = createVertex('C');
+	VERTEX D = createVertex('D');
+	VERTEX E = createVertex('E');
+	VERTEX F = createVertex('F');
 	
-	// Liga todos os vértices de acordo com o GRAFO apresentado na introdução
-	ligaVertices(A, B);
-	ligaVertices(A, C);
-	ligaVertices(B, D);
-	ligaVertices(C, D);
-	ligaVertices(B, E);
-	ligaVertices(D, E);
-	ligaVertices(E, F);
-	ligaVertices(D, F);
+	// Connect all vertices according to the GRAPH presented in the introduction
+	connectVertices(A, B);
+	connectVertices(A, C);
+	connectVertices(B, D);
+	connectVertices(C, D);
+	connectVertices(B, E);
+	connectVertices(D, E);
+	connectVertices(E, F);
+	connectVertices(D, F);
 
-	// Realiza a busca em profundidade
-	int res = buscaEmProfundidade(A, F, 0);
-	if( res != -1 )
-		printf("DFS - Encontrou. Distancia: %d.\n", res);
+	// Perform depth-first search
+	int res = depthFirstSearch(A, F, 0);
+	if (res != -1)
+		printf("DFS - Found. Distance: %d.\n", res);
 	else
-		printf("DFS - Não encontrou.\n");
+		printf("DFS - Not found.\n");
 
-	// 'Zera' todos os atributos 'visitado' de todos os vértices para 'false'
-	A->visitado = false;
-	B->visitado = false;
-	C->visitado = false;
-	D->visitado = false;
-	E->visitado = false;
-	F->visitado = false;
+	// 'Reset' all 'visited' attributes of all vertices to 'false'
+	A->visited = false;
+	B->visited = false;
+	C->visited = false;
+	D->visited = false;
+	E->visited = false;
+	F->visited = false;
 
-	// Realiza a busca em largura
-	res = buscaEmLargura(A, F);
-	if( res != -1 )
-		printf("BFS - Encontrou. Distancia: %d.\n", res);
+	// Perform breadth-first search
+	res = breadthFirstSearch(A, F);
+	if (res != -1)
+		printf("BFS - Found. Distance: %d.\n", res);
 	else
-		printf("BFS - Não encontrou.\n");
+		printf("BFS - Not found.\n");
 
-    // Grafo conjunto de vértices em um array
-	VERTICE GRAFO[MAX_VERTICES];
-	GRAFO[0] = criaVertice('A');
-	GRAFO[1] = criaVertice('B');
-	GRAFO[2] = criaVertice('C');
-	GRAFO[3] = criaVertice('D');
-	GRAFO[4] = criaVertice('E');
-	GRAFO[5] = criaVertice('F');
-
-	// Liga todos os vértices de acordo com o GRAFO apresentado na introdução
-	ligaVertices(GRAFO[0], GRAFO[1]);
-	ligaVertices(GRAFO[0], GRAFO[2]);
-	ligaVertices(GRAFO[1], GRAFO[3]);
-	ligaVertices(GRAFO[2], GRAFO[3]);
-	ligaVertices(GRAFO[1], GRAFO[4]);
-	ligaVertices(GRAFO[3], GRAFO[4]);
-	ligaVertices(GRAFO[4], GRAFO[5]);
-	ligaVertices(GRAFO[3], GRAFO[5]);
-
-	// Realiza a busca em profundidade
-	res = buscaEmProfundidade(GRAFO[0], GRAFO[5], 0);
-	if( res != -1 )
-		printf("DFS - Encontrou. Distancia: %d.\n", res);
-	else
-		printf("DFS - Não encontrou.\n");
-
-	// 'Zera' todos os atributos 'visitado' de todos os vértices para 'false'
-	for (int i = 0; i < MAX_VERTICES; i++){
-		GRAFO[i]->visitado = false;
-	}
-	
-	// Realiza a busca em largura
-	res = buscaEmLargura(GRAFO[0], GRAFO[5]);
-	if( res != -1 )
-		printf("BFS - Encontrou. Distancia: %d.\n", res);
-	else
-		printf("BFS - Não encontrou.\n");
-
-	return 0;
-}
+    // Graph with a set of vertices in an array
+	VERTEX GRAPH[MAX_VERTICES];
+	GRAPH[0] = createVertex('
