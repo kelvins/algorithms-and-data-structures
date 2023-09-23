@@ -1,8 +1,9 @@
 /*
-Torre de Hanoi em C
+Tower of Hanoi in C
 Bruno Dantas de Paiva - 2021
 https://github.com/DantasB
 */
+
 
 #include <stdio.h>
 
