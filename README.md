@@ -1,13 +1,13 @@
-# :abacus: Algoritmos e Estruturas de Dados
+# :abacus: Algorithms and Data Structures
 
-Este repositório disponibiliza diversos algoritmos e estruturas de dados clássicos em **Ciência da Computação**, bem como alguns problemas extras que são encontrados com frequência em desafios de programação.
+This repository provides several classic algorithms and data structures in **Computer Science**, as well as some extra problems that are frequently encountered in programming challenges.
 
-Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a contribuir com o projeto, os algoritmos são disponibilizados nas seguintes linguagens: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** e **Kotlin**.
+In order to achieve greater coverage and encourage more people to contribute to the project, the algorithms are available in the following languages: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** and **Kotlin**.
 
 <html>
     <table align="center">
         <tr>
-            <td align="center">Algoritmo</td>
+            <td align="center">Algorithm</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -65,7 +65,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra">Algoritmo Dijkstra</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra">Dijkstra's algorithm</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -123,7 +123,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall">Algoritmo Floyd Warshall</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall">Algorithm Floyd Warshall</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoFloydWarshall.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -181,7 +181,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Busca Binária</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Binary Search</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -239,7 +239,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.inf.ufsc.br/grafos/represen/busca.html">Busca em Grafos</a></td>
+            <td><a href="https://www.inf.ufsc.br/grafos/represen/busca.html">Graph Search</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaEmGrafo.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -297,7 +297,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Sequential Search</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -413,7 +413,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/">Busca utilizando Sentinela</a></td>
+            <td><a href="https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/">Recursive Sequential Search</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -471,7 +471,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Busca por Interpolação</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Interpolation Search</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -529,7 +529,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante">Caixeiro Viajante</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante">traveling salesman</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CaixeiroViajante.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -587,7 +587,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Caminho_hamiltoniano">Ciclo Hamiltoniano</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Caminho_hamiltoniano">Hamiltonian Cycle</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CicloHamiltoniano.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -645,7 +645,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/components.html">Componentes Conexos</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/components.html">Related Components</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ComponentesConexos.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -703,7 +703,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponentiation</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -761,7 +761,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação Recursiva</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Recursive Exponentiation</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -819,7 +819,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Factorial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -877,7 +877,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial Recursiva</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Recursive Factorial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -993,7 +993,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Máximo Recursivo</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Maximum Recursive</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1051,7 +1051,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Mín. e Máx. Iterativo</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Iterative Min and Max</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1109,7 +1109,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Mín. e Máx. Recursivo</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Recursive Min and Max</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1167,7 +1167,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Mín. e Máx. D&C</td>
+            <td>Min and Max D&C</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1225,7 +1225,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_cavalo">Passeio do Cavalo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Problema_do_cavalo">Horse Ride</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1283,7 +1283,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Torre de Hanói</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Tower of Hanoi</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TorreDeHanoi.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1341,7 +1341,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico">Algoritmo Genético</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico">Genetic Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1399,7 +1399,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/huffman.html">Algoritmo de Huffman</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/huffman.html">Huffman algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1457,7 +1457,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/LZ77">Algoritmo LZ77</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/LZ77">Algorithm LZ77</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1517,7 +1517,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
     </table>
     <table align="center">
         <tr>
-            <td align="center">Estruturas de Dados</td>
+            <td align="center">Data Structures</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1575,7 +1575,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria">Árvore Binária</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria">Binary Tree</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinaria.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1633,7 +1633,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca">Árvore Binária de Busca</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca">Binary Search Tree</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinariaDeBusca.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1691,7 +1691,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)">Deque</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)">Deck</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -1749,7 +1749,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/FIFO">Fila</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/FIFO">Row</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fila.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1807,7 +1807,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Fila Encadeada Dinâmica</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Dynamic Chained Queue</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FilaEncadeadaDinamica.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1865,7 +1865,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Teoria_dos_grafos">Grafo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Teoria_dos_grafos">Fork</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Grafos.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1923,7 +1923,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.youtube.com/watch?v=bxwIm3F6aaQ">Lista Circular Ligada</a></td>
+            <td><a href="https://www.youtube.com/watch?v=bxwIm3F6aaQ">Linked Circular List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaCircularLigada.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -1981,7 +1981,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Lista_ligada">Lista Encadeada</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Lista_ligada">Linked List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaEncadeada.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2039,7 +2039,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Lista_duplamente_ligada">Lista Duplamente Encadeada</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Lista_duplamente_ligada">Doubly Linked List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaDuplamenteEncadeada.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2097,7 +2097,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Lista Ligada Não Ordenada</a></td>
+            <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Unordered Linked List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaLigadaNaoOrdenada.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2155,7 +2155,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Lista Sequencial Ordenada</td>
+            <td>Ordered Sequential List</td>
             <td> <!-- C -->
                 <a href="./src/c/ListaSequencialOrdenada.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2213,7 +2213,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/LIFO">Pilha</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/LIFO">Battery</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Pilha.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2271,7 +2271,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Pilha Ligada Dinâmica</td>
+            <td>Dynamic Connected Stack</td>
             <td> <!-- C -->
                 <a href="./src/c/PilhaLigadaDinamica.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -2389,7 +2389,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
     </table>
     <table align="center">
         <tr>
-            <td align="center">Algoritmo de Ordenação</td>
+            <td align="center">Sorting Algorithm</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3377,7 +3377,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Lista com 2 Pilhas</td>
+            <td>List with 2 Stacks</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3435,7 +3435,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Soma de 2 Números</td>
+            <td>Sum of 2 Numbers</td>
             <td> <!-- C -->
                 <a href="./src/c/TwoSum.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3493,7 +3493,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">Palíndromo</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">Sum of 2 Numbers</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Palindromo.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3551,7 +3551,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80">Calculo do PI (Leibniz)</a></td>
+            <td><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80">Calculation of PI (Leibniz)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CalculatePi.c">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
@@ -3609,7 +3609,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
-            <td>Busca em Labirinto</td>
+            <td>Labyrinth Search</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
@@ -3669,8 +3669,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
     </table>
 </html>
 
-## :technologist: Contribuindo
+## :technologist: Contributing
 
-Fique à vontade para contribuir com o projeto, toda contribuição é bem vinda. :grin:
+Feel free to contribute to the project, all contributions are welcome. :grin:
 
-Se você tem dúvidas de como contribuir, dê uma olhada no arquivo [CONTRIBUTING](CONTRIBUTING.md).
+If you have questions about how to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) file.
