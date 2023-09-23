@@ -1,61 +1,69 @@
+/*
+*
+*	Graphs - Algorithm to calculate the number of connected components in a given Graph
+*	Kelvin Salton do Prado - 2015
+*
+*	GRAPH
+*   (0)               (1)-------------(4)---------------(5)
+*    |                 |               |                 |
+*    |                 |               |                 |
+*    |                 |               |                 | 
+*   (2)               (3)---------------                 |
+*                      |                                 |
+*                      -----------------------------------
+*
+*
+*    Adjacency Matrix
+*       0  1  2  3  4  5 
+*    0  0  -  1  -  -  -
+*    1  -  0  -  1  1  -
+*    2  1  -  0  -  -  -
+*    3  -  1  -  0  1  1
+*    4  -  1  -  1  0  1
+*	 5  -  -  -  1  1  0
+*
+*
+*	6 Vertices
+*	8 Edges
+*/
+
 #include <stdio.h>
-#include <stdlib.h>
 
-// CountingSort - Ordenação por Contagem - Matheus Martins Batista - Universidade Federal de Itajuba - 2021
+#define VERTICES 6
+#define INF -1
 
-// Necessário encontrar o maior elemento para alocar o vetor auxiliar de contagem
-int findMax (int *arr, int tam) {
-    int max = arr[0];
+bool visited[VERTICES];
+int components = 0;
 
-    for (int i = 1; i < tam; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
+int matrix[VERTICES][VERTICES]  = { {   0, INF,   1, INF, INF, INF },
+                                    { INF,   0, INF,   1,   1, INF },
+                                    {   1, INF,   0, INF, INF, INF },
+                                    { INF,   1, INF,   0,   1,   1 },
+                                    { INF,   1, INF,   1,   0,   1 },
+                                    { INF, INF, INF,   1,   1,   0 } };
+
+// Recursive method that finds the connected components from an adjacency matrix
+void calculateConnectedComponents(int current){
+    for (int i = 0; i < VERTICES; i++){
+        if( visited[i] == false && matrix[current][i] == 1 ){
+            visited[i] = true;
+            components++;
+            printf("(%d)-", i);
+            calculateConnectedComponents(i);
         }
     }
-
-    return max;
 }
 
-// Ordena os valores presentes em A e armazena em B
-void countingSort(int *arrA, int *arrB, int tam) {
-    // Vetor de contagem terá a frequência que um número aparece no vetor
-    // deve-se setar 0 para todos os elementos ou usar calloc
-    int max = findMax(arrA, tam);
-    int* count = calloc(max + 1, sizeof(int));
+int main(){
+    for (int i = 0; i < VERTICES; i++)
+        visited[i] = false;
 
-    // Frequência que determinado valor aparece no vetor
-    for (int i = 0; i < tam; i++) {
-        count[arrA[i]]++;
-    }
-
-    // Acumulativo da frequência dos valores menores que um elemento i do vetor original (A)
-    for (int i = 1; i <= max; i++) {
-        count[i] += count[i - 1];
-    }
-
-    // Percorrer o vetor original com início no último elemento, subtituindo os indices nos elementos do vetor count e decrescendo a cada atribuição
-    for (int i = tam - 1; i >= 0; i--) {
-        arrB[count[arrA[i]] - 1] = arrA[i];
-        count[arrA[i]]--;
-    }
-}
-
-int main() {
-    int *arrA, *arrB;
-    int tam = 10;
-    arrA = malloc(tam * sizeof(int));
-    arrB = calloc(tam, sizeof(int));
-
-    // Popular vetor A
-    srand(48+tam);
-    for(int j = 0; j < tam; j++) arrA[j] = rand()%100;
-
-    countingSort(arrA, arrB, tam);
-
-    printf("Vetor ordenado: ");
-    for (int i = 0; i < tam; i++) {
-        printf("%d ", arrB[i]);
-    }
-
+    for (int i = 0; i < VERTICES; i++)
+        if( visited[i] == false ){
+            components = 0;
+            calculateConnectedComponents(i);
+            printf("\nNumber of connected components starting from vertex %d: %d\n\n", i, components);
+        }
+    
     return 0;
 }
