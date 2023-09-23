@@ -97,7 +97,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/AlgoritmoDijkstra.js">
+                <a href="./src/javascript/DijkstrasAlgorithm.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -329,7 +329,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/BuscaLinear.js">
+                <a href="./src/javascript/LinearSearch.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -445,7 +445,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/busca_sentinela.js">
+                <a href="./src/javascript/SentinelSearch.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -1315,7 +1315,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/TorreDeHanoi.js">
+                <a href="./src/javascript/TowerOfHanoi.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -1665,7 +1665,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/ArvoreDeBuscaBinaria.js">
+                <a href="./src/javascript/BinarySearchTree.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -1781,7 +1781,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/Fila.js">
+                <a href="./src/javascript/Queue.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -2013,7 +2013,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/ListaSimplesmenteEncadeada.js">
+                <a href="./src/javascript/SinglyLinkedList.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -2071,7 +2071,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/ListaDuplamenteEncadeada.js">
+                <a href="./src/javascript/DoublyLinkedList.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -2245,7 +2245,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/Pilha.js">
+                <a href="./src/javascript/Stack.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -2537,7 +2537,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/BurbbleSort.js">
+                <a href="./src/javascript/BubbleSort.js>
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -3525,7 +3525,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/Palindromo.js">
+                <a href="./src/javascript/Palindrome.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
@@ -3583,7 +3583,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/calculate_pi.js">
+                <a href="./src/javascript/Calculate_PI.js">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                 </a>
             </td>
