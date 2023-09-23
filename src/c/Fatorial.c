@@ -2,10 +2,11 @@
 #include<stdlib.h>
 
 /*
-*	Exemplos de função para retornar o fatorial de um número n
-*	função recursiva
+*	Examples of a function to return the factorial of a number n
+*	Recursive function
 *	Jhonata Ribeiro - 2017
 */
+
 
 int main(){
     int num;
