@@ -1,24 +1,16 @@
 /*
 *
-*	SIN5013 - Exemplo de Prova do Conteúdo Semestral
+*	SIN5013 - Semester Content Test Example
 *
-*	3. Escreva um programa (utilizando um ou mais métodos/funções em código ou pseudo-código) que dado um
-*	grafo não direcionado com n nós retorne o número de componentes conexos do grafo. Este grafo pode ser
-*	representado por: (a) uma matriz de adjacências booleana com n x n células correspondendo aos n nós do grafo;
-*	ou representado por: (b) um arranjo de nós sendo que cada nó possui um arranjo de vizinhos; neste caso,
-*	considere que Nó é uma classe ou estrutura que possui os seguintes campos [ou atributos]: numVizinhos
-*	(campo do tipo inteiro com o número de vizinhos do respectivos nó), vizinhos (arranjo de ponteiros para Nós
-*	com numVizinhos elementos), visitado (campo booleano). Escolha a representação que te convém, se desejar,
-*	considere que todas as variáveis são globais/static. Assuma que as variáveis já estão devidamente
-*	inicializadas/preenchidas.
+*	3. Write a program (using one or more methods/functions in code or pseudocode) that, given an undirected graph with n nodes, returns the number of connected components in the graph. This graph can be represented by: (a) a boolean adjacency matrix with n x n cells corresponding to the n nodes of the graph; or represented by: (b) an array of nodes, where each node has an array of neighbors. In this case, consider that Node is a class or structure that has the following fields [or attributes]: numNeighbors (an integer field with the number of neighbors of the respective node), neighbors (an array of pointers to Nodes with numNeighbors elements), visited (a boolean field). Choose the representation that suits you, and if you wish, consider that all variables are global/static. Assume that the variables are already properly initialized/filled.
 *
-*	Representação:
-*	int numNos = n;
-*	boolean adjacencias[][] = new boolean[n][n];
-*	boolean visitados[] = new boolean[n];
+*	Representation:
+*	int numNodes = n;
+*	boolean adjacencies[][] = new boolean[n][n];
+*	boolean visited[] = new boolean[n];
 *
 *
-*	GRAFO
+*	GRAPH
 *   (0)               (1)-------------(4)---------------(5)
 *    |                 |               |                 |
 *    |       (6)       |               |                 |
@@ -28,7 +20,7 @@
 *                      -----------------------------------
 *
 *
-*    Matriz de Adjacência
+*    Adjacency Matrix
 *       0  1  2  3  4  5  6
 *    0  0  -  1  -  -  -  -
 *    1  -  0  -  1  1  -  -
@@ -42,49 +34,48 @@
 
 #include <stdio.h>
 
-#define nroNos 7
-bool visitados[nroNos];
-bool matriz[nroNos][nroNos]  = {{ false, false,  true, false, false, false, false },
-								{ false, false, false,  true,  true, false, false },
-								{  true, false, false, false, false, false, false },
-								{ false,  true, false, false,  true,  true, false },
-								{ false,  true, false,  true, false,  true, false },
-								{ false, false, false,  true,  true, false, false },
-								{ false, false, false, false, false, false, false }};
-int componentes = 0;
+#define numNodes 7
+bool visited[numNodes];
+bool matrix[numNodes][numNodes] = {{false, false, true, false, false, false, false},
+                                   {false, false, false, true, true, false, false},
+                                   {true, false, false, false, false, false, false},
+                                   {false, true, false, false, true, true, false},
+                                   {false, true, false, true, false, true, false},
+                                   {false, false, false, true, true, false, false},
+                                   {false, false, false, false, false, false, false}};
+int components = 0;
 
-void zeraVariaveis(){
-	componentes = 0;
-	for (int i = 0; i < nroNos; i++)
-		visitados[i] = false;
+void resetVariables() {
+    components = 0;
+    for (int i = 0; i < numNodes; i++)
+        visited[i] = false;
 }
 
-void visitaVizinhos(int atual){
-	for (int i = 0; i < nroNos; i++){
-		if( visitados[i] == false && matriz[atual][i] == true ){
-			visitados[i] = true;
-			componentes++;
-			printf("(%d)-", i);
-			visitaVizinhos(i);
-		}
-	}
+void visitNeighbors(int current) {
+    for (int i = 0; i < numNodes; i++) {
+        if (visited[i] == false && matrix[current][i] == true) {
+            visited[i] = true;
+            components++;
+            printf("(%d)-", i);
+            visitNeighbors(i);
+        }
+    }
 }
 
-void calculaComponentesConexos(){
-	// Percorre todos os 'nós'/'componentes'
-	for (int i = 0; i < nroNos; i++){
-		componentes = 0;
-		if( visitados[i] == false ){ // Se o componente ainda não foi visitado
-			visitaVizinhos(i); // Chama o método que conta as conexões com os vizinhos
-			printf("Grupo %d:\nQuantidade de componentes conectados: %d\n\n", i, componentes);
-		}
-	}
+void calculateConnectedComponents() {
+    // Iterate through all 'nodes'/'components'
+    for (int i = 0; i < numNodes; i++) {
+        components = 0;
+        if (visited[i] == false) { // If the component has not been visited yet
+            visitNeighbors(i); // Call the method to count connections with neighbors
+            printf("Group %d:\nNumber of connected components: %d\n\n", i, components);
+        }
+    }
 }
 
-int main(){
+int main() {
+    resetVariables();
+    calculateConnectedComponents();
 
-	zeraVariaveis();
-	calculaComponentesConexos();
-
-	return 0;
+    return 0;
 }
