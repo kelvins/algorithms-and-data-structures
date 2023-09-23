@@ -1,5 +1,5 @@
 /*
-*	Árvore Binária de Busca em C
+*	Binary Search Tree in C
 *	Kelvin Salton do Prado - 2015
 *
 *		 ( 6 )
@@ -13,196 +13,187 @@
 
 #include <stdio.h>
 #include <malloc.h>
+#include <stdbool.h>
 
-typedef int TIPOCHAVE;
+typedef int KEYTYPE;
 
-typedef struct AUX{
-	TIPOCHAVE chave;
-	struct AUX *esq, *dir;
-}NO, *PONT; // NO é a estrutura e PONT é um ponteiro de NO
+typedef struct NODE {
+    KEYTYPE key;
+    struct NODE *left, *right;
+} NODE, *NODEPTR;
 
-int max(int a, int b){
-	if( a > b )
-		return a;
-	return b;
+int max(int a, int b) {
+    if (a > b)
+        return a;
+    return b;
 }
 
-int altura(PONT no){
-	if( no == NULL ) // Mesma coisa que usar if(!no)
-		return 0;
-	return 1 + max( altura(no->esq), altura(no->dir) ); // Percorre a arvore pela esquerda e pela direita para ver qual tem altura maior
+int height(NODEPTR node) {
+    if (node == NULL)
+        return 0;
+    return 1 + max(height(node->left), height(node->right));
 }
 
-PONT buscaBinaria(TIPOCHAVE ch, PONT raiz){
-	if( !raiz )
-		return NULL;
-	if( raiz->chave == ch )
-		return raiz;
-	if( raiz->chave < ch )
-		buscaBinaria(ch, raiz->dir);
-	else
-		buscaBinaria(ch, raiz->esq);
+NODEPTR binarySearch(KEYTYPE key, NODEPTR root) {
+    if (!root)
+        return NULL;
+    if (root->key == key)
+        return root;
+    if (root->key < key)
+        return binarySearch(key, root->right);
+    else
+        return binarySearch(key, root->left);
 }
 
-PONT buscaBinariaLinear(TIPOCHAVE ch, PONT atual){
-	while( atual != NULL ){
-		if( atual->chave == ch )
-			return atual;
-		if( atual->chave < ch )
-			atual = atual->dir;
-		else
-			atual = atual->esq;
-	}
-	return NULL;
+NODEPTR binarySearchLinear(KEYTYPE key, NODEPTR current) {
+    while (current != NULL) {
+        if (current->key == key)
+            return current;
+        if (current->key < key)
+            current = current->right;
+        else
+            current = current->left;
+    }
+    return NULL;
 }
 
-PONT criaNo(TIPOCHAVE ch){
-	PONT no = (PONT) malloc( sizeof(NO) );
-	no->esq = NULL;
-	no->dir = NULL;
-	no->chave = ch;
-	return no;
+NODEPTR createNode(KEYTYPE key) {
+    NODEPTR node = (NODEPTR)malloc(sizeof(NODE));
+    node->left = NULL;
+    node->right = NULL;
+    node->key = key;
+    return node;
 }
 
-bool inserir(TIPOCHAVE ch, PONT atual){
-	PONT ant;
-	// Percorre a arvore para a direita ou esquerda até encontrar uma posição NULL (vazia)
-	while(atual != NULL){
-		ant = atual;
-		if( atual->chave < ch )
-			atual = atual->dir;
-		else
-			atual = atual->esq;
-	}
-	atual = criaNo(ch); // Utiliza a váriavel atual, pois estava 'sobrando'
-	if( ant->chave < ch )
-		ant->dir = atual;
-	else
-		ant->esq = atual;
-	return true;
+bool insert(KEYTYPE key, NODEPTR current) {
+    NODEPTR parent;
+    // Traverse the tree to the right or left until an empty position is found
+    while (current != NULL) {
+        parent = current;
+        if (current->key < key)
+            current = current->right;
+        else
+            current = current->left;
+    }
+    // Use the 'current' variable because it was available
+    current = createNode(key);
+    if (parent->key < key)
+        parent->right = current;
+    else
+        parent->left = current;
+    return true;
 }
 
-PONT buscaNoPai(TIPOCHAVE ch, PONT atual){
-	PONT noPai = atual;
-	while( atual != NULL ){
-		if( atual->chave == ch )
-			return noPai;
-		noPai = atual;
-		if( atual->chave < ch )
-			atual = atual->dir;
-		else
-			atual = atual->esq;
-	}
-	return noPai;
+NODEPTR findParent(KEYTYPE key, NODEPTR current) {
+    NODEPTR parent = current;
+    while (current != NULL) {
+        if (current->key == key)
+            return parent;
+        parent = current;
+        if (current->key < key)
+            current = current->right;
+        else
+            current = current->left;
+    }
+    return parent;
 }
 
-PONT maiorAesquerda(PONT atual){
-	atual = atual->esq;
-	while( atual->dir != NULL )
-		atual = atual->dir;
-	return atual;
+NODEPTR findLargestLeft(NODEPTR current) {
+    current = current->left;
+    while (current->right != NULL)
+        current = current->right;
+    return current;
 }
 
-bool excluir(TIPOCHAVE ch, PONT raiz){
-	PONT atual, noPai, substituto, paiSubstituto;
-	substituto = NULL;
-	atual = buscaBinaria(ch, raiz);
-	if( atual == NULL ) return false; // Não encontrou a chave
-	noPai = buscaNoPai(ch, raiz);
-	if( atual->esq == NULL || atual->dir == NULL ){ // Se tem 0 ou 1 filho
-		if( atual->esq == NULL )
-			substituto = atual->dir;
-		else
-			substituto = atual->esq;
-		if( noPai == NULL ){ // Único que não tem pai é a raiz
-			raiz = substituto;
-		}else{
-			if( ch < noPai->chave)
-				noPai->esq = substituto;
-			else
-				noPai->dir = substituto;
-		}
-		free(atual);
-	}else{
-		substituto = maiorAesquerda(atual);
-		atual->chave = substituto->chave;
-		if( substituto->esq != NULL )
-			atual->esq = substituto->esq;
-		else
-			atual->esq = NULL;
-		free(substituto);
-	}
-	return true;
+bool deleteNode(KEYTYPE key, NODEPTR root) {
+    NODEPTR current, parent, substitute, parentSubstitute;
+    substitute = NULL;
+    current = binarySearch(key, root);
+    if (current == NULL)
+        return false; // Key not found
+    parent = findParent(key, root);
+    if (current->left == NULL || current->right == NULL) { // If it has 0 or 1 child
+        if (current->left == NULL)
+            substitute = current->right;
+        else
+            substitute = current->left;
+        if (parent == NULL) { // Only the root has no parent
+            root = substitute;
+        } else {
+            if (key < parent->key)
+                parent->left = substitute;
+            else
+                parent->right = substitute;
+        }
+        free(current);
+    } else {
+        substitute = findLargestLeft(current);
+        current->key = substitute->key;
+        if (substitute->left != NULL)
+            current->left = substitute->left;
+        else
+            current->left = NULL;
+        free(substitute);
+    }
+    return true;
 }
 
-void preordem(PONT no){ // R - E - D
-	if( !no ) return;
-	printf("%d, ", no->chave);
-	preordem(no->esq);
-	preordem(no->dir);
+void preorder(NODEPTR node) { // Root - Left - Right
+    if (!node)
+        return;
+    printf("%d, ", node->key);
+    preorder(node->left);
+    preorder(node->right);
 }
 
-void posordem(PONT no){ // E - D - R
-	if( !no ) return;
-	posordem(no->esq);
-	posordem(no->dir);
-	printf("%d, ", no->chave);
+void postorder(NODEPTR node) { // Left - Right - Root
+    if (!node)
+        return;
+    postorder(node->left);
+    postorder(node->right);
+    printf("%d, ", node->key);
 }
 
-void emordem(PONT no){ // E - R - D
-	if( !no ) return;
-	emordem(no->esq);
-	printf("%d, ", no->chave);
-	emordem(no->dir);
+void inorder(NODEPTR node) { // Left - Root - Right
+    if (!node)
+        return;
+    inorder(node->left);
+    printf("%d, ", node->key);
+    inorder(node->right);
 }
 
-// Esta função não está funcionando
-bool insereRecursivo(TIPOCHAVE ch, PONT no){
-	PONT ant;
-	if( !no ){
-		no = criaNo(ch);
-	}else{
-		ant = no;
-		if( ch < no->chave )
-			insereRecursivo(ch, no->esq);
-		else
-			insereRecursivo(ch, no->dir);
-	}
-	if( ant->chave < ch )
-		ant->dir = no;
-	else
-		ant->esq = no;
-	return true;
-}
+int main() {
+    NODEPTR treeRoot = createNode(6);
 
-int main(){
-	PONT noArvore = criaNo(6);
+    insert(2, treeRoot);
+    insert(1, treeRoot);
+    insert(4, treeRoot);
+    insert(7, treeRoot);
+    insert(8, treeRoot);
+    insert(3, treeRoot);
+    insert(5, treeRoot);
 
-	inserir(2, noArvore);
-	inserir(1, noArvore);
-	inserir(4, noArvore);
-	inserir(7, noArvore);
-	inserir(8, noArvore);
-	inserir(3, noArvore);
-	inserir(5, noArvore);
+    int searchValue = 7;
+    NODEPTR foundNode = binarySearch(searchValue, treeRoot);
+    if (foundNode)
+        printf("Search: %d\n", foundNode->key);
+    else
+        printf("Not found\n");
 
-	int valorBuscado = 7;
-	if( buscaBinaria(valorBuscado, noArvore) )
-		printf("Busca : %d\n", buscaBinaria(valorBuscado, noArvore)->chave );
-	else
-		printf("Não encontrou\n");
+    deleteNode(4, treeRoot);
 
-	excluir(4, noArvore);
+    printf("Preorder: ");
+    preorder(treeRoot);
+    printf("\n");
 
-	printf("Pre-ordem: ");
-	preordem(noArvore);
-	printf("\n");
-	printf("Em-ordem: ");
-	emordem(noArvore);
-	printf("\n");
-	printf("Pos-ordem: ");
-	posordem(noArvore);
+    printf("Inorder: ");
+    inorder(treeRoot);
+    printf("\n");
 
-	printf("\nAltura: %d\n", altura(noArvore) );
-	return 0;
+    printf("Postorder: ");
+    postorder(treeRoot);
+    printf("\n");
+
+    printf("Height: %d\n", height(treeRoot));
+    return 0;
 }
