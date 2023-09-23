@@ -1,6 +1,6 @@
 /*
-*	Exemplo de Busca Sentinela em C
-*	Objetivo: Encontrar um valor em um vetor sem precisar testar todos os valores dentro do laço
+*	Example of Sentinel Search in C
+*	Purpose: Find a value in an array without needing to test all values within the loop
 *	Kelvin Salton do Prado - 2015
 */
 
@@ -8,37 +8,37 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAM_VETOR 10
+#define ARRAY_SIZE 10
 
-// Busca sentinela, realiza uma busca sequencial sem precisar testar a chave a cada passo do laço de busca
-int buscaSentinela(int vetor[], int chave){
-	vetor[TAM_VETOR] = chave; // Coloca o valor buscado (chave) na última posição do vetor
-	int aux = 0; // Variável de controle do laço
-	while( vetor[aux] != chave ) // Enquanto não encontrar o valor (chave) incrementa 1 em aux
+// Sentinel search, performs a sequential search without the need to test the key at each step of the search loop
+int sentinelSearch(int array[], int key){
+	array[ARRAY_SIZE] = key; // Place the searched value (key) in the last position of the array
+	int aux = 0; // Loop control variable
+	while( array[aux] != key ) // While the value (key) is not found, increment 1 to aux
 		aux++;
-	if( aux == TAM_VETOR ) // Caso o valor de aux seja igual ao tamanho do vetor, significa que foi até o final e não encontrou o valor
-		return -1; // Não encontrou
-	else // Caso aux seja diferente, significa que encontrou o valor e quebrou o laço, o aux é a posição do valor buscado
-		return aux; // Encontrou
+	if( aux == ARRAY_SIZE ) // If the value of aux is equal to the size of the array, it means it went to the end and did not find the value
+		return -1; // Not found
+	else // If aux is different, it means it found the value and broke out of the loop, aux is the position of the searched value
+		return aux; // Found
 }
 
 int main(){
 
-	int vetor[TAM_VETOR+1]; // Declara o vetor com +1 pois é a posição que será utilizada pela sentinela
+	int array[ARRAY_SIZE+1]; // Declare the array with +1 because it's the position that will be used by the sentinel
 	
-	// Preenche o vetor com valores aleatórios 0-1000
+	// Fill the array with random values from 0 to 1000
 	srand(time(NULL));
-	for(int i = 0; i < TAM_VETOR; i++){
-		vetor[i] = rand()%1000;
-		printf("%d, ", vetor[i]);
+	for(int i = 0; i < ARRAY_SIZE; i++){
+		array[i] = rand() % 1000;
+		printf("%d, ", array[i]);
 	}
 
-	// Faz a busca, passando como parâmetro o vetor e a chave que deseja buscar
-	int res = buscaSentinela(vetor, vetor[TAM_VETOR-2]);
+	// Perform the search, passing the array and the key you want to search for as parameters
+	int res = sentinelSearch(array, array[ARRAY_SIZE-2]);
 	if( res != -1 )
-		printf("\n\nValor %d encontrado na posicao %d.\n\n", vetor[res], res);
+		printf("\n\nValue %d found at position %d.\n\n", array[res], res);
 	else
-		printf("\n\nValor não encontrado no vetor\n\n");
+		printf("\n\nValue not found in the array.\n\n");
 	
 	return 0;
 }
