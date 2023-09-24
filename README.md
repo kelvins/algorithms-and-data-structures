@@ -102,7 +102,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
+                <a href="./src/rust/AlgoritmoDijkstra.rs">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
                 </a>
             </td>
