@@ -16,9 +16,6 @@ struct Graph {
     edges: Vec<Vec<Edge>>,
 }
 
-// Rest of the code remains the same...
-
-
 impl Graph {
     // Constructor to create a new graph with a given number of nodes.
     fn new(nodes: usize) -> Self {
