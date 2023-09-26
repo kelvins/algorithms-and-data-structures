@@ -34,6 +34,7 @@
 */
 
 #include <stdio.h>
+#include <stdbool.h>
 
 #define nroVertices 5 // Define uma constante 5 que é a quantidade de vértices do grafo
 
