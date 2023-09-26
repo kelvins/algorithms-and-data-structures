@@ -1,52 +1,52 @@
-function mergeSort(vetorDesordenado, inicio, fim){
-	let quantidadeDePosicoes = fim - inicio;
+function mergeSort(unsortedArray, start, end) {
+    let numberOfPositions = end - start;
 
-	if(quantidadeDePosicoes > 1){
-		let miolo = (inicio + fim) / 2;
+    if (numberOfPositions > 1) {
+        let middle = Math.floor((start + end) / 2);
 
-		mergeSort(vetorDesordenado, inicio, miolo);
-		mergeSort(vetorDesordenado, miolo, fim);
-		intercalaVetorOrdenadoEmDuasPartes(vetorDesordenado, inicio, miolo, fim);
-	}
+        mergeSort(unsortedArray, start, middle);
+        mergeSort(unsortedArray, middle, end);
+        mergeTwoSortedArrays(unsortedArray, start, middle, end);
+    }
 
-	return vetorDesordenado;
+    return unsortedArray;
 }
 
-function intercalaVetorOrdenadoEmDuasPartes(vetorOrdenadoEmDuasPartes, inicio, miolo, termino){
-	let vetorIntercalado = [];
+function mergeTwoSortedArrays(sortedArray, start, middle, end) {
+    let mergedArray = [];
 
-	let posicaoVetorIntercalado = 0;
-	let posicaoPrimeiroVetor = inicio;
-	let posicaoSegundoVetor = miolo;
+    let mergedArrayPosition = 0;
+    let firstArrayPosition = start;
+    let secondArrayPosition = middle;
 
-	while(posicaoPrimeiroVetor < miolo && posicaoSegundoVetor < termino){
-		let valorPrimeiroVetor = vetorOrdenadoEmDuasPartes[posicaoPrimeiroVetor];
-		let valorSegundoVetor = vetorOrdenadoEmDuasPartes[posicaoSegundoVetor];
+    while (firstArrayPosition < middle && secondArrayPosition < end) {
+        let firstArrayValue = sortedArray[firstArrayPosition];
+        let secondArrayValue = sortedArray[secondArrayPosition];
 
-		if(valorPrimeiroVetor < valorSegundoVetor){
-			vetorIntercalado[posicaoVetorIntercalado] = valorPrimeiroVetor;
-			posicaoPrimeiroVetor++;
-		}else{
-			vetorIntercalado[posicaoVetorIntercalado] = valorSegundoVetor;
-			posicaoSegundoVetor++;
-		}	
-		posicaoVetorIntercalado++;
-	}
+        if (firstArrayValue < secondArrayValue) {
+            mergedArray[mergedArrayPosition] = firstArrayValue;
+            firstArrayPosition++;
+        } else {
+            mergedArray[mergedArrayPosition] = secondArrayValue;
+            secondArrayPosition++;
+        }
+        mergedArrayPosition++;
+    }
 
-	while(posicaoPrimeiroVetor < miolo){
-		vetorIntercalado[posicaoVetorIntercalado++] = vetorOrdenadoEmDuasPartes[posicaoPrimeiroVetor++];
-	}
+    while (firstArrayPosition < middle) {
+        mergedArray[mergedArrayPosition++] = sortedArray[firstArrayPosition++];
+    }
 
-	while(posicaoSegundoVetor < termino){
-		vetorIntercalado[posicaoVetorIntercalado++] = vetorOrdenadoEmDuasPartes[posicaoSegundoVetor++];
-	}
+    while (secondArrayPosition < end) {
+        mergedArray[mergedArrayPosition++] = sortedArray[secondArrayPosition++];
+    }
 
-	for (var i = 0; i < posicaoVetorIntercalado; i++) {
-		vetorOrdenadoEmDuasPartes[inicio + i] = vetorIntercalado[i];
-	}
+    for (let i = 0; i < mergedArrayPosition; i++) {
+        sortedArray[start + i] = mergedArray[i];
+    }
 }
 
-var vetorDesordenado = [54,42,11,33,24,99,77,80];
-let vetorOrdenadoViaMergeSort = mergeSort(vetorDesordenado, 0, vetorDesordenado.length);
+let unsortedArray = [54, 42, 11, 33, 24, 99, 77, 80];
+let sortedArrayViaMergeSort = mergeSort(unsortedArray, 0, unsortedArray.length);
 
-console.log(vetorOrdenadoViaMergeSort);
+console.log(sortedArrayViaMergeSort);

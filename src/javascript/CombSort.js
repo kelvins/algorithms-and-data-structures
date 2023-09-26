@@ -1,23 +1,23 @@
-function combSort(vetorDesordenado, inicio, fim){
-    let distancia = fim;
-    let trocado;
+function combSort(unsortedArray, start, end) {
+    let gap = end;
+    let swapped;
 
-    do{
-        trocado = false;
-        distancia = parseInt(distancia/1.24733095);
+    do {
+        swapped = false;
+        gap = parseInt(gap / 1.24733095);
 
-        for(let i = inicio; i < fim-distancia; i++){
-            if(vetorDesordenado[i] > vetorDesordenado[i+distancia]){
-                [vetorDesordenado[i], vetorDesordenado[i+distancia]] = [vetorDesordenado[i+distancia], vetorDesordenado[i]];
-                trocado = true;
+        for (let i = start; i < end - gap; i++) {
+            if (unsortedArray[i] > unsortedArray[i + gap]) {
+                [unsortedArray[i], unsortedArray[i + gap]] = [unsortedArray[i + gap], unsortedArray[i]];
+                swapped = true;
             }
         }
-    }while(distancia > 1 || trocado);
+    } while (gap > 1 || swapped);
 
-    return vetorDesordenado;
+    return unsortedArray;
 }
 
-var vetorDesordenado  = [54,42,11,33,24,99,77,80];
-let vetorOrdenadoViaCombSort = combSort(vetorDesordenado, 0, vetorDesordenado.length);
+var unsortedArray = [54, 42, 11, 33, 24, 99, 77, 80];
+let sortedArrayViaCombSort = combSort(unsortedArray, 0, unsortedArray.length);
 
-console.log(vetorOrdenadoViaCombSort);
+console.log(sortedArrayViaCombSort);

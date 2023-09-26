@@ -7,12 +7,12 @@
  */
 
 /**
- * @param {Array} arr - Array de elementos a ser buscado
- * @param {Array} first - Primeiro indice do array
- * @param {Array} last - Último indice do array
- * @param {Number} value - Valor a ser buscado
- * @return {Number} - Index do elemento buscado ou -1 se não encontrado
- * @throws {Error} - Se o array estiver vazio
+ * @param {Array} arr - Array of elements to be searched
+ * @param {Array} first - First index of the array
+ * @param {Array} last - Last index of the array
+ * @param {Number} value - Value to be searched
+ * @return {Number} - Index of the searched element or -1 if not found
+ * @throws {Error} - If the array is empty
  */
 const interpolationSearch = (arr, first, last, value) => {
   let pos;
@@ -29,19 +29,19 @@ const interpolationSearch = (arr, first, last, value) => {
 }
 
 const main = () => {
-  // O array precisa ser ordenado
+  // The array needs to be sorted
   const arr = [10, 12, 13, 16, 18, 19, 20, 21, 
     22, 23, 24, 33, 35, 42, 47];
   let n = arr.length;
 
-  // Buscando pelo valor 18
+  // Searching for the value 18
   let x = 18
   let index = interpolationSearch(arr, 0, n - 1, x);
 
   if (index !== -1)
-    console.log(`Indice do elemento buscado: ${index}`);
+    console.log(`Index of the searched element: ${index}`);
   else
-    console.log("Elemento não encontrado");
+    console.log("Element not found");
 }
 
 main();

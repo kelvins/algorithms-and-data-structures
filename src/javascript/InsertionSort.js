@@ -2,37 +2,34 @@
 //diogomem@outlook.com
 
 /*
-	O Insertion Sort, ou algoritomo de ordenação por inserção ordena uma serie de dados
-	da seguinte maneira:
-		1. Varre o vetor da segunda posição em diante;
-		2. Compara o valor que está sendo analisado com o valor anterior:
-			caso seja menor, troca os dois valores e compara novamente com o anterior.
-			caso seja maior, segue a análise para o próximo elemento não analisado do vetor.
+   Insertion Sort is a sorting algorithm that works as follows:
+   1. It iterates through the array from the second position onward.
+   2. Compares the current value with the previous one:
+      - If it's smaller, it swaps the two values and continues comparing with the previous one.
+      - If it's larger, it proceeds to analyze the next unsorted element in the array.
 */
 
-function insertionSort(vetorDesordenado, inicio, fim){
+function insertionSort(unsortedArray, start, end) {
+    for (var i = start + 1; i < end; i++) {
+        let currentPosition = i;
 
-		for (var i = inicio + 1; i < fim; i++) {
-
-			let posicaoAnalise = i;
-		
-			while(posicaoAnalise > 0 && vetorDesordenado[posicaoAnalise] < vetorDesordenado[posicaoAnalise -1]){
-				trocaPosicao(vetorDesordenado, posicaoAnalise, posicaoAnalise - 1);
-				posicaoAnalise--;
-			}
-		}
-	return vetorDesordenado;
+        while (currentPosition > 0 && unsortedArray[currentPosition] < unsortedArray[currentPosition - 1]) {
+            swapPositions(unsortedArray, currentPosition, currentPosition - 1);
+            currentPosition--;
+        }
+    }
+    return unsortedArray;
 }
 
-function trocaPosicao(vetor, posicaoPrimeiro, posicaoSegundo){
-	let primeiroValor = vetor[posicaoPrimeiro];
-	let segundoValor = vetor[posicaoSegundo];
+function swapPositions(array, firstPosition, secondPosition) {
+    let firstValue = array[firstPosition];
+    let secondValue = array[secondPosition];
 
-	vetor[posicaoPrimeiro] = segundoValor;
-	vetor[posicaoSegundo] = primeiroValor;
+    array[firstPosition] = secondValue;
+    array[secondPosition] = firstValue;
 }
 
-var vetorDesordenado  = [54,42,11,33,24,99,77,80];
-let vetorOrdenadoViaInsertionSort = insertionSort(vetorDesordenado, 0, vetorDesordenado.length);
+var unsortedArray = [54, 42, 11, 33, 24, 99, 77, 80];
+let sortedArrayViaInsertionSort = insertionSort(unsortedArray, 0, unsortedArray.length);
 
-console.log(vetorOrdenadoViaInsertionSort);
+console.log(sortedArrayViaInsertionSort);

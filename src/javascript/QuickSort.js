@@ -1,33 +1,32 @@
-function quickSort(vetorDesordenado, inicio, fim){
-	let quantidadeDePosicoes = fim - inicio;
+function quickSort(unsortedArray, start, end){
+	let numPositions = end - start;
 
-	if(quantidadeDePosicoes > 1){
-		let posicaoDoPivo = particiona(vetorDesordenado, inicio, fim);
-		quickSort(vetorDesordenado, inicio, posicaoDoPivo);
-		quickSort(vetorDesordenado, posicaoDoPivo + 1, fim);
+	if(numPositions > 1){
+		let pivotPosition = partition(unsortedArray, start, end);
+		quickSort(unsortedArray, start, pivotPosition);
+		quickSort(unsortedArray, pivotPosition + 1, end);
 	}
 
-	return vetorDesordenado;
+	return unsortedArray;
 }
 
-function particiona(vetor, inicio, fim){
-	let pivo = vetor[fim - 1];
-	let menoresEncontrados = 0;
+function partition(array, start, end){
+	let pivot = array[end - 1];
+	let foundSmaller = 0;
 
-	for (var i = 0; i < fim - 1; i++) {
-
-		if(vetor[i] <= pivo){
-			[vetorDesordenado[i], vetorDesordenado[menoresEncontrados]] = [vetorDesordenado[menoresEncontrados], vetorDesordenado[i]];
-			menoresEncontrados++;
+	for (var i = start; i < end - 1; i++) {
+		if(array[i] <= pivot){
+			[array[i], array[foundSmaller]] = [array[foundSmaller], array[i]];
+			foundSmaller++;
 		}
 	}
 
-	[vetorDesordenado[fim - 1], vetorDesordenado[menoresEncontrados]] = [vetorDesordenado[menoresEncontrados], vetorDesordenado[fim - 1]];
-	return menoresEncontrados;
+	[array[end - 1], array[foundSmaller]] = [array[foundSmaller], array[end - 1]];
+	return foundSmaller;
 }
 
-var vetorDesordenado  = [54,42,11,33,24,99,77,80];
+var unsortedArray = [54,42,11,33,24,99,77,80];
 
-let vetorOrdenadoViaQuickSort = quickSort(vetorDesordenado, 0, vetorDesordenado.length);
+let sortedArrayViaQuickSort = quickSort(unsortedArray, 0, unsortedArray.length);
 
-console.log(vetorOrdenadoViaQuickSort);
+console.log(sortedArrayViaQuickSort);
