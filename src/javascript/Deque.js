@@ -3,7 +3,7 @@ class Deque {
         this.deque = [];
     }
 
-        addFront(value) {
+    addFront(value) {
         this.deque.unshift(value);
     }
 
