@@ -1,30 +1,30 @@
-class Deque{
-    constructor(){
+class Deque {
+    constructor() {
         this.deque = [];
     }
 
-    addInicio(valor){
-        this.deque.unshift(valor);
+        addFront(value) {
+        this.deque.unshift(value);
     }
 
-    addFim(valor){
-        this.deque.push(valor);
+    addEnd(value) {
+        this.deque.push(value);
     }
 
-    removeInicio(){
+    removeFront() {
         this.deque.shift();
     }
 
-    removeFim(){
+    removeEnd() {
         this.deque.pop();
     }
 
-    lerDoInicio(){
+    readFromFront() {
         console.log(this.deque);
     }
 
-    lerDoFim(){
-        let dequeCopia = this.deque.slice();
-        console.log(dequeCopia.reverse());
+    readFromEnd() {
+        let dequeCopy = this.deque.slice();
+        console.log(dequeCopy.reverse());
     }
 }
