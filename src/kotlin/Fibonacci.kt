@@ -1,28 +1,24 @@
 /**
- * Função "fibonacciRecursiva"
+ * "fibonacciRecursive" function
  *
- * A função *FibonacciRecursiva* apresenta os valores da sequência de Fibonacci em que,
- * os primeiros dois termos dessa sequência são menor ou igual 1, e cada termo que vier
- * a seguir será a soma dos dois números anteriores (0, 1, 1, 2, 3, 5, 8...).
- * Nessa função, usa -se o conceito da *recursividade*, na qual, a função criada é chamada
- * dentro dela, uma ou mais vezes internamente da mesma.
+ * The *fibonacciRecursive* function displays the values of the Fibonacci sequence in which, the first two terms of this sequence are less than or equal to 1, and each term that follows next will be the sum of the two previous numbers (0, 1, 1, 2, 3, 5, 8...).
+ * In this function, the concept of *recursion* is used, in which the created function is called within it, one or more times internally.
  *
- * @author Versão do algoritmo para Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
+ * @author Algorithm version for Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
  * @see https://github.com/Alfredo-Paes
  *
- * @param number é do tipo inteiro(Int)
+ * @param number is of type integer (Int)
  *
- * @return retornará uma condição lógica se *number* for menor ou igual a 1, retorna 1 se não,
- * o somatório dela mesma utilizando o conceito de *recursividade* para a execução deste somatório.
+ * @return will return a logical condition if *number* is less than or equal to 1, returns 1 otherwise, the sum of itself using the concept of *recursion* to execute this sum.
  */
-fun fibonacciRecursivo(number: Int): Int {
+fun fibonacciRecursive(number: Int): Int {
     return if (number <= 1) {
         1
     }; else {
-        fibonacciRecursivo(number - 1) + fibonacciRecursivo(number - 2)
+        fibonacciRecursive(number - 1) + fibonacciRecursive(number - 2)
     }
 }
 
 fun main() {
-    println(fibonacciRecursivo(5))
+    println(fibonacciRecursive(5))
 }
