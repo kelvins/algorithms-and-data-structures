@@ -2082,7 +2082,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/doubly_linked_list.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
