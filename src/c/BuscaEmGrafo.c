@@ -2,7 +2,7 @@
 *
 *	Grafos - Implementação de uma estrutura de Grafo não dirigido em C
 *	Métodos de Busca: Busca em Profundidade e Busca em Largura
-*	Kelvin Salton do Prado - 2015
+*	
 *
 *
 *   (A)---------------(B)-------------(E)---------------(F)

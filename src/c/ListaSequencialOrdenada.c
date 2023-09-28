@@ -1,6 +1,5 @@
 /*
 *	Exemplo de implementação de Lista Sequencial Ordenada em C - Utilizando sentinela
-*	Kelvin S. do Prado - 2015
 */
 
 #include <stdio.h>

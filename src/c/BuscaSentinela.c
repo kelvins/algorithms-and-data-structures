@@ -1,7 +1,7 @@
 /*
 *	Exemplo de Busca Sentinela em C
 *	Objetivo: Encontrar um valor em um vetor sem precisar testar todos os valores dentro do laço
-*	Kelvin Salton do Prado - 2015
+*	
 */
 
 #include <stdio.h>

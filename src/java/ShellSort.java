@@ -1,5 +1,5 @@
 /*
- * @author Marcelo Wischniowski <marcelowisc at gmail.com>
+ * 
  */
 public class ShellSort {
 

@@ -1,6 +1,6 @@
 /*
 * Grafos - Algoritmo de Dijkstra em C
-* Kelvin Salton do Prado - 2015
+* 
 * Complexidade: Teta(n^2)
 *
 * 1 para todos - Arestas de pesos não negativo - Algoritmo guloso

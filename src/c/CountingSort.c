@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// CountingSort - Ordenação por Contagem - Matheus Martins Batista - Universidade Federal de Itajuba - 2021
+// CountingSort - Ordenação por Contagem
 
 // Necessário encontrar o maior elemento para alocar o vetor auxiliar de contagem
 int findMax (int *arr, int tam) {

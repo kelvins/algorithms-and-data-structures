@@ -1,6 +1,6 @@
 /*
 *	Árvore Binária de Busca em C
-*	Kelvin Salton do Prado - 2015
+*	
 *
 *		 ( 6 )
 *	     /   \

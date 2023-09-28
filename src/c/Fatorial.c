@@ -4,7 +4,6 @@
 /*
 *	Exemplos de função para retornar o fatorial de um número n
 *	função recursiva
-*	Jhonata Ribeiro - 2017
 */
 
 int main(){
