@@ -14,14 +14,14 @@ class TreeNode:
 def recursive_search(node, key):
     if node is None:
         print(f"{key} was not found in the tree")
-        return
+        return None
     if node.key == key:
         print(f"{key} was found in the tree")
         return node
     if key > node.key:
-        recursive_search(node.right, key)
+        return recursive_search(node.right, key)
     else:
-        recursive_search(node.left, key)
+        return recursive_search(node.left, key)
 
 def linear_search(node, key):
     while node is not None:
@@ -36,7 +36,7 @@ def linear_search(node, key):
 # Insertion Method
 def insert(node, key):
     if node is None:
-        node = TreeNode(key)
+        return TreeNode(key)
     else:
         if key < node.key:
             node.left = insert(node.left, key)
@@ -45,42 +45,37 @@ def insert(node, key):
     return node
 
 # Printing Methods
-PRINT_TREE = ""
-
 def pre_order(node):
-    global PRINT_TREE
     if node is None:
-        return
-    PRINT_TREE += str(node.key) + ", "
-    pre_order(node.left)
-    pre_order(node.right)
+        return []
+    result = [node.key]
+    result.extend(pre_order(node.left))
+    result.extend(pre_order(node.right))
+    return result
 
 def in_order(node):
-    global PRINT_TREE
     if node is None:
-        return
-    in_order(node.left)
-    PRINT_TREE += str(node.key) + ", "
-    in_order(node.right)
+        return []
+    result = []
+    result.extend(in_order(node.left))
+    result.append(node.key)
+    result.extend(in_order(node.right))
+    return result
 
 def post_order(node):
-    global PRINT_TREE
     if node is None:
-        return
-    post_order(node.left)
-    post_order(node.right)
-    PRINT_TREE += str(node.key) + ", "
+        return []
+    result = []
+    result.extend(post_order(node.left))
+    result.extend(post_order(node.right))
+    result.append(node.key)
+    return result
 
 # Finding the Tree's Height
-def maximum(a, b):
-    if a > b:
-        return a
-    return b
-
 def tree_height(node):
     if node is None:
         return 0
-    return 1 + maximum(tree_height(node.left), tree_height(node.right))
+    return 1 + max(tree_height(node.left), tree_height(node.right))
 
 # Deletion Methods
 def find_parent(node, ch):
@@ -117,7 +112,6 @@ def delete(node, ch):
             parent.right = substitute
         else:
             parent.left = substitute
-        # Free(current)
     else:
         substitute = largest_on_left(current)
         current.key = substitute.key
@@ -125,7 +119,6 @@ def delete(node, ch):
             current.left = substitute.left
         else:
             current.left = None
-        # Free(substitute)
     return True
 
 if __name__ == "__main__":
@@ -140,9 +133,8 @@ if __name__ == "__main__":
     tree = insert(tree, 7)
     tree = insert(tree, 0)
 
-    recursive_search(tree, 6)  # Search that prints within the function
-
-    if linear_search(tree, 6) is not None:  # Returns the NODE or None if not found
+    result = recursive_search(tree, 6)
+    if result is not None:
         print("Value found")
     else:
         print("Value not found")
@@ -156,15 +148,9 @@ if __name__ == "__main__":
     delete(tree, 3)
 
     # Call printing methods
-    PRINT_TREE = ""
-    pre_order(tree)
-    print(f"PreOrder: {PRINT_TREE}")
-    PRINT_TREE = ""
-    in_order(tree)
-    print(f"InOrder: {PRINT_TREE}")
-    PRINT_TREE = ""
-    post_order(tree)
-    print(f"PostOrder: {PRINT_TREE}")
+    print(f"PreOrder: {pre_order(tree)}")
+    print(f"InOrder: {in_order(tree)}")
+    print(f"PostOrder: {post_order(tree)}")
 
     # Display the height of the tree after removing items
     print(f"Height: {tree_height(tree)}")
