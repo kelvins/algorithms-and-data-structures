@@ -1063,7 +1063,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/MinMaxIterativo.java">
+                <a href="./src/java/IterativeMinMax.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1295,7 +1295,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/TowersOfHanoi.java">
+                <a href="./src/java/TowerOfHanoi.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
