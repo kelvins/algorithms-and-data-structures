@@ -193,7 +193,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/BuscaBinaria.java">
+                <a href="./src/java/BinarySearch.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -715,7 +715,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Exponenciacao.java">
+                <a href="./src/java/Exponentiation.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -773,7 +773,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/ExponenciacaoRecursiva.java">
+                <a href="./src/java/RecursiveExponentiation.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -831,7 +831,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Fatorial.java">
+                <a href="./src/java/Factorial.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -889,7 +889,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/FatorialRecursiva.java">
+                <a href="./src/java/RecursiveFactorial.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1063,7 +1063,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/MinMaxIterativo.java">
+                <a href="./src/java/IterativeMinMax.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1121,7 +1121,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/MinMaxRecursivo.java">
+                <a href="./src/java/RecursiveMinMax.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1295,7 +1295,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/TorreDeHanoi.java">
+                <a href="./src/java/TowerOfHanoi.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1587,7 +1587,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/ArvoreBinaria.java">
+                <a href="./src/java/BinaryTree.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -1645,7 +1645,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/ArvoreDeBuscaBinaria.java">
+                <a href="./src/java/BinarySearchTree.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -2051,7 +2051,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/ListaDuplamenteEncadeada.java">
+                <a href="./src/java/DoublyLinkedList.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -3447,7 +3447,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/SomaDoisNumeros.java">
+                <a href="./src/java/AddTwoNumbers.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
@@ -3505,7 +3505,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Palindromo.java">
+                <a href="./src/java/Palindrome.java">
                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
                 </a>
             </td>
