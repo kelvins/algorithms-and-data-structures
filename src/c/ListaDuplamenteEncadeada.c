@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Lista encadeada utilizando celula cabe�a */
+/* Lista encadeada utilizando celula cabeça */
 
 typedef struct cel celula;
 struct cel{
@@ -15,7 +15,7 @@ struct cel{
     struct cel *ant;
 };
 
-/* O ponteiro 'p' � a cabe�a da lista*/
+/* O ponteiro 'p' é a cabeça da lista*/
 
 void insereInicio(int x, celula *p) /* Insere no inicio da lista*/
 {
@@ -23,7 +23,7 @@ void insereInicio(int x, celula *p) /* Insere no inicio da lista*/
    nova = malloc (sizeof (celula));
    nova->dado = x;
    nova->prox = p->prox;
-   /* verifica se a lista est� vazia*/
+   /* verifica se a lista está vazia*/
    if (p->prox != NULL)
    {
       q = nova->prox;
@@ -92,9 +92,9 @@ void libera (celula *ini)
     celula *p;
     p=ini;
     while (p != NULL) {
-        celula *q = p->prox; /* guarda refer�ncia para o pr�ximo elemento*/
-        free(p); /* libera a mem�ria apontada por p */
-        p = q; /* faz p apontar para o pr�ximo */
+        celula *q = p->prox; /* guarda referência para o próximo elemento*/
+        free(p); /* libera a memória apontada por p */
+        p = q; /* faz p apontar para o próximo */
     }
 }
 
