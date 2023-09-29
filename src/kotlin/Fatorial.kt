@@ -13,7 +13,7 @@
 
 fun factorial(number: Int) {
     val initialNumber: Int = number
-     var factorial: Long = 1
+    var factorial: Long = 1
 
     for (i in 1..initialNumber) {
         factorial *= i.toLong()
