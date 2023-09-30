@@ -4,7 +4,7 @@
  * The *exponentiationRecursive* function presents the values of a number (*base*) raised by an *exponent*.
  * In this function, the concept of *recursion* is used, in which the created function is called within it, one or more times internally of the same.
  *
- * @author Algorithm version for Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
+ * 
  * @see https://github.com/Alfredo-Paes
  *
  * @param base is of type integer (Int)

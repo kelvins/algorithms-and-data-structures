@@ -1,6 +1,5 @@
 /*
-*	Grafos - Algoritmo de Floyd-Warshall em C
-*	Kelvin Salton do Prado - 2015
+
 *	Complexidade: Teta de vértices ao cubo = Teta(n^3)
 *
 *	Encontra o caminho de todos para todos os vértices

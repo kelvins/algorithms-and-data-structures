@@ -1,6 +1,5 @@
 /*
- * Graphs - Dijkstra's Algorithm in JavaScript
- * Complexity: Theta(n^2)
+ * 
  *
  * 1 for all - Non-negative weight edges - Greedy algorithm
  * Finds the shortest path from one vertex (start) to another (destination)

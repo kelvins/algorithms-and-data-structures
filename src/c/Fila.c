@@ -1,6 +1,5 @@
 /*
-*	Exemplo de implementação de Fila em C
-*	Kelvin S. do Prado
+*	
 */
 
 #include <stdio.h>

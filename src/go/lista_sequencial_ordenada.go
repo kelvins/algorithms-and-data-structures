@@ -1,10 +1,6 @@
 /*
 * Listas - Lista linear ordenada
-* Danilo Moura - 2020
-*
-* Implementação da lista sequencial cujos elementos estão ordenados
-*
-* link Go PlayGround: https://play.golang.org/p/J6Jbi2_FWJk
+* 
  */
 
 package main

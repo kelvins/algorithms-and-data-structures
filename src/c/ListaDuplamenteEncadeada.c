@@ -1,13 +1,12 @@
 /*
-*   Exemplo Lista Duplamente Encadeada em C
-*   Luan Felipe dos S. da Silva
+*  
 */
 
 
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Lista encadeada utilizando celula cabeça */
+/* Lista encadeada utilizando celula cabeï¿½a */
 
 typedef struct cel celula;
 struct cel{
@@ -16,7 +15,7 @@ struct cel{
     struct cel *ant;
 };
 
-/* O ponteiro 'p' é a cabeça da lista*/
+/* O ponteiro 'p' ï¿½ a cabeï¿½a da lista*/
 
 void insereInicio(int x, celula *p) /* Insere no inicio da lista*/
 {
@@ -24,7 +23,7 @@ void insereInicio(int x, celula *p) /* Insere no inicio da lista*/
    nova = malloc (sizeof (celula));
    nova->dado = x;
    nova->prox = p->prox;
-   /* verifica se a lista está vazia*/
+   /* verifica se a lista estï¿½ vazia*/
    if (p->prox != NULL)
    {
       q = nova->prox;
@@ -93,9 +92,9 @@ void libera (celula *ini)
     celula *p;
     p=ini;
     while (p != NULL) {
-        celula *q = p->prox; /* guarda referência para o próximo elemento*/
-        free(p); /* libera a memória apontada por p */
-        p = q; /* faz p apontar para o próximo */
+        celula *q = p->prox; /* guarda referï¿½ncia para o prï¿½ximo elemento*/
+        free(p); /* libera a memï¿½ria apontada por p */
+        p = q; /* faz p apontar para o prï¿½ximo */
     }
 }
 

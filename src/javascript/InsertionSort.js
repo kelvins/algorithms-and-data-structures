@@ -1,5 +1,4 @@
-//Diogo L.C. Felipe
-//diogomem@outlook.com
+
 
 /*
    Insertion Sort is a sorting algorithm that works as follows:

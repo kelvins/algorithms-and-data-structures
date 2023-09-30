@@ -4,7 +4,7 @@ import java.util.List;
 
 // Utilizado o OpenJDK 17.0.3
 /*
- * @author Gabriel Nascimento. GitHub: Gabrielxdf
+ * 
  *
  */
 public class SomaDoisNumeros {

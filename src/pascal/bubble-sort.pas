@@ -2,7 +2,7 @@ program selection_sort;
 
 {dia 06/05
 Version: 0.5
-Nome: Wellington De Souza Silva
+
 Método : Selection Sort}
 
 // bug com dois valores altos ??? 

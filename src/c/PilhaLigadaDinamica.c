@@ -1,6 +1,5 @@
 /*
-*	Pilha Dinâmica utilizando uma Lista Ligada em C
-*	Kelvin Salton do Prado - 2015
+*	
 */
 
 #include <stdio.h>

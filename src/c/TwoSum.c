@@ -1,7 +1,6 @@
 /*
 TwoSum Algorithm in C
-Ricardo Ferreira Carvalheira - 2023
-https://github.com/ricardocarva
+
 
 	Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 	

@@ -1,6 +1,5 @@
 /*
-Calculo de Pi em C
-Bruno Dantas de Paiva - 2021
+
 https://github.com/DantasB
 */
 

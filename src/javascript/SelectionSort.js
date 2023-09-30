@@ -1,5 +1,3 @@
-// Diogo L.C. Felipe
-// diogomem@outlook.com
 
 /*
    Selection Sort, or the selection sort algorithm, sorts a series of data

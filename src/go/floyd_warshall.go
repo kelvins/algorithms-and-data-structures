@@ -2,10 +2,7 @@ package main
 
 import "fmt"
 
-// Grafos - Algoritmo de Floyd-Warshall em GO
-// Douglas Oliveira - 2022
-// https://github.com/xDouglas90
-// link Go PlayGround: https://go.dev/play/p/tIRTHkNf7Fz
+
 
 // Algoritmo de Floyd-Warshall
 func FloydWarshall(graph [][]int) [][]int {

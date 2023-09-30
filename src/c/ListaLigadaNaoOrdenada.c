@@ -1,6 +1,5 @@
 /*
-*	Exemplo de Lista Ligada Dinâmica Não Ordenada em C
-*	Kelvin Salton do Prado - 2015
+*	
 */
 
 #include <stdio.h>

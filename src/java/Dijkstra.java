@@ -1,6 +1,4 @@
-// Algoritimo de Dijkstra
-// Anderson Carneiro da Silva
-// https://github.com/AndersonSheep
+
 
 // Baseado no método do GeekforGeeks
 // Um programa Java para o algoritmo de caminho mais curto de fonte única de Dijkstra.

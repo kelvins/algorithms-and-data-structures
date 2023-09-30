@@ -1,6 +1,5 @@
 /*
-*	Implementação de uma Estrutura de Fila Dinâmica Ligada/Encadeada em C
-*	Kelvin Salton do Prado - 2015
+*	
 */
 
 #include <stdio.h>
