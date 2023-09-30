@@ -5,180 +5,164 @@ Kelvin Salton do Prado
 """
 
 
-class Arvore:
-    def __init__(self, chave):
-        self.chave = chave
-        self.esquerda = None
-        self.direita = None
+class TreeNode:
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
 
 
-# Metodos de Busca
-def busca_recursiva(no, chave):
-    if no is None:
-        print(f"{chave} nao foi encontrado na arvore")
-        return
-    if no.chave == chave:
-        print(f"{chave} foi encontrado na arvore")
-        return no
-    if chave > no.chave:
-        busca_recursiva(no.direita, chave)
+# Search Methods
+def recursive_search(node, key):
+    if node is None:
+        print(f"{key} was not found in the tree")
+        return None
+    if node.key == key:
+        print(f"{key} was found in the tree")
+        return node
+    if key > node.key:
+        return recursive_search(node.right, key)
     else:
-        busca_recursiva(no.esquerda, chave)
+        return recursive_search(node.left, key)
 
 
-def busca_linear(no, chave):
-    while no is not None:
-        if no.chave == chave:
-            return no
-        elif chave > no.chave:
-            no = no.direita
+def linear_search(node, key):
+    while node is not None:
+        if node.key == key:
+            return node
+        elif key > node.key:
+            node = node.right
         else:
-            no = no.esquerda
+            node = node.left
     return None
 
 
-# Metodo de Insercao
-def insere(no, chave):
-    if no is None:
-        no = Arvore(chave)
+# Insertion Method
+def insert(node, key):
+    if node is None:
+        return TreeNode(key)
     else:
-        if chave < no.chave:
-            no.esquerda = insere(no.esquerda, chave)
+        if key < node.key:
+            node.left = insert(node.left, key)
         else:
-            no.direita = insere(no.direita, chave)
-    return no
+            node.right = insert(node.right, key)
+    return node
 
 
-# Metodos de Impressao
-IMPRIME_ARVORE = ""
+# Printing Methods
+def pre_order(node):
+    if node is None:
+        return []
+    result = [node.key]
+    result.extend(pre_order(node.left))
+    result.extend(pre_order(node.right))
+    return result
 
 
-def pre_ordem(no):
-    global IMPRIME_ARVORE
-    if no is None:
-        return
-    IMPRIME_ARVORE += str(no.chave) + ", "
-    pre_ordem(no.esquerda)
-    pre_ordem(no.direita)
+def in_order(node):
+    if node is None:
+        return []
+    result = []
+    result.extend(in_order(node.left))
+    result.append(node.key)
+    result.extend(in_order(node.right))
+    return result
 
 
-def em_ordem(no):
-    global IMPRIME_ARVORE
-    if no is None:
-        return
-    em_ordem(no.esquerda)
-    IMPRIME_ARVORE += str(no.chave) + ", "
-    em_ordem(no.direita)
+def post_order(node):
+    if node is None:
+        return []
+    result = []
+    result.extend(post_order(node.left))
+    result.extend(post_order(node.right))
+    result.append(node.key)
+    return result
 
 
-def pos_ordem(no):
-    global IMPRIME_ARVORE
-    if no is None:
-        return
-    pos_ordem(no.esquerda)
-    pos_ordem(no.direita)
-    IMPRIME_ARVORE += str(no.chave) + ", "
-
-
-# Acha a Altura da Arvore
-def maximo(a, b):
-    if a > b:
-        return a
-    return b
-
-
-def altura(no):
-    if no is None:
+# Finding the Tree's Height
+def tree_height(node):
+    if node is None:
         return 0
-    return 1 + maximo(altura(no.esquerda), altura(no.direita))
+    return 1 + max(tree_height(node.left), tree_height(node.right))
 
 
-# Metodos de Exclusao
-def busca_no_pai(no, ch):
-    no_pai = no
-    while no is not None:
-        if no.chave == ch:
-            return no_pai
-        no_pai = no
-        if no.chave < ch:
-            no = no.direita
+# Deletion Methods
+def find_parent(node, ch):
+    parent_node = node
+    while node is not None:
+        if node.key == ch:
+            return parent_node
+        parent_node = node
+        if node.key < ch:
+            node = node.right
         else:
-            no = no.esquerda
-    return no_pai
+            node = node.left
+    return parent_node
 
 
-def maiorAesquerda(no):
-    no = no.esquerda
-    while no.direita is not None:
-        no = no.direita
-    return no
+def largest_on_left(node):
+    node = node.left
+    while node.right is not None:
+        node = node.right
+    return node
 
 
-def exclui(no, ch):
-    atual = busca_linear(no, ch)
-    if atual is None:
+def delete(node, ch):
+    current = linear_search(node, ch)
+    if current is None:
         return False
-    noPai = busca_no_pai(no, ch)
-    if atual.esquerda is None or atual.direita is None:
-        if atual.esquerda is None:
-            substituto = atual.direita
+    parent = find_parent(node, ch)
+    if current.left is None or current.right is None:
+        if current.left is None:
+            substitute = current.right
         else:
-            substituto = atual.esquerda
-        if noPai is None:
-            no = substituto
-        elif ch > noPai.chave:
-            noPai.direita = substituto
+            substitute = current.left
+        if parent is None:
+            node = substitute
+        elif ch > parent.key:
+            parent.right = substitute
         else:
-            noPai.esquerda = substituto
-        # AQUI DA FREE(ATUAL)
+            parent.left = substitute
     else:
-        substituto = maiorAesquerda(atual)
-        atual.chave = substituto.chave
-        if substituto.esquerda is not None:
-            atual.esquerda = substituto.esquerda
+        substitute = largest_on_left(current)
+        current.key = substitute.key
+        if substitute.left is not None:
+            current.left = substitute.left
         else:
-            atual.esquerda = None
-        # FREE(substituto)
+            current.left = None
     return True
 
 
 if __name__ == "__main__":
-    arvore = Arvore(3)  # Cria arvore (raiz)
-    # Insere varios valores na arvore
-    arvore = insere(arvore, 2)
-    arvore = insere(arvore, 1)
-    arvore = insere(arvore, 4)
-    arvore = insere(arvore, 6)
-    arvore = insere(arvore, 8)
-    arvore = insere(arvore, 5)
-    arvore = insere(arvore, 7)
-    arvore = insere(arvore, 0)
+    tree = TreeNode(3)  # Create a tree (root)
+    # Insert several values into the tree
+    tree = insert(tree, 2)
+    tree = insert(tree, 1)
+    tree = insert(tree, 4)
+    tree = insert(tree, 6)
+    tree = insert(tree, 8)
+    tree = insert(tree, 5)
+    tree = insert(tree, 7)
+    tree = insert(tree, 0)
 
-    busca_recursiva(arvore, 6)  # Busca que imprime na propria funcao
-
-    if busca_linear(arvore, 6) is not None:  # Retorna o NO ou None se nao encontrou
-        print("Valor encontrado")
+    result = recursive_search(tree, 6)
+    if result is not None:
+        print("Value found")
     else:
-        print("Valor nao encontrado")
+        print("Value not found")
 
-    print(f"Altura: {altura(arvore)}")
+    print(f"Height: {tree_height(tree)}")
 
-    # Exclui varios valores
-    exclui(arvore, 7)
-    exclui(arvore, 5)
-    exclui(arvore, 8)
-    exclui(arvore, 3)
+    # Delete various values
+    delete(tree, 7)
+    delete(tree, 5)
+    delete(tree, 8)
+    delete(tree, 3)
 
-    # Chama os metodos de impressao
-    IMPRIME = ""
-    pre_ordem(arvore)
-    print(f"PreOrdem: {IMPRIME}")
-    IMPRIME = ""
-    em_ordem(arvore)
-    print(f"EmOrdem: {IMPRIME}")
-    IMPRIME = ""
-    pos_ordem(arvore)
-    print(f"PosOrdem: {IMPRIME}")
+    # Call printing methods
+    print(f"PreOrder: {pre_order(tree)}")
+    print(f"InOrder: {in_order(tree)}")
+    print(f"PostOrder: {post_order(tree)}")
 
-    # Mostra a altura da arvore apos remover os itens
-    print(f"Altura: {altura(arvore)}")
+    # Display the height of the tree after removing items
+    print(f"Height: {tree_height(tree)}")
