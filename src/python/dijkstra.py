@@ -8,7 +8,6 @@
 
 import heapq
 
-
 class Graph:
     """Defines a graph using an adjacency matrix.
 
@@ -32,15 +31,15 @@ class Graph:
             for j in range(len(edges[i])):
                 self.__add_edge(i, edges[i][j])
 
-    def __add_edge(self, u: int, v: int) -> None:
+    def __add_edge(self, u: int, v: list) -> None:
         """Add the edge to the adjacency matrix.
 
         Args:
             u (int): Vertex u
-            v (int): Vertex v
+            v (list): Vertex v in the format [weight, vertex]
         """
-        if v[0] not in self.adj[u]:
-            self.adj[u].append([v[1], v[0]])
+        if v[1] not in [vertex[1] for vertex in self.adj[u]]:
+            self.adj[u].append(v)
 
     def _weight_between_u_and_v(self, u: int, v: int) -> float:
         """Return the weight between vertices u and v.
@@ -52,7 +51,7 @@ class Graph:
         Returns:
             float: Weight between u and v
         """
-        for vertex in self.adj[v[1]]:
+        for vertex in self.adj[v]:
             if vertex[1] == u:
                 return vertex[0]
 
@@ -80,11 +79,10 @@ class Graph:
 
             S.add((u, distance[u]))
             for v in self.adj[u]:
-                if distance[v[1]] > distance_u + self._weight_between_u_and_v(u, v):
-                    distance[v[1]] = distance_u + self._weight_between_u_and_v(u, v)
+                if distance[v[1]] > distance_u + self._weight_between_u_and_v(u, v[1]):
+                    distance[v[1]] = distance_u + self._weight_between_u_and_v(u, v[1])
 
         return distance
-
 
 edges = [
     [[1, 1], [2, 0.3], [5, 0.2]],  # Neighbors of vertex 0.
