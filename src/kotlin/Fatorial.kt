@@ -1,27 +1,27 @@
 /**
- * Função "fatorial"
+ * "factorial" function
  *
- * A função *Fatorial* apresenta os valores da multiplicação *n números* por seus antecessores maiores ou iguais a 1.
+ * The *factorial* function presents the values of multiplying *n numbers* by their predecessors greater than or equal to 1.
  *
- * @author Versão do algoritmo para Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
+ * @author Algorithm version for Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
  * @see https://github.com/Alfredo-Paes
  *
- * @param numero é do tipo inteiro(Int)
+ * @param number is of type integer (Int)
  *
- * @return retornará um número do tipo *Long* no qual o tipo está atribuido para a variável *fatorial*.
+ * @return will return a number of type *Long* in which the type is assigned to the *factorial* variable.
  */
 
-fun fatorial(numero: Int) {
-    val numeroInicial: Int = numero
-    var fatorial: Long = 1
+fun factorial(number: Int) {
+    val initialNumber: Int = number
+    var factorial: Long = 1
 
-    for (i in 1..numeroInicial) {
-        fatorial *= i.toLong()
+    for (i in 1..initialNumber) {
+        factorial *= i.toLong()
     }
 
-    println("Fatorial de $numero! é $fatorial")
+    println("Factorial of $number! is $factorial")
 }
 
 fun main() {
-    fatorial(7)
+    factorial(7)
 }
