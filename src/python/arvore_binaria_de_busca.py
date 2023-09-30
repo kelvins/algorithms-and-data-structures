@@ -4,11 +4,13 @@ Kelvin Salton do Prado
 2015
 """
 
+
 class TreeNode:
     def __init__(self, key):
         self.key = key
         self.left = None
         self.right = None
+
 
 # Search Methods
 def recursive_search(node, key):
@@ -23,6 +25,7 @@ def recursive_search(node, key):
     else:
         return recursive_search(node.left, key)
 
+
 def linear_search(node, key):
     while node is not None:
         if node.key == key:
@@ -32,6 +35,7 @@ def linear_search(node, key):
         else:
             node = node.left
     return None
+
 
 # Insertion Method
 def insert(node, key):
@@ -44,6 +48,7 @@ def insert(node, key):
             node.right = insert(node.right, key)
     return node
 
+
 # Printing Methods
 def pre_order(node):
     if node is None:
@@ -52,6 +57,7 @@ def pre_order(node):
     result.extend(pre_order(node.left))
     result.extend(pre_order(node.right))
     return result
+
 
 def in_order(node):
     if node is None:
@@ -62,6 +68,7 @@ def in_order(node):
     result.extend(in_order(node.right))
     return result
 
+
 def post_order(node):
     if node is None:
         return []
@@ -71,11 +78,13 @@ def post_order(node):
     result.append(node.key)
     return result
 
+
 # Finding the Tree's Height
 def tree_height(node):
     if node is None:
         return 0
     return 1 + max(tree_height(node.left), tree_height(node.right))
+
 
 # Deletion Methods
 def find_parent(node, ch):
@@ -90,11 +99,13 @@ def find_parent(node, ch):
             node = node.left
     return parent_node
 
+
 def largest_on_left(node):
     node = node.left
     while node.right is not None:
         node = node.right
     return node
+
 
 def delete(node, ch):
     current = linear_search(node, ch)
@@ -120,6 +131,7 @@ def delete(node, ch):
         else:
             current.left = None
     return True
+
 
 if __name__ == "__main__":
     tree = TreeNode(3)  # Create a tree (root)
