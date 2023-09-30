@@ -1,22 +1,22 @@
 """ Algoritmo de exponenciação implementado com recursão. """
+"""Exponentiation algorithm implemented using recursion."""
 
-
-def exponenciacao_recursiva(base, expoente):
-    """Implementação de um algoritmo de exponenciação.
+def recursive_exponentiation(base, exponent):
+    """Implementation of an exponentiation algorithm.
 
     Args:
-        base (int): Base da operação
-        expoente (int): Expoente da operação
+        base (int): Base of the operation.
+        exponent (int): Exponent of the operation.
 
     Returns:
-        Retorna o resultado da operaçao de exponenciação.
+        Returns the result of the exponentiation operation.
     """
-    if expoente == 0:
+    if exponent == 0:
         return 1
 
-    return base * exponenciacao_recursiva(base, expoente - 1)
+    return base * recursive_exponentiation(base, exponent - 1)
 
 
 if __name__ == "__main__":
-    print(exponenciacao_recursiva(5, 2))
-    print(exponenciacao_recursiva(5, 5))
+    print(recursive_exponentiation(5, 2))
+    print(recursive_exponentiation(5, 5))

@@ -1,33 +1,34 @@
 """
 Implementação do Gnome Sort ou Stupid Sort
 """
+"""
+Implementation of Gnome Sort or Stupid Sort
+"""
 
 
-def gnomesort(lista):
+def gnome_sort(lst):
     i = 0
-    while i < len(lista):
-        # caso a posição de i for 0 ou se o valor de i for maior ou igual
-        # ao seu anterior, o gnomo apenas avançará uma casa
-        if i == 0 or lista[i] >= lista[i - 1]:
+    while i < len(lst):
+        # If the position i is 0 or if the value at i is greater than or equal to its previous,
+        # the gnome will simply move one step forward
+        if i == 0 or lst[i] >= lst[i - 1]:
             i += 1
-
-        # caso o conteúdo da posição i seja menor ou igual a do seu anterior,
-        # o gnomo trocará os valores de lugar e voltará uma posição
-        # para validar a ordem
+        # If the content at position i is less than or equal to its previous,
+        # the gnome will swap the values and move one step back to validate the order
         else:
-            lista[i], lista[i - 1] = lista[i - 1], lista[i]
+            lst[i], lst[i - 1] = lst[i - 1], lst[i]
             i -= 1
 
-    return lista
+    return lst
 
 
 def main():
-    lista = [-1, 1, 0, -7, 7, -5, 5, 2, -2, 4, -4, 9, -9, -6, 6, -8, 8, -3, 3]
-    # imprime a lista não ordenada
-    print(f"Lista antes de ser ordenada: {lista}")
-    lista = gnomesort(lista)
-    # imprime a lista ordenada
-    print(f"Lista após ordenação com Gnome Sort: {lista}")
+    lst = [-1, 1, 0, -7, 7, -5, 5, 2, -2, 4, -4, 9, -9, -6, 6, -8, 8, -3, 3]
+    # Print the unsorted list
+    print(f"List before sorting: {lst}")
+    lst = gnome_sort(lst)
+    # Print the sorted list
+    print(f"List after sorting with Gnome Sort: {lst}")
 
 
 if __name__ == "__main__":

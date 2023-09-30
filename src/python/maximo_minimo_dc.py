@@ -2,25 +2,27 @@
 # Bruno Dantas de Paiva - 2021
 # https://github.com/DantasB
 
+# Finding Minimum and Maximum of an array using divide & conquer
+# Bruno Dantas de Paiva - 2021
+# https://github.com/DantasB
+
 import random
 
+def min_max_dc(array, start, end):
+    """Finds the minimum and maximum values in an array using D&C."""
+    if start == end:
+        return array[start], array[start]
 
-def min_max_dc(vetor, inicio, fim):
-    """Encontra o valor mínimo e máximo em um vetor usando D&C."""
-    if inicio == fim:
-        return vetor[inicio], vetor[inicio]
-
-    meio = (inicio + fim) // 2
-    vetor_min1, vetor_max1 = min_max_dc(vetor, inicio, meio)
-    vetor_min2, vetor_max2 = min_max_dc(vetor, meio + 1, fim)
-    return min(vetor_min1, vetor_min2), max(vetor_max1, vetor_max2)
-
+    middle = (start + end) // 2
+    min1, max1 = min_max_dc(array, start, middle)
+    min2, max2 = min_max_dc(array, middle + 1, end)
+    return min(min1, min2), max(max1, max2)
 
 if __name__ == "__main__":
-    vetor = [random.randrange(10, 100) for _ in range(0, 10)]
-    print(vetor)
+    array = [random.randrange(10, 100) for _ in range(0, 10)]
+    print(array)
 
-    minimo, maximo = min_max_dc(vetor, 0, len(vetor) - 1)
+    minimum, maximum = min_max_dc(array, 0, len(array) - 1)
 
-    print(f"Min DC: {minimo}")
-    print(f"Max DC: {maximo}")
+    print(f"Min DC: {minimum}")
+    print(f"Max DC: {maximum}")

@@ -1,59 +1,57 @@
 """Implementação do algoritmo insertion sort iterativo e recursivo."""
+"""Implementation of Iterative and Recursive Insertion Sort Algorithm."""
 
-
-def insertion_sort_iterativo(vetor):
+def insertion_sort_iterative(array):
     """
-    Implementação do algoritmo de insertion sort iterativo.
+    Implementation of the iterative insertion sort algorithm.
 
     Args:
-        vetor (list): lista que será ordenada.
+        array (list): List to be sorted.
 
     Returns:
-        Retorna a lista ordenada.
+        Returns the sorted list.
     """
-    for i in range(1, len(vetor)):
-        chave = vetor[i]
-        aux = i - 1
-        while aux >= 0 and vetor[aux] > chave:
-            vetor[aux + 1] = vetor[aux]
-            aux -= 1
-        vetor[aux + 1] = chave
-    return vetor
+    for i in range(1, len(array)):
+        key = array[i]
+        j = i - 1
+        while j >= 0 and array[j] > key:
+            array[j + 1] = array[j]
+            j -= 1
+        array[j + 1] = key
+    return array
 
-
-def insertion_sort_recursivo(vetor, indice):
+def insertion_sort_recursive(array, index):
     """
-    Implementação do algoritmo de insertion sort recursivo.
+    Implementation of the recursive insertion sort algorithm.
 
     Args:
-        vetor (list): lista que será ordenada.
-        indice (int): índice do elemento a ser ordenado na lista.
+        array (list): List to be sorted.
+        index (int): Index of the element to be sorted in the list.
 
     Returns:
-        Retorna a lista ordenada.
+        Returns the sorted list.
     """
-    aux = indice
-    while vetor[aux] < vetor[aux - 1]:
-        temp = vetor[aux]
-        vetor[aux] = vetor[aux - 1]
-        vetor[aux - 1] = temp
-        aux -= 1
-        if aux == 0:
+    current_index = index
+    while array[current_index] < array[current_index - 1]:
+        temp = array[current_index]
+        array[current_index] = array[current_index - 1]
+        array[current_index - 1] = temp
+        current_index -= 1
+        if current_index == 0:
             break
-    if indice < len(vetor) - 1:
-        insertion_sort_recursivo(vetor, indice + 1)
-    return vetor
-
+    if index < len(array) - 1:
+        insertion_sort_recursive(array, index + 1)
+    return array
 
 if __name__ == "__main__":
-    lista_nao_ordenada = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
-    print("Lista não ordenada:")
-    print(lista_nao_ordenada)
+    unsorted_list = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
+    print("Unsorted List:")
+    print(unsorted_list)
 
-    lista_nao_ordenada = insertion_sort_iterativo(lista_nao_ordenada)
-    print("Lista ordenada com insertion sort iterativo:")
-    print(lista_nao_ordenada)
+    unsorted_list = insertion_sort_iterative(unsorted_list)
+    print("Sorted List with Iterative Insertion Sort:")
+    print(unsorted_list)
 
-    lista_nao_ordenada = insertion_sort_recursivo(lista_nao_ordenada, 1)
-    print("Lista ordenada com insertion sort recursivo:")
-    print(lista_nao_ordenada)
+    unsorted_list = insertion_sort_recursive(unsorted_list, 1)
+    print("Sorted List with Recursive Insertion Sort:")
+    print(unsorted_list)

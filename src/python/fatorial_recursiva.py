@@ -1,19 +1,18 @@
 """ Algoritmo de fatorial implementado com recursão """
+"""Factorial Algorithm Implemented with Recursion"""
 
-
-def fatorial_recursivo(numero):
+def recursive_factorial(number):
     """
-    Implementação de um algoritmo de fatorial com recursão.
+    Implementation of a factorial algorithm using recursion.
 
-    Argumentos:
-        numero: int. o número do qual deseja-se obter o fatorial.
+    Arguments:
+        number: int. The number for which you want to calculate the factorial.
 
-    Retorna o resultado da operação.
+    Returns the result of the operation.
     """
-    if numero == 1:
+    if number == 1:
         return 1
 
-    return numero * fatorial_recursivo(numero - 1)
+    return number * recursive_factorial(number - 1)
 
-
-print(fatorial_recursivo(5))
+print(recursive_factorial(5))
