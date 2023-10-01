@@ -1,11 +1,11 @@
 /*
- * O Problema do Caixeiro Viajante (PCV) eh um problema que tenta determinar a
- * menor rota para percorrer uma serie de cidades (visitando uma unica vez cada
- * uma delas), retornando a cidade de origem.
+ * The Traveling Salesman Problem (TSP) is a problem that seeks to determine
+ * the shortest route to visit a series of cities (visiting each one exactly once)
+ * and returning to the starting city.
  *
- * Utilizando uma matriz de distancia para representar um grafo nao direcionado.
+ * It is represented using a distance matrix to depict an undirected graph.
  *
- * Supondo que temos o seguinte grafo:
+ * Assuming we have the following graph:
  *
  *               6
  *      -------------------
@@ -23,7 +23,7 @@
  *      -------------------
  *               1
  *
- *      Matriz de Distancia
+ *      Distance Matrix
  *       0  1  2  3  4  5
  *    0  0  3  6  2  3  -
  *    1  3  0  1  6  8  2
@@ -32,9 +32,10 @@
  *    4  3  8  4  6  0  4
  *    5  -  2  5  1  4  0
  *
- * Melhor solucao:
+ * Best solution:
  * 0 - 3 - 5 - 1 - 2 - 4 - 0: 13
  */
+
 
 package main
 
@@ -45,31 +46,31 @@ const infinito = 99999999
 
 var matrizDistancia [][]int
 
-var tempSolucao []int   // Solucao temporaria
-var melhorSolucao []int // Melhor solucao
-var visitados []bool    // Vertices visitados
+var tempSolucao []int   // Temporary Solution
+var melhorSolucao []int // Best Solution
+var visitados []bool    // Visited vertices
 
 var valorMelhorSolucao int
 var valorSolucaoAtual int
 
 func CaixeiroViajanteAux(x int) {
 
-	// Significa que ja nao eh mais a melhor solucao podemos parar por aqui
+// This means it is no longer the best solution; we can stop here.
 	if valorSolucaoAtual > valorMelhorSolucao {
 		return
 	}
 
-	// Significa que o vetor da solucao temporaria esta completo
+	// This means that the temporary solution vector is complete.
 	if x == vertices {
 		distancia := matrizDistancia[tempSolucao[x-1]][tempSolucao[0]]
 
-		// Significa que encontrou uma solucao melhor
+		// This means that a better solution has been found.
 		if distancia < infinito && (valorSolucaoAtual+distancia) < valorMelhorSolucao {
 
-			// Temos uma solucao melhor
+			// We have found a better solution.
 			valorMelhorSolucao = valorSolucaoAtual + distancia
 
-			// Copia todo o vetor para a melhor solucao
+			// Copy the entire vector to the best solution.
 			for i := 0; i < vertices; i++ {
 				melhorSolucao[i] = tempSolucao[i]
 			}
@@ -77,42 +78,42 @@ func CaixeiroViajanteAux(x int) {
 		return
 	}
 
-	// Ultimo vertice que se encontra na solucao temporaria
+	// Last vertex found in the temporary solution
 	ultimo := tempSolucao[x-1]
 
-	// Percorre todas as colunas da matriz de distancia na linha do ultimo vertice
+	// Iterate through all columns of the distance matrix in the row of the last vertex
 	for i := 0; i < vertices; i++ {
 
-		// Se a posicao ainda nao foi visitada e o valor da matriz eh menor que infinito
+		// If the position has not been visited yet and the value in the matrix is less than infinity
 		if !visitados[i] && matrizDistancia[ultimo][i] < infinito {
-			// Marque a posicao como visitada
+			// Mark the position as visited
 			visitados[i] = true
-			// Carrega o vertice atual na solucao temporaria
+			// Load the current vertex into the temporary solution
 			tempSolucao[x] = i
-			// Incrementa o total do caminho percorrido com base na posicao da matriz
+			// Increment the total distance traveled based on the matrix position
 			valorSolucaoAtual += matrizDistancia[ultimo][i]
-			// Chama recursivamente para o proximo vertice
+			// Call recursively for the next vertex
 			CaixeiroViajanteAux(x + 1)
-			// Se ainda nao terminou decrementa o valor da variabel que guarta o total do caminho
+			// If not finished yet, decrement the value of the variable that stores the total distance
 			valorSolucaoAtual -= matrizDistancia[ultimo][i]
-			// Define como nao visitada para poder ser acessada por outro vertice
+			// Mark as not visited to be accessed by another vertex
 			visitados[i] = false
 		}
 	}
 }
 
 func CaixeiroViajante(posicaoInicial int) {
-	// Verifica se a posicao eh valida
+	// Check if the position is valid
 	if posicaoInicial < vertices {
-		visitados[posicaoInicial] = true // Marca o primeiro vertice como visitado
-		tempSolucao[0] = posicaoInicial  // Coloca a posicao inicial na primeira posicao da solucao temporaria
-		CaixeiroViajanteAux(1)           // Chama o metodo auxiliar do caixeiro viajante
+		visitados[posicaoInicial] = true // Mark the first vertex as visited
+		tempSolucao[0] = posicaoInicial  // Place the initial position in the first position of the temporary solution
+		CaixeiroViajanteAux(1)           // Call the auxiliary method for the traveling salesman
 	} else {
 		fmt.Println("Vertice inicial invalid")
 	}
 }
 
-// Inicia os vetores e valores padrao
+// Initializes the arrays and default values.
 func inicia() {
 
 	valorMelhorSolucao = infinito
@@ -124,7 +125,7 @@ func inicia() {
 		melhorSolucao = append(melhorSolucao, -1)
 	}
 
-	// Cria a matriz de distancia
+	// Creates the distance matrix.
 	linha0 := []int{0, 3, 6, 2, 3, infinito}
 	linha1 := []int{3, 0, 1, 6, 8, 2}
 	linha2 := []int{6, 1, 0, infinito, 4, 5}

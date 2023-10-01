@@ -8,6 +8,7 @@ func main() {
 	fmt.Println("Element not found: ", SearchPosition(myArray, "i"))
 }
 
+// SearchPosition returns the position of the element in the array
 func SearchPosition(myArray []string, element string) int {
 	for i, v := range myArray {
 		if v == element {

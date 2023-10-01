@@ -2,19 +2,24 @@ package main
 
 import "fmt"
 
+// Recursive Approach
 func BinarySearch(seq []int, element, start, end int) int {
-	index := (start + end) / 2
+	index := (start + end) / 2 // middle index
 
+	// If the element is found
 	if index < len(seq) && seq[index] == element {
 		return index
 	}
 
+	// If the element is not found
 	if start != end {
+		// If the element is greater than the middle element
 		if seq[index] < element {
-			return BinarySearch(seq, element, index+1, end)
+			return BinarySearch(seq, element, index+1, end) // search in the right side
 		}
 
-		return BinarySearch(seq, element, start, index-1)
+		// If the element is less than the middle element
+		return BinarySearch(seq, element, start, index-1) // search in the left side
 	}
 
 	return -1
