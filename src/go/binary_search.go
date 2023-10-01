@@ -4,7 +4,7 @@ import "fmt"
 
 // Recursive Approach
 func BinarySearch(seq []int, element, start, end int) int {
-    index := (start + end) / 2 // Calculate the middle index
+    index := (start + end) // Calculate the middle index
 
     // If the element is found
     if index < len(seq) && seq[index] == element {
@@ -29,6 +29,6 @@ func main() {
     value := 7
     slice := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
     fmt.Println("Slice:", slice)
-    index := BinarySearch(slice, value, 0, len(slice))
+    index := BinarySearch(slice, value, 0, len(slice)-1)
     fmt.Println("Value", value, "found in index:", index)
 }
