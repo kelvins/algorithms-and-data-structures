@@ -1,7 +1,3 @@
-# Grafos - Algoritmos de Dijkstra em Python
-# Bruno Dantas de Paiva - 2021
-# https://github.com/DantasB
-
 import heapq
 
 class Graph:
