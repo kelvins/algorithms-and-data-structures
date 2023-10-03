@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HashTable
   attr_reader :hash
 
@@ -29,7 +31,7 @@ class HashTable
 end
 
 hash = HashTable.new
-hash.put(:name, 'Jane')
+hash.put(:name, "Jane")
 hash.put(:age, 22)
 
 puts hash.get(:name) # => Jane
