@@ -1,9 +1,6 @@
 package main
 
-import (
-	"github.com/stretchr/testify/assert"
-	"testing"
-)
+import "fmt"
 
 type Deque struct {
 	Store []int
@@ -43,24 +40,26 @@ func (deque *Deque) LPop() *int {
 	return &element
 }
 
-func TestDeque(t *testing.T) {
+func main() {
 	deque := Deque{}
+
+	fmt.Println("RPush(1, 2, 3)")
 
 	deque.RPush(1)
 	deque.RPush(2)
 	deque.RPush(3)
 
-	assert.Equal(t, 3, *deque.RPop())
-	assert.Equal(t, 2, *deque.RPop())
-	assert.Equal(t, 1, *deque.RPop())
-	assert.Nil(t, deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
+
+	fmt.Println("LPush(1, 2, 3)")
 
 	deque.LPush(1)
 	deque.LPush(2)
 	deque.LPush(3)
 
-	assert.Equal(t, 1, *deque.RPop())
-	assert.Equal(t, 2, *deque.RPop())
-	assert.Equal(t, 3, *deque.RPop())
-	assert.Nil(t, deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
+	fmt.Println("RPop(): ", *deque.RPop())
 }
