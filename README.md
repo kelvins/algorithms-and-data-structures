@@ -3666,7 +3666,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
         </tr>
-         <tr>
+        <tr>
             <td><a href="https://www.geeksforgeeks.org/check-if-all-given-strings-are-isograms-or-not/">Algoritmo Isogram</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
