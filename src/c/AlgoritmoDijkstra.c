@@ -79,7 +79,7 @@ int main(){
 
     Dijkstra(Matriz, nroVertices);
 
-    printf("Total caminho mais curto do vertice 0 ao 4: %lu\n", Matriz[4][0]); // Shortest total path
+    printf("Shortest path from vertex 0 to 4: %lu\n", Matriz[4][0]); // Shortest total path
 
     // Print the matrix with the updated values
     printf("Matriz:\n");
