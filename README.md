@@ -50,8 +50,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg#gh-light-mode-only" />
-                    ![Rust](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg#gh-light-mode-only)
+                     <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td align="center">
@@ -109,7 +111,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -167,7 +172,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                     <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+  <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+</picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -225,7 +233,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_binaria.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -283,7 +294,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -341,7 +355,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -399,7 +416,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/busca_sequencial_recursiva.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -457,7 +477,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -515,7 +538,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -573,7 +599,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -631,7 +660,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -689,7 +721,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -747,8 +782,11 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-                </a>
+                <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
+                    </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
@@ -805,7 +843,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/exponentiation_recursive.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -863,7 +904,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg"/>
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -921,7 +965,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial_recursiva.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -979,7 +1026,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fibonacci.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1037,7 +1087,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1095,7 +1148,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_iterativo.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1153,7 +1209,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/min_max_recursivo.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1211,7 +1270,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1269,7 +1331,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1327,7 +1392,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/torre_hanoi.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1385,7 +1453,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                   <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1443,7 +1514,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1501,7 +1575,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1561,7 +1638,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td align="center">
@@ -1619,7 +1699,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1677,7 +1760,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1735,7 +1821,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/deque.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1793,7 +1882,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fila.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1851,7 +1943,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1909,7 +2004,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/grafo.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1967,7 +2065,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2025,7 +2126,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/linked_list.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2083,7 +2187,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/doubly_linked_list.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2141,7 +2248,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2199,7 +2309,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2257,7 +2370,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/pilha.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2315,7 +2431,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2373,7 +2492,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2433,7 +2555,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                   <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td align="center">
@@ -2491,7 +2616,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bogo_sort.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2549,7 +2677,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/bubble_sort.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2607,7 +2738,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2665,7 +2799,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2723,7 +2860,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2781,7 +2921,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2839,7 +2982,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/gnomesort.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2897,7 +3043,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2955,7 +3104,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/insertion_sort.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3013,7 +3165,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3071,7 +3226,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/quick_sort.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3129,7 +3287,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3187,7 +3348,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3245,7 +3409,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3303,7 +3470,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3363,7 +3533,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.rust-lang.org/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td align="center">
@@ -3421,7 +3594,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3479,7 +3655,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/soma_dois_numeros.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3537,7 +3716,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/palindromo.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3595,7 +3777,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/calculate_pi.rs">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3653,7 +3838,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3711,7 +3899,10 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <picture>
+                          <source media="(prefers-color-scheme: dark)" srcset="https://www.nicepng.com/png/full/34-348422_community-spotlight-rust-programming-language.png">
+                          <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-plain.svg" />
+                    </picture>
                 </a>
             </td>
             <td> <!-- Scala -->
