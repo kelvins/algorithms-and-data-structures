@@ -1,4 +1,4 @@
-# :abacus: Algoritmos e Essvgtruturas de Dados
+# :abacus: Algoritmos e Estruturas de Dados
 
 Este repositório disponibiliza diversos algoritmos e estruturas de dados clássicos em **Ciência da Computação**, bem como alguns problemas extras que são encontrados com frequência em desafios de programação.
 
@@ -10,7 +10,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Algoritmo</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -68,7 +68,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra">Algoritmo Dijkstra</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoDijkstra.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -126,7 +126,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd-Warshall">Algoritmo Floyd Warshall</a></td>
             <td> <!-- C -->
                 <a href="./src/c/AlgoritmoFloydWarshall.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -242,7 +242,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.inf.ufsc.br/grafos/represen/busca.html">Busca em Grafos</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaEmGrafo.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -300,7 +300,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -358,7 +358,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Busca_linear">Busca Sequencial Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencialRecursiva.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -416,7 +416,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://updatedcode.wordpress.com/2015/06/16/busca-sequencial-com-sentinela/">Busca utilizando Sentinela</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -532,7 +532,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Problema_do_caixeiro-viajante">Caixeiro Viajante</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CaixeiroViajante.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -590,7 +590,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Caminho_hamiltoniano">Ciclo Hamiltoniano</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CicloHamiltoniano.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -648,7 +648,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/components.html">Componentes Conexos</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ComponentesConexos.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -706,7 +706,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -764,7 +764,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o">Exponenciação Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -822,7 +822,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -880,7 +880,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Fatorial">Fatorial Recursiva</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -996,7 +996,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Máximo Recursivo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1112,7 +1112,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Mín. e Máx. Recursivo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1286,7 +1286,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Torre_de_Han%C3%B3i">Torre de Hanói</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TorreDeHanoi.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1520,7 +1520,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Estruturas de Dados</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1578,7 +1578,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria">Árvore Binária</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinaria.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1636,7 +1636,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca">Árvore Binária de Busca</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ArvoreBinariaDeBusca.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1752,7 +1752,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/FIFO">Fila</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fila.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1810,7 +1810,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Fila Encadeada Dinâmica</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FilaEncadeadaDinamica.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1868,7 +1868,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Teoria_dos_grafos">Grafo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Grafos.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1926,7 +1926,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.youtube.com/watch?v=bxwIm3F6aaQ">Lista Circular Ligada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaCircularLigada.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1984,7 +1984,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Lista_ligada">Lista Encadeada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaEncadeada.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2042,7 +2042,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Lista_duplamente_ligada">Lista Duplamente Encadeada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaDuplamenteEncadeada.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2100,7 +2100,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/lista.html">Lista Ligada Não Ordenada</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ListaLigadaNaoOrdenada.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2158,7 +2158,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Lista Sequencial Ordenada</td>
             <td> <!-- C -->
                 <a href="./src/c/ListaSequencialOrdenada.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2216,7 +2216,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/LIFO">Pilha</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Pilha.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2274,7 +2274,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Pilha Ligada Dinâmica</td>
             <td> <!-- C -->
                 <a href="./src/c/PilhaLigadaDinamica.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2392,7 +2392,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Algoritmo de Ordenação</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2508,7 +2508,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Bubble_sort">Bubble Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BubbleSort.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2740,7 +2740,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Counting_sort">Counting Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CountingSort.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2914,7 +2914,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Insertion_sort">Insertion Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/InsertionSort.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2972,7 +2972,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Merge_sort">Merge Sort</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MergeSort.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -3322,7 +3322,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Extra</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3438,7 +3438,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Soma de 2 Números</td>
             <td> <!-- C -->
                 <a href="./src/c/TwoSum.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -3496,7 +3496,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Pal%C3%ADndromo">Palíndromo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Palindromo.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -3554,7 +3554,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80">Calculo do PI (Leibniz)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CalculatePi.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
