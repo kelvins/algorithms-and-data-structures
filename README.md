@@ -20,7 +20,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/java">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                    <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td align="center">
@@ -189,7 +189,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BinarySearch.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -305,7 +305,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/LinearSearch.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -479,7 +479,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Interpolation_search.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -711,7 +711,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Exponentiation.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -769,7 +769,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/ExponentiationRecursive.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -827,7 +827,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Factorial.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -885,7 +885,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/FactorialRecursive.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -943,7 +943,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Fibonacci.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1001,7 +1001,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/MaximumRecursive.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1059,7 +1059,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/IterativeMinAndMax.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1291,7 +1291,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/TowerOfHanoi.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1525,7 +1525,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1989,7 +1989,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/SinglyLinkedList.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2397,7 +2397,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2513,7 +2513,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/BubbleSort.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2745,7 +2745,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/CountingSort.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2919,7 +2919,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/InsertionSort.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3035,7 +3035,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/QuickSort.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3151,7 +3151,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/SelectionSort.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3327,7 +3327,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3501,7 +3501,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./src/cpp/Palindrome.cpp">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
