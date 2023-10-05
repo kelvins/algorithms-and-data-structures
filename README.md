@@ -10,7 +10,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Algoritmo</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
