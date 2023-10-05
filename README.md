@@ -10,7 +10,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td align="center">Algoritmo</td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/c">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
@@ -73,7 +73,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -103,22 +103,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -131,12 +131,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -151,32 +151,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -184,7 +184,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Busca Binária</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -219,7 +219,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -229,12 +229,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -247,12 +247,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -262,12 +262,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -277,22 +277,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -310,7 +310,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -335,7 +335,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -350,7 +350,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -363,12 +363,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -378,7 +378,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -393,7 +393,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -403,12 +403,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -421,12 +421,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -436,7 +436,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -451,22 +451,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -474,7 +474,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Busca por Interpolação</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -484,7 +484,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -494,7 +494,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -509,22 +509,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -537,17 +537,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -557,32 +557,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -595,52 +595,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -653,52 +653,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -741,22 +741,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -784,7 +784,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -799,7 +799,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -809,7 +809,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -900,7 +900,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -930,7 +930,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -938,7 +938,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci">Fibonacci</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -983,7 +983,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1016,7 +1016,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1031,12 +1031,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -1046,7 +1046,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1054,7 +1054,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Mín. e Máx. Iterativo</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1074,7 +1074,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1089,7 +1089,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1104,7 +1104,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1117,7 +1117,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1147,7 +1147,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1162,7 +1162,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1170,17 +1170,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Mín. e Máx. D&C</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1190,37 +1190,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1228,17 +1228,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Problema_do_cavalo">Passeio do Cavalo</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1248,37 +1248,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1336,7 +1336,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1344,17 +1344,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Algoritmo_gen%C3%A9tico">Algoritmo Genético</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1364,37 +1364,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1402,17 +1402,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.ime.usp.br/~pf/estruturas-de-dados/aulas/huffman.html">Algoritmo de Huffman</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1422,37 +1422,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1460,17 +1460,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/LZ77">Algoritmo LZ77</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1480,37 +1480,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1583,7 +1583,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1598,37 +1598,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1641,7 +1641,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1656,12 +1656,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -1671,22 +1671,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1694,22 +1694,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Deque_(estruturas_de_dados)">Deque</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -1739,12 +1739,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1757,7 +1757,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -1772,7 +1772,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1802,7 +1802,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1815,52 +1815,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1873,37 +1873,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1913,12 +1913,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1931,12 +1931,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -1946,37 +1946,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1994,7 +1994,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -2004,7 +2004,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2019,7 +2019,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2029,12 +2029,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2047,7 +2047,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2062,7 +2062,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2077,7 +2077,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2087,12 +2087,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2105,17 +2105,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -2125,32 +2125,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2163,12 +2163,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -2183,32 +2183,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2221,7 +2221,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2266,7 +2266,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2279,52 +2279,52 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2332,17 +2332,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Tabela_de_dispers%C3%A3o">Hash Table</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -2352,7 +2352,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2362,27 +2362,27 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2450,12 +2450,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Bogosort">Bogo Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2465,27 +2465,27 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2495,12 +2495,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2543,7 +2543,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2558,7 +2558,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2566,12 +2566,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Bucket_sort">Bucket Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2581,12 +2581,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2596,27 +2596,27 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2624,22 +2624,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Cocktail_sort">Cocktail Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -2649,32 +2649,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2682,17 +2682,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Comb_sort">Comb Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -2717,22 +2717,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2750,7 +2750,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -2770,27 +2770,27 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2798,12 +2798,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Gnome_sort">Gnome Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2828,12 +2828,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2843,12 +2843,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2856,12 +2856,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Heapsort">Heapsort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2891,22 +2891,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2959,12 +2959,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -2977,7 +2977,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3007,22 +3007,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3030,7 +3030,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Quicksort">Quicksort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -3065,7 +3065,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -3075,12 +3075,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3088,12 +3088,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Radix_sort">Radix Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3103,7 +3103,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -3123,22 +3123,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3146,7 +3146,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Selection_sort">Selection Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -3181,22 +3181,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3204,12 +3204,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/Shell_sort">Shell Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3229,7 +3229,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -3239,22 +3239,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3262,17 +3262,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://en.wikipedia.org/wiki/Timsort">Timsort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -3282,37 +3282,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3380,17 +3380,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Lista com 2 Pilhas</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -3400,37 +3400,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3443,7 +3443,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3458,22 +3458,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -3483,12 +3483,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3516,7 +3516,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3541,12 +3541,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3559,7 +3559,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3604,7 +3604,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3612,17 +3612,17 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td>Busca em Labirinto</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
@@ -3632,37 +3632,37 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -3670,22 +3670,22 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://www.geeksforgeeks.org/check-if-all-given-strings-are-isograms-or-not/">Algoritmo Isogram</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -3695,32 +3695,32 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
