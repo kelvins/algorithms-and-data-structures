@@ -30,7 +30,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://go.dev/play/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
@@ -45,7 +45,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://swiftfiddle.com">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
@@ -88,7 +88,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/dijkstra.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -146,7 +146,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/floyd_warshall.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -204,7 +204,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/busca_binaria.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -320,7 +320,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/buscasequencial.go">
-                     <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -552,7 +552,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/caixeiro_viajante.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -726,7 +726,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/exponenciacao.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -842,7 +842,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fatorial.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -857,7 +857,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/factorial.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -915,7 +915,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/recursiveFactorial.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -958,7 +958,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/fibonacci.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -973,7 +973,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/fibonacci.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1132,7 +1132,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/maximo_minimo.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1306,7 +1306,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/hanoi.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1321,7 +1321,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/hanoi.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1540,7 +1540,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://go.dev/play/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1555,7 +1555,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://swiftfiddle.com">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1714,7 +1714,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/deque.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -1729,7 +1729,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/deque.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -1787,7 +1787,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/queue.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2120,7 +2120,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/lista_sequencial_nao_ordenada.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2178,7 +2178,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/lista_sequencial_ordenada.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2236,7 +2236,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/stack.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2251,7 +2251,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/stack.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2412,7 +2412,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://go.dev/play/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2427,7 +2427,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://swiftfiddle.com">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2528,7 +2528,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/bubble_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2644,7 +2644,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/cocktail_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2702,7 +2702,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/comb_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2760,7 +2760,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/counting_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2818,7 +2818,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/gnome_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2876,7 +2876,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/heap_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2934,7 +2934,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/insertion_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2949,7 +2949,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/insertionSort.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -2992,7 +2992,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/merge_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3050,7 +3050,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/quick_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3108,7 +3108,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/radix_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3166,7 +3166,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/selection_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3342,7 +3342,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://go.dev/play/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3357,7 +3357,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://swiftfiddle.com">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3531,7 +3531,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/palindrome.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -3574,7 +3574,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/calculate_pi.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -3589,7 +3589,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/calculatePi.swift">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -3690,7 +3690,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/isogram.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
