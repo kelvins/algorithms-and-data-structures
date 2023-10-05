@@ -35,12 +35,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/javascript">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
@@ -93,12 +93,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/dijkstra.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/DijkstrasAlgorithm.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -209,12 +209,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/busca_binaria.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BinarySearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -272,7 +272,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/GraphSearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -325,12 +325,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/busca_sequencial.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/LinearSearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -383,12 +383,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/busca_sequencial_recursiva.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveLinearSearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -441,12 +441,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/busca_sentinela.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/SentinelSearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -499,12 +499,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/interpolation_search.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/InterpolationSearch.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -731,12 +731,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/exponenciacao.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Exponentiation.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -789,12 +789,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/exponenciacao_recursiva.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ExponentiationRecursive.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -847,12 +847,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/factorial.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Factorial.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -905,12 +905,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/fatorial.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/FactorialRecursive.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -963,12 +963,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/fibonacci.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Fibonacci.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1021,12 +1021,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/max_recursivo.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MaxRecursive.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1079,12 +1079,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/min_max_iterativo.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/IterativeMinAndMax.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1137,12 +1137,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/min_max_recursivo.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RecursiveMinAndMax.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1311,12 +1311,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/hanoi.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/TowerOfHanoi.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1545,12 +1545,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/javascript">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1666,7 +1666,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BinarySearchTree.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1719,12 +1719,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/deque.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Deque.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1777,12 +1777,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/fila.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Queue.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2009,12 +2009,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/lista_encadeada.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/SinglyLinkedList.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2067,12 +2067,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/lista_duplamente_encadeada.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/DoublyLinkedList.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2241,12 +2241,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/pilha.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Stack.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2357,7 +2357,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/hash_table.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -2417,12 +2417,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/javascript">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
@@ -2533,12 +2533,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bubble_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/BubbleSort.js>
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2591,7 +2591,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/bucket_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -2707,12 +2707,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/comb_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/CombSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2765,7 +2765,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/count_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -2823,7 +2823,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/gnome_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -2881,12 +2881,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/heap_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/HeapSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2939,12 +2939,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/insertion_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/InsertionSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -2997,12 +2997,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/merge_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/MergeSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3055,12 +3055,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/quick_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript//QuickSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3113,12 +3113,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/radix_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/RadixSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3171,12 +3171,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Ruby -->
                 <a href="./src/ruby/selection_sort.rb">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/SelectionSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3234,7 +3234,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/ShellSort.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3347,12 +3347,12 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://try.ruby-lang.org/playground/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" />
+                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
                 <a href="https://www.sololearn.com/compiler-playground/javascript">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
@@ -3526,7 +3526,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Palindrome.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -3584,7 +3584,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- JavaScript -->
                 <a href="./src/javascript/Calculate_PI.js">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
