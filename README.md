@@ -3224,7 +3224,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Go -->
                 <a href="./src/go/shell_sort.go">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" />
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
