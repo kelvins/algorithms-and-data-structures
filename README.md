@@ -60,7 +60,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.kotlinlang.org/">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -814,7 +814,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/ExponenciacaoRecursiva.kt">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -872,7 +872,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/Fatorial.kt">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -988,7 +988,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/Fibonacci.kt">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="" />
                 </a>
             </td>
         </tr>
@@ -1570,7 +1570,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://play.kotlinlang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -2442,7 +2442,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
              <td align="center">
                 <a href="https://play.kotlinlang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -3372,7 +3372,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="https://play.kotlinlang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
