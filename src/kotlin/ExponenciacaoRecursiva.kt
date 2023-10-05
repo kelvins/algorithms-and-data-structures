@@ -1,26 +1,25 @@
 /**
- * Função "exponenciacaoRecursiva"
+ * "exponentiationRecursive" function
  *
- * A função *exponenciacaoRecursiva* apresenta os valores de um número(*base*) elevado por um *expoente*.
- * Nessa função, usa -se o conceito da *recursividade*, na qual, a função criada é chamada dentro dela,
- * uma ou mais vezes internamente da mesma.
+ * The *exponentiationRecursive* function presents the values of a number (*base*) raised by an *exponent*.
+ * In this function, the concept of *recursion* is used, in which the created function is called within it, one or more times internally of the same.
  *
- * @author Versão do algoritmo para Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
+ * @author Algorithm version for Kotlin: Alfredo Paes <alfredo.alfpaes@gmail.com>
  * @see https://github.com/Alfredo-Paes
  *
- * @param base é do tipo inteiro(Int)
- * @param expoente é do tipo inteiro(Int)
+ * @param base is of type integer (Int)
+ * @param exponent is of type integer (Int)
  *
- * @return retornará o número *base* elevado pelo *expoente*. A função retorna um valor do tipo *Long*.
+ * @return will return the *base* number raised by the *exponent*. The function returns a value of type *Long*.
  */
-fun exponenciacaoRecursiva(base: Int, expoente: Int): Long {
-    return if (expoente === 0) {
+fun exponentiationRecursive(base: Int, exponent: Int): Long {
+    return if (exponent === 0) {
         1
     }; else {
-        base * exponenciacaoRecursiva(base, expoente - 1)
+        base * exponentiationRecursive(base, exponent - 1)
     }
 }
 
 fun main() {
-    println(exponenciacaoRecursiva(2, 3))
+    println(exponentiationRecursive(2, 3))
 }
