@@ -2061,8 +2061,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/go/doubly_linked_list.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
