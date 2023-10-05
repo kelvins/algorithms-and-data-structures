@@ -1,4 +1,4 @@
-""" Implementaçao do algoritmo de busca sequencial com recursão """
+
 """Implementation of the sequential search algorithm with recursion."""
 
 
@@ -21,3 +21,4 @@ if __name__ == "__main__":
     for index, value_in_list in enumerate(a_list):
         print("Testing value {} at index {}".format(value_in_list, index))
         assert sequential_search(value_in_list, a_list, 0) == index
+        

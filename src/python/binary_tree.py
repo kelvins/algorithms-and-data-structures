@@ -1,4 +1,4 @@
-""" Implementação de uma árvore binária """
+""" Implementation of a binary tree """
 
 
 class Node:

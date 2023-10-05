@@ -7,7 +7,7 @@
 # -------------------------------
 def comb_sort(arr: list) -> list:
     """
-    Implementação de um algoritmo de ordenação combinada.
+    Implementation of a comb sort algorithm.
     """
     gap = len(arr)
     shrink = 1.3
@@ -28,5 +28,6 @@ if __name__ == "__main__":
     from random import randint
 
     my_list = [randint(0, 100) for _ in range(10)]
-    print(f"Lista: {my_list}")
-    print(f"Ordenada: {comb_sort(my_list)}")
+    print(f"List: {my_list}")
+    print(f"Sorted: {comb_sort(my_list)}")
+

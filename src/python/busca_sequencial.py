@@ -1,18 +1,17 @@
 """
-Implementação dos algoritmos de busca sequencial e
-busca sentinela
+Implementation of the sequential search and sentinel search algorithms.
 """
 
 
 def sequential_search(value, array):
     """
-    Implementação de um algoritmo de busca sequencial.
+    Implementation of a sequential search algorithm.
 
-    Argumentos:
-    value: Any. Valor a ser buscado na lista
-    array: list. lista na qual o valor será buscado
+    Arguments:
+    value: Any. The value to be searched in the list.
+    array: list. The list in which the value will be searched.
 
-    Retorna o índice do valor em "array" ou -1 caso não exista nela.
+    Returns the index of the value in "array" or -1 if it does not exist in the list.
     """
     for i in range(0, len(array)):
         if array[i] == value:
@@ -22,13 +21,13 @@ def sequential_search(value, array):
 
 def sentinel_search(value, array):
     """
-    Implementação de um algoritmo de busca sentinela.
+    Implementation of a sentinel search algorithm.
 
-    Argumentos:
-    value: Any. Valor a ser buscado na lista
-    array: list. lista na qual o valor será buscado
+    Arguments:
+    value: Any. The value to be searched in the list.
+    array: list. The list in which the value will be searched.
 
-    Retorna o índice do valor em "array" ou -1 caso não exista nela.
+    Returns the index of the value in "array" or -1 if it does not exist in the list.
     """
     array.append(value)
     index = 0
