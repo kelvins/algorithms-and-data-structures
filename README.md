@@ -857,7 +857,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Swift -->
                 <a href="./src/swift/factorial.swift">
-                    <img align="center" height="25" src="" />
+                    <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
@@ -920,7 +920,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Rust -->
                 <a href="./src/rust/fatorial_recursiva.rs">
-                    <img align="center" height="25" src="" />
+                    <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -988,7 +988,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/Fibonacci.kt">
-                    <img align="center" height="25" src="" />
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
@@ -3554,7 +3554,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             <td><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Leibniz_para_%CF%80">Calculo do PI (Leibniz)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/CalculatePi.c">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
