@@ -55,7 +55,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://scastie.scala-lang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td align="center">
@@ -345,7 +345,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/BuscaSequencial.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -867,7 +867,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Fatorial.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -925,7 +925,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/FatorialRecursiva.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1041,7 +1041,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/MaxRecursivo.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1099,7 +1099,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/MinMaxIterativo.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1157,7 +1157,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/MinMaxRecursivo.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1331,7 +1331,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/TorreDeHanoi.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1565,7 +1565,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://scastie.scala-lang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td align="center">
@@ -1797,7 +1797,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Fila.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -2261,7 +2261,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Pilha.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -2437,7 +2437,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://scastie.scala-lang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
              <td align="center">
@@ -2553,7 +2553,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/BubbleSort.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -3367,7 +3367,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td align="center">
                 <a href="https://scastie.scala-lang.org">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -3599,7 +3599,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/CalculatePi.scala">
-                    <img align="center" height="25" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
