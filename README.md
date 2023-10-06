@@ -113,7 +113,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
             <td> <!-- Scala -->
                 <a href="./src/scala/Dijkstra.scala">
-                    <img align="center" height="25" src="./logos/scala" />
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
