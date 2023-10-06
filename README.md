@@ -402,7 +402,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
+                <a href="./src/scala/BuscaSequencialRecursiva.scala">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
