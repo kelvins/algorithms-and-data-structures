@@ -112,8 +112,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/scala/Dijkstra.scala">
+                    <img align="center" height="25" src="./logos/scala" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
