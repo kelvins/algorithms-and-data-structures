@@ -4,18 +4,22 @@ class HashTable
   attr_reader :hash
 
   def initialize(size = 500)
-    @hash = Array.new
+    @hash = Array.new(size) { [] }
     @size = size
   end
 
   def put(key, value)
     idx = calculate_hash(key)
-    @hash[idx] = value
+    @hash[idx] << [key, value]
   end
 
   def get(key)
     idx = calculate_hash(key)
-    @hash[idx]
+
+    bucket = @hash[idx]
+    pair = bucket.find { |pair| pair[0] == key }
+
+    pair[1] if pair
   end
 
   def delete(key)
@@ -31,11 +35,11 @@ class HashTable
 end
 
 hash = HashTable.new
-hash.put(:name, "Jane")
-hash.put(:age, 22)
+hash.put(:code, "ABC123")
+hash.put(:mode, "dark")
 
-puts hash.get(:name) # => Jane
-puts hash.get(:age) # => 22
+puts "Code is #{hash.get(:code)}" # => ABC123
+puts "Mode is #{hash.get(:mode)}" # => "dark
 
-hash.delete(:name)
-puts hash.get(:name) # => nil
+hash.delete(:code)
+puts hash.get(:code) # => nil
