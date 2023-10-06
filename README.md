@@ -937,8 +937,8 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
         <tr>
             <td><a href="https://pt.wikipedia.org/wiki/Sequ%C3%AAncia_de_Fibonacci">Fibonacci</a></td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/c/Fibonacci.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
