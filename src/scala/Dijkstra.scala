@@ -3,13 +3,17 @@ import scala.annotation.tailrec
 trait Path {
   def edges: Seq[Edge]
 }
+
 case class ExistingPath(edges: Seq[Edge]) extends Path
+
 object EmptyPath extends Path {
   override def edges: Seq[Edge] = Seq.empty
 }
 
 case class Vertex(id: String)
+
 case class Edge(from: Vertex, to: Vertex, distance: Int)
+
 case class Graph(edges: List[Edge]) {
 
   implicit object EdgesOrdering extends Ordering[Edge] {
@@ -36,7 +40,7 @@ case class Graph(edges: List[Edge]) {
 
 object Main extends App {
 
-  val startA = Vertex("A")
+  val startA: Vertex = Vertex("A")
   val graph: Graph = Graph(
     edges = List(
       Edge(from = Vertex("A"), to = Vertex("B"), distance = 1),
@@ -52,7 +56,7 @@ object Main extends App {
     )
   )
 
-  val result = graph.dijkstra(start = startA)
+  val result: Path = graph.dijkstra(start = startA)
   println("Calculating path...")
   println(s"Result: ${result.edges}")
 }
