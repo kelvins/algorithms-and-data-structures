@@ -6,7 +6,9 @@ int main() {
     int min = array[0];
     int max = array[0];
 
-    for (int i = 1; i < 8; ++i) {
+    size_t length = sizeof(array) / sizeof(array[0]);
+
+    for (int i = 1; i < length; ++i) {
         if (array[i] < min) {
             min = array[i];
         }
