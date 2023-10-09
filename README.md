@@ -344,7 +344,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/BuscaSequencial.scala">
+                <a href="./src/scala/LinearSearch.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
