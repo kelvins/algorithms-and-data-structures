@@ -1807,7 +1807,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Dynamic Queue</td>
+            <td><a href="https://iq.opengenus.org/dynamic-queue/">Dynamic Queue</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FilaEncadeadaDinamica.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1824,8 +1824,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/python/dynamic_queue.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
