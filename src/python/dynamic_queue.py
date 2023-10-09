@@ -20,7 +20,7 @@ class DynamicQueue:
             self.__end.next = node
         self.__end = node
 
-    def dequeue(self) -> Node | None:
+    def dequeue(self) -> Node:
         if self.is_empty():
             return None
         node = self.__begin
