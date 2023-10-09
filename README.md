@@ -2278,7 +2278,7 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="src/cpp/PilhaLigadaDinamicamente.cpp">
+                <a href="./src/cpp/DynamicStack.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
