@@ -42,18 +42,19 @@ class Deque:
         return str(self.items)
 
 
-my_deque = Deque()
-
-my_deque.add_front(1)
-my_deque.add_rear(2)
-my_deque.add_front(3)
-
-print(my_deque)  # Output: [3, 1, 2]
-
-print(my_deque.remove_front())  # Output: 3
-print(my_deque.remove_rear())  # Output: 2
-
-print(my_deque.peek_front())  # Output: 1
-print(my_deque.peek_rear())  # Output: 1
-
-print(my_deque.size())  # Output: 1
+if __name__ == "__main__":
+    my_deque = Deque()
+    
+    my_deque.add_front(1)
+    my_deque.add_rear(2)
+    my_deque.add_front(3)
+    
+    print(my_deque)  # Output: [3, 1, 2]
+    
+    print(my_deque.remove_front())  # Output: 3
+    print(my_deque.remove_rear())  # Output: 2
+    
+    print(my_deque.peek_front())  # Output: 1
+    print(my_deque.peek_rear())  # Output: 1
+    
+    print(my_deque.size())  # Output: 1
