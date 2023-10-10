@@ -560,11 +560,6 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/CaixeiroViajante.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
             <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -993,6 +988,63 @@ Com o objetivo de alcançar uma abrangência maior e encorajar mais pessoas a co
             </td>
         </tr>
         <tr>
+        <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Fibonacci Memoization</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!--JavaScript-->
+                <a href="./src/javascript/FibonacciMemoization.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
             <td><a href="https://www.ime.usp.br/~pf/algoritmos/aulas/recu.html">Máximo Recursivo</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
