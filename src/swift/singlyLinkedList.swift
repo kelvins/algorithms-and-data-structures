@@ -2,7 +2,9 @@
 Written by Roberto Martins on 09/10/2023
 */
 
-class Node<Type: Equatable>  // Type: Equatable makes it so that you can have Nodes of any type and their values can be compared 
+// Type: Equatable makes it so that you can have Nodes of any type and their values can be compared 
+// Use of generic "Type" makes it so you can have a Linked List of any type
+class Node<Type: Equatable>
 {
     var value: Type
     var next: Node?
@@ -91,3 +93,27 @@ class LinkedList<Type: Equatable> {
         }
     }
 }
+
+func main() {
+
+    // Example of creating a linked list of integers
+    let integersLinkedList: LinkedList<Int> = LinkedList()
+    integersLinkedList.insertLeft(value: 2)
+    integersLinkedList.insertLeft(value: 1)
+    integersLinkedList.insertRight(value: 3)
+    integersLinkedList.printList()
+
+    // Example of creating a linked list of Strings
+    let stringsLinkedList: LinkedList<String> = LinkedList()
+    stringsLinkedList.insertLeft(value: "String 1")
+    stringsLinkedList.insertRight(value: "String 2")
+    stringsLinkedList.insertRight(value: "String 3")
+    // Removing an element
+    stringsLinkedList.remove(value: "String 2")
+    // Popping an element
+    stringsLinkedList.pop(value: "String 1")
+
+    stringsLinkedList.printList()
+}
+
+main()
