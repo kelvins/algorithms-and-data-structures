@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def binary_search(value, array, left, right)
-  middle = ((left + right) / 2).floor
+  middle = ((left + right) / 2).truncate
 
   return -1 unless left <= right
 
