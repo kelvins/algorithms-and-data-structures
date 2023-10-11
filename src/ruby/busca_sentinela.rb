@@ -22,4 +22,3 @@ end
 
 array = [1, 4, 5, 2, 42, 34, 54, 98, 89, 78, 67]
 puts sentinel_search(98, array)
-
