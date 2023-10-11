@@ -3,15 +3,12 @@
 def selection_sort(arr, index):
     """
     Implementation of a selection sort algorithm with recursion.
-
     Args:
     arr (list): The list to be sorted.
     index (int): The index of the element to be sorted in the list.
-
-    Returns the sorted list "arr".
     """
     if index >= len(arr) - 1:
-        return -1
+        return
 
     # min_index holds the position of the smallest value relative to the index
     min_index = index
@@ -26,10 +23,10 @@ def selection_sort(arr, index):
 
     selection_sort(arr, index + 1)
 
-    return arr
-
 unsorted_list = [82, 83, 92, 12, 23, 45, 64, 91, 73]
 
 print(unsorted_list)
-unsorted_list = selection_sort(unsorted_list, 0)
+selection_sort(unsorted_list, 0)
 print(unsorted_list)
+
+
