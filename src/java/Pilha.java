@@ -46,13 +46,11 @@ public class Stack {
   }
 
   public boolean isEmpty() {
-    if (this.nextStack == null) {
-      return true;
-    }
-    return false;
+    return this.nextStack == null;
   }
 
   public int timeWorked(int time) {
     return this.currentProcess.worked(time);
   }
 }
+
