@@ -1,37 +1,35 @@
-""" Implementação de um algoritmo de selection sort com recursão """
+"""Implementation of a selection sort algorithm with recursion."""
 
-
-def selection_sort(vetor, indice):
+def selection_sort(arr, index):
     """
-    Implementação de um algoritmo de selection sort com recursão.
+    Implementation of a selection sort algorithm with recursion.
 
-    Argumentos:
-    vetor: lista. Lista que será ordenada
-    indice: int. Indice do elemento a ser ordenado na lista
+    Args:
+    arr (list): The list to be sorted.
+    index (int): The index of the element to be sorted in the list.
 
-    Retorna a lista "vetor" ordenada.
+    Returns the sorted list "arr".
     """
-    if indice >= len(vetor) - 1:
+    if index >= len(arr) - 1:
         return -1
 
-    # minIndice guarda a posicao onde esta o menor valor em relacao ao indice
-    min_indice = indice
+    # min_index holds the position of the smallest value relative to the index
+    min_index = index
 
-    for i in range(indice + 1, len(vetor)):
-        if vetor[i] < vetor[min_indice]:
-            min_indice = i
+    for i in range(index + 1, len(arr)):
+        if arr[i] < arr[min_index]:
+            min_index = i
 
-    temp = vetor[indice]
-    vetor[indice] = vetor[min_indice]
-    vetor[min_indice] = temp
+    temp = arr[index]
+    arr[index] = arr[min_index]
+    arr[min_index] = temp
 
-    selection_sort(vetor, indice + 1)
+    selection_sort(arr, index + 1)
 
-    return vetor
+    return arr
 
+unsorted_list = [82, 83, 92, 12, 23, 45, 64, 91, 73]
 
-lista_nao_ordenada = [82, 83, 92, 12, 23, 45, 64, 91, 73]
-
-print(lista_nao_ordenada)
-lista_nao_ordenada = selection_sort(lista_nao_ordenada, 0)
-print(lista_nao_ordenada)
+print(unsorted_list)
+unsorted_list = selection_sort(unsorted_list, 0)
+print(unsorted_list)
