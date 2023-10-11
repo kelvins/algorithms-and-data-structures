@@ -1,18 +1,17 @@
 # frozen_string_literal: true
+def binary_search(value, array, left, right)
+  middle = ((left + right) / 2).truncate
 
-def busca_binaria(valor, vetor, esquerda, direita)
-  meio = ((esquerda + direita) / 2).floor
+  return -1 unless left <= right
 
-  return -1 unless esquerda <= direita
-
-  if valor > vetor[meio]
-    busca_binaria(valor, vetor, meio + 1, direita)
-  elsif valor < vetor[meio]
-    busca_binaria(valor, vetor, esquerda, meio - 1)
+  if value > array[middle]
+    binary_search(value, array, middle + 1, right)
+  elsif value < array[middle]
+    binary_search(value, array, left, middle - 1)
   else
-    meio
+    middle
   end
 end
 
-vetor = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
-print busca_binaria(12, vetor, 0, vetor.length)
+array = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
+puts binary_search(12, array, 0, array.length)
