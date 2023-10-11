@@ -1,22 +1,25 @@
 # frozen_string_literal: true
+def sentinel_search(value, array)
+  # Create a copy of the array
+  array_copy = array.dup
 
-def busca_sentinela(valor, vetor)
-  # Adiciona o valor ao final do vetor
-  vetor.push(valor)
-  indice = 0
+  # Add the value to the end of the array copy
+  array_copy.push(value)
+  index = 0
 
-  # Enquanto nao for o valor, incrementa 1
-  indice += 1 while vetor[indice] != valor
+  # While it's not the value, increment by 1
+  index += 1 while array_copy[index] != value
 
-  # Remove o valor do final do vetor
-  vetor.pop
+  # Remove the value from the end of the array copy
+  array_copy.pop
 
-  # Se a variavel indice corresponde ao tamanho do vetor, retorne -1
-  return -1 if indice == vetor.length
+  # If the index variable equals the array size, return -1
+  return -1 if index == array_copy.length
 
-  # Caso contrario, retorne a posicao do valor no vetor
-  indice
+  # Otherwise, return the position of the value in the array copy
+  index
 end
 
-vetor = [1, 4, 5, 2, 42, 34, 54, 98, 89, 78, 67]
-puts busca_sentinela(98, vetor)
+array = [1, 4, 5, 2, 42, 34, 54, 98, 89, 78, 67]
+puts sentinel_search(98, array)
+
