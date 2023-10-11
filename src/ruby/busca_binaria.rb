@@ -17,3 +17,4 @@ end
 array = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
 puts binary_search(12, array, 0, array.length)
 
+
