@@ -14,7 +14,7 @@ class Stack {
     public:
     Stack(){}
 
-    bool insert(int element) {
+    bool push(int element) {
         if ((this->elements * TYPE_SIZE) == sizeof(this->arr)) {
             return false;
         };
@@ -30,7 +30,7 @@ class Stack {
         return false;
     }
 
-    bool remove() {
+    bool pop() {
         if (this->isEmpty()) {
             return false;
         }
@@ -56,20 +56,20 @@ int main() {
     Stack* stack = new Stack();
 
     // Insert Elements, then removes
-    stack->insert(1);
-    stack->insert(2);
-    stack->insert(4);
+    stack->push(1);
+    stack->push(2);
+    stack->push(4);
     std:: cout << stack->top() << std::endl;
-    stack->remove();
+    stack->pop();
     std:: cout << stack->top() << std::endl;
-    stack->remove();
-    stack->remove();
+    stack->pop();
+    stack->pop();
 
     std::cout << "--------------------" << "\n";
     
     // Try to insert beyond max size
     for (int i = 0; i < 15; i++) {
-        std::cout << stack->insert(i) << std::endl;
+        std::cout << stack->push(i) << std::endl;
     }
 
     std::cout << "--------------------" << "\n";
@@ -77,6 +77,6 @@ int main() {
     // Show and remove stack top element
     for (int i = 0; i < stack->getSize(); i++) {
         std::cout << stack->top() << std::endl;
-        stack->remove();
+        stack->pop();
     }   
 }
