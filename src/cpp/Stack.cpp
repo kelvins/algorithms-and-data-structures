@@ -2,52 +2,48 @@
 
 // MAX is a macro to define all stack instances size
 #define MAX 10
-#define TYPE_SIZE 4
 
 // Stack: Last In - First Out (LIFO)
 
 class Stack {
     private:
-    int arr[MAX];
-    int elements{0};
+    int array[MAX];
+    int index = 0;
     
     public:
     Stack(){}
 
-    bool push(int element) {
-        if ((this->elements * TYPE_SIZE) == sizeof(this->arr)) {
-            return false;
-        };
-        this->arr[elements] = element;
-        elements++;
-        return true;
+    void push(int element) {
+        if (this->index >= MAX) {
+            throw std::logic_error("Stack is full!");
+        }
+        this->array[index] = element;
+        index++;
     }
 
     bool isEmpty() {
-        if (!this->elements) {
+        if (!this->index) {
             return true;
         }
         return false;
     }
 
-    bool pop() {
+    int pop() {
         if (this->isEmpty()) {
-            return false;
+            throw std::logic_error("Stack is empty!");
         }
-        this->arr[this->elements - 1] = 0;
-        elements--;
-        return true;
+        index--;
+        int value = this->array[this->index];
+        this->array[this->index] = 0;
+        return value;
     }
 
-    int top() {
-        if (this->isEmpty()) {
-            return -1;
+    void print() {
+        std::cout << "[ ";
+        for (int i = 0; i < this->index; i++) {
+            std::cout << this->array[i] << " ";
         }
-        return this->arr[this->elements - 1];
-    }
-
-    int getSize() {
-        return sizeof(this->arr) / TYPE_SIZE;
+        std::cout << "]" << std::endl;
     }
 };
 
@@ -55,28 +51,19 @@ int main() {
     // Create a pointier to a new Stack instance
     Stack* stack = new Stack();
 
-    // Insert Elements, then removes
+    std::cout << "Push(1, 2, 4)" << std::endl;
     stack->push(1);
     stack->push(2);
     stack->push(4);
-    std:: cout << stack->top() << std::endl;
+    stack->print();
+
+    std::cout << "Pop()" << std::endl;
     stack->pop();
-    std:: cout << stack->top() << std::endl;
+    stack->print();
+
     stack->pop();
     stack->pop();
 
-    std::cout << "--------------------" << "\n";
-    
-    // Try to insert beyond max size
-    for (int i = 0; i < 15; i++) {
-        std::cout << stack->push(i) << std::endl;
-    }
-
-    std::cout << "--------------------" << "\n";
-
-    // Show and remove stack top element
-    for (int i = 0; i < stack->getSize(); i++) {
-        std::cout << stack->top() << std::endl;
-        stack->pop();
-    }   
+    std::cout << "Empty Stack" << std::endl;
+    stack->print();
 }
