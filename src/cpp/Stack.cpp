@@ -1,11 +1,12 @@
 #include <iostream>
-//MAX is a macro to define all stack instances size
+
+// MAX is a macro to define all stack instances size
 #define MAX 10
 #define TYPE_SIZE 4
 
-// Stack: Fist in - Last Out 
+// Stack: Last In - First Out (LIFO)
 
-class Stack{
+class Stack {
     private:
     int arr[MAX];
     int elements{0};
@@ -13,8 +14,8 @@ class Stack{
     public:
     Stack(){}
 
-    bool insert(int element){
-        if((this->elements * TYPE_SIZE) == sizeof(this->arr)){
+    bool insert(int element) {
+        if ((this->elements * TYPE_SIZE) == sizeof(this->arr)) {
             return false;
         };
         this->arr[elements] = element;
@@ -22,38 +23,39 @@ class Stack{
         return true;
     }
 
-    bool isEmpty(){
-        if(!this->elements){
+    bool isEmpty() {
+        if (!this->elements) {
             return true;
         }
         return false;
     }
 
-    bool remove(){
-        if(this->isEmpty()){
+    bool remove() {
+        if (this->isEmpty()) {
             return false;
         }
         this->arr[this->elements - 1] = 0;
         elements--;
-        return true; 
+        return true;
     }
 
-    int top(){
-        if(this->isEmpty()){
+    int top() {
+        if (this->isEmpty()) {
             return -1;
         }
         return this->arr[this->elements - 1];
     }
 
-    int getSize(){
+    int getSize() {
         return sizeof(this->arr) / TYPE_SIZE;
     }
 };
-int main(){
-    //Create a pointier to a new Stack instance
+
+int main() {
+    // Create a pointier to a new Stack instance
     Stack* stack = new Stack();
 
-    //Insert Elements, then removes
+    // Insert Elements, then removes
     stack->insert(1);
     stack->insert(2);
     stack->insert(4);
@@ -65,18 +67,16 @@ int main(){
 
     std::cout << "--------------------" << "\n";
     
-    //Try to insert beyond max size
-    for(int i = 0; i < 15; i++){
+    // Try to insert beyond max size
+    for (int i = 0; i < 15; i++) {
         std::cout << stack->insert(i) << std::endl;
     }
 
     std::cout << "--------------------" << "\n";
 
     // Show and remove stack top element
-    for(int i = 0; i < stack->getSize(); i++){
+    for (int i = 0; i < stack->getSize(); i++) {
         std::cout << stack->top() << std::endl;
-        stack->remove(); 
-
-    }
-    
+        stack->remove();
+    }   
 }
