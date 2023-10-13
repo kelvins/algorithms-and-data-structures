@@ -1,51 +1,27 @@
 import heapq
 
+
 class Graph:
-    
     def __init__(self, edges: list):
         self.adj = [[] for _ in range(len(edges))]
         self.dist = [99999 for _ in range(len(edges))]
         self.add_edges(edges)
 
     def add_edges(self, edges: list) -> None:
-     
         for i in range(len(edges)):
             for j in range(len(edges[i])):
                 self.__add_edge(i, edges[i][j])
 
     def __add_edge(self, u: int, v: int) -> None:
-        """Adds the edge to the adjacency matrix.
-
-        Args:
-            u (int): Vertex u.
-            v (int): Vertex v.
-        """
         if v[0] not in self.adj[u]:
             self.adj[u].append([v[1], v[0]])
 
     def _weight_between_u_and_v(self, u: int, v: int) -> float:
-        """Returns the weight between vertices u and v.
-
-        Args:
-            u (int): Vertex u.
-            v (int): Vertex v.
-
-        Returns:
-            float: Weight between u and v.
-        """
         for vertex in self.adj[v[1]]:
             if vertex[1] == u:
                 return vertex[0]
 
     def dijkstra(self, start: int) -> list:
-        """Returns the list of distances from vertex start to all vertices.
-
-        Args:
-            start (int): Initial vertex.
-
-        Returns:
-            list: List of distances.
-        """
         distance = self.dist.copy()
         S = set()  # Set of explored vertices
         distance[start] = 0
@@ -66,14 +42,16 @@ class Graph:
 
         return distance
 
-edges = [
-    [[1, 1], [2, 0.3], [5, 0.2]],  # Neighbors of vertex 0.
-    [[0, 1], [2, 0.5]],  # Neighbors of vertex 1.
-    [[0, 0.3], [1, 0.5], [3, 1.5], [4, 2]],  # Neighbors of vertex 2.
-    [[2, 1.5], [4, 1.3], [5, 0.8]],  # Neighbors of vertex 3.
-    [[2, 2], [3, 1.3]],  # Neighbors of vertex 4.
-    [[0, 0.2], [3, 0.8]],  # Neighbors of vertex 5.
-]
 
-graph = Graph(edges)
-print(graph.dijkstra(0))
+if __name__ == "__main__":
+    edges = [
+        [[1, 1], [2, 0.3], [5, 0.2]],  # Neighbors of vertex 0.
+        [[0, 1], [2, 0.5]],  # Neighbors of vertex 1.
+        [[0, 0.3], [1, 0.5], [3, 1.5], [4, 2]],  # Neighbors of vertex 2.
+        [[2, 1.5], [4, 1.3], [5, 0.8]],  # Neighbors of vertex 3.
+        [[2, 2], [3, 1.3]],  # Neighbors of vertex 4.
+        [[0, 0.2], [3, 0.8]],  # Neighbors of vertex 5.
+    ]
+
+    graph = Graph(edges)
+    print(graph.dijkstra(0))
