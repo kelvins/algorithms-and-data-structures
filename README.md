@@ -297,7 +297,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencial.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -355,7 +355,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Recursive Linear Search</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSequencialRecursiva.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -413,7 +413,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Sentinel Linear Search</a></td>
+            <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BuscaSentinela.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -703,7 +703,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Exponenciacao.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -761,7 +761,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Recursive Exponentiation</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/ExponenciacaoRecursiva.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -819,7 +819,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Fatorial.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -877,7 +877,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Factorial">Recursive Factorial</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FatorialRecursiva.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -993,7 +993,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Recursive Max</a></td>
+            <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Max (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursivo.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1051,7 +1051,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Iterative Min and Max</td>
+            <td>Min and Max (Iterative)</td>
             <td> <!-- C -->
                 <a href="./src/c/IterativeMinAndMax.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1109,7 +1109,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Recursive Min and Max</a></td>
+            <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Min and Max (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxMinRecursivo.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1167,7 +1167,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>D&C Min and Max</td>
+            <td>Min and Max (D&C)</td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
