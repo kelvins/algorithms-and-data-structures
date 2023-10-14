@@ -4,7 +4,7 @@ import "fmt"
 
 var memo = make(map[int]int)
 
-func FibonacciMemoization(n int) int {
+func Fibonacci(n int) int {
     if n <= 1 {
         return 1
     }
@@ -15,12 +15,12 @@ func FibonacciMemoization(n int) int {
     }
 
     // Calculate Fibonacci recursively and store the result in memoization
-    result := FibonacciMemoization(n-1) + FibonacciMemoization(n-2)
+    result := Fibonacci(n-1) + Fibonacci(n-2)
     memo[n] = result
     return result
 }
 
 func main() {
     n := 9
-    fmt.Println("Fibonacci Memoization:", FibonacciMemoization(n))
+    fmt.Println("Fibonacci Memoization:", Fibonacci(n))
 }

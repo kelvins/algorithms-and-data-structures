@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func FibonacciIterative(n int) int {
+func Fibonacci(n int) int {
     if n <= 1 {
         return 1
     }
@@ -16,5 +16,5 @@ func FibonacciIterative(n int) int {
 
 func main() {
     n := 9
-    fmt.Println("Fibonacci Iterative:", FibonacciIterative(n))
+    fmt.Println("Fibonacci Iterative:", Fibonacci(n))
 }
