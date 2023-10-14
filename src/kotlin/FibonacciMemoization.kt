@@ -2,7 +2,7 @@
 val memo = mutableMapOf<Int, Long>()
 
 // Function to calculate Fibonacci numbers using memoization
-fun fibonacciMemoization(n: Int): Long {
+fun fibonacci(n: Int): Long {
     if (n <= 1) {
         return n.toLong()
     }
@@ -13,7 +13,7 @@ fun fibonacciMemoization(n: Int): Long {
     }
 
     // Calculate Fibonacci recursively and store the result in memoization
-    val result = fibonacciMemoization(n - 1) + fibonacciMemoization(n - 2)
+    val result = fibonacci(n - 1) + fibonacci(n - 2)
     memo[n] = result
 
     return result
@@ -21,5 +21,5 @@ fun fibonacciMemoization(n: Int): Long {
 
 fun main() {
     val index = 15
-    println("Fibonacci (memoization) of $index is: ${fibonacciMemoization(index)}")
+    println("Fibonacci (memoization) of $index is: ${fibonacci(index)}")
 }

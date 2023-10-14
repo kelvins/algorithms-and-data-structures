@@ -1,5 +1,5 @@
 // Function to calculate Fibonacci numbers iteratively
-fun fibonacciIterative(n: Int): Long {
+fun fibonacci(n: Int): Long {
     if (n <= 1) {
         return n.toLong()
     }
@@ -19,5 +19,5 @@ fun fibonacciIterative(n: Int): Long {
 
 fun main() {
     val index = 15
-    println("Fibonacci (iterative) of $index is: ${fibonacciIterative(index)}")
+    println("Fibonacci (iterative) of $index is: ${fibonacci(index)}")
 }
