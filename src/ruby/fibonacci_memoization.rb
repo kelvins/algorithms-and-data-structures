@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def fibonacci(n, memo = {})
   if n <= 1
     return 1
