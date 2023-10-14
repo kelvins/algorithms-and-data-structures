@@ -1,4 +1,4 @@
-function fibonacciIterative(n) {
+function fibonacci(n) {
   if (n <= 1) {
     return n;
   }
@@ -17,7 +17,7 @@ function fibonacciIterative(n) {
 }
 
 function main() {
-  console.log('Fibonacci (iterative) of 30:', fibonacciIterative(30));
+  console.log('Fibonacci (iterative) of 30:', fibonacci(30));
 }
 
 main();
