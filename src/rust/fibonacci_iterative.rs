@@ -1,4 +1,4 @@
-fn fibonacci_iterative(n: u32) -> u64 {
+fn fibonacci(n: u32) -> u64 {
     if n <= 1 {
         return n as u64;
     }
@@ -17,5 +17,5 @@ fn fibonacci_iterative(n: u32) -> u64 {
 
 fn main() {
     let index = 15;
-    println!("Fibonacci (iterative) of {} is: {}", index, fibonacci_iterative(index));
+    println!("Fibonacci (iterative) of {} is: {}", index, fibonacci(index));
 }
