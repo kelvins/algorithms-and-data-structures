@@ -995,7 +995,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
          <tr>
             <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/FibonacciRecursiva.c">
+                <a href="./src/c/FibonacciRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>

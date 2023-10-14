@@ -4,7 +4,7 @@
 
 int memo[MAX_N]; // Memoization table to store computed values
 
-int fibonacci_memoization(int number) {
+int fibonacci(int number) {
     if (number <= 1) {
         return number;
     }
@@ -12,18 +12,16 @@ int fibonacci_memoization(int number) {
         return memo[number];
     }
 
-    memo[number] = fibonacci_memoization(number - 1) + fibonacci_memoization(number - 2);
+    memo[number] = fibonacci(number - 1) + fibonacci(number - 2);
     return memo[number];
 }
 
 int main(void) {
-    int test_nbr = 12;
-
     // Initialize the memoization table with -1 (uncomputed)
     for (int i = 0; i < MAX_N; i++) {
         memo[i] = -1;
     }
 
-    printf("memoization: %d\n", fibonacci_memoization(test_nbr));
+    printf("memoization: %d\n", fibonacci(12));
     return 0;
 }
