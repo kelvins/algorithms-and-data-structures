@@ -962,7 +962,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/fibonacci.rb">
+                <a href="./src/ruby/fibonacci_iterative.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -1083,8 +1083,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/FibonacciMemoization.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
