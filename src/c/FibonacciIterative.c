@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int fibonacci_iterative(int number) {
+int fibonacci(int number) {
     int last_number = 0;
     int current_number = 1;
 
@@ -12,9 +12,7 @@ int fibonacci_iterative(int number) {
     return last_number;
 }
 
-int main(void) {
-    int test_nbr = 12;
-
-    printf("iterative: %d\n", fibonacci_iterative(test_nbr));
+int main() {
+    printf("Fibonacci Iterative: %d\n", fibonacci(12));
     return 0;
 }
