@@ -1,16 +1,24 @@
-def fibonacci(n, memo={}):
-    if n <= 1:
-        return 1
+import functools
+import time
 
-    # Check if the result is already memoized
-    if n in memo:
-        return memo[n]
 
-    # Calculate Fibonacci recursively and store the result in memoization
-    result = fibonacci(n - 1, memo) + fibonacci(n - 2, memo)
-    memo[n] = result
+@functools.lru_cache(maxsize=None)
+def fibonacci(number):
+    """Fibonacci recursiva com cache."""
+    if number < 2:
+        return number
+    return fibonacci(number - 1) + fibonacci(number - 2)
 
-    return result
 
-n = 16
-print(f"Fib({n}): {fibonacci(n)}")
+def main(name, func, number=35):
+    """
+    Roda o algoritmo e mostra o tempo de execução dele
+    """
+    start_time = time.time()
+    result = func(number)
+    diff_time = time.time() - start_time
+    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "segundos")
+
+
+if __name__ == "__main__":
+    main("Fibonacci Memoization:", fibonacci)

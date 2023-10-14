@@ -9,7 +9,7 @@ import functools
 import time
 
 
-def fib_iterativa(number):
+def fibonacci(number):
     """Fibonacci iterativa."""
     last = 0
     curr = 1
@@ -18,7 +18,7 @@ def fib_iterativa(number):
     return last
 
 
-def run_fibonacci(name, func, number=35):
+def main(name, func, number=35):
     """
     Roda o algoritmo e mostra o tempo de execução dele
     """
@@ -29,4 +29,4 @@ def run_fibonacci(name, func, number=35):
 
 
 if __name__ == "__main__":
-    run_fibonacci("Iterativa", fib_iterativa)
+    main("Iterativa", fibonacci)
