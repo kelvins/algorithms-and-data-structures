@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def fibonacci_recursiva(number)
+def fibonacci(number)
   if number <= 0
     0
   elsif number == 1
@@ -10,4 +10,4 @@ def fibonacci_recursiva(number)
   end
 end
 
-puts fibonacci_recursiva(12)
+puts fibonacci(12)
