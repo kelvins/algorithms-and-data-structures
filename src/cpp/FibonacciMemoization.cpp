@@ -5,7 +5,7 @@ using namespace std;
 
 vector<int> memo;
 
-int fibonacciMemoization(int n) {
+int fibonacci(int n) {
     if (n <= 1) {
         return n;
     }
@@ -13,7 +13,7 @@ int fibonacciMemoization(int n) {
         return memo[n];
     }
 
-    memo[n] = fibonacciMemoization(n - 1) + fibonacciMemoization(n - 2);
+    memo[n] = fibonacci(n - 1) + fibonacci(n - 2);
     return memo[n];
 }
 
@@ -23,6 +23,6 @@ int main() {
     // Initialize the memoization table with -1 (uncomputed)
     memo.assign(test_nbr + 1, -1);
 
-    cout << "memoization: " << fibonacciMemoization(test_nbr) << endl;
+    cout << "memoization: " << fibonacci(test_nbr) << endl;
     return 0;
 }

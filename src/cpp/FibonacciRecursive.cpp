@@ -1,25 +1,14 @@
-
 #include <iostream>
 
 using namespace std;
 
-int fibonacciRecursive(int n)
-{
-    if (n == 0)
-    {
-        return 0;
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
     }
-    else if (n == 1)
-    {
-        return 1;
-    }
-    else
-    {
-        return fibonacciRecursive(n-1) + fibonacciRecursive(n-2);
-    }
+    return fibonacci(n-1) + fibonacci(n-2);
 }
 
-int main()
-{
-    cout << fibonacciRecursive(12) << endl;
+int main() {
+    cout << fibonacci(12) << endl;
 }
