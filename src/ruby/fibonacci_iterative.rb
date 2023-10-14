@@ -11,15 +11,4 @@ def fibonacci(number)
   last
 end
 
-def fibonacci_recursiva(number)
-  if number <= 0
-    0
-  elsif number == 1
-    1
-  else
-    fibonacci(number - 1) + fibonacci(number - 2)
-  end
-end
-
 puts fibonacci(12)
-puts fibonacci_recursiva(12)
