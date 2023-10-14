@@ -1,5 +1,5 @@
 object FibonacciIterative {
-  def fibonacciIterative(n: Int): BigInt = {
+  def fibonacci(n: Int): BigInt = {
     if (n <= 1) {
       return n
     }
@@ -19,6 +19,6 @@ object FibonacciIterative {
 
   def main(args: Array[String]): Unit = {
     val index = 15
-    println(s"Fibonacci (iterative) of $index is: ${fibonacciIterative(index)}")
+    println(s"Fibonacci (iterative) of $index is: ${fibonacci(index)}")
   }
 }

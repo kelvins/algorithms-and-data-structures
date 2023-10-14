@@ -3,16 +3,16 @@ object FibonacciMemoization {
 
   val memo: Map[Int, BigInt] = Map()
 
-  def fibonacciMemoization(n: Int): BigInt = {
+  def fibonacci(n: Int): BigInt = {
     if (n <= 1) {
       return n
     }
 
-    memo.getOrElseUpdate(n, fibonacciMemoization(n - 1) + fibonacciMemoization(n - 2))
+    memo.getOrElseUpdate(n, fibonacci(n - 1) + fibonacci(n - 2))
   }
 
   def main(args: Array[String]): Unit = {
     val index = 15
-    println(s"Fibonacci (memoization) of $index is: ${fibonacciMemoization(index)}")
+    println(s"Fibonacci (memoization) of $index is: ${fibonacci(index)}")
   }
 }
