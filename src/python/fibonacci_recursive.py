@@ -7,6 +7,7 @@ execução dos algoritmos em segundos
 
 import time
 
+
 def fibonacci(number):
     """Fibonnaci recursiva."""
     if number < 2:

@@ -6,6 +6,7 @@ object FibonacciIterative {
 
     var a = BigInt(0)
     var b = BigInt(1)
+
     var result = BigInt(0)
 
     for (i <- 2 to n) {

@@ -21,5 +21,9 @@ fn main() {
     let index = 15;
     let mut memo: HashMap<u32, u64> = HashMap::new();
 
-    println!("Fibonacci (memoization) of {} is: {}", index, fibonacci(index, &mut memo));
+    println!(
+        "Fibonacci (memoization) of {} is: {}",
+        index,
+        fibonacci(index, &mut memo)
+    );
 }

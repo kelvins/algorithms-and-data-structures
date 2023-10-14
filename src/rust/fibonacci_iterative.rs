@@ -17,5 +17,9 @@ fn fibonacci(n: u32) -> u64 {
 
 fn main() {
     let index = 15;
-    println!("Fibonacci (iterative) of {} is: {}", index, fibonacci(index));
+    println!(
+        "Fibonacci (iterative) of {} is: {}",
+        index,
+        fibonacci(index)
+    );
 }
