@@ -2,7 +2,7 @@
 var memo: [Int: Int] = [:]
 
 // Function to calculate Fibonacci numbers using memoization
-func fibonacciMemoization(_ n: Int) -> Int {
+func fibonacci(_ n: Int) -> Int {
     if n <= 1 {
         return n
     }
@@ -13,11 +13,11 @@ func fibonacciMemoization(_ n: Int) -> Int {
     }
 
     // Calculate Fibonacci recursively and store the result in memoization
-    let result = fibonacciMemoization(n - 1) + fibonacciMemoization(n - 2)
+    let result = fibonacci(n - 1) + fibonacci(n - 2)
     memo[n] = result
 
     return result
 }
 
 let index: Int = 15
-print("Fibonacci (memoization):", fibonacciMemoization(index))
+print("Fibonacci (memoization):", fibonacci(index))
