@@ -866,7 +866,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/Fatorial.scala">
+                <a href="./src/scala/Factorial.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -924,7 +924,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/FatorialRecursiva.scala">
+                <a href="./src/scala/FactorialRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -1040,7 +1040,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/MaxRecursivo.scala">
+                <a href="./src/scala/MaxRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -1098,7 +1098,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/MinMaxIterativo.scala">
+                <a href="./src/scala/MinMaxIterative.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -1156,7 +1156,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/MinMaxRecursivo.scala">
+                <a href="./src/scala/MinMaxRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -1330,7 +1330,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/TorreDeHanoi.scala">
+                <a href="./src/scala/TowerOfHanoi.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -1796,7 +1796,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/Fila.scala">
+                <a href="./src/scala/Queue.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -2260,7 +2260,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/Pilha.scala">
+                <a href="./src/scala/Stack.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
