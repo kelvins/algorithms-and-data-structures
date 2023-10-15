@@ -1,5 +1,6 @@
 from itertools import permutations
 
+
 def calculate_total_distance(path, distances):
     """
     Calculate the total distance of a path through cities.
@@ -22,6 +23,7 @@ def calculate_total_distance(path, distances):
     total_distance += distances[path[-1]][path[0]]
     return total_distance
 
+
 def traveling_salesman_bruteforce(distances):
     """
     Find the shortest path through cities using brute force.
@@ -40,7 +42,7 @@ def traveling_salesman_bruteforce(distances):
     num_cities = len(distances)
     all_cities = list(range(num_cities))
     shortest_path = None
-    shortest_distance = float('inf')
+    shortest_distance = float("inf")
 
     for path in permutations(all_cities):
         distance = calculate_total_distance(path, distances)
@@ -49,6 +51,7 @@ def traveling_salesman_bruteforce(distances):
             shortest_path = path
 
     return shortest_path, shortest_distance
+
 
 def create_distance_matrix(num_cities):
     """
@@ -71,12 +74,15 @@ def create_distance_matrix(num_cities):
             if i == j:
                 row.append(0)
             elif j > i:
-                distance = int(input(f"Enter distance between City {i + 1} and City {j + 1}: "))
+                distance = int(
+                    input(f"Enter distance between City {i + 1} and City {j + 1}: ")
+                )
                 row.append(distance)
             else:
                 row.append(distances[j][i])
         distances.append(row)
     return distances
+
 
 def print_distance_matrix(distances):
     """
@@ -98,6 +104,7 @@ def print_distance_matrix(distances):
     for row in distances:
         print(row)
 
+
 def print_city_path(path):
     """
     Print the shortest path through cities.
@@ -111,6 +118,7 @@ def print_city_path(path):
     """
     city_path = [f"City {city + 1}" for city in path]
     print("Shortest Path:", " -> ".join(city_path))
+
 
 def main_menu():
     """
@@ -129,22 +137,25 @@ def main_menu():
 
         choice = input("Enter your choice: ")
 
-        if choice == '1':
+        if choice == "1":
             num_cities = int(input("Enter the number of cities: "))
             distances = create_distance_matrix(num_cities)
             print_distance_matrix(distances)
-        elif choice == '2':
+        elif choice == "2":
             if 'distances' in locals():
-                shortest_path, shortest_distance = traveling_salesman_bruteforce(distances)
+                shortest_path, shortest_distance = traveling_salesman_bruteforce(
+                    distances
+                )
                 print_city_path(shortest_path)
                 print("Shortest Distance:", shortest_distance)
             else:
                 print("Please create a distance matrix first.")
-        elif choice == '3':
+        elif choice == "3":
             print("Goodbye!")
             break
         else:
             print("Invalid choice. Please select a valid option.")
+
 
 if __name__ == "__main__":
     main_menu()
