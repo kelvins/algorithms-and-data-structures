@@ -813,7 +813,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
-                <a href="./src/kotlin/ExponenciacaoRecursiva.kt">
+                <a href="./src/kotlin/ExponentiationRecursive.kt">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
@@ -871,7 +871,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
-                <a href="./src/kotlin/Fatorial.kt">
+                <a href="./src/kotlin/Factorial.kt">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
