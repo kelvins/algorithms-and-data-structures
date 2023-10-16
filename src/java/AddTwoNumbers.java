@@ -2,50 +2,53 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-// Utilizado o OpenJDK 17.0.3
+// Utilized OpenJDK 17.0.3
 /*
  * @author Gabriel Nascimento. GitHub: Gabrielxdf
  *
  */
-public class SomaDoisNumeros {
+public class AddTwoNumbers {
   /**
-   * Para cada elemento da lista de valores, o método percorre o restante da lista verificando se há
-   * algum número cuja some de ambos seja o valor esperado.
+   * This program takes a list of numbers and checks if there are two numbers whose sum is equal to
+   * the expected value.
+   * 
+   * For each element in the list of values, this method goes through the list, 
+   * checking if there is any number whose sum of both is the expected value.
    *
-   * @param valores Lista de valores que será verificada.
-   * @param esperado Valor esperado pela soma de dois números da lista valores.
+   * @param values List of values that will be checked.
+   * @param expected Expected value from the sum of two numbers from the values list.
    */
-  public static void verificaSeExisteSoma(List<Integer> valores, int esperado) {
-    boolean resultado = false;
-    for (int i = 0; i < valores.size() - 1; i++) {
-      for (int j = i + 1; j < valores.size(); j++) {
-        if (valores.get(i) + valores.get(j) == esperado) {
-          resultado = true;
+  public static void checkIfThereSumExists(List<Integer> values, int expected) {
+    boolean result = false;
+    for (int i = 0; i < values.size() - 1; i++) {
+      for (int j = i + 1; j < values.size(); j++) {
+        if (values.get(i) + values.get(j) == expected) {
+          result = true;
           System.out.println(
               MessageFormat.format(
-                  "Verdadeiro - {0} + {1} = {2}", valores.get(i), valores.get(j), esperado));
+                  "True - {0} + {1} = {2}", values.get(i), values.get(j), expected));
           break;
         }
       }
-      if (resultado) {
+      if (result) {
         break;
       }
     }
-    if (!resultado) {
+    if (!result) {
       System.out.println(
-          MessageFormat.format("Falso - Não há dois números cuja soma seja {0}", esperado));
+          MessageFormat.format("False - There are no two numbers whose sum is {0}", expected));
     }
   }
 
   public static void main(String[] args) {
-    List<Integer> valores = new ArrayList<Integer>(List.of(12, 33, 5, 9, 54, 100));
-    System.out.println("------Deve ser verdadeiro------");
-    verificaSeExisteSoma(valores, 133);
-    verificaSeExisteSoma(valores, 42);
-    verificaSeExisteSoma(valores, 66);
-    System.out.println("------Deve ser falso------");
-    verificaSeExisteSoma(valores, 13);
-    verificaSeExisteSoma(valores, 100);
-    verificaSeExisteSoma(valores, 60);
+    List<Integer> values = new ArrayList<Integer>(List.of(12, 33, 5, 9, 54, 100));
+    System.out.println("------It must be true------");
+    checkIfThereSumExists(values, 133);
+    checkIfThereSumExists(values, 42);
+    checkIfThereSumExists(values, 66);
+    System.out.println("------It must be false------");
+    checkIfThereSumExists(values, 13);
+    checkIfThereSumExists(values, 100);
+    checkIfThereSumExists(values, 60);
   }
 }
