@@ -11,9 +11,9 @@ public class AddTwoNumbers {
   /**
    * This program takes a list of numbers and checks if there are two numbers whose sum is equal to
    * the expected value.
-   * 
-   * For each element in the list of values, this method goes through the list, 
-   * checking if there is any number whose sum of both is the expected value.
+   *
+   * <p>For each element in the list of values, this method goes through the list, checking if there
+   * is any number whose sum of both is the expected value.
    *
    * @param values List of values that will be checked.
    * @param expected Expected value from the sum of two numbers from the values list.
