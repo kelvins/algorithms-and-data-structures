@@ -9,16 +9,19 @@ void swap(int array[], int i, int j)
 
 void selection_sort(int array[], int n)
 {
-    int i, j;
+    int min, i, j;
     for (i = 0; i < n; i++)
     {
+        min = i;
         for (j = i + 1; j < n; j++)
         {
-            if (array[i] > array[j])
+            if (array[min] > array[j])
             {
-                swap(array, i, j);
+                min = j;
             }
         }
+        if (min != i)
+            swap(array, min, i);
     }
 }
 
