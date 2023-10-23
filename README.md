@@ -3159,6 +3159,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
+            <td> <!-- kotlin -->
+                <a href="./src/kotlin/MergeSort.kt">
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
             <td> <!-- Python -->
                 <a href="./src/python/merge_sort.py">
                     <img align="center" height="25" src="./logos/python.svg" />
