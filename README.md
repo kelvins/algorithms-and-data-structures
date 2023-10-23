@@ -3194,9 +3194,9 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+            <td> <!-- kotlin -->
+                <a href="./src/kotlin/MergeSort.kt">
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
