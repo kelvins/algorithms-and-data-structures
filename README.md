@@ -183,8 +183,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">Binary Search</a></td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/c/BinarySearch.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1285,13 +1285,13 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Min and Max (D&C)</td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/c/MinMaxDC.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/cpp/MinMaxDC.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -2162,8 +2162,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/cpp/DoublyLinkedList.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3150,8 +3150,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/cpp/MergeSort.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
@@ -3194,9 +3194,9 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+            <td> <!-- kotlin -->
+                <a href="./src/kotlin/MergeSort.kt">
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
         </tr>
