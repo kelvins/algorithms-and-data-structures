@@ -1,21 +1,14 @@
-""" 
-Implementação do algoritmo bubble sort com recursão
-Implementation of the bubble sort algorithm with recursion 
-"""
+""" Implementation of the bubble sort algorithm with recursion """
 
 
 def bubble_sort(data, size):
     """
-    Implementação de um algoritmo de bubble sort com recursão.
-    Argumentos:
-    data: lista. Lista que será ordenada
-    size: int. Tamanho da lista
-    Retorna a lista "data" ordenada.
-
     Implementation of a bubble sort algorithm with recursion.
+
     Arguments:
     data: list. List to be sorted
     size: int. List size
+    
     Returns the ordered "date" list.
     """
     swap = False
