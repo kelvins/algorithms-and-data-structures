@@ -8,7 +8,7 @@ def bubble_sort(data, size):
     Arguments:
     data: list. List to be sorted
     size: int. List size
-    
+
     Returns the ordered "date" list.
     """
     swap = False
@@ -21,7 +21,7 @@ def bubble_sort(data, size):
 
 
 if __name__ == "__main__":
-    unordered_list = [2, 9, 8, 0, 1, 3, 5, 4, 6, 7]
-    print(unordered_list)
-    bubble_sort(unordered_list, len(unordered_list))
-    print(unordered_list)
+    data = [2, 9, 8, 0, 1, 3, 5, 4, 6, 7]
+    print(data)
+    bubble_sort(data, len(data))
+    print(data)
