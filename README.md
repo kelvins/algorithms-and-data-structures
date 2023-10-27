@@ -3320,7 +3320,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://en.wikipedia.org/wiki/Selection_sort">Selection Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
