@@ -299,7 +299,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/SequentialSearch.c">
+                <a href="./src/c/LinearSearch.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
