@@ -10,10 +10,11 @@ public class FloydWarshall {
     public static void showMatrix(long[][] matriz, int nroVertices) {
         for (int i = 0; i < nroVertices; i++) {
             for (int j = 0; j < nroVertices; j++) {
-                if (matriz[i][j] < 10)
+                if (matriz[i][j] < 10) {
                     System.out.print(" " + matriz[i][j] + " ");
-                else
+                } else {
                     System.out.print(matriz[i][j] + " ");
+                }
             }
             System.out.println();
         }
