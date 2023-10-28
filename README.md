@@ -2273,7 +2273,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Sorted Linked List</td>
             <td> <!-- C -->
-                <a href="./src/c/OrderedSequentialList.c">
+                <a href="./src/c/SortedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
