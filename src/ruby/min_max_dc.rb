@@ -1,4 +1,6 @@
-require 'test/unit/assertions'
+# frozen_string_literal: true
+
+require "test/unit/assertions"
 include Test::Unit::Assertions
 
 def min_max_dc(vector, start_index, end_index)
