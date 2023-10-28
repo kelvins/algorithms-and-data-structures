@@ -31,7 +31,6 @@ def bogosort(arr):
 
 
 if __name__ == "__main__":
-
     # Example usage
     unsorted_list = [3, 1, 2, 5, 4]
     print("Unsorted list:", unsorted_list)
