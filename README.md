@@ -531,7 +531,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman</a></td>
             <td> <!-- C -->
-                <a href="./src/c/TravelingSalesman.c">
+                <a href="./src/c/TravellingSalesman.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
