@@ -2943,8 +2943,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/javascript/CountingSort.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
