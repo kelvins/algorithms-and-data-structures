@@ -67,7 +67,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a></td>
             <td> <!-- C -->
-                <a href="./src/c/AlgoritmoDijkstra.c">
+                <a href="./src/c/DijkstraAlgorithm.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -125,7 +125,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Floyd–Warshall Algorithm</a></td>
             <td> <!-- C -->
-                <a href="./src/c/AlgoritmoFloydWarshall.c">
+                <a href="./src/c/FloydWarshallAlgorithm.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
