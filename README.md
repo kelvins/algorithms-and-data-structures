@@ -3609,6 +3609,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
+            <td>Subsets Bit Manipulation</td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/SubsetsBitManipulation.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td>Two-Sum Problem</td>
             <td> <!-- C -->
                 <a href="./src/c/TwoSum.c">
