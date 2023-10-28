@@ -1925,7 +1925,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://iq.opengenus.org/dynamic-queue/">Dynamic Queue</a></td>
             <td> <!-- C -->
-                <a href="./src/c/DynamicallyLinkedQueue.c">
+                <a href="./src/c/DynamicQueue.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
