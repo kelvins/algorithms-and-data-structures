@@ -2389,7 +2389,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Dynamic Stack</td>
             <td> <!-- C -->
-                <a href="./src/c/DynamicallyLinkedStack.c">
+                <a href="./src/c/DynamicStack.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
