@@ -1,6 +1,5 @@
 /*
 *   Exemplo Lista Duplamente Encadeada em C
-*   Luan Felipe dos S. da Silva
 */
 
 
