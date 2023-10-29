@@ -1,6 +1,5 @@
 /* 
 *	Exemplo de implementação de Pilha em C - Utiliza Sentinela
-*	Kelvin S. do Prado - 2015
 */
 
 #include <stdio.h>
