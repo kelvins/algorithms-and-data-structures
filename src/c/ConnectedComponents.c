@@ -1,7 +1,6 @@
 /*
 *
 *	Grafos - Algoritmo para calcular o número de componentes conexos em um determinado Grafo
-*	Kelvin Salton do Prado - 2015
 *
 *	GRAFO
 *   (0)               (1)-------------(4)---------------(5)
