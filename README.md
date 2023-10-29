@@ -67,7 +67,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a></td>
             <td> <!-- C -->
-                <a href="./src/c/AlgoritmoDijkstra.c">
+                <a href="./src/c/DijkstraAlgorithm.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -125,7 +125,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Floyd–Warshall Algorithm</a></td>
             <td> <!-- C -->
-                <a href="./src/c/AlgoritmoFloydWarshall.c">
+                <a href="./src/c/FloydWarshallAlgorithm.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -241,7 +241,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Graph_traversal">Graph Search</a></td>
             <td> <!-- C -->
-                <a href="./src/c/BuscaEmGrafo.c">
+                <a href="./src/c/GraphSearch.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -299,7 +299,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/BuscaSequencial.c">
+                <a href="./src/c/LinearSearch.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -357,7 +357,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/BuscaSequencialRecursiva.c">
+                <a href="./src/c/RecursiveSequentialSearch.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -415,7 +415,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/BuscaSentinela.c">
+                <a href="./src/c/SentinelSearch.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -531,7 +531,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman</a></td>
             <td> <!-- C -->
-                <a href="./src/c/CaixeiroViajante.c">
+                <a href="./src/c/TravellingSalesman.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -589,7 +589,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Hamiltonian_path">Hamiltonian Cycle</a></td>
             <td> <!-- C -->
-                <a href="./src/c/CicloHamiltoniano.c">
+                <a href="./src/c/HamiltonianCycle.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -647,7 +647,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://graphstream-project.org/doc/Algorithms/Connected-Components">Connected Components</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ComponentesConexos.c">
+                <a href="./src/c/ConnectedComponents.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -705,7 +705,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Iterative)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Exponenciacao.c">
+                <a href="./src/c/Exponentiation.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -763,7 +763,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ExponenciacaoRecursiva.c">
+                <a href="./src/c/RecursiveExponentiation.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -821,7 +821,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Iterative)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Fatorial.c">
+                <a href="./src/c/Factorial.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -879,7 +879,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/FatorialRecursiva.c">
+                <a href="./src/c/RecursiveFactorial.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1693,7 +1693,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_tree">Binary Tree</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ArvoreBinaria.c">
+                <a href="./src/c/BinaryTree.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1751,7 +1751,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary Search Tree</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ArvoreBinariaDeBusca.c">
+                <a href="./src/c/BinarySearchTree.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1867,7 +1867,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Fila.c">
+                <a href="./src/c/Queue.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1925,7 +1925,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://iq.opengenus.org/dynamic-queue/">Dynamic Queue</a></td>
             <td> <!-- C -->
-                <a href="./src/c/FilaEncadeadaDinamica.c">
+                <a href="./src/c/DynamicQueue.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1983,7 +1983,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">Graph</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Grafos.c">
+                <a href="./src/c/Graphs.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2041,7 +2041,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://www.programiz.com/dsa/circular-linked-list">Circular Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ListaCircularLigada.c">
+                <a href="./src/c/CircularLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2099,7 +2099,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linked_list">Singly Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ListaEncadeada.c">
+                <a href="./src/c/LinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2157,7 +2157,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linked_list">Doubly Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ListaDuplamenteEncadeada.c">
+                <a href="./src/c/DoublyLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2215,7 +2215,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linked_list">Unordered Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/ListaLigadaNaoOrdenada.c">
+                <a href="./src/c/UnorderedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2273,7 +2273,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Sorted Linked List</td>
             <td> <!-- C -->
-                <a href="./src/c/ListaSequencialOrdenada.c">
+                <a href="./src/c/SortedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2331,7 +2331,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Pilha.c">
+                <a href="./src/c/Stack.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2389,7 +2389,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Dynamic Stack</td>
             <td> <!-- C -->
-                <a href="./src/c/PilhaLigadaDinamica.c">
+                <a href="./src/c/DynamicStack.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -3669,7 +3669,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Palindrome">Palindrome</a></td>
             <td> <!-- C -->
-                <a href="./src/c/Palindromo.c">
+                <a href="./src/c/Palindrome.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
