@@ -1,6 +1,5 @@
 /*
 * Graphs - Dijkstra Algorithm in C
-* Kelvin Salton do Prado - 2015
 * Complexity: Theta(n^2)
 *
 * 1 for all - Edges with non-negative weights - Greedy algorithm
