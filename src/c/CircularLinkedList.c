@@ -1,7 +1,6 @@
 /*
 *
 *	Lista Ligada com Nó Cabeça, Circular e Ordenada (Implementação Dinâmica)
-*	Kelvin Salton do Prado - 2015
 *
 */
 
