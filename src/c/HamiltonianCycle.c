@@ -1,7 +1,6 @@
 /*
 *
 *	Grafos - CICLO HAMILTONIANO em C
-*	Kelvin Salton do Prado - 2015
 *
 *                      -----------------------------------
 *                      |                                 |
