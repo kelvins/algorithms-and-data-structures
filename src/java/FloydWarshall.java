@@ -3,7 +3,7 @@
  * All pairs shortest path algorithm
  * Time Complexity:  O(n³)
  * Space Complexity: O(n²)
-*/
+ */
 
 public class FloydWarshall {
 
@@ -16,6 +16,7 @@ public class FloydWarshall {
           System.out.print(matriz[i][j] + " ");
         }
       }
+
       System.out.println();
     }
     System.out.println();
