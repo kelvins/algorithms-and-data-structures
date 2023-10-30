@@ -142,7 +142,7 @@ def main_menu():
             distances = create_distance_matrix(num_cities)
             print_distance_matrix(distances)
         elif choice == "2":
-            if 'distances' in locals():
+            if "distances" in locals():
                 shortest_path, shortest_distance = traveling_salesman_bruteforce(
                     distances
                 )
