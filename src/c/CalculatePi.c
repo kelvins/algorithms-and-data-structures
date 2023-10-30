@@ -1,6 +1,5 @@
 /*
 Calculo de Pi em C
-https://github.com/DantasB
 */
 
 #include <stdio.h>
