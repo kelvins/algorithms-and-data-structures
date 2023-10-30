@@ -239,64 +239,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Graph_traversal">Graph Search</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/GraphSearch.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/busca_em_grafo.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/GraphSearch.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/LinearSearch.c">
@@ -2025,6 +1967,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Rust -->
                 <a href="./src/rust/grafo.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Graph_traversal">Graph Search</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/GraphSearch.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/busca_em_grafo.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/GraphSearch.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
