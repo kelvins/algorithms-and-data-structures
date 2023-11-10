@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BinarySearchTree
   class Node
     attr_accessor :left, :right, :value
@@ -152,8 +154,8 @@ RSpec.describe BinarySearchTree do
     bst.insert(1)
   end
 
-  describe '#insert' do
-    it 'adds a value to the tree' do
+  describe "#insert" do
+    it "adds a value to the tree" do
       expect(bst.traverse).to eq({ value: 9,
                                    left: { value: 4,
                                            left: { value: 1, left: nil, right: nil },
@@ -163,20 +165,20 @@ RSpec.describe BinarySearchTree do
     end
   end
 
-  describe '#lookup' do
-    it 'finds a value in the tree' do
+  describe "#lookup" do
+    it "finds a value in the tree" do
       node = bst.lookup(15)
       expect(node.value).to eq(15)
     end
 
-    it 'returns nil for a value not in the tree' do
+    it "returns nil for a value not in the tree" do
       node = bst.lookup(100)
       expect(node).to be_nil
     end
   end
 
-  describe '#remove' do
-    it 'removes a leaf node' do
+  describe "#remove" do
+    it "removes a leaf node" do
       expect(bst.remove(1)).to be true
 
       expect(bst.traverse).to eq({ value: 9,
@@ -186,7 +188,7 @@ RSpec.describe BinarySearchTree do
                                             right: { value: 170, left: nil, right: nil } } })
     end
 
-    it 'removes a node with one child' do
+    it "removes a node with one child" do
       expect(bst.remove(20)).to be true
 
       expect(bst.traverse).to eq({ value: 9,
@@ -196,7 +198,7 @@ RSpec.describe BinarySearchTree do
                                             right: nil } })
     end
 
-    it 'removes a node with two children' do
+    it "removes a node with two children" do
       expect(bst.remove(4)).to be true
 
       expect(bst.traverse).to eq({ value: 9,
@@ -206,7 +208,7 @@ RSpec.describe BinarySearchTree do
                                             right: { value: 170, left: nil, right: nil } } })
     end
 
-    it 'returns false for a value not in the tree' do
+    it "returns false for a value not in the tree" do
       expect(bst.remove(100)).to be false
     end
   end
