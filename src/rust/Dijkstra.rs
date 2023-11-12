@@ -27,10 +27,7 @@ impl Graph {
 
     // Add an edge to the graph from 'from' node to 'to' node with a given weight.
     fn add_edge(&mut self, from: usize, to: usize, weight: i32) {
-        self.edges[from].push(Edge {
-            target: to,
-            weight,
-        });
+        self.edges[from].push(Edge { target: to, weight });
     }
 
     // Find the shortest path from a specified starting node using Dijkstra's algorithm.
@@ -83,6 +80,9 @@ fn main() {
 
     // Print the results.
     for (node, distance) in shortest_distances.iter() {
-        println!("Shortest distance from node {} to node {}: {}", start_node, node, distance);
+        println!(
+            "Shortest distance from node {} to node {}: {}",
+            start_node, node, distance
+        );
     }
 }
