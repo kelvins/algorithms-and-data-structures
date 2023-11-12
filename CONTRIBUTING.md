@@ -6,7 +6,7 @@ Before you start contributing, please take a moment to review this document to u
 
 ## Code of Conduct
 
-We have adopted a [Code of Conduct](./CODE-OF-CONDUCT.md) that we expect all community members to follow. Please make sure to review and adhere to it in all interactions within our community.
+We have adopted a [Code of Conduct](./CODE_OF_CONDUCT.md) that we expect all community members to follow. Please make sure to review and adhere to it in all interactions within our community.
 
 ## How Can I Contribute?
 
@@ -28,7 +28,7 @@ If you encounter an issue or have a feature request, please follow these steps:
 
 Before you start working on a contribution, please keep in mind the following guidelines:
 
-- Adhere to our [Code of Conduct](./CODE-OF-CONDUCT.md).
+- Adhere to our [Code of Conduct](./CODE_OF_CONDUCT.md).
 - Respect and follow existing project coding standards.
 - Write clear and concise commit messages.
 - Test your changes thoroughly.
