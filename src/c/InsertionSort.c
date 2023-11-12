@@ -1,7 +1,5 @@
 /*
 Algoritmo de ordenação Insertion Sort em C
-Vinicios Barbosa da Silva - 2023
-https://github.com/ViniciosB
 */
 
 #include <stdio.h>  // Necessário para usar input e output

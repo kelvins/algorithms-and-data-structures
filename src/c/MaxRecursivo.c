@@ -1,7 +1,6 @@
 /*
 * Exemplos de funções para achar maior número de um vetor
 * As 3 são recursivas porém apenas a MaxDC utiliza divisão e conquista
-* Kelvin Salton do Prado - 2015
 */
 
 #include <stdio.h>

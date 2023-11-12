@@ -1,6 +1,5 @@
 /*
 *	Exemplo de Ordenação utilizando Merge Sort
-*	Kelvin Salton do Prado - 2015
 *
 *	Dividir para conquistar:
 *

@@ -1,39 +1,40 @@
-//Diogo L.C. Felipe
-//diogomem@outlook.com
+// Diogo L.C. Felipe
+// diogomem@outlook.com
 
 /*
-	O Selection Sort, ou algoritomo de ordenação por seleção ordena uma serie de dados
-	da seguinte maneira:
-		1. Acha o menor valor no vetor a partir da posição 'i';
-		2. Troca esse valor com o valor que está na posição 'i';
-		3. Soma 1 na posição de inicio (i = i + 1);
-		4. Repete o algorítimo até a penultima posição do verto. 
+   Selection Sort, or the selection sort algorithm, sorts a series of data
+   as follows:
+      1. Finds the smallest value in the array starting from position 'i';
+      2. Swaps this value with the value at position 'i';
+      3. Increments the starting position (i = i + 1);
+      4. Repeats the algorithm until the penultimate position of the array.
 */
 
-function selectionSort(vetorDesordenado, inicio, fim) {
+function selectionSort(unsortedArray, start, end) {
 
-	for (let i = inicio; i < fim - 1; i++) {
-		let menorPosicao = buscaPosicaoMenor(vetorDesordenado, i, fim);
-		[vetorDesordenado[menorPosicao], vetorDesordenado[i]] = [vetorDesordenado[i], vetorDesordenado[menorPosicao]];
+	for (let i = start; i < end - 1; i++) {
+	   let smallestPosition = findSmallestPosition(unsortedArray, i, end);
+	   [unsortedArray[smallestPosition], unsortedArray[i]] = [unsortedArray[i], unsortedArray[smallestPosition]];
 	}
-
-	return vetorDesordenado;
-}
-
-function buscaPosicaoMenor(vetorDesordenado, inicio, termino){
-	let posicaoMenor = inicio;
-	let menor = vetorDesordenado[inicio]
-
-	for (let i = inicio; i < termino; i++) {
-		if(vetorDesordenado[i] < menor){
-			menor = vetorDesordenado[i];
-			posicaoMenor = i;
-		}
+ 
+	return unsortedArray;
+ }
+ 
+ function findSmallestPosition(unsortedArray, start, end) {
+	let smallestPosition = start;
+	let smallest = unsortedArray[start];
+ 
+	for (let i = start; i < end; i++) {
+	   if (unsortedArray[i] < smallest) {
+		  smallest = unsortedArray[i];
+		  smallestPosition = i;
+	   }
 	}
-	return posicaoMenor;
-}
-
-var vetorDesordenado  = [54,42,11,33,24,99,77,80];
-let vetorOrdenadoViaSelectionSort = selectionSort(vetorDesordenado, 0, vetorDesordenado.length);
-
-console.log(vetorOrdenadoViaSelectionSort);
+	return smallestPosition;
+ }
+ 
+ var unsortedArray = [54, 42, 11, 33, 24, 99, 77, 80];
+ let sortedArrayViaSelectionSort = selectionSort(unsortedArray, 0, unsortedArray.length);
+ 
+ console.log(sortedArrayViaSelectionSort);
+ 
