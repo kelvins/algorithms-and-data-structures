@@ -663,7 +663,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                    <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
