@@ -1,7 +1,5 @@
 """
 Arvore Binaria de Busca em Python
-Kelvin Salton do Prado
-2015
 """
 
 

@@ -1,6 +1,4 @@
 # Algoritmo de ordenação Counting sort em Python
-# Vinicios Barbosa da Silva - 2023
-# https://github.com/ViniciosB
 
 import random
 

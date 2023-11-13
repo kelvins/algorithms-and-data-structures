@@ -1,6 +1,4 @@
 # Mínimo e Máximo de um array usando divide & conquer
-# Bruno Dantas de Paiva - 2021
-# https://github.com/DantasB
 
 import random
 

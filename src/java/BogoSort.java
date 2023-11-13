@@ -1,6 +1,3 @@
-/*
- * @author Marcelo Wischniowski <marcelowisc at gmail.com>
- */
 public class BogoSort {
 
   public static int[] bogoSort(int[] vector) {
