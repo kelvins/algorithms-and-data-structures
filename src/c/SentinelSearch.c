@@ -1,7 +1,6 @@
 /*
 *	Exemplo de Busca Sentinela em C
 *	Objetivo: Encontrar um valor em um vetor sem precisar testar todos os valores dentro do laço
-*	Kelvin Salton do Prado - 2015
 */
 
 #include <stdio.h>
@@ -25,7 +24,7 @@ int buscaSentinela(int vetor[], int chave){
 int main(){
 
 	int vetor[TAM_VETOR+1]; // Declara o vetor com +1 pois é a posição que será utilizada pela sentinela
-	
+
 	// Preenche o vetor com valores aleatórios 0-1000
 	srand(time(NULL));
 	for(int i = 0; i < TAM_VETOR; i++){
@@ -39,6 +38,6 @@ int main(){
 		printf("\n\nValor %d encontrado na posicao %d.\n\n", vetor[res], res);
 	else
 		printf("\n\nValor não encontrado no vetor\n\n");
-	
+
 	return 0;
 }

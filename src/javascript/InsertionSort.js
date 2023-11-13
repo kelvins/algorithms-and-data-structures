@@ -1,6 +1,3 @@
-//Diogo L.C. Felipe
-//diogomem@outlook.com
-
 /*
    Insertion Sort is a sorting algorithm that works as follows:
    1. It iterates through the array from the second position onward.

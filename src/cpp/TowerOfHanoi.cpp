@@ -1,7 +1,5 @@
 /*
     Recursive Towers of Hanoi Solution
-    Thomas Martin - 2023
-    https://github.com/thomas-martin-uf
 
     Problem Description: (from wikipedia)
     The Tower of Hanoi is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters,

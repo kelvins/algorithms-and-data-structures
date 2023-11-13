@@ -3,10 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Utilized OpenJDK 17.0.3
-/*
- * @author Gabriel Nascimento. GitHub: Gabrielxdf
- *
- */
 public class AddTwoNumbers {
   /**
    * This program takes a list of numbers and checks if there are two numbers whose sum is equal to

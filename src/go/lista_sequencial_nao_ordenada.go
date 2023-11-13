@@ -1,6 +1,5 @@
 /*
 * Listas - Lista linear não ordenada
-* Danilo Moura - 2020
 *
 * Implementação da lista sequencial cujos elementos não estão ordenados
 *

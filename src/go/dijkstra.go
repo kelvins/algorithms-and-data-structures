@@ -1,6 +1,5 @@
 /*
 * Grafos - Algoritmo de Dijkstra em Go
-* Danilo Moura - 2020
 * Complexidade: Teta(n^2)
 * Implementação utilizando matriz de adjacências (matriz de distância)
 *

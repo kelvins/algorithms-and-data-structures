@@ -1,6 +1,4 @@
 # Grafos - Algoritmos de BFS e DFS em Python
-# Bruno Dantas de Paiva - 2021
-# https://github.com/DantasB
 
 from collections import deque
 

@@ -1,6 +1,5 @@
 /*
 * Listas - Lista linear ordenada
-* Danilo Moura - 2020
 *
 * Implementação da lista sequencial cujos elementos estão ordenados
 *

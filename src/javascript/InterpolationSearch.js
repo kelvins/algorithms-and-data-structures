@@ -1,7 +1,4 @@
 /**
- * @author octaviolage
- * @version 1.0
- * @date 2022-07-31
  * @description Busca por interpolação
  * @reference https://en.wikipedia.org/wiki/Interpolation_search
  */
@@ -22,7 +19,7 @@ const interpolationSearch = (arr, first, last, value) => {
       return pos;
     else if (arr[pos] < value)
       return interpolationSearch(arr, pos + 1, last, value);
-    else 
+    else
       return interpolationSearch(arr, first, pos - 1, value);
   }
   return -1;
@@ -30,7 +27,7 @@ const interpolationSearch = (arr, first, last, value) => {
 
 const main = () => {
   // The array needs to be sorted
-  const arr = [10, 12, 13, 16, 18, 19, 20, 21, 
+  const arr = [10, 12, 13, 16, 18, 19, 20, 21,
     22, 23, 24, 33, 35, 42, 47];
   let n = arr.length;
 
