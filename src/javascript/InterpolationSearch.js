@@ -1,5 +1,5 @@
 /**
- * @description Busca por interpolação
+ * @description Interpolation Search
  * @reference https://en.wikipedia.org/wiki/Interpolation_search
  */
 

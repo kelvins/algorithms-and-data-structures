@@ -1,6 +1,6 @@
 /**
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  */
 function factorial(n) {
     let result = 1;
@@ -11,7 +11,7 @@ function factorial(n) {
 }
 
 function main(){
-    console.log('Fatorial => ', factorial(3));
+    console.log('Factorial => ', factorial(3));
 }
 
 main();
