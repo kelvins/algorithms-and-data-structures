@@ -3450,7 +3450,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/tim_sort.py">
+                <a href="./src/python/timsort.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
