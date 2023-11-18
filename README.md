@@ -198,17 +198,17 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_binaria.py">
+                <a href="./src/python/binary_search.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/busca_binaria.go">
+                <a href="./src/go/binary_search.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/busca_binaria.rb">
+                <a href="./src/ruby/binary_search.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -223,7 +223,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/busca_binaria.rs">
+                <a href="./src/rust/binary_search.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
