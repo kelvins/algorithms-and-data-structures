@@ -2288,12 +2288,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/lista_sequencial_ordenada.py">
+                <a href="./src/python/sorted_linked_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/lista_sequencial_ordenada.go">
+                <a href="./src/go/sorted_linked_list.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
