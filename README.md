@@ -2172,7 +2172,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/lista_duplamente_encadeada.py">
+                <a href="./src/python/doubly_linked_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -2182,7 +2182,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/lista_duplamente_encadeada.rb">
+                <a href="./src/ruby/doubly_linked_list.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
