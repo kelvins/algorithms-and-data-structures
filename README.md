@@ -3621,12 +3621,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/AddTwoNumbers.java">
+                <a href="./src/java/TwoSum.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/soma_dois_numeros.py">
+                <a href="./src/python/two_sum.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -3651,7 +3651,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/soma_dois_numeros.rs">
+                <a href="./src/rust/two_sum.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
