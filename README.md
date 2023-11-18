@@ -1169,22 +1169,22 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td>Min and Max (Iterative)</td>
             <td> <!-- C -->
-                <a href="./src/c/IterativeMinAndMax.c">
+                <a href="./src/c/MinMaxIterative.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/IterativeMinAndMax.cpp">
+                <a href="./src/cpp/MinMaxIterative.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/IterativeMinMax.java">
+                <a href="./src/java/MinMaxIterative.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/min_max_iterativo.py">
+                <a href="./src/python/min_max_iterative.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -1194,12 +1194,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/min_max_iterativo.rb">
+                <a href="./src/ruby/min_max_iterative.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/IterativeMinAndMax.js">
+                <a href="./src/javascript/MinMaxIterative.js">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
@@ -1209,7 +1209,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/min_max_iterativo.rs">
+                <a href="./src/rust/min_max_iterative.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
