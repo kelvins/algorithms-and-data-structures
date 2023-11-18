@@ -1766,7 +1766,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/arvore_binaria_de_busca.py">
+                <a href="./src/python/binary_search_tree.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
