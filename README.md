@@ -471,7 +471,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/InterpolationSearch">Interpolation Search</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Interpolation Search</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
