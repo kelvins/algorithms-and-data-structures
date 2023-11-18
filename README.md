@@ -3790,7 +3790,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="src/cpp/LeibnizFormulaForPi.cpp">
+                <a href="src/cpp/CalculatePi.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
@@ -3815,7 +3815,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/Calculate_PI.js">
+                <a href="./src/javascript/CalculatePi.js">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
