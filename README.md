@@ -720,17 +720,17 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/exponenciacao.py">
+                <a href="./src/python/exponentiation.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/exponenciacao.go">
+                <a href="./src/go/exponentiation.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/exponenciacao.rb">
+                <a href="./src/ruby/exponentiation.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -763,7 +763,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/RecursiveExponentiation.c">
+                <a href="./src/c/ExponentiationRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -773,12 +773,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/RecursiveExponentiation.java">
+                <a href="./src/java/ExponentiationRecursive.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/exponenciacao_recursiva.py">
+                <a href="./src/python/exponentiation_recursive.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -788,7 +788,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/exponenciacao_recursiva.rb">
+                <a href="./src/ruby/exponentiation_recursive.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -798,7 +798,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Swift -->
-                <a href="./src/swift/recursiveExponentiation.swift">
+                <a href="./src/swift/exponentiationRecursive.swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
