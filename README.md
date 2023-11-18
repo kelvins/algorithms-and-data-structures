@@ -879,7 +879,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/RecursiveFactorial.c">
+                <a href="./src/c/FactorialRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -889,12 +889,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/RecursiveFactorial.java">
+                <a href="./src/java/FactorialRecursive.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/fatorial_recursiva.py">
+                <a href="./src/python/factorial_recursive.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -904,7 +904,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/fatorial.rb">
+                <a href="./src/ruby/factorial_recursive.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -914,12 +914,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Swift -->
-                <a href="./src/swift/recursiveFactorial.swift">
+                <a href="./src/swift/factorialRecursive.swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/fatorial_recursiva.rs">
+                <a href="./src/rust/factorial_recursive.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
