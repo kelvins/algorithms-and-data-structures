@@ -1877,12 +1877,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Fila.java">
+                <a href="./src/java/Queue.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/fila.py">
+                <a href="./src/python/queue.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -1892,7 +1892,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/fila.rb">
+                <a href="./src/ruby/queue.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -1907,7 +1907,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/fila.rs">
+                <a href="./src/rust/queue.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
