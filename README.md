@@ -3213,7 +3213,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Quicksort.java">
+                <a href="./src/java/QuickSort.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
