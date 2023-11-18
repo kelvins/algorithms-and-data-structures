@@ -256,7 +256,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_em_grafo.py">
+                <a href="./src/python/graph_search.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
