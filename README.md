@@ -836,12 +836,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/fatorial.py">
+                <a href="./src/python/factorial.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/fatorial.go">
+                <a href="./src/go/factorial.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
@@ -861,7 +861,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/fatorial.rs">
+                <a href="./src/rust/factorial.rs">
                     <img align="center" height="25" src="./logos/rust.svg"/>
                 </a>
             </td>
