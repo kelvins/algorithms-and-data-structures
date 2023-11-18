@@ -3964,7 +3964,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/SubsetsBitManipulation.cpp">
+                <a href="./src/cpp/FindDistinctSubsets.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
