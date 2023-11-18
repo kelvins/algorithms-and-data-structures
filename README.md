@@ -309,22 +309,22 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="src/java/LinearSearchIterative.java">
+                <a href="src/java/LinearSearch.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_sequencial.py">
+                <a href="./src/python/linear_search.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/buscasequencial.go">
+                <a href="./src/go/linear_search.go">
                      <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/busca_sequencial.rb">
+                <a href="./src/ruby/linear_search.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -334,12 +334,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Swift -->
-                <a href="./src/swift/sequentialSearch.swift">
+                <a href="./src/swift/linearSearch.swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/busca_sequencial.rs">
+                <a href="./src/rust/linear_search.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
@@ -357,7 +357,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/RecursiveSequentialSearch.c">
+                <a href="./src/c/LinearSearchRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -372,7 +372,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_sequencial_recursiva.py">
+                <a href="./src/python/linear_search_recursive.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -382,12 +382,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/busca_sequencial_recursiva.rb">
+                <a href="./src/ruby/linear_search_recursive.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/RecursiveLinearSearch.js">
+                <a href="./src/javascript/LinearSearchRecursive.js">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
@@ -397,12 +397,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/busca_sequencial_recursiva.rs">
+                <a href="./src/rust/linear_search_recursive.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/RecursiveLinearSearch.scala">
+                <a href="./src/scala/LinearSearchRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
@@ -415,7 +415,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/SentinelSearch.c">
+                <a href="./src/c/LinearSearchSentinel.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -430,7 +430,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/busca_sentinela.py">
+                <a href="./src/python/linear_search_sentinel.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -440,12 +440,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/busca_sentinela.rb">
+                <a href="./src/ruby/linear_search_sentinel.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/SentinelSearch.js">
+                <a href="./src/javascript/LinearSearchSentinel.js">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
