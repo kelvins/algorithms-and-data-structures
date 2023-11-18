@@ -1111,22 +1111,22 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Max (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/MaxRecursivo.c">
+                <a href="./src/c/MaxRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/MaximumRecursive.cpp">
+                <a href="./src/cpp/MaxRecursive.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/MaxMinArray.java">
+                <a href="./src/java/MaxRecursive.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/maximo_recursivo.py">
+                <a href="./src/python/max_recursive.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -1136,7 +1136,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/max_recursivo.rb">
+                <a href="./src/ruby/max_recursive.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
