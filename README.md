@@ -3011,7 +3011,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/gnomesort.rs">
+                <a href="./src/rust/gnome_sort.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
