@@ -3684,7 +3684,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/palindromo.py">
+                <a href="./src/python/palindrome.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -3694,7 +3694,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/palindromo.rb">
+                <a href="./src/ruby/palindrome.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -3709,7 +3709,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/palindromo.rs">
+                <a href="./src/rust/palindrome.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
