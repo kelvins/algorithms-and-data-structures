@@ -1300,7 +1300,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/maximo_minimo_dc.py">
+                <a href="./src/python/min_max_dc.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
