@@ -1,10 +1,3 @@
-//
-//  stack.swift
-//
-//
-//  Created by Matheus Torres on 14/11/20.
-//
-
 class Stack {
     var stack: [Int] = []
 

@@ -1,21 +1,14 @@
-//
-//  calculatePi.swift
-//  
-//
-//  Created by Matheus Torres on 14/11/20.
-//
-
 func calculatePi(_ number: Int) -> Float {
     var denominator: Float = 1
     var operation: Float = 1
     var pi: Float = 0
-    
+
     for _ in 0..<number {
         pi += operation * (4 / denominator)
         denominator += 2
         operation *= -1
     }
-    
+
     return pi
 }
 

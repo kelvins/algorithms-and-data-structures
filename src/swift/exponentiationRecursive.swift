@@ -1,7 +1,3 @@
-/* recursiveExponentiation.swift
-Written by Roberto Martins on 10/10/2023
-*/
-
 func recursiveExponentiation<Number: Numeric>(base: Number, power: Int) -> Number {
     if (power == 0) {
         return 1

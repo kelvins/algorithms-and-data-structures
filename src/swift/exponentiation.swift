@@ -1,7 +1,3 @@
-/* exponentiation.swift
-Written by Roberto Martins on 10/10/2023
-*/
-
 func exponentiation<Number: Numeric>(base: Number, power: Int) -> Number {
     var result = base
     if power == 0 {

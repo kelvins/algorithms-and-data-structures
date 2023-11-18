@@ -1,9 +1,3 @@
-//
-//  hanoi.swift
-//
-//  Created by Matheus Torres on 13/11/20.
-//
-
 func hanoi(_ p1: Int, _ p2: Int, _ p3: Int, disks: Int) {
     if disks == 1 {
         print("Move de \(p1) para \(p2)")

@@ -1,8 +1,4 @@
-/* singlyLinkedList.swift
-Written by Roberto Martins on 09/10/2023
-*/
-
-// Type: Equatable makes it so that you can have Nodes of any type and their values can be compared 
+// Type: Equatable makes it so that you can have Nodes of any type and their values can be compared
 // Use of generic "Type" makes it so you can have a Linked List of any type
 class Node<Type: Equatable>
 {
@@ -51,7 +47,7 @@ class LinkedList<Type: Equatable> {
             currentNode = currentNode!.next
         }
     }
-    
+
     func remove(value: Type) {
         var currentNode = self.head
         var previousNode: Node<Type>? = nil

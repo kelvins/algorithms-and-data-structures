@@ -1,10 +1,3 @@
-//
-//  binarySearch.swift
-//  
-//
-//  Written by Roberto Martins on 07/10/2023
-//  Based on the C code presented in the Portuguese Wikipedia article for Binary Search
-
 func binarySearch(array: [Int], searchedElement: Int) -> Int {
     var firstIndex: Int = 0
     var lastIndex: Int = array.count - 1

@@ -1,10 +1,3 @@
-//
-//  insertionSort.swift
-//
-//
-//  Created by Matheus Torres on 14/11/20.
-//
-
 func insertionSort(_ array: [Int]) -> [Int] {
     var newArray: [Int] = array
     for i in 1..<newArray.count {

@@ -1,24 +1,18 @@
-//
-//  fila.swift
-//
-//  Created by Matheus Torres on 14/11/20.
-//
-
 class Queue {
     var queue: [Int] = []
-    
+
     func enqueue(_ value: Int) {
         self.queue.append(value)
     }
-    
+
     func dequeue() {
         self.queue.removeFirst()
     }
-    
+
     func show() {
         print(self.queue)
     }
-    
+
     func clear() {
         self.queue = []
     }

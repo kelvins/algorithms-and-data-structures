@@ -1,9 +1,3 @@
-//
-//  palindromo.swift
-//
-//  Created by Matheus Torres on 14/11/20.
-//
-
 import Foundation
 
 func isPalindrome(_ string: String) -> Bool {
