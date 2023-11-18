@@ -2235,7 +2235,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/lista_sequencial_nao_ordenada.go">
+                <a href="./src/go/unordered_linked_list.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
