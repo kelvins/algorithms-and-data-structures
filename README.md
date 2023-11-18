@@ -1401,7 +1401,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a></td>
             <td> <!-- C -->
-                <a href="./src/c/TorreDeHanoi.c">
+                <a href="./src/c/TowerOfHanoi.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1416,17 +1416,17 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/torre_de_hanoi.py">
+                <a href="./src/python/tower_of_hanoi.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/hanoi.go">
+                <a href="./src/go/tower_of_hanoi.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/hanoi.rb">
+                <a href="./src/ruby/tower_of_hanoi.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -1436,12 +1436,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Swift -->
-                <a href="./src/swift/hanoi.swift">
+                <a href="./src/swift/towerOfHanoi.swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/torre_hanoi.rs">
+                <a href="./src/rust/tower_of_hanoi.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
