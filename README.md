@@ -2099,7 +2099,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linked_list">Singly Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/LinkedList.c">
+                <a href="./src/c/SinglyLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -2114,7 +2114,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/lista_encadeada.py">
+                <a href="./src/python/singly_linked_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -2124,7 +2124,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/lista_encadeada.rb">
+                <a href="./src/ruby/singly_linked_list.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -2139,7 +2139,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/linked_list.rs">
+                <a href="./src/rust/singly_linked_list.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
