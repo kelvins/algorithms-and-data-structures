@@ -2341,12 +2341,12 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/Pilha.java">
+                <a href="./src/java/Stack.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/pilha.py">
+                <a href="./src/python/stack.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -2356,7 +2356,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/pilha.rb">
+                <a href="./src/ruby/stack.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
@@ -2371,7 +2371,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/pilha.rs">
+                <a href="./src/rust/stack.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
