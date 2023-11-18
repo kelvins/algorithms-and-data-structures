@@ -1227,7 +1227,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
         <tr>
             <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Min and Max (Recursive)</a></td>
             <td> <!-- C -->
-                <a href="./src/c/MaxMinRecursivo.c">
+                <a href="./src/c/MinMaxRecursive.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
@@ -1237,27 +1237,27 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/RecursiveMinMax.java">
+                <a href="./src/java/MinMaxRecursive.java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/maximo_minimo_recursivo.py">
+                <a href="./src/python/min_max_recursive.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/maximo_minimo.go">
+                <a href="./src/go/min_max_recursive.go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/min_max_recursivo.rb">
+                <a href="./src/ruby/min_max_recursive.rb">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/RecursiveMinAndMax.js">
+                <a href="./src/javascript/MinMaxRecursive.js">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
@@ -1267,7 +1267,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/min_max_recursivo.rs">
+                <a href="./src/rust/min_max_recursive.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
