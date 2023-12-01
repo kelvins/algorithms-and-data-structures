@@ -1,6 +1,3 @@
-import random
-
-
 class Node:
     def __init__(self, value):
         self.value = value
@@ -46,6 +43,7 @@ class Queue:
             self.length -= 1
 
     def show(self):
+        # first element is the head of the queue
         ptr = self.head
         val = []
         while ptr is not None:
