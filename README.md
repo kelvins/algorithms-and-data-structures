@@ -2231,7 +2231,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./src/python/unordered_linked_list.py">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                    <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
