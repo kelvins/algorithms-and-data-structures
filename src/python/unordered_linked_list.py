@@ -22,7 +22,8 @@ class Unordered_Linked_List:
     def __init__(self) -> None:
         self.first_node = None
     
-    def insert(self,value): # inserts a new node with the given value
+    def insert(self,value):
+        # inserts a new node with the given value
         if self.first_node is None:
             self.first_node = Node(value)
         else:
@@ -30,7 +31,8 @@ class Unordered_Linked_List:
             tmp.next = self.first_node
             self.first_node = tmp
     
-    def find(self,value): # returns true if the specified value is in your list
+    def find(self,value):
+        # returns true if the specified value is in your list
         ptr = self.first_node
         while ptr is not None:
             if ptr.value == value:
@@ -51,7 +53,8 @@ class Unordered_Linked_List:
         print(f'Your list is of size {i}')
         return i
     
-    def remove(self,value): # removes all instances of a given value
+    def remove(self,value):
+        # removes all instances of a given value
         ptr = self.first_node
         prev = None
         while ptr is not None:
