@@ -1,3 +1,5 @@
+import random
+
 def radix_sort(arr):
     # Find the maximum number to know the number of digits
     max_num = max(arr)
@@ -33,10 +35,22 @@ def counting_sort(arr, exp):
 
 
 def main():
+    print("Fixed Testing Array")
     arr = [170, 2, 45, 75, 75, 90, 802, 24, 2, 66]
     print("Unsorted array:", arr)
     radix_sort(arr)
     print("Sorted array:", arr)
+
+    print("Random Testing Array")
+    arr = []
+    for i in range(0,10):
+        arr.append(random.randint(0,20))
+    print("Unsorted array:", arr)
+    radix_sort(arr)
+    print("Sorted array:", arr)
+
+
+
 
 
 if __name__ == "__main__":
