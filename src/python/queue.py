@@ -76,7 +76,6 @@ def main():
     queue.show()
     print(f"Queue is length {queue.length}")
 
-    
     print(f"Dequeuing {queue.dequeue()}")
     print(f"Queue is length {queue.length}")
 
