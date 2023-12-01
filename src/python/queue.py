@@ -39,8 +39,10 @@ class Queue:
             print("Queue is empty, cannot dequeue")
             return
         else:
+            tmp = self.head
             self.head = self.head.prev
             self.length -= 1
+            return tmp.get_value
 
     def show(self):
         # first element is the head of the queue
@@ -67,16 +69,15 @@ def main():
     queue.show()
     print(f"Queue is length {queue.length}")
 
-    print("Dequeuing twice")
-    queue.dequeue()
+    print(f"Dequeuing {queue.dequeue()}")
     queue.show()
     print(f"Queue is length {queue.length}")
-    queue.dequeue()
+    print(f"Dequeuing {queue.dequeue()}")
     queue.show()
     print(f"Queue is length {queue.length}")
 
-    print("Dequeuing again")
-    queue.dequeue()
+    
+    print(f"Dequeuing {queue.dequeue()}")
     print(f"Queue is length {queue.length}")
 
     print("Queueing 12")
