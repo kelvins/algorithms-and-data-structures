@@ -2329,6 +2329,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Skip_list">Skip List</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/skip_list.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Stack.c">
