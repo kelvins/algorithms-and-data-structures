@@ -1,8 +1,8 @@
-public class BuscaBinaria {
+public class BinarySearch {
 
   public int posicao;
 
-  BuscaBinaria(int[] array, int Objetivo) {
+  BinarySearch(int[] array, int Objetivo) {
     this.posicao = BinarySearch(Objetivo, array);
   }
 

@@ -1,4 +1,4 @@
-public class MinMaxIterativo {
+public class MinMaxIterative {
   public static void main(String[] args) {
     int arr[] = {1, 5, -20, 6, 15};
     int min = arr[0];

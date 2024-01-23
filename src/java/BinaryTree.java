@@ -2,7 +2,7 @@
  *	Utiliza a classe No
  */
 
-public class ArvoreBinaria {
+public class BinaryTree {
 
   public static void main(String[] args) {
     No raiz = new No(9);

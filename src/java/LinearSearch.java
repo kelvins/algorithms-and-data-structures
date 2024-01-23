@@ -1,4 +1,4 @@
-public class LinearSearchIterative {
+public class LinearSearch {
   public static void main(String[] args) {
     int array[] = {1, 2, 40, 233, 78, 83, 456};
     System.out.println(LinearSearch(array, 40));

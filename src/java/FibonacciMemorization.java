@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Fibonacci {
+public class FibonacciMemorization {
 
   // Create a memoization HashMap to store computed Fibonacci values
   private static HashMap<Integer, Integer> memo = new HashMap<>();

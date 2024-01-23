@@ -1,4 +1,4 @@
-public class MinMaxRecursivo {
+public class MinMaxRecursive {
 
   public static void main(String[] args) {
     int[] arr = {9, 8, 13, 33, 18, 20, 88, 14, 40, 77};

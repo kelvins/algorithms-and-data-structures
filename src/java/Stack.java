@@ -1,25 +1,25 @@
-public class pilha {
+public class Stack<T> {
 
-  public processo processoAtual;
-  public pilha proximaPilha;
+  public T processoAtual;
+  public Stack<T> proximaPilha;
 
-  public pilha() {
+  public Stack() {
     this.processoAtual = null;
     this.proximaPilha = null;
   }
 
-  public void inserirpilha(processo processoNovo) {
+  public void inserirpilha(T processoNovo) {
     if (this.processoAtual == null) {
       this.processoAtual = processoNovo;
-      this.proximaPilha = new pilha();
+      this.proximaPilha = new Stack<>();
     } else {
       this.proximaPilha.inserirpilha(processoNovo);
     }
   }
 
-  public processo removerPilha() {
+  public T removerPilha() {
     if (this.proximaPilha.proximaPilha == null) {
-      processo removido = this.processoAtual;
+      T removido = this.processoAtual;
       this.processoAtual = null;
       this.proximaPilha = null;
       return removido;
@@ -28,31 +28,6 @@ public class pilha {
     }
   }
 
-  public String checkpilha(String vazia) {
-    if (this.proximaPilha.proximaPilha == null) {
-      vazia =
-          " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo() + vazia;
-    } else {
-      vazia =
-          this.proximaPilha.checkpilha(vazia)
-              + " && "
-              + this.processoAtual.getPrioridade()
-              + " "
-              + this.processoAtual.getTempo()
-              + " "
-              + vazia;
-    }
-    return vazia;
-  }
-
   public boolean vaziaPilha() {
-    if (this.proximaPilha == null) {
-      return true;
-    }
-    return false;
-  }
-
-  public int tempoTrabalhado(int tempo) {
-    return this.processoAtual.trabalhado(tempo);
-  }
-}
+    return this.proximaPilha == null;
+  }}

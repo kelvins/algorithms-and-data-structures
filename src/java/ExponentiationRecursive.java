@@ -1,4 +1,4 @@
-class Main {
+class ExponencialRecursive {
 
   public static long exponenciacao(long base, long expoente) { // exponenciacao recursiva
     if (expoente == 0) return 1;
