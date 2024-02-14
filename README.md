@@ -1,4 +1,6 @@
-# :abacus: Algorithms and Data Structures
+<p align="center">
+<h2 align="center">🧮Algorithms and Data Structures</h2>
+</p>
 
 This repository provides several classic algorithms and data structures in **Computer Science**, as well as some extra problems that are frequently encountered in programming challenges.
 
@@ -4432,4 +4434,5 @@ Feel free to contribute to the project, all contributions are welcome. :grin:
 If you have questions about how to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) file.
 
 <br><hr>
-[🔼 Back to top](# :abacus: Algorithms and Data Structures)
+[🔼 Back to top](https://github.com/TestingGround00/algorithms-and-data-structures/#algorithms-and-data-structures)
+
