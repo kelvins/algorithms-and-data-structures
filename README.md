@@ -2,65 +2,70 @@
 
 This repository provides several classic algorithms and data structures in **Computer Science**, as well as some extra problems that are frequently encountered in programming challenges.
 
-In order to achieve greater coverage and encourage more people to contribute to the project, the algorithms are available in the following languages: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** and **Kotlin**.
+In order to achieve greater coverage and encourage more people to contribute to the project, the algorithms are available in the following languages: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala**, **Kotlin** and **Elixir**. You can quickly access an [online compiler](https://onecompiler.com/) by clicking on the symbols corresponding to the desired programming languages in the top rows of each table.
 
 <html>
     <table align="center">
         <tr>
-            <td align="center">Algorithms</td>
+            <td align="center"><b>Algorithms</b></td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/c">
+                <a href="https://onecompiler.com/c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/cpp">
+                <a href="https://onecompiler.com/cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/java">
+                <a href="https://onecompiler.com/java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/python">
+                <a href="https://onecompiler.com/python">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/play/">
+                <a href="https://onecompiler.com/go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://try.ruby-lang.org/playground/">
+                <a href="https://onecompiler.com/ruby">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/javascript">
+                <a href="https://onecompiler.com/javascript">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://swiftfiddle.com">
+                <a href="https://onecompiler.com/swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.rust-lang.org/">
+                <a href="https://onecompiler.com/rust">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://scastie.scala-lang.org">
+                <a href="https://onecompiler.com/scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.kotlinlang.org/">
+                <a href="https://onecompiler.com/kotlin">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+             <td align="center">
+                <a href="https://onecompiler.com/elixir">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
@@ -117,6 +122,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -179,6 +189,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">Binary Search</a></td>
@@ -233,6 +248,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -295,6 +315,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
@@ -349,6 +374,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -411,6 +441,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
@@ -469,6 +504,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>            
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Interpolation Search</a></td>
@@ -523,6 +563,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -585,6 +630,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Hamiltonian_path">Hamiltonian Cycle</a></td>
@@ -639,6 +689,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -701,6 +756,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Exponentiation">Exponentiation (Iterative)</a></td>
@@ -755,6 +815,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -817,6 +882,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Factorial">Factorial (Iterative)</a></td>
@@ -873,6 +943,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/Factorial.kt">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/FactorialIterative.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
@@ -933,6 +1008,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/FactorialRecursive.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Iterative)</a></td>
@@ -989,6 +1069,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/FibonacciIterative.kt">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/FibonacciIterative.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
@@ -1049,6 +1134,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/FibonacciRecursive.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
+                </a>
+            </td>
         </tr>
          <tr>
             <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Memoization)</a></td>
@@ -1105,6 +1195,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Kotlin -->
                 <a href="./src/kotlin/FibonacciMemoization.kt">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
         </tr>
@@ -1165,9 +1260,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/MaxRecursive.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Min and Max (Iterative)</td>
+            <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Min and Max (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MinMaxIterative.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1219,6 +1319,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1281,9 +1386,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Min and Max (D&C)</td>
+            <td><a href="https://www.tutorialspoint.com/data_structures_algorithms/max_min_problem.htm#:~:text=is%20the%20technique.-,Divide%20and%20Conquer%20Approach,two%20minima%20of%20each%20half.">Min and Max (D&C)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MinMaxDC.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1335,6 +1445,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1397,6 +1512,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a></td>
@@ -1451,6 +1571,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1513,6 +1638,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman's Algorithm</a></td>
@@ -1567,6 +1697,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1629,64 +1764,74 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
     </table>
     <table align="center">
         <tr>
-            <td align="center">Data Structures</td>
+            <td align="center"><b>Data Structures</b></td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/c">
+                <a href="https://onecompiler.com/c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/cpp">
+                <a href="https://onecompiler.com/cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/java">
+                <a href="https://onecompiler.com/java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/python">
+                <a href="https://onecompiler.com/python">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/play/">
+                <a href="https://onecompiler.com/go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://try.ruby-lang.org/playground/">
+                <a href="https://onecompiler.com/ruby">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/javascript">
+                <a href="https://onecompiler.com/javascript">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://swiftfiddle.com">
+                <a href="https://onecompiler.com/swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.rust-lang.org/">
+                <a href="https://onecompiler.com/rust">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://scastie.scala-lang.org">
+                <a href="https://onecompiler.com/scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.kotlinlang.org">
+                <a href="https://onecompiler.com/kotlin">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+             <td align="center">
+                <a href="https://onecompiler.com/elixir">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
@@ -1743,6 +1888,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1805,6 +1955,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Double-ended_queue">Double-ended Queue</a></td>
@@ -1859,6 +2014,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -1921,6 +2081,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://iq.opengenus.org/dynamic-queue/">Dynamic Queue</a></td>
@@ -1975,6 +2140,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2037,6 +2207,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://www.programiz.com/dsa/circular-linked-list">Circular Linked List</a></td>
@@ -2091,6 +2266,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2153,6 +2333,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Linked_list">Doubly Linked List</a></td>
@@ -2207,6 +2392,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2269,9 +2459,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Sorted Linked List</td>
+            <td><a href="https://www.geeksforgeeks.org/sorting-a-singly-linked-list/">Sorted Linked List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/SortedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -2323,6 +2518,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2385,6 +2585,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a></td>
@@ -2443,9 +2648,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Dynamic Stack</td>
+            <td><a href="https://iq.opengenus.org/dynamic-stack/">Dynamic Stack</a></td>
             <td> <!-- C -->
                 <a href="./src/c/DynamicStack.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -2497,6 +2707,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2559,6 +2774,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Hash_table">Hash Table</a></td>
@@ -2617,64 +2837,74 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
     </table>
     <table align="center">
         <tr>
-            <td align="center">Sorting Algorithms</td>
+            <td align="center"><b>Sorting Algorithms</b></td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/c">
+                <a href="https://onecompiler.com/c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/cpp">
+                <a href="https://onecompiler.com/cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/java">
+                <a href="https://onecompiler.com/java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/python">
+                <a href="https://onecompiler.com/python">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/play/">
+                <a href="https://onecompiler.com/go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://try.ruby-lang.org/playground/">
+                <a href="https://onecompiler.com/ruby">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/javascript">
+                <a href="https://onecompiler.com/javascript">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://swiftfiddle.com">
+                <a href="https://onecompiler.com/swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.rust-lang.org/">
+                <a href="https://onecompiler.com/rust">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://scastie.scala-lang.org">
+                <a href="https://onecompiler.com/scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
-             <td align="center">
-                <a href="https://play.kotlinlang.org">
+            <td align="center">
+                <a href="https://onecompiler.com/kotlin">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+             <td align="center">
+                <a href="https://onecompiler.com/elixir">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
@@ -2731,6 +2961,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2793,6 +3028,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Bucket_sort">Bucket Sort</a></td>
@@ -2847,6 +3087,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2909,6 +3154,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Comb_sort">Comb Sort</a></td>
@@ -2963,6 +3213,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3025,6 +3280,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Gnome_sort">Gnome Sort</a></td>
@@ -3079,6 +3339,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3141,6 +3406,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Insertion_sort">Insertion Sort</a></td>
@@ -3195,6 +3465,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3257,6 +3532,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/kotlin.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Quicksort">Quicksort</a></td>
@@ -3311,6 +3591,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3373,6 +3658,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Selection_sort">Selection Sort</a></td>
@@ -3427,6 +3717,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3489,6 +3784,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Timsort">Timsort</a></td>
@@ -3547,69 +3847,79 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
     </table>
     <table align="center">
         <tr>
-            <td align="center">Extra</td>
+            <td align="center"><b>Extra</b></td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/c">
+                <a href="https://onecompiler.com/c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/cpp">
+                <a href="https://onecompiler.com/cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/java">
+                <a href="https://onecompiler.com/java">
                     <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/python">
+                <a href="https://onecompiler.com/python">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://go.dev/play/">
+                <a href="https://onecompiler.com/go">
                     <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://try.ruby-lang.org/playground/">
+                <a href="https://onecompiler.com/ruby">
                     <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://www.sololearn.com/compiler-playground/javascript">
+                <a href="https://onecompiler.com/javascript">
                     <img align="center" height="25" src="./logos/javascript.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://swiftfiddle.com">
+                <a href="https://onecompiler.com/swift">
                     <img align="center" height="25" src="./logos/swift.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://play.rust-lang.org/">
+                <a href="https://onecompiler.com/rust">
                     <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td align="center">
-                <a href="https://scastie.scala-lang.org">
+                <a href="https://onecompiler.com/scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
-            <td> <!-- Kotlin -->
-                <a href="https://play.kotlinlang.org">
+            <td align="center">
+                <a href="https://onecompiler.com/kotlin">
                     <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+             <td align="center">
+                <a href="https://onecompiler.com/elixir">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
                 </a>
             </td>
         </tr>
         <tr>
-            <td>Queue using Stacks</td>
+            <td><a href="https://www.geeksforgeeks.org/queue-using-stacks/">Queue using Stacks</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -3665,9 +3975,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Two-Sum Problem</td>
+            <td><a href="https://interviewing.io/questions/two-sum">Two-Sum Problem</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TwoSum.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -3719,6 +4034,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3781,9 +4101,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Isogram</td>
+            <td><a href="https://www.geeksforgeeks.org/check-string-isogram-not/">Isogram</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -3835,6 +4160,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Elixir -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -3897,6 +4227,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./src/elixir/CalculatePi.ex">
+                    <img align="center" height="25" src="./logos/elixir.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td><a href="https://en.wikipedia.org/wiki/Maze-solving_algorithm">Maze-Solving Algorithm</a></td>
@@ -3955,9 +4290,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Rotten Oranges</td>
+            <td><a href="https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/">Rotten Oranges</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -4013,9 +4353,14 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
         <tr>
-            <td>Find Distinct Subsets</td>
+            <td><a href="https://www.geeksforgeeks.org/number-distinct-subsets-set/">Find Distinct Subsets</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -4071,6 +4416,11 @@ In order to achieve greater coverage and encourage more people to contribute to 
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
+            <td> <!-- Elixir -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
         </tr>
     </table>
 </html>
@@ -4080,3 +4430,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
 Feel free to contribute to the project, all contributions are welcome. :grin:
 
 If you have questions about how to contribute, take a look at the [CONTRIBUTING](CONTRIBUTING.md) file.
+
+<br><hr>
+[🔼 Back to top](# :abacus: Algorithms and Data Structures)
