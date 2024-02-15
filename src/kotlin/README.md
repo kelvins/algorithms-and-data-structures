@@ -65,7 +65,7 @@ Kotlin does not provide a conventional for loop which is available in C, C++ and
 for (item in collection) {
     // body of loop
 }
-````
+`````
 ##### While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
