@@ -41,7 +41,8 @@ For loop is used to iterate over arrays(list, tuple, set, dictionary) or strings
 mylist=("Iphone","Pixel","Samsung")
 for i in mylist:
     print(i)
-````
+`````
+
 ##### While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
@@ -61,6 +62,7 @@ List is a collection which is ordered and can be changed. Lists are specified in
 mylist=["iPhone","Pixel","Samsung"]
 print(mylist)
 ````
+
 ##### Tuple:
 Tuple is a collection which is ordered and can not be changed. Tuples are specified in round brackets.
 
