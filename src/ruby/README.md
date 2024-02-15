@@ -86,7 +86,7 @@ For loop is used to iterate a set of statements based on a condition.
 for variable in expression do   
   # code  
 end
-````
+`````
 ##### While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
@@ -95,7 +95,7 @@ While is also used to iterate a set of statements based on a condition. Usually 
 while condition do   
  # code 
 end  
-````
+`````
 ##### Do-while:
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
@@ -104,4 +104,4 @@ loop do
   #code  
   break if conditional-expression  
 end 
-````
+`````
