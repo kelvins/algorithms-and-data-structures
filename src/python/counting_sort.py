@@ -1,27 +1,27 @@
-# Algoritmo de ordenação Counting sort em Python
+""" Counting sort in Python """
 
 import random
 
 
 def counting_sort(arr):
-    # Encontra o maior elemento na lista
+    """ Finding the max element in the list """
     k = max(arr) + 1
 
-    # Inicializa o array de contagem com zeros
+    """ Initialing count array of len k with 0's """
     count = [0] * k
 
-    # Conta a frequência de cada elemento
+    """ Counts frequency of each element """
     for i in arr:
         count[i] += 1
 
-    # Atualiza o array de contagem para refletir a posição correta de cada elemento na lista ordenada
+    """ Updates count array to reflect the correct position of each element in the sorted list """
     for i in range(1, k):
         count[i] += count[i - 1]
 
-    # Inicializa o array de resultado com zeros
+    """ Initializing result list with 0's """
     result = [0] * len(arr)
 
-    # Preenche o array de resultado com os elementos ordenados
+    """ Fill result array with the sorted elements"""
     for i in reversed(arr):
         result[count[i] - 1] = i
         count[i] -= 1
@@ -29,15 +29,15 @@ def counting_sort(arr):
     return result
 
 
-# Gera uma lista de n números aleatórios
+""" Generate a list of n random integers """
 n = 10
-lista = [random.randint(0, 100) for _ in range(n)]
+list = [random.randint(0, 100) for _ in range(n)]
 
-# Imprime a lista original sem ordenação
-print(f"Lista Original: {lista}")
+""" Prints original, unsorted list"""
+print(f"List: {list}")
 
-# Ordena a lista utilizando o algoritmo de Counting Sort
-lista_ordenada = counting_sort(lista)
+""" Sorts list using counting sort algorithm """
+sorted_list = counting_sort(list)
 
-# Imprime a lista ordenada
-print(f"Lista Ordenada: {lista_ordenada}")
+""" Prints sorted list """
+print(f"Sorted list: {sorted_list}")

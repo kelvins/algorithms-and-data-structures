@@ -1,15 +1,18 @@
 """
-Implementaço de vários algoritmos Fibonacci
+Recursive Fibonacci Algorithm
 
-A lib "time" foi utilizada para marcar o tempo de
-execução dos algoritmos em segundos
+The lib "time" was used to mark the time of
+execution of algorithms in seconds
 """
 
 import time
 
 
 def fibonacci(number):
-    """Fibonnaci recursiva."""
+    """
+    Recursive Fibonacci
+    """
+    
     if number < 2:
         return number
     return fibonacci(number - 1) + fibonacci(number - 2)
@@ -17,13 +20,13 @@ def fibonacci(number):
 
 def main(name, func, number=35):
     """
-    Roda o algoritmo e mostra o tempo de execução dele
+    Run the algorithm and show its execution time
     """
     start_time = time.time()
     result = func(number)
     diff_time = time.time() - start_time
-    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "segundos")
+    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "seconds")
 
 
 if __name__ == "__main__":
-    main("Recursiva", fibonacci)
+    main("Recursive", fibonacci)

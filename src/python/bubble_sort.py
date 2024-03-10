@@ -1,4 +1,4 @@
-""" Implementation of the bubble sort algorithm with recursion """
+""" Recursive Bubble Sort in Python """
 
 
 def bubble_sort(data, size):
@@ -9,7 +9,7 @@ def bubble_sort(data, size):
     data: list. List to be sorted
     size: int. List size
 
-    Returns the ordered "date" list.
+    Returns the ordered "data" list.
     """
     swap = False
     for i in range(0, size - 1):

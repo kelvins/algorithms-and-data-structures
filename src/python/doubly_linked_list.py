@@ -1,8 +1,8 @@
 """
-Lista Duplamente Encadeada
+Doubly Linked List
 
-A cabeca da lista sempre 'aponta' para o primeiro no
-O rabo da lista sempre 'aponta' para o ultimo no
+The 'head' of the list always points to the first node
+The 'tail' of the list always points to the final node
 
 None <--- | 2 |  ---> None
 None <--- | 2 | <---> | 5 |  ---> None
@@ -11,102 +11,98 @@ None <--- | 2 | <---> | 5 | <---> | 12 | <---> | 20 | ---> None
 """
 
 
-class No:
-    def __init__(self, dado, anterior, proximo):
-        self.dado = dado
-        self.anterior = anterior
-        self.proximo = proximo
+class Node:
+    def __init__(self, data, prev, next):
+        self.data = data
+        self.prev = prev
+        self.next = next
 
 
-class ListaDuplamenteEncadeada:
-    cabeca = None
-    rabo = None
+class DoublyLinkedList:
+    head = None
+    tail = None
+    
+    def append(self, data):
+        # Creates a new node pointing to None (prev and next)
+        new_node = Node(data, None, None)
 
-    def acrescentar(self, dado):
-        """Acrescenta um novo no a lista."""
-        # Cria um novo no apontando para None (anterior e proximo)
-        novo_no = No(dado, None, None)
-
-        # Se a cabeca eh None a lista esta vazia
-        # Tanto a cabeca quanto o rabo recebem o novo no
-        if self.cabeca is None:
-            self.cabeca = novo_no
-            self.rabo = novo_no
-        # Caso contrario, se ja existir algum valor na lista
+        # If the list is empty, both head and tail point to the new node
+        if self.head is None:
+            self.head = new_node
+            self.tail = new_node
         else:
-            # O anterior 'aponta' para o rabo (ultimo no adicionado)
-            novo_no.anterior = self.rabo
-            # O proximo sempre aponta para None
-            novo_no.proximo = None
-            # O proximo do rabo sempre aponta para o novo no
-            self.rabo.proximo = novo_no
-            # O rabo agora eh o novo no
-            self.rabo = novo_no
+            # For a non-empty list, adjust pointers to add the new node at the end
+            new_node.prev = self.tail  # New node's prev points to the current tail
+            self.tail.next = new_node  # Current tail's next points to the new node
+            self.tail = new_node       # Update tail to be the new node
 
-    def remover(self, dado):
-        """Remove um no da lista."""
-        # O no atual eh o primeiro no da lista
-        no_atual = self.cabeca
+        # No additional 'new_node.next = None' is needed as it's already None by default
 
-        # Vamos procurar pelo dado que queremos remover
-        # Equanto o no atual for valido
-        while no_atual is not None:
+
+    def delete(self, data):
+        """ Deletes a node from the list """
+        """ Current node is first node in the list"""
+        curr_node = self.head
+
+        # We search for the data we want to delete
+        # While current node is not invalid
+        while curr_node is not None:
             # Verifica se eh o dado que estamos buscando
-            if no_atual.dado == dado:
-                # Se o dado que estamos buscando esta no primeiro no
-                # da lista, nao temos anterior
-                if no_atual.anterior is None:
-                    # A cabeca 'aponta' para o proximo no da lista
-                    self.cabeca = no_atual.proximo
-                    # E o anterior do proximo no aponta para None
-                    no_atual.proximo.anterior = None
+            if curr_node.data == data:
+                # If data we are looking for is in first node
+                # If we do not have a previous node in the list
+                if curr_node.prev is None:
+                    # Head points to next node in the list
+                    self.head = curr_node.next
+                    # And the previous of the next node does not point to None
+                    curr_node.next.prev = None
                 else:
-                    # Exemplo: Removendo o valor 5
+                    # Example: Deleting the value 5
                     # ... <---> | 2 | <---> | 5 | <---> | 12 | <---> ...
                     #
-                    # O proximo do valor 2 passa a apontar para o 12 e
-                    # o anterior do valor 12 passa a apontar para o 2
+                    # Next node of 2 will now point to 12 instead of 5
+                    # Previous node of 12 will not point to 2 instead of 5
                     #                     ---------------
                     # ... <---> | 2 | <---|--- | 5 | ---|---> | 12 | <---> ...
-                    no_atual.anterior.proximo = no_atual.proximo
-                    no_atual.proximo.anterior = no_atual.anterior
+                    curr_node.prev.next = curr_node.next
+                    curr_node.next.prev = curr_node.prev
 
-            # Se nao eh o no que estamos buscando va para o proximo
-            no_atual = no_atual.proximo
+            # If current node does not hold desired data, move to next node
+            curr_node = curr_node.next
 
-    def mostrar(self):
-        """Mostra todos os dados da lista."""
-        print("Lista Duplamente Encadeada:")
+    def display(self):
+        """ Displays all data in the list"""
+        print("Doubly Linked List: ")
 
-        # O no atual eh o primeiro no da lista
-        no_atual = self.cabeca
+        # Current node is head of the list
+        curr_node = self.head
 
-        no = ""
-        # Para cada no valido da lista
-        while no_atual is not None:
-            if no_atual.anterior is None:
-                no += "None "
-            no += "<---> | " + str(no_atual.dado) + " | "
-            if no_atual.proximo is None:
-                no += "<---> None"
+        node = ""
+        # For each valid node in the list
+        while curr_node is not None:
+            if curr_node.prev is None:
+                node += "None "
+            node += "<---> | " + str(curr_node.data) + " | "
+            if curr_node.next is None:
+                node += "<---> None"
 
-            no_atual = no_atual.proximo
-        print(no)
+            curr_node = curr_node.next
+        print(node)
         print("=" * 80)
 
 
-lista = ListaDuplamenteEncadeada()
+list = DoublyLinkedList()
 
-lista.acrescentar(2)
-lista.mostrar()
-lista.acrescentar(5)
-lista.mostrar()
-lista.acrescentar(12)
-lista.mostrar()
-lista.acrescentar(20)
-lista.mostrar()
+list.append(2)
+list.display()
+list.append(5)
+list.display()
+list.append(12)
+list.display()
+list.append(20)
+list.display()
 
-lista.remover(12)
-lista.mostrar()
-lista.remover(5)
-lista.mostrar()
+list.delete(12)
+list.display()
+list.delete(5)
+list.display()

@@ -1,4 +1,4 @@
-""" Implementação de uma árvore binária """
+""" Binary Tree in Python """
 
 
 class Node:

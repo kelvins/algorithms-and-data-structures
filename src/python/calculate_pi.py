@@ -1,14 +1,14 @@
-""" Implementaço de um algoritmo de cálculo do PI """
+""" Calculating PI in Python """
 
 
 def calculate_pi(number):
     """
-    Implementação de um algoritmo de cálculo do PI.
+    Implementation of a PI calculation algorithm.
 
-    Argumentos:
+    Arguments:
     number: int.
 
-    Retorna o valor de PI.
+    Returns the value of PI.
     """
     denominator = 1.0
     operation = 1.0

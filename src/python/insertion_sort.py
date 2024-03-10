@@ -1,59 +1,63 @@
-"""Implementação do algoritmo insertion sort iterativo e recursivo."""
+""" Insertion Sort in Python (Iterative and Recursive) """
 
 
-def insertion_sort_iterativo(vetor):
+def insertion_sort_iterative(vector):
     """
-    Implementação do algoritmo de insertion sort iterativo.
+    Implementation of insertion sort iteratively.
 
-    Args:
-        vetor (list): lista que será ordenada.
+    Arguments:
+        vector (list): list to be sorted.
 
     Returns:
-        Retorna a lista ordenada.
+        Returns the sorted list.
     """
-    for i in range(1, len(vetor)):
-        chave = vetor[i]
+    for i in range(1, len(vector)):
+        key = vector[i]
         aux = i - 1
-        while aux >= 0 and vetor[aux] > chave:
-            vetor[aux + 1] = vetor[aux]
+        while aux >= 0 and vector[aux] > key:
+            vector[aux + 1] = vector[aux]
             aux -= 1
-        vetor[aux + 1] = chave
-    return vetor
+        vector[aux + 1] = key
+    return vector
 
 
-def insertion_sort_recursivo(vetor, indice):
+def insertion_sort_recursive(vector, index):
     """
-    Implementação do algoritmo de insertion sort recursivo.
+    Implementation of insertion sort recursively.
 
-    Args:
-        vetor (list): lista que será ordenada.
-        indice (int): índice do elemento a ser ordenado na lista.
+    Arguments:
+        vector (list): list to be sorted.
+        index (int): index of the element to be sorted in the list.
 
     Returns:
-        Retorna a lista ordenada.
+        Returns the sorted list.
     """
-    aux = indice
-    while vetor[aux] < vetor[aux - 1]:
-        temp = vetor[aux]
-        vetor[aux] = vetor[aux - 1]
-        vetor[aux - 1] = temp
+    aux = index
+    while vector[aux] < vector[aux - 1]:
+        temp = vector[aux]
+        vector[aux] = vector[aux - 1]
+        vector[aux - 1] = temp
         aux -= 1
         if aux == 0:
             break
-    if indice < len(vetor) - 1:
-        insertion_sort_recursivo(vetor, indice + 1)
-    return vetor
+    if index < len(vector) - 1:
+        insertion_sort_recursive(vector, index + 1)
+    return vector
 
 
 if __name__ == "__main__":
-    lista_nao_ordenada = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
-    print("Lista não ordenada:")
-    print(lista_nao_ordenada)
+    list1 = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
+    print("Unsorted list: ")
+    print(list1)
 
-    lista_nao_ordenada = insertion_sort_iterativo(lista_nao_ordenada)
-    print("Lista ordenada com insertion sort iterativo:")
-    print(lista_nao_ordenada)
+    list1 = insertion_sort_iterative(list1)
+    print("Sorted list with iterative insertion sort: ")
+    print(list1)
 
-    lista_nao_ordenada = insertion_sort_recursivo(lista_nao_ordenada, 1)
-    print("Lista ordenada com insertion sort recursivo:")
-    print(lista_nao_ordenada)
+    list2 = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
+    print("Unsorted list: ")
+    print(list2)
+    
+    list2 = insertion_sort_recursive(list2, 1)
+    print("Sorted list with recursive insertion sort: ")
+    print(list2)
