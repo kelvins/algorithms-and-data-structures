@@ -1,4 +1,4 @@
-""" implementação de uma lista encadeada circular """
+""" Implementation of a circular linked list in Python """
 
 import unittest
 

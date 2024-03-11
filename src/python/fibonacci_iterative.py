@@ -1,8 +1,8 @@
 """
-Implementaço de vários algoritmos Fibonacci
+Iterative Fibonacci Algorithm
 
-A lib "time" foi utilizada para marcar o tempo de
-execução dos algoritmos em segundos
+The lib "time" was used to mark the time of
+execution of algorithms in seconds
 """
 
 import functools
@@ -20,13 +20,13 @@ def fibonacci(number):
 
 def main(name, func, number=35):
     """
-    Roda o algoritmo e mostra o tempo de execução dele
+    Run iterative algorithm and show its execution time
     """
     start_time = time.time()
     result = func(number)
     diff_time = time.time() - start_time
-    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "segundos")
+    print("Fibonacci", name, ":", result, ":", "%.8f" % diff_time, "seconds")
 
 
 if __name__ == "__main__":
-    main("Iterativa", fibonacci)
+    main("Iterative", fibonacci)

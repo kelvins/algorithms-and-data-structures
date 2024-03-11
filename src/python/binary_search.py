@@ -1,30 +1,30 @@
-""" Implementação do algoritmo de busca binária com recursão """
+""" Recursive Binary Search Algorithm in Python """
 
 
-def busca_binaria(valor, vetor, esquerda, direita):
+def binary_search(value, vector, left, right):
     """
-    Implementação de um algoritmo de busca binária com recursão.
+    Implementation of a binary search algorithm with recursion.
 
-    Argumentos:
-    valor: Any. Valor a ser buscado na lista
-    vetor: list. lista ordenada na qual o valor será buscado
-    esquerda: Any. Valor inicial da metade buscada
-    direita: Any. Valor final da metade buscada
+    Arguments:
+    value: Any. Value to be searched for in the list
+    vector: List. Ordered list in which value will be searched for
+    left: Any. Leftmost index for binary search
+    right: Any. Rightmost index for binary search
 
-    Retorna o índice do valor em "vetor" ou -1 caso não exista nela.
+    Returns the index of value in vector; returns -1 if value not found in vector
     """
-    meio = int((esquerda + direita) / 2)
+    middle = int((left + right) / 2)
 
-    if esquerda <= direita:
-        if valor > vetor[meio]:
-            esquerda = meio + 1
-            return busca_binaria(valor, vetor, esquerda, direita)
-        elif valor < vetor[meio]:
-            direita = meio - 1
-            return busca_binaria(valor, vetor, esquerda, direita)
-        return meio
+    if left <= right:
+        if value > vector[middle]:
+            left = middle + 1
+            return binary_search(value, vector, left, right)
+        elif value < vector[middle]:
+            right = middle - 1
+            return binary_search(value, vector, left, right)
+        return middle
     return -1
 
 
-lista = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
-print(busca_binaria(12, lista, 0, len(lista) - 1))
+list = [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12]
+print(binary_search(12, list, 0, len(list) - 1))

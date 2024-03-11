@@ -1,21 +1,22 @@
-""" Algoritmo de exponenciação """
+""" Iterative exponentiation algorithm """
 
 
-def exponenciacao(base, expoente):
+def exponentiation(base, exponent):
     """
-    Implementação de um algoritmo de exponenciação.
+    Implementation of an exponentiation algorithm.
 
-    Argumentos:
-        base: int. Base da operação
-        expoente: int. Expoente da operação.
+    Arguments:
+        base (int): Base of operation
+        exponent (int): Exponent of operation
 
-    Retorna o resultado da operação de exponenciação
+    Returns:
+        Returns the result of the exponentiation operation.
     """
     result = base
-    for _ in range(0, expoente - 1):
+    for _ in range(0, exponent - 1):
         result *= base
     return result
 
 
-print(exponenciacao(5, 2))
-print(exponenciacao(5, 5))
+print(exponentiation(5, 2))
+print(exponentiation(5, 5))

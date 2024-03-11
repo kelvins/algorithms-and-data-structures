@@ -1,14 +1,14 @@
-""" Uma implementação simples de um algoritmo fatorial """
+""" Iterative factorial algorithm """
 
 
-def fatorial(num):
+def factorial(num):
     """
-    Uma implementação simples de um algoritmo de fatorial.
+    Implementation of the factorial algorithm iteratively.
 
-    Argumentos:
-        num: int. o número do qual deseja-se obter o fatorial.
+    Arguments:
+        num: int. the number of which you want to obtain the factorial.
 
-    Retorna o resultado da operação.
+    Returns the result of the factorial operation
     """
     aux = 1
     for i in range(2, num + 1):
@@ -17,4 +17,4 @@ def fatorial(num):
 
 
 if __name__ == "__main__":
-    print(fatorial(5))
+    print(factorial(5))
