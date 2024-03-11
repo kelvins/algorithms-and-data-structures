@@ -4,7 +4,7 @@ import random
 
 
 def counting_sort(arr):
-    """ Finding the max element in the list """
+    """Finding the max element in the list"""
     k = max(arr) + 1
 
     """ Initialing count array of len k with 0's """

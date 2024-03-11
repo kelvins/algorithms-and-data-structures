@@ -57,7 +57,7 @@ if __name__ == "__main__":
     list2 = [8, 1, 3, 5, 7, 9, 0, 2, 4, 6]
     print("Unsorted list: ")
     print(list2)
-    
+
     list2 = insertion_sort_recursive(list2, 1)
     print("Sorted list with recursive insertion sort: ")
     print(list2)

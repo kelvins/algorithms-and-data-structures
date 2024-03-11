@@ -21,7 +21,7 @@ class Node:
 class DoublyLinkedList:
     head = None
     tail = None
-    
+
     def append(self, data):
         # Creates a new node pointing to None (prev and next)
         new_node = Node(data, None, None)
@@ -34,13 +34,12 @@ class DoublyLinkedList:
             # For a non-empty list, adjust pointers to add the new node at the end
             new_node.prev = self.tail  # New node's prev points to the current tail
             self.tail.next = new_node  # Current tail's next points to the new node
-            self.tail = new_node       # Update tail to be the new node
+            self.tail = new_node  # Update tail to be the new node
 
         # No additional 'new_node.next = None' is needed as it's already None by default
 
-
     def delete(self, data):
-        """ Deletes a node from the list """
+        """Deletes a node from the list"""
         """ Current node is first node in the list"""
         curr_node = self.head
 
@@ -71,7 +70,7 @@ class DoublyLinkedList:
             curr_node = curr_node.next
 
     def display(self):
-        """ Displays all data in the list"""
+        """Displays all data in the list"""
         print("Doubly Linked List: ")
 
         # Current node is head of the list
