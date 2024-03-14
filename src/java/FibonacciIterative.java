@@ -1,10 +1,10 @@
-public class Fibonacci {
+public class FibonacciIterative {
 
   public static void main(String[] args) {
-    System.out.println("Fib(16) : " + Fibonacci(16));
+    System.out.println("Fib(16) : " + FibonacciIterative(16));
   }
 
-  public static int Fibonacci(int x) {
+  public static int FibonacciIterative(int x) {
     if (x <= 1) {
       return 1;
     } else {

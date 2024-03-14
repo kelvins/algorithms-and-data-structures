@@ -1,4 +1,4 @@
-public class MaxMinArray {
+public class MaxRecursive {
 
   public static void main(String[] args) {
     int vetor[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};

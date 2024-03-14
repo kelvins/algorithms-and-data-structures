@@ -1,7 +1,7 @@
 /*
  *	Utiliza a classe No
  */
-public class ArvoreDeBuscaBinaria {
+public class BinarySearchTree {
 
   public static void main(String[] args) {
     No Arvore = new No(45);

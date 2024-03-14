@@ -1,4 +1,4 @@
-public class teste {
+public class TestMergeSort {
   public static void main(String[] args) {
     int[] arrayteste = {10, 8, 6, 4, 2, 0, 1, 3, 5, 7, 9};
     MergeSort ordem = new MergeSort();

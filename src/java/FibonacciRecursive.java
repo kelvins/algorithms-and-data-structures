@@ -1,11 +1,11 @@
-public class Fibonacci {
+public class FibonacciRecursive {
 
   public static void main(String[] args) {
-    System.out.println("Fib(16) : " + Fibonacci(16));
+    System.out.println("Fib(16) : " + FibonacciRecursive(16));
   }
 
-  public static int Fibonacci(int x) {
+  public static int FibonacciRecursive(int x) {
     if (x <= 1) return 1;
-    else return Fibonacci(x - 1) + Fibonacci(x - 2);
+    else return FibonacciRecursive(x - 1) + FibonacciRecursive(x - 2);
   }
 }
