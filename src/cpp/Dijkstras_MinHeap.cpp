@@ -83,7 +83,7 @@ void dijkstra(const unordered_map<int, unordered_map<int, int>>& graph, int star
 }
 
 // Uncomment the following main function to run a sample test case
-/*
+
 int main() {
     // Example graph represented as an adjacency list
     unordered_map<int, unordered_map<int, int>> graph = {
@@ -98,4 +98,3 @@ int main() {
 
     return 0;
 }
-*/
