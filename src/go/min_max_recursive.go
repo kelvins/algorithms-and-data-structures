@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func MaximoDivisaoEConquista(vetor []int, inicio int, fim int) int {
-	if inicio == fim {
-		return vetor[inicio]
+func MaxDivideAndConquer(array []int, start int, end int) int {
+	if start == end {
+		return array[start]
 	}
 
-	meio := (inicio + fim) / 2
-	aux1 := MaximoDivisaoEConquista(vetor, inicio, meio)
-	aux2 := MaximoDivisaoEConquista(vetor, meio+1, fim)
+	middle := (start + end) / 2
+	aux1 := MaxDivideAndConquer(array, start, middle)
+	aux2 := MaxDivideAndConquer(array, middle+1, end)
 
 	if aux1 > aux2 {
 		return aux1
@@ -18,22 +18,22 @@ func MaximoDivisaoEConquista(vetor []int, inicio int, fim int) int {
 	return aux2
 }
 
-func MinimoMaximoRecursivo(vetor []int, minimo int, maximo int, indice int) {
-	if vetor[indice] < minimo {
-		minimo = vetor[indice]
+func RecursiveMinMax(array []int, min int, max int, index int) {
+	if array[index] < min {
+		min = array[index]
 	}
-	if vetor[indice] > maximo {
-		maximo = vetor[indice]
+	if array[index] > max {
+		max = array[index]
 	}
-	if indice < len(vetor)-1 {
-		MinimoMaximoRecursivo(vetor, minimo, maximo, indice+1)
+	if index < len(array)-1 {
+		RecursiveMinMax(array, min, max, index+1)
 	} else {
-		fmt.Println("Minimo:", minimo)
-		fmt.Println("Maximo:", maximo)
+		fmt.Println("Minimum:", min)
+		fmt.Println("Maximum:", max)
 	}
 }
 
 func main() {
 	slice := []int{2, 3, 9, 1, 6, 8, 5}
-	MinimoMaximoRecursivo(slice, 999, 0, 0)
+	RecursiveMinMax(slice, 999, 0, 0)
 }

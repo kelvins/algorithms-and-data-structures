@@ -2,25 +2,25 @@ package main
 
 import "fmt"
 
-// Grafos - Algoritmo de Floyd-Warshall em GO
-// link Go PlayGround: https://go.dev/play/p/tIRTHkNf7Fz
+// Graphs - Floyd-Warshall Algorithm in GO
+// Go PlayGround link: https://go.dev/play/p/tIRTHkNf7Fz
 
-// Algoritmo de Floyd-Warshall
+// Floyd-Warshall Algorithm
 func FloydWarshall(graph [][]int) [][]int {
-	// Inicializa a matriz de distancias
+	// Initialize the distance matrix
 	dist := make([][]int, len(graph))
 	for i := range dist {
 		dist[i] = make([]int, len(graph))
 		copy(dist[i], graph[i])
 	}
 
-	// Percorre os vértices
+	// Traverse the vertices
 	for k := 0; k < len(graph); k++ {
-		// Percorre as linhas
+		// Traverse the rows
 		for i := 0; i < len(graph); i++ {
-			// Percorre as colunas
+			// Traverse the columns
 			for j := 0; j < len(graph); j++ {
-				// Verifica se o caminho passando pelo vértice k é menor
+				// Check if the path passing through vertex k is shorter
 				if dist[i][k]+dist[k][j] < dist[i][j] {
 					dist[i][j] = dist[i][k] + dist[k][j]
 				}

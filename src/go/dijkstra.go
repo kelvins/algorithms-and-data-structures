@@ -1,12 +1,12 @@
 /*
-* Grafos - Algoritmo de Dijkstra em Go
-* Complexidade: Teta(n^2)
-* Implementação utilizando matriz de adjacências (matriz de distância)
+* Graphs - Dijkstra's Algorithm in Go
+* Complexity: Theta(n^2)
+* Implementation using adjacency matrix (distance matrix)
 *
-* 1 para todos - Arestas de pesos não negativo - Algoritmo guloso
-* Encontra o caminho mais curto de um vértice (inicio) a outro (destino)
+* One to all - Non-negative weighted edges - Greedy algorithm
+* Finds the shortest path from one vertex (start) to another (destination)
 *
-* Grafo com 5 vértices e 6 arestas
+* Graph with 5 vertices and 6 edges
 *
 *              6
 *   (0)-----------------(1)
@@ -19,7 +19,7 @@
 *      \              /
 *       -----(4)-----
 *
-* Matriz de Distância
+* Distance Matrix
 *    0   1   2   3   4
 * 0  0   6  10   -   -
 * 1  6   0   -   2   -
@@ -27,10 +27,10 @@
 * 3  -   2   1   0   8
 * 4  -   -   3   8   0
 *
-* O objetivo é sair do ponto inicial (0) e chegar ao destino (4) pelo caminho mais curto
-* Resposta: (0)->(1)->(3)->(2)->(4) = 12
+* The goal is to start from the initial point (0) and reach the destination (4) by the shortest path
+* Answer: (0)->(1)->(3)->(2)->(4) = 12
 *
-* link Go PlayGround: https://play.golang.org/p/HyWAcYJ3qXY
+* Go PlayGround link: https://play.golang.org/p/HyWAcYJ3qXY
  */
 
 package main
@@ -39,43 +39,43 @@ import "fmt"
 
 var nroVertices = 5
 
-type Matriz [][]int
+type Matrix [][]int
 
 var maxInt = 4294967295
 
-// Algoritmo de Dijkstra recebe como parâmetro a matriz de distância e o número de vértices
-func Dijkstra(matriz Matriz, n int) {
-	visitados := make([]bool, n) // Variável que guarda true para os vértices visitados
-	// O valor 'i' do for abaixo não é utilizado, pois o for serve apenas para percorrer todo o número de colunas da matriz
-	for i := 1; i < n; i++ { // Começa em 1 pois não precisa comparar o vértice com ele mesmo
+// Dijkstra's Algorithm takes the distance matrix and the number of vertices as parameters
+func Dijkstra(matrix Matrix, n int) {
+	visited := make([]bool, n) // Variable that stores true for visited vertices
+	// The 'i' value in the for loop below is not used, as the loop is only used to iterate over the number of columns in the matrix
+	for i := 1; i < n; i++ { // Starts at 1 because there is no need to compare the vertex with itself
 
-		min := -1          // Variável que guarda a posição do menor valor, inicia em -1 pois é uma posição inválida
-		minValor := maxInt // Variável que guarda o menor valor encontrado, inicia com 'infinito', assim, sempre na primeira passada o valor será menor que esta variável
+		min := -1          // Variable that stores the position of the smallest value, starts at -1 because it is an invalid position
+		minValue := maxInt // Variable that stores the smallest value found, starts with 'infinity', so in the first pass the value will be smaller than this variable
 
-		// For que percorre todas as linhas na coluna [0]
+		// For loop that iterates over all rows in column [0]
 		for j := 1; j < n; j++ {
-			// Se o vertice ainda não foi visitado e o valor for menor que o 'MinValor'
-			if !visitados[j] && matriz[j][0] < minValor {
-				min = j                 // Guarda a posição do menor
-				minValor = matriz[j][0] // Guarda o menor valor
+			// If the vertex has not been visited yet and the value is smaller than 'minValue'
+			if !visited[j] && matrix[j][0] < minValue {
+				min = j                 // Stores the position of the smallest value
+				minValue = matrix[j][0] // Stores the smallest value
 			}
 		}
 
-		visitados[min] = true // Marca o valor a posição do minimo como visitado
+		visited[min] = true // Marks the position of the minimum as visited
 
-		// For de 1 até n
+		// For loop from 1 to n
 		for j := 1; j < n; j++ {
-			// Se o valor da coluna [0] + o valor da coluna que está passando for menor que o valor da linha que está passando e coluna [0]
-			// Atualiza a primeira coluna da matriz, que será utilizado para as próximas iterações
-			if (matriz[min][0] + matriz[min][j]) < matriz[j][0] {
-				matriz[j][0] = matriz[min][0] + matriz[min][j]
+			// If the value of column [0] + the value of the current column is smaller than the value of the current row and column [0]
+			// Updates the first column of the matrix, which will be used for the next iterations
+			if (matrix[min][0] + matrix[min][j]) < matrix[j][0] {
+				matrix[j][0] = matrix[min][0] + matrix[min][j]
 			}
 		}
 	}
 }
 
 func main() {
-	matriz := Matriz{
+	matrix := Matrix{
 		{0, 6, 10, maxInt, maxInt},
 		{6, 0, maxInt, 2, maxInt},
 		{10, maxInt, 0, 1, 3},
@@ -83,12 +83,12 @@ func main() {
 		{maxInt, maxInt, 3, 8, 0},
 	}
 
-	Dijkstra(matriz, nroVertices)
+	Dijkstra(matrix, nroVertices)
 
-	fmt.Printf("Total caminho mais curto do vertice 0 ao 4: %v\n\n", matriz[4][0]) // Caminho total mais curto
+	fmt.Printf("Total shortest path from vertex 0 to 4: %v\n\n", matrix[4][0]) // Total shortest path
 
-	// Da print na matriz com os valores atualizados
-	fmt.Println("Matriz:")
+	// Prints the matrix with the updated values
+	fmt.Println("Matrix:")
 
 	fmt.Printf("-  |	|v0	|v1	|v2	|v3	|v4\n")
 	fmt.Println("_____________________________________________")
@@ -100,10 +100,10 @@ func main() {
 				fmt.Printf("v%v |", i)
 			}
 
-			if matriz[i][j] == maxInt {
+			if matrix[i][j] == maxInt {
 				fmt.Printf("	|inf")
 			} else {
-				fmt.Printf("	|%v", matriz[i][j])
+				fmt.Printf("	|%v", matrix[i][j])
 			}
 		}
 		fmt.Println()

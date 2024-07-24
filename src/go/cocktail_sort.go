@@ -5,12 +5,12 @@ import "fmt"
 func CocktailSort(slice []int) {
 
 	swapped := true
-	begining := 0
+	beginning := 0
 	ending := len(slice) - 1
 
-	for begining < ending && swapped {
+	for beginning < ending && swapped {
 
-		for index := begining; index < ending; index++ {
+		for index := beginning; index < ending; index++ {
 			if slice[index] > slice[index+1] {
 				slice[index], slice[index+1] = slice[index+1], slice[index]
 				swapped = true
@@ -21,7 +21,7 @@ func CocktailSort(slice []int) {
 
 		if swapped {
 			swapped = false
-			for index := ending; index > begining; index-- {
+			for index := ending; index > beginning; index-- {
 				if slice[index] < slice[index-1] {
 					slice[index], slice[index-1] = slice[index-1], slice[index]
 					swapped = true
@@ -29,7 +29,7 @@ func CocktailSort(slice []int) {
 			}
 		}
 
-		begining++
+		beginning++
 	}
 }
 

@@ -1,11 +1,10 @@
 /*
- * O Problema do Caixeiro Viajante (PCV) eh um problema que tenta determinar a
- * menor rota para percorrer uma serie de cidades (visitando uma unica vez cada
- * uma delas), retornando a cidade de origem.
+ * The Traveling Salesman Problem (TSP) is a problem that tries to determine the
+ * shortest route to visit a series of cities (visiting each one only once), returning to the starting city.
  *
- * Utilizando uma matriz de distancia para representar um grafo nao direcionado.
+ * Using a distance matrix to represent an undirected graph.
  *
- * Supondo que temos o seguinte grafo:
+ * Assuming we have the following graph:
  *
  *               6
  *      -------------------
@@ -23,7 +22,7 @@
  *      -------------------
  *               1
  *
- *      Matriz de Distancia
+ *      Distance Matrix
  *       0  1  2  3  4  5
  *    0  0  3  6  2  3  -
  *    1  3  0  1  6  8  2
@@ -32,7 +31,7 @@
  *    4  3  8  4  6  0  4
  *    5  -  2  5  1  4  0
  *
- * Melhor solucao:
+ * Best solution:
  * 0 - 3 - 5 - 1 - 2 - 4 - 0: 13
  */
 
@@ -41,113 +40,113 @@ package main
 import "fmt"
 
 const vertices = 6
-const infinito = 99999999
+const infinity = 99999999
 
-var matrizDistancia [][]int
+var distanceMatrix [][]int
 
-var tempSolucao []int   // Solucao temporaria
-var melhorSolucao []int // Melhor solucao
-var visitados []bool    // Vertices visitados
+var tempSolution []int // Temporary solution
+var bestSolution []int // Best solution
+var visited []bool     // Visited vertices
 
-var valorMelhorSolucao int
-var valorSolucaoAtual int
+var bestSolutionValue int
+var currentSolutionValue int
 
-func CaixeiroViajanteAux(x int) {
+func TravelingSalesmanAux(x int) {
 
-	// Significa que ja nao eh mais a melhor solucao podemos parar por aqui
-	if valorSolucaoAtual > valorMelhorSolucao {
+	// If the current solution value is greater than the best solution value, it means it's no longer the best solution, so we can stop here
+	if currentSolutionValue > bestSolutionValue {
 		return
 	}
 
-	// Significa que o vetor da solucao temporaria esta completo
+	// If the temporary solution vector is complete
 	if x == vertices {
-		distancia := matrizDistancia[tempSolucao[x-1]][tempSolucao[0]]
+		distance := distanceMatrix[tempSolution[x-1]][tempSolution[0]]
 
-		// Significa que encontrou uma solucao melhor
-		if distancia < infinito && (valorSolucaoAtual+distancia) < valorMelhorSolucao {
+		// If a better solution is found
+		if distance < infinity && (currentSolutionValue+distance) < bestSolutionValue {
 
-			// Temos uma solucao melhor
-			valorMelhorSolucao = valorSolucaoAtual + distancia
+			// We have a better solution
+			bestSolutionValue = currentSolutionValue + distance
 
-			// Copia todo o vetor para a melhor solucao
+			// Copy the entire vector to the best solution
 			for i := 0; i < vertices; i++ {
-				melhorSolucao[i] = tempSolucao[i]
+				bestSolution[i] = tempSolution[i]
 			}
 		}
 		return
 	}
 
-	// Ultimo vertice que se encontra na solucao temporaria
-	ultimo := tempSolucao[x-1]
+	// Last vertex in the temporary solution
+	last := tempSolution[x-1]
 
-	// Percorre todas as colunas da matriz de distancia na linha do ultimo vertice
+	// Iterate through all columns of the distance matrix in the row of the last vertex
 	for i := 0; i < vertices; i++ {
 
-		// Se a posicao ainda nao foi visitada e o valor da matriz eh menor que infinito
-		if !visitados[i] && matrizDistancia[ultimo][i] < infinito {
-			// Marque a posicao como visitada
-			visitados[i] = true
-			// Carrega o vertice atual na solucao temporaria
-			tempSolucao[x] = i
-			// Incrementa o total do caminho percorrido com base na posicao da matriz
-			valorSolucaoAtual += matrizDistancia[ultimo][i]
-			// Chama recursivamente para o proximo vertice
-			CaixeiroViajanteAux(x + 1)
-			// Se ainda nao terminou decrementa o valor da variabel que guarta o total do caminho
-			valorSolucaoAtual -= matrizDistancia[ultimo][i]
-			// Define como nao visitada para poder ser acessada por outro vertice
-			visitados[i] = false
+		// If the position has not been visited and the value in the matrix is less than infinity
+		if !visited[i] && distanceMatrix[last][i] < infinity {
+			// Mark the position as visited
+			visited[i] = true
+			// Load the current vertex into the temporary solution
+			tempSolution[x] = i
+			// Increment the total distance traveled based on the position in the matrix
+			currentSolutionValue += distanceMatrix[last][i]
+			// Call recursively for the next vertex
+			TravelingSalesmanAux(x + 1)
+			// If it has not finished yet, decrement the value of the variable that stores the total distance
+			currentSolutionValue -= distanceMatrix[last][i]
+			// Set it as not visited so it can be accessed by another vertex
+			visited[i] = false
 		}
 	}
 }
 
-func CaixeiroViajante(posicaoInicial int) {
-	// Verifica se a posicao eh valida
-	if posicaoInicial < vertices {
-		visitados[posicaoInicial] = true // Marca o primeiro vertice como visitado
-		tempSolucao[0] = posicaoInicial  // Coloca a posicao inicial na primeira posicao da solucao temporaria
-		CaixeiroViajanteAux(1)           // Chama o metodo auxiliar do caixeiro viajante
+func TravelingSalesman(initialPosition int) {
+	// Check if the position is valid
+	if initialPosition < vertices {
+		visited[initialPosition] = true   // Mark the first vertex as visited
+		tempSolution[0] = initialPosition // Put the initial position in the first position of the temporary solution
+		TravelingSalesmanAux(1)           // Call the auxiliary method for the traveling salesman
 	} else {
-		fmt.Println("Vertice inicial invalid")
+		fmt.Println("Invalid initial vertex")
 	}
 }
 
-// Inicia os vetores e valores padrao
-func inicia() {
+// Initialize vectors and default values
+func initialize() {
 
-	valorMelhorSolucao = infinito
-	valorSolucaoAtual = 0
+	bestSolutionValue = infinity
+	currentSolutionValue = 0
 
 	for i := 0; i < vertices; i++ {
-		visitados = append(visitados, false)
-		tempSolucao = append(tempSolucao, -1)
-		melhorSolucao = append(melhorSolucao, -1)
+		visited = append(visited, false)
+		tempSolution = append(tempSolution, -1)
+		bestSolution = append(bestSolution, -1)
 	}
 
-	// Cria a matriz de distancia
-	linha0 := []int{0, 3, 6, 2, 3, infinito}
-	linha1 := []int{3, 0, 1, 6, 8, 2}
-	linha2 := []int{6, 1, 0, infinito, 4, 5}
-	linha3 := []int{2, 6, infinito, 0, 6, 1}
-	linha4 := []int{3, 8, 4, 6, 0, 4}
-	linha5 := []int{infinito, 2, 5, 1, 4, 0}
+	// Create the distance matrix
+	row0 := []int{0, 3, 6, 2, 3, infinity}
+	row1 := []int{3, 0, 1, 6, 8, 2}
+	row2 := []int{6, 1, 0, infinity, 4, 5}
+	row3 := []int{2, 6, infinity, 0, 6, 1}
+	row4 := []int{3, 8, 4, 6, 0, 4}
+	row5 := []int{infinity, 2, 5, 1, 4, 0}
 
-	matrizDistancia = append(matrizDistancia, linha0)
-	matrizDistancia = append(matrizDistancia, linha1)
-	matrizDistancia = append(matrizDistancia, linha2)
-	matrizDistancia = append(matrizDistancia, linha3)
-	matrizDistancia = append(matrizDistancia, linha4)
-	matrizDistancia = append(matrizDistancia, linha5)
+	distanceMatrix = append(distanceMatrix, row0)
+	distanceMatrix = append(distanceMatrix, row1)
+	distanceMatrix = append(distanceMatrix, row2)
+	distanceMatrix = append(distanceMatrix, row3)
+	distanceMatrix = append(distanceMatrix, row4)
+	distanceMatrix = append(distanceMatrix, row5)
 }
 
 func main() {
-	inicia()
-	CaixeiroViajante(0)
+	initialize()
+	TravelingSalesman(0)
 
-	fmt.Println("Caixeiro Viajante")
-	fmt.Println("Caminho minimo:", valorMelhorSolucao)
+	fmt.Println("Traveling Salesman")
+	fmt.Println("Minimum path:", bestSolutionValue)
 	for i := 0; i < vertices; i++ {
-		fmt.Print(melhorSolucao[i], ", ")
+		fmt.Print(bestSolution[i], ", ")
 	}
-	fmt.Println(melhorSolucao[0])
+	fmt.Println(bestSolution[0])
 }
