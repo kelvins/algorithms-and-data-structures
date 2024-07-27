@@ -45,7 +45,7 @@ func size(list *List) int {
 }
 
 // Prints the values of the elements in the list
-func print(list *List) {
+func show(list *List) {
 	for i := 0; i < list.numberOfElements; i++ {
 		fmt.Printf("%v ", list.recordArray[i].value)
 	}
@@ -130,7 +130,7 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("Printing the list...")
-	print(&list)
+	show(&list)
 	fmt.Println("Size of the list:", size(&list))
 
 	fmt.Println()
@@ -140,7 +140,7 @@ func main() {
 
 	fmt.Println()
 	fmt.Println("Printing the list...")
-	print(&list)
+	show(&list)
 	fmt.Println("Size of the list:", size(&list))
 
 	fmt.Println()
