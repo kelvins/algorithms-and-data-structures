@@ -2,34 +2,34 @@ package main
 
 import "fmt"
 
-// Iterativo
-func BubbleSortIterativo(slice []int) {
-	for indice1 := len(slice) - 1; indice1 > 0; indice1-- {
-		for indice2 := 0; indice2 < indice1; indice2++ {
-			if slice[indice2] > slice[indice2+1] {
-				slice[indice2], slice[indice2+1] = slice[indice2+1], slice[indice2]
+// Iterative
+func BubbleSortIterative(slice []int) {
+	for index1 := len(slice) - 1; index1 > 0; index1-- {
+		for index2 := 0; index2 < index1; index2++ {
+			if slice[index2] > slice[index2+1] {
+				slice[index2], slice[index2+1] = slice[index2+1], slice[index2]
 			}
 		}
 	}
 }
 
-// Recursivo
-func BubbleSortRecursivo(slice []int, tamanho int) {
-	trocas := 0
-	for indice := 0; indice < tamanho-1; indice++ {
-		if slice[indice] > slice[indice+1] {
-			slice[indice], slice[indice+1] = slice[indice+1], slice[indice]
-			trocas++
+// Recursive
+func BubbleSortRecursive(slice []int, size int) {
+	swaps := 0
+	for index := 0; index < size-1; index++ {
+		if slice[index] > slice[index+1] {
+			slice[index], slice[index+1] = slice[index+1], slice[index]
+			swaps++
 		}
 	}
-	if trocas != 0 {
-		BubbleSortRecursivo(slice, tamanho-1)
+	if swaps != 0 {
+		BubbleSortRecursive(slice, size-1)
 	}
 }
 
 func main() {
 	slice := []int{5, 2, 1, 6, 9, 8, 7, 3, 4}
 	fmt.Println("Slice:", slice)
-	BubbleSortIterativo(slice)
+	BubbleSortIterative(slice)
 	fmt.Println("BubbleSort:", slice)
 }

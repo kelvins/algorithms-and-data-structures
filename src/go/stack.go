@@ -26,12 +26,12 @@ func (stack *Stack[T]) Show() {
 }
 
 func main() {
-	pilha := Stack[int]{}
-	pilha.Push(1)
-	pilha.Push(2)
-	pilha.Push(3)
-	pilha.Push(4)
-	pilha.Pop()
+	stack := Stack[int]{}
+	stack.Push(1)
+	stack.Push(2)
+	stack.Push(3)
+	stack.Push(4)
+	stack.Pop()
 	fmt.Printf("Stack: ")
-	pilha.Show()
+	stack.Show()
 }

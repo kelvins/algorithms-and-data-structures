@@ -1,9 +1,9 @@
 /*
-* Listas - Lista linear ordenada
+* Lists - Ordered linear list
 *
-* Implementação da lista sequencial cujos elementos estão ordenados
+* Implementation of a sequential list whose elements are ordered
 *
-* link Go PlayGround: https://play.golang.org/p/J6Jbi2_FWJk
+* Go PlayGround link: https://play.golang.org/p/J6Jbi2_FWJk
  */
 
 package main
@@ -12,141 +12,141 @@ import "fmt"
 
 var maxSize = 50
 
-// Estrura que será guardada em cada posição da lista
-type Registro struct {
-	valor int
-	// Outros campos podem ser adicionados aqui
+// Structure that will be stored in each position of the list
+type Record struct {
+	value int
+	// Other fields can be added here
 }
 
-// Estrutura que guarda um arranjo de Registro, e o número de elementos no arranjo
-type Lista struct {
-	arranjoRegistros []Registro
-	numeroElementos  int
+// Structure that holds an array of Records and the number of elements in the array
+type List struct {
+	recordArray      []Record
+	numberOfElements int
 }
 
-// Cria uma nova lista
-func criarLista() Lista {
-	lista := Lista{
-		arranjoRegistros: make([]Registro, maxSize),
-		numeroElementos:  0,
+// Creates a new list
+func createList() List {
+	list := List{
+		recordArray:      make([]Record, maxSize),
+		numberOfElements: 0,
 	}
 
-	return lista
+	return list
 }
 
-// reseta o contador de elementos da lista
-func inicializar(lista *Lista) {
-	lista.numeroElementos = 0
+// Resets the list's element counter
+func initialize(list *List) {
+	list.numberOfElements = 0
 }
 
-// Recupera a quantidade de elementos da lista
-func tamanho(lista *Lista) int {
-	return lista.numeroElementos
+// Retrieves the number of elements in the list
+func size(list *List) int {
+	return list.numberOfElements
 }
 
-// Imprime valores dos elementos na lista
-func imprimir(lista *Lista) {
-	for i := 0; i < lista.numeroElementos; i++ {
-		fmt.Printf("%v ", lista.arranjoRegistros[i].valor)
+// Prints the values of the elements in the list
+func show(list *List) {
+	for i := 0; i < list.numberOfElements; i++ {
+		fmt.Printf("%v ", list.recordArray[i].value)
 	}
 	fmt.Println()
 }
 
-// Realiza busca binária na lista
-func buscaBinaria(lista *Lista, valor int) int {
-	esquerda := 0
-	direita := lista.numeroElementos - 1
+// Performs binary search on the list
+func binarySearch(list *List, value int) int {
+	left := 0
+	right := list.numberOfElements - 1
 
-	for esquerda <= direita {
-		meio := ((esquerda + direita) / 2)
-		if lista.arranjoRegistros[meio].valor == valor {
-			return meio
+	for left <= right {
+		middle := ((left + right) / 2)
+		if list.recordArray[middle].value == value {
+			return middle
 		}
 
-		if lista.arranjoRegistros[meio].valor < valor {
-			esquerda = meio + 1
+		if list.recordArray[middle].value < value {
+			left = middle + 1
 		} else {
-			direita = meio - 1
+			right = middle - 1
 		}
 	}
 
 	return -1
 }
 
-// Insere elementos na lista em ordem crescente, garantindo com a lista esteja sempre ordenada
-func insereRegistroOrdenado(lista *Lista, registro Registro) bool {
-	if lista.numeroElementos == maxSize {
+// Inserts elements into the list in ascending order, ensuring that the list is always sorted
+func insertRecordInOrder(list *List, record Record) bool {
+	if list.numberOfElements == maxSize {
 		return false
 	}
 
-	posicao := lista.numeroElementos
+	position := list.numberOfElements
 
-	for posicao > 0 && lista.arranjoRegistros[posicao-1].valor > registro.valor {
-		lista.arranjoRegistros[posicao] = lista.arranjoRegistros[posicao-1]
-		posicao--
+	for position > 0 && list.recordArray[position-1].value > record.value {
+		list.recordArray[position] = list.recordArray[position-1]
+		position--
 	}
 
-	lista.arranjoRegistros[posicao] = registro
-	lista.numeroElementos++
+	list.recordArray[position] = record
+	list.numberOfElements++
 
 	return true
 }
 
-// Exclui um elemento da lista
-func excluirElemento(lista *Lista, valor int) bool {
-	posicao := buscaBinaria(lista, valor)
+// Deletes an element from the list
+func deleteElement(list *List, value int) bool {
+	position := binarySearch(list, value)
 
-	if posicao == -1 {
+	if position == -1 {
 		return false
 	}
 
-	for i := posicao; i < lista.numeroElementos-1; i++ {
-		lista.arranjoRegistros[i] = lista.arranjoRegistros[i+1]
+	for i := position; i < list.numberOfElements-1; i++ {
+		list.recordArray[i] = list.recordArray[i+1]
 	}
 
-	lista.numeroElementos--
+	list.numberOfElements--
 
 	return true
 }
 
 func main() {
-	lista := criarLista()
+	list := createList()
 
-	inicializar(&lista)
+	initialize(&list)
 
-	fmt.Println("Inserindo valores na lista...")
-	insereRegistroOrdenado(&lista, Registro{valor: 20})
-	insereRegistroOrdenado(&lista, Registro{valor: 10})
-	insereRegistroOrdenado(&lista, Registro{valor: 70})
-	insereRegistroOrdenado(&lista, Registro{valor: 30})
-	insereRegistroOrdenado(&lista, Registro{valor: 60})
-	insereRegistroOrdenado(&lista, Registro{valor: 90})
-	insereRegistroOrdenado(&lista, Registro{valor: 80})
-	insereRegistroOrdenado(&lista, Registro{valor: 15})
-	insereRegistroOrdenado(&lista, Registro{valor: 1})
-
-	fmt.Println()
-	fmt.Println("Imprimindo lista...")
-	imprimir(&lista)
-	fmt.Println("Tamanho da lista:", tamanho(&lista))
+	fmt.Println("Inserting values into the list...")
+	insertRecordInOrder(&list, Record{value: 20})
+	insertRecordInOrder(&list, Record{value: 10})
+	insertRecordInOrder(&list, Record{value: 70})
+	insertRecordInOrder(&list, Record{value: 30})
+	insertRecordInOrder(&list, Record{value: 60})
+	insertRecordInOrder(&list, Record{value: 90})
+	insertRecordInOrder(&list, Record{value: 80})
+	insertRecordInOrder(&list, Record{value: 15})
+	insertRecordInOrder(&list, Record{value: 1})
 
 	fmt.Println()
-
-	fmt.Println("Excluindo elemento 80 da lista...")
-	excluirElemento(&lista, 80)
-
-	fmt.Println()
-	fmt.Println("Imprimindo lista...")
-	imprimir(&lista)
-	fmt.Println("Tamanho da lista:", tamanho(&lista))
+	fmt.Println("Printing the list...")
+	show(&list)
+	fmt.Println("Size of the list:", size(&list))
 
 	fmt.Println()
-	fmt.Println("Buscando valores na lista:")
+
+	fmt.Println("Deleting element 80 from the list...")
+	deleteElement(&list, 80)
+
+	fmt.Println()
+	fmt.Println("Printing the list...")
+	show(&list)
+	fmt.Println("Size of the list:", size(&list))
+
+	fmt.Println()
+	fmt.Println("Searching values in the list:")
 	fmt.Println()
 
-	fmt.Println("Buscando posição do numero 15:")
-	fmt.Printf("Posição do número 15: %v \n\n", buscaBinaria(&lista, 15))
+	fmt.Println("Searching position of number 15:")
+	fmt.Printf("Position of number 15: %v \n\n", binarySearch(&list, 15))
 
-	fmt.Println("Buscando posição do valor 100:")
-	fmt.Printf("Posição do número 100: %v \n\n", buscaBinaria(&lista, 100))
+	fmt.Println("Searching position of value 100:")
+	fmt.Printf("Position of number 100: %v \n\n", binarySearch(&list, 100))
 }

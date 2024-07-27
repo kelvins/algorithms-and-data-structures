@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func Fatorial(value int) int {
+func Factorial(value int) int {
 	if value == 1 {
 		return 1
 	}
-	return value * Fatorial(value-1)
+	return value * Factorial(value-1)
 }
 
 func main() {
-	fmt.Println("Fatorial:", Fatorial(6))
+	fmt.Println("Factorial:", Factorial(6))
 }
