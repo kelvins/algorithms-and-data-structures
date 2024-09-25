@@ -1691,6 +1691,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary Search Tree</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/BinarySearchTree.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/BinarySearchTree.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/BinarySearchTree.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/binary_search_tree.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/binary_search_tree.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/BinarySearchTree.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_tree">Binary Tree</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BinaryTree.c">
@@ -1749,24 +1807,24 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary Search Tree</a></td>
+            <td><a href="https://www.programiz.com/dsa/circular-linked-list">Circular Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/BinarySearchTree.c">
+                <a href="./src/c/CircularLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/BinarySearchTree.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/BinarySearchTree.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/binary_search_tree.py">
+                <a href="./src/python/circular_linked_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -1776,13 +1834,13 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Ruby -->
-                <a href="./src/ruby/binary_search_tree.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
-                <a href="./src/javascript/BinarySearchTree.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Swift -->
@@ -1865,64 +1923,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/Queue.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/Queue.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/queue.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/queue.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/Queue.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./src/swift/queue.swift">
-                    <img align="center" height="25" src="./logos/swift.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/queue.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./src/scala/Queue.scala">
-                    <img align="center" height="25" src="./logos/scala.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://iq.opengenus.org/dynamic-queue/">Dynamic Queue</a></td>
             <td> <!-- C -->
                 <a href="./src/c/DynamicQueue.c">
@@ -1967,6 +1967,122 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Rust -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.geeksforgeeks.org/implement-dynamic-multi-stack-k-stacks-using-only-one-data-structure/">Dynamic Stack</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/DynamicStack.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/DynamicStack.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/dynamic_stack.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Linked_list">Doubly Linked List</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/DoublyLinkedList.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/DoublyLinkedList.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/DoublyLinkedList.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/doubly_linked_list.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./src/go/doubly_linked_list.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/doubly_linked_list.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/DoublyLinkedList.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/doubly_linked_list.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -2039,10 +2155,10 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.programiz.com/dsa/circular-linked-list">Circular Linked List</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Hash_table">Hash Table</a></td>
             <td> <!-- C -->
-                <a href="./src/c/CircularLinkedList.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2056,7 +2172,123 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/circular_linked_list.py">
+                <a href="./src/python/hash_table.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/hash_table.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Queue_(abstract_data_type)">Queue</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/Queue.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/Queue.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/queue.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/queue.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/Queue.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./src/swift/queue.swift">
+                    <img align="center" height="25" src="./logos/swift.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/queue.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./src/scala/Queue.scala">
+                    <img align="center" height="25" src="./logos/scala.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Circular_buffer">Ring Buffer</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/ring_buffer.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
@@ -2155,68 +2387,10 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linked_list">Doubly Linked List</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Skip_list">Skip List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/DoublyLinkedList.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/DoublyLinkedList.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/DoublyLinkedList.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/doubly_linked_list.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/doubly_linked_list.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/doubly_linked_list.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/DoublyLinkedList.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/doubly_linked_list.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linked_list">Unordered Linked List</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/UnorderedLinkedList.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2230,13 +2404,13 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/unordered_linked_list.py">
+                <a href="./src/python/skip_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./src/go/unordered_linked_list.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
@@ -2329,64 +2503,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Skip_list">Skip List</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/skip_list.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Stack.c">
@@ -2445,71 +2561,13 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/implement-dynamic-multi-stack-k-stacks-using-only-one-data-structure/?ref=oin_asr3">Dynamic Stack</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Linked_list">Unordered Linked List</a></td>
             <td> <!-- C -->
-                <a href="./src/c/DynamicStack.c">
+                <a href="./src/c/UnorderedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/DynamicStack.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/dynamic_stack.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Circular_buffer">Ring Buffer</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
@@ -2520,76 +2578,18 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/ring_buffer.py">
+                <a href="./src/python/unordered_linked_list.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/go/unordered_linked_list.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Hash_table">Hash Table</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/hash_table.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/hash_table.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
                 </a>
             </td>
             <td> <!-- JavaScript -->
@@ -3609,83 +3609,25 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/queue-using-stacks/">Queue using Stacks</a></td>
+            <td><a href="https://www.geeksforgeeks.org/find-all-unique-subsets-of-a-given-set/">Find Distinct Subsets</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/queue_using_stacks.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://www.geeksforgeeks.org/check-if-pair-with-given-sum-exists-in-array/">Two-Sum Problem</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/TwoSum.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/TwoSum.cpp">
+                <a href="./src/cpp/FindDistinctSubsets.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./src/java/TwoSum.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/two_sum.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -3709,66 +3651,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./src/rust/two_sum.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Palindrome">Palindrome</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/Palindrome.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/Palindrome.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/Palindrome.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/palindrome.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/palindrome.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/Palindrome.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./src/swift/palindrome.swift">
-                    <img align="center" height="25" src="./logos/swift.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/palindrome.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -3848,7 +3732,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="src/cpp/CalculatePi.cpp">
+                <a href="./src/cpp/CalculatePi.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
@@ -3957,6 +3841,122 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Palindrome">Palindrome</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/Palindrome.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/Palindrome.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/Palindrome.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/palindrome.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/palindrome.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/Palindrome.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./src/swift/palindrome.swift">
+                    <img align="center" height="25" src="./logos/swift.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/palindrome.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.geeksforgeeks.org/queue-using-stacks/">Queue using Stacks</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/queue_using_stacks.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td><a href="https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/">Rotten Oranges</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
@@ -4015,25 +4015,25 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.geeksforgeeks.org/find-all-unique-subsets-of-a-given-set/">Find Distinct Subsets</a></td>
+            <td><a href="https://www.geeksforgeeks.org/check-if-pair-with-given-sum-exists-in-array/">Two-Sum Problem</a></td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/c/TwoSum.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/cpp/FindDistinctSubsets.cpp">
+                <a href="./src/cpp/TwoSum.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
             <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/java/TwoSum.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/python/two_sum.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -4057,8 +4057,8 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/rust/two_sum.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
