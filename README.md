@@ -1167,7 +1167,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Min and Max (Iterative)</td>
+            <td><a href="https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/">Min and Max (Iterative)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MinMaxIterative.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -1283,7 +1283,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Min and Max (D&C)</td>
+            <td><a href="https://www.tutorialspoint.com/data_structures_algorithms/max_min_problem.htm">Min and Max (D&C)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MinMaxDC.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -2271,7 +2271,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Sorted Linked List</td>
+            <td><a href="https://www.geeksforgeeks.org/sorting-a-singly-linked-list/">Sorted Linked List</a></td>
             <td> <!-- C -->
                 <a href="./src/c/SortedLinkedList.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -2445,7 +2445,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Dynamic Stack</td>
+            <td><a href="https://www.geeksforgeeks.org/implement-dynamic-multi-stack-k-stacks-using-only-one-data-structure/?ref=oin_asr3">Dynamic Stack</a></td>
             <td> <!-- C -->
                 <a href="./src/c/DynamicStack.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -3609,7 +3609,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Queue using Stacks</td>
+            <td><a href="https://www.geeksforgeeks.org/queue-using-stacks/">Queue using Stacks</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -3667,7 +3667,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Two-Sum Problem</td>
+            <td><a href="https://www.geeksforgeeks.org/check-if-pair-with-given-sum-exists-in-array/">Two-Sum Problem</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TwoSum.c">
                     <img align="center" height="25" src="./logos/c.svg" />
@@ -3783,7 +3783,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Isogram</td>
+            <td><a href="https://www.geeksforgeeks.org/check-string-isogram-not/">Isogram</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -3957,7 +3957,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Rotten Oranges</td>
+            <td><a href="https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/">Rotten Oranges</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
@@ -4015,7 +4015,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td>Find Distinct Subsets</td>
+            <td><a href="https://www.geeksforgeeks.org/find-all-unique-subsets-of-a-given-set/">Find Distinct Subsets</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
