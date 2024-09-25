@@ -65,122 +65,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/Dijkstra.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/Dijkstras_MinHeap.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/Dijkstra.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/dijkstra.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/dijkstra.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/dijkstra.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/Dijkstra.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/Dijkstra.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./src/scala/Dijkstra.scala">
-                    <img align="center" height="25" src="./logos/scala.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Floyd–Warshall Algorithm</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/FloydWarshall.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/FloydWarshall.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/floyd_warshall.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/floyd_warshall.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">Binary Search</a></td>
             <td> <!-- C -->
                 <a href="./src/c/BinarySearch.c">
@@ -225,412 +109,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Rust -->
                 <a href="./src/rust/binary_search.rs">
                     <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Graph_traversal">Graph Search</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/GraphSearch.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/graph_search.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/GraphSearch.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/LinearSearch.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/LinearSearch.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="src/java/LinearSearch.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/linear_search.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/linear_search.go">
-                     <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/linear_search.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/LinearSearch.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./src/swift/linearSearch.swift">
-                    <img align="center" height="25" src="./logos/swift.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/linear_search.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./src/scala/LinearSearch.scala">
-                    <img align="center" height="25" src="./logos/scala.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Recursive)</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/LinearSearchRecursive.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/LinearSearchRecursive.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/linear_search_recursive.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/linear_search_recursive.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/LinearSearchRecursive.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/linear_search_recursive.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./src/scala/LinearSearchRecursive.scala">
-                    <img align="center" height="25" src="./logos/scala.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/LinearSearchSentinel.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/linear_search_sentinel.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/linear_search_sentinel.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/LinearSearchSentinel.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Interpolation Search</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/InterpolationSearch.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/interpolation_search.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/interpolation_search.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/InterpolationSearch.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/TravellingSalesman.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/travelling_salesman.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/travelling_salesman.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Hamiltonian_path">Hamiltonian Cycle</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/HamiltonianCycle.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Scala -->
@@ -694,6 +172,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Scala -->
                 <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm">Dijkstra's Algorithm</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/Dijkstra.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/Dijkstras_MinHeap.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/Dijkstra.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/dijkstra.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./src/go/dijkstra.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/dijkstra.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/Dijkstra.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/Dijkstra.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./src/scala/Dijkstra.scala">
+                    <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -992,65 +528,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
         </tr>
-         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Recursive)</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/FibonacciRecursive.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/FibonacciRecursive.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./src/java/FibonacciRecursive.java">
-                    <img align="center" height="25" src="./logos/java.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/fibonacci_recursive.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./src/go/fibonacci_recursive.go">
-                    <img align="center" height="25" src="./logos/golang.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/fibonacci_recursive.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./src/javascript/FibonacciRecursive.js">
-                    <img align="center" height="25" src="./logos/javascript.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./src/swift/fibonacciRecursive.swift">
-                    <img align="center" height="25" src="./logos/swift.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./src/rust/fibonacci_recursive.rs">
-                    <img align="center" height="25" src="./logos/rust.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./src/scala/FibonacciRecursive.scala">
-                    <img align="center" height="25" src="./logos/scala.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./src/kotlin/FibonacciRecursive.kt">
-                    <img align="center" height="25" src="./logos/kotlin.svg" />
-                </a>
-            </td>
-        </tr>
-         <tr>
+        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Memoization)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/FibonacciMemoization.c">
@@ -1109,6 +587,702 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Fibonacci_sequence">Fibonacci (Recursive)</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/FibonacciRecursive.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/FibonacciRecursive.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/FibonacciRecursive.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/fibonacci_recursive.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./src/go/fibonacci_recursive.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/fibonacci_recursive.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/FibonacciRecursive.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./src/swift/fibonacciRecursive.swift">
+                    <img align="center" height="25" src="./logos/swift.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/fibonacci_recursive.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./src/scala/FibonacciRecursive.scala">
+                    <img align="center" height="25" src="./logos/scala.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./src/kotlin/FibonacciRecursive.kt">
+                    <img align="center" height="25" src="./logos/kotlin.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm">Floyd–Warshall Algorithm</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/FloydWarshall.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./src/java/FloydWarshall.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/floyd_warshall.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./src/go/floyd_warshall.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Genetic_algorithm">Genetic Algorithm</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/genetic_algorithm.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Graph_traversal">Graph Search</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/GraphSearch.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/graph_search.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/GraphSearch.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Hamiltonian_path">Hamiltonian Cycle</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/HamiltonianCycle.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman's Algorithm</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/huffman.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Interpolation_search">Interpolation Search</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/InterpolationSearch.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/interpolation_search.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/interpolation_search.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/InterpolationSearch.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Knight%27s_tour">Knight's Tour</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/knights_tour.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Iterative)</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/LinearSearch.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/LinearSearch.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="src/java/LinearSearch.java">
+                    <img align="center" height="25" src="./logos/java.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/linear_search.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./src/go/linear_search.go">
+                     <img align="center" height="25" src="./logos/golang.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/linear_search.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/LinearSearch.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./src/swift/linearSearch.swift">
+                    <img align="center" height="25" src="./logos/swift.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/linear_search.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./src/scala/LinearSearch.scala">
+                    <img align="center" height="25" src="./logos/scala.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/Linear_search">Linear Search (Recursive)</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/LinearSearchRecursive.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/LinearSearchRecursive.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/linear_search_recursive.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/linear_search_recursive.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/LinearSearchRecursive.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./src/rust/linear_search_recursive.rs">
+                    <img align="center" height="25" src="./logos/rust.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./src/scala/LinearSearchRecursive.scala">
+                    <img align="center" height="25" src="./logos/scala.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.geeksforgeeks.org/sentinel-linear-search">Linear Search (Sentinel)</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/LinearSearchSentinel.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/linear_search_sentinel.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/linear_search_sentinel.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./src/javascript/LinearSearchSentinel.js">
+                    <img align="center" height="25" src="./logos/javascript.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://en.wikipedia.org/wiki/LZ77_and_LZ78">LZ77 Algorithm</a></td>
+            <td> <!-- C -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/lz77.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
             <td><a href="https://www.geeksforgeeks.org/recursive-programs-to-find-minimum-and-maximum-elements-of-array/">Max (Recursive)</a></td>
             <td> <!-- C -->
                 <a href="./src/c/MaxRecursive.c">
@@ -1158,6 +1332,64 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td> <!-- Scala -->
                 <a href="./src/scala/MaxRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
+                </a>
+            </td>
+            <td> <!-- Kotlin -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="https://www.tutorialspoint.com/data_structures_algorithms/max_min_problem.htm">Min and Max (D&C)</a></td>
+            <td> <!-- C -->
+                <a href="./src/c/MinMaxDC.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
+                </a>
+            </td>
+            <td> <!-- C++ -->
+                <a href="./src/cpp/MinMaxDC.cpp">
+                    <img align="center" height="25" src="./logos/cplusplus.svg" />
+                </a>
+            </td>
+            <td> <!-- Java -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Python -->
+                <a href="./src/python/min_max_dc.py">
+                    <img align="center" height="25" src="./logos/python.svg" />
+                </a>
+            </td>
+            <td> <!-- Go -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Ruby -->
+                <a href="./src/ruby/min_max_dc.rb">
+                    <img align="center" height="25" src="./logos/ruby.svg" />
+                </a>
+            </td>
+            <td> <!-- JavaScript -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Swift -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Rust -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
+                </a>
+            </td>
+            <td> <!-- Scala -->
+                <a href="./CONTRIBUTING.md">
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Kotlin -->
@@ -1283,122 +1515,6 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://www.tutorialspoint.com/data_structures_algorithms/max_min_problem.htm">Min and Max (D&C)</a></td>
-            <td> <!-- C -->
-                <a href="./src/c/MinMaxDC.c">
-                    <img align="center" height="25" src="./logos/c.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./src/cpp/MinMaxDC.cpp">
-                    <img align="center" height="25" src="./logos/cplusplus.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/min_max_dc.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./src/ruby/min_max_dc.rb">
-                    <img align="center" height="25" src="./logos/ruby.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Knight%27s_tour">Knight's Tour</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/knights_tour.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a></td>
             <td> <!-- C -->
                 <a href="./src/c/TowerOfHanoi.c">
@@ -1457,10 +1573,10 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
         </tr>
         <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Genetic_algorithm">Genetic Algorithm</a></td>
+            <td><a href="https://en.wikipedia.org/wiki/Travelling_salesman_problem">Travelling Salesman</a></td>
             <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/c/TravellingSalesman.c">
+                    <img align="center" height="25" src="./logos/c.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1474,129 +1590,13 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Python -->
-                <a href="./src/python/genetic_algorithm.py">
+                <a href="./src/python/travelling_salesman.py">
                     <img align="center" height="25" src="./logos/python.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/Huffman_coding">Huffman's Algorithm</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/huffman.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Ruby -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- JavaScript -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Swift -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Rust -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Scala -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Kotlin -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/LZ77_and_LZ78">LZ77 Algorithm</a></td>
-            <td> <!-- C -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Java -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
-                </a>
-            </td>
-            <td> <!-- Python -->
-                <a href="./src/python/lz77.py">
-                    <img align="center" height="25" src="./logos/python.svg" />
-                </a>
-            </td>
-            <td> <!-- Go -->
-                <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                <a href="./src/go/travelling_salesman.go">
+                    <img align="center" height="25" src="./logos/golang.svg" />
                 </a>
             </td>
             <td> <!-- Ruby -->
