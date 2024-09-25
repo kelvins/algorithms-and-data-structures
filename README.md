@@ -2096,7 +2096,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
         </tr>
-                <tr>
+        <tr>
             <td><a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)">Graph</a></td>
             <td> <!-- C -->
                 <a href="./src/c/Graphs.c">
@@ -3732,7 +3732,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="src/cpp/CalculatePi.cpp">
+                <a href="./src/cpp/CalculatePi.cpp">
                     <img align="center" height="25" src="./logos/cplusplus.svg" />
                 </a>
             </td>
