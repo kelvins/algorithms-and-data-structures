@@ -68,7 +68,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/a-search-algorithm/">A* Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -83,7 +83,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -126,7 +126,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/">Bellman-Ford Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -822,7 +822,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/">Ford-Fulkerson Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -837,7 +837,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -880,7 +880,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/stable-marriage-problem/">Gale-Shapley Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -895,7 +895,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -1170,7 +1170,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/hungarian-algorithm-assignment-problem-set-1-introduction/">Hungarian Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1185,7 +1185,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -1344,7 +1344,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/">Kruskal's Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1359,7 +1359,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -1866,7 +1866,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/">Prim's Algorithm</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -1881,7 +1881,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -2100,7 +2100,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/introduction-to-avl-tree/">AVL Tree</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -2115,7 +2115,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
@@ -2738,7 +2738,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/introduction-to-red-black-tree/">Red-Black Tree</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -4074,7 +4074,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             <td><a href="https://www.geeksforgeeks.org/topological-sorting/">Topological Sort</a></td>
             <td> <!-- C -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/c.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- C++ -->
@@ -4089,7 +4089,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Python -->
                 <a href="./CONTRIBUTING.md">
-                    <img align="center" height="25" src="./logos/python.svg" />
+                    <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
             <td> <!-- Go -->
