@@ -420,7 +420,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./src/java/CONTRIBUTING.md">
+                <a href="./CONTRIBUTING.md">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
