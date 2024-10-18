@@ -102,3 +102,110 @@ int main(){
 
 	return 0;
 }
+
+
+
+//  In english
+
+/*
+*
+*	Circular Ordered Linked List with Head Node (Dynamic Implementation)
+*
+*/
+
+
+// typedef int KeyType; // Type of ID for each node in the list
+
+// // Data structure representing each node in the list
+// typedef struct Node {
+// 	KeyType key;
+// 	struct Node* next;
+// } Node, *Pointer;
+
+// typedef struct {
+// 	Pointer head; // Head node
+// } List;
+
+// void initialize(List *list) {
+// 	// Head node prevents the list from being empty and can also be used as a sentinel
+// 	list->head = (Pointer) malloc(sizeof(Node));
+// 	list->head->next = list->head; // Initially points to itself since it is circular
+// }
+
+// // This method does not alter the list, so a copy can be passed instead of a pointer
+// Pointer sequential_search(KeyType key, List list, Pointer* previous) {
+// 	*previous = list.head; // As it's a copy, dot (.) can be used instead of arrow (->), previous holds the pointer to the found node
+// 	Pointer current = list.head->next;
+// 	list.head->key = key; // Store the value in the head node to be used as a sentinel, it will be the last to be compared
+// 	while (current->key != key) {
+// 		*previous = current; // Store the pointer to the node
+// 		current = current->next; // Move to the next node
+// 	}
+// 	if (current != list.head) // If the node is not the head node, it means it was found
+// 		return current; // Return the node
+// 	else
+// 		return NULL; // If not found, return NULL
+// }
+
+// bool delete_node(KeyType key, List *list) {
+// 	Pointer current, previous;
+// 	current = sequential_search(key, *list, &previous); // Search for the value to delete, previous is passed as an address, so the search function alters it
+// 	if (current == NULL) return false; // Not found
+// 	previous->next = current->next; // Previous node points to the next node (the one the node to be deleted points to)
+// 	free(current); // Free the memory
+// 	return true;
+// }
+
+// void insert(KeyType key, List *list) {
+// 	Pointer previous = list->head; // previous holds the pointer to the previous node
+// 	Pointer current = list->head->next; // current holds the pointer to the current node
+
+// 	while (current->key < key && current != list->head) {
+// 		previous = current; // Store the pointer to the current node, which will be the previous
+// 		current = current->next; // Move to the next node
+// 	}
+// 	// When the correct position is found in ascending order
+// 	Pointer new_node = (Pointer) malloc(sizeof(Node)); // Create a new node
+// 	new_node->key = key; // Assign the key to the node
+// 	new_node->next = current; // Point to the next node
+// 	previous->next = new_node; // Previous node points to the new node
+// }
+
+// Pointer display_list(List list) {
+// 	Pointer current = list.head->next; // current receives the first element after the head node
+// 	while (current != list.head) { // If it's not the head node, the list is not empty
+// 		printf("[ %d ]->", current->key); // Display the value of the node
+// 		current = current->next; // Move to the next node
+// 	}
+// 	printf("\n");
+// }
+
+// int main() {
+// 	List list;
+// 	initialize(&list);
+
+// 	insert(4, &list);
+// 	insert(6, &list);
+// 	insert(2, &list);
+// 	insert(3, &list);
+// 	insert(1, &list);
+// 	insert(5, &list);
+
+// 	display_list(list);
+
+// 	delete_node(2, &list);
+// 	delete_node(4, &list);
+// 	delete_node(6, &list);
+
+// 	display_list(list);
+
+// 	// Example of searching the list
+// 	Pointer found_node;
+// 	int search_value = 2;
+// 	if (sequential_search(search_value, list, &found_node) != NULL)
+// 		printf("Value %d found.\n", search_value);
+// 	else
+// 		printf("Value %d not found.\n", search_value);
+
+// 	return 0;
+// }

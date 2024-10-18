@@ -201,3 +201,206 @@ int main(){
 
 	return 0;
 }
+
+
+// In english 
+
+/*
+*
+* Graphs - Implementation of an undirected graph structure in C
+* Search Methods: Depth-First Search (DFS) and Breadth-First Search (BFS)
+*
+*
+*   (A)---------------(B)-------------(E)---------------(F)
+*    |                 |               |                 |
+*    |                 |               |                 |
+*    |                 |               |                 | 
+*   (C)---------------(D)---------------                 |
+*                      |                                 |
+*                      -----------------------------------
+*
+*	6 Vertices
+*	8 Edges
+*/
+
+// #define MAX_VERTICES 6 // MAXIMUM NUMBER OF VERTICES IN THE GRAPH; IF THE GRAPH IS CHANGED, THIS VARIABLE MUST ALSO BE CHANGED
+// #define MAX_EDGES (MAX_VERTICES * (MAX_VERTICES - 1)) // CALCULATES THE MAXIMUM NUMBER OF EDGES THE GRAPH CAN HAVE
+
+// // Structure defining each vertex of the graph
+// typedef struct NODE {
+//     char id; // Vertex identifier
+//     int numNeighbors; // Number of neighbors
+//     struct NODE* neighbors[MAX_EDGES]; // Array of neighbors
+//     bool visited; // Flag to indicate if the vertex has been visited
+// } *VERTEX;
+
+// // Create vertex and return it
+// VERTEX createVertex(char id) {
+//     VERTEX newVertex = (VERTEX) malloc(sizeof(NODE)); // Allocate a new vertex
+//     newVertex->id = id; // Set the vertex identifier
+//     newVertex->numNeighbors = 0; // Initialize the number of neighbors
+//     newVertex->visited = false; // Set the visited flag to false
+//     for (int i = 0; i < MAX_EDGES; i++) {
+//         newVertex->neighbors[i] = NULL; // Initialize the neighbors array
+//     }
+//     return newVertex; // Return the new vertex
+// }
+
+// // Connect the specified vertices
+// bool connectVertices(VERTEX v1, VERTEX v2) {
+//     int aux = 0;
+//     while (v1->neighbors[aux] != NULL) { // Find the first 'empty' (NULL) position among neighbors
+//         aux++;
+//     }
+//     v1->neighbors[aux] = v2; // Add the new neighbor to the list
+//     aux = 0;
+//     while (v2->neighbors[aux] != NULL) { // Find the first 'empty' (NULL) position among neighbors
+//         aux++;
+//     }
+//     v2->neighbors[aux] = v1; // Add the new neighbor to the list
+//     v1->numNeighbors++; // Increment the number of neighbors
+//     v2->numNeighbors++; // Increment the number of neighbors
+// }
+
+// /*
+// * Depth-First Search - DFS
+// * Traverses all neighbors connected to the vertex first
+// *
+// */
+// int depthFirstSearch(VERTEX start, VERTEX target, int visited) {
+//     start->visited = true; // Mark the starting vertex as visited
+//     if (start == target) return visited; // If it's the target, return the count of visited vertices
+
+//     int aux = 0;
+//     while (start->neighbors[aux] != NULL) { // While there are neighbors to visit
+//         if (start->neighbors[aux]->visited == false) { // If the neighbor hasn't been visited yet
+//             // Recursively call with the new neighbor as the start, traversing all its neighbors
+//             int response = depthFirstSearch(start->neighbors[aux], target, visited + 1);
+//             // If the return value is greater than -1, it means it found the target, so return the response
+//             if (response != -1) return response;
+//         }
+//         aux++; // Increment the index in the neighbors list
+//     }
+
+//     return -1; // Target vertex not found
+// }
+
+// /*
+// * Breadth-First Search - BFS
+// * Implemented using a simple array as a queue
+// * It does not remove the vertex from the array; it simply skips to the next position
+// * Traverses all vertices level by level
+// */
+// int breadthFirstSearch(VERTEX start, VERTEX target) {
+//     int startQueue = 0; // Variable to control the start position of the queue, used in the WHILE loop
+//     int queueSize = 1; // Variable to control the size of the queue
+
+//     VERTEX QUEUE[MAX_VERTICES]; // Queue that will hold vertices to be compared
+//     for (int i = 0; i < MAX_VERTICES; i++) { // Since the list is not dynamic, it needs to be cleared first
+//         QUEUE[i] = NULL;
+//     }
+//     QUEUE[startQueue] = start; // The first position of the queue receives the starting vertex
+
+//     // While the queue is not empty
+//     while (startQueue < queueSize) {
+//         // If the vertex at the front of the queue is the target, return startQueue, the distance traveled
+//         if (QUEUE[startQueue] == target) return startQueue;
+
+//         /*
+//         * For all neighbors of the vertex at the front of the queue:
+//         * Mark all as visited so they are not added to the queue again,
+//         * then add them to the queue and increase the size of the queue
+//         */
+//         for (int i = 0; i < QUEUE[startQueue]->numNeighbors; i++) {
+//             if (QUEUE[startQueue]->neighbors[i]->visited == false) {
+//                 QUEUE[startQueue]->neighbors[i]->visited = true; // Mark as visited
+//                 QUEUE[queueSize] = QUEUE[startQueue]->neighbors[i]; // Add to the queue
+//                 queueSize++; // Increment the queue size
+//             }
+//         }
+//         startQueue++; // Increment the start of the queue, simulating removal of the first element (FIFO)
+//     }
+//     return -1; // Target vertex not found
+// }
+
+// int main() {
+//     // Graph consisting of independent vertices
+//     VERTEX A = createVertex('A');
+//     VERTEX B = createVertex('B');
+//     VERTEX C = createVertex('C');
+//     VERTEX D = createVertex('D');
+//     VERTEX E = createVertex('E');
+//     VERTEX F = createVertex('F');
+
+//     // Connect all vertices according to the graph presented in the introduction
+//     connectVertices(A, B);
+//     connectVertices(A, C);
+//     connectVertices(B, D);
+//     connectVertices(C, D);
+//     connectVertices(B, E);
+//     connectVertices(D, E);
+//     connectVertices(E, F);
+//     connectVertices(D, F);
+
+//     // Perform depth-first search
+//     int res = depthFirstSearch(A, F, 0);
+//     if (res != -1)
+//         printf("DFS - Found. Distance: %d.\n", res);
+//     else
+//         printf("DFS - Not found.\n");
+
+//     // Reset all 'visited' attributes of all vertices to 'false'
+//     A->visited = false;
+//     B->visited = false;
+//     C->visited = false;
+//     D->visited = false;
+//     E->visited = false;
+//     F->visited = false;
+
+//     // Perform breadth-first search
+//     res = breadthFirstSearch(A, F);
+//     if (res != -1)
+//         printf("BFS - Found. Distance: %d.\n", res);
+//     else
+//         printf("BFS - Not found.\n");
+
+//     // Graph consisting of vertices in an array
+//     VERTEX GRAPH[MAX_VERTICES];
+//     GRAPH[0] = createVertex('A');
+//     GRAPH[1] = createVertex('B');
+//     GRAPH[2] = createVertex('C');
+//     GRAPH[3] = createVertex('D');
+//     GRAPH[4] = createVertex('E');
+//     GRAPH[5] = createVertex('F');
+
+//     // Connect all vertices according to the graph presented in the introduction
+//     connectVertices(GRAPH[0], GRAPH[1]);
+//     connectVertices(GRAPH[0], GRAPH[2]);
+//     connectVertices(GRAPH[1], GRAPH[3]);
+//     connectVertices(GRAPH[2], GRAPH[3]);
+//     connectVertices(GRAPH[1], GRAPH[4]);
+//     connectVertices(GRAPH[3], GRAPH[4]);
+//     connectVertices(GRAPH[4], GRAPH[5]);
+//     connectVertices(GRAPH[3], GRAPH[5]);
+
+//     // Perform depth-first search
+//     res = depthFirstSearch(GRAPH[0], GRAPH[5], 0);
+//     if (res != -1)
+//         printf("DFS - Found. Distance: %d.\n", res);
+//     else
+//         printf("DFS - Not found.\n");
+
+//     // Reset all 'visited' attributes of all vertices to 'false'
+//     for (int i = 0; i < MAX_VERTICES; i++) {
+//         GRAPH[i]->visited = false;
+//     }
+
+//     // Perform breadth-first search
+//     res = breadthFirstSearch(GRAPH[0], GRAPH[5]);
+//     if (res != -1)
+//         printf("BFS - Found. Distance: %d.\n", res);
+//     else
+//         printf("BFS - Not found.\n");
+
+//     return 0;
+// }

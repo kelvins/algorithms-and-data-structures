@@ -29,6 +29,7 @@ int main()
     bubble_sort(array, array_size);
 
     printf("Lista ordenada:\n");
+    // printf("Sorted list:\n");
     for (int i = 0; i < array_size - 1; i++)
         printf("%d, ", array[i]);
 
@@ -36,3 +37,6 @@ int main()
 
     return 0;
 }
+
+
+

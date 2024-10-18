@@ -205,3 +205,215 @@ int main(){
 	printf("\nAltura: %d\n", altura(noArvore) );
 	return 0;
 }
+
+
+
+
+
+
+
+
+// IN english 
+/*
+*	Binary Search Tree in C
+*
+*		 ( 6 )
+*	     /   \
+*	 ( 2 )   ( 7 )
+* 	 /   \		\
+*	( 1 )   ( 4 )	( 8 )
+*		 /   \
+*	 ( 3 )	 ( 5 )
+*/
+// typedef int KEYTYPE;
+
+// typedef struct AUX{
+// 	KEYTYPE key;
+// 	struct AUX *left, *right;
+// }NODE, *PTR; // NODE is the structure, and PTR is a pointer to NODE
+
+// int max(int a, int b){
+// 	if( a > b )
+// 		return a;
+// 	return b;
+// }
+
+// int height(PTR node){
+// 	if( node == NULL ) // Same as using if(!node)
+// 		return 0;
+// 	return 1 + max( height(node->left), height(node->right) ); // Traverses the tree from left and right to check which one has a greater height
+// }
+
+// PTR binarySearch(KEYTYPE key, PTR root){
+// 	if( !root )
+// 		return NULL;
+// 	if( root->key == key )
+// 		return root;
+// 	if( root->key < key )
+// 		binarySearch(key, root->right);
+// 	else
+// 		binarySearch(key, root->left);
+// }
+
+// PTR linearBinarySearch(KEYTYPE key, PTR current){
+// 	while( current != NULL ){
+// 		if( current->key == key )
+// 			return current;
+// 		if( current->key < key )
+// 			current = current->right;
+// 		else
+// 			current = current->left;
+// 	}
+// 	return NULL;
+// }
+
+// PTR createNode(KEYTYPE key){
+// 	PTR node = (PTR) malloc( sizeof(NODE) );
+// 	node->left = NULL;
+// 	node->right = NULL;
+// 	node->key = key;
+// 	return node;
+// }
+
+// bool insert(KEYTYPE key, PTR current){
+// 	PTR previous;
+// 	// Traverses the tree to the right or left until it finds a NULL (empty) position
+// 	while(current != NULL){
+// 		previous = current;
+// 		if( current->key < key )
+// 			current = current->right;
+// 		else
+// 			current = current->left;
+// 	}
+// 	current = createNode(key); // Uses the current variable, as it was "leftover"
+// 	if( previous->key < key )
+// 		previous->right = current;
+// 	else
+// 		previous->left = current;
+// 	return true;
+// }
+
+// PTR searchParent(KEYTYPE key, PTR current){
+// 	PTR parent = current;
+// 	while( current != NULL ){
+// 		if( current->key == key )
+// 			return parent;
+// 		parent = current;
+// 		if( current->key < key )
+// 			current = current->right;
+// 		else
+// 			current = current->left;
+// 	}
+// 	return parent;
+// }
+
+// PTR largestOnLeft(PTR current){
+// 	current = current->left;
+// 	while( current->right != NULL )
+// 		current = current->right;
+// 	return current;
+// }
+
+// bool deleteNode(KEYTYPE key, PTR root){
+// 	PTR current, parent, substitute, parentSubstitute;
+// 	substitute = NULL;
+// 	current = binarySearch(key, root);
+// 	if( current == NULL ) return false; // Did not find the key
+// 	parent = searchParent(key, root);
+// 	if( current->left == NULL || current->right == NULL ){ // If it has 0 or 1 child
+// 		if( current->left == NULL )
+// 			substitute = current->right;
+// 		else
+// 			substitute = current->left;
+// 		if( parent == NULL ){ // The only one without a parent is the root
+// 			root = substitute;
+// 		}else{
+// 			if( key < parent->key)
+// 				parent->left = substitute;
+// 			else
+// 				parent->right = substitute;
+// 		}
+// 		free(current);
+// 	}else{
+// 		substitute = largestOnLeft(current);
+// 		current->key = substitute->key;
+// 		if( substitute->left != NULL )
+// 			current->left = substitute->left;
+// 		else
+// 			current->left = NULL;
+// 		free(substitute);
+// 	}
+// 	return true;
+// }
+
+// void preOrder(PTR node){ // Root - Left - Right
+// 	if( !node ) return;
+// 	printf("%d, ", node->key);
+// 	preOrder(node->left);
+// 	preOrder(node->right);
+// }
+
+// void postOrder(PTR node){ // Left - Right - Root
+// 	if( !node ) return;
+// 	postOrder(node->left);
+// 	postOrder(node->right);
+// 	printf("%d, ", node->key);
+// }
+
+// void inOrder(PTR node){ // Left - Root - Right
+// 	if( !node ) return;
+// 	inOrder(node->left);
+// 	printf("%d, ", node->key);
+// 	inOrder(node->right);
+// }
+
+// // This function is not working
+// bool recursiveInsert(KEYTYPE key, PTR node){
+// 	PTR previous;
+// 	if( !node ){
+// 		node = createNode(key);
+// 	}else{
+// 		previous = node;
+// 		if( key < node->key )
+// 			recursiveInsert(key, node->left);
+// 		else
+// 			recursiveInsert(key, node->right);
+// 	}
+// 	if( previous->key < key )
+// 		previous->right = node;
+// 	else
+// 		previous->left = node;
+// 	return true;
+// }
+
+// int main(){
+// 	PTR treeRoot = createNode(6);
+
+// 	insert(2, treeRoot);
+// 	insert(1, treeRoot);
+// 	insert(4, treeRoot);
+// 	insert(7, treeRoot);
+// 	insert(8, treeRoot);
+// 	insert(3, treeRoot);
+// 	insert(5, treeRoot);
+
+// 	int searchedValue = 7;
+// 	if( binarySearch(searchedValue, treeRoot) )
+// 		printf("Search: %d\n", binarySearch(searchedValue, treeRoot)->key );
+// 	else
+// 		printf("Not found\n");
+
+// 	deleteNode(4, treeRoot);
+
+// 	printf("Pre-order: ");
+// 	preOrder(treeRoot);
+// 	printf("\n");
+// 	printf("In-order: ");
+// 	inOrder(treeRoot);
+// 	printf("\n");
+// 	printf("Post-order: ");
+// 	postOrder(treeRoot);
+
+// 	printf("\nHeight: %d\n", height(treeRoot) );
+// 	return 0;
+// }
