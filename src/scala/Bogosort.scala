@@ -20,4 +20,3 @@ object Main extends App {
   println(s"Unsorted data: $data")
   println(s"Sorted data: ${bogosort(data)}")
 }
-
