@@ -102,3 +102,110 @@ int main(){
 	
 	return 0;
 }
+
+
+// In english 
+
+/*
+* Example implementation of a Sorted Sequential List in C - Using Sentinel
+*/
+
+
+// #define MAX 10
+// #define ERROR -1
+
+// typedef int KEYTYPE; // Define a name KEYTYPE for an integer type
+
+// typedef struct {
+//     KEYTYPE key;
+// } RECORD;
+
+// typedef struct {
+//     RECORD A[MAX + 1]; // The +1 is the position that will be used for the 'sentinel'
+//     int numElements;
+// } LIST;
+
+// void initialize(LIST* L) {
+//     L->numElements = 0; // Access the list by its memory address
+//     int i = 0;
+//     for (i; i < MAX - 2; ++i) { // Fill the list up to -2 to leave space for future insertions
+//         L->A[i].key = i * 2;
+//     }
+//     L->numElements = MAX - 2;
+//     // (*L).numElements = 0; // In this case, it would access the list itself, not the pointer
+// }
+
+// /* The purpose of the sentinel function is to add the key at the end of the list, 
+//  * so it will always find the key, even if it's in the last position of the list.
+//  * If it's the last element, it means it wasn't found.
+//  * Thus, this eliminates the 'if' inside the loop, saving several comparisons
+//  */
+// int sentinelSearch(KEYTYPE ch, LIST* L) { // Could use binary search here, which would be more appropriate.
+//     int i = 0;
+//     L->A[L->numElements].key = ch; // Assigns the 'key'/searched value to the last position of array A
+//     while (L->A[i].key != ch) // Traverses the entire array A to check if the 'key'/searched value is in the array (otherwise it will be the sentinel)
+//         i++;
+//     if (i == L->numElements) // If the value reached the end, it means it wasn't found, return ERROR (-1)
+//         return ERROR;
+//     return i; // Otherwise, return the position of the value/'key' in the array
+// }
+
+// bool insertOrdered(RECORD reg, LIST* L) {
+//     int i = 0;
+//     if (L->numElements >= MAX)
+//         return false;
+//     L->A[L->numElements].key = reg.key;
+//     while (L->A[i].key < reg.key)
+//         i++;
+//     int p = L->numElements - 1;
+//     while (p >= i) {
+//         L->A[p + 1] = L->A[p];
+//         p--;
+//     }
+//     L->A[i] = reg;
+//     L->numElements++;
+//     return true;
+// }
+
+// bool deleteValue(RECORD reg, LIST* L) {
+//     int position = sentinelSearch(reg.key, L);
+//     if (position >= 0) {
+//         for (position; position < L->numElements; position++) {
+//             L->A[position] = L->A[position + 1];
+//         }
+//         L->numElements--;
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+// void showList(LIST* L) {
+//     int i = 0;
+//     for (i; i < L->numElements; ++i) { // Traverses and shows all values in the array
+//         printf("%d, ", L->A[i].key);
+//     }
+//     printf("\n\n");
+// }
+
+// int main() {
+    
+//     LIST LISTA;
+//     initialize(&LISTA);
+
+//     printf("Value 10 found at position: %d\n\n", sentinelSearch(10, &LISTA));
+//     showList(&LISTA);
+
+//     RECORD reg;
+//     reg.key = 7;
+//     printf("Inserting value: %d\n", reg.key);
+//     insertOrdered(reg, &LISTA);
+//     showList(&LISTA);
+
+//     reg.key = 12;
+//     printf("Deleting value: %d\n", reg.key);
+//     deleteValue(reg, &LISTA);
+//     showList(&LISTA);
+    
+//     return 0;
+// }

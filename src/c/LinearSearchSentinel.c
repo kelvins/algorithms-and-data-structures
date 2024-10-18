@@ -41,3 +41,49 @@ int main(){
 
 	return 0;
 }
+
+
+// In english
+
+/*
+* Sentinel Search Example in C
+* Objective: Find a value in an array without needing to test all values within the loop
+*/
+
+
+// #define ARRAY_SIZE 10
+
+// // Sentinel search function that performs a sequential search without testing the key at each iteration
+// int sentinelSearch(int array[], int key) {
+//     array[ARRAY_SIZE] = key; // Place the searched value (key) at the last position of the array
+//     int index = 0; // Control variable for the loop
+//     // While the current element is not the key, increment index
+//     while (array[index] != key) 
+//         index++;
+    
+//     // If index equals the size of the array, it means the search went to the end without finding the key
+//     if (index == ARRAY_SIZE) 
+//         return -1; // Not found
+//     else // If index is different, it means the value was found
+//         return index; // Found
+// }
+
+// int main() {
+//     int array[ARRAY_SIZE + 1]; // Declare the array with +1 because this position will be used by the sentinel
+
+//     // Fill the array with random values between 0 and 1000
+//     srand(time(NULL));
+//     for (int i = 0; i < ARRAY_SIZE; i++) {
+//         array[i] = rand() % 1000;
+//         printf("%d, ", array[i]);
+//     }
+
+//     // Perform the search, passing the array and the key to search for
+//     int res = sentinelSearch(array, array[ARRAY_SIZE - 2]);
+//     if (res != -1)
+//         printf("\n\nValue %d found at position %d.\n\n", array[res], res);
+//     else
+//         printf("\n\nValue not found in the array\n\n");
+
+//     return 0;
+// }

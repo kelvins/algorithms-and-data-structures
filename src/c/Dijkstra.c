@@ -96,3 +96,103 @@ int main(){
 
     return 0;
 }
+
+//  In English 
+/*
+* Graphs - Dijkstra Algorithm in C
+* Complexity: Theta(n^2)
+*
+* 1 for all - Edges with non-negative weights - Greedy algorithm
+* Finds the shortest path from one vertex (start) to another (destination)
+*
+* Graph with 5 vertices and 6 edges
+*
+*              6
+*   (0)-----------------(1)
+*    |                   |
+* 10 |                   | 2
+*    |         1         |
+*   (2)-----------------(3)
+*    \                  /
+*   3 \                / 8
+*      \              /
+*       -----(4)-----
+*
+*  Distance Matrix
+*    0   1   2   3   4
+* 0  0   6  10   -   -
+* 1  6   0   -   2   -
+* 2 10   -   0   1   3
+* 3  -   2   1   0   8
+* 4  -   -   3   8   0
+*
+*  For infinite values, the value will be considered: 4294967295
+* The objective is to leave the starting point (0) and reach the destination (4) by the shortest route
+* Response: (0)->(1)->(3)->(2)->(4) = 12
+*
+*/
+
+// #define NUM_VERTICES 5 // Number of vertices in the graph
+
+// // Dijkstra's algorithm takes as parameters the distance matrix and the number of vertices
+// void Dijkstra(unsigned long int distanceMatrix[NUM_VERTICES][NUM_VERTICES], int numVertices) {
+//     bool visited[numVertices]; // Array to track visited vertices
+//     // Initialize visited vertices to false
+//     for (int i = 0; i < numVertices; i++) {
+//         visited[i] = false;
+//     }
+
+//     // Start from the first vertex (0)
+//     for (int i = 1; i < numVertices; i++) { // Loop through each vertex
+//         int minIndex = -1; // Initialize the index of the minimum value
+//         unsigned long int minValue = 4294967295; // Start with "infinity"
+
+//         // Find the unvisited vertex with the smallest distance
+//         for (int j = 1; j < numVertices; j++) {
+//             if (!visited[j] && distanceMatrix[j][0] < minValue) {
+//                 minIndex = j; // Update the index of the minimum value
+//                 minValue = distanceMatrix[j][0]; // Update the minimum value
+//             }
+//         }
+
+//         visited[minIndex] = true; // Mark the vertex with the smallest distance as visited
+
+//         // Update the distances for the neighboring vertices
+//         for (int j = 1; j < numVertices; j++) {
+//             // If a shorter path to j is found through minIndex
+//             if ((distanceMatrix[minIndex][0] + distanceMatrix[minIndex][j]) < distanceMatrix[j][0]) {
+//                 distanceMatrix[j][0] = distanceMatrix[minIndex][0] + distanceMatrix[minIndex][j]; // Update distance
+//             }
+//         }
+//     }
+// }
+
+// int main() {
+//     // Distance matrix representation of the graph
+//     unsigned long int distanceMatrix[NUM_VERTICES][NUM_VERTICES] = {
+//         {0, 6, 10, 4294967295, 4294967295},
+//         {6, 0, 4294967295, 2, 4294967295},
+//         {10, 4294967295, 0, 1, 3},
+//         {4294967295, 2, 1, 0, 8},
+//         {4294967295, 4294967295, 3, 8, 0}
+//     };
+
+//     Dijkstra(distanceMatrix, NUM_VERTICES); // Call Dijkstra's algorithm
+
+//     printf("Total shortest path from vertex 0 to 4: %lu\n", distanceMatrix[4][0]); // Shortest total path
+
+//     // Print the updated distance matrix
+//     printf("Updated Distance Matrix:\n");
+//     for (int i = 0; i < NUM_VERTICES; ++i) {
+//         for (int j = 0; j < NUM_VERTICES; ++j) {
+//             if (distanceMatrix[i][j] < 10)
+//                 printf(" %lu ", distanceMatrix[i][j]); // Print formatted distance
+//             else
+//                 printf("%lu ", distanceMatrix[i][j]); // Print formatted distance
+//         }
+//         printf("\n");
+//     }
+//     printf("\n");
+
+//     return 0;
+// }

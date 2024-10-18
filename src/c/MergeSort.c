@@ -71,3 +71,74 @@ int main(){
 	
 	return 0;
 }
+
+//  In english 
+
+/*
+* Example of Sorting using Merge Sort
+*
+* Divide and Conquer:
+*
+* Divide: Split the data into small subsequences;
+* Conquer: Sort the two halves recursively using merge sort;
+* Combine: Merge the two halves into a single sorted set.
+*
+*/
+
+
+// #define ARRAY_SIZE 100
+
+// void merge(int array[], int size) {
+//     int mid = size / 2;
+//     int i = 0, j = mid, k = 0;
+//     int temp[size];
+
+//     while (i < mid && j < size) {
+//         if (array[i] <= array[j])
+//             temp[k] = array[i++];
+//         else
+//             temp[k] = array[j++];
+//         k++;
+//     }
+
+//     if (i == mid)
+//         while (j < size)
+//             temp[k++] = array[j++];
+//     else
+//         while (i < mid)
+//             temp[k++] = array[i++];
+
+//     for (i = 0; i < size; i++)
+//         array[i] = temp[i];
+// }
+
+// void mergeSort(int array[], int size) {
+//     int mid = size / 2;
+
+//     if (size > 1) {
+//         mergeSort(array, mid);
+//         mergeSort(array + mid, size - mid);
+//         merge(array, size);
+//     }
+// }
+
+// int main() {
+//     int array[ARRAY_SIZE];
+
+//     // Fill the array with random values 0-1000
+//     srand(time(NULL));
+//     for (int i = 0; i < ARRAY_SIZE; i++) {
+//         array[i] = rand() % 1000;
+//         printf("%d, ", array[i]);
+//     }
+
+//     printf("\n\n");
+
+//     mergeSort(array, ARRAY_SIZE);
+
+//     for (int i = 0; i < ARRAY_SIZE; i++) {
+//         printf("%d, ", array[i]);
+//     }
+
+//     return 0;
+// }

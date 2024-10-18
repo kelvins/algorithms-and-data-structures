@@ -59,3 +59,84 @@ int main() {
 
     return 0;
 }
+
+
+//  In english
+
+/*
+*
+*	CountingSort - Counting Sort Algorithm
+*	Matheus Martins Batista - Universidade Federal de Itajuba - 2021
+*
+*/
+
+// Function to find the maximum element in the array
+// int findMaxValue(int *array, int size) {
+//     int maxValue = array[0];
+
+//     // Iterate through the array to find the maximum value
+//     for (int i = 1; i < size; i++) {
+//         if (array[i] > maxValue) {
+//             maxValue = array[i]; // Update maxValue if current element is greater
+//         }
+//     }
+
+//     return maxValue; // Return the maximum value found
+// }
+
+// // Function to perform counting sort on arrayA and store the result in arrayB
+// void countingSort(int *arrayA, int *arrayB, int size) {
+//     // Find the maximum value in arrayA to determine the size of the count array
+//     int maxValue = findMaxValue(arrayA, size);
+    
+//     // Allocate memory for the count array and initialize it to 0
+//     int* countArray = calloc(maxValue + 1, sizeof(int));
+
+//     // Count the frequency of each element in arrayA
+//     for (int i = 0; i < size; i++) {
+//         countArray[arrayA[i]]++;
+//     }
+
+//     // Compute the cumulative frequency
+//     for (int i = 1; i <= maxValue; i++) {
+//         countArray[i] += countArray[i - 1];
+//     }
+
+//     // Build the output array arrayB in sorted order
+//     for (int i = size - 1; i >= 0; i--) {
+//         arrayB[countArray[arrayA[i]] - 1] = arrayA[i];
+//         countArray[arrayA[i]]--; // Decrement the count for the current element
+//     }
+
+//     // Free the allocated memory for the count array
+//     free(countArray);
+// }
+
+// int main() {
+//     int *arrayA, *arrayB; // Pointers for the input and output arrays
+//     int size = 10; // Size of the array
+//     arrayA = malloc(size * sizeof(int)); // Allocate memory for the input array
+//     arrayB = calloc(size, sizeof(int)); // Allocate memory for the output array
+
+//     // Populate arrayA with random values
+//     srand(48 + size);
+//     for (int j = 0; j < size; j++) {
+//         arrayA[j] = rand() % 100; // Random values between 0 and 99
+//     }
+
+//     // Perform counting sort
+//     countingSort(arrayA, arrayB, size);
+
+//     // Print the sorted output
+//     printf("Sorted array: ");
+//     for (int i = 0; i < size; i++) {
+//         printf("%d ", arrayB[i]);
+//     }
+//     printf("\n");
+
+//     // Free the allocated memory for the input and output arrays
+//     free(arrayA);
+//     free(arrayB);
+
+//     return 0;
+// }
