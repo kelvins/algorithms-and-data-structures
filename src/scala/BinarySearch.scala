@@ -1,6 +1,7 @@
 import scala.annotation.tailrec
 
 def binarySearch(data: Seq[Int], target: Int): Option[Int] = {
+
   @tailrec
   def search(left: Int, right: Int): Option[Int] = {
     if (left > right) None
