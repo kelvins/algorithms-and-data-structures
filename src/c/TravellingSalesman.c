@@ -26,6 +26,7 @@
 */
 
 #include <stdio.h>
+#include <stdbool.h>
 
 #define VERTICES 5
 #define INFINITY 429496729
