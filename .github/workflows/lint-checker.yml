@@ -11,7 +11,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Check Code
-        uses: github/super-linter@v5
+        uses: super-linter/super-linter@v7.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_GO: true
