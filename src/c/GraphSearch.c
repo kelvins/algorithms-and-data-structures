@@ -109,7 +109,7 @@ int buscaEmLargura(VERTICE inicio, VERTICE destino) {
   int tamFila = 1; // Variável que controla o tamanho da fila
 
   VERTICE
-      FILA[MAX_VERTICES]; // Fila que irá guardar os vértices a serem comparados
+  FILA[MAX_VERTICES]; // Fila que irá guardar os vértices a serem comparados
   for (int i = 0; i < MAX_VERTICES;
        i++) { // Como a lista não é dinâmica, ela precisa ser 'limpa' primeiro
     FILA[i] = NULL;
