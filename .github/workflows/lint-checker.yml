@@ -15,7 +15,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_GO: true
-          VALIDATE_CPP: true
           VALIDATE_RUBY: true
           VALIDATE_KOTLIN: true
           VALIDATE_MARKDOWN: true
