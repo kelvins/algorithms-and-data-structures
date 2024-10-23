@@ -9,6 +9,6 @@ Before opening a Pull Request, please read the following items:
 
 <!-- Remove the above section before opening the pull request -->
 
-# Description
+## Description
 
 <!-- Add a brief description of the changes related to this Pull Request -->
