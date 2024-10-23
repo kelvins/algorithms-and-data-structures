@@ -1,7 +1,5 @@
 # :abacus: Algorithms and Data Structures
 
-[![Super-Linter](https://github.com/kelvins/algorithms-and-data-structures/actions/workflows/lint-checker.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
-
 This repository provides several classic algorithms and data structures in **Computer Science**, as well as some extra problems that are frequently encountered in programming challenges.
 
 In order to achieve greater coverage and encourage more people to contribute to the project, the algorithms are available in the following languages: **C**, **C++**, **Java**, **Python**, **Go**, **Ruby**, **Javascript**, **Swift**, **Rust**, **Scala** and **Kotlin**.
