@@ -41,7 +41,7 @@ class DynamicStack:
 def main() -> None:
     dynamic_stack = DynamicStack()
 
-    print(f"Push(1,2,4):")
+    print("Push(1,2,4):")
     dynamic_stack.push(1)
     dynamic_stack.push(2)
     dynamic_stack.push(4)

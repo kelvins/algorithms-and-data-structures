@@ -5,7 +5,6 @@ The lib "time" was used to mark the time of
 execution of algorithms in seconds
 """
 
-import functools
 import time
 
 
