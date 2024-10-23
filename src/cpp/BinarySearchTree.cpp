@@ -4,9 +4,9 @@
  * Structure for a binary tree node
  */
 struct Node {
-  int data;     ///< The integer data value stored in the node.
-  Node *left;   ///< Pointer to the left child node.
-  Node *right;  ///< Pointer to the right child node.
+  int data;    ///< The integer data value stored in the node.
+  Node *left;  ///< Pointer to the left child node.
+  Node *right; ///< Pointer to the right child node.
 
   /**
    * Constructor to create a new node with the given data.
@@ -17,7 +17,7 @@ struct Node {
 };
 
 class BinarySearchTree {
- public:
+public:
   BinarySearchTree() : root(nullptr) {}
 
   Node *find(int x) const { return _find(this->root, x); }
@@ -32,7 +32,7 @@ class BinarySearchTree {
 
   void postorderTraversal() const { _printPostorder(this->root); }
 
- private:
+private:
   Node *root;
 
   /**

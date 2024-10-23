@@ -2,22 +2,20 @@
 
 long long int exp(int n, int pow) {
 
-    if(pow == 0) 
-        return 1;
+  if (pow == 0)
+    return 1;
 
-    return n * exp(n, pow-1);
+  return n * exp(n, pow - 1);
 }
-
 
 int main() {
 
-    long long int n, pow;
+  long long int n, pow;
 
-    std::cin >> n >> pow;
+  std::cin >> n >> pow;
 
-    n = exp(n, pow);
-    std::cout << n << std::endl;
-    
+  n = exp(n, pow);
+  std::cout << n << std::endl;
 
-    return 0;
+  return 0;
 }

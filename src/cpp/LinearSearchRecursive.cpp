@@ -6,7 +6,7 @@ int linearSearchRecursive(int arr[], int n, int index, int target) {
   if (index >= n) {
     return -1;
   }
-  
+
   if (arr[index] == target) {
     return index;
   }

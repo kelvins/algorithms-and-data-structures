@@ -2,172 +2,173 @@
 
 using namespace std;
 
-struct Node{
+struct Node {
 
-    int val;
-    Node* next;
+  int val;
+  Node *next;
 
-    Node(int val) : val(val), next(nullptr) {}
-    Node(int val, Node *next) : val(val), next(next) {}    
+  Node(int val) : val(val), next(nullptr) {}
+  Node(int val, Node *next) : val(val), next(next) {}
 };
 
 void print_list(Node *head) {
 
-    auto aux = head;
+  auto aux = head;
 
-    cout << '[';
-    while(aux) {
+  cout << '[';
+  while (aux) {
 
-        cout << aux->val;
+    cout << aux->val;
 
-        if(aux->next) {
-            cout << ", ";
-        }
-
-        aux = aux->next;
+    if (aux->next) {
+      cout << ", ";
     }
-    cout << ']' << endl;
+
+    aux = aux->next;
+  }
+  cout << ']' << endl;
 }
 
 void push_back(Node **head, int val) {
 
+  Node *newNode = new Node(val);
 
-    Node *newNode = new Node(val);
+  if (*head == nullptr) {
+    *head = newNode;
+  }
 
-    if(*head == nullptr) {
-        *head = newNode;
+  else {
+
+    auto aux = *head;
+
+    while (aux->next) {
+      aux = aux->next;
     }
 
-    else {
-
-        auto aux = *head;
-
-        while(aux->next) {
-            aux = aux->next;
-        }
-
-        aux->next = newNode;
-    }
+    aux->next = newNode;
+  }
 }
 
 void push_front(Node **head, int val) {
 
-    Node *newNode = new Node(val, *head);
+  Node *newNode = new Node(val, *head);
 
-    *head = newNode;
+  *head = newNode;
 }
 
 void insert_in_position(Node **head, int val, int pos) {
 
-    if(pos == 0) {
-        push_front(head, val);
-        return;
-    }
+  if (pos == 0) {
+    push_front(head, val);
+    return;
+  }
 
-    Node* newNode = new Node(val);
+  Node *newNode = new Node(val);
 
-    auto prev = *head;
-    auto curr = *head;
+  auto prev = *head;
+  auto curr = *head;
 
-    while(curr->next && pos) {
-        prev = curr;
-        curr = curr->next;
-        pos--;
-    }
+  while (curr->next && pos) {
+    prev = curr;
+    curr = curr->next;
+    pos--;
+  }
 
-    prev->next = newNode;
-    newNode->next = curr;    
+  prev->next = newNode;
+  newNode->next = curr;
 }
 
 void pop_back(Node **head) {
 
-    if(*head == nullptr) {
-        return;
-    }
+  if (*head == nullptr) {
+    return;
+  }
 
-    auto prev = *head;
-    auto curr = prev->next;
+  auto prev = *head;
+  auto curr = prev->next;
 
-    while(curr->next) {
-        prev = prev->next;
-        curr = curr->next;
-    }
+  while (curr->next) {
+    prev = prev->next;
+    curr = curr->next;
+  }
 
-    prev->next = nullptr;
+  prev->next = nullptr;
 
-    delete(curr);
+  delete (curr);
 }
 
 void pop_front(Node **head) {
 
-    if(*head == nullptr) {
-        return;
-    }
+  if (*head == nullptr) {
+    return;
+  }
 
-    auto aux = *head;
+  auto aux = *head;
 
-    *head = aux->next;
+  *head = aux->next;
 
-    delete(aux);
+  delete (aux);
 }
 
 void remove_from_position(Node **head, int pos) {
 
-    if(*head == nullptr) {
-        return;
-    }
+  if (*head == nullptr) {
+    return;
+  }
 
-    if(pos == 0) {
-        pop_front(head);
-        return;
-    }
+  if (pos == 0) {
+    pop_front(head);
+    return;
+  }
 
-    auto prev = *head;
-    auto curr = *head;
+  auto prev = *head;
+  auto curr = *head;
 
-    while(curr->next && pos) {
-        prev = curr;
-        curr = curr->next;
-        pos--;
-    }
+  while (curr->next && pos) {
+    prev = curr;
+    curr = curr->next;
+    pos--;
+  }
 
-    if(pos == 0) {
-        prev->next = curr->next;
-        delete(curr);
-    }
+  if (pos == 0) {
+    prev->next = curr->next;
+    delete (curr);
+  }
 }
 
 int main() {
 
-    Node *head = nullptr;
+  Node *head = nullptr;
 
-    cout << "Inserting the elements at the end [1, 2, 3]:" << endl;
-    push_back(&head, 1);
-    push_back(&head, 2);
-    push_back(&head, 3);
-    print_list(head);
+  cout << "Inserting the elements at the end [1, 2, 3]:" << endl;
+  push_back(&head, 1);
+  push_back(&head, 2);
+  push_back(&head, 3);
+  print_list(head);
 
-    cout << "Inserting the elements at the beginning [0, -1, -2]:" << endl;
-    push_front(&head, 0);
-    push_front(&head, -1);
-    push_front(&head, -2);
-    print_list(head);
+  cout << "Inserting the elements at the beginning [0, -1, -2]:" << endl;
+  push_front(&head, 0);
+  push_front(&head, -1);
+  push_front(&head, -2);
+  print_list(head);
 
-    cout << "Inserting in positions 3, 4, 5 the elements [997, 998, 999] respectively:" << endl;
-    insert_in_position(&head, 997, 3);
-    insert_in_position(&head, 998, 4);
-    insert_in_position(&head, 999, 5);
-    print_list(head);
+  cout << "Inserting in positions 3, 4, 5 the elements [997, 998, 999] "
+          "respectively:"
+       << endl;
+  insert_in_position(&head, 997, 3);
+  insert_in_position(&head, 998, 4);
+  insert_in_position(&head, 999, 5);
+  print_list(head);
 
-    cout << "Removing last element:" << endl;
-    pop_back(&head);
-    print_list(head);
-    
-    cout << "Removing first element:" << endl;
-    pop_front(&head);
-    print_list(head);
+  cout << "Removing last element:" << endl;
+  pop_back(&head);
+  print_list(head);
 
-    cout << "Removing element in position 2:" << endl;
-    remove_from_position(&head, 2);
-    print_list(head);
+  cout << "Removing first element:" << endl;
+  pop_front(&head);
+  print_list(head);
+
+  cout << "Removing element in position 2:" << endl;
+  remove_from_position(&head, 2);
+  print_list(head);
 }

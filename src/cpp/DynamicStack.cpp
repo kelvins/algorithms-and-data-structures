@@ -23,9 +23,7 @@ public:
     head = newNode;
   }
 
-  bool isEmpty() {
-    return head == nullptr;
-  }
+  bool isEmpty() { return head == nullptr; }
 
   int pop() {
     int value = emptyStack;

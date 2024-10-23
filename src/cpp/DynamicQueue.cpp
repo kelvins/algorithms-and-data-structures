@@ -9,11 +9,11 @@ struct Node {
 };
 
 class DynamicQueue {
- private:
+private:
   Node *_begin;
   Node *_end;
 
- public:
+public:
   DynamicQueue() : _begin(nullptr), _end(nullptr) {}
 
   ~DynamicQueue() {
@@ -83,11 +83,11 @@ int main(void) {
   queue.enqueue(5);
   queue.enqueue(1231);
   queue.enqueue(515);
-  queue.print();  // 42 5 1231 515
+  queue.print(); // 42 5 1231 515
 
   // Use 'delete' keyword to make the code leak-free
   queue.dequeue();
   queue.dequeue();
-  queue.print();  // 1231 515
+  queue.print(); // 1231 515
   return 0;
 }
