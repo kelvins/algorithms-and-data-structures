@@ -20,5 +20,7 @@ def binarySearch(data: Seq[Int], target: Int): Option[Int] = {
 object Main extends App {
   val data: Seq[Int] = Seq(0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12)
   val value: Int     = 11
-  println(s"Value '$value' found in position '${binarySearch(data, value).get}'")
+  println(
+    s"Value '$value' found in position '${binarySearch(data, value).get}'"
+  )
 }
