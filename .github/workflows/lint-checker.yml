@@ -14,13 +14,16 @@ jobs:
         uses: github/super-linter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_SCALAFMT: true
           VALIDATE_GO: true
+          VALIDATE_RUBY: true
+          VALIDATE_KOTLIN: true
+          VALIDATE_MARKDOWN: true
+          VALIDATE_SCALAFMT: true
           VALIDATE_RUST_2021: true
           VALIDATE_RUST_CLIPPY: true
-          VALIDATE_KOTLIN: true
-          VALIDATE_RUBY: true
-          VALIDATE_JAVASCRIPT_ES: true
-          VALIDATE_GOOGLE_JAVA_FORMAT: true
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
+          VALIDATE_CLANG_FORMAT: true
+          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_MARKDOWN_PRETTIER: true
+          VALIDATE_GOOGLE_JAVA_FORMAT: true
