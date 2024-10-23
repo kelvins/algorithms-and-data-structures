@@ -15,6 +15,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_GO: true
+          VALIDATE_CPP: true
           VALIDATE_RUBY: true
           VALIDATE_KOTLIN: true
           VALIDATE_MARKDOWN: true
@@ -23,7 +24,6 @@ jobs:
           VALIDATE_RUST_CLIPPY: true
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
-          VALIDATE_CLANG_FORMAT: true
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_MARKDOWN_PRETTIER: true
           VALIDATE_GOOGLE_JAVA_FORMAT: true
