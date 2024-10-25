@@ -6,9 +6,9 @@ jobs:
   link-checker:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@main
-    - name: Check Links
-      uses: lycheeverse/lychee-action@v1.7.0
-      with:
-        fail: true
+      - name: Checkout Code
+        uses: actions/checkout@main
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1.7.0
+        with:
+          fail: true

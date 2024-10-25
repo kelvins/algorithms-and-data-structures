@@ -14,9 +14,11 @@ jobs:
         uses: super-linter/super-linter@v7.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MARKDOWN_CONFIG_FILE: ".markdownlint.json"
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
           VALIDATE_GO: true
           VALIDATE_RUBY: true
+          VALIDATE_JSON: true
+          VALIDATE_YAML: true
           VALIDATE_KOTLIN: true
           VALIDATE_MARKDOWN: true
           VALIDATE_SCALAFMT: true
@@ -26,5 +28,7 @@ jobs:
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
           VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_JSON_PRETTIER: true
+          VALIDATE_YAML_PRETTIER: true
           VALIDATE_MARKDOWN_PRETTIER: true
           VALIDATE_GOOGLE_JAVA_FORMAT: true
