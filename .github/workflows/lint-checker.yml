@@ -26,6 +26,7 @@ jobs:
           VALIDATE_PYTHON_RUFF: true
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
+          VALIDATE_CLANG_FORMAT: true
           VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_JSON_PRETTIER: true
           VALIDATE_YAML_PRETTIER: true
