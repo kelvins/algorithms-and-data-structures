@@ -8,13 +8,12 @@
  *
  * @return will return a logical condition if *number* is less than or equal to 1, returns 1 otherwise, the sum of itself using the concept of *recursion* to execute this sum.
  */
-fun fibonacci(number: Int): Int {
-    return if (number <= 1) {
+fun fibonacci(number: Int): Int =
+    if (number <= 1) {
         1
-    }; else {
+    } else {
         fibonacci(number - 1) + fibonacci(number - 2)
     }
-}
 
 fun main() {
     println(fibonacci(5))

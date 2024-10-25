@@ -10,7 +10,10 @@ fun mergeSort(arr: IntArray): IntArray {
     return merge(mergeSort(left), mergeSort(right))
 }
 
-fun merge(left: IntArray, right: IntArray): IntArray {
+fun merge(
+    left: IntArray,
+    right: IntArray,
+): IntArray {
     var result = IntArray(left.size + right.size)
     var leftIndex = 0
     var rightIndex = 0

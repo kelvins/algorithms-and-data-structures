@@ -9,13 +9,15 @@
  *
  * @return will return the *base* number raised by the *exponent*. The function returns a value of type *Long*.
  */
-fun exponentiationRecursive(base: Int, exponent: Int): Long {
-    return if (exponent === 0) {
+fun exponentiationRecursive(
+    base: Int,
+    exponent: Int,
+): Long =
+    if (exponent === 0) {
         1
-    }; else {
+    } else {
         base * exponentiationRecursive(base, exponent - 1)
     }
-}
 
 fun main() {
     println(exponentiationRecursive(2, 3))
