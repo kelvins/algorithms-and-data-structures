@@ -1,4 +1,3 @@
-""" Implementaçao do algoritmo de busca sequencial com recursão """
 """Implementation of the sequential search algorithm with recursion."""
 
 
