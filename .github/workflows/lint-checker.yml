@@ -22,6 +22,7 @@ jobs:
           VALIDATE_SCALAFMT: true
           VALIDATE_RUST_2021: true
           VALIDATE_RUST_CLIPPY: true
+          VALIDATE_PYTHON_RUFF: true
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_ISORT: true
           VALIDATE_JAVASCRIPT_ES: true
