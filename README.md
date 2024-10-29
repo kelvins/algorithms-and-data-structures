@@ -460,7 +460,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- Scala -->
-                <a href="./src/scala/ExponentiationRecursive.md">
+                <a href="./src/scala/ExponentiationRecursive.scala">
                     <img align="center" height="25" src="./logos/scala.svg" />
                 </a>
             </td>
