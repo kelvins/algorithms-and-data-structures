@@ -3,7 +3,7 @@ def exponentiation(base: Int, exponent: Int): Int = {
     .map(_ => base)
     .reduce(_ * _)
 }
-    
+
 object Main extends App {
   println("5 ^ 3 = " + exponentiation(5, 3))
 }
