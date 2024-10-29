@@ -1,7 +1,7 @@
 def exponentiation(base: Int, exponent: Int): Int = {
   (1 to exponent)
-  .map(_ => base)
-  .reduce(_ * _)
+    .map(_ => base)
+    .reduce(_ * _)
 }
     
 object Main extends App {
