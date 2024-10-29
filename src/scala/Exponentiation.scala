@@ -5,5 +5,5 @@ def exponentiation(base: Int, exponent: Int): Int = {
 }
     
 object Main extends App {
-  println("5 ^ 3 = " + exponentiation(5, 3));
+  println("5 ^ 3 = " + exponentiation(5, 3))
 }
