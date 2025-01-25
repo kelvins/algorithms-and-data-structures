@@ -1470,7 +1470,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
             </td>
             <td> <!-- Java -->
                 <a href="./src/java/LinearSearchRecursive.java">
-                    <img align="center" height="25" src="./logos/github.svg" />
+                    <img align="center" height="25" src="./logos/java.svg" />
                 </a>
             </td>
             <td> <!-- Python -->
