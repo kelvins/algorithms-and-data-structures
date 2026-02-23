@@ -1,4 +1,4 @@
-""" Bucket Sort in Python """
+"""Bucket Sort in Python"""
 
 
 def bucket_sort(vector):
@@ -22,7 +22,7 @@ def bucket_sort(vector):
     bucket_count = len(vector)
     max_val = max(vector)
     min_val = min(vector)
-    
+
     # Range of each bucket
     bucket_range = (max_val - min_val) / bucket_count
     if bucket_range == 0:
