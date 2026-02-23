@@ -5,6 +5,10 @@ on: [push, pull_request]
 jobs:
   lint-checker:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
+      checks: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
