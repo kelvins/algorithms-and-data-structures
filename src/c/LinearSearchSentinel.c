@@ -19,12 +19,9 @@ int buscaSentinela(int vetor[], int chave) {
   while (vetor[aux] !=
          chave) // Enquanto não encontrar o valor (chave) incrementa 1 em aux
     aux++;
-  if (aux == TAM_VETOR) // Caso o valor de aux seja igual ao tamanho do vetor,
-                        // significa que foi até o final e não encontrou o valor
-    return -1; // Não encontrou
-  else // Caso aux seja diferente, significa que encontrou o valor e quebrou o
-       // laço, o aux é a posição do valor buscado
-    return aux; // Encontrou
+  if (aux == TAM_VETOR)
+    return -1;
+  return aux;
 }
 
 int main() {

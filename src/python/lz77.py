@@ -248,7 +248,7 @@ class LZ77:
             if match:
                 # o PAR LZ é constituido da bit flag 1, seguida por 12 bits
                 # para distância e 4 bits para o tamanho da ocorrência.
-                (best_match_distance, best_match_length) = match
+                best_match_distance, best_match_length = match
                 # Primeiro nibble da distancia
                 x = (best_match_distance >> 0x4).to_bytes(1, self.ENDIAN_TYPE)
                 # Segundo nibble da distancia acrescido do tamanho

@@ -1,4 +1,4 @@
-""" Insertion Sort in Python (Iterative and Recursive) """
+"""Insertion Sort in Python (Iterative and Recursive)"""
 
 
 def insertion_sort_iterative(vector):

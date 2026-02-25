@@ -1,4 +1,4 @@
-""" Implementação de uma lista encadeada desordenada """
+"""Implementação de uma lista encadeada desordenada"""
 
 
 class Node:

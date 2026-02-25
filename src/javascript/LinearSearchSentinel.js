@@ -16,10 +16,10 @@ function sentinelSearch(array, wantedValue) {
 }
 
 function main() {
-    array = [32, 45, 31, 87, 32, 12, 76, 32, 16, 47, 54, 90];
-    wantedValue = 54;
+    let array = [32, 45, 31, 87, 32, 12, 76, 32, 16, 47, 54, 90];
+    const wantedValue = 54;
 
-    foundIndex = sentinelSearch(array, wantedValue);
+    const foundIndex = sentinelSearch(array, wantedValue);
 
     if (foundIndex >= 0) {
         console.log(`Value found at index "${foundIndex}".`)

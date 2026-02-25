@@ -1,4 +1,4 @@
-""" Merge sort algorithm implementation """
+"""Merge sort algorithm implementation"""
 
 
 def merge_sort(data):

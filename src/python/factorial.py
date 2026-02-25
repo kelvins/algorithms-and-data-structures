@@ -1,4 +1,4 @@
-""" Iterative factorial algorithm """
+"""Iterative factorial algorithm"""
 
 
 def factorial(num):

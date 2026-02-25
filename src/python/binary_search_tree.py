@@ -1,4 +1,4 @@
-""" Binary Search Tree in Python """
+"""Binary Search Tree in Python"""
 
 
 class TreeNode:

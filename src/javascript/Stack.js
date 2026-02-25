@@ -19,3 +19,20 @@ class Stack {
         this.stack = [];
     }
 }
+
+function main() {
+  let stack = new Stack();
+
+  stack.push(1);
+  stack.push(2);
+  stack.push(3);
+  stack.read();
+
+  stack.pop();
+  stack.read();
+
+  stack.clear();
+  stack.read();
+}
+
+main();

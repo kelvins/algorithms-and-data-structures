@@ -1,4 +1,4 @@
-""" Recursive exponentiation algorithm """
+"""Recursive exponentiation algorithm"""
 
 
 def exponentiation_recursive(base, exponent):

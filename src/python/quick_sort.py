@@ -1,4 +1,4 @@
-""" Quick Sort in Python """
+"""Quick Sort in Python"""
 
 
 def swap(a_list, pos1, pos2):

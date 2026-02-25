@@ -1,4 +1,4 @@
-""" Comb Sort in Python """
+"""Comb Sort in Python"""
 
 
 def comb_sort(arr: list) -> list:

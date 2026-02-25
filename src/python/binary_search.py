@@ -1,4 +1,4 @@
-""" Recursive Binary Search Algorithm in Python """
+"""Recursive Binary Search Algorithm in Python"""
 
 
 def binary_search(value, vector, left, right):

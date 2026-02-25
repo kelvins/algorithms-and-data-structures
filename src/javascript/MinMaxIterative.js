@@ -4,17 +4,15 @@ const MAX_LENGTH = 10;
  * @param {number[]} vector 
  */
 function MinMaxIterative(vector){
-    let min = max = vector[0];
+    let min = vector[0];
+    let max = vector[0];
 
     vector.forEach(value => {
         if (value > max) max = value;
         if(value < min) min = value;
     });
 
-    return {
-        min, 
-        max
-    }
+    return {min, max}
 }
 
 function main(){

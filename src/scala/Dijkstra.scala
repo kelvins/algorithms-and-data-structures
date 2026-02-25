@@ -22,7 +22,7 @@ case class Graph(edges: List[Edge]) {
 
   @tailrec
   final def dijkstra(start: Vertex, pathComposition: Path = EmptyPath): Path = {
-    val startEdges: Seq[Edge] = edges.filter(_.from == start).sorted
+    val startEdges: Seq[Edge]          = edges.filter(_.from == start).sorted
     val smallestDistance: Option[Edge] = startEdges
       .filter(e => !pathComposition.edges.map(_.from).contains(e.to))
       .headOption
@@ -41,7 +41,7 @@ case class Graph(edges: List[Edge]) {
 object Main extends App {
 
   val startA: Vertex = Vertex("A")
-  val graph: Graph = Graph(
+  val graph: Graph   = Graph(
     edges = List(
       Edge(from = Vertex("A"), to = Vertex("B"), distance = 1),
       Edge(from = Vertex("A"), to = Vertex("C"), distance = 4),

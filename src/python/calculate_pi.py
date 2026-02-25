@@ -1,4 +1,4 @@
-""" Calculating PI in Python """
+"""Calculating PI in Python"""
 
 
 def calculate_pi(number):

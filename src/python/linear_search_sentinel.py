@@ -1,4 +1,4 @@
-""" Implementacao do algoritmo de busca sentinela """
+"""Implementacao do algoritmo de busca sentinela"""
 
 
 def busca_sentinela(list_to_search, value):
