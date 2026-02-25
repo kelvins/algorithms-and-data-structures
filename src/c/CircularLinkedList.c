@@ -51,10 +51,9 @@ bool excluir(TIPOCHAVE ch, LISTA *L) {
                                // como endereço de memória, assim a função busca
                                // altera ele, guardando o valor anterior
   if (aux == NULL)
-    return false;        // Não encontrou
-  ant->prox = aux->prox; // Nó anterior aponta para o próximo, no caso o próximo
-                         // que o nó a ser excluído está apontando
-  free(aux); // Libera a memória
+    return false;
+  ant->prox = aux->prox;
+  free(aux);
   return true;
 }
 
@@ -67,10 +66,10 @@ void inserir(TIPOCHAVE ch, LISTA *L) {
     pos = pos->prox; // Vai para o próximo nó
   }
   // Quando encontrou a posição correta na ordem crescente
-  PONT novo_no = (PONT)malloc(sizeof(NO)); // Cria um novo nó
-  novo_no->chave = ch;                     // Coloca a chave no nó
-  novo_no->prox = pos;                     // Aponta para o próximo nó
-  ant->prox = novo_no; // Nó anterior aponta para o novo nó
+  PONT novo_no = (PONT)malloc(sizeof(NO));
+  novo_no->chave = ch;
+  novo_no->prox = pos;
+  ant->prox = novo_no;
 }
 
 PONT mostrarLista(LISTA L) {
