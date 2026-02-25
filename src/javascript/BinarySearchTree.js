@@ -170,3 +170,27 @@ class BinarySearchTree {
     }
 }
 
+function main() {
+  let tree = new BinarySearchTree();
+
+  tree.add(1);
+  tree.add(4);
+  tree.add(3);
+  tree.add(5);
+  tree.add(2);
+
+  tree.preOrderTraversal();
+  tree.inOrderTraversal();
+  tree.postOrderTraversal();
+
+  tree.containsElement(3);
+  tree.remove(3);
+  tree.containsElement(3);
+  tree.inOrderTraversal();
+
+  tree.empty();
+  tree.inOrderTraversal();
+}
+
+main();
+
