@@ -1,4 +1,4 @@
-""" Binary Tree in Python """
+"""Binary Tree in Python"""
 
 
 class Node:

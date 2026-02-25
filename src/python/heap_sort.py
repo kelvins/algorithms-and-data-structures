@@ -1,4 +1,4 @@
-""" Heap sort algorithm implementation """
+"""Heap sort algorithm implementation"""
 
 
 def heap_sort(data):

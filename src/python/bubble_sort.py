@@ -1,4 +1,4 @@
-""" Recursive Bubble Sort in Python """
+"""Recursive Bubble Sort in Python"""
 
 
 def bubble_sort(data, size):

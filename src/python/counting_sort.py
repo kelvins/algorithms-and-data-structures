@@ -1,4 +1,4 @@
-""" Counting sort in Python """
+"""Counting sort in Python"""
 
 import random
 

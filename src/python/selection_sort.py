@@ -1,4 +1,4 @@
-""" Implementação de um algoritmo de selection sort com recursão """
+"""Implementação de um algoritmo de selection sort com recursão"""
 
 
 def selection_sort(vetor, indice):

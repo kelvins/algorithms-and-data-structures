@@ -1,4 +1,4 @@
-""" Recursive factorial algorithm """
+"""Recursive factorial algorithm"""
 
 
 def factorial_recursive(num):

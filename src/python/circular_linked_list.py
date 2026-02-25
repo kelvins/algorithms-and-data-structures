@@ -1,4 +1,4 @@
-""" Implementation of a circular linked list in Python """
+"""Implementation of a circular linked list in Python"""
 
 import unittest
 

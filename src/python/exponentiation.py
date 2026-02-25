@@ -1,4 +1,4 @@
-""" Iterative exponentiation algorithm """
+"""Iterative exponentiation algorithm"""
 
 
 def exponentiation(base, exponent):

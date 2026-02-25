@@ -1,4 +1,4 @@
-""" Implementation of the bogosort algorithm in Python. """
+"""Implementation of the bogosort algorithm in Python."""
 
 import random
 

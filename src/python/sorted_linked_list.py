@@ -1,4 +1,4 @@
-""" Lista Sequencial Dinamica e Ordenada """
+"""Lista Sequencial Dinamica e Ordenada"""
 
 import random
 

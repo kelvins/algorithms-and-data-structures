@@ -1,4 +1,4 @@
-""" Implementação do algoritmo de máximo e mínimo com recursão """
+"""Implementação do algoritmo de máximo e mínimo com recursão"""
 
 
 def max_min(vetor, minimo, maximo, indice):
