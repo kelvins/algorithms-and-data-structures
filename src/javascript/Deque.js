@@ -28,3 +28,22 @@ class Deque {
         console.log(dequeCopy.reverse());
     }
 }
+
+function main {
+  let deque = new Deque();
+
+  deque.addFront(2);
+  deque.addFront(1);
+  deque.addFront(0);
+
+  deque.addEnd(3);
+  deque.addEnd(4);
+
+  deque.removeFront();
+  deque.removeEnd();
+
+  deque.readFromFront();
+  deque.readFromEnd();
+}
+
+main();
