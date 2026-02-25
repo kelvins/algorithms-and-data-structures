@@ -103,3 +103,17 @@ class DoublyLinkedList {
         }
     }
 }
+
+function main() {
+  let list = new DoublyLinkedList();
+
+  list.addToFront(2);
+  list.addToFront(1);
+  list.addToEnd(3);
+
+  list.readFromFront();
+  list.remove(2);
+  list.readFromEnd();
+}
+
+main();

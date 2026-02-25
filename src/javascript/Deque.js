@@ -29,7 +29,7 @@ class Deque {
     }
 }
 
-function main {
+function main() {
   let deque = new Deque();
 
   deque.addFront(2);
