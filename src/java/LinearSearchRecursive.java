@@ -1,11 +1,9 @@
-import java.util.Scanner;
-
 public class LinearSearchRecursive {
 
   public static int linearSearchRecursive(int[] arr, int n, int index, int target) {
     // Base case: If index exceeds array bounds, return -1 indicating target is not found
     if (index >= n) {
-      return - 1;
+      return -1;
     }
 
     // If the current element matches the target, return the index
