@@ -29,7 +29,6 @@ public class SentinelLinearSearch {
     }
 
     // Returning -1 if not found
-    else return - 1;
+    else return -1;
   }
-
 }
