@@ -1,16 +1,12 @@
 #include <stdio.h>
 
-int fatorial(int n) {
-
+int factorial(int n) {
   if (n == 1)
     return 1;
-
-  return (n * fatorial(n - 1));
+  return (n * factorial(n - 1));
 }
 
 int main() {
-
-  printf("%d\n", fatorial(5));
-
+  printf("%d\n", factorial(5));
   return 0;
 }

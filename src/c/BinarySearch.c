@@ -9,11 +9,9 @@ int BinarySearch(int array[], int size, int value) {
     // new start
     if (value > array[middle])
       start = middle + 1;
-
     // new end
     if (value < array[middle])
       end = middle - 1;
-
     // new middle
     middle = (start + end) / 2;
   }
@@ -29,13 +27,13 @@ int main() {
   int array[] = {1, 5, 10, 12, 18, 22, 87, 90, 112, 129};
   size_t size = sizeof(array) / sizeof(array[0]);
 
-  printf("Please provide the number you want to value for: ");
+  printf("Please provide the number you want to search for: ");
   scanf("%d", &value);
 
   int pos = BinarySearch(array, size, value);
 
   if (pos != -1)
-    printf("Found in position = %d.\nValue = %d\n", pos, array[pos]);
+    printf("Found at position = %d.\nValue = %d\n", pos, array[pos]);
   else
     printf("Not found\n");
 

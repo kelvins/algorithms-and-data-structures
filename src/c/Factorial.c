@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /*
- *	Exemplos de função para retornar o fatorial de um número n
- *	função recursiva
+ *  Example function to return the factorial of a number n
+ *  Recursive function
  */
 
 int main() {
   int num;
-  printf("Digite um número: ");
+  printf("Enter a number: ");
   scanf("%d", &num);
   int result = fatorial(num);
   printf("1 => ");
-  printf("%d! é : %d\n", num, result);
+  printf("%d! is: %d\n", num, result);
   return (0);
 }
 
