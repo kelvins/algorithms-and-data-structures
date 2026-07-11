@@ -1,5 +1,5 @@
 /*
- *	Implementação de uma Estrutura de Fila Dinâmica Ligada/Encadeada em C
+ *	Implementation of a Dynamic Linked/Chained Queue Structure in C
  */
 
 #include <malloc.h>

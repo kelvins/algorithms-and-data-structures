@@ -1,5 +1,5 @@
 /*
- *   Exemplo Lista Duplamente Encadeada em C
+ *   Example of Doubly Linked List in C
  */
 
 #include <stdio.h>

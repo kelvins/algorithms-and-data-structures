@@ -1,6 +1,6 @@
 /*
- *	Exemplo de implementação de Lista Sequencial Ordenada em C - Utilizando
- *sentinela
+ *	Example of Sorted Sequential List implementation in C - Using
+ *sentinel
  */
 
 #include <stdio.h>

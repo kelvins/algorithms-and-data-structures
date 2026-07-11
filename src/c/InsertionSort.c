@@ -1,8 +1,8 @@
 /*
-Algoritmo de ordenação Insertion Sort em C
+Insertion Sort algorithm in C
 */
 
-#include <stdio.h>  // Necessário para usar input e output
+#include <stdio.h>  // Required for input and output
 #include <stdlib.h> // Necessário para usar a função rand()
 #include <time.h> // Necessário para inicializar a semente de números aleatórios
 

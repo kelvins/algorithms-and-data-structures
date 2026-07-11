@@ -1,6 +1,6 @@
 /*
  *
- *	Grafos - CICLO HAMILTONIANO em C
+ *	Graphs - HAMILTONIAN CYCLE in C
  *
  *                      -----------------------------------
  *                      |                                 |
