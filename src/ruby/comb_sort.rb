@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Algoritmo de Comb sort em Ruby
+# Comb Sort algorithm in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 
@@ -26,5 +26,5 @@ def comb_sort(arr)
 end
 
 array = [86, 16, 10, 39, 49, 6, 32, 57, 72, 29]
-print "Lista: #{array} \n"
-print "Lista Ordenada: #{comb_sort(array)}"
+print "List: #{array} \n"
+print "Sorted List: #{comb_sort(array)}"

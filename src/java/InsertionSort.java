@@ -2,35 +2,35 @@ public class InsertionSort {
 
   public static void main(String[] args) {
 
-    int vetor[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
+    int[] array = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("Insertion Sort:");
-    System.out.println("Vetor não ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Unsorted array:");
+    printArray(array);
 
-    vetor = insertionSort(vetor);
+    array = insertionSort(array);
 
-    System.out.println("Vetor ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Sorted array:");
+    printArray(array);
   }
 
-  public static int[] insertionSort(int vetor[]) {
-    int chave, aux;
-    for (int i = 0; i < vetor.length; i++) {
-      chave = vetor[i];
+  public static int[] insertionSort(int[] array) {
+    int key, aux;
+    for (int i = 0; i < array.length; i++) {
+      key = array[i];
       aux = i - 1;
-      while (aux >= 0 && vetor[aux] > chave) {
-        vetor[aux + 1] = vetor[aux];
+      while (aux >= 0 && array[aux] > key) {
+        array[aux + 1] = array[aux];
         aux -= 1;
       }
-      vetor[aux + 1] = chave;
+      array[aux + 1] = key;
     }
-    return vetor;
+    return array;
   }
 
-  public static void mostraVetor(int vetor[]) {
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + ", ");
+  public static void printArray(int[] array) {
+    for (int i = 0; i < array.length; i++) {
+      System.out.print(array[i] + ", ");
     }
     System.out.println("");
   }

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Algoritmo Deque em Ruby
+# Deque algorithm in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 
@@ -17,41 +17,41 @@ class Deque
     deque.unshift(value)
   end
 
-  # adds an item in back of the deque:
+  # adds an item at the back of the deque:
   def insert_last(value)
     deque.push(value)
   end
 
-  # adds an item in front of the deque:
+  # removes an item from the front of the deque:
   def delete_front
     deque.shift unless deque.empty?
   end
 
-  # adds an item in back of the deque:
+  # removes an item from the back of the deque:
   def delete_last
     deque.pop unless deque.empty?
   end
 
-  # gets the item at the front of the queue:
+  # gets the item at the front of the deque:
   def read_front
-    deque.length >= 1 ? deque[0] : "Lista está vazia"
+    deque.length >= 1 ? deque[0] : "List is empty"
   end
 
-  # gets the item at the last of the queue:
+  # gets the item at the back of the deque:
   def read_rear
-    deque.length >= 1 ? deque[-1] : "Lista está vazia"
+    deque.length >= 1 ? deque[-1] : "List is empty"
   end
 
-  # checks whether deque is full or not
+  # checks whether deque is full:
   def full?
-    result = deque.length >= 1 ? "está" : "não esta"
-    "Lista #{result} cheia!"
+    result = deque.length >= 1 ? "is" : "is not"
+    "List #{result} full!"
   end
 
-  # checks whether deque is empty or not
+  # checks whether deque is empty:
   def empty?
-    result = deque.empty? ? "está" : "não esta"
-    "Lista #{result} vazia"
+    result = deque.empty? ? "is" : "is not"
+    "List #{result} empty"
   end
 end
 

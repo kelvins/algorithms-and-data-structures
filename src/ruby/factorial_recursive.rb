@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def fatorial(number)
+def factorial(number)
   aux = 1
   (2..number).each do |x|
     aux *= x
@@ -8,11 +8,11 @@ def fatorial(number)
   aux
 end
 
-def fatorial_recursiva(number)
+def recursive_factorial(number)
   return 1 if number <= 1
 
-  n * fatorial_recursiva(number - 1)
+  number * recursive_factorial(number - 1)
 end
 
-puts fatorial(5)
-puts fatorial_recursiva(5)
+puts factorial(5)
+puts recursive_factorial(5)
