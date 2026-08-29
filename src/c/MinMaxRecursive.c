@@ -1,7 +1,7 @@
 /*
- *	Exemplo de algoritmo recursivo.
- *	Objetivo: encontrar o valor máximo e mínimo em um vetor, utilizando
- *recursividade
+ *	Example of recursive algorithm.
+ *	Objective: find the maximum and minimum value in an array, using
+ *recursion
  */
 
 #include <stdio.h>

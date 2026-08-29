@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// CountingSort - Ordenação por Contagem - Matheus Martins Batista -
-// Universidade Federal de Itajuba - 2021
+// CountingSort - Sorting by Counting - Matheus Martins Batista -
+// Federal University of Itajuba - 2021
 
-// Necessário encontrar o maior elemento para alocar o vetor auxiliar de
-// contagem
+// Need to find the largest element to allocate the auxiliary counting
+// array
 int findMax(int *arr, int tam) {
   int max = arr[0];
 
@@ -18,26 +18,26 @@ int findMax(int *arr, int tam) {
   return max;
 }
 
-// Ordena os valores presentes em A e armazena em B
+// Sorts the values present in A and stores them in B
 void countingSort(int *arrA, int *arrB, int tam) {
-  // Vetor de contagem terá a frequência que um número aparece no vetor
-  // deve-se setar 0 para todos os elementos ou usar calloc
+  // Count array will have the frequency that a number appears in the array
+  // must set 0 for all elements or use calloc
   int max = findMax(arrA, tam);
   int *count = calloc(max + 1, sizeof(int));
 
-  // Frequência que determinado valor aparece no vetor
+  // Frequency that a given value appears in the array
   for (int i = 0; i < tam; i++) {
     count[arrA[i]]++;
   }
 
-  // Acumulativo da frequência dos valores menores que um elemento i do vetor
-  // original (A)
+  // Cumulative frequency of values less than element i of the original
+  // array (A)
   for (int i = 1; i <= max; i++) {
     count[i] += count[i - 1];
   }
 
-  // Percorrer o vetor original com início no último elemento, subtituindo os
-  // indices nos elementos do vetor count e decrescendo a cada atribuição
+  // Traverse the original array starting from the last element, replacing
+  // indices in the count array elements and decrementing with each assignment
   for (int i = tam - 1; i >= 0; i--) {
     arrB[count[arrA[i]] - 1] = arrA[i];
     count[arrA[i]]--;
@@ -50,14 +50,14 @@ int main() {
   arrA = malloc(tam * sizeof(int));
   arrB = calloc(tam, sizeof(int));
 
-  // Popular vetor A
+  // Populate array A
   srand(48 + tam);
   for (int j = 0; j < tam; j++)
     arrA[j] = rand() % 100;
 
   countingSort(arrA, arrB, tam);
 
-  printf("Vetor ordenado: ");
+  printf("Sorted array: ");
   for (int i = 0; i < tam; i++) {
     printf("%d ", arrB[i]);
   }

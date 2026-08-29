@@ -1,7 +1,7 @@
 /*
  *
- *	Grafos - Algoritmo para calcular o número de componentes conexos em um
- *determinado Grafo
+ *	Graphs - Algorithm to calculate the number of connected components in a
+ *given Graph
  *
  *	GRAFO
  *   (0)               (1)-------------(4)---------------(5)

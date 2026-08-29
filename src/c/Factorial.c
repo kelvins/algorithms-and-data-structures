@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /*
- *	Exemplos de função para retornar o fatorial de um número n
+ *	Examples of functions to return the factorial of a number n
  *	função recursiva
  */
 

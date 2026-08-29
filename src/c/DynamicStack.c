@@ -1,5 +1,5 @@
 /*
- *	Pilha Dinâmica utilizando uma Lista Ligada em C
+ *	Dynamic Stack using a Linked List in C
  */
 
 #include <malloc.h>

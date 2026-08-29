@@ -1,5 +1,5 @@
 /*
- *	Exemplo de Lista Ligada Dinâmica Não Ordenada em C
+ *	Example of Unordered Dynamic Linked List in C
  */
 
 #include <malloc.h>

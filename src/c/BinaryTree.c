@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Essa é uma árvore binária não balanceada.
+// This is an unbalanced binary tree.
 
 struct No {
 
