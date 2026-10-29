@@ -1,7 +1,7 @@
 /*
- *	Exemplo de Busca Sentinela em C
- *	Objetivo: Encontrar um valor em um vetor sem precisar testar todos os
- *valores dentro do laço
+ *	Example of Sentinel Search in C
+ *	Objective: Find a value in an array without testing all
+ *values inside the loop
  */
 
 #include <stdio.h>

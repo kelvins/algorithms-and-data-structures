@@ -1,5 +1,5 @@
 /*
- *	Exemplo de implementação de Fila em C
+ *	Example of Queue implementation in C
  */
 
 #include <stdio.h>

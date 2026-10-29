@@ -1,7 +1,7 @@
 /*
  *
- *	Grafos - Implementação de uma estrutura de Grafo não dirigido em C
- *	Métodos de Busca: Busca em Profundidade e Busca em Largura
+ *	Graphs - Implementation of an Undirected Graph structure in C
+ *	Search Methods: Depth-First Search and Breadth-First Search
  *
  *
  *   (A)---------------(B)-------------(E)---------------(F)

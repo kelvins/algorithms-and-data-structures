@@ -1,5 +1,5 @@
 /*
- *	Árvore Binária de Busca em C
+ *	Binary Search Tree in C
  *
  *		 ( 6 )
  *	     /   \

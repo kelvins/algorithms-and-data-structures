@@ -1,8 +1,8 @@
 /*
- *	Grafos - Algoritmo de Floyd-Warshall em C
- *	Complexidade: Teta de vértices ao cubo = Teta(n^3)
+ *	Graphs - Floyd-Warshall Algorithm in C
+ *	Complexity: Theta of vertices cubed = Theta(n^3)
  *
- *	Encontra o caminho de todos para todos os vértices
+ *	Finds the path from all to all vertices
  *
  *	Grafo com 5 vértices e 6 arestas
  *

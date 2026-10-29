@@ -1,5 +1,5 @@
 /*
-Torre de Hanoi em C
+Tower of Hanoi in C
 */
 
 #include <stdio.h>

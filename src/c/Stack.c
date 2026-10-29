@@ -1,5 +1,5 @@
 /*
- *	Exemplo de implementação de Pilha em C - Utiliza Sentinela
+ *	Example of Stack implementation in C - Uses Sentinel
  */
 
 #include <stdio.h>

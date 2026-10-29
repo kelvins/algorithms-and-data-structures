@@ -1,7 +1,7 @@
 /*
- *	Exemplo de Ordenação utilizando Merge Sort
+ *	Example of Sorting using Merge Sort
  *
- *	Dividir para conquistar:
+ *	Divide and conquer:
  *
  *	Dividir: Dividir os dados em subsequências pequenas;
  *	Conquistar: Classificar as duas metades recursivamente aplicando o merge

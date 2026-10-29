@@ -1,6 +1,6 @@
 /*
- * Exemplos de funções para achar maior número de um vetor
- * As 3 são recursivas porém apenas a MaxDC utiliza divisão e conquista
+ * Examples of functions to find the largest number in an array
+ * All 3 are recursive but only MaxDC uses divide and conquer
  */
 
 #include <stdio.h>

@@ -1,6 +1,6 @@
 /*
  *
- *	Lista Ligada com Nó Cabeça, Circular e Ordenada (Implementação Dinâmica)
+ *	Linked List with Head Node, Circular and Sorted (Dynamic Implementation)
  *
  */
 
