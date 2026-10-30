@@ -1,22 +1,16 @@
 /*
-    Contribuidores
+    Contributors
         - Dromedario de Chapéu
 
-    Busca Sequencial é o mais simples algoritmo de busca possessive, alem de
-    ser um dos menos eficientes. Ele simplesmente itera por todos os itens
-    de uma lista até encontrar o valor desejado ou atingir o final da lista
-    retornando que o elemento não esta presente na lista.
+    Linear search is a simple but inefficient algorithm. It checks each item
+    until it finds the target or reaches the end of the slice.
 
-    Esse algoritmo pode ser útil para listas pequenas de algumas poucas centenas
-    de valores de tipo simples, porem mais que isso ele sera um grande gargalo
-    durante a execução do programa.
-
-    Uma possível vantagem deste algoritmo, é que ele independe da lista estar
-    ordenada para funcionar, pois ele não se importa com a ordem dos elementos.
+    It works with unsorted data and is useful for small collections. For large
+    collections, its linear runtime can become a bottleneck.
 */
-fn busca_sequencial(lista: &[i32], valor: i32) -> (bool, usize) {
-    for (i, c) in lista.iter().enumerate() {
-        if *c == valor {
+fn linear_search(slice: &[i32], value: i32) -> (bool, usize) {
+    for (i, c) in slice.iter().enumerate() {
+        if *c == value {
             return (true, i);
         }
     }
@@ -24,9 +18,9 @@ fn busca_sequencial(lista: &[i32], valor: i32) -> (bool, usize) {
 }
 
 fn main() {
-    let lista = vec![1, 2, 3, 4];
-    let (existe, indice) = busca_sequencial(&lista, 2);
-    println!("{}, {}", existe, indice);
+    let slice = vec![1, 2, 3, 4];
+    let (exists, index) = linear_search(&slice, 2);
+    println!("{}, {}", exists, index);
 }
 
 #[cfg(test)]
@@ -34,9 +28,9 @@ mod test {
     use super::*;
 
     #[test]
-    fn busca() {
-        let lista = vec![1, 2, 3, 4];
-        assert_eq!(busca_sequencial(&lista, 2), (true, 1));
-        assert_eq!(busca_sequencial(&lista, 0), (false, 0));
+    fn search() {
+        let slice = vec![1, 2, 3, 4];
+        assert_eq!(linear_search(&slice, 2), (true, 1));
+        assert_eq!(linear_search(&slice, 0), (false, 0));
     }
 }

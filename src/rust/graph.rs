@@ -1,62 +1,62 @@
 /*
-    Autor: Gustavo Michels de Camargo
-    Projeto: Algoritmo estrural de um Grafo
+    Author: Gustavo Michels de Camargo
+    GraphOperations: Structural graph algorithm
 */
 
 use std::collections::HashMap;
 
-// Matriz de Vector usada ara construir o Grafo.
-type MatrizGrafo = Vec<Vec<isize>>;
+// A vector of vectors used to represent the graph.
+type GraphMatrix = Vec<Vec<isize>>;
 
 // The dictionary lets us accept any String and map its position within
 // the numeric matrix. This is for convenience, so callers do not need to convert a node label to a number.
 #[derive(PartialEq, Eq, Clone, Debug)]
-struct Grafo {
-    matriz: MatrizGrafo,
-    dicionario: HashMap<String, usize>,
-    bicondicional: bool,
+struct Graph {
+    matrix: GraphMatrix,
+    label_to_index: HashMap<String, usize>,
+    bidirectional: bool,
 }
 
-trait Projeto {
-    // Geral
-    fn new(tamanho: usize, tipo: &str) -> Grafo;
+trait GraphOperations {
+    // General
+    fn new(size: usize, direction: &str) -> Graph;
 
     // Dictionary-related functions - User-facing
-    fn usr_pegar_indice(&self, chave: String) -> usize;
-    fn usr_pegar_chave(&self, indice: usize) -> String;
+    fn user_get_index(&self, key: String) -> usize;
+    fn user_get_label(&self, index: usize) -> String;
 
-    // Usuario
-    fn usr_adicionar_conexao(&mut self, a: String, b: String, valor: isize);
-    fn usr_remover_conexao(&mut self, a: String, b: String);
-    fn usr_numero_conexoes(&self, no: String) -> usize;
-    fn usr_verificar_se_existe_conexao(&self, a: String, b: String) -> bool;
-    fn usr_conexoes(&self, a: String) -> Vec<String>;
+    // User-facing operations
+    fn user_add_edge(&mut self, a: String, b: String, value: isize);
+    fn user_remove_edge(&mut self, a: String, b: String);
+    fn user_edge_count(&self, node: String) -> usize;
+    fn user_edge_exists(&self, a: String, b: String) -> bool;
+    fn user_neighbors(&self, a: String) -> Vec<String>;
 
     // Machine / algorithm use
-    fn adicionar_conexao(&mut self, a: usize, b: usize, valor: isize);
-    fn remover_conexao(&mut self, a: usize, b: usize);
-    fn numero_conexoes(&self, no: usize) -> usize;
-    fn verificar_se_existe_conexao(&self, a: usize, b: usize) -> bool;
-    fn conexoes(&self, a: usize) -> Vec<usize>;
+    fn add_edge(&mut self, a: usize, b: usize, value: isize);
+    fn remove_edge(&mut self, a: usize, b: usize);
+    fn edge_count(&self, node: usize) -> usize;
+    fn edge_exists(&self, a: usize, b: usize) -> bool;
+    fn neighbors(&self, a: usize) -> Vec<usize>;
 }
 
 // This is the implementation of a graph "class".
-impl Projeto for Grafo {
+impl GraphOperations for Graph {
     // Size: maximum number of vertices the matrix can hold, from 0 to size.
     // In interval notation: [0, size).
-    // Functions prefixed with 'usr_' (usr = user) are intended for direct interaction with the user.
-    // Functions with the same name but without 'usr_' should only be used internally by algorithms, such as Dijkstra for shortest paths between nodes.
+    // Methods prefixed with 'user_' are intended for direct interaction with the user.
+    // Methods without the 'user_' prefix should only be used internally by algorithms, such as Dijkstra for shortest paths between nodes.
     // This design improves performance and avoids repeatedly accessing and
     // querying the dictionary when an algorithm such as Dijkstra only needs to find a shortest path.
 
     // Only this function is an exception because it is universal.
-    fn new(tamanho: usize, tipo: &str) -> Grafo {
-        Grafo {
-            matriz: vec![vec![-1; tamanho]; tamanho],
-            dicionario: HashMap::new(),
-            bicondicional: match tipo {
-                "->" => false,     // Condicional
-                "<->" | _ => true, // Bicondicional
+    fn new(size: usize, direction: &str) -> Graph {
+        Graph {
+            matrix: vec![vec![-1; size]; size],
+            label_to_index: HashMap::new(),
+            bidirectional: match direction {
+                "->" => false,     // Directed
+                "<->" | _ => true, // Bidirectional
             },
         }
     }
@@ -64,18 +64,18 @@ impl Projeto for Grafo {
     // ---- Functions for direct user interaction ----
 
     // Return the matrix index associated with the key
-    fn usr_pegar_indice(&self, chave: String) -> usize {
-        if self.dicionario.contains_key(&chave) {
-            return (&self.dicionario.get(&chave)).unwrap().clone();
+    fn user_get_index(&self, key: String) -> usize {
+        if self.label_to_index.contains_key(&key) {
+            return (&self.label_to_index.get(&key)).unwrap().clone();
         }
 
         return 0;
     }
 
     // Return the dictionary key associated with a graph matrix index
-    fn usr_pegar_chave(&self, indice: usize) -> String {
-        for (key, value) in self.dicionario.iter() {
-            if *value == indice {
+    fn user_get_label(&self, index: usize) -> String {
+        for (key, value) in self.label_to_index.iter() {
+            if *value == index {
                 return (*key).clone();
             }
         }
@@ -84,38 +84,36 @@ impl Projeto for Grafo {
     }
 
     // Connect two vertices
-    fn usr_adicionar_conexao(&mut self, a: String, b: String, valor: isize) {
-        if !self.dicionario.contains_key(&a) {
-            let num: usize = self.dicionario.len();
-            self.dicionario.insert(a.to_owned(), num);
+    fn user_add_edge(&mut self, a: String, b: String, value: isize) {
+        if !self.label_to_index.contains_key(&a) {
+            let num: usize = self.label_to_index.len();
+            self.label_to_index.insert(a.to_owned(), num);
         }
 
-        if !self.dicionario.contains_key(&b) {
-            let num: usize = self.dicionario.len();
-            self.dicionario.insert(b.to_owned(), num);
+        if !self.label_to_index.contains_key(&b) {
+            let num: usize = self.label_to_index.len();
+            self.label_to_index.insert(b.to_owned(), num);
         }
 
-        let (valor_a, valor_b): (usize, usize) =
-            (self.usr_pegar_indice(a), self.usr_pegar_indice(b));
+        let (value_a, value_b): (usize, usize) = (self.user_get_index(a), self.user_get_index(b));
 
-        self.matriz[valor_a][valor_b] = valor;
+        self.matrix[value_a][value_b] = value;
 
-        if self.bicondicional {
-            self.matriz[valor_b][valor_a] = valor;
+        if self.bidirectional {
+            self.matrix[value_b][value_a] = value;
         }
     }
 
-    fn usr_remover_conexao(&mut self, a: String, b: String) {
-        let (valor_a, valor_b): (usize, usize) =
-            (self.usr_pegar_indice(a), self.usr_pegar_indice(b));
+    fn user_remove_edge(&mut self, a: String, b: String) {
+        let (value_a, value_b): (usize, usize) = (self.user_get_index(a), self.user_get_index(b));
 
-        self.matriz[valor_a][valor_b] = -1;
-        self.matriz[valor_b][valor_a] = -1;
+        self.matrix[value_a][value_b] = -1;
+        self.matrix[value_b][value_a] = -1;
     }
 
     // Return the number of vertices connected to this one
-    fn usr_numero_conexoes(&self, no: String) -> usize {
-        self.matriz[self.usr_pegar_indice(no)]
+    fn user_edge_count(&self, node: String) -> usize {
+        self.matrix[self.user_get_index(node)]
             .iter()
             .filter(|x| **x >= 0)
             .collect::<Vec<&isize>>()
@@ -124,17 +122,17 @@ impl Projeto for Grafo {
     }
 
     // Check whether two nodes are connected
-    fn usr_verificar_se_existe_conexao(&self, a: String, b: String) -> bool {
-        self.matriz[self.usr_pegar_indice(a)][self.usr_pegar_indice(b)] >= 0
+    fn user_edge_exists(&self, a: String, b: String) -> bool {
+        self.matrix[self.user_get_index(a)][self.user_get_index(b)] >= 0
     }
 
-    fn usr_conexoes(&self, a: String) -> Vec<String> {
+    fn user_neighbors(&self, a: String) -> Vec<String> {
         let mut result: Vec<String> = Vec::new();
-        let a_value: usize = self.usr_pegar_indice(a);
+        let a_value: usize = self.user_get_index(a);
 
-        for i in 0..self.matriz[a_value].len() {
-            if a_value != i && self.matriz[a_value][i] > -1 {
-                result.push(self.usr_pegar_chave(i));
+        for i in 0..self.matrix[a_value].len() {
+            if a_value != i && self.matrix[a_value][i] > -1 {
+                result.push(self.user_get_label(i));
             }
         }
 
@@ -146,22 +144,22 @@ impl Projeto for Grafo {
     // Return an array of indices for all nodes connected to node 'a'
     // Use this function only internally within the graph, for algorithms such as Dijkstra.
     // Connect two vertices
-    fn adicionar_conexao(&mut self, a: usize, b: usize, valor: isize) {
-        self.matriz[a][b] = valor;
+    fn add_edge(&mut self, a: usize, b: usize, value: isize) {
+        self.matrix[a][b] = value;
 
-        if self.bicondicional {
-            self.matriz[b][a] = valor;
+        if self.bidirectional {
+            self.matrix[b][a] = value;
         }
     }
 
-    fn remover_conexao(&mut self, a: usize, b: usize) {
-        self.matriz[a][b] = -1;
-        self.matriz[b][a] = -1;
+    fn remove_edge(&mut self, a: usize, b: usize) {
+        self.matrix[a][b] = -1;
+        self.matrix[b][a] = -1;
     }
 
     // Return the number of vertices connected to this one
-    fn numero_conexoes(&self, no: usize) -> usize {
-        self.matriz[no]
+    fn edge_count(&self, node: usize) -> usize {
+        self.matrix[node]
             .iter()
             .filter(|x| **x >= 0)
             .collect::<Vec<&isize>>()
@@ -169,15 +167,15 @@ impl Projeto for Grafo {
             | 0
     }
 
-    fn verificar_se_existe_conexao(&self, a: usize, b: usize) -> bool {
-        self.matriz[a][b] >= 0
+    fn edge_exists(&self, a: usize, b: usize) -> bool {
+        self.matrix[a][b] >= 0
     }
 
-    fn conexoes(&self, a: usize) -> Vec<usize> {
+    fn neighbors(&self, a: usize) -> Vec<usize> {
         let mut result: Vec<usize> = Vec::new();
 
-        for i in 0..self.matriz[a].len() {
-            if a != i && self.matriz[a][i] > -1 {
+        for i in 0..self.matrix[a].len() {
+            if a != i && self.matrix[a][i] > -1 {
                 result.push(i);
             }
         }
@@ -189,14 +187,14 @@ impl Projeto for Grafo {
 fn main() {
     // Graph with at most one thousand vertices
     // "->" = directed graph, "<->" = bidirectional graph
-    let mut grafo: Grafo = Grafo::new(1000, "->");
+    let mut graph: Graph = Graph::new(1000, "->");
 
-    grafo.usr_adicionar_conexao(0.to_string(), 1.to_string(), 1);
-    grafo.usr_adicionar_conexao(1.to_string(), 2.to_string(), 1);
-    grafo.usr_adicionar_conexao(2.to_string(), 3.to_string(), 1);
-    grafo.usr_adicionar_conexao(3.to_string(), 0.to_string(), 1);
+    graph.user_add_edge(0.to_string(), 1.to_string(), 1);
+    graph.user_add_edge(1.to_string(), 2.to_string(), 1);
+    graph.user_add_edge(2.to_string(), 3.to_string(), 1);
+    graph.user_add_edge(3.to_string(), 0.to_string(), 1);
 
-    println!("{:?}", grafo.conexoes(2));
+    println!("{:?}", graph.neighbors(2));
 }
 
 #[cfg(test)]
@@ -204,32 +202,26 @@ mod test {
     use super::*;
 
     #[test]
-    fn usr_numero_conexoes() {
-        let mut grafo: Grafo = Grafo::new(1000, "->");
+    fn user_edge_count() {
+        let mut graph: Graph = Graph::new(1000, "->");
 
         for i in 1..1000 {
-            grafo.usr_adicionar_conexao(0.to_string(), i.to_string(), 1);
+            graph.user_add_edge(0.to_string(), i.to_string(), 1);
         }
 
-        assert_eq!(grafo.usr_numero_conexoes(0.to_string()), 999);
-        assert_eq!(
-            grafo.usr_numero_conexoes(0.to_string()),
-            grafo.numero_conexoes(0)
-        );
+        assert_eq!(graph.user_edge_count(0.to_string()), 999);
+        assert_eq!(graph.user_edge_count(0.to_string()), graph.edge_count(0));
     }
 
     #[test]
-    fn numero_conexoes() {
-        let mut grafo: Grafo = Grafo::new(1000, "<->");
+    fn edge_count() {
+        let mut graph: Graph = Graph::new(1000, "<->");
 
         for i in 1..1000 {
-            grafo.adicionar_conexao(0, i, 1);
+            graph.add_edge(0, i, 1);
         }
 
-        assert_eq!(grafo.numero_conexoes(0), 999);
-        assert_eq!(
-            grafo.numero_conexoes(0),
-            grafo.usr_numero_conexoes(0.to_string())
-        );
+        assert_eq!(graph.edge_count(0), 999);
+        assert_eq!(graph.edge_count(0), graph.user_edge_count(0.to_string()));
     }
 }

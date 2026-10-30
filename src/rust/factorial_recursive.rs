@@ -1,36 +1,35 @@
 /*
-    Contribuidores
+    Contributors
         - Heitor582
         - Dromedario de Chapéu
 
-    Fatorial é uma função matematica que consistem em realizar
-    a multiplicação de todos os antecessores de um numero.
+    A factorial multiplies all positive integers from 1 through the input.
 
     Example: 5! = 5 * 4 * 3 * 2 * 1 = 120
 */
 
 // To calculate a factorial recursively, return
 // the value multiplied by the function called with value - 1.
-fn fatorial(valor: u128) -> u128 {
+fn factorial(value: u128) -> u128 {
     // To avoid multiplying by 0, return 1 when the input is 0 or 1,
     // so the final result is not zeroed out.
-    match valor {
+    match value {
         0 | 1 => 1,
-        2.. => valor * (fatorial(valor - 1)),
+        2.. => value * (factorial(value - 1)),
     }
 }
 
 fn main() {
-    println!("{}", fatorial(21));
+    println!("{}", factorial(21));
 }
 
 #[cfg(test)]
 mod test {
     use super::*;
     #[test]
-    fn teste_fatorial() {
-        assert_eq!(fatorial(0), 1);
-        assert_eq!(fatorial(1), 1);
-        assert_eq!(fatorial(10), 3628800);
+    fn test_factorial() {
+        assert_eq!(factorial(0), 1);
+        assert_eq!(factorial(1), 1);
+        assert_eq!(factorial(10), 3628800);
     }
 }

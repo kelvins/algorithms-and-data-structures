@@ -1,70 +1,67 @@
 /*
-    Contribuidores
+    Contributors
         - Dromedario de Chapéu
 
-    O Bogo Sort é um algoritmo feito apenas como uma piada, sendo
-    o pior e mais demorado algoritmo de ordenação. Tudo o que ele faz
-    é pegar uma lista, randomizar os seus itens, e verificar se todos
-    os itens estão ordenados. Logo, ele é 100% aleatório, o que pode
-    fazer com que demore mais de 1 milhão de tentativas até ser ordenado,
-    ou que simplesmente na primeira tentativa ele seja ordenado.
-
+    Bogo sort is a joke algorithm and one of the slowest sorting algorithms.
+    It repeatedly shuffles the list and checks whether it is sorted. Since
+    the order is random, sorting may take over a million attempts or finish
+    on the first try.
 */
 
 // To use this library, create a Cargo project
 // and add rand as a dependency.
 use rand::prelude::*;
 
-fn verifica_ordem(lista: Vec<u8>) -> bool {
-    for indice in 0..lista.len() - 1 {
-        if lista[indice] > lista[indice + 1] {
+fn is_sorted(list: Vec<u8>) -> bool {
+    for index in 0..list.len() - 1 {
+        if list[index] > list[index + 1] {
             return false;
         }
     }
     return true;
 }
 
-// Vec<u8> means that the "lista" parameter is a list of
+// Vec<u8> means that the "list" parameter is a list of
 // 8-bit unsigned integers. The u64 return value refers
 // to the number of cycles needed to sort the list.
-fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
+fn bogo_sort(mut list: Vec<u8>) -> (Vec<u8>, u64) {
     let mut rng = thread_rng();
     // A large limit was chosen because bogo sort
     // can be either the fastest or slowest algorithm,
     // so a large range helps prevent the program from crashing.
-    let mut ciclos: u64 = 0;
+    let mut cycles: u64 = 0;
     loop {
-        ciclos += 1;
-        lista.shuffle(&mut rng);
-        if verifica_ordem(lista.clone()) {
-            return (lista, ciclos);
+        cycles += 1;
+        list.shuffle(&mut rng);
+        if is_sorted(list.clone()) {
+            return (list, cycles);
         }
     }
 }
 
 // The u8 type for list items is used only to
 // generate large numbers that are harder to inspect.
-fn gera_lista(len: u8) -> Vec<u8> {
+fn generate_list(len: u8) -> Vec<u8> {
     let mut rng = thread_rng();
-    let mut lista = Vec::<u8>::new();
+    let mut list = Vec::<u8>::new();
     for _ in 0..len - 1 {
-        lista.push(rng.gen());
+        list.push(rng.gen());
     }
-    return lista;
+    return list;
 }
 
 fn main() {
-    let lista_desordenada = gera_lista(6);
-    print!("Lista desordenada: ");
-    for i in lista_desordenada.iter() {
+    let list_unordered = generate_list(6);
+    print!("Unsorted list: ");
+    for i in list_unordered.iter() {
         print!("{i} ")
     }
     println!();
 
-    let (lista, ciclos) = bogo_sort(lista_desordenada);
-    println!("Foram necesarios um total de {ciclos} para ordenar");
-    print!("Lista ordenada: ");
-    for i in lista.iter() {
+    let (list, cycles) = bogo_sort(list_unordered);
+    println!("Sorting took {cycles} attempts");
+    print!("Sorted list: ");
+    for i in list.iter() {
         print!("{i} ");
     }
     println!();
@@ -76,14 +73,14 @@ mod test {
     use super::*;
 
     #[test]
-    fn oredenacao() {
-        let mut desordenada = gera_lista(6);
-        let (ordenada, _) = bogo_sort(desordenada.clone());
-        desordenada.sort();
-        assert_eq!(ordenada, desordenada);
+    fn sorting() {
+        let mut unordered = generate_list(6);
+        let (sorted, _) = bogo_sort(unordered.clone());
+        unordered.sort();
+        assert_eq!(sorted, unordered);
 
-        let desordenada = vec![6, 5, 4, 3, 2, 1];
-        let (ordenada, _) = bogo_sort(desordenada);
-        assert_eq!(ordenada, vec![1, 2, 3, 4, 5, 6]);
+        let unordered = vec![6, 5, 4, 3, 2, 1];
+        let (sorted, _) = bogo_sort(unordered);
+        assert_eq!(sorted, vec![1, 2, 3, 4, 5, 6]);
     }
 }
