@@ -6,7 +6,7 @@ def shell_sort(a_list):
     Algoritmo shell sort.
 
     Argumentos:
-        a_list: list. Uma list nao ordenada
+        a_list: list. Uma list not sorted
     """
     sublist_count = len(a_list) // 2
     while sublist_count > 0:
@@ -38,7 +38,7 @@ def shell(seq):
     Algoritmo de ordenacao shell
 
     Argumentos:
-        seq: list. list nao ordenada
+        seq: list. list not sorted
     """
     inc = len(seq) // 2
     while inc:

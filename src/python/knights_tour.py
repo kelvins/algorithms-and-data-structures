@@ -3,7 +3,7 @@
 
 def aceitavel(x, y):
     """
-    Aceitavel se estiver dentro do tabuleiro e a casa ainda nao tiver sido
+    Aceitavel se estiver dentro do tabuleiro e a casa ainda not tiver sido
     visited
 
     Retorna True ou False
@@ -32,7 +32,7 @@ def tenta_mover(i, x, y):
     return done
 
 
-def mostra_movimento(x, y):
+def print_movimento(x, y):
     tabuleiro[x][y] = 1
     done = tenta_mover(2, x, y)
     string = ""
@@ -54,17 +54,17 @@ dy = [1, 2, 2, 1, -1, -2, -2, -1]
 
 print("Digite o num de posicoes do tabuleiro: (ex.: 6) <= 10")
 num = int(input())  # Numero de posicoes do tabuleiro
-print("Digite a posicao x onde o cavalo deve iniciar: (ex.: 1) >= 0")
+print("Digite a position x onde o cavalo deve iniciar: (ex.: 1) >= 0")
 x = int(input())  # Numero de posicoes do tabuleiro
-print("Digite a posicao y onde o cavalo deve iniciar: (ex.: 2) >= 0")
+print("Digite a position y onde o cavalo deve iniciar: (ex.: 2) >= 0")
 y = int(input())  # Numero de posicoes do tabuleiro
 numSqr = num * num  # Numero total de casas
 
 print()
 
-tabuleiro = [[], [], [], [], [], [], [], [], [], []]  # Tabuleiro maximo 20x20
+tabuleiro = [[], [], [], [], [], [], [], [], [], []]  # Tabuleiro maximum 20x20
 for x in range(0, num):
     for y in range(0, num):
         tabuleiro[x].append(0)
 # print tabuleiro
-mostra_movimento(x, y)
+print_movimento(x, y)

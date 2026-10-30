@@ -5,7 +5,7 @@ import random
 list = []
 
 
-def inserir_lista(key, list):
+def insert_list(key, list):
     """
     Insere a key na list
     """
@@ -20,8 +20,8 @@ def inserir_lista(key, list):
     list[i] = key
 
 
-def busca_sentinela(key, list):
-    """Algoritmo de search sentinela"""
+def search_sentinel(key, list):
+    """Algoritmo de search sentinel"""
     list.append(key)
     i = 0
     while list[i] != key:
@@ -33,25 +33,25 @@ def busca_sentinela(key, list):
     return i
 
 
-def deleta_valor(key, list):
+def deleta_value(key, list):
     """Deleta uma key na list"""
-    posicao = busca_sentinela(key, list)
-    if posicao >= 0:
-        list.pop(posicao)
+    position = search_sentinel(key, list)
+    if position >= 0:
+        list.pop(position)
         return True
     return False
 
 
-def mostra_lista(list):
+def print_list(list):
     """Imprime a list"""
     print(list)
 
 
 for _ in range(0, 50):
-    inserir_lista(random.randint(10, 99), list)
+    insert_list(random.randint(10, 99), list)
 
-print("Valor na posicao: " + str(busca_sentinela(25, list)))
+print("Valor na position: " + str(search_sentinel(25, list)))
 
-mostra_lista(list)
-deleta_valor(10, list)
-mostra_lista(list)
+print_list(list)
+deleta_value(10, list)
+print_list(list)

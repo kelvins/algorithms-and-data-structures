@@ -5,7 +5,7 @@
 from math import inf
 
 
-def gerar_matriz(n_linhas, n_colunas):
+def gerar_matrix(n_linhas, n_colunas):
     return [[0] * n_colunas for _ in range(n_linhas)]
 
 
@@ -19,7 +19,7 @@ def imprime(matrix, vertices):
 
 
 def floyd_warshall(matrix, vertices):
-    dist = gerar_matriz(vertices, vertices)
+    dist = gerar_matrix(vertices, vertices)
     # Initialize the matrix with infinity on the diagonal and edge distances
     for i in range(vertices):
         for j in range(vertices):

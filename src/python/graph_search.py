@@ -13,9 +13,9 @@ class Graph:
 
     def __init__(self, edges: list):
         self.adj = [[] for _ in range(len(edges))]
-        self.adiciona_arestas(edges)
+        self.add_edges(edges)
 
-    def adiciona_arestas(self, edges: list) -> None:
+    def add_edges(self, edges: list) -> None:
         """Adiciona todas as edges ao graph
 
         Args:
@@ -23,9 +23,9 @@ class Graph:
         """
         for i in range(len(edges)):
             for j in range(len(edges[i])):
-                self.__adiciona_aresta(i, edges[i][j])
+                self.__add_edge(i, edges[i][j])
 
-    def __adiciona_aresta(self, u: int, v: int) -> None:
+    def __add_edge(self, u: int, v: int) -> None:
         """Adiciona a edge na matrix de adjacência
 
         Args:

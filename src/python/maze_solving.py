@@ -178,7 +178,7 @@ def bfs(initial, goal_test, successors):
 
 
 def node_to_path(node):
-    """Retorna o path encontrado pelo algoritmo."""
+    """Retorna o path found pelo algoritmo."""
     path = [node.state]
     while node.parent:
         node = node.parent

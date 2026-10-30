@@ -29,7 +29,7 @@ class BitArray:
     def fromint(self, value):
         """
         Converte um inteiro para bits
-        e adiciona-os à list
+        e add-os à list
         """
         bitstring = "{:08b}".format(value)
         for bit in bitstring:
@@ -38,7 +38,7 @@ class BitArray:
     def frombytes(self, byte):
         """
         Converte um byte para bits
-        e adiciona-os à list
+        e add-os à list
         """
         bitstring = "{:08b}".format(int.from_bytes(byte, self.ENDIAN_TYPE))
         for bit in bitstring:
@@ -89,7 +89,7 @@ class LZ77:
     def find_longest_match(self):
         """
         Encontra a maximum ocorrência compatível com a cadeia consultada iniciando
-        da posição current do cursor: current_position; e posteriomente
+        da position current do cursor: current_position; e posteriomente
         consultando o histórico existente dentro da janela para find
         uma ocorrência compatível.
         """
@@ -216,10 +216,10 @@ class LZ77:
         Fornecido o file de input, seu contéudo é comprimido aplicando um algoritmo
         de compressão LZ77 simples.
         O formato de compressão tem o seguinte padrão:
-        - bit de value 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
+        - bit de value 0 seguido por 8 bits (1 byte por caracter) quando not existem ocorrências
         prévias na janela de compressão.
         - bit de value 1 seguido pelo pointer de 12 bits (distance entre o start da ocorrência
-        até a posição current do cursor) e mais 4 bits (responsaveis pelo size da ocorrência)
+        até a position current do cursor) e mais 4 bits (responsaveis pelo size da ocorrência)
 
         Se o file de output for fornecido, os data comprimidos serão escritos em
         formato binário dentro do mesmo. Do contrário será retornado um bitarray.
