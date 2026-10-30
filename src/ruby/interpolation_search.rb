@@ -11,7 +11,7 @@ def interpolation_search(value, data)
 
   while low < mid
     if data[mid] == value
-      return "Elemento encontrado na #{high}° posição do array ordenado."
+      return "Elemento found na #{high}° position do array sorted."
     elsif value > data[mid]
       low = mid
       mid = ((high - low) / 2).floor + low

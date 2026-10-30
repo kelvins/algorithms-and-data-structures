@@ -5,20 +5,20 @@
 # https://github.com/EuCarlos
 
 def min_max_array(array)
-  minimo = array[0]
-  maximo = array[0]
+  minimum = array[0]
+  maximum = array[0]
 
-  vetor_size = array.length - 1
-  (1..vetor_size).each do |i|
-    if array[i] < minimo
-      minimo = array[i]
-    elsif array[i] > maximo
-      maximo = array[i]
+  array_size = array.length - 1
+  (1..array_size).each do |i|
+    if array[i] < minimum
+      minimum = array[i]
+    elsif array[i] > maximum
+      maximum = array[i]
     end
   end
 
-  puts "Minimo: #{minimo}"
-  puts "Maximo: #{maximo}"
+  puts "Minimo: #{minimum}"
+  puts "Maximo: #{maximum}"
 end
 
 list = [2, 94, 83, 10, 0, 2, 48, 1, 24]

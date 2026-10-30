@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def busca_sequencial(value, array)
+def search_sequential(value, array)
   # Search for the value sequentially in the array
   # Return its index if found, or -1 otherwise
   array.each_with_index do |element, index|
@@ -10,4 +10,4 @@ def busca_sequencial(value, array)
 end
 
 array = [1, 4, 5, 2, 42, 34, 54, 98, 89, 78, 67]
-puts busca_sequencial(98, array)
+puts search_sequential(98, array)
