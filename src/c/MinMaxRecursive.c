@@ -8,19 +8,19 @@
 
 #define TAM 10
 
-void MaxMin(int vetor[], int min, int max, int indice) {
-  if (vetor[indice] < min)
-    min = vetor[indice];
-  if (vetor[indice] > max)
-    max = vetor[indice];
-  if (indice < TAM - 1)
-    MaxMin(vetor, min, max, indice + 1);
+void minMaxRecursive(int array[], int minimum, int maximum, int index) {
+  if (array[index] < minimum)
+    minimum = array[index];
+  if (array[index] > maximum)
+    maximum = array[index];
+  if (index < TAM - 1)
+    minMaxRecursive(array, minimum, maximum, index + 1);
   else
-    printf("Min: %d \nMax: %d\n\n", min, max);
+    printf("Min: %d \nMax: %d\n\n", minimum, maximum);
 }
 
 int main() {
-  int vetor[TAM] = {9, 2, 1, 8, 6, 3, 4, 5, 0, 7};
-  MaxMin(vetor, vetor[0], vetor[0], 0);
+  int array[TAM] = {9, 2, 1, 8, 6, 3, 4, 5, 0, 7};
+  minMaxRecursive(array, array[0], array[0], 0);
   return 0;
 }

@@ -7,108 +7,114 @@
 #include <malloc.h>
 #include <stdio.h>
 
-typedef int TIPOCHAVE; // Key type for each list node
+typedef int KEY_TYPE; // Key type for each list node
 
 // Data structure representing each list node
-typedef struct AUX {
-  TIPOCHAVE chave;
-  struct AUX *prox;
-} NO, *PONT;
+typedef struct Node {
+  KEY_TYPE key;
+  struct Node *next;
+} Node, *NodePointer;
 
 typedef struct {
-  PONT cab; // Head node
-} LISTA;
+  NodePointer head; // Head node
+} List;
 
-void inicializar(LISTA *L) {
+void initializeList(List *L) {
   // The head node keeps the list from being empty and can also be used as a
-  // sentinela
-  L->cab = (PONT)malloc(sizeof(NO));
-  L->cab->prox =
-      L->cab; // Initially points to itself because the list is circular
+  // sentinel
+  L->head = (NodePointer)malloc(sizeof(Node));
+  L->head->next =
+      L->head; // Initially points to itself because the list is circular
 }
 
 // Since this method does not modify the list, it can receive a copy instead
 // of a pointer to it
-PONT buscaSequencial(TIPOCHAVE ch, LISTA L, PONT *ant) {
-  *ant = L.cab; // Since this is a copy, use dot (.) instead of arrow (->);
-                // ant stores the pointer to the matching node
-  PONT pos = L.cab->prox;
-  L.cab->chave = ch; // Store the value in the head node as a sentinel; it will
+NodePointer linearSearch(KEY_TYPE key, List L, NodePointer *previous) {
+  *previous = L.head; // Since this is a copy, use dot (.) instead of arrow
+                      // (->); previous stores the pointer to the matching node
+  NodePointer current = L.head->next;
+  L.head->key = key; // Store the value in the head node as a sentinel; it will
                      // be the last value compared
-  while (pos->chave != ch) {
-    *ant = pos;      // Store the pointer to the node
-    pos = pos->prox; // Move to the next node
+  while (current->key != key) {
+    *previous = current;     // Store the pointer to the node
+    current = current->next; // Move to the next node
   }
-  if (pos != L.cab) // If this is not the head node, the value was found
-    return pos;     // Return the node
+  if (current != L.head) // If this is not the head node, the value was found
+    return current;      // Return the node
   else
     return NULL; // Otherwise, return NULL
 }
 
-bool excluir(TIPOCHAVE ch, LISTA *L) {
-  PONT aux, ant;
-  aux = buscaSequencial(ch, *L,
-                        &ant); // Find the value to remove. ant is passed by
-                               // address so the search function can update it
-                               // to hold the previous node
-  if (aux == NULL)
+bool remove(KEY_TYPE key, List *L) {
+  NodePointer temporary, previous;
+  temporary =
+      linearSearch(key, *L,
+                   &previous); // Find the value to remove. previous is passed
+                               // by address so the search function can update
+                               // it to hold the previous node
+  if (temporary == NULL)
     return false;
-  ant->prox = aux->prox;
-  free(aux);
+  previous->next = temporary->next;
+  free(temporary);
   return true;
 }
 
-void inserir(TIPOCHAVE ch, LISTA *L) {
-  PONT ant = L->cab;       // ant stores a pointer to the previous node
-  PONT pos = L->cab->prox; // pos stores a pointer to the current node
+void insert(KEY_TYPE key, List *L) {
+  NodePointer previous =
+      L->head; // previous stores a pointer to the previous node
+  NodePointer current =
+      L->head->next; // current stores a pointer to the current node
 
-  while (pos->chave < ch && pos != L->cab) {
-    ant = pos; // Store the current node pointer; it becomes the previous node
-    pos = pos->prox; // Move to the next node
+  while (current->key < key && current != L->head) {
+    previous =
+        current; // Store the current node pointer; it becomes the previous node
+    current = current->next; // Move to the next node
   }
   // The correct position in ascending order has been found
-  PONT novo_no = (PONT)malloc(sizeof(NO));
-  novo_no->chave = ch;
-  novo_no->prox = pos;
-  ant->prox = novo_no;
+  NodePointer newNode = (NodePointer)malloc(sizeof(Node));
+  newNode->key = key;
+  newNode->next = current;
+  previous->next = newNode;
 }
 
-PONT mostrarLista(LISTA L) {
-  PONT pos = L.cab->prox; // pos receives the first element after the head node
-  while (pos != L.cab) {  // If it is not the head node, the list is not empty
-    printf("[ %d ]->", pos->chave); // Display the node value
-    pos = pos->prox;                // Move to the next node
+NodePointer printList(List L) {
+  NodePointer current =
+      L.head->next; // current receives the first element after the head node
+  while (current !=
+         L.head) { // If it is not the head node, the list is not empty
+    printf("[ %d ]->", current->key); // Display the node value
+    current = current->next;          // Move to the next node
   }
   printf("\n");
 }
 
 int main() {
 
-  LISTA lista;
-  inicializar(&lista);
+  List list;
+  initializeList(&list);
 
-  inserir(4, &lista);
-  inserir(6, &lista);
-  inserir(2, &lista);
-  inserir(3, &lista);
-  inserir(1, &lista);
-  inserir(5, &lista);
+  insert(4, &list);
+  insert(6, &list);
+  insert(2, &list);
+  insert(3, &list);
+  insert(1, &list);
+  insert(5, &list);
 
-  mostrarLista(lista);
+  printList(list);
 
-  excluir(2, &lista);
-  excluir(4, &lista);
-  excluir(6, &lista);
+  remove(2, &list);
+  remove(4, &list);
+  remove(6, &list);
 
-  mostrarLista(lista);
+  printList(list);
 
   // Example of searching the list
-  PONT aux;
-  int valor = 2;
-  if (buscaSequencial(valor, lista, &aux) != NULL)
-    printf("Valor %d encontrado.\n", valor);
+  NodePointer temporary;
+  int value = 2;
+  if (linearSearch(value, list, &temporary) != NULL)
+    printf("Value %d found.\n", value);
   else
-    printf("Valor %d não encontrado.\n", valor);
+    printf("Value %d not found.\n", value);
 
   return 0;
 }

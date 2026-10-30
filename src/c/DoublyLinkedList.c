@@ -7,138 +7,138 @@
 
 /* Linked list using a head cell */
 
-typedef struct cel celula;
-struct cel {
-  int dado;
-  struct cel *prox;
-  struct cel *ant;
+typedef struct Node Node;
+struct Node {
+  int data;
+  struct Node *next;
+  struct Node *previous;
 };
 
 /* Pointer 'p' is the head of the list */
 
-void insereInicio(int x, celula *p) /* Insere no inicio da lista*/
+void insertAtHead(int x, Node *p) /* Insert at the beginning of the list*/
 {
-  celula *nova, *q;
-  nova = malloc(sizeof(celula));
-  nova->dado = x;
-  nova->prox = p->prox;
+  Node *newNode, *q;
+  newNode = malloc(sizeof(Node));
+  newNode->data = x;
+  newNode->next = p->next;
   /* Check whether the list is empty */
-  if (p->prox != NULL) {
-    q = nova->prox;
-    q->ant = nova;
+  if (p->next != NULL) {
+    q = newNode->next;
+    q->previous = newNode;
   }
-  p->prox = nova;
-  nova->ant = p;
+  p->next = newNode;
+  newNode->previous = p;
 }
 
-void insereUltimo(int x, celula *p) /* Insere no final da lista*/
+void append(int x, Node *p) /* Insert at the end of the list*/
 {
-  celula *q;
-  celula *nova;
-  nova = malloc(sizeof(celula));
-  nova->dado = x;
+  Node *q;
+  Node *newNode;
+  newNode = malloc(sizeof(Node));
+  newNode->data = x;
   q = p;
-  while (q->prox != NULL)
-    q = q->prox;
+  while (q->next != NULL)
+    q = q->next;
 
-  q->prox = nova;
-  nova->ant = q;
-  nova->prox = NULL;
+  q->next = newNode;
+  newNode->previous = q;
+  newNode->next = NULL;
 }
 
-void buscaEremove(int y, celula *p) {
-  celula *w, *q;
+void findAndRemove(int y, Node *p) {
+  Node *w, *q;
   w = p;
-  q = p->prox;
-  while (q != NULL && q->dado != y) {
+  q = p->next;
+  while (q != NULL && q->data != y) {
     w = q;
-    q = q->prox;
+    q = q->next;
   }
   if (q != NULL) {
-    w->prox = q->prox;
-    q->ant = w;
+    w->next = q->next;
+    q->previous = w;
     free(q);
   } else {
-    printf("\nLista nao contem item\n\n");
+    printf("\nList does not contain the item\n\n");
     system("pause");
   }
 }
 
-void imprime(celula *p) {
-  celula *q;
-  for (q = p->prox; q != NULL; q = q->prox)
-    printf("%d  ", q->dado);
+void print(Node *p) {
+  Node *q;
+  for (q = p->next; q != NULL; q = q->next)
+    printf("%d  ", q->data);
 }
 
 void Menu() {
-  printf("  Menu Principal\n");
-  printf("1 - Insere inicio\n");
-  printf("2 - Insere ultimo\n");
-  printf("3 - Retira\n");
-  printf("4 - Sair\n");
-  printf("\nOpcao: ");
+  printf("  Main Menu\n");
+  printf("1 - Insert at the beginning\n");
+  printf("2 - Insert at the end\n");
+  printf("3 - Remove\n");
+  printf("4 - Exit\n");
+  printf("\nOption: ");
 }
 
-void libera(celula *ini) {
-  celula *p;
-  p = ini;
+void freeList(Node *head) {
+  Node *p;
+  p = head;
   while (p != NULL) {
-    celula *q = p->prox; /* Save a reference to the next element */
-    free(p);             /* Free the memory pointed to by p */
-    p = q;               /* Make p point to the next element */
+    Node *q = p->next; /* Save a reference to the next element */
+    free(p);           /* Free the memory pointed to by p */
+    p = q;             /* Make p point to the next element */
   }
 }
 
 int main() {
-  celula *p;
+  Node *p;
   int op = 0, item;
   // Initialize the list
-  p = malloc(sizeof(celula));
-  p->ant = NULL;
-  p->prox = NULL;
-  // fim_inicializa
+  p = malloc(sizeof(Node));
+  p->previous = NULL;
+  p->next = NULL;
+  // end_initialize
 
   do {
     system("cls");
-    printf("\nConteudo da lista: ");
-    if (p->prox != NULL) {
-      imprime(p);
+    printf("\nList contents: ");
+    if (p->next != NULL) {
+      print(p);
     } else {
-      printf("Lista VAZIA");
+      printf("EMPTY LIST");
     }
     printf("\n\n");
     Menu();
     scanf("%d", &op);
     switch (op) {
     case 1:
-      printf("Insere no inicio da lista: ");
+      printf("Insert at the beginning of the list: ");
       scanf("%d", &item);
-      insereInicio(item, p);
+      insertAtHead(item, p);
       break;
     case 2:
-      printf("Insere na ultima posicao da lista: ");
+      printf("Insert at the last position of the list: ");
       scanf("%d", &item);
-      insereUltimo(item, p);
+      append(item, p);
       break;
     case 3:
-      if (p->prox != NULL) {
-        printf("Retirar um elemento: ");
+      if (p->next != NULL) {
+        printf("Remove an item: ");
         scanf("%d", &item);
-        buscaEremove(item, p);
+        findAndRemove(item, p);
       } else {
-        printf("\nLista VAZIA\n\n");
+        printf("\nEMPTY LIST\n\n");
         system("pause");
       }
       break;
     case 4:
       break;
     default:
-      printf("Opcao invalida!\n");
+      printf("Invalid option!\n");
       system("pause");
       break;
     }
 
   } while (op != 4);
-  libera(p);
+  freeList(p);
   return 0;
 }

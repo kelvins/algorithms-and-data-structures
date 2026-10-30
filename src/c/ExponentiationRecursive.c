@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int exponenciacao(int base, int expoente) {
+int exponentiation(int base, int exponent) {
 
-  if (expoente == 0)
+  if (exponent == 0)
     return 1;
 
-  return (base * exponenciacao(base, expoente - 1));
+  return (base * exponentiation(base, exponent - 1));
 }
 
 int main() {
 
-  printf("%d\n", exponenciacao(5, 3));
+  printf("%d\n", exponentiation(5, 3));
 
   return 0;
 }

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int buscaSequencial(int vetor[], int size, int buscado) {
+int linearSearch(int array[], int size, int target) {
   for (int i = 0; i < size; i++) {
-    if (vetor[i] == buscado) {
+    if (array[i] == target) {
       return i;
     }
   }
@@ -13,6 +13,6 @@ int main() {
 
   int a[] = {1, 2, 3, 4, 5, 6, 7, 8};
   int n = sizeof(a) / sizeof(a[0]);
-  printf("Valor %d no índice %d\n", 3, buscaSequencial(a, n, 3));
-  printf("Valor %d no índice %d\n", 9, buscaSequencial(a, n, 9));
+  printf("Value %d at index %d\n", 3, linearSearch(a, n, 3));
+  printf("Value %d at index %d\n", 9, linearSearch(a, n, 9));
 }

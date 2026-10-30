@@ -9,12 +9,12 @@ void print_array(int array[], int size) {
 }
 
 int get_max(int array[], int size) {
-  int max = array[0];
+  int maximum = array[0];
   for (int i = 1; i < size; i++) {
-    if (array[i] > max)
-      max = array[i];
+    if (array[i] > maximum)
+      maximum = array[i];
   }
-  return max;
+  return maximum;
 }
 
 void radix_sort(int array[], int size) {

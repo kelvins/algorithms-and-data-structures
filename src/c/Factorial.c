@@ -8,18 +8,18 @@
 
 int main() {
   int num;
-  printf("Digite um número: ");
+  printf("Enter a number: ");
   scanf("%d", &num);
-  int result = fatorial(num);
+  int result = factorial(num);
   printf("1 => ");
   printf("%d! é : %d\n", num, result);
   return (0);
 }
 
-int fatorial(int num) {
+int factorial(int num) {
   if (num <= 1) {
     return 1;
   }
   printf("%d * ", num);
-  return num * fatorial(num - 1);
+  return num * factorial(num - 1);
 }

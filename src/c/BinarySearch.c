@@ -29,7 +29,7 @@ int main() {
   int array[] = {1, 5, 10, 12, 18, 22, 87, 90, 112, 129};
   size_t size = sizeof(array) / sizeof(array[0]);
 
-  printf("Please provide the number you want to value for: ");
+  printf("Enter the value to search for: ");
   scanf("%d", &value);
 
   int pos = BinarySearch(array, size, value);

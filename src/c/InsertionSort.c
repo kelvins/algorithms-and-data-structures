@@ -32,16 +32,16 @@ void insertion_sort(int arr[], int n) {
 int main() {
   int i, n, arr[100];
   srand(time(NULL)); // Initialize the random number seed
-  printf("Entre com o numero de elementos no vetor: ");
+  printf("Enter the number of elements in the array: ");
   scanf("%d", &n);
-  printf("Vetor de entrada:\n");
+  printf("Input array:\n");
   for (i = 0; i < n; i++) {
     arr[i] = rand() % 100; // Generate a random value from 0 to 99
     printf("%d ", arr[i]); // Print the generated value
   }
   printf("\n");
   insertion_sort(arr, n);
-  printf("Vetor ordenado em ordem crescente:\n");
+  printf("Array sorted in ascending order:\n");
   for (i = 0; i < n; i++) {
     printf("%d ", arr[i]);
   }

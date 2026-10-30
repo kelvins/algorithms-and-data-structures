@@ -31,16 +31,16 @@
 
 #include <stdio.h>
 
-#define nroVertices 5 // Define the constant 5 as the number of graph vertices
+#define vertexCount 5 // Define the constant 5 as the number of graph vertices
 
 // The Floyd-Warshall algorithm receives the distance matrix and the number
 // of vertices
-void FloydWarshall(unsigned long int matriz[nroVertices][nroVertices], int n) {
+void floydWarshall(unsigned long int matrix[vertexCount][vertexCount], int n) {
   for (int x = 0; x < n; x++) {
     for (int y = 0; y < n; y++) {
       for (int z = 0; z < n; z++) {
-        if (matriz[y][z] > (matriz[y][x] + matriz[x][z]))
-          matriz[y][z] = matriz[y][x] + matriz[x][z];
+        if (matrix[y][z] > (matrix[y][x] + matrix[x][z]))
+          matrix[y][z] = matrix[y][x] + matrix[x][z];
       }
     }
   }
@@ -48,39 +48,40 @@ void FloydWarshall(unsigned long int matriz[nroVertices][nroVertices], int n) {
 
 int main() {
 
-  unsigned long int Matriz[nroVertices][nroVertices] = {
+  unsigned long int matrix[vertexCount][vertexCount] = {
       {0, 6, 10, 4294967295, 4294967295},
       {6, 0, 4294967295, 2, 4294967295},
       {10, 4294967295, 0, 1, 3},
       {4294967295, 2, 1, 0, 8},
       {4294967295, 4294967295, 3, 8, 0}};
 
-  FloydWarshall(Matriz, nroVertices);
+  floydWarshall(matrix, vertexCount);
 
   // Display the matrix with updated values
-  printf("Matriz:\n");
-  for (int i = 0; i < nroVertices; ++i) {
-    for (int e = 0; e < nroVertices; ++e) {
-      if (Matriz[i][e] < 10)
-        printf(" %lu ", Matriz[i][e]);
+  printf("Matrix:\n");
+  for (int i = 0; i < vertexCount; ++i) {
+    for (int e = 0; e < vertexCount; ++e) {
+      if (matrix[i][e] < 10)
+        printf(" %lu ", matrix[i][e]);
       else
-        printf("%lu ", Matriz[i][e]);
+        printf("%lu ", matrix[i][e]);
     }
     printf("\n");
   }
   printf("\n");
 
-  // printf("Total caminho mais curto do vertice 0 ao 4: %lu\n", Matriz[4][0]);
-  // // [destino] [origem] printf("Total caminho mais curto do vertice 2 ao 0:
-  // %lu\n", Matriz[0][2]); printf("Total caminho mais curto do vertice 4 ao 3:
-  // %lu\n\n", Matriz[3][4]);
+  // printf("Total shortest path from vertex 0 to vertex 4: %lu\n",
+  // Matrix[4][0]);
+  // // [destination] [source] printf("Shortest path distance from vertex 2 to
+  // 0: %lu\n", Matrix[0][2]); printf("Shortest path distance from vertex 4 to
+  // 3: %lu\n\n", Matrix[3][4]);
 
   // Display all paths
   printf("\n");
-  for (int i = 0; i < nroVertices; ++i) {
-    for (int x = 0; x < nroVertices; ++x) {
-      printf("Menor distancia saindo do %d para chegar ao %d = %lu.\n", i, x,
-             Matriz[x][i]);
+  for (int i = 0; i < vertexCount; ++i) {
+    for (int x = 0; x < vertexCount; ++x) {
+      printf("Shortest distance from vertex %d to vertex %d = %lu.\n", i, x,
+             matrix[x][i]);
     }
   }
   printf("\n\n");

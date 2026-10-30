@@ -5,68 +5,68 @@
 #include <malloc.h>
 #include <stdio.h>
 
-typedef int TIPOCHAVE;
+typedef int KEY_TYPE;
 
-typedef struct NO {
-  TIPOCHAVE chave;
-  struct NO *prox;
-} *PONT;
+typedef struct Node {
+  KEY_TYPE key;
+  struct Node *next;
+} *NodePointer;
 
-PONT novoNO(TIPOCHAVE ch) {
-  PONT aux = (PONT)malloc(sizeof(NO));
-  aux->chave = ch;
-  aux->prox = NULL;
-  return aux;
+NodePointer newNode(KEY_TYPE key) {
+  NodePointer temporary = (NodePointer)malloc(sizeof(Node));
+  temporary->key = key;
+  temporary->next = NULL;
+  return temporary;
 }
 
-PONT insere(TIPOCHAVE ch, PONT no) {
-  PONT aux = novoNO(ch);
-  aux->prox = no;
-  return aux;
+NodePointer insert(KEY_TYPE key, NodePointer node) {
+  NodePointer temporary = newNode(key);
+  temporary->next = node;
+  return temporary;
 }
 
-void mostraFila(PONT no) {
-  while (no != NULL) {
-    printf("[%d]->", no->chave);
-    no = no->prox;
+void printQueue(NodePointer node) {
+  while (node != NULL) {
+    printf("[%d]->", node->key);
+    node = node->next;
   }
   printf("\n");
 }
 
-void remove(PONT no) {
-  PONT noAnterior = no;
-  while (no->prox != NULL) {
-    noAnterior = no;
-    no = no->prox;
+void remove(NodePointer node) {
+  NodePointer previousNode = node;
+  while (node->next != NULL) {
+    previousNode = node;
+    node = node->next;
   }
-  noAnterior->prox = NULL;
-  free(no);
+  previousNode->next = NULL;
+  free(node);
 }
 
-int tamanhoFila(PONT no) {
+int queueLength(NodePointer node) {
   int cont = 0;
-  while (no != NULL) {
+  while (node != NULL) {
     cont++;
-    no = no->prox;
+    node = node->next;
   }
   return cont;
 }
 
 int main() {
-  PONT fila = novoNO(5);
-  fila = insere(8, fila);
-  fila = insere(1, fila);
-  fila = insere(3, fila);
-  fila = insere(5, fila);
-  fila = insere(4, fila);
-  fila = insere(2, fila);
+  NodePointer queue = newNode(5);
+  queue = insert(8, queue);
+  queue = insert(1, queue);
+  queue = insert(3, queue);
+  queue = insert(5, queue);
+  queue = insert(4, queue);
+  queue = insert(2, queue);
 
-  mostraFila(fila);
-  remove(fila);
-  mostraFila(fila);
-  remove(fila);
-  mostraFila(fila);
+  printQueue(queue);
+  remove(queue);
+  printQueue(queue);
+  remove(queue);
+  printQueue(queue);
 
-  printf("Tamanho da fila: %d\n", tamanhoFila(fila));
+  printf("Queue size: %d\n", queueLength(queue));
   return 0;
 }

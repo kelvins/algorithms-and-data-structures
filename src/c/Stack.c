@@ -5,80 +5,80 @@
 #include <stdio.h>
 
 #define MAX 10
-#define ERRO -1
+#define ERROR -1
 
-typedef int TIPOCHAVE;
-
-typedef struct {
-  TIPOCHAVE chave;
-} REGISTRO;
+typedef int KEY_TYPE;
 
 typedef struct {
-  REGISTRO A[MAX + 1];
-  int nroRegistros;
-} PILHA;
+  KEY_TYPE key;
+} Record;
 
-int inicializa(PILHA *p) {
-  p->nroRegistros = 0;
+typedef struct {
+  Record A[MAX + 1];
+  int recordCount;
+} Stack;
+
+int initialize(Stack *p) {
+  p->recordCount = 0;
   int i = 0;
-  for (i; i < MAX - 2; i++) { // Preenche a Pilha *para testes
-    p->A[i].chave = i * 2; // This is an array of records (similar to a class),
-                           // could have more fields, so it is defined this way
-                           // A[i].chave inserts the value into the key field
+  for (i; i < MAX - 2; i++) { // Fill the stack for testing
+    p->A[i].key = i * 2; // This is an array of records (similar to a class),
+                         // could have more fields, so it is defined this way
+                         // A[i].key stores the value in the key field
   }
-  p->nroRegistros = i;
+  p->recordCount = i;
 }
 
-bool inserePilha(int valor, PILHA *p) {
-  if (p->nroRegistros < MAX) {
-    p->A[p->nroRegistros].chave = valor;
-    p->nroRegistros++;
+bool push(int value, Stack *p) {
+  if (p->recordCount < MAX) {
+    p->A[p->recordCount].key = value;
+    p->recordCount++;
     return true;
   } else {
     return false;
   }
 }
 
-bool removePilha(PILHA *p) { p->nroRegistros--; }
+bool pop(Stack *p) { p->recordCount--; }
 
-void mostraPilha(PILHA *p) {
-  int i = p->nroRegistros - 1;
-  printf("\nPilha:\n");
+void printStack(Stack *p) {
+  int i = p->recordCount - 1;
+  printf("\nStack:\n");
   for (i; i >= 0; i--) {
-    printf("%d = [ %d ]\n", i, p->A[i].chave);
+    printf("%d = [ %d ]\n", i, p->A[i].key);
   }
   printf("------------------\n");
 }
 
-int buscaPilha(int chave, PILHA *p) {
-  p->A[p->nroRegistros].chave = chave;
-  int aux = 0;
-  while (p->A[aux].chave != chave)
-    aux++;
-  if (aux == p->nroRegistros)
-    return ERRO;
-  return aux;
+int searchStack(int key, Stack *p) {
+  p->A[p->recordCount].key = key;
+  int temporary = 0;
+  while (p->A[temporary].key != key)
+    temporary++;
+  if (temporary == p->recordCount)
+    return ERROR;
+  return temporary;
 }
 
 int main() {
-  PILHA vPilha;
-  inicializa(&vPilha);
+  Stack stack;
+  initialize(&stack);
 
-  mostraPilha(&vPilha);
-  if (inserePilha(10, &vPilha)) {
-    printf("Inserido com sucesso");
+  printStack(&stack);
+  if (push(10, &stack)) {
+    printf("Inserted successfully.");
   } else {
-    printf("Pilha cheia");
+    printf("Stack is full");
   }
 
-  mostraPilha(&vPilha);
-  removePilha(&vPilha);
-  mostraPilha(&vPilha);
+  printStack(&stack);
+  pop(&stack);
+  printStack(&stack);
 
-  int aux = buscaPilha(8, &vPilha);
-  if (aux != -1) {
-    printf("Valor 8 encontrado na posicao %d da pilha\n", aux);
+  int temporary = searchStack(8, &stack);
+  if (temporary != -1) {
+    printf("Value 8 found at position %d in the stack\n", temporary);
   } else {
-    printf("Valor nao encontrado\n");
+    printf("Value not found\n");
   }
 }
