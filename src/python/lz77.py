@@ -67,7 +67,9 @@ class LZ77:
     # Input data
     data = None
 
-    def __init__(self, window_size=400, lookahead_buffer=15, endian="big", verbose=True):
+    def __init__(
+        self, window_size=400, lookahead_buffer=15, endian="big", verbose=True
+    ):
         self.MAX_WINDOW_SIZE = window_size
         self.MAX_LOOKAHEAD_BUFFER = lookahead_buffer
         self.ENDIAN_TYPE = "big"
@@ -111,7 +113,10 @@ class LZ77:
                 # its length is GREATER than that of the last
                 # best result
                 # then accept it as the best match.
-                if compatible_chain == occurrence and len(occurrence) > best_match_length:
+                if (
+                    compatible_chain == occurrence
+                    and len(occurrence) > best_match_length
+                ):
                     best_match_distance = self.CURSOR - j
                     best_match_length = len(occurrence)
 
