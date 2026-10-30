@@ -3,7 +3,7 @@
     Contribuidores
         - Dromedario de chapeu
 
-    O Quick Sort, é um dos algoritmos de ordenação padrões de se estudar.
+    O Quick Sort, é um dos algoritmos de sortção padrões de se estudar.
     Ele é famoso por ser relativamente eficiente na maioria dos casos, tendo
     complexidade O(n log n). Porem em casos específicos ele pode chegar a ser
     O(n²) nos piores casos, como a list estar basicamente invertida por exemplo.
@@ -15,7 +15,7 @@
     list, nos fazemos o swap entre o pivot e o last index que foi coloca a sua
     frene, assim nos teremos a garantia de que todos os itens a left do pivot
     sejam menores, e os a right maiores. E assim nos pegamos essas 2 novas lists,
-    e fazemos o mesmo processo.
+    e fazemos o mesmo process.
 
     Recomendo dar uma olhada mais profunda sobre o funcionado e casos específicos,
     como os diferentes métodos de partição e funcionado com múltiplos pivot's, prometo
@@ -61,9 +61,9 @@ fn quick_sort(list: &mut [i32], l: isize, r: isize) {
     // The recursion stops when the left and right bounds
     // are equal, meaning the list has only one element.
     if l < r {
-        let indice_pivot = partition(list, l as usize, r as usize);
-        quick_sort(list, l, indice_pivot - 1);
-        quick_sort(list, indice_pivot + 1, r);
+        let index_pivot = partition(list, l as usize, r as usize);
+        quick_sort(list, l, index_pivot - 1);
+        quick_sort(list, index_pivot + 1, r);
     }
 }
 
