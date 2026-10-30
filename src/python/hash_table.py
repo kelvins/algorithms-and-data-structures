@@ -55,11 +55,11 @@ if __name__ == "__main__":
         hash_table[i] = hex(round(i * 23))
 
     # Deletar item
-    print("Deletar chave 0 de valor: ", hash_table[0])
+    print("Deletar key 0 de value: ", hash_table[0])
     del hash_table[0]
 
     # Procurar item
-    print("Valor da chave 23: ", hash_table[23])
+    print("Valor da key 23: ", hash_table[23])
 
     # Assign a value to a key
     hash_table[1] = "TESTE DE SUBSCREVER"

@@ -1,6 +1,6 @@
 """
-Busca em largura e em profundidade em um labirinto com o objetivo
-de encontrar um caminho do ponto "start" ao ponto "goal"
+Search em width e em depth em um labirinto com o objetivo
+de find um path do ponto "start" ao ponto "goal"
 Referencia: Problemas Classicos de Ciencia da Computacao com Python
 """
 
@@ -65,14 +65,14 @@ class Maze:
         return locations
 
     def mark(self, path):
-        """Marca o caminho andado no labirinto."""
+        """Marca o path andado no labirinto."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.PATH
         self._grid[self.start.row][self.start.col] = Cell.START
         self._grid[self.goal.row][self.goal.col] = Cell.GOAL
 
     def clear(self, path):
-        """Limpa o caminho marcado no labirinto."""
+        """Limpa o path marcado no labirinto."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.EMPTY
         self._grid[self.start.row][self.start.col] = Cell.START
@@ -122,7 +122,7 @@ class Node:
 
 
 def dfs(initial, goal_test, successors):
-    """Algoritmo de busca em profundidade."""
+    """Algoritmo de search em depth."""
     # frontier stores the locations we have not visited yet
     frontier = Stack()
     frontier.push(Node(initial, None))
@@ -150,7 +150,7 @@ def dfs(initial, goal_test, successors):
 
 
 def bfs(initial, goal_test, successors):
-    """Algoritmo de busca em largura."""
+    """Algoritmo de search em width."""
     # frontier stores the locations we have not visited yet
     frontier = Queue()
     frontier.push(Node(initial, None))
@@ -178,7 +178,7 @@ def bfs(initial, goal_test, successors):
 
 
 def node_to_path(node):
-    """Retorna o caminho encontrado pelo algoritmo."""
+    """Retorna o path encontrado pelo algoritmo."""
     path = [node.state]
     while node.parent:
         node = node.parent

@@ -22,14 +22,14 @@ class BitArray:
 
     def append(self, bit):
         """
-        Adiciona um bit à lista
+        Adiciona um bit à list
         """
         self.bits.append(int(bit))
 
     def fromint(self, value):
         """
         Converte um inteiro para bits
-        e adiciona-os à lista
+        e adiciona-os à list
         """
         bitstring = "{:08b}".format(value)
         for bit in bitstring:
@@ -38,7 +38,7 @@ class BitArray:
     def frombytes(self, byte):
         """
         Converte um byte para bits
-        e adiciona-os à lista
+        e adiciona-os à list
         """
         bitstring = "{:08b}".format(int.from_bytes(byte, self.ENDIAN_TYPE))
         for bit in bitstring:
@@ -46,8 +46,8 @@ class BitArray:
 
     def dump(self):
         """
-        Transforma à lista com os bits em um
-        bytearray e retorna seu valor
+        Transforma à list com os bits em um
+        bytearray e retorna seu value
         """
         self.output = bytearray()
         bits_in_a_byte = 8
@@ -88,9 +88,9 @@ class LZ77:
 
     def find_longest_match(self):
         """
-        Encontra a maior ocorrência compatível com a cadeia consultada iniciando
-        da posição atual do cursor: current_position; e posteriomente
-        consultando o histórico existente dentro da janela para encontrar
+        Encontra a maximum ocorrência compatível com a cadeia consultada iniciando
+        da posição current do cursor: current_position; e posteriomente
+        consultando o histórico existente dentro da janela para find
         uma ocorrência compatível.
         """
         # Set the buffer limit based on the current cursor
@@ -138,9 +138,9 @@ class LZ77:
 
     def decompress(self, input_data):
         """
-        Fornecido um arquivo de entrada comprimido, o seu conteúdo é descomprimido de
-        volta ao seu formato original, e escrito no arquivo de saída caso este seja
-        também fornecido. Se nenhum arquivo de saída for forncedido, os dados
+        Fornecido um file de input comprimido, o seu conteúdo é descomprimido de
+        volta ao seu formato original, e escrito no file de output caso este seja
+        também fornecido. Se nenhum file de output for forncedido, os data
         descomprimidos são retornados como uma string
         """
         # Set the initial CURSOR position to 0
@@ -213,15 +213,15 @@ class LZ77:
 
     def compress(self, input_data):
         """
-        Fornecido o arquivo de entrada, seu contéudo é comprimido aplicando um algoritmo
+        Fornecido o file de input, seu contéudo é comprimido aplicando um algoritmo
         de compressão LZ77 simples.
         O formato de compressão tem o seguinte padrão:
-        - bit de valor 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
+        - bit de value 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
         prévias na janela de compressão.
-        - bit de valor 1 seguido pelo ponteiro de 12 bits (distância entre o inicio da ocorrência
-        até a posição atual do cursor) e mais 4 bits (responsaveis pelo tamanho da ocorrência)
+        - bit de value 1 seguido pelo pointer de 12 bits (distance entre o start da ocorrência
+        até a posição current do cursor) e mais 4 bits (responsaveis pelo size da ocorrência)
 
-        Se o arquivo de saída for fornecido, os dados comprimidos serão escritos em
+        Se o file de output for fornecido, os data comprimidos serão escritos em
         formato binário dentro do mesmo. Do contrário será retornado um bitarray.
 
         Se o parâmetro verbose estiver habilitado, a descrição da compressão é exibida.
@@ -327,9 +327,9 @@ input_text = '''Lorem Ipsum is simply dummy\
 if __name__ == "__main__":
     lz = LZ77(verbose=False)
     print("Entrada:")
-    entrada = bytearray(input_text.encode())
-    print(entrada)
-    print("Tamanho: {}".format(sys.getsizeof(entrada)))
+    input = bytearray(input_text.encode())
+    print(input)
+    print("Tamanho: {}".format(sys.getsizeof(input)))
     print("\n---\n")
     compressed = lz.compress(input_text)
     print("Dados Comprimidos com LZ77:")

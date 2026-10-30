@@ -3,8 +3,8 @@
 
 def hanoi(pino0, pino2, pino1, discos):
     """
-    Mostra os passos da torre de hanoi de forma recursiva.
-    Parametros: from, to, helper, numero de discos
+    Mostra os passos da torre de hanoi de forma recursive.
+    Parametros: from, to, helper, number de discos
     """
     if discos == 1:
         print("Move de {} para {}".format(pino0, pino2))

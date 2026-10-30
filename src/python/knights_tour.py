@@ -4,7 +4,7 @@
 def aceitavel(x, y):
     """
     Aceitavel se estiver dentro do tabuleiro e a casa ainda nao tiver sido
-    visitada
+    visited
 
     Retorna True ou False
     """
@@ -28,7 +28,7 @@ def tenta_mover(i, x, y):
             done = tenta_mover(i + 1, u, v)  # Tenta outro movimento
             if not done:
                 tabuleiro[u][v] = 0  # Sem sucesso, descarta movimento
-        k += 1  # Passa ao proximo movimento possivel
+        k += 1  # Passa ao next movimento possivel
     return done
 
 

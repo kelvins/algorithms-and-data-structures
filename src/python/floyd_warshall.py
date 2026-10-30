@@ -9,23 +9,23 @@ def gerar_matriz(n_linhas, n_colunas):
     return [[0] * n_colunas for _ in range(n_linhas)]
 
 
-def imprime(matriz, vertices):
+def imprime(matrix, vertices):
     print(" ", end="")
     for i in range(vertices):
         print("  ", i + 1, end="")
     print("")
     for i in range(vertices):
-        print(i + 1, matriz[i])
+        print(i + 1, matrix[i])
 
 
-def floyd_warshall(matriz, vertices):
+def floyd_warshall(matrix, vertices):
     dist = gerar_matriz(vertices, vertices)
     # Initialize the matrix with infinity on the diagonal and edge distances
     for i in range(vertices):
         for j in range(vertices):
             if i != j:
-                if matriz[i][j] != 0:
-                    dist[i][j] = matriz[i][j]
+                if matrix[i][j] != 0:
+                    dist[i][j] = matrix[i][j]
                 else:
                     dist[i][j] = inf
             else:
@@ -41,14 +41,14 @@ def floyd_warshall(matriz, vertices):
                 if i != j and Dist != inf and Dist < dist[i][j]:
                     dist[i][j] = Dist
     # Print the result
-    print("Matriz de distâncias")
+    print("Matrix de distâncias")
     imprime(dist, vertices)
 
 
 def main():
-    grafo = [[0, 3, 4, 0], [0, 0, 0, 5], [0, 0, 0, 3], [8, 0, 0, 0]]
+    graph = [[0, 3, 4, 0], [0, 0, 0, 5], [0, 0, 0, 3], [8, 0, 0, 0]]
     vertices = 4
-    floyd_warshall(grafo, vertices)
+    floyd_warshall(graph, vertices)
 
 
 if __name__ == "__main__":

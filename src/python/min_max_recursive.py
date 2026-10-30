@@ -1,16 +1,16 @@
 """Implementação do algoritmo de máximo e mínimo com recursão"""
 
 
-def max_min(vetor, minimo, maximo, indice):
+def max_min(array, minimo, maximo, index):
     """
-    Imprime os valores máximo e mínimo de um vetor
+    Imprime os values máximo e mínimo de um array
     """
-    if vetor[indice] < minimo:
-        minimo = vetor[indice]
-    if vetor[indice] > maximo:
-        maximo = vetor[indice]
-    if indice < len(vetor) - 1:
-        max_min(vetor, minimo, maximo, indice + 1)
+    if array[index] < minimo:
+        minimo = array[index]
+    if array[index] > maximo:
+        maximo = array[index]
+    if index < len(array) - 1:
+        max_min(array, minimo, maximo, index + 1)
     else:
         print(minimo)
         print(maximo)

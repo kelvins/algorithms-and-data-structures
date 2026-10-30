@@ -5,7 +5,7 @@ def heap_sort(data):
     """Sort a list (data) in-place using HeapSort.
 
     Args:
-        data (list): lista to be sorted.
+        data (list): list to be sorted.
     """
     length = len(data)
     index = length // 2

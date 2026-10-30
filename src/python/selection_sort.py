@@ -1,33 +1,33 @@
 """Implementação de um algoritmo de selection sort com recursão"""
 
 
-def selection_sort(vetor, indice):
+def selection_sort(array, index):
     """
     Implementação de um algoritmo de selection sort com recursão.
 
     Argumentos:
-    vetor: lista. Lista que será ordenada
-    indice: int. Indice do elemento a ser ordenado na lista
+    array: list. List que será ordenada
+    index: int. Indice do element a ser ordenado na list
 
-    Retorna a lista "vetor" ordenada.
+    Retorna a list "array" ordenada.
     """
-    if indice >= len(vetor) - 1:
+    if index >= len(array) - 1:
         return -1
 
     # minIndice stores the index of the smallest value
-    min_indice = indice
+    min_indice = index
 
-    for i in range(indice + 1, len(vetor)):
-        if vetor[i] < vetor[min_indice]:
+    for i in range(index + 1, len(array)):
+        if array[i] < array[min_indice]:
             min_indice = i
 
-    temp = vetor[indice]
-    vetor[indice] = vetor[min_indice]
-    vetor[min_indice] = temp
+    temp = array[index]
+    array[index] = array[min_indice]
+    array[min_indice] = temp
 
-    selection_sort(vetor, indice + 1)
+    selection_sort(array, index + 1)
 
-    return vetor
+    return array
 
 
 lista_nao_ordenada = [82, 83, 92, 12, 23, 45, 64, 91, 73]
