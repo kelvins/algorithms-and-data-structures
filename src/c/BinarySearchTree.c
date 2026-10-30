@@ -203,15 +203,15 @@ int main() {
 
   remove(4, treeRoot);
 
-  printf("Pre-ordem: ");
+  printf("Preorder: ");
   preorder(treeRoot);
   printf("\n");
-  printf("Em-ordem: ");
+  printf("Inorder: ");
   inorder(treeRoot);
   printf("\n");
-  printf("Pos-ordem: ");
+  printf("Postorder: ");
   postorder(treeRoot);
 
-  printf("\nAltura: %d\n", height(treeRoot));
+  printf("\nHeight: %d\n", height(treeRoot));
   return 0;
 }

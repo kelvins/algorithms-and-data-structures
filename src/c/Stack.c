@@ -66,7 +66,7 @@ int main() {
 
   printStack(&stack);
   if (push(10, &stack)) {
-    printf("Inserido com sucesso");
+    printf("Inserted successfully.");
   } else {
     printf("Stack is full");
   }

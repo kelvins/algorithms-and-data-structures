@@ -26,10 +26,10 @@ int main() {
 
   calc_reverse(input, reverse);
 
-  printf("Sua palavra invertida: %s\n", reverse);
+  printf("Reversed word: %s\n", reverse);
 
   if (!strcmp(input, reverse))
-    puts("Sua palavra eh um palindromo!");
+    puts("Your word is a palindrome!");
   else
     puts("Your word is not a palindrome!");
 

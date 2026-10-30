@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int exponenciacao(int base, int expoente) {
+int exponentiation(int base, int exponent) {
 
   int i;
   int result = base;
 
-  for (i = 0; i < expoente - 1; i++)
+  for (i = 0; i < exponent - 1; i++)
     result *= base;
 
   return result;
@@ -13,7 +13,7 @@ int exponenciacao(int base, int expoente) {
 
 int main() {
 
-  printf("%d\n", exponenciacao(5, 3));
+  printf("%d\n", exponentiation(5, 3));
 
   return 0;
 }

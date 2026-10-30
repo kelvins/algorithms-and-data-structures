@@ -71,12 +71,12 @@ void print(Node *p) {
 }
 
 void Menu() {
-  printf("  Menu Principal\n");
+  printf("  Main Menu\n");
   printf("1 - Insert at the beginning\n");
   printf("2 - Insert at the end\n");
-  printf("3 - Retira\n");
-  printf("4 - Sair\n");
-  printf("\nOpcao: ");
+  printf("3 - Remove\n");
+  printf("4 - Exit\n");
+  printf("\nOption: ");
 }
 
 void libera(Node *ini) {
@@ -122,7 +122,7 @@ int main() {
       break;
     case 3:
       if (p->prox != NULL) {
-        printf("Retirar um elemento: ");
+        printf("Remove an item: ");
         scanf("%d", &item);
         findAndRemove(item, p);
       } else {
@@ -133,7 +133,7 @@ int main() {
     case 4:
       break;
     default:
-      printf("Opcao invalida!\n");
+      printf("Invalid option!\n");
       system("pause");
       break;
     }

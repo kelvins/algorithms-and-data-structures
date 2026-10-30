@@ -109,9 +109,9 @@ int main() {
   NodePointer temporary;
   int value = 2;
   if (linearSearch(value, list, &temporary) != NULL)
-    printf("Valor %d encontrado.\n", value);
+    printf("Value %d found.\n", value);
   else
-    printf("Valor %d não encontrado.\n", value);
+    printf("Value %d not found.\n", value);
 
   return 0;
 }

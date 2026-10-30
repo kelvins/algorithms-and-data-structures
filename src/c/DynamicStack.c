@@ -74,7 +74,7 @@ int main() {
   SHOW(stack);
 
   if (SEARCH(6, stack))
-    printf("\nAchou\n");
+    printf("\nFound\n");
   else
     printf("\nNot found\n");
 

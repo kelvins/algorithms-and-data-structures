@@ -128,7 +128,7 @@ int main() {
   }
 
   if (hamiltonianCycle(GRAPH)) {
-    printf("Ciclo Hamiltoniano:\n");
+    printf("Hamiltonian cycle:\n");
     for (int i = 0; i < MAX_VERTICES; i++) {
       printf("%c, ", solution[i]->id);
     }
