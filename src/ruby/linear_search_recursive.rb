@@ -5,14 +5,14 @@ include Test::Unit::Assertions
 
 # Return the element index, or -1 if it is not present.
 
-def busca_sequencial_recursiva(lista, valor, index = 0)
-  if lista[index] == valor
+def busca_sequencial_recursiva(list, value, index = 0)
+  if list[index] == value
     index
-  elsif index == lista.size
+  elsif index == list.size
     -1
   else
     index += 1
-    busca_sequencial_recursiva(lista, valor, index)
+    busca_sequencial_recursiva(list, value, index)
   end
 end
 
