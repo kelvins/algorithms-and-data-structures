@@ -18,7 +18,7 @@ def try_move(i, x, y):
     """
     Try the i-th move at (x, y), where 1 <= i <= n^2
     """
-    done = i > board_square_count  # True ou False
+    done = i > board_square_count  # True or False
     k = 0
     while not done and k < 8:
         u = x + dx[k]  # Coordinates of the knight's eight possible moves
