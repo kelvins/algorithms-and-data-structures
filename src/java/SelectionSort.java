@@ -5,12 +5,12 @@ public class SelectionSort {
     int array[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("Selection Sort:");
-    System.out.println("Array não ordenado:");
+    System.out.println("Array not sorted:");
     mostraVetor(array);
 
     array = selectionSort(array, 0);
 
-    System.out.println("Array ordenado:");
+    System.out.println("Array sorted:");
     mostraVetor(array);
   }
 

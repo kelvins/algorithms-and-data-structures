@@ -1,6 +1,6 @@
 public class queue {
 
-  public processo processoAtual;
+  public process processoAtual;
   public queue proximaFila;
 
   public queue() {
@@ -8,7 +8,7 @@ public class queue {
     this.proximaFila = null;
   }
 
-  public void inserirfila(processo processoNovo) {
+  public void inserirfila(process processoNovo) {
     if (this.processoAtual == null) {
       this.processoAtual = processoNovo;
       this.proximaFila = new queue();
@@ -17,8 +17,8 @@ public class queue {
     }
   }
 
-  public processo removerfila() {
-    processo removido = this.processoAtual;
+  public process removerfila() {
+    process removido = this.processoAtual;
     this.processoAtual = this.proximaFila.processoAtual;
     this.proximaFila = this.proximaFila.proximaFila;
     return removido;

@@ -34,13 +34,13 @@ public class ArvoreDeSearchBinaria {
     System.out.println("\n");
 
     int key = 56;
-    if (buscaBinaria(Tree, key) != null) System.out.println("\nEncontrou a key " + key);
+    if (binarySearch(Tree, key) != null) System.out.println("\nEncontrou a key " + key);
     else System.out.println("\nNao encontrou a key " + key);
 
-    System.out.println("Altura da arvore : " + alturaArvore(Tree));
+    System.out.println("Altura da tree : " + alturaArvore(Tree));
   }
 
-  public static No buscaBinaria(No no, int key) {
+  public static No binarySearch(No no, int key) {
     while (no != null) {
       if (no.getChave() == key) return no;
       if (key > no.getChave()) no = no.getDir();
@@ -69,7 +69,7 @@ public class ArvoreDeSearchBinaria {
   public static boolean excluiArvore(No no, int key) {
     No current, noPai, replacement;
     replacement = null;
-    current = buscaBinaria(no, key);
+    current = binarySearch(no, key);
     if (current == null) return false; // The key was not found
     noPai = buscaNoPai(no, key);
     if (current.getEsq() == null || current.getDir() == null) { // Se tem 0 ou 1 child
@@ -96,12 +96,12 @@ public class ArvoreDeSearchBinaria {
     return true;
   }
 
-  public static void insereArvore(No arvore, int key) {
-    No previous = arvore;
-    while (arvore != null) {
-      previous = arvore;
-      if (arvore.getChave() < key) arvore = arvore.getDir();
-      else arvore = arvore.getEsq();
+  public static void insereArvore(No tree, int key) {
+    No previous = tree;
+    while (tree != null) {
+      previous = tree;
+      if (tree.getChave() < key) tree = tree.getDir();
+      else tree = tree.getEsq();
     }
     No new = new No(key);
     if (previous.getChave() < key) previous.setDir(new);
@@ -137,8 +137,8 @@ public class ArvoreDeSearchBinaria {
     return b;
   }
 
-  public static int alturaArvore(No arvore) {
-    if (arvore == null) return 0;
-    return 1 + max(alturaArvore(arvore.getEsq()), alturaArvore(arvore.getDir()));
+  public static int alturaArvore(No tree) {
+    if (tree == null) return 0;
+    return 1 + max(alturaArvore(tree.getEsq()), alturaArvore(tree.getDir()));
   }
 }

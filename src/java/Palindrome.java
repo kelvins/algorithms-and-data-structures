@@ -9,6 +9,6 @@ public class Palindromo {
 
     if (word.replace(" ", "").toLowerCase().equals(palavraInvertida.replace(" ", "")))
       System.out.println("word é um palindromo!");
-    else System.out.println("word não é um palindromo!");
+    else System.out.println("word not é um palindromo!");
   }
 }

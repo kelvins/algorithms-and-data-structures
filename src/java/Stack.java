@@ -1,6 +1,6 @@
 public class stack {
 
-  public processo processoAtual;
+  public process processoAtual;
   public stack proximaPilha;
 
   public stack() {
@@ -8,7 +8,7 @@ public class stack {
     this.proximaPilha = null;
   }
 
-  public void inserirpilha(processo processoNovo) {
+  public void inserirpilha(process processoNovo) {
     if (this.processoAtual == null) {
       this.processoAtual = processoNovo;
       this.proximaPilha = new stack();
@@ -17,9 +17,9 @@ public class stack {
     }
   }
 
-  public processo removerPilha() {
+  public process removerPilha() {
     if (this.proximaPilha.proximaPilha == null) {
-      processo removido = this.processoAtual;
+      process removido = this.processoAtual;
       this.processoAtual = null;
       this.proximaPilha = null;
       return removido;

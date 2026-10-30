@@ -5,17 +5,17 @@ public class MinMaxRecursivo {
     MinMax(arr, arr[0], arr[0], 0);
   }
 
-  public static void MinMax(int vect[], int minimo, int maximo, int index) {
-    if (vect[index] < minimo) {
-      minimo = vect[index];
+  public static void MinMax(int vect[], int minimum, int maximum, int index) {
+    if (vect[index] < minimum) {
+      minimum = vect[index];
     }
-    if (vect[index] > maximo) {
-      maximo = vect[index];
+    if (vect[index] > maximum) {
+      maximum = vect[index];
     }
     if (index < vect.length - 1) {
-      MinMax(vect, minimo, maximo, index + 1);
+      MinMax(vect, minimum, maximum, index + 1);
     } else {
-      System.out.println("Mínimo :" + minimo + "\nMáximo: " + maximo);
+      System.out.println("Mínimo :" + minimum + "\nMáximo: " + maximum);
     }
   }
 }
