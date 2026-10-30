@@ -15,4 +15,4 @@ end
 list = [19, 32, 43, 58, 12, 28, 98, 19, 12, 10]
 print list
 
-puts "\nMaximo recursive: #{max_recursive(list, list[0], 0)}"
+puts "\nRecursive maximum: #{max_recursive(list, list[0], 0)}"

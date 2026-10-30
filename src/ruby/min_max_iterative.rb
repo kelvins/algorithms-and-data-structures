@@ -17,8 +17,8 @@ def min_max_array(array)
     end
   end
 
-  puts "Minimo: #{minimum}"
-  puts "Maximo: #{maximum}"
+  puts "Minimum: #{minimum}"
+  puts "Maximum: #{maximum}"
 end
 
 list = [2, 94, 83, 10, 0, 2, 48, 1, 24]
