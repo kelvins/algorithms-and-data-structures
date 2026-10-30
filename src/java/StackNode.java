@@ -14,11 +14,11 @@ public class StackNode {
     this.key = key;
   }
 
-  public StackNode getProx() {
+  public StackNode getNextNode() {
     return nextNode;
   }
 
-  public void setProx(StackNode nextNode) {
+  public void setNextNode(StackNode nextNode) {
     this.nextNode = nextNode;
   }
 }
