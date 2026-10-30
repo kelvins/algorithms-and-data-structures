@@ -1,4 +1,4 @@
-public class Palindromo {
+public class Palindrome {
   public static void main(String[] args) {
     String word, reversedWord = "";
     word = "A grama é amarga";

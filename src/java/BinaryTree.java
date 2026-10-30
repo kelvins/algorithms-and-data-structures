@@ -1,5 +1,5 @@
 /*
- *	Utiliza a classe TreeNode
+ *	Uses the TreeNode class.
  */
 
 public class BinaryTree {

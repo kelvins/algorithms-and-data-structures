@@ -14,7 +14,7 @@ public class TwoSum {
    * @param values List of values that will be checked.
    * @param expected Expected value from the sum of two numbers from the values list.
    */
-  public static void checkIfThereSumExists(List<Integer> values, int expected) {
+  public static void checkIfTwoSumExists(List<Integer> values, int expected) {
     boolean result = false;
     for (int i = 0; i < values.size() - 1; i++) {
       for (int j = i + 1; j < values.size(); j++) {
@@ -39,12 +39,12 @@ public class TwoSum {
   public static void main(String[] args) {
     List<Integer> values = new ArrayList<Integer>(List.of(12, 33, 5, 9, 54, 100));
     System.out.println("------It must be true------");
-    checkIfThereSumExists(values, 133);
-    checkIfThereSumExists(values, 42);
-    checkIfThereSumExists(values, 66);
+    checkIfTwoSumExists(values, 133);
+    checkIfTwoSumExists(values, 42);
+    checkIfTwoSumExists(values, 66);
     System.out.println("------It must be false------");
-    checkIfThereSumExists(values, 13);
-    checkIfThereSumExists(values, 100);
-    checkIfThereSumExists(values, 60);
+    checkIfTwoSumExists(values, 13);
+    checkIfTwoSumExists(values, 100);
+    checkIfTwoSumExists(values, 60);
   }
 }

@@ -1,43 +1,43 @@
 /*
- *	Utiliza a classe TreeNode
+ *	Uses the TreeNode class.
  */
 public class BinarySearchTree {
 
   public static void main(String[] args) {
-    TreeNode Tree = new TreeNode(45);
-    insertIntoTree(Tree, 56);
-    insertIntoTree(Tree, 67);
-    insertIntoTree(Tree, 24);
-    insertIntoTree(Tree, 61);
-    insertIntoTree(Tree, 52);
+    TreeNode tree = new TreeNode(45);
+    insertIntoTree(tree, 56);
+    insertIntoTree(tree, 67);
+    insertIntoTree(tree, 24);
+    insertIntoTree(tree, 61);
+    insertIntoTree(tree, 52);
 
     System.out.print("Preorder: ");
-    preOrder(Tree);
+    preOrder(tree);
     System.out.print("\nInorder: ");
-    inOrder(Tree);
+    inOrder(tree);
     System.out.print("\nPostorder: ");
-    postOrder(Tree);
+    postOrder(tree);
 
-    deleteFromTree(Tree, 45);
-    deleteFromTree(Tree, 24);
-    deleteFromTree(Tree, 56);
+    deleteFromTree(tree, 45);
+    deleteFromTree(tree, 24);
+    deleteFromTree(tree, 56);
 
     System.out.println("\n");
 
     System.out.print("Preorder: ");
-    preOrder(Tree);
+    preOrder(tree);
     System.out.print("\nInorder: ");
-    inOrder(Tree);
+    inOrder(tree);
     System.out.print("\nPostorder: ");
-    postOrder(Tree);
+    postOrder(tree);
 
     System.out.println("\n");
 
     int key = 56;
-    if (binarySearch(Tree, key) != null) System.out.println("\nFound key: " + key);
+    if (binarySearch(tree, key) != null) System.out.println("\nFound key: " + key);
     else System.out.println("\nKey not found: " + key);
 
-    System.out.println("Tree height: " + treeHeight(Tree));
+    System.out.println("Tree height: " + treeHeight(tree));
   }
 
   public static TreeNode binarySearch(TreeNode node, int key) {
@@ -49,12 +49,12 @@ public class BinarySearchTree {
     return null;
   }
 
-  public static TreeNode findParentNode(TreeNode current, int ch) {
+  public static TreeNode findParentNode(TreeNode current, int key) {
     TreeNode parentNode = null;
     while (current != null) {
-      if (current.getKey() == ch) return parentNode;
+      if (current.getKey() == key) return parentNode;
       parentNode = current;
-      if (current.getKey() < ch) current = current.getRight();
+      if (current.getKey() < key) current = current.getRight();
       else current = current.getLeft();
     }
     return parentNode;
@@ -72,7 +72,7 @@ public class BinarySearchTree {
     current = binarySearch(node, key);
     if (current == null) return false; // The key was not found
     parentNode = findParentNode(node, key);
-    if (current.getLeft() == null || current.getRight() == null) { // Se tem 0 ou 1 child
+    if (current.getLeft() == null || current.getRight() == null) { // The node has zero or one child
       if (current.getLeft() == null) {
         replacement = current.getRight();
       } else {
