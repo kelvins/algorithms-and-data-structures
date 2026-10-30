@@ -1,45 +1,45 @@
 #[derive(Debug)]
-struct Fila<T> {
-    fila: Vec<T>,
+struct Queue<T> {
+    queue: Vec<T>,
 }
 
-impl<T> Fila<T> {
+impl<T> Queue<T> {
     fn new() -> Self {
-        Fila { fila: Vec::new() }
+        Queue { queue: Vec::new() }
     }
 
     fn length(&self) -> usize {
-        self.fila.len()
+        self.queue.len()
     }
 
     fn enqueue(&mut self, item: T) {
-        self.fila.push(item)
+        self.queue.push(item)
     }
 
     fn dequeue(&mut self) -> T {
-        self.fila.remove(0)
+        self.queue.remove(0)
     }
     fn is_empty(&self) -> bool {
-        self.fila.is_empty()
+        self.queue.is_empty()
     }
 
     fn peek(&self) -> Option<&T> {
-        self.fila.first()
+        self.queue.first()
     }
 }
 
 fn main() {
-    let mut fila: Fila<i32> = Fila::<i32>::new();
-    fila.enqueue(1);
-    println!("{:?}", fila);
-    fila.dequeue();
+    let mut queue: Queue<i32> = Queue::<i32>::new();
+    queue.enqueue(1);
+    println!("{:?}", queue);
+    queue.dequeue();
     println!(
         "length: {:?}, is empty? {:?}",
-        fila.length(),
-        fila.is_empty()
+        queue.length(),
+        queue.is_empty()
     );
-    fila.enqueue(1);
-    fila.enqueue(2);
-    fila.enqueue(3);
-    println!("{:?}", fila.peek());
+    queue.enqueue(1);
+    queue.enqueue(2);
+    queue.enqueue(3);
+    println!("{:?}", queue.peek());
 }

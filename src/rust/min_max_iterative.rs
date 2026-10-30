@@ -2,19 +2,19 @@ fn main() {
     min_max(vec![54, 42, 11, 33, 24, 99, 77, 80]);
 }
 
-fn min_max(vetor: Vec<i32>) {
-    let mut min = vetor[0];
-    let mut max = vetor[0];
+fn min_max(array: Vec<i32>) {
+    let mut min = array[0];
+    let mut max = array[0];
 
-    for i in 1..vetor.len() {
-        if vetor[i] < min {
-            min = vetor[i];
-        } else if vetor[i] > max {
-            max = vetor[i];
+    for i in 1..array.len() {
+        if array[i] < min {
+            min = array[i];
+        } else if array[i] > max {
+            max = array[i];
         }
     }
 
-    println! {"Data: {:?}", vetor};
+    println! {"Data: {:?}", array};
     println! {"Min.: {:?}", min};
     println! {"Max.: {:?}", max};
 }

@@ -1,46 +1,46 @@
 #[derive(Debug)]
-struct Pilha<T> {
-    pilha: Vec<T>,
+struct Stack<T> {
+    stack: Vec<T>,
 }
 
-impl<T> Pilha<T> {
+impl<T> Stack<T> {
     fn new() -> Self {
-        Pilha { pilha: Vec::new() }
+        Stack { stack: Vec::new() }
     }
 
     fn length(&self) -> usize {
-        self.pilha.len()
+        self.stack.len()
     }
 
     fn push(&mut self, item: T) {
-        self.pilha.push(item)
+        self.stack.push(item)
     }
 
     fn pop(&mut self) -> Option<T> {
-        self.pilha.pop()
+        self.stack.pop()
     }
 
     fn is_empty(&self) -> bool {
-        self.pilha.is_empty()
+        self.stack.is_empty()
     }
 
     fn peek(&self) -> Option<&T> {
-        self.pilha.first()
+        self.stack.first()
     }
 }
 
 fn main() {
-    let mut pilha: Pilha<i32> = Pilha::<i32>::new();
-    pilha.push(1);
-    pilha.push(2);
-    println!("{:?}", pilha);
-    pilha.pop();
-    println!("{:?}", pilha);
+    let mut stack: Stack<i32> = Stack::<i32>::new();
+    stack.push(1);
+    stack.push(2);
+    println!("{:?}", stack);
+    stack.pop();
+    println!("{:?}", stack);
     println!(
         "length: {:?}, is empty? {:?}",
-        pilha.length(),
-        pilha.is_empty()
+        stack.length(),
+        stack.is_empty()
     );
-    pilha.push(3);
-    println!("{:?}", pilha.peek());
+    stack.push(3);
+    println!("{:?}", stack.peek());
 }
