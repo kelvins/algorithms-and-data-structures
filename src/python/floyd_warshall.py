@@ -41,7 +41,7 @@ def floyd_warshall(matrix, vertices):
                 if i != j and Dist != inf and Dist < dist[i][j]:
                     dist[i][j] = Dist
     # Print the result
-    print("Matrix de distâncias")
+    print("Distance matrix")
     imprime(dist, vertices)
 
 

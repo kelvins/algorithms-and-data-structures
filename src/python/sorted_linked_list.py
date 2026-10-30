@@ -1,4 +1,4 @@
-"""List Sequencial Dinamica e Ordenada"""
+"""Dynamic sorted sequential list."""
 
 import random
 
@@ -6,9 +6,7 @@ list = []
 
 
 def insert_list(key, list):
-    """
-    Insere a key na list
-    """
+    """Insert a key into the list."""
     list.append(key)
     i, p = 0, 0
     while list[i] < key:
@@ -21,7 +19,7 @@ def insert_list(key, list):
 
 
 def search_sentinel(key, list):
-    """Algoritmo de search sentinel"""
+    """Search the list using a sentinel."""
     list.append(key)
     i = 0
     while list[i] != key:
@@ -33,8 +31,8 @@ def search_sentinel(key, list):
     return i
 
 
-def deleta_value(key, list):
-    """Deleta uma key na list"""
+def delete_value(key, list):
+    """Delete a key from the list."""
     position = search_sentinel(key, list)
     if position >= 0:
         list.pop(position)
@@ -43,15 +41,15 @@ def deleta_value(key, list):
 
 
 def print_list(list):
-    """Imprime a list"""
+    """Print the list."""
     print(list)
 
 
 for _ in range(0, 50):
     insert_list(random.randint(10, 99), list)
 
-print("Valor na position: " + str(search_sentinel(25, list)))
+print("Value at position: " + str(search_sentinel(25, list)))
 
 print_list(list)
-deleta_value(10, list)
+delete_value(10, list)
 print_list(list)

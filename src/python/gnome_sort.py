@@ -24,10 +24,10 @@ def gnomesort(list):
 def main():
     list = [-1, 1, 0, -7, 7, -5, 5, 2, -2, 4, -4, 9, -9, -6, 6, -8, 8, -3, 3]
     # Print the unsorted list
-    print(f"List antes de ser sorted: {list}")
+    print(f"List before sorting: {list}")
     list = gnomesort(list)
     # Print the sorted list
-    print(f"List após sortção com Gnome Sort: {list}")
+    print(f"List after sorting with Gnome Sort: {list}")
 
 
 if __name__ == "__main__":

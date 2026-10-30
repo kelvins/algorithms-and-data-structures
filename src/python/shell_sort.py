@@ -1,13 +1,8 @@
-"""Implementacao do algoritmo shell sort"""
+"""Implement the Shell sort algorithm."""
 
 
 def shell_sort(a_list):
-    """
-    Algoritmo shell sort.
-
-    Argumentos:
-        a_list: list. Uma list not sorted
-    """
+    """Sort the list using Shell sort."""
     sublist_count = len(a_list) // 2
     while sublist_count > 0:
         for start_position in range(sublist_count):
@@ -17,7 +12,7 @@ def shell_sort(a_list):
 
 
 def gap_insertion_sort(a_list, start, gap):
-    """Algoritmo gap insertion sort."""
+    """Sort a sublist using gap insertion sort."""
     for i in range(start + gap, len(a_list), gap):
         current_value = a_list[i]
         position = i

@@ -1,8 +1,8 @@
-"""Exemplo de Máximo, utilizando recursão."""
+"""Find the maximum value recursively."""
 
 
 def max_recursive(array, maximum, index):
-    """Search o value maximum através usando recursão."""
+    """Find the maximum value in the array using recursion."""
     if array[index] > maximum:
         maximum = array[index]
     if index < len(array) - 1:

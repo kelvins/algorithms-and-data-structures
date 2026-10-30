@@ -4,7 +4,7 @@ import random
 
 
 def min_max_dc(array, start, end):
-    """Encontra o value minimum e maximum em um array usando D&C."""
+    """Find an array's minimum and maximum using divide and conquer."""
     if start == end:
         return array[start], array[start]
 

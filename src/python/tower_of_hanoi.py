@@ -1,17 +1,17 @@
-"""Implementaçao do algoritmo Torre de Hanoi"""
+"""Implement the Tower of Hanoi algorithm."""
 
 
-def hanoi(pino0, pino2, pino1, discos):
+def hanoi(source_peg, target_peg, helper_peg, disk_count):
     """
-    Mostra os passos da torre de hanoi de forma recursive.
-    Parametros: from, to, helper, number de discos
+    Show the recursive steps for solving the Tower of Hanoi.
+    Parametros: from, to, helper, number de disk_count
     """
-    if discos == 1:
-        print("Move de {} para {}".format(pino0, pino2))
+    if disk_count == 1:
+        print("Move from {} to {}".format(source_peg, target_peg))
     else:
-        hanoi(pino0, pino1, pino2, discos - 1)
-        hanoi(pino0, pino2, pino1, 1)
-        hanoi(pino1, pino2, pino0, discos - 1)
+        hanoi(source_peg, helper_peg, target_peg, disk_count - 1)
+        hanoi(source_peg, target_peg, helper_peg, 1)
+        hanoi(helper_peg, target_peg, source_peg, disk_count - 1)
 
 
 if __name__ == "__main__":

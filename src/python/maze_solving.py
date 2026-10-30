@@ -1,7 +1,6 @@
-"""
-Search em width e em depth em um labirinto com o objetivo
-de find um path do ponto "start" ao ponto "goal"
-Referencia: Problemas Classicos de Ciencia da Computacao com Python
+"""Search a maze using depth-first and breadth-first traversal.
+
+Find a path from the start point to the goal point.
 """
 
 import random
@@ -39,7 +38,7 @@ class Maze:
         self._grid[goal.row][goal.col] = Cell.GOAL
 
     def _randomly_fill(self, rows, cols, sparseness):
-        """Preenche o labirinto de forma randomica."""
+        """Return the path found by the search algorithm."""
         for row in range(rows):
             for col in range(cols):
                 if random.uniform(0, 1.0) < sparseness:
@@ -52,7 +51,7 @@ class Maze:
         return maze_location == self.goal
 
     def successors(self, ml):
-        """Calcula as possiveis localizacoes onde eh possivel se mover."""
+        """Return the available neighboring locations."""
         locations = list()
         if ml.row + 1 < self._rows and self._grid[ml.row + 1][ml.col] != Cell.BLOCKED:
             locations.append(MazeLocation(ml.row + 1, ml.col))
@@ -65,14 +64,14 @@ class Maze:
         return locations
 
     def mark(self, path):
-        """Marca o path andado no labirinto."""
+        """Mark the path through the maze."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.PATH
         self._grid[self.start.row][self.start.col] = Cell.START
         self._grid[self.goal.row][self.goal.col] = Cell.GOAL
 
     def clear(self, path):
-        """Limpa o path marcado no labirinto."""
+        """Clear the marked path from the maze."""
         for maze_location in path:
             self._grid[maze_location.row][maze_location.col] = Cell.EMPTY
         self._grid[self.start.row][self.start.col] = Cell.START
@@ -122,7 +121,7 @@ class Node:
 
 
 def dfs(initial, goal_test, successors):
-    """Algoritmo de search em depth."""
+    """Search using depth-first traversal."""
     # frontier stores the locations we have not visited yet
     frontier = Stack()
     frontier.push(Node(initial, None))
@@ -150,7 +149,7 @@ def dfs(initial, goal_test, successors):
 
 
 def bfs(initial, goal_test, successors):
-    """Algoritmo de search em width."""
+    """Search using breadth-first traversal."""
     # frontier stores the locations we have not visited yet
     frontier = Queue()
     frontier.push(Node(initial, None))
@@ -178,7 +177,7 @@ def bfs(initial, goal_test, successors):
 
 
 def node_to_path(node):
-    """Retorna o path found pelo algoritmo."""
+    """Return the path found by the search algorithm."""
     path = [node.state]
     while node.parent:
         node = node.parent
@@ -204,7 +203,7 @@ if __name__ == "__main__":
     # Solution using breadth-first search
     solution = bfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
-        print("No solution found using breath-first search")
+        print("No solution found using breadth-first search")
     else:
         path = node_to_path(solution)
         maze.mark(path)

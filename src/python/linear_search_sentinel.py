@@ -1,15 +1,15 @@
-"""Implementacao do algoritmo de search sentinel"""
+"""Implement sentinel search."""
 
 
 def search_sentinel(list_to_search, value):
-    """
-    Implementacao de um algoritmo de search sentinel.
+    """Search for a value using a sentinel.
 
-    Argumentos:
-    value: Any. Valor a ser buscado na list
-    list_to_search: list. list na qual o value sera buscado
+    Args:
+        list_to_search: The list to search.
+        value: The value to find.
 
-    Retorna o index do value em "list_to_search" ou -1 caso not exista nela.
+    Returns:
+        The index of the value, or -1 if absent.
     """
     list_to_search.append(value)
     list_index = 0

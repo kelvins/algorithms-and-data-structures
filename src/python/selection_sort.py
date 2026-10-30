@@ -1,15 +1,15 @@
-"""Implementação de um algoritmo de selection sort com recursão"""
+"""Implement recursive selection sort."""
 
 
 def selection_sort(array, index):
-    """
-    Implementação de um algoritmo de selection sort com recursão.
+    """Sort the array recursively.
 
-    Argumentos:
-    array: list. List que será sorted
-    index: int. Indice do element a ser sorted na list
+    Args:
+        array: The list to sort.
+        index: The index of the element to process next.
 
-    Retorna a list "array" sorted.
+    Returns:
+        The sorted list.
     """
     if index >= len(array) - 1:
         return -1

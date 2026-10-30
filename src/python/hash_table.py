@@ -54,15 +54,15 @@ if __name__ == "__main__":
     for i in range(143):
         hash_table[i] = hex(round(i * 23))
 
-    # Deletar item
-    print("Deletar key 0 de value: ", hash_table[0])
+    # Delete an item
+    print("Delete value for key 0:", hash_table[0])
     del hash_table[0]
 
-    # Procurar item
-    print("Valor da key 23: ", hash_table[23])
+    # Find an item
+    print("Value for key 23:", hash_table[23])
 
     # Assign a value to a key
-    hash_table[1] = "TESTE DE SUBSCREVER"
+    hash_table[1] = "SUBSCRIPTION TEST"
 
     # Display the hash distribution
     for i, table in enumerate(hash_table.tables):

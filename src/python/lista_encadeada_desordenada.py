@@ -1,4 +1,4 @@
-"""Implementação de uma list linked unordered"""
+"""Implement an unordered linked list."""
 
 
 class Node:

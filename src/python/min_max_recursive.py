@@ -1,10 +1,8 @@
-"""Implementação do algoritmo de maximum e minimum com recursão"""
+"""Find an array's minimum and maximum values recursively."""
 
 
 def max_min(array, minimum, maximum, index):
-    """
-    Imprime os values maximum e minimum de um array
-    """
+    """Print the minimum and maximum values in the array."""
     if array[index] < minimum:
         minimum = array[index]
     if array[index] > maximum:
@@ -16,5 +14,5 @@ def max_min(array, minimum, maximum, index):
         print(maximum)
 
 
-um_array = [2, 94, 83, 10, 0, 2, 48, 1, 24]
-max_min(um_array, um_array[0], um_array[0], 0)
+array = [2, 94, 83, 10, 0, 2, 48, 1, 24]
+max_min(array, array[0], array[0], 0)
