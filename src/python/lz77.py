@@ -12,8 +12,8 @@ class BitArray:
 
     def __init__(self, input_data=None, endian="big"):
         self.ENDIAN_TYPE = endian
-        # Se fornecido um bytearray converte
-        # o mesmo para lista de bits
+        # If a bytearray is provided, convert
+        # it to a list of bits
         if input_data:
             for byte in input_data:
                 bitstring = "{:08b}".format(byte)
@@ -62,22 +62,22 @@ class BitArray:
 
 
 class LZ77:
-    # Tamanho máximo da janela de compressão
+    # Maximum compression window size
     MAX_WINDOW_SIZE = 0
 
-    # Distância máxima do cursor para consulta de ocorrências
+    # Maximum cursor distance for looking up matches
     MAX_LOOKAHEAD_BUFFER = 0
 
-    # Ativa o debug da compressão
+    # Enable compression debugging
     ENABLE_DEBUG = True
 
-    # Cursor da Posição atual
+    # Current cursor position
     CURSOR = 0
 
-    # Tipo de leitura binária (ENDIAN)
+    # Binary reading byte order (endianness)
     ENDIAN_TYPE = "big"
 
-    # Dados de Entrada
+    # Input data
     data = None
 
     def __init__(self, window_size=400, lookahed_buffer=15, endian="big", verbose=True):
@@ -93,28 +93,28 @@ class LZ77:
         consultando o histórico existente dentro da janela para encontrar
         uma ocorrência compatível.
         """
-        # Define o endereço limite do buffer baseado no cursor atual
+        # Set the buffer limit based on the current cursor
         end_of_buffer = min(self.CURSOR + self.MAX_LOOKAHEAD_BUFFER, len(self.data) + 1)
-        # Define a distancia e o tamanho da melhor ocorrencia para seu
-        # estado inicial (nenhum ocorrencia encontrada)
+        # Set the best match distance and length to their
+        # initial values (no match found)
         best_match_distance = -1
         best_match_length = -1
 
-        # Percorre o arquivo a partir do cursor
-        # Otimização: Somente serão consideradas ocorrencias válidas
-        # se o tamanho for 2 ou maior, e encaminha direto para saída
-        # quaisquer ocorrencias de tamanho 1
-        # (8 bits decomprimidos é melhor do que 13 bits para flag,
-        # distância e tamanho)
+        # Scan the file starting at the cursor
+        # Optimization: only matches of length 2 or more are considered
+        # and sent to the output; any
+        # one-character matches
+        # (8 uncompressed bits are better than 13 bits for the flag,
+        # distance, and length)
         for i in range(self.CURSOR + 2, end_of_buffer):
-            # Armazena a posição do cursor no inicio da ocorrência
-            # respeitando o tamanho máximo da janela
+            # Store the cursor position at the start of the match
+            # while respecting the maximum window size
             start_index = max(0, self.CURSOR - self.MAX_WINDOW_SIZE)
-            # Armazena a ocorrencia a ser pesquisada
+            # Store the match being searched for
             ocurrence = self.data[self.CURSOR : i]
 
-            # Percorre o arquivo apartir do início da ocorrência
-            # em busca da maior cadeia compativel existente no arquivo
+            # Scan the file from the start of the match
+            # for the longest compatible sequence in the file
             for j in range(start_index, self.CURSOR):
                 compatible_chain_length = len(ocurrence) // (self.CURSOR - j)
                 compatible_chain_last = len(ocurrence) % (self.CURSOR - j)
@@ -122,15 +122,15 @@ class LZ77:
                 compatible_chain *= compatible_chain_length
                 compatible_chain += self.data[j : j + compatible_chain_last]
 
-                # Se alguma cadeia compativel for encontrada e
-                # seu tamanho for MAIOR que o do ultimo
-                # resultado definido como melhor
-                # então aceita a mesma como sendo a melhor opção.
+                # If a compatible sequence is found and
+                # its length is GREATER than that of the last
+                # best result
+                # then accept it as the best match.
                 if compatible_chain == ocurrence and len(ocurrence) > best_match_length:
                     best_match_distance = self.CURSOR - j
                     best_match_length = len(ocurrence)
 
-        # Se alguma ocorrência foi encontrada retorna a melhor opção.
+        # If a match was found, return the best one.
         if best_match_distance > 0 and best_match_length > 0:
             return (best_match_distance, best_match_length)
 
@@ -143,72 +143,72 @@ class LZ77:
         também fornecido. Se nenhum arquivo de saída for forncedido, os dados
         descomprimidos são retornados como uma string
         """
-        # Define a posição inicial do CURSOR como sendo 0
-        # ou seja inicio do arquivo
+        # Set the initial CURSOR position to 0
+        # (the start of the file)
         self.CURSOR = 0
-        # Transforma o bytearray de dados comprimidos em
-        # uma lista de bits para facilita a manipulação
+        # Convert the compressed data bytearray into
+        # a list of bits for easier manipulation
         self.data = BitArray(input_data).bits
-        # Define o janela de compressão
-        # como sendo um bytearray
+        # Define the decompression window
+        # as a bytearray
         lz_window = bytearray()
 
-        # Le o arquivo enquanto o tamanho da lista
-        # de bits for maior que 8
+        # Read the file while the list
+        # contains more than 8 bits
         while len(self.data) >= 9:
-            # Le a flag que indica se há ou não
-            # compressão e em seguida exclui a mesma
-            # do buffer
+            # Read the flag indicating whether the data is
+            # compressed, then remove it
+            # from the buffer
             flag = self.data.pop(0)
 
-            # Se a bit flag for 0 então apenas copia
-            # o valor para a janela de descompressão
+            # If the flag is 0, just copy
+            # the value to the decompression window
             if not flag:
-                # Transforma 8 bits em um byte
+                # Convert 8 bits to a byte
                 byte = 0
                 for i in self.data[0:8]:
                     byte = (byte << 1) | i
-                # Se o byte 0xFF for encontrado
-                # finaliza a descompressão
+                # If byte 0xFF is found,
+                # stop decompression
                 if byte == 0xFF:
                     break
-                # Adiciona o byte a janela
+                # Add the byte to the window
                 lz_window.append(byte)
-                # Exclui o byte do buffer já que foi
-                # lido
+                # Remove the byte from the buffer because it was
+                # read
                 del self.data[0:8]
 
-            # Se a bit flag for 1 então procura pela
-            # cadeia indicada pelo par LZ na janela
-            # de decompressão
+            # If the flag is 1, look for
+            # the sequence indicated by the LZ pair in the
+            # decompression window
             else:
-                # Transforma os bits do primeiro byte
+                # Convert the bits of the first byte
                 byte1 = 0
                 for i in self.data[0:8]:
                     byte1 = (byte1 << 1) | i
 
-                # Transforma os bits do segundo byte
+                # Convert the bits of the second byte
                 byte2 = 0
                 for i in self.data[8:16]:
                     byte2 = (byte2 << 1) | i
 
-                # Exclui ambos os bytes lidos do buffer
+                # Remove both bytes read from the buffer
                 del self.data[0:16]
 
-                # Executa o bitshift pra separar os bits
-                # de distancia dos bits de tamanho
+                # Shift bits to separate the
+                # distance bits from the length bits
                 distance = (byte1 << 4) | (byte2 >> 4)
                 length = byte2 & 0xF
 
-                # Copia a cadeia indicada para a posição atual
-                # do cursor na janela de decompressão
+                # Copy the indicated sequence to the current position
+                # of the cursor in the decompression window
                 for i in range(length):
                     try:
                         lz_window.append(lz_window[-distance])
                     except IndexError:
                         continue
 
-        # Retorna o arquivo de entrada descomprimido
+        # Return the decompressed input data
         return lz_window
 
     def compress(self, input_data):
@@ -226,33 +226,33 @@ class LZ77:
 
         Se o parâmetro verbose estiver habilitado, a descrição da compressão é exibida.
         """
-        # Define a posição inicial do CURSOR como sendo 0
-        # ou seja inicio do arquivo
+        # Set the initial CURSOR position to 0
+        # (the start of the file)
         self.CURSOR = 0
-        # Transforma o texto inserido em um bytearray
-        # para que possa ser lido como um arquivo binário
+        # Convert the input text to a bytearray
+        # so it can be read as a binary file
         self.data = bytearray(input_data.encode())
-        # Define a janela de compressão
-        # como sendo um lista de bits para facilitar
-        # a manipulação
+        # Define the compression window
+        # as a list of bits for easier
+        # manipulation
         lz_window = BitArray(endian=self.ENDIAN_TYPE)
 
-        # Percorre o arquivo inteiro
+        # Scan the entire file
         while self.CURSOR < len(self.data):
-            # Procura pela melhor e maior ocorrência
-            # compativel com a ocorrência existente
-            # no cursor atual
+            # Find the longest match
+            # compatible with the data at
+            # the current cursor
             match = self.find_longest_match()
 
-            # Se alguma ocorrência for encontrada adiciona o par LZ
+            # If a match is found, add the LZ pair
             if match:
-                # o PAR LZ é constituido da bit flag 1, seguida por 12 bits
-                # para distância e 4 bits para o tamanho da ocorrência.
+                # The LZ pair consists of a flag bit 1, followed by 12 bits
+                # for distance and 4 bits for match length.
                 best_match_distance, best_match_length = match
-                # Primeiro nibble da distancia
+                # First nibble of the distance
                 x = (best_match_distance >> 0x4).to_bytes(1, self.ENDIAN_TYPE)
-                # Segundo nibble da distancia acrescido do tamanho
-                # formando assim o par LZ
+                # Second distance nibble combined with the length
+                # to form the LZ pair
                 y = (((best_match_distance & 0xF) << 4) | best_match_length).to_bytes(
                     1, self.ENDIAN_TYPE
                 )
@@ -261,8 +261,8 @@ class LZ77:
                 lz_window.frombytes(x)
                 lz_window.frombytes(y)
 
-                # Se o debug estiver ativo, exibe as informações da cadeia
-                # encontrada
+                # If debugging is enabled, display information about the
+                # match found
                 if self.ENABLE_DEBUG:
                     print(
                         "<COMPRESSED, {}, {}>".format(
@@ -270,34 +270,34 @@ class LZ77:
                         )
                     )
 
-                # Incrementa a posição do cursor
+                # Advance the cursor
                 self.CURSOR += best_match_length
             else:
-                # Se nenhuma ocorrência foi encontrada
-                # adiciona ao buffer de saída o byte lido
-                # precedido da bit flag 0 = descomprimido,
-                # ou seja, ele estará em seu estado natural
-                # sem compressão
+                # If no match was found,
+                # add the byte read to the output buffer
+                # preceded by flag bit 0 (uncompressed),
+                # meaning it remains in its original state
+                # without compression
                 lz_window.append(0)
                 lz_window.fromint(self.data[self.CURSOR])
 
-                # Se o debug estiver ativo, exibe o byte decomprimido
+                # If debugging is enabled, display the uncompressed byte
                 if self.ENABLE_DEBUG:
                     print("<UNCOMPRESSED, {:c}>".format(self.data[self.CURSOR]))
 
-                # Incrementa em 1 a posição do cursor
+                # Advance the cursor by 1
                 self.CURSOR += 1
 
-        # Adiciona o byte 0xFF com a flag de decompressão
-        # para indicar o fim do arquivo comprimido
+        # Add byte 0xFF with the decompression flag
+        # to mark the end of the compressed file
         lz_window.append(0)
         lz_window.fromint(0xFF)
 
-        # Retorna o arquivo de entrada comprimido
+        # Return the compressed input data
         return lz_window.dump()
 
 
-# Entrada a ser comprimida com LZ
+# Input to be compressed with LZ
 input_text = '''Lorem Ipsum is simply dummy\
  text of the Lorem Ipsum printing and typesetting industry.\
  Lorem Ipsum has been the industry's standard dummy\

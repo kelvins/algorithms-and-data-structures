@@ -17,11 +17,10 @@
 #include <malloc.h>
 #include <stdio.h>
 
-#define MAX_VERTICES                                                           \
-  20 // Constante que define o máximo de vertices que o grafo pode ter
+#define MAX_VERTICES 20 // Maximum number of vertices the graph can have
 
-int nroVertices = 0;                    // Guarda o número de vértices atual
-int matriz[MAX_VERTICES][MAX_VERTICES]; // Matriz de Distancia
+int nroVertices = 0;                    // Current number of vertices
+int matriz[MAX_VERTICES][MAX_VERTICES]; // Distance matrix
 int componentes;
 
 typedef struct NO {
@@ -29,7 +28,7 @@ typedef struct NO {
   int nroVizinhos;
   struct AUX *vizinhos[];
   bool visitado;
-  int indice; // Guarda a ordem em que o vértice foi criado
+  int indice; // Stores the order in which the vertex was created
 } *VERTICE;
 
 typedef struct AUX {
@@ -104,7 +103,7 @@ void calculaComponentesConexos() {
 int main() {
   zeraVariaveis();
 
-  // Matriz de Distância funciona conforme a ordem inserida
+  // The distance matrix follows the insertion order
   VERTICE A = criaVertice('A');
   VERTICE B = criaVertice('B');
   VERTICE C = criaVertice('C');

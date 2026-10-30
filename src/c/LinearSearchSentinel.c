@@ -10,14 +10,13 @@
 
 #define TAM_VETOR 10
 
-// Busca sentinela, realiza uma busca sequencial sem precisar testar a chave a
-// cada passo do laço de busca
+// Sentinel search performs a linear search without checking the key at every
+// iteration of the search loop
 int buscaSentinela(int vetor[], int chave) {
   vetor[TAM_VETOR] =
-      chave;   // Coloca o valor buscado (chave) na última posição do vetor
-  int aux = 0; // Variável de controle do laço
-  while (vetor[aux] !=
-         chave) // Enquanto não encontrar o valor (chave) incrementa 1 em aux
+      chave;   // Place the searched value (key) at the end of the array
+  int aux = 0; // Loop counter
+  while (vetor[aux] != chave) // Increment aux until the value (key) is found
     aux++;
   if (aux == TAM_VETOR)
     return -1;
@@ -26,17 +25,17 @@ int buscaSentinela(int vetor[], int chave) {
 
 int main() {
 
-  int vetor[TAM_VETOR + 1]; // Declara o vetor com +1 pois é a posição que será
-                            // utilizada pela sentinela
+  int vetor[TAM_VETOR + 1]; // Declare one extra array position for the sentinel
+                            // used by the sentinel
 
-  // Preenche o vetor com valores aleatórios 0-1000
+  // Fill the array with random values from 0 to 1000
   srand(time(NULL));
   for (int i = 0; i < TAM_VETOR; i++) {
     vetor[i] = rand() % 1000;
     printf("%d, ", vetor[i]);
   }
 
-  // Faz a busca, passando como parâmetro o vetor e a chave que deseja buscar
+  // Search using the array and the key to find
   int res = buscaSentinela(vetor, vetor[TAM_VETOR - 2]);
   if (res != -1)
     printf("\n\nValor %d encontrado na posicao %d.\n\n", vetor[res], res);

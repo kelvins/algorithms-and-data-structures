@@ -46,7 +46,7 @@ class DoublyLinkedList:
         # We search for the data we want to delete
         # While current node is not invalid
         while curr_node is not None:
-            # Verifica se eh o dado que estamos buscando
+            # Check whether this is the value we are looking for
             if curr_node.data == data:
                 # If data we are looking for is in first node
                 # If we do not have a previous node in the list

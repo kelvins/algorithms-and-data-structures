@@ -1,7 +1,7 @@
 public class RadixSort {
 
   /**
-   * @param vetor Vetor que será ordenado Aplica a ordenação RadixSorte no vetor
+   * @param vetor array to be sorted; applies Radix Sort to the array
    */
   public int[] sort(int[] vetor) {
     int length = vetor.length, i, exp = 1, higher = vetor[0];

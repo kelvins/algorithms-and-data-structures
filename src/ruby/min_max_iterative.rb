@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Mínimo e Máximo Interativo em Ruby
+# Iterative minimum and maximum in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 

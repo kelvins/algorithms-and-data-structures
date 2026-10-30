@@ -18,7 +18,7 @@ typedef int TIPOCHAVE;
 typedef struct AUX {
   TIPOCHAVE chave;
   struct AUX *esq, *dir;
-} NO, *PONT; // NO é a estrutura e PONT é um ponteiro de NO
+} NO, *PONT; // NO is the structure and PONT is a pointer to NO
 
 int max(int a, int b) {
   if (a > b)
@@ -29,9 +29,10 @@ int max(int a, int b) {
 int altura(PONT no) {
   if (no == NULL) // Mesma coisa que usar if(!no)
     return 0;
-  return 1 + max(altura(no->esq),
-                 altura(no->dir)); // Percorre a arvore pela esquerda e pela
-                                   // direita para ver qual tem altura maior
+  return 1 +
+         max(altura(no->esq),
+             altura(no->dir)); // Percorre a arvore pela esquerda e pela
+                               // right side to check which subtree is taller
 }
 
 PONT buscaBinaria(TIPOCHAVE ch, PONT raiz) {
@@ -67,8 +68,8 @@ PONT criaNo(TIPOCHAVE ch) {
 
 bool inserir(TIPOCHAVE ch, PONT atual) {
   PONT ant;
-  // Percorre a arvore para a direita ou esquerda até encontrar uma posição NULL
-  // (vazia)
+  // Traverse right or left until a NULL position is found
+  // (empty)
   while (atual != NULL) {
     ant = atual;
     if (atual->chave < ch)
@@ -76,7 +77,7 @@ bool inserir(TIPOCHAVE ch, PONT atual) {
     else
       atual = atual->esq;
   }
-  atual = criaNo(ch); // Utiliza a váriavel atual, pois estava 'sobrando'
+  atual = criaNo(ch); // Reuse the current variable, which was available
   if (ant->chave < ch)
     ant->dir = atual;
   else
@@ -110,14 +111,14 @@ bool excluir(TIPOCHAVE ch, PONT raiz) {
   substituto = NULL;
   atual = buscaBinaria(ch, raiz);
   if (atual == NULL)
-    return false; // Não encontrou a chave
+    return false; // The key was not found
   noPai = buscaNoPai(ch, raiz);
   if (atual->esq == NULL || atual->dir == NULL) { // Se tem 0 ou 1 filho
     if (atual->esq == NULL)
       substituto = atual->dir;
     else
       substituto = atual->esq;
-    if (noPai == NULL) { // Único que não tem pai é a raiz
+    if (noPai == NULL) { // The root is the only node without a parent
       raiz = substituto;
     } else {
       if (ch < noPai->chave)
@@ -162,7 +163,7 @@ void emordem(PONT no) { // E - R - D
   emordem(no->dir);
 }
 
-// Esta função não está funcionando
+// This function is not working
 bool insereRecursivo(TIPOCHAVE ch, PONT no) {
   PONT ant;
   if (!no) {

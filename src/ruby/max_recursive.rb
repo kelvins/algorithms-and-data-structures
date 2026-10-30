@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Algoritmo de Máximo Recursivo em Ruby
+# Recursive maximum algorithm in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 

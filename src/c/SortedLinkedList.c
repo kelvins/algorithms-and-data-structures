@@ -8,48 +8,46 @@
 #define MAX 10
 #define ERRO -1
 
-typedef int TIPOCHAVE; // Define um nome TIPOCHAVE para um tipo inteiro
+typedef int TIPOCHAVE; // Define TIPOCHAVE as an alias for an integer type
 
 typedef struct {
   TIPOCHAVE chave;
 } REGISTRO;
 
 typedef struct {
-  REGISTRO A[MAX + 1]; // O +1 é a posição que será utilizada para a 'sentinela'
+  REGISTRO A[MAX + 1]; // The extra position is used for the sentinel
   int nroElementos;
 } LISTA;
 
 void inicializar(LISTA *L) {
-  L->nroElementos = 0; // Acessa a lista pelo endereço de memória
+  L->nroElementos = 0; // Access the list through its memory address
   int i = 0;
-  for (i; i < MAX - 2; ++i) { // Preenche a lista até -2 para deixar espaço para
-                              // inserir mais depois
+  for (i; i < MAX - 2; ++i) { // Fill all but two slots, leaving room for more
     L->A[i].chave = i * 2;
   }
   L->nroElementos = MAX - 2;
-  // (*L).nroElementos = 0; // Neste caso iria acessar a lista em si, e não o
-  // ponteiro
+  // (*L).nroElementos = 0; // This accesses the list itself, not the
+  // pointer
 }
 
-/* A função do sentinela é adicionar a chave ao final da lista, ou seja,
- * sempre irá encontrar a chave, mesmo que seja na útlima posição da lista.
- * Caso seja o último elemento, significa que não encontrou.
- * Deste modo elimina o 'if' dentro do laço, poupando várias comparações
+/* The sentinel's purpose is to add the key at the end of the list, ensuring
+ * the key is always found, even if it is in the last position.
+ * If it is the last element, the key was not present in the original list.
+ * This removes the 'if' from the loop and avoids several comparisons.
  */
-int buscaSentinela(
-    TIPOCHAVE ch,
-    LISTA *L) { // Poderia usar aqui busca binária, o que seria mais apropriado.
+int buscaSentinela(TIPOCHAVE ch,
+                   LISTA *L) { // Binary search could be used here and would be
+                               // more appropriate.
   int i = 0;
   L->A[L->nroElementos].chave =
-      ch; // Atribui a 'chave'/valor buscado a ultima posição do array A
-  while (L->A[i].chave !=
-         ch) // Percorre todo o array A buscando se a 'chave'/valor pesquisado
-             // se encontra no array (senão será o sentinela)
+      ch; // Assign the searched key/value to the last position of array A
+  while (L->A[i].chave != ch) // Scan array A for the searched key/value;
+                              // otherwise this is the sentinel
     i++;
-  if (i == L->nroElementos) // Se o valor chegou até o final, significa que não
-                            // encontrou o valor, retorna ERRO (-1)
+  if (i == L->nroElementos) // Reaching the end means the value was not found;
+                            // return ERROR (-1)
     return ERRO;
-  return i; // Caso contrário retorna a posição do valor/'chave' no array
+  return i; // Otherwise, return the position of the value/key in the array
 }
 
 bool inserirOrdenado(REGISTRO reg, LISTA *L) {
@@ -85,7 +83,7 @@ bool deletaValor(REGISTRO reg, LISTA *L) {
 void mostraLista(LISTA *L) {
   int i = 0;
   for (i; i < L->nroElementos;
-       ++i) { // Percorre e mostra todos os valores do array
+       ++i) { // Visit and display every value in the array
     printf("%d, ", L->A[i].chave);
   }
   printf("\n\n");

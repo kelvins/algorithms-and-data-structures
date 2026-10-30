@@ -23,7 +23,7 @@ PONT criaRegistro(TIPOCHAVE ch) {
 
 PONT insereRegistro(TIPOCHAVE ch, PONT rg) {
   if (rg == NULL)
-    return criaRegistro(ch); // Se não tem nenhum registro na lista cria um novo
+    return criaRegistro(ch); // Create a new record if the list has none
   while (rg->prox != NULL)
     rg = rg->prox;
   rg->prox = criaRegistro(ch);

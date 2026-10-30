@@ -47,10 +47,10 @@ class HashTable:
 
 
 if __name__ == "__main__":
-    # Cria as tabelas de dispersão
+    # Create the hash tables
     hash_table = HashTable()
 
-    # Insere as chaves e valores
+    # Insert the keys and values
     for i in range(143):
         hash_table[i] = hex(round(i * 23))
 
@@ -61,10 +61,10 @@ if __name__ == "__main__":
     # Procurar item
     print("Valor da chave 23: ", hash_table[23])
 
-    # Subscrever um valor de uma chave
+    # Assign a value to a key
     hash_table[1] = "TESTE DE SUBSCREVER"
 
-    # Exibir dispersão
+    # Display the hash distribution
     for i, table in enumerate(hash_table.tables):
         print(
             "Table {index} -> {table} Len -> {len}".format(
@@ -72,13 +72,13 @@ if __name__ == "__main__":
             )
         )
 
-    # Tentar deletar uma chave que não existe
+    # Try to delete a key that does not exist
     try:
         del hash_table[493084]
     except KeyError:
         print(traceback.print_exc())
 
-    # Tentar acessar uma chave que não existe
+    # Try to access a key that does not exist
     try:
         print(hash_table[493084])
     except KeyError:

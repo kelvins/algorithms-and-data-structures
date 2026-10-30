@@ -123,57 +123,57 @@ class Node:
 
 def dfs(initial, goal_test, successors):
     """Algoritmo de busca em profundidade."""
-    # frontier representa os lugares que ainda nao visitamos
+    # frontier stores the locations we have not visited yet
     frontier = Stack()
     frontier.push(Node(initial, None))
-    # explored representa os lugares que ja foram visitados
+    # explored stores the locations we have already visited
     explored = {initial}
 
-    # continua enquanto houver lugares para explorar
+    # Continue while there are places to explore
     while not frontier.empty:
         current_node = frontier.pop()
         current_state = current_node.state
 
-        # se encontrar o objetivo retorna o no atual
+        # If the goal is found, return the current node
         if goal_test(current_state):
             return current_node
 
-        # verifica para onde podemos ir em seguida
+        # Check where we can go next
         for child in successors(current_state):
-            # ignora os nos filhos que ja foram visitados
+            # Skip child nodes that have already been visited
             if child in explored:
                 continue
             explored.add(child)
             frontier.push(Node(child, current_node))
-    # passamos por todos os lugares e nao atingimos o objetivo
+    # All locations were visited without reaching the goal
     return None
 
 
 def bfs(initial, goal_test, successors):
     """Algoritmo de busca em largura."""
-    # frontier representa os lugares que ainda nao visitamos
+    # frontier stores the locations we have not visited yet
     frontier = Queue()
     frontier.push(Node(initial, None))
-    # explored representa os lugares que ja foram visitados
+    # explored stores the locations we have already visited
     explored = {initial}
 
-    # continua enquanto houver lugares para explorar
+    # Continue while there are places to explore
     while not frontier.empty:
         current_node = frontier.pop()
         current_state = current_node.state
 
-        # se encontrar o objetivo retorna o no atual
+        # If the goal is found, return the current node
         if goal_test(current_state):
             return current_node
 
-        # verifica para onde podemos ir em seguida
+        # Check where we can go next
         for child in successors(current_state):
-            # ignora os nos filhos que ja foram visitados
+            # Skip child nodes that have already been visited
             if child in explored:
                 continue
             explored.add(child)
             frontier.push(Node(child, current_node))
-    # passamos por todos os lugares e nao atingimos o objetivo
+    # All locations were visited without reaching the goal
     return None
 
 
@@ -190,7 +190,7 @@ def node_to_path(node):
 if __name__ == "__main__":
     maze = Maze()
 
-    # Solucao utilizando busca em profundidade
+    # Solution using depth-first search
     solution = dfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
         print("No solution found using depth-first search")
@@ -201,7 +201,7 @@ if __name__ == "__main__":
         print(maze)
         maze.clear(path)
 
-    # Solucao utilizando busca em largura
+    # Solution using breadth-first search
     solution = bfs(maze.start, maze.goal_test, maze.successors)
     if solution is None:
         print("No solution found using breath-first search")

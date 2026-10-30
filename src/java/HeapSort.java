@@ -1,7 +1,7 @@
 public class HeapSort {
 
   /**
-   * @param vetor Vetor que será ordenado Aplica a ordenação HeapSorte no vetor
+   * @param vetor array to be sorted; applies Heap Sort to the array
    */
   public int[] sort(int[] vetor) {
 

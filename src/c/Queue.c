@@ -56,7 +56,7 @@ bool removeFila(FILA *F) {
 
 int buscaFila(TIPOCHAVE ch, FILA *F) {
   F->A[F->nroRegistros].chave =
-      ch; // Coloca a ch na ultima posição para fazer busca Sentinela
+      ch; // Place ch at the last position for sentinel search
   int i = 0;
   while (F->A[i].chave != ch)
     i++;

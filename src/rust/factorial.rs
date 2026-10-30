@@ -8,12 +8,12 @@
     Ex: 5! = 5 * 4 * 3 * 2 * 1 = 120
 */
 
-// A diferença desta implementação para a com recursão é
-// que nesta versão o retorno, é feito utilizado interadores.
+// The difference between this implementation and the recursive one is
+// that this version uses an iterator to produce the result.
 fn fatorial(valor: u128) -> u128 {
     let total = match valor {
         0 => 1,
-        // Product faz a multiplicação de todos os valores em um array
+        // Product multiplies all values in an array.
         1.. => (1..valor + 1).product(),
     };
     return total;

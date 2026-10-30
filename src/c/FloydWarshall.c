@@ -4,7 +4,7 @@
  *
  *	Finds the path from all to all vertices
  *
- *	Grafo com 5 vértices e 6 arestas
+ *	Graph with 5 vertices and 6 edges
  *
  *			   6
  *	(0)-----------------(1)
@@ -17,7 +17,7 @@
  *		\			  /
  *		 -----(4)-----
  *
- *	 Matriz de Distância
+ *	 Distance matrix
  *	   0   1   2   3   4
  *	0  0   6  10   -   -
  *	1  6   0   -   2   -
@@ -25,17 +25,16 @@
  *	3  -   2   1   0   8
  *	4  -   -   3   8   0
  *
- * 	Para valores infinitos será considerado o valor: 4294967295
+ * 	The value 4294967295 represents infinity
  *
  */
 
 #include <stdio.h>
 
-#define nroVertices                                                            \
-  5 // Define uma constante 5 que é a quantidade de vértices do grafo
+#define nroVertices 5 // Define the constant 5 as the number of graph vertices
 
-// Algoritmo de Floyd-Warshall recebe como parâmetro a matriz de distância e o
-// número de vértices
+// The Floyd-Warshall algorithm receives the distance matrix and the number
+// of vertices
 void FloydWarshall(unsigned long int matriz[nroVertices][nroVertices], int n) {
   for (int x = 0; x < n; x++) {
     for (int y = 0; y < n; y++) {
@@ -58,7 +57,7 @@ int main() {
 
   FloydWarshall(Matriz, nroVertices);
 
-  // Mostra a matriz com os valores atualizados
+  // Display the matrix with updated values
   printf("Matriz:\n");
   for (int i = 0; i < nroVertices; ++i) {
     for (int e = 0; e < nroVertices; ++e) {
@@ -76,7 +75,7 @@ int main() {
   // %lu\n", Matriz[0][2]); printf("Total caminho mais curto do vertice 4 ao 3:
   // %lu\n\n", Matriz[3][4]);
 
-  // Mostra todos os caminhos
+  // Display all paths
   printf("\n");
   for (int i = 0; i < nroVertices; ++i) {
     for (int x = 0; x < nroVertices; ++x) {

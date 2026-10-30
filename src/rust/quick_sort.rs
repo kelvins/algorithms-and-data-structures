@@ -27,20 +27,20 @@
 
 // l = limite esquerdo
 // r = limite direito
-// É preciso indicar esses valores invés de gerar uma nova lista a cada divisão
-// primeiramente para sempre lidarmos com a mesma lista, alterando os seus valores
-// e segundamente porque ficar criando novas listas seria muito custoso em uma recursão
+// These bounds are passed instead of creating a new list at each split
+// so we always work on the same list and update its values
+// and because creating new lists during recursion would be expensive.
 fn partition(lista: &mut [i32], l: usize, r: usize) -> isize {
-    // Declaramos o nosso pivot sendo o primeiro item da lista
+    // Set the first item in the list as the pivot
     let pivot = lista[l];
 
-    // Para colocarmos os valores menores ou iguais ao pivot na sua frente
-    // precisamos de uma variável pra contar quantos índices a frente colocar
-    // o novo valor a frente, para não ficarmos trocando o mesmo valor
+    // To move values less than or equal to the pivot before it,
+    // we need a variable to count how many positions to move forward
+    // the next value without repeatedly swapping the same value.
     let mut count = l;
 
-    // For para fazer interação na lista. Não usamos enumerate pois precisamso
-    // simular as sub listas
+    // Use a for loop to iterate over the list. We do not use enumerate because we need
+    // simulate the sublists
     for j in l + 1..r + 1 {
         if lista[j] <= pivot {
             count += 1;
@@ -48,18 +48,18 @@ fn partition(lista: &mut [i32], l: usize, r: usize) -> isize {
         }
     }
 
-    // Trocamos o índice de pivot de lugar com o ultimo menor/igual valor, pois
+    // Swap the pivot with the last value that is less than or equal to it, because
     lista.swap(l, count);
 
-    // O índice onde apos a troca se encontra o Pivot é retornado, para que sirva
-    // como referencia, para as 2 sub listas, 0..count - 1 e count + 1..len serão
-    // as novas listas.
+    // Return the pivot’s index after the swap so it can be used
+    // as the boundary for the two sublists: 0..count - 1 and count + 1..len.
+    // the new sublists.
     return count as isize;
 }
 
 fn quick_sort(lista: &mut [i32], l: isize, r: isize) {
-    // A condição de parda da recuroa é caso tanto o extremo direito quanto esquerdo
-    // sejam iguais, ou sejá, a lista so tem 1 elemento
+    // The recursion stops when the left and right bounds
+    // are equal, meaning the list has only one element.
     if l < r {
         let indice_pivot = partition(lista, l as usize, r as usize);
         quick_sort(lista, l, indice_pivot - 1);

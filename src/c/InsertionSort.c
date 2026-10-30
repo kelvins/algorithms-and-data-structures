@@ -3,42 +3,41 @@ Insertion Sort algorithm in C
 */
 
 #include <stdio.h>  // Required for input and output
-#include <stdlib.h> // Necessário para usar a função rand()
-#include <time.h> // Necessário para inicializar a semente de números aleatórios
+#include <stdlib.h> // Required to use rand()
+#include <time.h>   // Required to initialize the random number seed
 
-// Definimos a função insertion_sort que recebe como argumento o vetor a ser
-// ordenado e seu tamanho n
+// Define insertion_sort, which receives the array to sort and its size n
 void insertion_sort(int arr[], int n) {
   int i, j, key;
-  // Percorremos todos os elementos do vetor a partir do segundo elemento
+  // Iterate over all array elements, starting with the second
   for (i = 1; i < n; i++) {
-    // Armazenamos o valor do elemento atual em key
+    // Store the current element in key
     key = arr[i];
-    // Inicializamos o índice j como o elemento anterior ao elemento atual
+    // Initialize j to the index before the current element
     j = i - 1;
-    // Enquanto j é maior ou igual a 0 e o elemento atual é menor do que o
-    // elemento na posição j do vetor, movemos o elemento na posição j uma
-    // posição para a direita e decrementamos j
+    // While j is at least 0 and the current element is less than the element
+    // at index j, move the element at j one position to the right and decrement
+    // j
     while (j >= 0 && arr[j] > key) {
       arr[j + 1] = arr[j];
       j = j - 1;
     }
-    // Quando o loop interno termina, colocamos o elemento atual em sua posição
-    // correta
+    // When the inner loop ends, place the current element in its correct
+    // position
     arr[j + 1] = key;
   }
 }
 
-// Função principal
+// Main function
 int main() {
   int i, n, arr[100];
-  srand(time(NULL)); // Inicializa a semente de números aleatórios
+  srand(time(NULL)); // Initialize the random number seed
   printf("Entre com o numero de elementos no vetor: ");
   scanf("%d", &n);
   printf("Vetor de entrada:\n");
   for (i = 0; i < n; i++) {
-    arr[i] = rand() % 100; // Gera um valor aleatório entre 0 e 99
-    printf("%d ", arr[i]); // Imprime o valor gerado
+    arr[i] = rand() % 100; // Generate a random value from 0 to 99
+    printf("%d ", arr[i]); // Print the generated value
   }
   printf("\n");
   insertion_sort(arr, n);

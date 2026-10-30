@@ -11,8 +11,8 @@
 
 */
 
-// Para utilizar esta lib sera necessário iniciar um projeto com o cargo
-// e adicionar Rand as dependências
+// To use this library, create a Cargo project
+// and add rand as a dependency.
 use rand::prelude::*;
 
 fn verifica_ordem(lista: Vec<u8>) -> bool {
@@ -24,14 +24,14 @@ fn verifica_ordem(lista: Vec<u8>) -> bool {
     return true;
 }
 
-// Vec<u8> significa que o parâmetro "lista" é uma lista de
-// inteiros sem sinal de 8 bits. E o retorno u64 se refere
-// ao total de ciclos necessários para realizar a ordenação
+// Vec<u8> means that the "lista" parameter is a list of
+// 8-bit unsigned integers. The u64 return value refers
+// to the number of cycles needed to sort the list.
 fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
     let mut rng = thread_rng();
-    // Foi escolhido um limite tão grande justamente pelo bogo sort
-    // poder ser tanto o algoritmo mais rápido quanto o mais lento,
-    // então para não crashar o programa é bom um range grande
+    // A large limit was chosen because bogo sort
+    // can be either the fastest or slowest algorithm,
+    // so a large range helps prevent the program from crashing.
     let mut ciclos: u64 = 0;
     loop {
         ciclos += 1;
@@ -42,8 +42,8 @@ fn bogo_sort(mut lista: Vec<u8>) -> (Vec<u8>, u64) {
     }
 }
 
-// O valor de u8 para os itens da lista é apenas para
-// gerar números muito grandes e dificultar na visualização
+// The u8 type for list items is used only to
+// generate large numbers that are harder to inspect.
 fn gera_lista(len: u8) -> Vec<u8> {
     let mut rng = thread_rng();
     let mut lista = Vec::<u8>::new();
@@ -70,7 +70,7 @@ fn main() {
     println!();
 }
 
-// Testes unitarios
+// Unit tests
 #[cfg(test)]
 mod test {
     use super::*;

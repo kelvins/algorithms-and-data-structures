@@ -14,7 +14,7 @@ def selection_sort(vetor, indice):
     if indice >= len(vetor) - 1:
         return -1
 
-    # minIndice guarda a posicao onde esta o menor valor em relacao ao indice
+    # minIndice stores the index of the smallest value
     min_indice = indice
 
     for i in range(indice + 1, len(vetor)):

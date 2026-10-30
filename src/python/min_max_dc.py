@@ -1,4 +1,4 @@
-# Mínimo e Máximo de um array usando divide & conquer
+# Minimum and maximum of an array using divide and conquer
 
 import random
 
