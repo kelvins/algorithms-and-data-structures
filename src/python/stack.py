@@ -1,33 +1,29 @@
-"""Implementação da estrutura de dados 'Pilha'"""
+"""Implement a stack data structure."""
 
 import random
 
 
 class Stack:
-    """
-    Essa classe implementa a estrutura de dados chamada "pilha"
-    """
+    """A stack data structure."""
 
     def __init__(self):
         self.__stack = []
 
     def push(self, value):
-        """Adiciona o valor (value) ao final da pilha"""
+        """Print the stack."""
         self.__stack.append(value)
 
     def pop(self):
-        """Remove o último valor da pilha"""
+        """Remove and return the top value."""
         return self.__stack.pop()
 
     def show(self):
-        """Imprime a pilha no console"""
+        """Print the stack."""
         print(f"Stack: {self.__stack}")
 
 
 def main():
-    """
-    Cria uma pilha e utiliza os métodos show, pop e push
-    """
+    """Create a stack and demonstrate its methods."""
     stack = Stack()
 
     for _ in range(0, 10):

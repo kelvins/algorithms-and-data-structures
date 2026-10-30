@@ -2,9 +2,7 @@ import sys
 
 
 class BitArray:
-    """
-    Classe para manipular bits como um array
-    """
+    """Store and manipulate a sequence of bits."""
 
     ENDIAN_TYPE = "big"
     bits = []
@@ -21,40 +19,29 @@ class BitArray:
                     self.append(bit)
 
     def append(self, bit):
-        """
-        Adiciona um bit à lista
-        """
+        """Append a bit to the bit array."""
         self.bits.append(int(bit))
 
     def fromint(self, value):
-        """
-        Converte um inteiro para bits
-        e adiciona-os à lista
-        """
+        """Convert an integer to bits and append them to the bit array."""
         bitstring = "{:08b}".format(value)
         for bit in bitstring:
             self.append(int(bit, 2))
 
     def frombytes(self, byte):
-        """
-        Converte um byte para bits
-        e adiciona-os à lista
-        """
+        """Convert a byte to bits and append them to the bit array."""
         bitstring = "{:08b}".format(int.from_bytes(byte, self.ENDIAN_TYPE))
         for bit in bitstring:
             self.append(int(bit, 2))
 
     def dump(self):
-        """
-        Transforma à lista com os bits em um
-        bytearray e retorna seu valor
-        """
+        """Convert the bit array to a bytearray and return it."""
         self.output = bytearray()
         bits_in_a_byte = 8
         for i in range(len(self.bits) // (bits_in_a_byte)):
             bitstring = ""
-            readed_bits = self.bits[i * bits_in_a_byte : i * bits_in_a_byte + 8]
-            for bit in readed_bits:
+            read_bits = self.bits[i * bits_in_a_byte : i * bits_in_a_byte + 8]
+            for bit in read_bits:
                 bitstring += str(bit)
             byte = int(bitstring, 2)
             self.output.append(byte)
@@ -80,18 +67,18 @@ class LZ77:
     # Input data
     data = None
 
-    def __init__(self, window_size=400, lookahed_buffer=15, endian="big", verbose=True):
+    def __init__(
+        self, window_size=400, lookahead_buffer=15, endian="big", verbose=True
+    ):
         self.MAX_WINDOW_SIZE = window_size
-        self.MAX_LOOKAHEAD_BUFFER = lookahed_buffer
+        self.MAX_LOOKAHEAD_BUFFER = lookahead_buffer
         self.ENDIAN_TYPE = "big"
         self.ENABLE_DEBUG = verbose
 
     def find_longest_match(self):
-        """
-        Encontra a maior ocorrência compatível com a cadeia consultada iniciando
-        da posição atual do cursor: current_position; e posteriomente
-        consultando o histórico existente dentro da janela para encontrar
-        uma ocorrência compatível.
+        """Find the longest match starting at the current cursor position.
+
+        Search the history within the window for a compatible sequence.
         """
         # Set the buffer limit based on the current cursor
         end_of_buffer = min(self.CURSOR + self.MAX_LOOKAHEAD_BUFFER, len(self.data) + 1)
@@ -111,13 +98,13 @@ class LZ77:
             # while respecting the maximum window size
             start_index = max(0, self.CURSOR - self.MAX_WINDOW_SIZE)
             # Store the match being searched for
-            ocurrence = self.data[self.CURSOR : i]
+            occurrence = self.data[self.CURSOR : i]
 
             # Scan the file from the start of the match
             # for the longest compatible sequence in the file
             for j in range(start_index, self.CURSOR):
-                compatible_chain_length = len(ocurrence) // (self.CURSOR - j)
-                compatible_chain_last = len(ocurrence) % (self.CURSOR - j)
+                compatible_chain_length = len(occurrence) // (self.CURSOR - j)
+                compatible_chain_last = len(occurrence) % (self.CURSOR - j)
                 compatible_chain = self.data[j : self.CURSOR]
                 compatible_chain *= compatible_chain_length
                 compatible_chain += self.data[j : j + compatible_chain_last]
@@ -126,9 +113,12 @@ class LZ77:
                 # its length is GREATER than that of the last
                 # best result
                 # then accept it as the best match.
-                if compatible_chain == ocurrence and len(ocurrence) > best_match_length:
+                if (
+                    compatible_chain == occurrence
+                    and len(occurrence) > best_match_length
+                ):
                     best_match_distance = self.CURSOR - j
-                    best_match_length = len(ocurrence)
+                    best_match_length = len(occurrence)
 
         # If a match was found, return the best one.
         if best_match_distance > 0 and best_match_length > 0:
@@ -137,11 +127,9 @@ class LZ77:
         return False
 
     def decompress(self, input_data):
-        """
-        Fornecido um arquivo de entrada comprimido, o seu conteúdo é descomprimido de
-        volta ao seu formato original, e escrito no arquivo de saída caso este seja
-        também fornecido. Se nenhum arquivo de saída for forncedido, os dados
-        descomprimidos são retornados como uma string
+        """Decompress input data and return the original byte sequence.
+
+        If an output file is provided, write the decompressed data to it.
         """
         # Set the initial CURSOR position to 0
         # (the start of the file)
@@ -212,19 +200,13 @@ class LZ77:
         return lz_window
 
     def compress(self, input_data):
-        """
-        Fornecido o arquivo de entrada, seu contéudo é comprimido aplicando um algoritmo
-        de compressão LZ77 simples.
-        O formato de compressão tem o seguinte padrão:
-        - bit de valor 0 seguido por 8 bits (1 byte por caracter) quando não existem ocorrências
-        prévias na janela de compressão.
-        - bit de valor 1 seguido pelo ponteiro de 12 bits (distância entre o inicio da ocorrência
-        até a posição atual do cursor) e mais 4 bits (responsaveis pelo tamanho da ocorrência)
+        """Compress input data using a simple LZ77 algorithm.
 
-        Se o arquivo de saída for fornecido, os dados comprimidos serão escritos em
-        formato binário dentro do mesmo. Do contrário será retornado um bitarray.
-
-        Se o parâmetro verbose estiver habilitado, a descrição da compressão é exibida.
+        A literal uses a zero flag and eight data bits. A match uses a one
+        flag, twelve distance bits, and four length bits. If an output file
+        is provided, write the compressed data in binary format. Otherwise,
+        return a bit array. When verbose mode is enabled, print compression
+        details.
         """
         # Set the initial CURSOR position to 0
         # (the start of the file)
@@ -326,18 +308,18 @@ input_text = '''Lorem Ipsum is simply dummy\
 
 if __name__ == "__main__":
     lz = LZ77(verbose=False)
-    print("Entrada:")
-    entrada = bytearray(input_text.encode())
-    print(entrada)
-    print("Tamanho: {}".format(sys.getsizeof(entrada)))
+    print("Input:")
+    input = bytearray(input_text.encode())
+    print(input)
+    print("Size: {}".format(sys.getsizeof(input)))
     print("\n---\n")
     compressed = lz.compress(input_text)
-    print("Dados Comprimidos com LZ77:")
+    print("LZ77-compressed data:")
     print(compressed)
-    print("Tamanho: {}".format(sys.getsizeof(compressed)))
+    print("Size: {}".format(sys.getsizeof(compressed)))
     print("\n---\n")
     decompressed = lz.decompress(compressed)
-    print("Dados descomprimidos com LZ77:")
+    print("LZ77-decompressed data:")
     print(decompressed)
-    print("Tamanho: {}".format(sys.getsizeof(decompressed)))
+    print("Size: {}".format(sys.getsizeof(decompressed)))
     print("\n---\n")

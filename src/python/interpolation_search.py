@@ -2,14 +2,14 @@
 
 
 def interpolation_search(array, x):
-    """Executa a busca por interpolação
+    """Perform interpolation search.
 
     Args:
-        array (list): lista com os elementos
-        x (int): elemento a ser encontrado
+        array: The sorted list to search.
+        x: The value to find.
 
     Returns:
-        int: posição do elemento
+        The index of the value, or -1 if it is absent.
     """
     low = 0
     high = len(array) - 1
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     index = interpolation_search(array, element_to_be_found)
 
     if index != -1:
-        print(f"Elemento encontrado no indice {index} do array ordenado.")
+        print(f"Element found at index {index} in the sorted array.")
     else:
-        print("Elemento não foi encontrado.")
+        print("Element not found.")

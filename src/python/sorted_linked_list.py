@@ -1,57 +1,55 @@
-"""Lista Sequencial Dinamica e Ordenada"""
+"""Dynamic sorted sequential list."""
 
 import random
 
-lista = []
+values = []
 
 
-def inserir_lista(chave, lista):
-    """
-    Insere a chave na lista
-    """
-    lista.append(chave)
+def insert_list(key, values):
+    """Insert a key into the list."""
+    values.append(key)
     i, p = 0, 0
-    while lista[i] < chave:
+    while values[i] < key:
         i += 1
-    p = len(lista) - 2
+    p = len(values) - 2
     while p >= i:
-        lista[p + 1] = lista[p]
+        values[p + 1] = values[p]
         p -= 1
-    lista[i] = chave
+    values[i] = key
 
 
-def busca_sentinela(chave, lista):
-    """Algoritmo de busca sentinela"""
-    lista.append(chave)
+def search_sentinel(key, values):
+    """Search the list using a sentinel."""
+    values.append(key)
     i = 0
-    while lista[i] != chave:
+    while values[i] != key:
         i += 1
-    if i == len(lista) - 1:
-        lista.pop()
+    if i == len(values) - 1:
+        values.pop()
         return -1
-    lista.pop()
+    values.pop()
     return i
 
 
-def deleta_valor(chave, lista):
-    """Deleta uma chave na lista"""
-    posicao = busca_sentinela(chave, lista)
-    if posicao >= 0:
-        lista.pop(posicao)
+def delete_value(key, values):
+    """Delete a key from the list."""
+    position = search_sentinel(key, values)
+    if position >= 0:
+        values.pop(position)
         return True
     return False
 
 
-def mostra_lista(lista):
-    """Imprime a lista"""
-    print(lista)
+def print_list(values):
+    """Print the list."""
+    print(values)
 
 
 for _ in range(0, 50):
-    inserir_lista(random.randint(10, 99), lista)
+    insert_list(random.randint(10, 99), values)
 
-print("Valor na posicao: " + str(busca_sentinela(25, lista)))
+print("Value at position: " + str(search_sentinel(25, values)))
 
-mostra_lista(lista)
-deleta_valor(10, lista)
-mostra_lista(lista)
+print_list(values)
+delete_value(10, values)
+print_list(values)

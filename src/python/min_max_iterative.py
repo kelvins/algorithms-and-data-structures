@@ -1,23 +1,20 @@
-"""
-Implementação de um algoritmo que busca os valores máximo e mínimo
-em um array
-"""
+"""Find the minimum and maximum values in an array iteratively."""
 
 
-def min_max_array(vetor):
-    """Busca os valores máximo e mínimo em vetor"""
-    minimo = vetor[0]
-    maximo = vetor[0]
+def min_max_array(array):
+    """Find the minimum and maximum values in the array."""
+    minimum = array[0]
+    maximum = array[0]
 
-    for i in range(1, len(vetor)):
-        if vetor[i] < minimo:
-            minimo = vetor[i]
-        elif vetor[i] > maximo:
-            maximo = vetor[i]
+    for i in range(1, len(array)):
+        if array[i] < minimum:
+            minimum = array[i]
+        elif array[i] > maximum:
+            maximum = array[i]
 
-    print("Minimo : " + str(minimo))
-    print("Maximo : " + str(maximo))
+    print("Minimum: " + str(minimum))
+    print("Maximum: " + str(maximum))
 
 
-uma_lista = [2, 94, 83, 10, 0, 2, 48, 1, 24]
-min_max_array(uma_lista)
+values = [2, 94, 83, 10, 0, 2, 48, 1, 24]
+min_max_array(values)

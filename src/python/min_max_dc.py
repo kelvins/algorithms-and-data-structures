@@ -3,22 +3,22 @@
 import random
 
 
-def min_max_dc(vetor, inicio, fim):
-    """Encontra o valor mínimo e máximo em um vetor usando D&C."""
-    if inicio == fim:
-        return vetor[inicio], vetor[inicio]
+def min_max_dc(array, start, end):
+    """Find an array's minimum and maximum using divide and conquer."""
+    if start == end:
+        return array[start], array[start]
 
-    meio = (inicio + fim) // 2
-    vetor_min1, vetor_max1 = min_max_dc(vetor, inicio, meio)
-    vetor_min2, vetor_max2 = min_max_dc(vetor, meio + 1, fim)
-    return min(vetor_min1, vetor_min2), max(vetor_max1, vetor_max2)
+    middle = (start + end) // 2
+    array_min1, array_max1 = min_max_dc(array, start, middle)
+    array_min2, array_max2 = min_max_dc(array, middle + 1, end)
+    return min(array_min1, array_min2), max(array_max1, array_max2)
 
 
 if __name__ == "__main__":
-    vetor = [random.randrange(10, 100) for _ in range(0, 10)]
-    print(vetor)
+    array = [random.randrange(10, 100) for _ in range(0, 10)]
+    print(array)
 
-    minimo, maximo = min_max_dc(vetor, 0, len(vetor) - 1)
+    minimum, maximum = min_max_dc(array, 0, len(array) - 1)
 
-    print(f"Min DC: {minimo}")
-    print(f"Max DC: {maximo}")
+    print(f"Min DC: {minimum}")
+    print(f"Max DC: {maximum}")

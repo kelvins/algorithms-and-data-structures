@@ -1,37 +1,27 @@
-# Grafos - Algoritmos de BFS e DFS em Python
+# Graphs - BFS and DFS algorithms in Python
 
 from collections import deque
 
 
-class Grafo:
-    """Define um grafo utilizando matriz de adjacências.
+class Graph:
+    """Represent a graph using an adjacency list.
 
     Args:
-        arestas (list): uma lista de listas onde o indice é o
-                        vértice e cada elemento da lista é o vizinho
+        edges: A list where each row contains the neighbors of a vertex.
     """
 
-    def __init__(self, arestas: list):
-        self.adj = [[] for _ in range(len(arestas))]
-        self.adiciona_arestas(arestas)
+    def __init__(self, edges: list):
+        self.adj = [[] for _ in range(len(edges))]
+        self.add_edges(edges)
 
-    def adiciona_arestas(self, arestas: list) -> None:
-        """Adiciona todas as arestas ao grafo
+    def add_edges(self, edges: list) -> None:
+        """Add all edges to the graph."""
+        for i in range(len(edges)):
+            for j in range(len(edges[i])):
+                self.__add_edge(i, edges[i][j])
 
-        Args:
-            arestas (list): a lista contendo todas as definições de arestas do grafo
-        """
-        for i in range(len(arestas)):
-            for j in range(len(arestas[i])):
-                self.__adiciona_aresta(i, arestas[i][j])
-
-    def __adiciona_aresta(self, u: int, v: int) -> None:
-        """Adiciona a aresta na matriz de adjacência
-
-        Args:
-            u (int): vértice u
-            v (int): vértice v
-        """
+    def __add_edge(self, u: int, v: int) -> None:
+        """Add an edge to the adjacency list."""
         if v not in self.adj[u]:
             self.adj[u].append(v)
 
@@ -39,65 +29,59 @@ class Grafo:
             self.adj[v].append(u)
 
     def bfs(self, start: int) -> list:
-        """Executa a busca em largura a partir do vértice start
-
-        Args:
-            start (int): vértice start
+        """Traverse the graph breadth-first from the start vertex.
 
         Returns:
-            list: lista com a ordem de vértices visitados
+            The vertices in visit order.
         """
-        fila = deque()
-        fila.append(start)
-        visitados = []
-        visitados.append(start)
+        queue = deque()
+        queue.append(start)
+        visited = []
+        visited.append(start)
 
-        while fila:
-            u = fila.popleft()
+        while queue:
+            u = queue.popleft()
 
             for v in self.adj[u]:
-                if v not in visitados:
-                    fila.append(v)
-                    visitados.append(v)
+                if v not in visited:
+                    queue.append(v)
+                    visited.append(v)
 
-        return visitados
+        return visited
 
     def dfs(self, start: int) -> list:
-        """Executa a busca em profundidade a partir do vértice start
-
-        Args:
-            start (int): vértice start
+        """Traverse the graph depth-first from the start vertex.
 
         Returns:
-            list: lista com a ordem de vértices visitados
+            The vertices in visit order.
         """
-        visitados = []
-        visitados.append(start)
-        pilha = [start]
+        visited = []
+        visited.append(start)
+        stack = [start]
 
-        while pilha:
-            u = pilha.pop()
+        while stack:
+            u = stack.pop()
 
-            if u not in visitados:
-                visitados.append(u)
+            if u not in visited:
+                visited.append(u)
 
             for v in self.adj[u][::-1]:
-                if v not in visitados:
-                    pilha.append(v)
+                if v not in visited:
+                    stack.append(v)
 
-        return visitados
+        return visited
 
 
-arestas = [
-    [1, 2, 5],  # Vizinhos do vértice 0.
-    [0, 2],  # Vizinhos do vértice 1.
-    [0, 1, 3, 4],  # Vizinhos do vértice 2.
-    [2, 4, 5],  # Vizinhos do vértice 3.
-    [2, 3],  # Vizinhos do vértice 4.
-    [0, 3],  # Vizinhos do vértice 5.
+edges = [
+    [1, 2, 5],  # Neighbors of vertex 0.
+    [0, 2],  # Neighbors of vertex 1.
+    [0, 1, 3, 4],  # Neighbors of vertex 2.
+    [2, 4, 5],  # Neighbors of vertex 3.
+    [2, 3],  # Neighbors of vertex 4.
+    [0, 3],  # Neighbors of vertex 5.
 ]
 
-grafo = Grafo(arestas)
-print(grafo.adj)
-print(grafo.bfs(0))
-print(grafo.dfs(0))
+graph = Graph(edges)
+print(graph.adj)
+print(graph.bfs(0))
+print(graph.dfs(0))
