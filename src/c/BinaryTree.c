@@ -122,9 +122,9 @@ struct Node *delete(struct Node *root, int value) {
     return root;
   }
   if (value < root->value) {
-    root->left = delete (root->left, value);
+    root->left = delete(root->left, value);
   } else if (value > root->value) {
-    root->right = delete (root->right, value);
+    root->right = delete(root->right, value);
   } else {
     if ((root->left == NULL) || (root->right == NULL)) {
       struct Node *temp = root->left ? root->left : root->right;
@@ -139,7 +139,7 @@ struct Node *delete(struct Node *root, int value) {
     } else {
       struct Node *temp = findMinimum(root->right);
       root->value = temp->value;
-      root->right = delete (root->right, temp->value);
+      root->right = delete(root->right, temp->value);
     }
   }
 
@@ -178,12 +178,12 @@ int main(void) {
   printf("\n Levelorder: ");
   printLevelOrder(root);
 
-  root = delete (root, 7);
+  root = delete(root, 7);
 
   printf("\n Levelorder: ");
   printLevelOrder(root);
 
-  root = delete (root, 6);
+  root = delete(root, 6);
 
   printf("\n Levelorder: ");
   printLevelOrder(root);
