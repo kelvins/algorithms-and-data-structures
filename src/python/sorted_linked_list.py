@@ -2,54 +2,54 @@
 
 import random
 
-list = []
+values = []
 
 
-def insert_list(key, list):
+def insert_list(key, values):
     """Insert a key into the list."""
-    list.append(key)
+    values.append(key)
     i, p = 0, 0
-    while list[i] < key:
+    while values[i] < key:
         i += 1
-    p = len(list) - 2
+    p = len(values) - 2
     while p >= i:
-        list[p + 1] = list[p]
+        values[p + 1] = values[p]
         p -= 1
-    list[i] = key
+    values[i] = key
 
 
-def search_sentinel(key, list):
+def search_sentinel(key, values):
     """Search the list using a sentinel."""
-    list.append(key)
+    values.append(key)
     i = 0
-    while list[i] != key:
+    while values[i] != key:
         i += 1
-    if i == len(list) - 1:
-        list.pop()
+    if i == len(values) - 1:
+        values.pop()
         return -1
-    list.pop()
+    values.pop()
     return i
 
 
-def delete_value(key, list):
+def delete_value(key, values):
     """Delete a key from the list."""
-    position = search_sentinel(key, list)
+    position = search_sentinel(key, values)
     if position >= 0:
-        list.pop(position)
+        values.pop(position)
         return True
     return False
 
 
-def print_list(list):
+def print_list(values):
     """Print the list."""
-    print(list)
+    print(values)
 
 
 for _ in range(0, 50):
-    insert_list(random.randint(10, 99), list)
+    insert_list(random.randint(10, 99), values)
 
-print("Value at position: " + str(search_sentinel(25, list)))
+print("Value at position: " + str(search_sentinel(25, values)))
 
-print_list(list)
-delete_value(10, list)
-print_list(list)
+print_list(values)
+delete_value(10, values)
+print_list(values)
