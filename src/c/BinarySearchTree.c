@@ -30,11 +30,9 @@ int height(NodePointer node) {
   if (node == NULL) // Equivalent to writing if (!node)
     return 0;
   return 1 +
-         maximum(
-             height(node->left),
-             height(
-                 node->right)); // Compare the left and right subtrees to
-                                // determine which subtree is taller
+         maximum(height(node->left),
+                 height(node->right)); // Compare the left and right subtrees to
+                                       // determine which subtree is taller
 }
 
 NodePointer binarySearchTree(KEY_TYPE key, NodePointer root) {
@@ -115,7 +113,8 @@ bool remove(KEY_TYPE key, NodePointer root) {
   if (current == NULL)
     return false; // The key was not found
   parentNode = findParentNode(key, root);
-  if (current->left == NULL || current->right == NULL) { // If the node has zero or one child
+  if (current->left == NULL ||
+      current->right == NULL) { // If the node has zero or one child
     if (current->left == NULL)
       replacement = current->right;
     else

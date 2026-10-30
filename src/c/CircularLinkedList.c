@@ -30,17 +30,17 @@ void initializeList(List *L) {
 // Since this method does not modify the list, it can receive a copy instead
 // of a pointer to it
 NodePointer linearSearch(KEY_TYPE key, List L, NodePointer *previous) {
-  *previous = L.head; // Since this is a copy, use dot (.) instead of arrow (->);
-                     // previous stores the pointer to the matching node
+  *previous = L.head; // Since this is a copy, use dot (.) instead of arrow
+                      // (->); previous stores the pointer to the matching node
   NodePointer current = L.head->next;
   L.head->key = key; // Store the value in the head node as a sentinel; it will
-                    // be the last value compared
+                     // be the last value compared
   while (current->key != key) {
-    *previous = current; // Store the pointer to the node
+    *previous = current;     // Store the pointer to the node
     current = current->next; // Move to the next node
   }
   if (current != L.head) // If this is not the head node, the value was found
-    return current;     // Return the node
+    return current;      // Return the node
   else
     return NULL; // Otherwise, return NULL
 }
@@ -49,9 +49,9 @@ bool remove(KEY_TYPE key, List *L) {
   NodePointer temporary, previous;
   temporary =
       linearSearch(key, *L,
-                   &previous); // Find the value to remove. previous is passed by
-                               // address so the search function can update it
-                               // to hold the previous node
+                   &previous); // Find the value to remove. previous is passed
+                               // by address so the search function can update
+                               // it to hold the previous node
   if (temporary == NULL)
     return false;
   previous->next = temporary->next;
@@ -60,11 +60,14 @@ bool remove(KEY_TYPE key, List *L) {
 }
 
 void insert(KEY_TYPE key, List *L) {
-  NodePointer previous = L->head;  // previous stores a pointer to the previous node
-  NodePointer current = L->head->next; // current stores a pointer to the current node
+  NodePointer previous =
+      L->head; // previous stores a pointer to the previous node
+  NodePointer current =
+      L->head->next; // current stores a pointer to the current node
 
   while (current->key < key && current != L->head) {
-    previous = current; // Store the current node pointer; it becomes the previous node
+    previous =
+        current; // Store the current node pointer; it becomes the previous node
     current = current->next; // Move to the next node
   }
   // The correct position in ascending order has been found
@@ -76,10 +79,11 @@ void insert(KEY_TYPE key, List *L) {
 
 NodePointer printList(List L) {
   NodePointer current =
-      L.head->next;       // current receives the first element after the head node
-  while (current != L.head) { // If it is not the head node, the list is not empty
+      L.head->next; // current receives the first element after the head node
+  while (current !=
+         L.head) { // If it is not the head node, the list is not empty
     printf("[ %d ]->", current->key); // Display the node value
-    current = current->next;              // Move to the next node
+    current = current->next;          // Move to the next node
   }
   printf("\n");
 }

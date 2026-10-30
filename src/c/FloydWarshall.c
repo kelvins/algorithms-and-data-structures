@@ -72,9 +72,9 @@ int main() {
 
   // printf("Total shortest path from vertex 0 to vertex 4: %lu\n",
   // Matrix[4][0]);
-  // // [destination] [source] printf("Shortest path distance from vertex 2 to 0:
-  // %lu\n", Matrix[0][2]); printf("Shortest path distance from vertex 4 to 3:
-  // %lu\n\n", Matrix[3][4]);
+  // // [destination] [source] printf("Shortest path distance from vertex 2 to
+  // 0: %lu\n", Matrix[0][2]); printf("Shortest path distance from vertex 4 to
+  // 3: %lu\n\n", Matrix[3][4]);
 
   // Display all paths
   printf("\n");
