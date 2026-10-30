@@ -8,39 +8,40 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAM_VETOR 10
+#define ARRAY_SIZE 10
 
 // Sentinel search performs a linear search without checking the key at every
 // iteration of the search loop
-int buscaSentinela(int vetor[], int chave) {
-  vetor[TAM_VETOR] =
-      chave;   // Place the searched value (key) at the end of the array
-  int aux = 0; // Loop counter
-  while (vetor[aux] != chave) // Increment aux until the value (key) is found
-    aux++;
-  if (aux == TAM_VETOR)
+int sentinelSearch(int array[], int key) {
+  array[ARRAY_SIZE] =
+      key;           // Place the searched value (key) at the end of the array
+  int temporary = 0; // Loop counter
+  while (array[temporary] !=
+         key) // Increment aux until the value (key) is found
+    temporary++;
+  if (temporary == ARRAY_SIZE)
     return -1;
-  return aux;
+  return temporary;
 }
 
 int main() {
 
-  int vetor[TAM_VETOR + 1]; // Declare one extra array position for the sentinel
-                            // used by the sentinel
+  int array[ARRAY_SIZE + 1]; // Declare one extra array position for the
+                             // sentinel used by the sentinel
 
   // Fill the array with random values from 0 to 1000
   srand(time(NULL));
-  for (int i = 0; i < TAM_VETOR; i++) {
-    vetor[i] = rand() % 1000;
-    printf("%d, ", vetor[i]);
+  for (int i = 0; i < ARRAY_SIZE; i++) {
+    array[i] = rand() % 1000;
+    printf("%d, ", array[i]);
   }
 
   // Search using the array and the key to find
-  int res = buscaSentinela(vetor, vetor[TAM_VETOR - 2]);
+  int res = sentinelSearch(array, array[ARRAY_SIZE - 2]);
   if (res != -1)
-    printf("\n\nValor %d encontrado na posicao %d.\n\n", vetor[res], res);
+    printf("\n\nValue %d found at position %d.\n\n", array[res], res);
   else
-    printf("\n\nValor não encontrado no vetor\n\n");
+    printf("\n\nValue not found in the array\n\n");
 
   return 0;
 }

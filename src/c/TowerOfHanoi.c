@@ -4,14 +4,14 @@ Tower of Hanoi in C
 
 #include <stdio.h>
 
-void hanoi(int pino0, int pino2, int pino1, int discos) {
-  if (discos == 1)
-    printf("Move de %i para %i\n", pino0, pino2);
+void hanoi(int peg0, int peg2, int peg1, int disks) {
+  if (disks == 1)
+    printf("Move de %i para %i\n", peg0, peg2);
 
   else {
-    hanoi(pino0, pino1, pino2, discos - 1);
-    hanoi(pino0, pino2, pino1, 1);
-    hanoi(pino1, pino2, pino0, discos - 1);
+    hanoi(peg0, peg1, peg2, disks - 1);
+    hanoi(peg0, peg2, peg1, 1);
+    hanoi(peg1, peg2, peg0, disks - 1);
   }
 }
 

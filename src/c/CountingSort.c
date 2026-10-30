@@ -6,39 +6,39 @@
 
 // Need to find the largest element to allocate the auxiliary counting
 // array
-int findMax(int *arr, int tam) {
-  int max = arr[0];
+int findMax(int *arr, int size) {
+  int maximum = arr[0];
 
-  for (int i = 1; i < tam; i++) {
-    if (arr[i] > max) {
-      max = arr[i];
+  for (int i = 1; i < size; i++) {
+    if (arr[i] > maximum) {
+      maximum = arr[i];
     }
   }
 
-  return max;
+  return maximum;
 }
 
 // Sorts the values present in A and stores them in B
-void countingSort(int *arrA, int *arrB, int tam) {
+void countingSort(int *arrA, int *arrB, int size) {
   // Count array will have the frequency that a number appears in the array
   // must set 0 for all elements or use calloc
-  int max = findMax(arrA, tam);
-  int *count = calloc(max + 1, sizeof(int));
+  int maximum = findMax(arrA, size);
+  int *count = calloc(maximum + 1, sizeof(int));
 
   // Frequency that a given value appears in the array
-  for (int i = 0; i < tam; i++) {
+  for (int i = 0; i < size; i++) {
     count[arrA[i]]++;
   }
 
   // Cumulative frequency of values less than element i of the original
   // array (A)
-  for (int i = 1; i <= max; i++) {
+  for (int i = 1; i <= maximum; i++) {
     count[i] += count[i - 1];
   }
 
   // Traverse the original array starting from the last element, replacing
   // indices in the count array elements and decrementing with each assignment
-  for (int i = tam - 1; i >= 0; i--) {
+  for (int i = size - 1; i >= 0; i--) {
     arrB[count[arrA[i]] - 1] = arrA[i];
     count[arrA[i]]--;
   }
@@ -46,19 +46,19 @@ void countingSort(int *arrA, int *arrB, int tam) {
 
 int main() {
   int *arrA, *arrB;
-  int tam = 10;
-  arrA = malloc(tam * sizeof(int));
-  arrB = calloc(tam, sizeof(int));
+  int size = 10;
+  arrA = malloc(size * sizeof(int));
+  arrB = calloc(size, sizeof(int));
 
   // Populate array A
-  srand(48 + tam);
-  for (int j = 0; j < tam; j++)
+  srand(48 + size);
+  for (int j = 0; j < size; j++)
     arrA[j] = rand() % 100;
 
-  countingSort(arrA, arrB, tam);
+  countingSort(arrA, arrB, size);
 
   printf("Sorted array: ");
-  for (int i = 0; i < tam; i++) {
+  for (int i = 0; i < size; i++) {
     printf("%d ", arrB[i]);
   }
 

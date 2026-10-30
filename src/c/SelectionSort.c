@@ -7,16 +7,16 @@ void swap(int array[], int i, int j) {
 }
 
 void selection_sort(int array[], int n) {
-  int min, i, j;
+  int minimum, i, j;
   for (i = 0; i < n; i++) {
-    min = i;
+    minimum = i;
     for (j = i + 1; j < n; j++) {
-      if (array[min] > array[j]) {
-        min = j;
+      if (array[minimum] > array[j]) {
+        minimum = j;
       }
     }
-    if (min != i)
-      swap(array, min, i);
+    if (minimum != i)
+      swap(array, minimum, i);
   }
 }
 

@@ -3,190 +3,190 @@
 
 // This is an unbalanced binary tree.
 
-struct No {
+struct Node {
 
-  int valor;
-  struct No *esquerda;
-  struct No *direita;
-  int altura;
+  int value;
+  struct Node *left;
+  struct Node *right;
+  int height;
 };
 
-int altura(struct No *n) {
+int height(struct Node *n) {
 
   if (n == NULL)
     return 0;
-  return n->altura;
+  return n->height;
 }
 
-int max(int a, int b) { return (a > b) ? a : b; }
+int maximum(int a, int b) { return (a > b) ? a : b; }
 
-struct No *novoNo(int valor) {
+struct Node *newNode(int value) {
 
-  struct No *novoNo = (struct No *)malloc(sizeof(struct No));
+  struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
 
-  novoNo->valor = valor;
-  novoNo->esquerda = NULL;
-  novoNo->direita = NULL;
-  novoNo->altura = 1;
+  newNode->value = value;
+  newNode->left = NULL;
+  newNode->right = NULL;
+  newNode->height = 1;
 
-  return novoNo;
+  return newNode;
 }
 
-struct No *inserir(struct No *raiz, int valor) {
+struct Node *insert(struct Node *root, int value) {
 
-  if (raiz == NULL) {
-    return novoNo(valor);
+  if (root == NULL) {
+    return newNode(value);
   }
-  if (valor <= raiz->valor) {
-    raiz->esquerda = inserir(raiz->esquerda, valor);
+  if (value <= root->value) {
+    root->left = insert(root->left, value);
   } else {
-    raiz->direita = inserir(raiz->direita, valor);
+    root->right = insert(root->right, value);
   }
 
-  raiz->altura = 1 + max(altura(raiz->esquerda), altura(raiz->direita));
+  root->height = 1 + maximum(height(root->left), height(root->right));
 
-  return raiz;
+  return root;
 }
 
-int busca(struct No *raiz, int valor) {
+int search(struct Node *root, int value) {
 
-  if (raiz == NULL) {
-    printf(" Valor [%d] não encontrado.\n", valor);
-  } else if (raiz->valor == valor) {
-    printf(" Valor [%d] encontrado.\n", valor);
-  } else if (valor <= raiz->valor) {
-    return busca(raiz->esquerda, valor);
-  } else if (valor >= raiz->valor) {
-    return busca(raiz->direita, valor);
+  if (root == NULL) {
+    printf(" Value [%d] not found.\n", value);
+  } else if (root->value == value) {
+    printf(" Value [%d] found.\n", value);
+  } else if (value <= root->value) {
+    return search(root->left, value);
+  } else if (value >= root->value) {
+    return search(root->right, value);
   }
 }
 
-void preorder(struct No *raiz) {
+void preorder(struct Node *root) {
 
-  if (raiz == NULL)
+  if (root == NULL)
     return;
-  printf("[%d]", raiz->valor);
-  preorder(raiz->esquerda);
-  preorder(raiz->direita);
+  printf("[%d]", root->value);
+  preorder(root->left);
+  preorder(root->right);
 }
 
-void inorder(struct No *raiz) {
+void inorder(struct Node *root) {
 
-  if (raiz == NULL)
+  if (root == NULL)
     return;
-  inorder(raiz->esquerda);
-  printf("[%d]", raiz->valor);
-  inorder(raiz->direita);
+  inorder(root->left);
+  printf("[%d]", root->value);
+  inorder(root->right);
 }
 
-void postorder(struct No *raiz) {
+void postorder(struct Node *root) {
 
-  if (raiz == NULL)
+  if (root == NULL)
     return;
-  postorder(raiz->esquerda);
-  postorder(raiz->direita);
-  printf("[%d]", raiz->valor);
+  postorder(root->left);
+  postorder(root->right);
+  printf("[%d]", root->value);
 }
 
-void levelOrder(struct No *raiz, int level) {
+void levelOrder(struct Node *root, int level) {
 
-  if (raiz == NULL) {
+  if (root == NULL) {
     return;
   }
   if (level == 0) {
-    printf("[%d]", raiz->valor);
+    printf("[%d]", root->value);
   } else {
-    levelOrder(raiz->esquerda, level - 1);
-    levelOrder(raiz->direita, level - 1);
+    levelOrder(root->left, level - 1);
+    levelOrder(root->right, level - 1);
   }
 }
 
-void printLevelOrder(struct No *raiz) {
-  int h = altura(raiz);
+void printLevelOrder(struct Node *root) {
+  int h = height(root);
   for (int i = 0; i < h; i++) {
-    levelOrder(raiz, i);
+    levelOrder(root, i);
   }
 }
 
-struct No *encontraMenor(struct No *raiz) {
-  struct No *atual = raiz;
-  while (atual->esquerda != NULL) {
-    atual = atual->esquerda;
+struct Node *findMinimum(struct Node *root) {
+  struct Node *current = root;
+  while (current->left != NULL) {
+    current = current->left;
   }
-  return atual;
+  return current;
 }
 
-struct No *deleta(struct No *raiz, int valor) {
+struct Node *delete(struct Node *root, int value) {
 
-  if (raiz == NULL) {
-    return raiz;
+  if (root == NULL) {
+    return root;
   }
-  if (valor < raiz->valor) {
-    raiz->esquerda = deleta(raiz->esquerda, valor);
-  } else if (valor > raiz->valor) {
-    raiz->direita = deleta(raiz->direita, valor);
+  if (value < root->value) {
+    root->left = delete (root->left, value);
+  } else if (value > root->value) {
+    root->right = delete (root->right, value);
   } else {
-    if ((raiz->esquerda == NULL) || (raiz->direita == NULL)) {
-      struct No *temp = raiz->esquerda ? raiz->esquerda : raiz->direita;
+    if ((root->left == NULL) || (root->right == NULL)) {
+      struct Node *temp = root->left ? root->left : root->right;
 
       if (temp == NULL) {
-        temp = raiz;
-        raiz = NULL;
+        temp = root;
+        root = NULL;
       } else {
-        *raiz = *temp;
+        *root = *temp;
         free(temp);
       }
     } else {
-      struct No *temp = encontraMenor(raiz->direita);
-      raiz->valor = temp->valor;
-      raiz->direita = deleta(raiz->direita, temp->valor);
+      struct Node *temp = findMinimum(root->right);
+      root->value = temp->value;
+      root->right = delete (root->right, temp->value);
     }
   }
 
-  if (raiz == NULL) {
-    return raiz;
+  if (root == NULL) {
+    return root;
   }
 
-  raiz->altura = 1 + max(altura(raiz->esquerda), altura(raiz->direita));
+  root->height = 1 + maximum(height(root->left), height(root->right));
 
-  return raiz;
+  return root;
 }
 
 int main(void) {
 
-  struct No *raiz;
-  raiz = inserir(raiz, 10);
-  raiz = inserir(raiz, 2);
-  raiz = inserir(raiz, 33);
-  raiz = inserir(raiz, 4);
-  raiz = inserir(raiz, 57);
-  raiz = inserir(raiz, 6);
-  raiz = inserir(raiz, 12);
+  struct Node *root;
+  root = insert(root, 10);
+  root = insert(root, 2);
+  root = insert(root, 33);
+  root = insert(root, 4);
+  root = insert(root, 57);
+  root = insert(root, 6);
+  root = insert(root, 12);
 
-  busca(raiz, 33);
-  busca(raiz, 23);
+  search(root, 33);
+  search(root, 23);
 
   printf("\n Preorder: ");
-  preorder(raiz);
+  preorder(root);
 
   printf("\n Inorder: ");
-  inorder(raiz);
+  inorder(root);
 
   printf("\n Postorder: ");
-  postorder(raiz);
+  postorder(root);
 
   printf("\n Levelorder: ");
-  printLevelOrder(raiz);
+  printLevelOrder(root);
 
-  raiz = deleta(raiz, 7);
-
-  printf("\n Levelorder: ");
-  printLevelOrder(raiz);
-
-  raiz = deleta(raiz, 6);
+  root = delete (root, 7);
 
   printf("\n Levelorder: ");
-  printLevelOrder(raiz);
+  printLevelOrder(root);
+
+  root = delete (root, 6);
+
+  printf("\n Levelorder: ");
+  printLevelOrder(root);
 
   return 0;
 }

@@ -180,14 +180,14 @@ Node *hashTableFind(HashTable *hashTable, int value) {
   }
 
   size_t index = hash(hashTable->size, value);
-  Node *aux = hashTable->table[index];
+  Node *temporary = hashTable->table[index];
 
-  while (aux) { // while aux != NULL
+  while (temporary) { // while aux != NULL
 
-    if (aux->value == value)
-      return aux;
+    if (temporary->value == value)
+      return temporary;
 
-    aux = aux->next;
+    temporary = temporary->next;
   }
   return NULL;
 }

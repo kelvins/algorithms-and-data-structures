@@ -18,7 +18,7 @@ int main() {
   char input[MAX_SIZE_WORD];
   char reverse[MAX_SIZE_WORD];
 
-  printf("Digite uma palavra: ");
+  printf("Enter a word: ");
 
   fgets(input, MAX_SIZE_WORD, stdin);
   // remove New Line from the end
@@ -31,7 +31,7 @@ int main() {
   if (!strcmp(input, reverse))
     puts("Sua palavra eh um palindromo!");
   else
-    puts("Sua palavra NAO eh um palindromo!");
+    puts("Your word is not a palindrome!");
 
   return 0;
 }

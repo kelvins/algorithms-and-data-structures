@@ -32,38 +32,37 @@
 #define VERTICES 6
 #define INF -1
 
-bool visitados[VERTICES];
-int componentes = 0;
+bool visited[VERTICES];
+int components = 0;
 
-int matriz[VERTICES][VERTICES] = {
+int matrix[VERTICES][VERTICES] = {
     {0, INF, 1, INF, INF, INF}, {INF, 0, INF, 1, 1, INF},
     {1, INF, 0, INF, INF, INF}, {INF, 1, INF, 0, 1, 1},
     {INF, 1, INF, 1, 0, 1},     {INF, INF, INF, 1, 1, 0}};
 
 // Recursive method that finds the connected components from an adjacency
 // matrix
-void calculaComponentesConexos(int atual) {
+void findConnectedComponents(int current) {
   for (int i = 0; i < VERTICES; i++) {
-    if (visitados[i] == false && matriz[atual][i] == 1) {
-      visitados[i] = true;
-      componentes++;
+    if (visited[i] == false && matrix[current][i] == 1) {
+      visited[i] = true;
+      components++;
       printf("(%d)-", i);
-      calculaComponentesConexos(i);
+      findConnectedComponents(i);
     }
   }
 }
 
 int main() {
   for (int i = 0; i < VERTICES; i++)
-    visitados[i] = false;
+    visited[i] = false;
 
   for (int i = 0; i < VERTICES; i++)
-    if (visitados[i] == false) {
-      componentes = 0;
-      calculaComponentesConexos(i);
-      printf(
-          "\nNumero de componentes conexos iniciando pelo vertice %d: %d\n\n",
-          i, componentes);
+    if (visited[i] == false) {
+      components = 0;
+      findConnectedComponents(i);
+      printf("\nNumber of connected components starting at vertex %d: %d\n\n",
+             i, components);
     }
 
   return 0;

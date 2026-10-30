@@ -7,76 +7,76 @@
 
 #define ERRO -1
 
-typedef int TIPOCHAVE;
+typedef int KEY_TYPE;
 
-typedef struct AUX {
-  TIPOCHAVE chave;
-  struct AUX *prox;
-} *PILHA;
+typedef struct EdgeNode {
+  KEY_TYPE key;
+  struct EdgeNode *prox;
+} *Stack;
 
-PILHA CREATE(TIPOCHAVE ch) {
-  PILHA novaPilha = (PILHA)malloc(sizeof(PILHA));
-  novaPilha->chave = ch;
-  novaPilha->prox = NULL;
-  return novaPilha;
+Stack CREATE(KEY_TYPE key) {
+  Stack newStack = (Stack)malloc(sizeof(Stack));
+  newStack->key = key;
+  newStack->prox = NULL;
+  return newStack;
 }
 
-PILHA PUSH(TIPOCHAVE ch, PILHA pi) {
+Stack PUSH(KEY_TYPE key, Stack pi) {
   /*while( pi->prox != NULL ){
           pi = pi->prox;
   }*/
-  PILHA novo = CREATE(ch);
+  Stack newNode = CREATE(key);
   // pi->prox = novo;
-  novo->prox = pi;
-  return novo;
+  newNode->prox = pi;
+  return newNode;
 }
 
-PILHA POP(PILHA pi) {
-  PILHA sub = pi->prox;
+Stack POP(Stack pi) {
+  Stack rest = pi->prox;
   free(pi);
-  return sub;
+  return rest;
 }
 
-void SHOW(PILHA pi) {
-  printf("PILHA:\n");
+void SHOW(Stack pi) {
+  printf("STACK:\n");
   while (pi->prox != NULL) {
-    printf("[ %d ]\n", pi->chave);
+    printf("[ %d ]\n", pi->key);
     pi = pi->prox;
   }
-  printf("[ %d ]\n", pi->chave);
+  printf("[ %d ]\n", pi->key);
 }
 
-bool SEARCH(TIPOCHAVE ch, PILHA pi) {
-  bool vAchou = false;
+bool SEARCH(KEY_TYPE key, Stack pi) {
+  bool found = false;
   while (pi != NULL) {
-    if (pi->chave == ch)
-      vAchou = true;
+    if (pi->key == key)
+      found = true;
     pi = pi->prox;
   }
-  return vAchou;
+  return found;
 }
 
 int main() {
-  PILHA vPilha;
+  Stack stack;
 
-  vPilha = PUSH(1, vPilha);
-  vPilha = PUSH(2, vPilha);
-  vPilha = PUSH(3, vPilha);
-  vPilha = PUSH(4, vPilha);
-  vPilha = PUSH(5, vPilha);
-  vPilha = PUSH(6, vPilha);
+  stack = PUSH(1, stack);
+  stack = PUSH(2, stack);
+  stack = PUSH(3, stack);
+  stack = PUSH(4, stack);
+  stack = PUSH(5, stack);
+  stack = PUSH(6, stack);
 
-  SHOW(vPilha);
+  SHOW(stack);
 
-  vPilha = POP(vPilha);
-  vPilha = POP(vPilha);
+  stack = POP(stack);
+  stack = POP(stack);
 
-  SHOW(vPilha);
+  SHOW(stack);
 
-  if (SEARCH(6, vPilha))
+  if (SEARCH(6, stack))
     printf("\nAchou\n");
   else
-    printf("\nNão achou\n");
+    printf("\nNot found\n");
 
   return 0;
 }

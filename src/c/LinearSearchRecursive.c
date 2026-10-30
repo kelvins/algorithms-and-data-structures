@@ -1,22 +1,20 @@
 #include <stdio.h>
 
-int buscaSequencialRecursiva(int vetor[], int i, int buscado, int size) {
+int linearSearchRecursive(int array[], int i, int target, int size) {
 
   if (i == size) {
     return -1;
-  } else if (vetor[i] == buscado) {
+  } else if (array[i] == target) {
     return i;
   } else {
-    return buscaSequencialRecursiva(vetor, i + 1, buscado, size);
+    return linearSearchRecursive(array, i + 1, target, size);
   }
 }
 
 int main() {
 
-  int vetor[] = {1, 2, 3, 4, 5, 6, 7, 8};
-  size_t n = sizeof(vetor) / sizeof(vetor[0]);
-  printf("Valor %d no índice %d\n", 1,
-         buscaSequencialRecursiva(vetor, 0, 1, n));
-  printf("Valor %d no índice %d\n", 10,
-         buscaSequencialRecursiva(vetor, 0, 10, n));
+  int array[] = {1, 2, 3, 4, 5, 6, 7, 8};
+  size_t n = sizeof(array) / sizeof(array[0]);
+  printf("Value %d at index %d\n", 1, linearSearchRecursive(array, 0, 1, n));
+  printf("Value %d at index %d\n", 10, linearSearchRecursive(array, 0, 10, n));
 }

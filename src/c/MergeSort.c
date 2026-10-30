@@ -13,59 +13,59 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TAM_VETOR 100
+#define ARRAY_SIZE 100
 
-void merge(int vetor[], int tamanho) {
-  int meio = tamanho / 2;
-  int i = 0, j = meio, k = 0;
-  int aux[tamanho];
+void merge(int array[], int size) {
+  int middle = size / 2;
+  int i = 0, j = middle, k = 0;
+  int temporary[size];
 
-  while (i < meio && j < tamanho) {
-    if (vetor[i] <= vetor[j])
-      aux[k] = vetor[i++];
+  while (i < middle && j < size) {
+    if (array[i] <= array[j])
+      temporary[k] = array[i++];
     else
-      aux[k] = vetor[j++];
+      temporary[k] = array[j++];
     k++;
   }
 
-  if (i == meio)
-    while (j < tamanho)
-      aux[k++] = vetor[j++];
+  if (i == middle)
+    while (j < size)
+      temporary[k++] = array[j++];
   else
-    while (i < meio)
-      aux[k++] = vetor[i++];
+    while (i < middle)
+      temporary[k++] = array[i++];
 
-  for (i = 0; i < tamanho; i++)
-    vetor[i] = aux[i];
+  for (i = 0; i < size; i++)
+    array[i] = temporary[i];
 }
 
-int mergeSort(int vetor[], int tamanho) {
-  int meio = tamanho / 2;
+int mergeSort(int array[], int size) {
+  int middle = size / 2;
 
-  if (tamanho > 1) {
-    mergeSort(vetor, meio);
-    mergeSort(vetor + meio, tamanho - meio);
-    merge(vetor, tamanho);
+  if (size > 1) {
+    mergeSort(array, middle);
+    mergeSort(array + middle, size - middle);
+    merge(array, size);
   }
 }
 
 int main() {
 
-  int vetor[TAM_VETOR];
+  int array[ARRAY_SIZE];
 
   // Fill the array with random values from 0 to 1000
   srand(time(NULL));
-  for (int i = 0; i < TAM_VETOR; i++) {
-    vetor[i] = rand() % 1000;
-    printf("%d, ", vetor[i]);
+  for (int i = 0; i < ARRAY_SIZE; i++) {
+    array[i] = rand() % 1000;
+    printf("%d, ", array[i]);
   }
 
   printf("\n\n");
 
-  mergeSort(vetor, TAM_VETOR);
+  mergeSort(array, ARRAY_SIZE);
 
-  for (int i = 0; i < TAM_VETOR; i++) {
-    printf("%d, ", vetor[i]);
+  for (int i = 0; i < ARRAY_SIZE; i++) {
+    printf("%d, ", array[i]);
   }
 
   return 0;

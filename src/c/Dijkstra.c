@@ -35,12 +35,12 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define noVertices                                                             \
+#define vertexCount                                                            \
   5 // Defines a constant 5 which is the number of vertices in the graph
 
 // Dijkstra's algorithm takes as parameters the distance matrix and the number
 // of vertices
-void Dijkstra(unsigned long int matrix[noVertices][noVertices], int n) {
+void Dijkstra(unsigned long int matrix[vertexCount][vertexCount], int n) {
 
   bool visited[n]; // Variable that holds true for visited vertices
 
@@ -49,8 +49,8 @@ void Dijkstra(unsigned long int matrix[noVertices][noVertices], int n) {
   for (int i = 1; i < n; i++) { // Starts at 1 because you don't need to compare
                                 // the vertex with itself
 
-    int min = -1; // Variable that stores the position of the smallest value,
-                  // starts at -1 as it is an invalid position
+    int minimum = -1; // Variable that stores the position of the smallest
+                      // value, starts at -1 as it is an invalid position
     unsigned long int MinValue =
         4294967295; // Variable that stores the smallest value found, starts
                     // with 'infinity', so always on the first pass the value
@@ -60,20 +60,21 @@ void Dijkstra(unsigned long int matrix[noVertices][noVertices], int n) {
       // If the vertex has not yet been visited and the value is less than the
       // 'MinValor'
       if (!visited[j] && matrix[j][0] < MinValue) {
-        min = j;                 // Saves the position of the smallest
+        minimum = j;             // Saves the position of the smallest
         MinValue = matrix[j][0]; // Save the smallest value
       }
     }
 
-    visited[min] = true; // Mark the value of the minimum position as visited
+    visited[minimum] =
+        true; // Mark the value of the minimum position as visited
 
     // Goes from 1 to n
     for (int j = 1; j < n; j++) {
       // If the value of column [0] + the value of the passing column is less
       // than the value of the passing row and column [0] Update the first
       // column of the matrix, which will be used for the next iterations
-      if ((matrix[min][0] + matrix[min][j]) < matrix[j][0]) {
-        matrix[j][0] = matrix[min][0] + matrix[min][j];
+      if ((matrix[minimum][0] + matrix[minimum][j]) < matrix[j][0]) {
+        matrix[j][0] = matrix[minimum][0] + matrix[minimum][j];
       }
     }
   }
@@ -81,22 +82,22 @@ void Dijkstra(unsigned long int matrix[noVertices][noVertices], int n) {
 
 int main() {
 
-  unsigned long int Matrix[noVertices][noVertices] = {
+  unsigned long int Matrix[vertexCount][vertexCount] = {
       {0, 6, 10, 4294967295, 4294967295},
       {6, 0, 4294967295, 2, 4294967295},
       {10, 4294967295, 0, 1, 3},
       {4294967295, 2, 1, 0, 8},
       {4294967295, 4294967295, 3, 8, 0}};
 
-  Dijkstra(Matrix, noVertices);
+  Dijkstra(Matrix, vertexCount);
 
   printf("Total shortest path from vertex 0 to 4: %lu\n",
          Matrix[4][0]); // Shortest total path
 
   // Print the matrix with the updated values
   printf("Matrix:\n");
-  for (int i = 0; i < noVertices; ++i) {
-    for (int e = 0; e < noVertices; ++e) {
+  for (int i = 0; i < vertexCount; ++i) {
+    for (int e = 0; e < vertexCount; ++e) {
       if (Matrix[i][e] < 10)
         printf(" %lu ", Matrix[i][e]);
       else

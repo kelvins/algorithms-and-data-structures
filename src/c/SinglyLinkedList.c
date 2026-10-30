@@ -1,227 +1,227 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct tno {
-  int dado;
-  struct tno *anterior;
-  struct tno *proximo;
-} tipoNo;
+typedef struct Node {
+  int data;
+  struct Node *previous;
+  struct Node *next;
+} Node;
 
-typedef tipoNo *pnoh;
+typedef Node *NodePointer;
 
 typedef struct {
-  int tamanho;
-  pnoh primeiro;
-  pnoh ultimo;
-} tcabec;
+  int size;
+  NodePointer first;
+  NodePointer last;
+} ListHeader;
 
-typedef tcabec *TLista;
+typedef ListHeader *LinkedList;
 
-TLista criaLista() {
-  TLista c = (tcabec *)malloc(sizeof(tcabec));
+LinkedList createList() {
+  LinkedList c = (ListHeader *)malloc(sizeof(ListHeader));
 
-  c->tamanho = 0;
-  c->primeiro = NULL;
-  c->ultimo = NULL;
+  c->size = 0;
+  c->first = NULL;
+  c->last = NULL;
 
   return c;
 }
 
-TLista appendLista(TLista lst, int dado) {
-  pnoh novono = (tipoNo *)malloc(sizeof(tipoNo));
+LinkedList append(LinkedList list, int data) {
+  NodePointer newNode = (Node *)malloc(sizeof(Node));
 
-  novono->dado = dado;
-  novono->anterior = lst->ultimo;
-  novono->proximo = NULL;
+  newNode->data = data;
+  newNode->previous = list->last;
+  newNode->next = NULL;
 
-  if (lst->tamanho == 0) {
-    lst->primeiro = novono;
+  if (list->size == 0) {
+    list->first = newNode;
   } else {
-    lst->ultimo->proximo = novono;
+    list->last->next = newNode;
   }
 
-  lst->ultimo = novono;
-  lst->tamanho++;
+  list->last = newNode;
+  list->size++;
 
-  return lst;
+  return list;
 }
 
-int lenLista(TLista lst) { return lst->tamanho; }
+int listLength(LinkedList list) { return list->size; }
 
-int primLista(TLista lst) { return lst->primeiro->dado; }
+int firstValue(LinkedList list) { return list->first->data; }
 
-int ultLista(TLista lst) { return lst->ultimo->dado; }
+int lastValue(LinkedList list) { return list->last->data; }
 
-TLista insertLista(TLista lst, int i, int dado) {
-  int tam = lenLista(lst);
+LinkedList insertAt(LinkedList list, int i, int data) {
+  int size = listLength(list);
 
-  if ((i < 0) || (i > tam)) {
+  if ((i < 0) || (i > size)) {
     return NULL;
   }
 
-  if ((lenLista(lst) == 0) || (i == tam)) {
-    appendLista(lst, dado);
+  if ((listLength(list) == 0) || (i == size)) {
+    append(list, data);
   } else {
-    pnoh novono = (tipoNo *)malloc(sizeof(tipoNo));
-    novono->dado = dado;
+    NodePointer newNode = (Node *)malloc(sizeof(Node));
+    newNode->data = data;
 
     if (i == 0) {
-      novono->proximo = lst->primeiro;
-      lst->primeiro = novono;
+      newNode->next = list->first;
+      list->first = newNode;
     } else {
-      pnoh aux = lst->primeiro;
+      NodePointer temporary = list->first;
       int pos = 0;
 
       while (pos != (i - 1)) {
-        aux = aux->proximo;
+        temporary = temporary->next;
         pos++;
       }
-      novono->proximo = aux->proximo;
-      aux->proximo = novono;
+      newNode->next = temporary->next;
+      temporary->next = newNode;
     }
 
-    lst->tamanho++;
+    list->size++;
   }
 
-  return lst;
+  return list;
 }
 
-pnoh infoLista(TLista lst, int i) {
-  int tam = lenLista(lst);
+NodePointer nodeAt(LinkedList list, int i) {
+  int size = listLength(list);
 
-  if ((tam == 0) || (i < 0) || (i > tam)) {
+  if ((size == 0) || (i < 0) || (i > size)) {
     return NULL;
   }
 
   if (i == 0) {
-    return lst->primeiro;
+    return list->first;
   }
 
-  if (i == tam - 1) {
-    return lst->ultimo;
+  if (i == size - 1) {
+    return list->last;
   }
 
-  pnoh aux = lst->primeiro;
+  NodePointer temporary = list->first;
   int pos = 0;
 
   while (pos != i) {
-    aux = aux->proximo;
+    temporary = temporary->next;
     pos++;
   }
 
-  return aux;
+  return temporary;
 }
 
-void removeLista(TLista lst, int i) {
-  int tam = lenLista(lst);
+void removeAt(LinkedList list, int i) {
+  int size = listLength(list);
 
-  if ((i < 0) || (i > tam) || (tam == 0)) {
-    printf("Erro: indice inexistente dentro da Lista.");
+  if ((i < 0) || (i > size) || (size == 0)) {
+    printf("Error: index does not exist in the list.");
     return;
   }
 
-  if (tam == 1) {
-    pnoh aux = lst->primeiro;
-    lst->primeiro = NULL;
-    lst->ultimo = NULL;
-    lst->tamanho--;
+  if (size == 1) {
+    NodePointer temporary = list->first;
+    list->first = NULL;
+    list->last = NULL;
+    list->size--;
 
-    free(aux);
+    free(temporary);
   } else {
     if (i == 0) {
-      pnoh aux = lst->primeiro;
-      lst->primeiro = aux->proximo;
-      lst->tamanho--;
+      NodePointer temporary = list->first;
+      list->first = temporary->next;
+      list->size--;
 
-      free(aux);
+      free(temporary);
     } else {
-      if (i == tam - 1) {
-        pnoh aux = lst->ultimo;
+      if (i == size - 1) {
+        NodePointer temporary = list->last;
 
-        pnoh penultimo = lst->primeiro;
+        NodePointer secondLast = list->first;
         int pos = 0;
 
         while (pos != i - 1) {
-          penultimo = penultimo->proximo;
+          secondLast = secondLast->next;
           pos++;
         }
 
-        penultimo->proximo = NULL;
-        lst->ultimo = penultimo;
+        secondLast->next = NULL;
+        list->last = secondLast;
 
-        lst->tamanho--;
+        list->size--;
 
-        free(aux);
+        free(temporary);
       } else {
-        pnoh anterior = lst->primeiro;
+        NodePointer previous = list->first;
         int pos = 0;
 
         while (pos != i - 1) {
-          anterior = anterior->proximo;
+          previous = previous->next;
           pos++;
         }
 
-        pnoh aux = anterior->proximo;
-        anterior->proximo = aux->proximo;
-        lst->tamanho--;
+        NodePointer temporary = previous->next;
+        previous->next = temporary->next;
+        list->size--;
 
-        free(aux);
+        free(temporary);
       }
     }
   }
 }
 
-int indexLista(TLista lst, int dado) {
-  int tam = lenLista(lst);
+int indexOf(LinkedList list, int data) {
+  int size = listLength(list);
   int i, dadolst;
-  pnoh no_dadolst;
+  NodePointer nodeWithValue;
 
-  if (tam == 0) {
+  if (size == 0) {
     return -1;
   }
 
   i = 0;
-  no_dadolst = infoLista(lst, i);
-  dadolst = no_dadolst->dado;
-  while ((i < tam) && (dado != dadolst)) {
+  nodeWithValue = nodeAt(list, i);
+  dadolst = nodeWithValue->data;
+  while ((i < size) && (data != dadolst)) {
     i++;
-    no_dadolst = infoLista(lst, i);
-    dadolst = no_dadolst->dado;
+    nodeWithValue = nodeAt(list, i);
+    dadolst = nodeWithValue->data;
   }
 
-  if (i < tam) {
+  if (i < size) {
     return i;
   }
 
   return -1;
 }
 
-TLista clearLista(TLista lst) {
-  int tam = lenLista(lst);
+LinkedList clearList(LinkedList list) {
+  int size = listLength(list);
 
-  if (tam == 0) {
-    return lst;
+  if (size == 0) {
+    return list;
   }
 
-  while (lenLista(lst) > 0) {
-    removeLista(lst, 0);
+  while (listLength(list) > 0) {
+    removeAt(list, 0);
   }
 
-  return lst;
+  return list;
 }
 
-TLista clonaLista(TLista lst) {
-  TLista clone = criaLista();
-  int tam = lenLista(lst);
+LinkedList cloneList(LinkedList list) {
+  LinkedList clone = createList();
+  int size = listLength(list);
 
-  if (tam == 0) {
+  if (size == 0) {
     return clone;
   }
 
-  for (int i = 0; i < tam; i++) {
-    pnoh no = infoLista(lst, i);
-    if (no != NULL) {
-      appendLista(clone, no->dado);
+  for (int i = 0; i < size; i++) {
+    NodePointer node = nodeAt(list, i);
+    if (node != NULL) {
+      append(clone, node->data);
     }
   }
 
@@ -229,38 +229,38 @@ TLista clonaLista(TLista lst) {
 }
 
 int main() {
-  TLista lista = criaLista();
-  appendLista(lista, 3);
-  appendLista(lista, 5);
-  appendLista(lista, 7);
+  LinkedList list = createList();
+  append(list, 3);
+  append(list, 5);
+  append(list, 7);
 
-  printf("Lista criada e adicionado 3 numeros\n");
-  int tamanho = lenLista(lista);
-  int primeiro = primLista(lista);
-  int ultimo = ultLista(lista);
-  pnoh valor = infoLista(lista, 1);
-  int valor_dado = valor->dado;
-  printf("Tamanho da lista: %d\nPrimeiro da Lista: %d\nUltimo da Lista: "
-         "%d\nSegundo valor: %d\n",
-         tamanho, primeiro, ultimo, valor_dado);
+  printf("List created with 3 numbers\n");
+  int size = listLength(list);
+  int first = firstValue(list);
+  int last = lastValue(list);
+  NodePointer value = nodeAt(list, 1);
+  int value = value->data;
+  printf("List size: %d\nFirst item: %d\nLast item: "
+         "%d\nSecond value: %d\n",
+         size, first, last, value);
 
-  insertLista(lista, 2, 6);
-  valor = infoLista(lista, 2);
-  valor_dado = valor->dado;
-  printf("Adicionando 6 na posição 2: %d\n", valor_dado);
+  insertAt(list, 2, 6);
+  value = nodeAt(list, 2);
+  value = value->data;
+  printf("Adding 6 at position 2: %d\n", value);
 
-  removeLista(lista, 1);
-  tamanho = lenLista(lista);
-  printf("Novo tamanho após adicionar e remover: %d\n", tamanho);
+  removeAt(list, 1);
+  size = listLength(list);
+  printf("New size after adding and removing: %d\n", size);
 
-  int index = indexLista(lista, 3);
-  printf("Index do elemento com valor 3 na lista: %d\n", index);
+  int index = indexOf(list, 3);
+  printf("Index of the element with value 3 in the list: %d\n", index);
 
-  TLista cloneLista = clonaLista(lista);
-  printf("Lista Duplicada\n");
+  LinkedList cloneList = cloneList(list);
+  printf("Cloned list\n");
 
-  clearLista(lista);
-  printf("Lista Apagada");
+  clearList(list);
+  printf("List cleared");
 
   return 0;
 }

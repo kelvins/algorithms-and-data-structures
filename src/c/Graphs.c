@@ -19,51 +19,51 @@
 
 #define MAX_VERTICES 20 // Maximum number of vertices the graph can have
 
-int nroVertices = 0;                    // Current number of vertices
-int matriz[MAX_VERTICES][MAX_VERTICES]; // Distance matrix
-int componentes;
+int vertexCount = 0;                    // Current number of vertices
+int matrix[MAX_VERTICES][MAX_VERTICES]; // Distance matrix
+int components;
 
-typedef struct NO {
+typedef struct Node {
   char id;
-  int nroVizinhos;
-  struct AUX *vizinhos[];
-  bool visitado;
-  int indice; // Stores the order in which the vertex was created
-} *VERTICE;
+  int neighborCount;
+  struct EdgeNode *neighbors[];
+  bool visited;
+  int index; // Stores the order in which the vertex was created
+} *Vertex;
 
-typedef struct AUX {
-  VERTICE vizinho;
-  int valor;
-} *ARESTA;
+typedef struct EdgeNode {
+  Vertex vizinho;
+  int value;
+} *Edge;
 
-VERTICE criaVertice(char id) {
-  matriz[nroVertices][nroVertices] = 0;
-  VERTICE novo = (VERTICE)malloc(sizeof(NO));
-  novo->id = id;
-  novo->nroVizinhos = 0;
-  novo->visitado = false;
-  novo->indice = nroVertices;
-  nroVertices++;
-  return novo;
+Vertex createVertex(char id) {
+  matrix[vertexCount][vertexCount] = 0;
+  Vertex newNode = (Vertex)malloc(sizeof(Node));
+  newNode->id = id;
+  newNode->neighborCount = 0;
+  newNode->visited = false;
+  newNode->index = vertexCount;
+  vertexCount++;
+  return newNode;
 }
 
-void ligaVertice(VERTICE v1, VERTICE v2, int valor) {
-  matriz[v1->indice][v2->indice] = valor;
-  ARESTA nova = (ARESTA)malloc(sizeof(AUX));
-  nova->vizinho = v2;
-  nova->valor = valor;
-  v1->vizinhos[v1->nroVizinhos] = nova;
-  v1->nroVizinhos++;
+void connectVertices(Vertex v1, Vertex v2, int value) {
+  matrix[v1->index][v2->index] = value;
+  Edge newNode = (Edge)malloc(sizeof(EdgeNode));
+  newNode->vizinho = v2;
+  newNode->value = value;
+  v1->neighbors[v1->neighborCount] = newNode;
+  v1->neighborCount++;
 }
 
-void mostraMatrizDistancia() {
-  printf("\nMatriz de Distancia\n");
-  for (int l = 0; l < nroVertices; l++) {
-    for (int c = 0; c < nroVertices; c++) {
-      if (matriz[l][c] == -1)
-        printf("%d, ", matriz[l][c]);
+void printDistanceMatrix() {
+  printf("\nDistance matrix\n");
+  for (int l = 0; l < vertexCount; l++) {
+    for (int c = 0; c < vertexCount; c++) {
+      if (matrix[l][c] == -1)
+        printf("%d, ", matrix[l][c]);
       else
-        printf(" %d, ", matriz[l][c]);
+        printf(" %d, ", matrix[l][c]);
     }
     printf("\n");
   }
@@ -73,29 +73,29 @@ void mostraMatrizDistancia() {
 void zeraVariaveis() {
   for (int l = 0; l < MAX_VERTICES; l++) {
     for (int c = 0; c < MAX_VERTICES; c++) {
-      matriz[l][c] = -1;
+      matrix[l][c] = -1;
     }
   }
 }
 
-void visitaVizinhos(bool visitados[], int atual) {
-  for (int i = 0; i < nroVertices; i++) {
-    if (visitados[i] == false && matriz[atual][i] > 0) {
-      visitados[i] = true;
-      componentes++;
-      visitaVizinhos(visitados, i);
+void visitNeighbors(bool visited[], int current) {
+  for (int i = 0; i < vertexCount; i++) {
+    if (visited[i] == false && matrix[current][i] > 0) {
+      visited[i] = true;
+      components++;
+      visitNeighbors(visited, i);
     }
   }
 }
 
-void calculaComponentesConexos() {
-  bool visitados[nroVertices];
-  for (int i = 0; i < nroVertices; ++i) {
-    visitados[i] = false;
+void findConnectedComponents() {
+  bool visited[vertexCount];
+  for (int i = 0; i < vertexCount; ++i) {
+    visited[i] = false;
   }
-  for (int i = 0; i < nroVertices; i++) {
-    if (visitados[i] == false) {
-      visitaVizinhos(visitados, i);
+  for (int i = 0; i < vertexCount; i++) {
+    if (visited[i] == false) {
+      visitNeighbors(visited, i);
     }
   }
 }
@@ -104,22 +104,22 @@ int main() {
   zeraVariaveis();
 
   // The distance matrix follows the insertion order
-  VERTICE A = criaVertice('A');
-  VERTICE B = criaVertice('B');
-  VERTICE C = criaVertice('C');
-  VERTICE D = criaVertice('D');
-  VERTICE E = criaVertice('E');
+  Vertex A = createVertex('A');
+  Vertex B = createVertex('B');
+  Vertex C = createVertex('C');
+  Vertex D = createVertex('D');
+  Vertex E = createVertex('E');
 
-  ligaVertice(A, B, 5);
-  ligaVertice(A, C, 6);
-  ligaVertice(B, D, 8);
-  ligaVertice(C, D, 4);
-  ligaVertice(D, B, 2);
+  connectVertices(A, B, 5);
+  connectVertices(A, C, 6);
+  connectVertices(B, D, 8);
+  connectVertices(C, D, 4);
+  connectVertices(D, B, 2);
 
-  calculaComponentesConexos();
-  printf("\nComponentes Conexos: %d\n", componentes);
+  findConnectedComponents();
+  printf("\nConnected components: %d\n", components);
 
-  mostraMatrizDistancia();
+  printDistanceMatrix();
 
   return 0;
 }

@@ -7,76 +7,76 @@
 #define MAX 10
 #define ERRO -1
 
-typedef int TIPOCHAVE;
+typedef int KEY_TYPE;
 
 typedef struct {
-  TIPOCHAVE chave;
-} REGISTRO;
+  KEY_TYPE key;
+} Record;
 
 typedef struct {
-  REGISTRO A[MAX + 1];
-  int nroRegistros;
-} FILA;
+  Record A[MAX + 1];
+  int recordCount;
+} Queue;
 
-void inicializa(FILA *F) {
+void initialize(Queue *F) {
   int i = 0;
   for (i; i < MAX - 2; i++) {
-    F->A[i].chave = i * 2;
+    F->A[i].key = i * 2;
   }
-  F->nroRegistros = i;
+  F->recordCount = i;
 }
 
-void mostraFila(FILA *F) {
+void printQueue(Queue *F) {
   int i = 0;
-  printf("FILA:\n");
-  for (i; i < F->nroRegistros; i++) {
-    printf("[ %d ] ", F->A[i].chave);
+  printf("QUEUE:\n");
+  for (i; i < F->recordCount; i++) {
+    printf("[ %d ] ", F->A[i].key);
   }
   printf("\n\n");
 }
 
-bool insereFila(TIPOCHAVE ch, FILA *F) {
-  if (F->nroRegistros >= MAX)
+bool enqueue(KEY_TYPE key, Queue *F) {
+  if (F->recordCount >= MAX)
     return false;
-  F->A[F->nroRegistros].chave = ch;
-  F->nroRegistros++;
+  F->A[F->recordCount].key = key;
+  F->recordCount++;
   return true;
 }
 
-bool removeFila(FILA *F) {
-  if (F->nroRegistros <= 0)
+bool dequeue(Queue *F) {
+  if (F->recordCount <= 0)
     return false;
   int i = 1;
-  for (i; i < F->nroRegistros; i++) {
-    F->A[i - 1].chave = F->A[i].chave;
+  for (i; i < F->recordCount; i++) {
+    F->A[i - 1].key = F->A[i].key;
   }
-  F->nroRegistros--;
+  F->recordCount--;
   return true;
 }
 
-int buscaFila(TIPOCHAVE ch, FILA *F) {
-  F->A[F->nroRegistros].chave =
-      ch; // Place ch at the last position for sentinel search
+int searchQueue(KEY_TYPE key, Queue *F) {
+  F->A[F->recordCount].key =
+      key; // Place ch at the last position for sentinel search
   int i = 0;
-  while (F->A[i].chave != ch)
+  while (F->A[i].key != key)
     i++;
-  if (i >= F->nroRegistros)
+  if (i >= F->recordCount)
     return ERRO;
   return i;
 }
 
 int main() {
-  FILA fi;
-  inicializa(&fi);
-  mostraFila(&fi);
+  Queue fi;
+  initialize(&fi);
+  printQueue(&fi);
 
-  insereFila(15, &fi);
-  mostraFila(&fi);
+  enqueue(15, &fi);
+  printQueue(&fi);
 
-  removeFila(&fi);
-  mostraFila(&fi);
+  dequeue(&fi);
+  printQueue(&fi);
 
-  printf("A chave buscada se encontra na posicao %d da fila\n\n",
-         buscaFila(8, &fi));
+  printf("The searched key is at position %d in the queue\n\n",
+         searchQueue(8, &fi));
   return 0;
 }

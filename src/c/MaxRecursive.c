@@ -9,16 +9,16 @@
 #define MAX 10
 
 // Maximum using divide and conquer
-int MaxDC(int *vetor, int inicio, int fim) {
+int maxDivideAndConquer(int *array, int start, int end) {
   int aux1, aux2;
-  int meio = (inicio + fim) / 2;
+  int middle = (start + end) / 2;
 
-  if (inicio == fim) {
-    return vetor[inicio];
+  if (start == end) {
+    return array[start];
   }
 
-  aux1 = MaxDC(vetor, inicio, meio);
-  aux2 = MaxDC(vetor, meio + 1, fim);
+  aux1 = maxDivideAndConquer(array, start, middle);
+  aux2 = maxDivideAndConquer(array, middle + 1, end);
 
   if (aux1 > aux2) {
     return aux1;
@@ -27,44 +27,44 @@ int MaxDC(int *vetor, int inicio, int fim) {
   }
 }
 
-void max1(int *vetor, int maximo, int indice) {
-  if (vetor[indice] > maximo) {
-    maximo = vetor[indice];
+void findMaximumRecursive(int *array, int maximum, int index) {
+  if (array[index] > maximum) {
+    maximum = array[index];
   }
 
-  if (indice < MAX - 1) {
-    max1(vetor, maximo, indice + 1);
+  if (index < MAX - 1) {
+    findMaximumRecursive(array, maximum, index + 1);
   } else {
-    printf("\n\nMax1: %d\n", maximo);
+    printf("\n\nMax1: %d\n", maximum);
   }
 }
 
-int max2(int vetor[], int tamVetor) {
-  if (tamVetor == 1) {
-    return vetor[0]; // There is only one element
+int findMaximum(int array[], int arraySize) {
+  if (arraySize == 1) {
+    return array[0]; // There is only one element
   } else {
-    int x = max2(vetor, tamVetor - 1);
+    int x = findMaximum(array, arraySize - 1);
 
-    if (x > vetor[tamVetor - 1]) {
+    if (x > array[arraySize - 1]) {
       return x;
     } else {
-      return vetor[tamVetor - 1];
+      return array[arraySize - 1];
     }
   }
 }
 
 int main() {
-  int vetor[MAX];
+  int array[MAX];
 
   for (int i = 0; i < MAX; ++i) {
-    vetor[i] = (rand() % 90) + 10; // 10 a 99
-    printf("%d, ", vetor[i]);
+    array[i] = (rand() % 90) + 10; // 10 a 99
+    printf("%d, ", array[i]);
   }
 
-  max1(vetor, vetor[0], 1);
+  findMaximumRecursive(array, array[0], 1);
 
-  printf("\nMax2: %d\n", max2(vetor, MAX));
-  printf("\nMaxDC: %d\n\n", MaxDC(vetor, 0, MAX - 1));
+  printf("\nMax2: %d\n", findMaximum(array, MAX));
+  printf("\nMaxDC: %d\n\n", maxDivideAndConquer(array, 0, MAX - 1));
 
   return 0;
 }
