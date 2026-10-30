@@ -7,55 +7,55 @@
 
 /* Linked list using a head cell */
 
-typedef struct cel Node;
-struct cel {
+typedef struct Node Node;
+struct Node {
   int data;
-  struct cel *prox;
-  struct cel *previous;
+  struct Node *next;
+  struct Node *previous;
 };
 
 /* Pointer 'p' is the head of the list */
 
-void insertAtHead(int x, Node *p) /* Insere no inicio da lista*/
+void insertAtHead(int x, Node *p) /* Insert at the beginning of the list*/
 {
   Node *newNode, *q;
   newNode = malloc(sizeof(Node));
   newNode->data = x;
-  newNode->prox = p->prox;
+  newNode->next = p->next;
   /* Check whether the list is empty */
-  if (p->prox != NULL) {
-    q = newNode->prox;
+  if (p->next != NULL) {
+    q = newNode->next;
     q->previous = newNode;
   }
-  p->prox = newNode;
+  p->next = newNode;
   newNode->previous = p;
 }
 
-void append(int x, Node *p) /* Insere no final da lista*/
+void append(int x, Node *p) /* Insert at the end of the list*/
 {
   Node *q;
   Node *newNode;
   newNode = malloc(sizeof(Node));
   newNode->data = x;
   q = p;
-  while (q->prox != NULL)
-    q = q->prox;
+  while (q->next != NULL)
+    q = q->next;
 
-  q->prox = newNode;
+  q->next = newNode;
   newNode->previous = q;
-  newNode->prox = NULL;
+  newNode->next = NULL;
 }
 
 void findAndRemove(int y, Node *p) {
   Node *w, *q;
   w = p;
-  q = p->prox;
+  q = p->next;
   while (q != NULL && q->data != y) {
     w = q;
-    q = q->prox;
+    q = q->next;
   }
   if (q != NULL) {
-    w->prox = q->prox;
+    w->next = q->next;
     q->previous = w;
     free(q);
   } else {
@@ -66,7 +66,7 @@ void findAndRemove(int y, Node *p) {
 
 void print(Node *p) {
   Node *q;
-  for (q = p->prox; q != NULL; q = q->prox)
+  for (q = p->next; q != NULL; q = q->next)
     printf("%d  ", q->data);
 }
 
@@ -79,11 +79,11 @@ void Menu() {
   printf("\nOption: ");
 }
 
-void libera(Node *ini) {
+void freeList(Node *head) {
   Node *p;
-  p = ini;
+  p = head;
   while (p != NULL) {
-    Node *q = p->prox; /* Save a reference to the next element */
+    Node *q = p->next; /* Save a reference to the next element */
     free(p);           /* Free the memory pointed to by p */
     p = q;             /* Make p point to the next element */
   }
@@ -95,13 +95,13 @@ int main() {
   // Initialize the list
   p = malloc(sizeof(Node));
   p->previous = NULL;
-  p->prox = NULL;
-  // fim_inicializa
+  p->next = NULL;
+  // end_initialize
 
   do {
     system("cls");
     printf("\nList contents: ");
-    if (p->prox != NULL) {
+    if (p->next != NULL) {
       print(p);
     } else {
       printf("EMPTY LIST");
@@ -121,7 +121,7 @@ int main() {
       append(item, p);
       break;
     case 3:
-      if (p->prox != NULL) {
+      if (p->next != NULL) {
         printf("Remove an item: ");
         scanf("%d", &item);
         findAndRemove(item, p);
@@ -139,6 +139,6 @@ int main() {
     }
 
   } while (op != 4);
-  libera(p);
+  freeList(p);
   return 0;
 }

@@ -5,28 +5,28 @@
 #include <malloc.h>
 #include <stdio.h>
 
-#define ERRO -1
+#define ERROR -1
 
 typedef int KEY_TYPE;
 
-typedef struct temporary {
+typedef struct Node {
   KEY_TYPE key;
-  struct temporary *prox;
+  struct Node *next;
 } Record, *NodePointer;
 
 NodePointer createRecord(KEY_TYPE key) {
   NodePointer record = (NodePointer)malloc(sizeof(NodePointer));
   record->key = key;
-  record->prox = NULL;
+  record->next = NULL;
   return record;
 }
 
 NodePointer insertRecord(KEY_TYPE key, NodePointer record) {
   if (record == NULL)
     return createRecord(key); // Create a new record if the list has none
-  while (record->prox != NULL)
-    record = record->prox;
-  record->prox = createRecord(key);
+  while (record->next != NULL)
+    record = record->next;
+  record->next = createRecord(key);
   return NULL;
 }
 
@@ -34,14 +34,14 @@ void printList(NodePointer record) {
   if (record == NULL)
     return;
   printf("%d, ", record->key);
-  printList(record->prox);
+  printList(record->next);
 }
 
 NodePointer linearSearch(KEY_TYPE key, NodePointer record) {
   while (record != NULL) {
     if (record->key == key)
       return record;
-    record = record->prox;
+    record = record->next;
   }
   return NULL;
 }
@@ -50,12 +50,12 @@ bool deleteRecord(KEY_TYPE key, NodePointer record) {
   NodePointer previous;
   while (record != NULL) {
     if (record->key == key) {
-      previous->prox = record->prox;
+      previous->next = record->next;
       free(record);
       return true;
     }
     previous = record;
-    record = record->prox;
+    record = record->next;
   }
   printf("\nKey %d not found.\n", key);
   return false;

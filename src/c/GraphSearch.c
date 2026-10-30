@@ -112,7 +112,7 @@ int breadthFirstSearch(Vertex start, Vertex destination) {
 
   // Process the queue until it is empty
   while (queueHead < queueSize) {
-    // If the next element is the destination, return the distance (iniFila)
+    // If the next element is the destination, return the distance (queueHead)
     if (Queue[queueHead] == destination)
       return queueHead;
 

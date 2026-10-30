@@ -3,7 +3,7 @@
  *	Graphs - Algorithm to calculate the number of connected components in a
  *given Graph
  *
- *	GRAFO
+ *	GRAPH
  *   (0)               (1)-------------(4)---------------(5)
  *    |                 |               |                 |
  *    |                 |               |                 |

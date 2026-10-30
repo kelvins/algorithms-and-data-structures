@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 #define MAX 10
-#define ERRO -1
+#define ERROR -1
 
 typedef int KEY_TYPE;
 
@@ -21,10 +21,10 @@ typedef struct {
 int initialize(Stack *p) {
   p->recordCount = 0;
   int i = 0;
-  for (i; i < MAX - 2; i++) { // Preenche a Pilha *para testes
+  for (i; i < MAX - 2; i++) { // Fill the stack for testing
     p->A[i].key = i * 2; // This is an array of records (similar to a class),
                          // could have more fields, so it is defined this way
-                         // A[i].chave inserts the value into the key field
+                         // A[i].key stores the value in the key field
   }
   p->recordCount = i;
 }
@@ -56,7 +56,7 @@ int searchStack(int key, Stack *p) {
   while (p->A[temporary].key != key)
     temporary++;
   if (temporary == p->recordCount)
-    return ERRO;
+    return ERROR;
   return temporary;
 }
 

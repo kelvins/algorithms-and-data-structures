@@ -58,7 +58,7 @@ void Dijkstra(unsigned long int matrix[vertexCount][vertexCount], int n) {
     // For that loops through all rows in column [0]
     for (int j = 1; j < n; j++) {
       // If the vertex has not yet been visited and the value is less than the
-      // 'MinValor'
+      // 'MinValue'
       if (!visited[j] && matrix[j][0] < MinValue) {
         minimum = j;             // Saves the position of the smallest
         MinValue = matrix[j][0]; // Save the smallest value

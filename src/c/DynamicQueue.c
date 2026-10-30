@@ -9,37 +9,37 @@ typedef int KEY_TYPE;
 
 typedef struct Node {
   KEY_TYPE key;
-  struct Node *prox;
+  struct Node *next;
 } *NodePointer;
 
 NodePointer newNode(KEY_TYPE key) {
   NodePointer temporary = (NodePointer)malloc(sizeof(Node));
   temporary->key = key;
-  temporary->prox = NULL;
+  temporary->next = NULL;
   return temporary;
 }
 
 NodePointer insert(KEY_TYPE key, NodePointer node) {
   NodePointer temporary = newNode(key);
-  temporary->prox = node;
+  temporary->next = node;
   return temporary;
 }
 
 void printQueue(NodePointer node) {
   while (node != NULL) {
     printf("[%d]->", node->key);
-    node = node->prox;
+    node = node->next;
   }
   printf("\n");
 }
 
 void remove(NodePointer node) {
   NodePointer previousNode = node;
-  while (node->prox != NULL) {
+  while (node->next != NULL) {
     previousNode = node;
-    node = node->prox;
+    node = node->next;
   }
-  previousNode->prox = NULL;
+  previousNode->next = NULL;
   free(node);
 }
 
@@ -47,7 +47,7 @@ int queueLength(NodePointer node) {
   int cont = 0;
   while (node != NULL) {
     cont++;
-    node = node->prox;
+    node = node->next;
   }
   return cont;
 }

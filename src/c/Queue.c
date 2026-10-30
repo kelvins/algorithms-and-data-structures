@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 #define MAX 10
-#define ERRO -1
+#define ERROR -1
 
 typedef int KEY_TYPE;
 
@@ -18,65 +18,65 @@ typedef struct {
   int recordCount;
 } Queue;
 
-void initialize(Queue *F) {
+void initialize(Queue *queue) {
   int i = 0;
   for (i; i < MAX - 2; i++) {
-    F->A[i].key = i * 2;
+    queue->A[i].key = i * 2;
   }
-  F->recordCount = i;
+  queue->recordCount = i;
 }
 
-void printQueue(Queue *F) {
+void printQueue(Queue *queue) {
   int i = 0;
   printf("QUEUE:\n");
-  for (i; i < F->recordCount; i++) {
-    printf("[ %d ] ", F->A[i].key);
+  for (i; i < queue->recordCount; i++) {
+    printf("[ %d ] ", queue->A[i].key);
   }
   printf("\n\n");
 }
 
-bool enqueue(KEY_TYPE key, Queue *F) {
-  if (F->recordCount >= MAX)
+bool enqueue(KEY_TYPE key, Queue *queue) {
+  if (queue->recordCount >= MAX)
     return false;
-  F->A[F->recordCount].key = key;
-  F->recordCount++;
+  queue->A[queue->recordCount].key = key;
+  queue->recordCount++;
   return true;
 }
 
-bool dequeue(Queue *F) {
-  if (F->recordCount <= 0)
+bool dequeue(Queue *queue) {
+  if (queue->recordCount <= 0)
     return false;
   int i = 1;
-  for (i; i < F->recordCount; i++) {
-    F->A[i - 1].key = F->A[i].key;
+  for (i; i < queue->recordCount; i++) {
+    queue->A[i - 1].key = queue->A[i].key;
   }
-  F->recordCount--;
+  queue->recordCount--;
   return true;
 }
 
-int searchQueue(KEY_TYPE key, Queue *F) {
-  F->A[F->recordCount].key =
+int searchQueue(KEY_TYPE key, Queue *queue) {
+  queue->A[queue->recordCount].key =
       key; // Place ch at the last position for sentinel search
   int i = 0;
-  while (F->A[i].key != key)
+  while (queue->A[i].key != key)
     i++;
-  if (i >= F->recordCount)
-    return ERRO;
+  if (i >= queue->recordCount)
+    return ERROR;
   return i;
 }
 
 int main() {
-  Queue fi;
-  initialize(&fi);
-  printQueue(&fi);
+  Queue queue;
+  initialize(&queue);
+  printQueue(&queue);
 
-  enqueue(15, &fi);
-  printQueue(&fi);
+  enqueue(15, &queue);
+  printQueue(&queue);
 
-  dequeue(&fi);
-  printQueue(&fi);
+  dequeue(&queue);
+  printQueue(&queue);
 
   printf("The searched key is at position %d in the queue\n\n",
-         searchQueue(8, &fi));
+         searchQueue(8, &queue));
   return 0;
 }

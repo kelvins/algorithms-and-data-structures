@@ -173,7 +173,7 @@ void removeAt(LinkedList list, int i) {
 
 int indexOf(LinkedList list, int data) {
   int size = listLength(list);
-  int i, dadolst;
+  int i, currentValue;
   NodePointer nodeWithValue;
 
   if (size == 0) {
@@ -182,11 +182,11 @@ int indexOf(LinkedList list, int data) {
 
   i = 0;
   nodeWithValue = nodeAt(list, i);
-  dadolst = nodeWithValue->data;
-  while ((i < size) && (data != dadolst)) {
+  currentValue = nodeWithValue->data;
+  while ((i < size) && (data != currentValue)) {
     i++;
     nodeWithValue = nodeAt(list, i);
-    dadolst = nodeWithValue->data;
+    currentValue = nodeWithValue->data;
   }
 
   if (i < size) {

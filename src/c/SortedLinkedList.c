@@ -6,9 +6,9 @@
 #include <stdio.h>
 
 #define MAX 10
-#define ERRO -1
+#define ERROR -1
 
-typedef int KEY_TYPE; // Define TIPOCHAVE as an alias for an integer type
+typedef int KEY_TYPE; // Define KEY_TYPE as an alias for an integer type
 
 typedef struct {
   KEY_TYPE key;
@@ -26,7 +26,7 @@ void initializeList(List *L) {
     L->A[i].key = i * 2;
   }
   L->elementCount = MAX - 2;
-  // (*L).nroElementos = 0; // This accesses the list itself, not the
+  // (*L).elementCount = 0; // This accesses the list itself, not the
   // pointer
 }
 
@@ -46,7 +46,7 @@ int sentinelSearch(KEY_TYPE key,
     i++;
   if (i == L->elementCount) // Reaching the end means the value was not found;
                             // return ERROR (-1)
-    return ERRO;
+    return ERROR;
   return i; // Otherwise, return the position of the value/key in the array
 }
 

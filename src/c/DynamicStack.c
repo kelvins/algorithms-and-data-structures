@@ -5,43 +5,43 @@
 #include <malloc.h>
 #include <stdio.h>
 
-#define ERRO -1
+#define ERROR -1
 
 typedef int KEY_TYPE;
 
 typedef struct EdgeNode {
   KEY_TYPE key;
-  struct EdgeNode *prox;
+  struct EdgeNode *next;
 } *Stack;
 
 Stack CREATE(KEY_TYPE key) {
   Stack newStack = (Stack)malloc(sizeof(Stack));
   newStack->key = key;
-  newStack->prox = NULL;
+  newStack->next = NULL;
   return newStack;
 }
 
 Stack PUSH(KEY_TYPE key, Stack pi) {
-  /*while( pi->prox != NULL ){
-          pi = pi->prox;
+  /*while( pi->next != NULL ){
+          pi = pi->next;
   }*/
   Stack newNode = CREATE(key);
-  // pi->prox = novo;
-  newNode->prox = pi;
+  // stack->next = newNode;
+  newNode->next = pi;
   return newNode;
 }
 
 Stack POP(Stack pi) {
-  Stack rest = pi->prox;
+  Stack rest = pi->next;
   free(pi);
   return rest;
 }
 
 void SHOW(Stack pi) {
   printf("STACK:\n");
-  while (pi->prox != NULL) {
+  while (pi->next != NULL) {
     printf("[ %d ]\n", pi->key);
-    pi = pi->prox;
+    pi = pi->next;
   }
   printf("[ %d ]\n", pi->key);
 }
@@ -51,7 +51,7 @@ bool SEARCH(KEY_TYPE key, Stack pi) {
   while (pi != NULL) {
     if (pi->key == key)
       found = true;
-    pi = pi->prox;
+    pi = pi->next;
   }
   return found;
 }

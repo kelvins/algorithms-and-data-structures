@@ -18,7 +18,7 @@ typedef int KEY_TYPE;
 typedef struct EdgeNode {
   KEY_TYPE key;
   struct EdgeNode *left, *right;
-} Node, *NodePointer; // NO is the structure and PONT is a pointer to NO
+} Node, *NodePointer; // Node is the structure and NodePointer points to Node
 
 int maximum(int a, int b) {
   if (a > b)
@@ -27,14 +27,14 @@ int maximum(int a, int b) {
 }
 
 int height(NodePointer node) {
-  if (node == NULL) // Mesma coisa que usar if(!no)
+  if (node == NULL) // Equivalent to writing if (!node)
     return 0;
   return 1 +
          maximum(
              height(node->left),
              height(
-                 node->right)); // Percorre a arvore pela esquerda e pela
-                                // right side to check which subtree is taller
+                 node->right)); // Compare the left and right subtrees to
+                                // determine which subtree is taller
 }
 
 NodePointer binarySearchTree(KEY_TYPE key, NodePointer root) {
@@ -115,7 +115,7 @@ bool remove(KEY_TYPE key, NodePointer root) {
   if (current == NULL)
     return false; // The key was not found
   parentNode = findParentNode(key, root);
-  if (current->left == NULL || current->right == NULL) { // Se tem 0 ou 1 filho
+  if (current->left == NULL || current->right == NULL) { // If the node has zero or one child
     if (current->left == NULL)
       replacement = current->right;
     else
