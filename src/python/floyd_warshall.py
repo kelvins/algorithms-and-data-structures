@@ -20,7 +20,7 @@ def imprime(matriz, vertices):
 
 def floyd_warshall(matriz, vertices):
     dist = gerar_matriz(vertices, vertices)
-    # inicializando a matriz com infinito nas diagonais e as distancias das arestas
+    # Initialize the matrix with infinity on the diagonal and edge distances
     for i in range(vertices):
         for j in range(vertices):
             if i != j:
@@ -40,7 +40,7 @@ def floyd_warshall(matriz, vertices):
 
                 if i != j and Dist != inf and Dist < dist[i][j]:
                     dist[i][j] = Dist
-    # printando o resultado
+    # Print the result
     print("Matriz de distâncias")
     imprime(dist, vertices)
 

@@ -22,9 +22,9 @@ int inicializa(PILHA *p) {
   p->nroRegistros = 0;
   int i = 0;
   for (i; i < MAX - 2; i++) { // Preenche a Pilha *para testes
-    p->A[i].chave = i * 2;    // É um array de REGISTRO (semelhante a class),
-                              // poderia ter mais campos, por isso se define
-                              // A[i].chave, irá inserir o valor no campo chave
+    p->A[i].chave = i * 2;    // This is an array of records (similar to a class),
+                              // could have more fields, so it is defined this way
+                              // A[i].chave inserts the value into the key field
   }
   p->nroRegistros = i;
 }

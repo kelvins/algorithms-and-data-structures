@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 def busca_sequencial(valor, vetor)
-  # Procura o valor no vetor sequencialmente
-  # Se encontrar retorna o índice, senão -1
+  # Search for the value sequentially in the array
+  # Return its index if found, or -1 otherwise
   vetor.each_with_index do |elemento, indice|
     return indice if elemento.equal?(valor)
   end

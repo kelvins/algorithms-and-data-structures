@@ -8,8 +8,8 @@ use std::collections::HashMap;
 // Matriz de Vector usada ara construir o Grafo.
 type MatrizGrafo = Vec<Vec<isize>>;
 
-// O dicionario serve para podermos dar entrada a qualquer String e ter como abstrair suas posições dentro
-// da matriz numerica, isso serve apenas para fins de uso, não requerer transcrever um Nodo com X para valor numerico.
+// The dictionary lets us accept any String and map its position within
+// the numeric matrix. This is for convenience, so callers do not need to convert a node label to a number.
 #[derive(PartialEq, Eq, Clone, Debug)]
 struct Grafo {
     matriz: MatrizGrafo,
@@ -21,7 +21,7 @@ trait Projeto {
     // Geral
     fn new(tamanho: usize, tipo: &str) -> Grafo;
 
-    // Funções envolvendo o dicionario - Usuario
+    // Dictionary-related functions - User-facing
     fn usr_pegar_indice(&self, chave: String) -> usize;
     fn usr_pegar_chave(&self, indice: usize) -> String;
 
@@ -32,7 +32,7 @@ trait Projeto {
     fn usr_verificar_se_existe_conexao(&self, a: String, b: String) -> bool;
     fn usr_conexoes(&self, a: String) -> Vec<String>;
 
-    // Maquina / uso para os Algoritmos
+    // Machine / algorithm use
     fn adicionar_conexao(&mut self, a: usize, b: usize, valor: isize);
     fn remover_conexao(&mut self, a: usize, b: usize);
     fn numero_conexoes(&self, no: usize) -> usize;
@@ -40,16 +40,16 @@ trait Projeto {
     fn conexoes(&self, a: usize) -> Vec<usize>;
 }
 
-// Este é a implementação da "Classe" de um grafo.
+// This is the implementation of a graph "class".
 impl Projeto for Grafo {
-    // Tamanho: Numero Maximo de Vertices que a matriz pode usar de 0 até tamanho.
-    // Em notação matematica relativa a limites: [0, tamanho).
-    // Toda função que começa com 'usr_'(usr = usuario) é a versão da função que deve ser usada para interagir diretamente com o usuario.
-    // As funções de mesmo nome mas sem 'usr_' deve ser usada apenas dentro dos algoritmos, como o Dijkstra para menor caminho entre dois nos.
-    // Fiz assim para otimizar processamento e descartar necessidade de acessar e
-    // consultar o dicionario o tempo todo quando se apenas tem como Objetivo encontrar um menor caminho com Dijkstra por exemplo.
+    // Size: maximum number of vertices the matrix can hold, from 0 to size.
+    // In interval notation: [0, size).
+    // Functions prefixed with 'usr_' (usr = user) are intended for direct interaction with the user.
+    // Functions with the same name but without 'usr_' should only be used internally by algorithms, such as Dijkstra for shortest paths between nodes.
+    // This design improves performance and avoids repeatedly accessing and
+    // querying the dictionary when an algorithm such as Dijkstra only needs to find a shortest path.
 
-    // Apenas essa função foge a regra por ser universal
+    // Only this function is an exception because it is universal.
     fn new(tamanho: usize, tipo: &str) -> Grafo {
         Grafo {
             matriz: vec![vec![-1; tamanho]; tamanho],
@@ -61,9 +61,9 @@ impl Projeto for Grafo {
         }
     }
 
-    // ---- Funções para uso direto do usuario ----
+    // ---- Functions for direct user interaction ----
 
-    // Retorna o indice da matriz relacionada a chave
+    // Return the matrix index associated with the key
     fn usr_pegar_indice(&self, chave: String) -> usize {
         if self.dicionario.contains_key(&chave) {
             return (&self.dicionario.get(&chave)).unwrap().clone();
@@ -72,7 +72,7 @@ impl Projeto for Grafo {
         return 0;
     }
 
-    // Retorna a chave do dicionario relacionada ao valor do indice da matriz do grafo
+    // Return the dictionary key associated with a graph matrix index
     fn usr_pegar_chave(&self, indice: usize) -> String {
         for (key, value) in self.dicionario.iter() {
             if *value == indice {
@@ -83,7 +83,7 @@ impl Projeto for Grafo {
         return "".to_string();
     }
 
-    // Conecta Dois vertices
+    // Connect two vertices
     fn usr_adicionar_conexao(&mut self, a: String, b: String, valor: isize) {
         if !self.dicionario.contains_key(&a) {
             let num: usize = self.dicionario.len();
@@ -113,7 +113,7 @@ impl Projeto for Grafo {
         self.matriz[valor_b][valor_a] = -1;
     }
 
-    // Retorba o numero de vertices na qual ele se conecta
+    // Return the number of vertices connected to this one
     fn usr_numero_conexoes(&self, no: String) -> usize {
         self.matriz[self.usr_pegar_indice(no)]
             .iter()
@@ -123,7 +123,7 @@ impl Projeto for Grafo {
             | 0
     }
 
-    // Verifica se dois nos estão conectados
+    // Check whether two nodes are connected
     fn usr_verificar_se_existe_conexao(&self, a: String, b: String) -> bool {
         self.matriz[self.usr_pegar_indice(a)][self.usr_pegar_indice(b)] >= 0
     }
@@ -141,11 +141,11 @@ impl Projeto for Grafo {
         return result;
     }
 
-    // ---- Funções para uso direto dos algoritmos (tem melhor perfomance) ----
+    // ---- Functions for direct algorithm use (better performance) ----
 
-    // Retorna um array dos indice de todos os nos na qual o no 'a' se conecta
-    // Espera se usar esta função apenas para usos proprios dentro do Grafo, como em algoritmos tipo dijkstra
-    // Conecta Dois vertices
+    // Return an array of indices for all nodes connected to node 'a'
+    // Use this function only internally within the graph, for algorithms such as Dijkstra.
+    // Connect two vertices
     fn adicionar_conexao(&mut self, a: usize, b: usize, valor: isize) {
         self.matriz[a][b] = valor;
 
@@ -159,7 +159,7 @@ impl Projeto for Grafo {
         self.matriz[b][a] = -1;
     }
 
-    // Retorba o numero de vertices na qual ele se conecta
+    // Return the number of vertices connected to this one
     fn numero_conexoes(&self, no: usize) -> usize {
         self.matriz[no]
             .iter()
@@ -187,8 +187,8 @@ impl Projeto for Grafo {
 
 // Main
 fn main() {
-    // Grafo com no maximo mil vertices
-    // "->" =  Grafo condicional, "<->" = Grafo Bicondicional
+    // Graph with at most one thousand vertices
+    // "->" = directed graph, "<->" = bidirectional graph
     let mut grafo: Grafo = Grafo::new(1000, "->");
 
     grafo.usr_adicionar_conexao(0.to_string(), 1.to_string(), 1);

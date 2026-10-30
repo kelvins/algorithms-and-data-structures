@@ -1,9 +1,9 @@
 public class ShellSort {
 
   /**
-   * Aplica a ordenação ShellSort no vetor
+   * Apply Shell Sort to the array
    *
-   * @param vetor Vetor que será ordenado
+   * @param vetor array to be sorted
    */
   public int[] sort(int[] vetor) {
     int i, j, h = 1, temp;

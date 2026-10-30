@@ -1,7 +1,7 @@
 public class BucketSort {
 
   /**
-   * @param vetor Vetor que será ordenado /** Aplica a ordenação BucketSorte no vetor
+   * @param vetor array to be sorted; applies Bucket Sort to the array
    */
   public int[] sort(int[] vetor) {
 

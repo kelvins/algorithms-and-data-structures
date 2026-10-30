@@ -8,7 +8,7 @@
 
 #define MAX 10
 
-// Maximo usando Divisão e Conquista
+// Maximum using divide and conquer
 int MaxDC(int *vetor, int inicio, int fim) {
   int aux1, aux2;
   int meio = (inicio + fim) / 2;
@@ -41,7 +41,7 @@ void max1(int *vetor, int maximo, int indice) {
 
 int max2(int vetor[], int tamVetor) {
   if (tamVetor == 1) {
-    return vetor[0]; // só tem 1 elemento
+    return vetor[0]; // There is only one element
   } else {
     int x = max2(vetor, tamVetor - 1);
 

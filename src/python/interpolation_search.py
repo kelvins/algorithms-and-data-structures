@@ -1,4 +1,4 @@
-# Busca por interpolação em Python
+# Interpolation search in Python
 
 
 def interpolation_search(array, x):

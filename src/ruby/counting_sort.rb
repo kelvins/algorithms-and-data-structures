@@ -8,8 +8,8 @@ class CountSort
     @array_sorted = []
   end
 
-  # min_max[0] = menor valor
-  # min_max[1] = maior valor
+  # min_max[0] = minimum value
+  # min_max[1] = maximum value
   def init(array)
     min_max = array_max_min(array)
     count_sort(array, min_max[0], min_max[1])

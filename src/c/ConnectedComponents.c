@@ -13,7 +13,7 @@
  *                      -----------------------------------
  *
  *
- *    Matriz de Adjacência
+ *    Adjacency Matrix
  *       0  1  2  3  4  5
  *    0  0  -  1  -  -  -
  *    1  -  0  -  1  1  -
@@ -23,8 +23,8 @@
  *	 5  -  -  -  1  1  0
  *
  *
- *	6 Vértices
- *	8 Arestas
+ *	6 vertices
+ *	8 edges
  */
 
 #include <stdio.h>
@@ -40,8 +40,8 @@ int matriz[VERTICES][VERTICES] = {
     {1, INF, 0, INF, INF, INF}, {INF, 1, INF, 0, 1, 1},
     {INF, 1, INF, 1, 0, 1},     {INF, INF, INF, 1, 1, 0}};
 
-// Método recursivo que encontra os componentes conexos a partir de uma matriz
-// de adjacências
+// Recursive method that finds the connected components from an adjacency
+// matrix
 void calculaComponentesConexos(int atual) {
   for (int i = 0; i < VERTICES; i++) {
     if (visitados[i] == false && matriz[atual][i] == 1) {

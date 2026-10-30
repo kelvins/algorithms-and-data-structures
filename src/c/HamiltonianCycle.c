@@ -12,22 +12,21 @@
  *                      |                                 |
  *                      -----------------------------------
  *
- *	6 Vértices
- *	9 Arestas
+ *	6 Vertices
+ *	9 Edges
  */
 
 #include <malloc.h>
 #include <stdio.h>
 
 #define MAX_VERTICES                                                           \
-  6 // MÁXIMO DE VÉRTICES DO GRAFO, SE FOR ALTERAR O GRAFO PRECISA ALTERAR ESTA
-    // VARIÁVEL TAMBÉM
+  6 // MAXIMUM NUMBER OF GRAPH VERTICES; update this value if the graph changes
 #define MAX_ARESTAS                                                            \
   (MAX_VERTICES *                                                              \
    (MAX_VERTICES -                                                             \
-    1)) // CALCULA O NÚMERO MÁXIMO DE ARESTAS QUE O GRAFO PODERÁ TER
+    1)) // CALCULATE THE MAXIMUM NUMBER OF EDGES THE GRAPH CAN HAVE
 
-// Estrutura que define cada Vértice do Grafo
+// Structure defining each graph vertex
 typedef struct NO {
   char id;
   int nroVizinhos;
@@ -35,12 +34,11 @@ typedef struct NO {
   bool visitado;
 } *VERTICE;
 
-VERTICE solucao[MAX_VERTICES]; // Array que irá guardar a solução do ciclo
-                               // hamiltoniano
+VERTICE solucao[MAX_VERTICES]; // Array that stores the Hamiltonian cycle
 
-// Cria Vértice e retorna
+// Create and return a vertex
 VERTICE criaVertice(char id) {
-  VERTICE novoVertice = (VERTICE)malloc(sizeof(NO)); // Aloca um novo Vértice
+  VERTICE novoVertice = (VERTICE)malloc(sizeof(NO)); // Allocate a new vertex
   novoVertice->id = id;
   novoVertice->nroVizinhos = 0;
   novoVertice->visitado = false;
@@ -50,22 +48,22 @@ VERTICE criaVertice(char id) {
   return novoVertice;
 }
 
-// Liga os vértices passados como parâmetro
+// Connect the vertices passed as parameters
 bool ligaVertices(VERTICE v1, VERTICE v2) {
   int aux = 0;
   while (v1->vizinhos[aux] !=
-         NULL) { // Busca a primeira posição 'vazia'(NULL) dos vizinhos
+         NULL) { // Find the first empty (NULL) neighbor slot
     aux++;
   }
-  v1->vizinhos[aux] = v2; // Adiciona o novo vizinho a lista de vizinhos
+  v1->vizinhos[aux] = v2; // Add the new neighbor to the neighbor list
   aux = 0;
   while (v2->vizinhos[aux] !=
-         NULL) { // Busca a primeira posição 'vazia'(NULL) dos vizinhos
+         NULL) { // Find the first empty (NULL) neighbor slot
     aux++;
   }
-  v2->vizinhos[aux] = v1; // Adiciona o novo vizinho a lista de vizinhos
-  v1->nroVizinhos++;      // Incrementa o número de vizinhos
-  v2->nroVizinhos++;      // Incrementa o número de vizinhos
+  v2->vizinhos[aux] = v1; // Add the new neighbor to the neighbor list
+  v1->nroVizinhos++;      // Increment the number of neighbors
+  v2->nroVizinhos++;      // Increment the number of neighbors
 }
 
 bool cicloHamiltonianoAuxiliar(int aux) {
@@ -79,11 +77,10 @@ bool cicloHamiltonianoAuxiliar(int aux) {
     return false;
   }
 
-  VERTICE s = solucao[aux - 1]; // Auxiliar para simplificar o código
+  VERTICE s = solucao[aux - 1]; // Helper variable to simplify the code
 
   for (int i = 0; i < s->nroVizinhos;
-       i++) { // Percorre todos os vizinhos do vértice de posição aux-1 no array
-              // solução
+       i++) { // Visit all neighbors of the vertex at position aux-1 in the array
     if (s->vizinhos[i]->visitado == false) {
       s->vizinhos[i]->visitado = true;
       solucao[aux] = s->vizinhos[i];
@@ -98,14 +95,14 @@ bool cicloHamiltonianoAuxiliar(int aux) {
 }
 
 bool cicloHamiltoniano(VERTICE grafo[MAX_VERTICES]) {
-  grafo[0]->visitado = true; // Marca a posição inicial como visitada
-  solucao[0] = grafo[0];     // Array que irá guardar a solução do ciclo
+  grafo[0]->visitado = true; // Mark the starting vertex as visited
+  solucao[0] = grafo[0];     // Store the first vertex in the cycle
   return cicloHamiltonianoAuxiliar(1);
 }
 
 int main() {
 
-  // Grafo conjunto de vértices em um array
+  // Graph represented by an array of vertices
   VERTICE GRAFO[MAX_VERTICES];
   GRAFO[0] = criaVertice('A');
   GRAFO[1] = criaVertice('B');
@@ -114,7 +111,7 @@ int main() {
   GRAFO[4] = criaVertice('E');
   GRAFO[5] = criaVertice('F');
 
-  // Liga todos os vértices de acordo com o GRAFO apresentado na introdução
+  // Connect all vertices as shown in the graph above
   ligaVertices(GRAFO[0], GRAFO[1]); // A - B
   ligaVertices(GRAFO[0], GRAFO[2]); // A - C
   ligaVertices(GRAFO[1], GRAFO[3]); // B - D

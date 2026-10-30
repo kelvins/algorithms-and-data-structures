@@ -3,9 +3,9 @@
  *
  *	Divide and conquer:
  *
- *	Dividir: Dividir os dados em subsequências pequenas;
- *	Conquistar: Classificar as duas metades recursivamente aplicando o merge
- *sort; Combinar: Juntar as duas metades em um único conjunto já classificado.
+ *	Divide: Split the data into smaller subsequences;
+ *	Conquer: Sort both halves recursively by applying merge
+ *sort; Combine: Join the two halves into a single sorted collection.
  *
  */
 
@@ -53,7 +53,7 @@ int main() {
 
   int vetor[TAM_VETOR];
 
-  // Preenche o vetor com valores aleatórios 0-1000
+  // Fill the array with random values from 0 to 1000
   srand(time(NULL));
   for (int i = 0; i < TAM_VETOR; i++) {
     vetor[i] = rand() % 1000;

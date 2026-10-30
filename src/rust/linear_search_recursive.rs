@@ -14,21 +14,21 @@
     Porem caso seja uma lista de milhares de itens este algoritmo sera um problema.
 */
 
-// A mudança da declaração da sequencial normal para esta é a adição do parâmetro
-// índice, que indica em qual índice da lista nos estamos.
+// The only change from the regular linear search declaration is the added parameter
+// index, which indicates the current position in the list.
 fn busca_sequencial_recursiva(lista: &[i32], valor: i32, indice: usize) -> (bool, usize) {
-    // O primeiro If indica a condição onde a recursão ocorreu vezes o suficiente
-    // para que o índice chega ao final da lista + 1, logo todos os itens da lista
-    // foram percorridos
+    // The first if checks whether recursion has advanced far enough
+    // for the index to reach the end of the list; all items have then
+    // been checked.
     if indice == lista.len() {
         return (false, 0);
     } else if lista[indice] == valor {
         return (true, indice);
     }
 
-    // Caso o item atual não seja o item desejado, nos chamamos a função com o índice
-    // acrescentado, para que na próxima execução da função seja verificado o próximo
-    // item da lista
+    // If the current item is not the target, call the function again with the index
+    // incremented so the next call checks the next
+    // item in the list.
     return busca_sequencial_recursiva(lista, valor, indice + 1);
 }
 

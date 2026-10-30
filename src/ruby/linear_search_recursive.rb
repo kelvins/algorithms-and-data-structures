@@ -3,7 +3,7 @@
 require "test/unit/assertions"
 include Test::Unit::Assertions
 
-# Retorna o índice do elemento. Se não existir, retorna -1.
+# Return the element index, or -1 if it is not present.
 
 def busca_sequencial_recursiva(lista, valor, index = 0)
   if lista[index] == valor

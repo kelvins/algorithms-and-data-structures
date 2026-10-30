@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Algoritmo de Busca por interpolação em Ruby
+# Interpolation search algorithm in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 
@@ -24,10 +24,10 @@ end
 
 def main
   array1 = [37, 53, 1, 43, 11, 49, 32, 55, 40, 47, 25, 4].sort
-  puts interpolation_search(43, array1) # 8° posição do array ordenado
+  puts interpolation_search(43, array1) # 8th position in the sorted array
 
   array2 = [23, 9, 5, 78, 123, 5444, 54_535, 64, 3, 12, 14, 15].sort
-  puts interpolation_search(5444, array2) # 11° posição do array ordenado
+  puts interpolation_search(5444, array2) # 11th position in the sorted array
 end
 
 main

@@ -3,7 +3,7 @@
 
 /*
  *	Examples of functions to return the factorial of a number n
- *	função recursiva
+ *	recursive function
  */
 
 int main() {

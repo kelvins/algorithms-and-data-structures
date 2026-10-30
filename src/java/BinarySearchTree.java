@@ -70,7 +70,7 @@ public class ArvoreDeBuscaBinaria {
     No atual, noPai, substituto;
     substituto = null;
     atual = buscaBinaria(no, chave);
-    if (atual == null) return false; // Não encontrou a chave
+    if (atual == null) return false; // The key was not found
     noPai = buscaNoPai(no, chave);
     if (atual.getEsq() == null || atual.getDir() == null) { // Se tem 0 ou 1 filho
       if (atual.getEsq() == null) {
@@ -78,7 +78,7 @@ public class ArvoreDeBuscaBinaria {
       } else {
         substituto = atual.getEsq();
       }
-      if (noPai == null) { // Único que não tem pai é a raiz
+      if (noPai == null) { // The root is the only node without a parent
         no.setChave(substituto.getChave());
         no.setEsq(substituto.getEsq());
         no.setDir(substituto.getDir());

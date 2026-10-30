@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Mínimo e Máximo recursivo em Ruby
+# Recursive minimum and maximum in Ruby
 # Carlos Alves
 # https://github.com/EuCarlos
 
