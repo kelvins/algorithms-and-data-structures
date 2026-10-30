@@ -43,7 +43,7 @@ def main
   dijkstra(matrix, n_vertices)
 
   puts "============================================================"
-  puts "Total caminho mais curto do vertice 0 ao 4: #{matrix[4][0]}"
+  puts "Shortest path distance from vertex 0 to 4: #{matrix[4][0]}"
   puts "============================================================"
 
   matrix.to_a.each { |row| puts row.inspect }

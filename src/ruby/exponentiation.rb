@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-def exponenciacao(base, expoente)
+def exponentiation(base, exponent)
   result = base
-  expoente.pred.times { result *= base }
+  exponent.pred.times { result *= base }
   result
 end
 
-puts exponenciacao(5, 2)
-puts exponenciacao(5, 5)
+puts exponentiation(5, 2)
+puts exponentiation(5, 5)

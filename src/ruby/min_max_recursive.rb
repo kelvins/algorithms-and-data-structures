@@ -11,8 +11,8 @@ def recursive_min_and_max(arr, min, max, index)
   if index < arr.length - 1
     recursive_min_and_max(arr, min, max, index + 1)
   else
-    puts "Mínimo: #{min}"
-    puts "Máximo: #{max}"
+    puts "Minimum: #{min}"
+    puts "Maximum: #{max}"
   end
 end
 

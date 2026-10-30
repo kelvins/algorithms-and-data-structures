@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-def exponenciacao(base, expoente)
-  return 1 if expoente.zero?
+def exponentiation(base, exponent)
+  return 1 if exponent.zero?
 
-  base * exponenciacao(base, expoente.pred)
+  base * exponentiation(base, exponent.pred)
 end
 
-puts exponenciacao(5, 2)
-puts exponenciacao(5, 5)
+puts exponentiation(5, 2)
+puts exponentiation(5, 5)

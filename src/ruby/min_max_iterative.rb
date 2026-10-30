@@ -4,22 +4,22 @@
 # Carlos Alves
 # https://github.com/EuCarlos
 
-def min_max_array(vetor)
-  minimo = vetor[0]
-  maximo = vetor[0]
+def min_max_array(array)
+  minimum = array[0]
+  maximum = array[0]
 
-  vetor_size = vetor.length - 1
-  (1..vetor_size).each do |i|
-    if vetor[i] < minimo
-      minimo = vetor[i]
-    elsif vetor[i] > maximo
-      maximo = vetor[i]
+  array_size = array.length - 1
+  (1..array_size).each do |i|
+    if array[i] < minimum
+      minimum = array[i]
+    elsif array[i] > maximum
+      maximum = array[i]
     end
   end
 
-  puts "Minimo: #{minimo}"
-  puts "Maximo: #{maximo}"
+  puts "Minimum: #{minimum}"
+  puts "Maximum: #{maximum}"
 end
 
-lista = [2, 94, 83, 10, 0, 2, 48, 1, 24]
-min_max_array(lista)
+list = [2, 94, 83, 10, 0, 2, 48, 1, 24]
+min_max_array(list)
