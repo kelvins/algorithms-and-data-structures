@@ -1,32 +1,21 @@
 /*
-
-    Contribuidores
+    Contributors
         - Dromedario de chapeu
 
-    O Quick Sort, é um dos algoritmos de sortção padrões de se estudar.
-    Ele é famoso por ser relativamente eficiente na maioria dos casos, tendo
-    complexidade O(n log n). Porem em casos específicos ele pode chegar a ser
-    O(n²) nos piores casos, como a list estar basicamente invertida por exemplo.
-    O Quick Sort adota a estrategia de "dividir e conquistar", que é resumidamente
-    dividir a list em sub 2 lists e organizar essas sub lists. A cada execução
-    é escolhido o Pivot, e a partir deste Pivot nos comparamos todos os elements
-    da list ate find algum value minimum ou igual ao pivot, quando encontrarmos
-    este value, ele é colocado a frente do pivot. Quando passarmos por toda a
-    list, nos fazemos o swap entre o pivot e o last index que foi coloca a sua
-    frene, assim nos teremos a garantia de que todos os itens a left do pivot
-    sejam menores, e os a right maiores. E assim nos pegamos essas 2 novas lists,
-    e fazemos o mesmo process.
+    Quicksort is an efficient sorting algorithm in most cases, with an average
+    time complexity of O(n log n). Its worst-case complexity is O(n²), such as
+    when the input is already ordered in the unfavorable direction.
 
-    Recomendo dar uma olhada mais profunda sobre o funcionado e casos específicos,
-    como os diferentes métodos de partição e funcionado com múltiplos pivot's, prometo
-    que é algo mais interessante e menos chato do que parece.
-        Links: https://pt.wikipedia.org/wiki/Quicksort
-               https://rosettacode.org/wiki/Sorting_algorithms/Quicksort
+    The algorithm uses divide and conquer: choose a pivot, move smaller values
+    before it and larger values after it, then recursively sort both sides.
 
+    Learn more:
+    https://en.wikipedia.org/wiki/Quicksort
+    https://rosettacode.org/wiki/Sorting_algorithms/Quicksort
 */
 
-// l = limite esquerdo
-// r = limite direito
+// l = left bound
+// r = right bound
 // These bounds are passed instead of creating a new list at each split
 // so we always work on the same list and update its values
 // and because creating new lists during recursion would be expensive.
@@ -61,13 +50,13 @@ fn quick_sort(list: &mut [i32], l: isize, r: isize) {
     // The recursion stops when the left and right bounds
     // are equal, meaning the list has only one element.
     if l < r {
-        let index_pivot = partition(list, l as usize, r as usize);
-        quick_sort(list, l, index_pivot - 1);
-        quick_sort(list, index_pivot + 1, r);
+        let pivot_index = partition(list, l as usize, r as usize);
+        quick_sort(list, l, pivot_index - 1);
+        quick_sort(list, pivot_index + 1, r);
     }
 }
 
-fn printa(list: Vec<i32>) {
+fn print_list(list: Vec<i32>) {
     for i in list.iter() {
         print!("{} ", *i);
     }
@@ -78,9 +67,9 @@ fn main() {
     let mut list = vec![1, 6, 3, 9, 3, 8, 5, 2, 7];
     let len = list.len() as isize;
 
-    printa(list.clone());
+    print_list(list.clone());
     quick_sort(&mut list, 0, len - 1);
-    printa(list.clone());
+    print_list(list.clone());
 }
 
 #[cfg(test)]

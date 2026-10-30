@@ -1,31 +1,31 @@
 /*
-    Autor: Gustavo Michels de Camargo
-    GraphOperations: Algoritmo estrural de um Graph
+    Author: Gustavo Michels de Camargo
+    GraphOperations: Structural graph algorithm
 */
 
 use std::collections::HashMap;
 
-// Matrix de Vector usada ara construir o Graph.
-type MatrizGrafo = Vec<Vec<isize>>;
+// A vector of vectors used to represent the graph.
+type GraphMatrix = Vec<Vec<isize>>;
 
 // The dictionary lets us accept any String and map its position within
 // the numeric matrix. This is for convenience, so callers do not need to convert a node label to a number.
 #[derive(PartialEq, Eq, Clone, Debug)]
 struct Graph {
-    matrix: MatrizGrafo,
+    matrix: GraphMatrix,
     label_to_index: HashMap<String, usize>,
-    bicondicional: bool,
+    bidirectional: bool,
 }
 
 trait GraphOperations {
-    // Geral
-    fn new(size: usize, tipo: &str) -> Graph;
+    // General
+    fn new(size: usize, direction: &str) -> Graph;
 
     // Dictionary-related functions - User-facing
     fn user_get_index(&self, key: String) -> usize;
     fn user_get_label(&self, index: usize) -> String;
 
-    // Usuario
+    // User-facing operations
     fn user_add_edge(&mut self, a: String, b: String, value: isize);
     fn user_remove_edge(&mut self, a: String, b: String);
     fn user_edge_count(&self, node: String) -> usize;
@@ -33,10 +33,10 @@ trait GraphOperations {
     fn user_neighbors(&self, a: String) -> Vec<String>;
 
     // Machine / algorithm use
-    fn add_conexao(&mut self, a: usize, b: usize, value: isize);
-    fn remove_conexao(&mut self, a: usize, b: usize);
+    fn add_edge(&mut self, a: usize, b: usize, value: isize);
+    fn remove_edge(&mut self, a: usize, b: usize);
     fn edge_count(&self, node: usize) -> usize;
-    fn check_se_exists_conexao(&self, a: usize, b: usize) -> bool;
+    fn edge_exists(&self, a: usize, b: usize) -> bool;
     fn neighbors(&self, a: usize) -> Vec<usize>;
 }
 
@@ -50,13 +50,13 @@ impl GraphOperations for Graph {
     // querying the dictionary when an algorithm such as Dijkstra only needs to find a shortest path.
 
     // Only this function is an exception because it is universal.
-    fn new(size: usize, tipo: &str) -> Graph {
+    fn new(size: usize, direction: &str) -> Graph {
         Graph {
             matrix: vec![vec![-1; size]; size],
             label_to_index: HashMap::new(),
-            bicondicional: match tipo {
-                "->" => false,     // Condicional
-                "<->" | _ => true, // Bicondicional
+            bidirectional: match direction {
+                "->" => false,     // Directed
+                "<->" | _ => true, // Bidirectional
             },
         }
     }
@@ -99,7 +99,7 @@ impl GraphOperations for Graph {
 
         self.matrix[value_a][value_b] = value;
 
-        if self.bicondicional {
+        if self.bidirectional {
             self.matrix[value_b][value_a] = value;
         }
     }
@@ -144,15 +144,15 @@ impl GraphOperations for Graph {
     // Return an array of indices for all nodes connected to node 'a'
     // Use this function only internally within the graph, for algorithms such as Dijkstra.
     // Connect two vertices
-    fn add_conexao(&mut self, a: usize, b: usize, value: isize) {
+    fn add_edge(&mut self, a: usize, b: usize, value: isize) {
         self.matrix[a][b] = value;
 
-        if self.bicondicional {
+        if self.bidirectional {
             self.matrix[b][a] = value;
         }
     }
 
-    fn remove_conexao(&mut self, a: usize, b: usize) {
+    fn remove_edge(&mut self, a: usize, b: usize) {
         self.matrix[a][b] = -1;
         self.matrix[b][a] = -1;
     }
@@ -167,7 +167,7 @@ impl GraphOperations for Graph {
             | 0
     }
 
-    fn check_se_exists_conexao(&self, a: usize, b: usize) -> bool {
+    fn edge_exists(&self, a: usize, b: usize) -> bool {
         self.matrix[a][b] >= 0
     }
 
@@ -218,7 +218,7 @@ mod test {
         let mut graph: Graph = Graph::new(1000, "<->");
 
         for i in 1..1000 {
-            graph.add_conexao(0, i, 1);
+            graph.add_edge(0, i, 1);
         }
 
         assert_eq!(graph.edge_count(0), 999);

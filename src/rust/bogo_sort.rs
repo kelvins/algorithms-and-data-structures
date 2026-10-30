@@ -1,21 +1,18 @@
 /*
-    Contribuidores
+    Contributors
         - Dromedario de Chapéu
 
-    O Bogo Sort é um algoritmo feito apenas como uma piada, sendo
-    o pior e mais demorado algoritmo de sortção. Tudo o que ele faz
-    é pegar uma list, randomizar os seus itens, e check se todos
-    os itens estão ordenados. Logo, ele é 100% aleatório, o que pode
-    fazer com que demore mais de 1 milhão de tentativas até ser sorted,
-    ou que simplesmente na first tentativa ele seja sorted.
-
+    Bogo sort is a joke algorithm and one of the slowest sorting algorithms.
+    It repeatedly shuffles the list and checks whether it is sorted. Since
+    the order is random, sorting may take over a million attempts or finish
+    on the first try.
 */
 
 // To use this library, create a Cargo project
 // and add rand as a dependency.
 use rand::prelude::*;
 
-fn check_ordem(list: Vec<u8>) -> bool {
+fn is_sorted(list: Vec<u8>) -> bool {
     for index in 0..list.len() - 1 {
         if list[index] > list[index + 1] {
             return false;
@@ -32,19 +29,19 @@ fn bogo_sort(mut list: Vec<u8>) -> (Vec<u8>, u64) {
     // A large limit was chosen because bogo sort
     // can be either the fastest or slowest algorithm,
     // so a large range helps prevent the program from crashing.
-    let mut ciclos: u64 = 0;
+    let mut cycles: u64 = 0;
     loop {
-        ciclos += 1;
+        cycles += 1;
         list.shuffle(&mut rng);
-        if check_ordem(list.clone()) {
-            return (list, ciclos);
+        if is_sorted(list.clone()) {
+            return (list, cycles);
         }
     }
 }
 
 // The u8 type for list items is used only to
 // generate large numbers that are harder to inspect.
-fn gera_list(len: u8) -> Vec<u8> {
+fn generate_list(len: u8) -> Vec<u8> {
     let mut rng = thread_rng();
     let mut list = Vec::<u8>::new();
     for _ in 0..len - 1 {
@@ -54,16 +51,16 @@ fn gera_list(len: u8) -> Vec<u8> {
 }
 
 fn main() {
-    let list_unordered = gera_list(6);
-    print!("List unordered: ");
+    let list_unordered = generate_list(6);
+    print!("Unsorted list: ");
     for i in list_unordered.iter() {
         print!("{i} ")
     }
     println!();
 
-    let (list, ciclos) = bogo_sort(list_unordered);
-    println!("Foram necesarios um total de {ciclos} para sort");
-    print!("List sorted: ");
+    let (list, cycles) = bogo_sort(list_unordered);
+    println!("Sorting took {cycles} attempts");
+    print!("Sorted list: ");
     for i in list.iter() {
         print!("{i} ");
     }
@@ -76,8 +73,8 @@ mod test {
     use super::*;
 
     #[test]
-    fn oredenacao() {
-        let mut unordered = gera_list(6);
+    fn sorting() {
+        let mut unordered = generate_list(6);
         let (sorted, _) = bogo_sort(unordered.clone());
         unordered.sort();
         assert_eq!(sorted, unordered);

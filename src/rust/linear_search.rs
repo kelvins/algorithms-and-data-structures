@@ -1,21 +1,15 @@
 /*
-    Contribuidores
+    Contributors
         - Dromedario de Chapéu
 
-    Search Sequencial é o mais simples algoritmo de search possessive, alem de
-    ser um dos menos eficientes. Ele simplesmente itera por todos os itens
-    de uma list até find o value desejado ou atingir o final da list
-    retornando que o element not esta presente na list.
+    Linear search is a simple but inefficient algorithm. It checks each item
+    until it finds the target or reaches the end of the slice.
 
-    Esse algoritmo pode ser útil para lists pequenas de algumas poucas centenas
-    de values de tipo simples, porem mais que isso ele sera um grande gargalo
-    durante a execução do programa.
-
-    Uma possível vantagem deste algoritmo, é que ele independe da list estar
-    sorted para funcionar, pois ele not se importa com a order dos elements.
+    It works with unsorted data and is useful for small collections. For large
+    collections, its linear runtime can become a bottleneck.
 */
-fn search_sequential(list: &[i32], value: i32) -> (bool, usize) {
-    for (i, c) in list.iter().enumerate() {
+fn linear_search(slice: &[i32], value: i32) -> (bool, usize) {
+    for (i, c) in slice.iter().enumerate() {
         if *c == value {
             return (true, i);
         }
@@ -24,8 +18,8 @@ fn search_sequential(list: &[i32], value: i32) -> (bool, usize) {
 }
 
 fn main() {
-    let list = vec![1, 2, 3, 4];
-    let (exists, index) = search_sequential(&list, 2);
+    let slice = vec![1, 2, 3, 4];
+    let (exists, index) = linear_search(&slice, 2);
     println!("{}, {}", exists, index);
 }
 
@@ -35,8 +29,8 @@ mod test {
 
     #[test]
     fn search() {
-        let list = vec![1, 2, 3, 4];
-        assert_eq!(search_sequential(&list, 2), (true, 1));
-        assert_eq!(search_sequential(&list, 0), (false, 0));
+        let slice = vec![1, 2, 3, 4];
+        assert_eq!(linear_search(&slice, 2), (true, 1));
+        assert_eq!(linear_search(&slice, 0), (false, 0));
     }
 }
