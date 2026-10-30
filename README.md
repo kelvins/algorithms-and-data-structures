@@ -3440,7 +3440,7 @@ In order to achieve greater coverage and encourage more people to contribute to 
                 </a>
             </td>
             <td> <!-- C++ -->
-                <a href="./CONTRIBUTING.md">
+                <a href="./src/cpp/CombSort.cpp">
                     <img align="center" height="25" src="./logos/github.svg" />
                 </a>
             </td>
