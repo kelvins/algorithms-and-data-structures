@@ -1,6 +1,6 @@
 public class StackNode {
   int key;
-  StackNode prox;
+  StackNode nextNode;
 
   public StackNode(int key) {
     this.key = key;
@@ -15,10 +15,10 @@ public class StackNode {
   }
 
   public StackNode getProx() {
-    return prox;
+    return nextNode;
   }
 
-  public void setProx(StackNode prox) {
-    this.prox = prox;
+  public void setProx(StackNode nextNode) {
+    this.nextNode = nextNode;
   }
 }

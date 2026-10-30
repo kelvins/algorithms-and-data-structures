@@ -11,11 +11,11 @@ public class BinarySearchTree {
     insertIntoTree(Tree, 61);
     insertIntoTree(Tree, 52);
 
-    System.out.print("Pre : ");
+    System.out.print("Preorder: ");
     preOrder(Tree);
-    System.out.print("\nEm  : ");
+    System.out.print("\nInorder: ");
     inOrder(Tree);
-    System.out.print("\nPos : ");
+    System.out.print("\nPostorder: ");
     postOrder(Tree);
 
     deleteFromTree(Tree, 45);
@@ -24,11 +24,11 @@ public class BinarySearchTree {
 
     System.out.println("\n");
 
-    System.out.print("Pre : ");
+    System.out.print("Preorder: ");
     preOrder(Tree);
-    System.out.print("\nEm  : ");
+    System.out.print("\nInorder: ");
     inOrder(Tree);
-    System.out.print("\nPos : ");
+    System.out.print("\nPostorder: ");
     postOrder(Tree);
 
     System.out.println("\n");
@@ -40,11 +40,11 @@ public class BinarySearchTree {
     System.out.println("Tree height: " + treeHeight(Tree));
   }
 
-  public static TreeNode binarySearch(TreeNode no, int key) {
-    while (no != null) {
-      if (no.getKey() == key) return no;
-      if (key > no.getKey()) no = no.getRight();
-      else no = no.getLeft();
+  public static TreeNode binarySearch(TreeNode node, int key) {
+    while (node != null) {
+      if (node.getKey() == key) return node;
+      if (key > node.getKey()) node = node.getRight();
+      else node = node.getLeft();
     }
     return null;
   }
@@ -66,12 +66,12 @@ public class BinarySearchTree {
     return current;
   }
 
-  public static boolean deleteFromTree(TreeNode no, int key) {
+  public static boolean deleteFromTree(TreeNode node, int key) {
     TreeNode current, parentNode, replacement;
     replacement = null;
-    current = binarySearch(no, key);
+    current = binarySearch(node, key);
     if (current == null) return false; // The key was not found
-    parentNode = findParentNode(no, key);
+    parentNode = findParentNode(node, key);
     if (current.getLeft() == null || current.getRight() == null) { // Se tem 0 ou 1 child
       if (current.getLeft() == null) {
         replacement = current.getRight();
@@ -79,9 +79,9 @@ public class BinarySearchTree {
         replacement = current.getLeft();
       }
       if (parentNode == null) { // The root is the only node without a parent
-        no.setKey(replacement.getKey());
-        no.setLeft(replacement.getLeft());
-        no.setRight(replacement.getRight());
+        node.setKey(replacement.getKey());
+        node.setLeft(replacement.getLeft());
+        node.setRight(replacement.getRight());
       } else {
         if (key < parentNode.getKey()) parentNode.setLeft(replacement);
         else parentNode.setRight(replacement);
@@ -108,27 +108,27 @@ public class BinarySearchTree {
     else previous.setLeft(newNode);
   }
 
-  public static void preOrder(TreeNode no) {
-    if (no != null) {
-      System.out.print(no.getKey() + ", ");
-      preOrder(no.getLeft());
-      preOrder(no.getRight());
+  public static void preOrder(TreeNode node) {
+    if (node != null) {
+      System.out.print(node.getKey() + ", ");
+      preOrder(node.getLeft());
+      preOrder(node.getRight());
     }
   }
 
-  public static void postOrder(TreeNode no) {
-    if (no != null) {
-      postOrder(no.getLeft());
-      postOrder(no.getRight());
-      System.out.print(no.getKey() + ", ");
+  public static void postOrder(TreeNode node) {
+    if (node != null) {
+      postOrder(node.getLeft());
+      postOrder(node.getRight());
+      System.out.print(node.getKey() + ", ");
     }
   }
 
-  public static void inOrder(TreeNode no) {
-    if (no != null) {
-      inOrder(no.getLeft());
-      System.out.print(no.getKey() + ", ");
-      inOrder(no.getRight());
+  public static void inOrder(TreeNode node) {
+    if (node != null) {
+      inOrder(node.getLeft());
+      System.out.print(node.getKey() + ", ");
+      inOrder(node.getRight());
     }
   }
 

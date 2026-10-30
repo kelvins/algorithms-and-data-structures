@@ -1,58 +1,57 @@
-public class stack {
+public class Stack {
 
-  public process processoAtual;
-  public stack proximaPilha;
+  public process currentProcess;
+  public Stack nextStack;
 
-  public stack() {
-    this.processoAtual = null;
-    this.proximaPilha = null;
+  public Stack() {
+    this.currentProcess = null;
+    this.nextStack = null;
   }
 
-  public void inserirpilha(process processoNovo) {
-    if (this.processoAtual == null) {
-      this.processoAtual = processoNovo;
-      this.proximaPilha = new stack();
+  public void pushProcess(process newProcess) {
+    if (this.currentProcess == null) {
+      this.currentProcess = newProcess;
+      this.nextStack = new Stack();
     } else {
-      this.proximaPilha.inserirpilha(processoNovo);
+      this.nextStack.pushProcess(newProcess);
     }
   }
 
-  public process removerPilha() {
-    if (this.proximaPilha.proximaPilha == null) {
-      process removido = this.processoAtual;
-      this.processoAtual = null;
-      this.proximaPilha = null;
-      return removido;
+  public process popProcess() {
+    if (this.nextStack.nextStack == null) {
+      process removed = this.currentProcess;
+      this.currentProcess = null;
+      this.nextStack = null;
+      return removed;
     } else {
-      return this.proximaPilha.removerPilha();
+      return this.nextStack.popProcess();
     }
   }
 
-  public String checkpilha(String empty) {
-    if (this.proximaPilha.proximaPilha == null) {
-      empty =
-          " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo() + empty;
+  public String formatStack(String empty) {
+    if (this.nextStack.nextStack == null) {
+      empty = " " + this.currentProcess.getPriority() + " " + this.currentProcess.getTime() + empty;
     } else {
       empty =
-          this.proximaPilha.checkpilha(empty)
+          this.nextStack.formatStack(empty)
               + " && "
-              + this.processoAtual.getPrioridade()
+              + this.currentProcess.getPriority()
               + " "
-              + this.processoAtual.getTempo()
+              + this.currentProcess.getTime()
               + " "
               + empty;
     }
     return empty;
   }
 
-  public boolean vaziaPilha() {
-    if (this.proximaPilha == null) {
+  public boolean isEmpty() {
+    if (this.nextStack == null) {
       return true;
     }
     return false;
   }
 
-  public int tempoTrabalhado(int tempo) {
-    return this.processoAtual.trabalhado(tempo);
+  public int workedTime(int time) {
+    return this.currentProcess.worked(time);
   }
 }
