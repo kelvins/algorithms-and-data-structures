@@ -29,9 +29,10 @@ int max(int a, int b) {
 int altura(PONT no) {
   if (no == NULL) // Mesma coisa que usar if(!no)
     return 0;
-  return 1 + max(altura(no->esq),
-                 altura(no->dir)); // Percorre a arvore pela esquerda e pela
-                                   // right side to check which subtree is taller
+  return 1 +
+         max(altura(no->esq),
+             altura(no->dir)); // Percorre a arvore pela esquerda e pela
+                               // right side to check which subtree is taller
 }
 
 PONT buscaBinaria(TIPOCHAVE ch, PONT raiz) {

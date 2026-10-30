@@ -31,8 +31,7 @@
 
 #include <stdio.h>
 
-#define nroVertices                                                            \
-  5 // Define the constant 5 as the number of graph vertices
+#define nroVertices 5 // Define the constant 5 as the number of graph vertices
 
 // The Floyd-Warshall algorithm receives the distance matrix and the number
 // of vertices

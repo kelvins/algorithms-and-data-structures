@@ -23,7 +23,7 @@ void inicializar(LISTA *L) {
   L->nroElementos = 0; // Access the list through its memory address
   int i = 0;
   for (i; i < MAX - 2; ++i) { // Fill all but two slots, leaving room for more
-                              L->A[i].chave = i * 2;
+    L->A[i].chave = i * 2;
   }
   L->nroElementos = MAX - 2;
   // (*L).nroElementos = 0; // This accesses the list itself, not the
@@ -35,15 +35,14 @@ void inicializar(LISTA *L) {
  * If it is the last element, the key was not present in the original list.
  * This removes the 'if' from the loop and avoids several comparisons.
  */
-int buscaSentinela(
-    TIPOCHAVE ch,
-    LISTA *L) { // Binary search could be used here and would be more appropriate.
+int buscaSentinela(TIPOCHAVE ch,
+                   LISTA *L) { // Binary search could be used here and would be
+                               // more appropriate.
   int i = 0;
   L->A[L->nroElementos].chave =
       ch; // Assign the searched key/value to the last position of array A
-  while (L->A[i].chave !=
-         ch) // Scan array A for the searched key/value;
-             // otherwise this is the sentinel
+  while (L->A[i].chave != ch) // Scan array A for the searched key/value;
+                              // otherwise this is the sentinel
     i++;
   if (i == L->nroElementos) // Reaching the end means the value was not found;
                             // return ERROR (-1)

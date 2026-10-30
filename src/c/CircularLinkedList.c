@@ -23,7 +23,8 @@ void inicializar(LISTA *L) {
   // The head node keeps the list from being empty and can also be used as a
   // sentinela
   L->cab = (PONT)malloc(sizeof(NO));
-  L->cab->prox = L->cab; // Initially points to itself because the list is circular
+  L->cab->prox =
+      L->cab; // Initially points to itself because the list is circular
 }
 
 // Since this method does not modify the list, it can receive a copy instead
@@ -62,7 +63,7 @@ void inserir(TIPOCHAVE ch, LISTA *L) {
   PONT pos = L->cab->prox; // pos stores a pointer to the current node
 
   while (pos->chave < ch && pos != L->cab) {
-    ant = pos;       // Store the current node pointer; it becomes the previous node
+    ant = pos; // Store the current node pointer; it becomes the previous node
     pos = pos->prox; // Move to the next node
   }
   // The correct position in ascending order has been found

@@ -16,8 +16,7 @@ int buscaSentinela(int vetor[], int chave) {
   vetor[TAM_VETOR] =
       chave;   // Place the searched value (key) at the end of the array
   int aux = 0; // Loop counter
-  while (vetor[aux] !=
-         chave) // Increment aux until the value (key) is found
+  while (vetor[aux] != chave) // Increment aux until the value (key) is found
     aux++;
   if (aux == TAM_VETOR)
     return -1;

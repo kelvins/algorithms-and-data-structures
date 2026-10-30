@@ -68,17 +68,15 @@ bool ligaVertices(VERTICE v1, VERTICE v2) {
 /*
  *	Depth-First Search (DFS)
  *	Visit neighbors in the order they were connected to the vertex.
-  *
+ *
  */
 int buscaEmProfundidade(VERTICE inicio, VERTICE destino, int visitados) {
-  inicio->visitado =
-      true; // Mark the current vertex as visited
+  inicio->visitado = true; // Mark the current vertex as visited
   if (inicio == destino)
     return visitados; // If this is the destination, return the distance
 
   int aux = 0;
-  while (inicio->vizinhos[aux] !=
-         NULL) { // While there are neighbors to visit
+  while (inicio->vizinhos[aux] != NULL) { // While there are neighbors to visit
     if (inicio->vizinhos[aux]->visitado ==
         false) { // If the neighbor has not been visited
       // Recurse from the new neighbor, visiting all of its neighbors in turn

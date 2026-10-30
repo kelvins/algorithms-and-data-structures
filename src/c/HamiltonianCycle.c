@@ -80,7 +80,8 @@ bool cicloHamiltonianoAuxiliar(int aux) {
   VERTICE s = solucao[aux - 1]; // Helper variable to simplify the code
 
   for (int i = 0; i < s->nroVizinhos;
-       i++) { // Visit all neighbors of the vertex at position aux-1 in the array
+       i++) { // Visit all neighbors of the vertex at position aux-1 in the
+              // array
     if (s->vizinhos[i]->visitado == false) {
       s->vizinhos[i]->visitado = true;
       solucao[aux] = s->vizinhos[i];

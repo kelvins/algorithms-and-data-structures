@@ -17,8 +17,7 @@
 #include <malloc.h>
 #include <stdio.h>
 
-#define MAX_VERTICES                                                           \
-  20 // Maximum number of vertices the graph can have
+#define MAX_VERTICES 20 // Maximum number of vertices the graph can have
 
 int nroVertices = 0;                    // Current number of vertices
 int matriz[MAX_VERTICES][MAX_VERTICES]; // Distance matrix
