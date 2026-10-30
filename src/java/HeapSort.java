@@ -1,23 +1,23 @@
 public class HeapSort {
 
   /**
-   * @param vetor array to be sorted; applies Heap Sort to the array
+   * @param array array to be sorted; applies Heap Sort to the array
    */
-  public int[] sort(int[] vetor) {
+  public int[] sort(int[] array) {
 
-    for (int i = vetor.length / 2 - 1; i >= 0; i--) {
-      heapify(vetor, vetor.length, i);
+    for (int i = array.length / 2 - 1; i >= 0; i--) {
+      heapify(array, array.length, i);
     }
 
-    for (int i = vetor.length - 1; i >= 0; i--) {
+    for (int i = array.length - 1; i >= 0; i--) {
 
-      int temp = vetor[0];
-      vetor[0] = vetor[i];
-      vetor[i] = temp;
+      int temp = array[0];
+      array[0] = array[i];
+      array[i] = temp;
 
-      heapify(vetor, i, 0);
+      heapify(array, i, 0);
     }
-    return vetor;
+    return array;
   }
 
   void heapify(int arr[], int arrayLength, int rootElementIndex) {

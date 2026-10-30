@@ -1,109 +1,109 @@
 /*
- *	Utiliza a classe No
+ *	Uses the TreeNode class.
  */
 
-public class ArvoreBinaria {
+public class BinaryTree {
 
   public static void main(String[] args) {
-    No raiz = new No(9);
+    TreeNode root = new TreeNode(9);
 
-    inserir(raiz, 3);
-    inserir(raiz, 4);
-    inserir(raiz, 6);
-    inserir(raiz, 7);
-    inserir(raiz, 8);
-    inserir(raiz, 10);
-    inserir(raiz, 13);
-    inserir(raiz, 14);
+    insert(root, 3);
+    insert(root, 4);
+    insert(root, 6);
+    insert(root, 7);
+    insert(root, 8);
+    insert(root, 10);
+    insert(root, 13);
+    insert(root, 14);
 
     System.out.println();
 
-    System.out.printf("Em ordem: ");
-    emOrdem(raiz);
+    System.out.printf("Inorder: ");
+    inOrder(root);
     System.out.println();
 
-    System.out.printf("Pós-fixado: ");
-    posFixado(raiz);
+    System.out.printf("Postorder: ");
+    postOrder(root);
     System.out.println();
 
-    System.out.printf("Pré-fixado: ");
-    preFixado(raiz);
+    System.out.printf("Preorder: ");
+    preOrder(root);
     System.out.println();
 
-    System.out.println("Remove Valor: " + removeValorMinimoDaArvore(raiz));
-    System.out.println("Altura Arvore: " + AlturaArvore(raiz));
+    System.out.println("Removed value: " + removeMinimumFromTree(root));
+    System.out.println("Tree height: " + treeHeight(root));
   }
 
-  public static void inserir(No node, int valor) {
+  public static void insert(TreeNode node, int value) {
     if (node != null) {
-      if (valor < node.getChave()) {
-        if (node.getEsq() != null) {
-          inserir(node.getEsq(), valor);
+      if (value < node.getKey()) {
+        if (node.getLeft() != null) {
+          insert(node.getLeft(), value);
         } else {
-          System.out.println("  Inserindo " + valor + " a esquerda de " + node.getChave());
-          node.setEsq(new No(valor));
+          System.out.println("  Inserting " + value + " to the left of " + node.getKey());
+          node.setLeft(new TreeNode(value));
           ;
         }
-      } else if (valor > node.getChave()) {
-        if (node.getDir() != null) {
-          inserir(node.getDir(), valor);
+      } else if (value > node.getKey()) {
+        if (node.getRight() != null) {
+          insert(node.getRight(), value);
         } else {
-          System.out.println("  Inserindo " + valor + " a direita de " + node.getChave());
-          node.setDir(new No(valor));
+          System.out.println("  Inserting " + value + " to the right of " + node.getKey());
+          node.setRight(new TreeNode(value));
         }
       }
     }
   }
 
-  public static void preFixado(No no) {
-    if (no != null) {
-      System.out.print(no.getChave() + " ");
-      preFixado(no.getEsq());
-      preFixado(no.getDir());
+  public static void preOrder(TreeNode node) {
+    if (node != null) {
+      System.out.print(node.getKey() + " ");
+      preOrder(node.getLeft());
+      preOrder(node.getRight());
     }
   }
 
-  public static void posFixado(No no) {
-    if (no != null) {
-      posFixado(no.getEsq());
-      posFixado(no.getDir());
-      System.out.print(no.getChave() + " ");
+  public static void postOrder(TreeNode node) {
+    if (node != null) {
+      postOrder(node.getLeft());
+      postOrder(node.getRight());
+      System.out.print(node.getKey() + " ");
     }
   }
 
-  public static void emOrdem(No no) {
-    if (no != null) {
-      emOrdem(no.getEsq());
-      System.out.print(no.getChave() + " ");
-      emOrdem(no.getDir());
+  public static void inOrder(TreeNode node) {
+    if (node != null) {
+      inOrder(node.getLeft());
+      System.out.print(node.getKey() + " ");
+      inOrder(node.getRight());
     }
   }
 
-  public static No removeValorMinimoDaArvore(No node) {
+  public static TreeNode removeMinimumFromTree(TreeNode node) {
     if (node == null) {
-      System.out.println("  ERROR ");
-    } else if (node.getEsq() != null) {
-      node.setEsq(removeValorMinimoDaArvore(node.getEsq()));
+      System.out.println("Error: tree is empty.");
+    } else if (node.getLeft() != null) {
+      node.setLeft(removeMinimumFromTree(node.getLeft()));
       return node;
     } else {
-      return node.getDir();
+      return node.getRight();
     }
     return null;
   }
 
-  public static int AlturaArvore(No no) {
+  public static int treeHeight(TreeNode node) {
 
-    if (no == null) {
+    if (node == null) {
       return -1;
     } else {
 
-      int esquerda = AlturaArvore(no.getEsq());
-      int direita = AlturaArvore(no.getDir());
+      int left = treeHeight(node.getLeft());
+      int right = treeHeight(node.getRight());
 
-      if (esquerda < direita) {
-        return direita + 1;
+      if (left < right) {
+        return right + 1;
       } else {
-        return esquerda + 1;
+        return left + 1;
       }
     }
   }

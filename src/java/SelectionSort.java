@@ -2,37 +2,38 @@ public class SelectionSort {
 
   public static void main(String[] args) {
 
-    int vetor[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
+    int array[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("Selection Sort:");
-    System.out.println("Vetor não ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Unsorted array:");
+    printArray(array);
 
-    vetor = selectionSort(vetor, 0);
+    array = selectionSort(array, 0);
 
-    System.out.println("Vetor ordenado:");
-    mostraVetor(vetor);
+    System.out.println("Sorted array:");
+    printArray(array);
   }
 
-  public static int[] selectionSort(int vetor[], int indice) {
-    if (indice >= vetor.length - 1) return vetor;
+  public static int[] selectionSort(int array[], int index) {
+    if (index >= array.length - 1) return array;
 
-    int minIndice = indice;
+    int minimumIndex = index;
 
-    for (int i = indice + 1; i < vetor.length; i++) if (vetor[i] < vetor[minIndice]) minIndice = i;
+    for (int i = index + 1; i < array.length; i++)
+      if (array[i] < array[minimumIndex]) minimumIndex = i;
 
-    int temp = vetor[indice];
-    vetor[indice] = vetor[minIndice];
-    vetor[minIndice] = temp;
+    int temp = array[index];
+    array[index] = array[minimumIndex];
+    array[minimumIndex] = temp;
 
-    selectionSort(vetor, indice + 1);
+    selectionSort(array, index + 1);
 
-    return vetor;
+    return array;
   }
 
-  public static void mostraVetor(int vetor[]) {
-    for (int i = 0; i < vetor.length; i++) {
-      System.out.print(vetor[i] + ", ");
+  public static void printArray(int array[]) {
+    for (int i = 0; i < array.length; i++) {
+      System.out.print(array[i] + ", ");
     }
     System.out.println("");
   }

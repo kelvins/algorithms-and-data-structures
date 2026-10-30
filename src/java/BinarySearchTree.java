@@ -1,134 +1,134 @@
 /*
- *	Utiliza a classe No
+ *	Uses the TreeNode class.
  */
-public class ArvoreDeBuscaBinaria {
+public class BinarySearchTree {
 
   public static void main(String[] args) {
-    No Arvore = new No(45);
-    insereArvore(Arvore, 56);
-    insereArvore(Arvore, 67);
-    insereArvore(Arvore, 24);
-    insereArvore(Arvore, 61);
-    insereArvore(Arvore, 52);
+    TreeNode tree = new TreeNode(45);
+    insertIntoTree(tree, 56);
+    insertIntoTree(tree, 67);
+    insertIntoTree(tree, 24);
+    insertIntoTree(tree, 61);
+    insertIntoTree(tree, 52);
 
-    System.out.print("Pre : ");
-    preOrdem(Arvore);
-    System.out.print("\nEm  : ");
-    emOrdem(Arvore);
-    System.out.print("\nPos : ");
-    posOrdem(Arvore);
+    System.out.print("Preorder: ");
+    preOrder(tree);
+    System.out.print("\nInorder: ");
+    inOrder(tree);
+    System.out.print("\nPostorder: ");
+    postOrder(tree);
 
-    excluiArvore(Arvore, 45);
-    excluiArvore(Arvore, 24);
-    excluiArvore(Arvore, 56);
-
-    System.out.println("\n");
-
-    System.out.print("Pre : ");
-    preOrdem(Arvore);
-    System.out.print("\nEm  : ");
-    emOrdem(Arvore);
-    System.out.print("\nPos : ");
-    posOrdem(Arvore);
+    deleteFromTree(tree, 45);
+    deleteFromTree(tree, 24);
+    deleteFromTree(tree, 56);
 
     System.out.println("\n");
 
-    int chave = 56;
-    if (buscaBinaria(Arvore, chave) != null) System.out.println("\nEncontrou a chave " + chave);
-    else System.out.println("\nNao encontrou a chave " + chave);
+    System.out.print("Preorder: ");
+    preOrder(tree);
+    System.out.print("\nInorder: ");
+    inOrder(tree);
+    System.out.print("\nPostorder: ");
+    postOrder(tree);
 
-    System.out.println("Altura da arvore : " + alturaArvore(Arvore));
+    System.out.println("\n");
+
+    int key = 56;
+    if (binarySearch(tree, key) != null) System.out.println("\nFound key: " + key);
+    else System.out.println("\nKey not found: " + key);
+
+    System.out.println("Tree height: " + treeHeight(tree));
   }
 
-  public static No buscaBinaria(No no, int chave) {
-    while (no != null) {
-      if (no.getChave() == chave) return no;
-      if (chave > no.getChave()) no = no.getDir();
-      else no = no.getEsq();
+  public static TreeNode binarySearch(TreeNode node, int key) {
+    while (node != null) {
+      if (node.getKey() == key) return node;
+      if (key > node.getKey()) node = node.getRight();
+      else node = node.getLeft();
     }
     return null;
   }
 
-  public static No buscaNoPai(No atual, int ch) {
-    No noPai = null;
-    while (atual != null) {
-      if (atual.getChave() == ch) return noPai;
-      noPai = atual;
-      if (atual.getChave() < ch) atual = atual.getDir();
-      else atual = atual.getEsq();
+  public static TreeNode findParentNode(TreeNode current, int key) {
+    TreeNode parentNode = null;
+    while (current != null) {
+      if (current.getKey() == key) return parentNode;
+      parentNode = current;
+      if (current.getKey() < key) current = current.getRight();
+      else current = current.getLeft();
     }
-    return noPai;
+    return parentNode;
   }
 
-  public static No maiorAesquerda(No atual) {
-    atual = atual.getEsq();
-    while (atual.getDir() != null) atual = atual.getDir();
-    return atual;
+  public static TreeNode predecessor(TreeNode current) {
+    current = current.getLeft();
+    while (current.getRight() != null) current = current.getRight();
+    return current;
   }
 
-  public static boolean excluiArvore(No no, int chave) {
-    No atual, noPai, substituto;
-    substituto = null;
-    atual = buscaBinaria(no, chave);
-    if (atual == null) return false; // The key was not found
-    noPai = buscaNoPai(no, chave);
-    if (atual.getEsq() == null || atual.getDir() == null) { // Se tem 0 ou 1 filho
-      if (atual.getEsq() == null) {
-        substituto = atual.getDir();
+  public static boolean deleteFromTree(TreeNode node, int key) {
+    TreeNode current, parentNode, replacement;
+    replacement = null;
+    current = binarySearch(node, key);
+    if (current == null) return false; // The key was not found
+    parentNode = findParentNode(node, key);
+    if (current.getLeft() == null || current.getRight() == null) { // The node has zero or one child
+      if (current.getLeft() == null) {
+        replacement = current.getRight();
       } else {
-        substituto = atual.getEsq();
+        replacement = current.getLeft();
       }
-      if (noPai == null) { // The root is the only node without a parent
-        no.setChave(substituto.getChave());
-        no.setEsq(substituto.getEsq());
-        no.setDir(substituto.getDir());
+      if (parentNode == null) { // The root is the only node without a parent
+        node.setKey(replacement.getKey());
+        node.setLeft(replacement.getLeft());
+        node.setRight(replacement.getRight());
       } else {
-        if (chave < noPai.getChave()) noPai.setEsq(substituto);
-        else noPai.setDir(substituto);
+        if (key < parentNode.getKey()) parentNode.setLeft(replacement);
+        else parentNode.setRight(replacement);
       }
     } else {
-      substituto = maiorAesquerda(atual);
-      atual.setChave(substituto.getChave());
-      if (substituto.getEsq() != null) atual.setEsq(substituto.getEsq());
-      else atual.setEsq(null);
+      replacement = predecessor(current);
+      current.setKey(replacement.getKey());
+      if (replacement.getLeft() != null) current.setLeft(replacement.getLeft());
+      else current.setLeft(null);
     }
 
     return true;
   }
 
-  public static void insereArvore(No arvore, int chave) {
-    No anterior = arvore;
-    while (arvore != null) {
-      anterior = arvore;
-      if (arvore.getChave() < chave) arvore = arvore.getDir();
-      else arvore = arvore.getEsq();
+  public static void insertIntoTree(TreeNode tree, int key) {
+    TreeNode previous = tree;
+    while (tree != null) {
+      previous = tree;
+      if (tree.getKey() < key) tree = tree.getRight();
+      else tree = tree.getLeft();
     }
-    No novo = new No(chave);
-    if (anterior.getChave() < chave) anterior.setDir(novo);
-    else anterior.setEsq(novo);
+    TreeNode newNode = new TreeNode(key);
+    if (previous.getKey() < key) previous.setRight(newNode);
+    else previous.setLeft(newNode);
   }
 
-  public static void preOrdem(No no) {
-    if (no != null) {
-      System.out.print(no.getChave() + ", ");
-      preOrdem(no.getEsq());
-      preOrdem(no.getDir());
-    }
-  }
-
-  public static void posOrdem(No no) {
-    if (no != null) {
-      posOrdem(no.getEsq());
-      posOrdem(no.getDir());
-      System.out.print(no.getChave() + ", ");
+  public static void preOrder(TreeNode node) {
+    if (node != null) {
+      System.out.print(node.getKey() + ", ");
+      preOrder(node.getLeft());
+      preOrder(node.getRight());
     }
   }
 
-  public static void emOrdem(No no) {
-    if (no != null) {
-      emOrdem(no.getEsq());
-      System.out.print(no.getChave() + ", ");
-      emOrdem(no.getDir());
+  public static void postOrder(TreeNode node) {
+    if (node != null) {
+      postOrder(node.getLeft());
+      postOrder(node.getRight());
+      System.out.print(node.getKey() + ", ");
+    }
+  }
+
+  public static void inOrder(TreeNode node) {
+    if (node != null) {
+      inOrder(node.getLeft());
+      System.out.print(node.getKey() + ", ");
+      inOrder(node.getRight());
     }
   }
 
@@ -137,8 +137,8 @@ public class ArvoreDeBuscaBinaria {
     return b;
   }
 
-  public static int alturaArvore(No arvore) {
-    if (arvore == null) return 0;
-    return 1 + max(alturaArvore(arvore.getEsq()), alturaArvore(arvore.getDir()));
+  public static int treeHeight(TreeNode tree) {
+    if (tree == null) return 0;
+    return 1 + max(treeHeight(tree.getLeft()), treeHeight(tree.getRight()));
   }
 }

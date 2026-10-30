@@ -43,12 +43,12 @@ public class BogoSort {
     int vector[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("BogoSort:");
-    System.out.println("Unordered vector:");
+    System.out.println("Unsorted array:");
     printVector(vector);
 
     vector = bogoSort(vector);
 
-    System.out.println("Sorted vector:");
+    System.out.println("Sorted array:");
     printVector(vector);
   }
 }

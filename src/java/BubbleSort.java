@@ -5,7 +5,7 @@ public class BubbleSort {
     int vector[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
 
     System.out.println("Bubble Sort:");
-    System.out.println("Unordered vector:");
+    System.out.println("Unsorted array:");
     showVector(vector);
 
     vector = bubbleSort(vector);

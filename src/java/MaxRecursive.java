@@ -1,28 +1,28 @@
-public class MaxMinArray {
+public class MaxRecursive {
 
   public static void main(String[] args) {
-    int vetor[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
-    MaxMinRecursivo(vetor, vetor[0], vetor[0], 0);
+    int array[] = {9, 0, 4, 2, 3, 8, 7, 1, 6, 5};
+    maxMinRecursive(array, array[0], array[0], 0);
     System.out.println("---------");
-    MaxMinIterativo(vetor);
+    maxMinIterative(array);
   }
 
-  public static void MaxMinRecursivo(int vetor[], int max, int min, int indice) {
-    if (vetor[indice] > max) max = vetor[indice];
-    if (vetor[indice] < min) min = vetor[indice];
-    if (indice < vetor.length - 1) MaxMinRecursivo(vetor, max, min, indice + 1);
+  public static void maxMinRecursive(int array[], int max, int min, int index) {
+    if (array[index] > max) max = array[index];
+    if (array[index] < min) min = array[index];
+    if (index < array.length - 1) maxMinRecursive(array, max, min, index + 1);
     else {
       System.out.println("Max : " + max);
       System.out.println("Min : " + min);
     }
   }
 
-  public static void MaxMinIterativo(int vetor[]) {
-    int max = vetor[0], min = vetor[0];
-    if (vetor.length > 1) {
-      for (int i = 0; i < vetor.length; i++) {
-        if (vetor[i] > max) max = vetor[i];
-        else if (vetor[i] < min) min = vetor[i];
+  public static void maxMinIterative(int array[]) {
+    int max = array[0], min = array[0];
+    if (array.length > 1) {
+      for (int i = 0; i < array.length; i++) {
+        if (array[i] > max) max = array[i];
+        else if (array[i] < min) min = array[i];
       }
     }
     System.out.println("Max : " + max);

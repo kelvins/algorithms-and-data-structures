@@ -1,48 +1,47 @@
-public class fila {
+public class Queue {
 
-  public processo processoAtual;
-  public fila proximaFila;
+  public process currentProcess;
+  public Queue nextQueue;
 
-  public fila() {
-    this.processoAtual = null;
-    this.proximaFila = null;
+  public Queue() {
+    this.currentProcess = null;
+    this.nextQueue = null;
   }
 
-  public void inserirfila(processo processoNovo) {
-    if (this.processoAtual == null) {
-      this.processoAtual = processoNovo;
-      this.proximaFila = new fila();
+  public void enqueueProcess(process newProcess) {
+    if (this.currentProcess == null) {
+      this.currentProcess = newProcess;
+      this.nextQueue = new Queue();
     } else {
-      this.proximaFila.inserirfila(processoNovo);
+      this.nextQueue.enqueueProcess(newProcess);
     }
   }
 
-  public processo removerfila() {
-    processo removido = this.processoAtual;
-    this.processoAtual = this.proximaFila.processoAtual;
-    this.proximaFila = this.proximaFila.proximaFila;
-    return removido;
+  public process dequeueProcess() {
+    process removed = this.currentProcess;
+    this.currentProcess = this.nextQueue.currentProcess;
+    this.nextQueue = this.nextQueue.nextQueue;
+    return removed;
   }
 
-  public String checkfila(String vazia) {
-    if (this.proximaFila.proximaFila == null) {
-      vazia =
-          vazia + " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo();
+  public String formatQueue(String empty) {
+    if (this.nextQueue.nextQueue == null) {
+      empty = empty + " " + this.currentProcess.getPriority() + " " + this.currentProcess.getTime();
     } else {
-      vazia =
-          vazia
+      empty =
+          empty
               + " "
-              + this.processoAtual.getPrioridade()
+              + this.currentProcess.getPriority()
               + " "
-              + this.processoAtual.getTempo()
+              + this.currentProcess.getTime()
               + " &&"
-              + this.proximaFila.checkfila(vazia);
+              + this.nextQueue.formatQueue(empty);
     }
-    return vazia;
+    return empty;
   }
 
-  public boolean vaziafila() {
-    if (this.proximaFila == null) {
+  public boolean isEmpty() {
+    if (this.nextQueue == null) {
       return true;
     }
     return false;

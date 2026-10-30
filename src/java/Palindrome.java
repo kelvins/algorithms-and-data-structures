@@ -1,14 +1,14 @@
-public class Palindromo {
+public class Palindrome {
   public static void main(String[] args) {
-    String palavra, palavraInvertida = "";
-    palavra = "A grama é amarga";
+    String word, reversedWord = "";
+    word = "A grama é amarga";
 
-    for (int i = palavra.length() - 1; i >= 0; i--) {
-      palavraInvertida += palavra.toLowerCase().charAt(i);
+    for (int i = word.length() - 1; i >= 0; i--) {
+      reversedWord += word.toLowerCase().charAt(i);
     }
 
-    if (palavra.replace(" ", "").toLowerCase().equals(palavraInvertida.replace(" ", "")))
-      System.out.println("palavra é um palindromo!");
-    else System.out.println("palavra não é um palindromo!");
+    if (word.replace(" ", "").toLowerCase().equals(reversedWord.replace(" ", "")))
+      System.out.println("The word is a palindrome!");
+    else System.out.println("The word is not a palindrome!");
   }
 }

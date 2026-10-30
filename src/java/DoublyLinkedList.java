@@ -1,7 +1,7 @@
-// javac ListaDuplamenteEncadeada.java
-// java ListaDuplamenteEncadeada
+// javac DoublyLinkedList.java
+// java DoublyLinkedList
 
-public class ListaDuplamenteEncadeada {
+public class DoublyLinkedList {
 
   public static void main(String[] args) {
     LinkedList linkedList = new LinkedList();

@@ -3,28 +3,28 @@ public class ShellSort {
   /**
    * Apply Shell Sort to the array
    *
-   * @param vetor array to be sorted
+   * @param array array to be sorted
    */
-  public int[] sort(int[] vetor) {
+  public int[] sort(int[] array) {
     int i, j, h = 1, temp;
 
     do {
       h = 3 * h + 1;
-    } while (h < vetor.length);
+    } while (h < array.length);
 
     do {
       h /= 3;
 
-      for (i = h; i < vetor.length; i++) {
-        temp = vetor[i];
+      for (i = h; i < array.length; i++) {
+        temp = array[i];
         j = i - h;
-        while (j >= 0 && temp < vetor[j]) {
-          vetor[j + h] = vetor[j];
+        while (j >= 0 && temp < array[j]) {
+          array[j + h] = array[j];
           j -= h;
         }
-        vetor[j + h] = temp;
+        array[j + h] = temp;
       }
     } while (h > 1);
-    return vetor;
+    return array;
   }
 }
