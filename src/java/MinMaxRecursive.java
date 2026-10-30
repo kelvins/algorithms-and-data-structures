@@ -15,7 +15,7 @@ public class MinMaxRecursivo {
     if (index < vect.length - 1) {
       MinMax(vect, minimum, maximum, index + 1);
     } else {
-      System.out.println("Mínimo :" + minimum + "\nMáximo: " + maximum);
+      System.out.println("Minimum: " + minimum + "\nMaximum: " + maximum);
     }
   }
 }

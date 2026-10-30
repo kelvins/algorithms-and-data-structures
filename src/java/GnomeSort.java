@@ -3,11 +3,10 @@ import java.util.Arrays;
 public class GnomeSort {
   public static void main(String[] args) {
     int array[] = {10, -10, -9, 9, 8, -8, 7, -7, 6, -6, 5, -5, 4, -4, 3, -3, 2, -2, 1, -1, 0};
-    System.out.println("Array antes da sortção:" + Arrays.toString(array));
+    System.out.println("Array before sorting: " + Arrays.toString(array));
 
     gnomeSort(array);
-    System.out.println(
-        "Array após sortção com o algoritmo Gnome Sort: " + Arrays.toString(array));
+    System.out.println("Array after sorting with Gnome Sort: " + Arrays.toString(array));
   }
 
   static void gnomeSort(int[] array) {
