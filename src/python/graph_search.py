@@ -1,14 +1,13 @@
-# Grafos - Algoritmos de BFS e DFS em Python
+# Graphs - BFS and DFS algorithms in Python
 
 from collections import deque
 
 
 class Graph:
-    """Define um graph utilizando matrix de adjacências.
+    """Represent a graph using an adjacency list.
 
     Args:
-        edges (list): uma list de lists onde o index é o
-                        vertex e cada element da list é o neighbor
+        edges: A list where each row contains the neighbors of a vertex.
     """
 
     def __init__(self, edges: list):
@@ -16,22 +15,13 @@ class Graph:
         self.add_edges(edges)
 
     def add_edges(self, edges: list) -> None:
-        """Adiciona todas as edges ao graph
-
-        Args:
-            edges (list): a list contendo todas as definições de edges do graph
-        """
+        """Add all edges to the graph."""
         for i in range(len(edges)):
             for j in range(len(edges[i])):
                 self.__add_edge(i, edges[i][j])
 
     def __add_edge(self, u: int, v: int) -> None:
-        """Adiciona a edge na matrix de adjacência
-
-        Args:
-            u (int): vertex u
-            v (int): vertex v
-        """
+        """Add an edge to the adjacency list."""
         if v not in self.adj[u]:
             self.adj[u].append(v)
 
@@ -39,13 +29,10 @@ class Graph:
             self.adj[v].append(u)
 
     def bfs(self, start: int) -> list:
-        """Executa a search em width a partir do vertex start
-
-        Args:
-            start (int): vertex start
+        """Traverse the graph breadth-first from the start vertex.
 
         Returns:
-            list: list com a order de vertices visited
+            The vertices in visit order.
         """
         queue = deque()
         queue.append(start)
@@ -63,13 +50,10 @@ class Graph:
         return visited
 
     def dfs(self, start: int) -> list:
-        """Executa a search em depth a partir do vertex start
-
-        Args:
-            start (int): vertex start
+        """Traverse the graph depth-first from the start vertex.
 
         Returns:
-            list: list com a order de vertices visited
+            The vertices in visit order.
         """
         visited = []
         visited.append(start)
@@ -89,12 +73,12 @@ class Graph:
 
 
 edges = [
-    [1, 2, 5],  # Vizinhos do vertex 0.
-    [0, 2],  # Vizinhos do vertex 1.
-    [0, 1, 3, 4],  # Vizinhos do vertex 2.
-    [2, 4, 5],  # Vizinhos do vertex 3.
-    [2, 3],  # Vizinhos do vertex 4.
-    [0, 3],  # Vizinhos do vertex 5.
+    [1, 2, 5],  # Neighbors of vertex 0.
+    [0, 2],  # Neighbors of vertex 1.
+    [0, 1, 3, 4],  # Neighbors of vertex 2.
+    [2, 4, 5],  # Neighbors of vertex 3.
+    [2, 3],  # Neighbors of vertex 4.
+    [0, 3],  # Neighbors of vertex 5.
 ]
 
 graph = Graph(edges)

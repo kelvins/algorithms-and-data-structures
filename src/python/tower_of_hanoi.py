@@ -4,7 +4,7 @@
 def hanoi(source_peg, target_peg, helper_peg, disk_count):
     """
     Show the recursive steps for solving the Tower of Hanoi.
-    Parametros: from, to, helper, number de disk_count
+    Args: source peg, target peg, helper peg, and number of disks.
     """
     if disk_count == 1:
         print("Move from {} to {}".format(source_peg, target_peg))

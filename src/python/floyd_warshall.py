@@ -1,15 +1,15 @@
-# Grafos - Algoritmo de Floyd-Warshall em Python
+# Graphs - Floyd-Warshall algorithm in Python
 # Alexandre Lima - 2021
 # https://github.com/alelimasilva
 
 from math import inf
 
 
-def gerar_matrix(n_linhas, n_colunas):
-    return [[0] * n_colunas for _ in range(n_linhas)]
+def generate_matrix(num_rows, num_columns):
+    return [[0] * num_columns for _ in range(num_rows)]
 
 
-def imprime(matrix, vertices):
+def print_matrix(matrix, vertices):
     print(" ", end="")
     for i in range(vertices):
         print("  ", i + 1, end="")
@@ -19,7 +19,7 @@ def imprime(matrix, vertices):
 
 
 def floyd_warshall(matrix, vertices):
-    dist = gerar_matrix(vertices, vertices)
+    dist = generate_matrix(vertices, vertices)
     # Initialize the matrix with infinity on the diagonal and edge distances
     for i in range(vertices):
         for j in range(vertices):
@@ -42,7 +42,7 @@ def floyd_warshall(matrix, vertices):
                     dist[i][j] = Dist
     # Print the result
     print("Distance matrix")
-    imprime(dist, vertices)
+    print_matrix(dist, vertices)
 
 
 def main():

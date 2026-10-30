@@ -14,7 +14,7 @@ def selection_sort(array, index):
     if index >= len(array) - 1:
         return -1
 
-    # minIndice stores the index of the smallest value
+    # min_index stores the index of the smallest value
     min_index = index
 
     for i in range(index + 1, len(array)):

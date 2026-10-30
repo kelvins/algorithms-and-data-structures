@@ -29,11 +29,10 @@ print(some_list)
 
 
 def shell(seq):
-    """
-    Algoritmo de ordenacao shell
+    """Sort the sequence using Shell sort.
 
-    Argumentos:
-        seq: list. list not sorted
+    Args:
+        seq: The sequence to sort.
     """
     inc = len(seq) // 2
     while inc:
