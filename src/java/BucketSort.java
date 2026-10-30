@@ -1,18 +1,18 @@
 public class BucketSort {
 
   /**
-   * @param vetor array to be sorted; applies Bucket Sort to the array
+   * @param array array to be sorted; applies Bucket Sort to the array
    */
-  public int[] sort(int[] vetor) {
+  public int[] sort(int[] array) {
 
-    final int[] code = hash(vetor);
+    final int[] code = hash(array);
 
     List<Integer>[] buckets = new List[code[1]];
     for (int i = 0; i < code[1]; i++) {
       buckets[i] = new ArrayList<Integer>();
     }
 
-    for (int i : vetor) {
+    for (int i : array) {
       buckets[hash(i, code)].add(i);
     }
 
@@ -23,10 +23,10 @@ public class BucketSort {
 
     for (int b = 0; b < buckets.length; b++) {
       for (int v : buckets[b]) {
-        vetor[ndx++] = v;
+        array[ndx++] = v;
       }
     }
-    return vetor;
+    return array;
   }
 
   private int[] hash(int[] input) {

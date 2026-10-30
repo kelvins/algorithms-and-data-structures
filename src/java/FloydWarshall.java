@@ -7,13 +7,13 @@
 
 public class FloydWarshall {
 
-  public static void showMatrix(long[][] matriz, int nroVertices) {
-    for (int i = 0; i < nroVertices; i++) {
-      for (int j = 0; j < nroVertices; j++) {
-        if (matriz[i][j] < 10) {
-          System.out.print(" " + matriz[i][j] + " ");
+  public static void showMatrix(long[][] matrix, int vertexCount) {
+    for (int i = 0; i < vertexCount; i++) {
+      for (int j = 0; j < vertexCount; j++) {
+        if (matrix[i][j] < 10) {
+          System.out.print(" " + matrix[i][j] + " ");
         } else {
-          System.out.print(matriz[i][j] + " ");
+          System.out.print(matrix[i][j] + " ");
         }
       }
 
@@ -23,8 +23,8 @@ public class FloydWarshall {
   }
 
   public static void main(String[] args) {
-    int nroVertices = 5;
-    long[][] matriz = {
+    int vertexCount = 5;
+    long[][] matrix = {
       {0, 2, 10, 5, 7},
       {2, 0, 3, 3, 1},
       {10, 3, 0, 1, 2},
@@ -34,30 +34,30 @@ public class FloydWarshall {
 
     // Display the original matrix
     System.out.println("Original matrix:");
-    showMatrix(matriz, nroVertices);
+    showMatrix(matrix, vertexCount);
 
-    floydWarshall(matriz, nroVertices);
+    floydWarshall(matrix, vertexCount);
 
     // Display the updated matrix
     System.out.println("Updated matrix:");
-    showMatrix(matriz, nroVertices);
+    showMatrix(matrix, vertexCount);
 
     // Show all shortest paths
     System.out.println();
-    for (int i = 0; i < nroVertices; i++) {
-      for (int x = 0; x < nroVertices; x++) {
-        System.out.println("Shortest distance from " + i + " to " + x + " = " + matriz[x][i] + ".");
+    for (int i = 0; i < vertexCount; i++) {
+      for (int x = 0; x < vertexCount; x++) {
+        System.out.println("Shortest distance from " + i + " to " + x + " = " + matrix[x][i] + ".");
       }
     }
     System.out.println();
   }
 
-  public static void floydWarshall(long[][] matriz, int n) {
+  public static void floydWarshall(long[][] matrix, int n) {
     for (int x = 0; x < n; x++) { // Intermediary vertex
       for (int y = 0; y < n; y++) { // Origin vertex
         for (int z = 0; z < n; z++) { // Destination vertex
-          if (matriz[y][z] > (matriz[y][x] + matriz[x][z])) {
-            matriz[y][z] = matriz[y][x] + matriz[x][z];
+          if (matrix[y][z] > (matrix[y][x] + matrix[x][z])) {
+            matrix[y][z] = matrix[y][x] + matrix[x][z];
           }
         }
       }

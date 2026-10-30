@@ -1,9 +1,9 @@
-public class pilha {
+public class stack {
 
   public processo processoAtual;
-  public pilha proximaPilha;
+  public stack proximaPilha;
 
-  public pilha() {
+  public stack() {
     this.processoAtual = null;
     this.proximaPilha = null;
   }
@@ -11,7 +11,7 @@ public class pilha {
   public void inserirpilha(processo processoNovo) {
     if (this.processoAtual == null) {
       this.processoAtual = processoNovo;
-      this.proximaPilha = new pilha();
+      this.proximaPilha = new stack();
     } else {
       this.proximaPilha.inserirpilha(processoNovo);
     }
@@ -28,21 +28,21 @@ public class pilha {
     }
   }
 
-  public String checkpilha(String vazia) {
+  public String checkpilha(String empty) {
     if (this.proximaPilha.proximaPilha == null) {
-      vazia =
-          " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo() + vazia;
+      empty =
+          " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo() + empty;
     } else {
-      vazia =
-          this.proximaPilha.checkpilha(vazia)
+      empty =
+          this.proximaPilha.checkpilha(empty)
               + " && "
               + this.processoAtual.getPrioridade()
               + " "
               + this.processoAtual.getTempo()
               + " "
-              + vazia;
+              + empty;
     }
-    return vazia;
+    return empty;
   }
 
   public boolean vaziaPilha() {

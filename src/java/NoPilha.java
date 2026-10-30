@@ -1,17 +1,17 @@
 public class NoPilha {
-  int chave;
+  int key;
   NoPilha prox;
 
-  public NoPilha(int chave) {
-    this.chave = chave;
+  public NoPilha(int key) {
+    this.key = key;
   }
 
   public int getChave() {
-    return chave;
+    return key;
   }
 
-  public void setChave(int chave) {
-    this.chave = chave;
+  public void setChave(int key) {
+    this.key = key;
   }
 
   public NoPilha getProx() {

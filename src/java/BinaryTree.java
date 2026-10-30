@@ -5,51 +5,51 @@
 public class ArvoreBinaria {
 
   public static void main(String[] args) {
-    No raiz = new No(9);
+    No root = new No(9);
 
-    inserir(raiz, 3);
-    inserir(raiz, 4);
-    inserir(raiz, 6);
-    inserir(raiz, 7);
-    inserir(raiz, 8);
-    inserir(raiz, 10);
-    inserir(raiz, 13);
-    inserir(raiz, 14);
+    insert(root, 3);
+    insert(root, 4);
+    insert(root, 6);
+    insert(root, 7);
+    insert(root, 8);
+    insert(root, 10);
+    insert(root, 13);
+    insert(root, 14);
 
     System.out.println();
 
-    System.out.printf("Em ordem: ");
-    emOrdem(raiz);
+    System.out.printf("Em order: ");
+    emOrdem(root);
     System.out.println();
 
     System.out.printf("Pós-fixado: ");
-    posFixado(raiz);
+    posFixado(root);
     System.out.println();
 
     System.out.printf("Pré-fixado: ");
-    preFixado(raiz);
+    preFixado(root);
     System.out.println();
 
-    System.out.println("Remove Valor: " + removeValorMinimoDaArvore(raiz));
-    System.out.println("Altura Arvore: " + AlturaArvore(raiz));
+    System.out.println("Remove Valor: " + removeValorMinimoDaArvore(root));
+    System.out.println("Altura Tree: " + AlturaArvore(root));
   }
 
-  public static void inserir(No node, int valor) {
+  public static void insert(No node, int value) {
     if (node != null) {
-      if (valor < node.getChave()) {
+      if (value < node.getChave()) {
         if (node.getEsq() != null) {
-          inserir(node.getEsq(), valor);
+          insert(node.getEsq(), value);
         } else {
-          System.out.println("  Inserindo " + valor + " a esquerda de " + node.getChave());
-          node.setEsq(new No(valor));
+          System.out.println("  Inserindo " + value + " a left de " + node.getChave());
+          node.setEsq(new No(value));
           ;
         }
-      } else if (valor > node.getChave()) {
+      } else if (value > node.getChave()) {
         if (node.getDir() != null) {
-          inserir(node.getDir(), valor);
+          insert(node.getDir(), value);
         } else {
-          System.out.println("  Inserindo " + valor + " a direita de " + node.getChave());
-          node.setDir(new No(valor));
+          System.out.println("  Inserindo " + value + " a right de " + node.getChave());
+          node.setDir(new No(value));
         }
       }
     }
@@ -97,13 +97,13 @@ public class ArvoreBinaria {
       return -1;
     } else {
 
-      int esquerda = AlturaArvore(no.getEsq());
-      int direita = AlturaArvore(no.getDir());
+      int left = AlturaArvore(no.getEsq());
+      int right = AlturaArvore(no.getDir());
 
-      if (esquerda < direita) {
-        return direita + 1;
+      if (left < right) {
+        return right + 1;
       } else {
-        return esquerda + 1;
+        return left + 1;
       }
     }
   }

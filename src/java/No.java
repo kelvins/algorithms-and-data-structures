@@ -1,39 +1,39 @@
 public class No {
-  int chave;
-  No esq, dir;
+  int key;
+  No left, right;
 
-  public No(int chave) {
-    this.chave = chave;
-    this.esq = null;
-    this.dir = null;
+  public No(int key) {
+    this.key = key;
+    this.left = null;
+    this.right = null;
   }
 
   public int getChave() {
-    return chave;
+    return key;
   }
 
-  public void setChave(int chave) {
-    this.chave = chave;
+  public void setChave(int key) {
+    this.key = key;
   }
 
   public No getEsq() {
-    return esq;
+    return left;
   }
 
-  public void setEsq(No esq) {
-    this.esq = esq;
+  public void setEsq(No left) {
+    this.left = left;
   }
 
   public No getDir() {
-    return dir;
+    return right;
   }
 
-  public void setDir(No dir) {
-    this.dir = dir;
+  public void setDir(No right) {
+    this.right = right;
   }
 
   @Override
   public String toString() {
-    return "No{" + "chave: " + chave + ", esq: " + esq + ", dir: " + dir + '}';
+    return "No{" + "key: " + key + ", left: " + left + ", right: " + right + '}';
   }
 }

@@ -1,9 +1,9 @@
-public class fila {
+public class queue {
 
   public processo processoAtual;
-  public fila proximaFila;
+  public queue proximaFila;
 
-  public fila() {
+  public queue() {
     this.processoAtual = null;
     this.proximaFila = null;
   }
@@ -11,7 +11,7 @@ public class fila {
   public void inserirfila(processo processoNovo) {
     if (this.processoAtual == null) {
       this.processoAtual = processoNovo;
-      this.proximaFila = new fila();
+      this.proximaFila = new queue();
     } else {
       this.proximaFila.inserirfila(processoNovo);
     }
@@ -24,21 +24,21 @@ public class fila {
     return removido;
   }
 
-  public String checkfila(String vazia) {
+  public String checkfila(String empty) {
     if (this.proximaFila.proximaFila == null) {
-      vazia =
-          vazia + " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo();
+      empty =
+          empty + " " + this.processoAtual.getPrioridade() + " " + this.processoAtual.getTempo();
     } else {
-      vazia =
-          vazia
+      empty =
+          empty
               + " "
               + this.processoAtual.getPrioridade()
               + " "
               + this.processoAtual.getTempo()
               + " &&"
-              + this.proximaFila.checkfila(vazia);
+              + this.proximaFila.checkfila(empty);
     }
-    return vazia;
+    return empty;
   }
 
   public boolean vaziafila() {

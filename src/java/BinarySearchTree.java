@@ -1,111 +1,111 @@
 /*
  *	Utiliza a classe No
  */
-public class ArvoreDeBuscaBinaria {
+public class ArvoreDeSearchBinaria {
 
   public static void main(String[] args) {
-    No Arvore = new No(45);
-    insereArvore(Arvore, 56);
-    insereArvore(Arvore, 67);
-    insereArvore(Arvore, 24);
-    insereArvore(Arvore, 61);
-    insereArvore(Arvore, 52);
+    No Tree = new No(45);
+    insereArvore(Tree, 56);
+    insereArvore(Tree, 67);
+    insereArvore(Tree, 24);
+    insereArvore(Tree, 61);
+    insereArvore(Tree, 52);
 
     System.out.print("Pre : ");
-    preOrdem(Arvore);
+    preOrdem(Tree);
     System.out.print("\nEm  : ");
-    emOrdem(Arvore);
+    emOrdem(Tree);
     System.out.print("\nPos : ");
-    posOrdem(Arvore);
+    posOrdem(Tree);
 
-    excluiArvore(Arvore, 45);
-    excluiArvore(Arvore, 24);
-    excluiArvore(Arvore, 56);
+    excluiArvore(Tree, 45);
+    excluiArvore(Tree, 24);
+    excluiArvore(Tree, 56);
 
     System.out.println("\n");
 
     System.out.print("Pre : ");
-    preOrdem(Arvore);
+    preOrdem(Tree);
     System.out.print("\nEm  : ");
-    emOrdem(Arvore);
+    emOrdem(Tree);
     System.out.print("\nPos : ");
-    posOrdem(Arvore);
+    posOrdem(Tree);
 
     System.out.println("\n");
 
-    int chave = 56;
-    if (buscaBinaria(Arvore, chave) != null) System.out.println("\nEncontrou a chave " + chave);
-    else System.out.println("\nNao encontrou a chave " + chave);
+    int key = 56;
+    if (buscaBinaria(Tree, key) != null) System.out.println("\nEncontrou a key " + key);
+    else System.out.println("\nNao encontrou a key " + key);
 
-    System.out.println("Altura da arvore : " + alturaArvore(Arvore));
+    System.out.println("Altura da arvore : " + alturaArvore(Tree));
   }
 
-  public static No buscaBinaria(No no, int chave) {
+  public static No buscaBinaria(No no, int key) {
     while (no != null) {
-      if (no.getChave() == chave) return no;
-      if (chave > no.getChave()) no = no.getDir();
+      if (no.getChave() == key) return no;
+      if (key > no.getChave()) no = no.getDir();
       else no = no.getEsq();
     }
     return null;
   }
 
-  public static No buscaNoPai(No atual, int ch) {
+  public static No buscaNoPai(No current, int ch) {
     No noPai = null;
-    while (atual != null) {
-      if (atual.getChave() == ch) return noPai;
-      noPai = atual;
-      if (atual.getChave() < ch) atual = atual.getDir();
-      else atual = atual.getEsq();
+    while (current != null) {
+      if (current.getChave() == ch) return noPai;
+      noPai = current;
+      if (current.getChave() < ch) current = current.getDir();
+      else current = current.getEsq();
     }
     return noPai;
   }
 
-  public static No maiorAesquerda(No atual) {
-    atual = atual.getEsq();
-    while (atual.getDir() != null) atual = atual.getDir();
-    return atual;
+  public static No maiorAesquerda(No current) {
+    current = current.getEsq();
+    while (current.getDir() != null) current = current.getDir();
+    return current;
   }
 
-  public static boolean excluiArvore(No no, int chave) {
-    No atual, noPai, substituto;
-    substituto = null;
-    atual = buscaBinaria(no, chave);
-    if (atual == null) return false; // The key was not found
-    noPai = buscaNoPai(no, chave);
-    if (atual.getEsq() == null || atual.getDir() == null) { // Se tem 0 ou 1 filho
-      if (atual.getEsq() == null) {
-        substituto = atual.getDir();
+  public static boolean excluiArvore(No no, int key) {
+    No current, noPai, replacement;
+    replacement = null;
+    current = buscaBinaria(no, key);
+    if (current == null) return false; // The key was not found
+    noPai = buscaNoPai(no, key);
+    if (current.getEsq() == null || current.getDir() == null) { // Se tem 0 ou 1 child
+      if (current.getEsq() == null) {
+        replacement = current.getDir();
       } else {
-        substituto = atual.getEsq();
+        replacement = current.getEsq();
       }
       if (noPai == null) { // The root is the only node without a parent
-        no.setChave(substituto.getChave());
-        no.setEsq(substituto.getEsq());
-        no.setDir(substituto.getDir());
+        no.setChave(replacement.getChave());
+        no.setEsq(replacement.getEsq());
+        no.setDir(replacement.getDir());
       } else {
-        if (chave < noPai.getChave()) noPai.setEsq(substituto);
-        else noPai.setDir(substituto);
+        if (key < noPai.getChave()) noPai.setEsq(replacement);
+        else noPai.setDir(replacement);
       }
     } else {
-      substituto = maiorAesquerda(atual);
-      atual.setChave(substituto.getChave());
-      if (substituto.getEsq() != null) atual.setEsq(substituto.getEsq());
-      else atual.setEsq(null);
+      replacement = maiorAesquerda(current);
+      current.setChave(replacement.getChave());
+      if (replacement.getEsq() != null) current.setEsq(replacement.getEsq());
+      else current.setEsq(null);
     }
 
     return true;
   }
 
-  public static void insereArvore(No arvore, int chave) {
-    No anterior = arvore;
+  public static void insereArvore(No arvore, int key) {
+    No previous = arvore;
     while (arvore != null) {
-      anterior = arvore;
-      if (arvore.getChave() < chave) arvore = arvore.getDir();
+      previous = arvore;
+      if (arvore.getChave() < key) arvore = arvore.getDir();
       else arvore = arvore.getEsq();
     }
-    No novo = new No(chave);
-    if (anterior.getChave() < chave) anterior.setDir(novo);
-    else anterior.setEsq(novo);
+    No new = new No(key);
+    if (previous.getChave() < key) previous.setDir(new);
+    else previous.setEsq(new);
   }
 
   public static void preOrdem(No no) {

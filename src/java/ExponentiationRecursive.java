@@ -1,6 +1,6 @@
 class Main {
 
-  public static long exponenciacao(long base, long expoente) { // exponenciacao recursiva
+  public static long exponenciacao(long base, long expoente) { // exponenciacao recursive
     if (expoente == 0) return 1;
     return (base * exponenciacao(base, expoente - 1));
   }
