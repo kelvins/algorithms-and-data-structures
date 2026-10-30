@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-func Hanoi(pino0 int, pino2 int, pino1 int, numero int) {
-	if numero == 1 {
-		fmt.Println("Move from ", pino0, " to ", pino2)
+func Hanoi(peg0 int, peg2 int, peg1 int, number int) {
+	if number == 1 {
+		fmt.Println("Move from ", peg0, " to ", peg2)
 	} else {
-		Hanoi(pino0, pino1, pino2, numero-1)
-		Hanoi(pino0, pino2, pino1, 1)
-		Hanoi(pino1, pino2, pino0, numero-1)
+		Hanoi(peg0, peg1, peg2, number-1)
+		Hanoi(peg0, peg2, peg1, 1)
+		Hanoi(peg1, peg2, peg0, number-1)
 	}
 }
 

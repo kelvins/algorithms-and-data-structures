@@ -37,7 +37,7 @@ package main
 
 import "fmt"
 
-var nroVertices = 5
+var vertexCount = 5
 
 type Matrix [][]int
 
@@ -83,7 +83,7 @@ func main() {
 		{maxInt, maxInt, 3, 8, 0},
 	}
 
-	Dijkstra(matrix, nroVertices)
+	Dijkstra(matrix, vertexCount)
 
 	fmt.Printf("Total shortest path from vertex 0 to 4: %v\n\n", matrix[4][0]) // Total shortest path
 
@@ -93,8 +93,8 @@ func main() {
 	fmt.Printf("-  |	|v0	|v1	|v2	|v3	|v4\n")
 	fmt.Println("_____________________________________________")
 
-	for i := 0; i < nroVertices; i++ {
-		for j := 0; j < nroVertices; j++ {
+	for i := 0; i < vertexCount; i++ {
+		for j := 0; j < vertexCount; j++ {
 
 			if j == 0 {
 				fmt.Printf("v%v |", i)
